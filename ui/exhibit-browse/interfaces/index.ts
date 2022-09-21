@@ -1,7 +1,7 @@
 export type Event = {
     id: number
     filename:string
-    label: string
+    _label?: string
     start?: Date
     end?: Date
   }

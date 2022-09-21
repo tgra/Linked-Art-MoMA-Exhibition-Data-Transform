@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
 
-export default function Home() {
+export default function Home({buildTimestamp}) {
   return (
     <div className="container">
       <Head>
@@ -49,9 +49,20 @@ export default function Home() {
         </div>
       </main>
 
-     
+     <footer>
+     App built at: {Date(Number(buildTimestamp))}
+     </footer>
 
     
     </div>
   )
+}
+
+
+export const getStaticProps = () => {
+  return {
+    props: {
+      buildTimestamp: Date.now()
+    }
+  }
 }

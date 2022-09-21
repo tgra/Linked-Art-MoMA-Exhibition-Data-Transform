@@ -53,25 +53,28 @@ def exhibition_pattern(data, globalvars):
     place.classified_as = type_pattern(300005768, globalvars)
     exhibition.took_place_at = place
 
-    set = Set(label="Persons")
-
     
 
-    # artists
+    roles = []
     for person in data["persons"]:
-       
-        display_name = person["person"]["name"]["display_name"] ;
-        person_id = person["person"]["identified_by"]["ulan"]
-        
-        person = Person(label=display_name, id=person_id)
-
-        set.about = person
-        
-        
+        person_role = person["person"]["role"]
+        if person_role not in roles:
+            roles.append(person_role)
 
     aa = AttributeAssignment()
-    aa.involved = set
+    for role in roles:
+        set = Set(label=role)
+        for person in data["persons"]:
+            person_role = person["person"]["role"]
+            if person_role == role:
+                display_name = person["person"]["name"]["display_name"] 
+                person_id = person["person"]["identified_by"]["ulan"]
+                person = Person(label=display_name, id=person_id)
+                set.about = person
+                
+                aa.involved = set
     exhibition.part = aa
+
 
     return exhibition
 

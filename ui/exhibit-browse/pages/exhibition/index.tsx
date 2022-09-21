@@ -24,7 +24,7 @@ export default function Index() {
       </Head>
 
 
-      <main>
+      <div>
         <h1 className="title">Exhibitions</h1>
 
         <p className="description">
@@ -42,7 +42,7 @@ export default function Index() {
         <div className="grid"/>
          
        
-      </main>
+      </div>
 
   
     </div>
