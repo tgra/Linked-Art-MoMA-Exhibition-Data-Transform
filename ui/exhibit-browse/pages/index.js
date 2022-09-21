@@ -22,7 +22,7 @@ export default function Home() {
 
           <a href="/exhibition" className="card">
             <h3>Exhibitions</h3>
-            <p><Link href="/exhibitions">Explore exhibitions</Link></p>
+            <p><Link href="/exhibition">Explore exhibitions</Link></p>
           </a>
           <a href="/artist" className="card">
             <h3>Artists</h3>

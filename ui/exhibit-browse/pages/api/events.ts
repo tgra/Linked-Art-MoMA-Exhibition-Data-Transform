@@ -22,7 +22,7 @@ export default function handler(_req: NextApiRequest, res: NextApiResponse) {
 
     let dir = "data/event";
     let events = [];
-    let perPage = 10;
+    let perPage = 100;
     
     let page = 1;
 
