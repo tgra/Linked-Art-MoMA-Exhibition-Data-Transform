@@ -36,9 +36,17 @@ const Exhibition = () => {
         <p>Start: {data.timespan.begin_of_the_begin}   End: {data.timespan.end_of_the_end}</p>
         <h2>Location</h2>
         <p>{data.took_place_at[0]._label}</p>
-        
+        <h3>Persons Associated with Exhibition</h3>
 
+        <ol>
+        {
+        data.part[0].involved[0].about.map((person) => (
+          <li key={person.id}>{person._label}</li>
+        ))
+      }
 
+      </ol>
+     
         </main>
         </div>
 
@@ -47,3 +55,4 @@ const Exhibition = () => {
 }
 
 export default Exhibition
+
