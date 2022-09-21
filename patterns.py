@@ -1,6 +1,7 @@
 
+import cromulent 
 from cromulent.model import factory, Group, DigitalObject
-from cromulent.vocab import Exhibition, Type, Set, LinguisticObject, Name, InformationObject, Creation, VisualItem, Identifier, Production, HumanMadeObject, Dimension, MeasurementUnit, TimeSpan, Place, Person, Language, DigitalService
+from cromulent.vocab import AttributeAssignment, Exhibition, Type, Set, LinguisticObject, Name, InformationObject, Creation, VisualItem, Identifier, Production, HumanMadeObject, Dimension, MeasurementUnit, TimeSpan, Place, Person, Language, DigitalService
 
 # ==========================
 '''
@@ -51,10 +52,22 @@ def exhibition_pattern(data, globalvars):
     place.classified_as = type_pattern(300005768, globalvars)
     exhibition.took_place_at = place
 
+    set = Set(label="Persons")
+
     # artists
+    for person in data["persons"]:
+       
+       
+        display_name = person["person"]["name"]["display_name"] ;
+        person_id = person["person"]["identified_by"]["ulan"]
+        
+        
+        person = Person(label=display_name, id=person_id)
+        set.member.append(person) 
 
-
-
+    aa = AttributeAssignment()
+    aa.involved = set
+    exhibition.part = aa
 
     return exhibition
 
