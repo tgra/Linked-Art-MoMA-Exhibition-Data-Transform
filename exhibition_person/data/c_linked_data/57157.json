@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57157",
+  "type": "Person",
+  "_label": "William Kopp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15608",
+      "type": "Name",
+      "_label": "William Kopp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15608",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31216",
+      "type": "TimeSpan",
+      "_label": "William Kopp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15608",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31217",
+      "type": "TimeSpan",
+      "_label": "William Kopp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15608",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15608",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2991",
+              "type": "Event",
+              "_label": "10 Downtown: 10 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-11-9 - 1977-2-10",
+                "begin_of_the_begin": "1977-11-9",
+                "end_of_the_end": "1977-2-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60555",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2794",
+              "type": "Event",
+              "_label": "National Studio Artists (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60556",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

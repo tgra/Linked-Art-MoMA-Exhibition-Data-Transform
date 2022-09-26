@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60707",
+  "type": "Person",
+  "_label": "Shelley Bachman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19412",
+      "type": "Name",
+      "_label": "Shelley Bachman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19412",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38824",
+      "type": "TimeSpan",
+      "_label": "Shelley Bachman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19412",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38825",
+      "type": "TimeSpan",
+      "_label": "Shelley Bachman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19412",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19412",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4091",
+              "type": "Event",
+              "_label": "Made in Philadelphia 7",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-11-12 - 1987-26-1",
+                "begin_of_the_begin": "1986-11-12",
+                "end_of_the_end": "1987-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68521",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

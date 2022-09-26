@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57835",
+  "type": "Person",
+  "_label": "Joseph Schneider",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16333",
+      "type": "Name",
+      "_label": "Joseph Schneider"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16333",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32666",
+      "type": "TimeSpan",
+      "_label": "Joseph Schneider Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16333",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32667",
+      "type": "TimeSpan",
+      "_label": "Joseph Schneider Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16333",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16333",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2805",
+              "type": "Event",
+              "_label": "6th Annual National and International Studio Program Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-17-1 - 1988-10-3",
+                "begin_of_the_begin": "1988-17-1",
+                "end_of_the_end": "1988-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62092",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2886",
+              "type": "Event",
+              "_label": "Almost Warm & Fuzzy: Childhood and Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-4-2 - 2001-8-4",
+                "begin_of_the_begin": "2001-4-2",
+                "end_of_the_end": "2001-8-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62093",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

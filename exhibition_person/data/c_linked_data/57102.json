@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57102",
+  "type": "Person",
+  "_label": "Katharine Gates",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15549",
+      "type": "Name",
+      "_label": "Katharine Gates"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15549",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31098",
+      "type": "TimeSpan",
+      "_label": "Katharine Gates Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15549",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31099",
+      "type": "TimeSpan",
+      "_label": "Katharine Gates Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15549",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15549",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3093",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1989)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-15-1 - 1989-12-3",
+                "begin_of_the_begin": "1989-15-1",
+                "end_of_the_end": "1989-12-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60432",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

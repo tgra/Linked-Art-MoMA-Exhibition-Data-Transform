@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7955",
+  "type": "Person",
+  "_label": "I. Stepanov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25871",
+      "type": "Name",
+      "_label": "I. Stepanov"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9112",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25871",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51742",
+      "type": "TimeSpan",
+      "_label": "I. Stepanov Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25871",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51743",
+      "type": "TimeSpan",
+      "_label": "I. Stepanov Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25871",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25871",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/751",
+              "type": "Event",
+              "_label": "Film Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-14-12 - 1961-23-2",
+                "begin_of_the_begin": "1960-14-12",
+                "end_of_the_end": "1961-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84371",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

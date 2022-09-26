@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/457",
+  "type": "Person",
+  "_label": "Nicholas Bentley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14004",
+      "type": "Name",
+      "_label": "Nicholas Bentley"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6700",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1907–1978"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14004",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28008",
+      "type": "TimeSpan",
+      "_label": "Nicholas Bentley Birth timespan",
+      "begin_of_the_begin": "1907",
+      "end_of_the_end": "1907"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14004",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28009",
+      "type": "TimeSpan",
+      "_label": "Nicholas Bentley Death timespan",
+      "begin_of_the_begin": "1978",
+      "end_of_the_end": "1978"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14004",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14004",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/242",
+              "type": "Event",
+              "_label": "New Posters from England",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-4-9 - 1942-18-10",
+                "begin_of_the_begin": "1942-4-9",
+                "end_of_the_end": "1942-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50335",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2496",
+              "type": "Event",
+              "_label": "Underground Gallery: London Transport Posters, 1920s–1940s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-28-7 - 2011-10-1",
+                "begin_of_the_begin": "2010-28-7",
+                "end_of_the_end": "2011-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50336",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

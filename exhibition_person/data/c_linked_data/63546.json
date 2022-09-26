@@ -1,0 +1,122 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63546",
+  "type": "Person",
+  "_label": "A.K. Burns",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20923",
+      "type": "Name",
+      "_label": "A.K. Burns"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20923",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41846",
+      "type": "TimeSpan",
+      "_label": "A.K. Burns Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20923",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41847",
+      "type": "TimeSpan",
+      "_label": "A.K. Burns Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20923",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20923",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16968",
+              "type": "Event",
+              "_label": "A.K. Burns: Shabby but Thriving",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-18-1 - 2017-23-4",
+                "begin_of_the_begin": "2017-18-1",
+                "end_of_the_end": "2017-23-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72049",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21814",
+              "type": "Event",
+              "_label": "Trigger: Gender as a Tool and a Weapon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-27-9 - 2018-21-1",
+                "begin_of_the_begin": "2017-27-9",
+                "end_of_the_end": "2018-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72050",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18181",
+              "type": "Event",
+              "_label": "An Evening with Ridykeulo…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-6-6 - ",
+                "begin_of_the_begin": "2007-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72051",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

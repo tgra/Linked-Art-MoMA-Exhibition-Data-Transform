@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58282",
+  "type": "Person",
+  "_label": "The Stand",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16814",
+      "type": "Name",
+      "_label": "The Stand"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16814",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33628",
+      "type": "TimeSpan",
+      "_label": "The Stand Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16814",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33629",
+      "type": "TimeSpan",
+      "_label": "The Stand Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16814",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16814",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2942",
+              "type": "Event",
+              "_label": "Criss Cross: Some Young New Yorkers III",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63099",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

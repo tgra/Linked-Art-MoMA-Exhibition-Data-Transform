@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60696",
+  "type": "Person",
+  "_label": "Jessie Lewis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19399",
+      "type": "Name",
+      "_label": "Jessie Lewis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19399",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38798",
+      "type": "TimeSpan",
+      "_label": "Jessie Lewis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19399",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38799",
+      "type": "TimeSpan",
+      "_label": "Jessie Lewis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19399",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19399",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4117",
+              "type": "Event",
+              "_label": "Made in Philadelphia 6",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-10-3 - 1984-25-4",
+                "begin_of_the_begin": "1984-10-3",
+                "end_of_the_end": "1984-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68492",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67381",
+  "type": "Person",
+  "_label": "Larry Austin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22729",
+      "type": "Name",
+      "_label": "Larry Austin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22729",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45458",
+      "type": "TimeSpan",
+      "_label": "Larry Austin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22729",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45459",
+      "type": "TimeSpan",
+      "_label": "Larry Austin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22729",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22729",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18443",
+              "type": "Event",
+              "_label": "New Music, New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-6 - ",
+                "begin_of_the_begin": "1979-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75605",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

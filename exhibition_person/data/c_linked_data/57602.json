@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57602",
+  "type": "Person",
+  "_label": "Joel Handorff",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16086",
+      "type": "Name",
+      "_label": "Joel Handorff"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16086",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32172",
+      "type": "TimeSpan",
+      "_label": "Joel Handorff Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16086",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32173",
+      "type": "TimeSpan",
+      "_label": "Joel Handorff Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16086",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16086",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2732",
+              "type": "Event",
+              "_label": "3 A.M.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-1 - 1985-10-3",
+                "begin_of_the_begin": "1985-13-1",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61655",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

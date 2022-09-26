@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60217",
+  "type": "Person",
+  "_label": "Ishmael Randall Weeks",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18895",
+      "type": "Name",
+      "_label": "Ishmael Randall Weeks"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18895",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37790",
+      "type": "TimeSpan",
+      "_label": "Ishmael Randall Weeks Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18895",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37791",
+      "type": "TimeSpan",
+      "_label": "Ishmael Randall Weeks Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18895",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18895",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67324",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

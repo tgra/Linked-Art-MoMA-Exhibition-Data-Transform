@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33069",
+  "type": "Person",
+  "_label": "Terry Fugate-Wilcox",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11973",
+      "type": "Name",
+      "_label": "Terry Fugate-Wilcox"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5528",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11973",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23946",
+      "type": "TimeSpan",
+      "_label": "Terry Fugate-Wilcox Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11973",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23947",
+      "type": "TimeSpan",
+      "_label": "Terry Fugate-Wilcox Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11973",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11973",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1404",
+              "type": "Event",
+              "_label": "Gold",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-11 - 1979-19-2",
+                "begin_of_the_begin": "1978-20-11",
+                "end_of_the_end": "1979-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38141",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

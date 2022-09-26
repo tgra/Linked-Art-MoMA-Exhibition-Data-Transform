@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57355",
+  "type": "Person",
+  "_label": "Susan Russel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15822",
+      "type": "Name",
+      "_label": "Susan Russel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15822",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31644",
+      "type": "TimeSpan",
+      "_label": "Susan Russel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15822",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31645",
+      "type": "TimeSpan",
+      "_label": "Susan Russel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15822",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15822",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2989",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1977–1978)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-3-12 - 1978-29-1",
+                "begin_of_the_begin": "1977-3-12",
+                "end_of_the_end": "1978-29-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60978",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69117",
+  "type": "Person",
+  "_label": "William Thomas Williams",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23499",
+      "type": "Name",
+      "_label": "William Thomas Williams"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23499",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46998",
+      "type": "TimeSpan",
+      "_label": "William Thomas Williams Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23499",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46999",
+      "type": "TimeSpan",
+      "_label": "William Thomas Williams Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23499",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23499",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6597",
+              "type": "Event",
+              "_label": "1969 Annual Exhibition: Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-16-12 - 1970-1-2",
+                "begin_of_the_begin": "1969-16-12",
+                "end_of_the_end": "1970-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77017",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6671",
+              "type": "Event",
+              "_label": "1972 Annual Exhibition: Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-24-1 - 1972-19-3",
+                "begin_of_the_begin": "1972-24-1",
+                "end_of_the_end": "1972-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77018",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

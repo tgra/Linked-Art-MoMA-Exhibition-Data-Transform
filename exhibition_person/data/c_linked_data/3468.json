@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3468",
+  "type": "Person",
+  "_label": "Caroline Lucas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12373",
+      "type": "Name",
+      "_label": "Caroline Lucas"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5746",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12373",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24746",
+      "type": "TimeSpan",
+      "_label": "Caroline Lucas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12373",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24747",
+      "type": "TimeSpan",
+      "_label": "Caroline Lucas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12373",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12373",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/526",
+              "type": "Event",
+              "_label": "Recent Acquisitions: British Color Lithographs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-12-9 - 1951-1-1",
+                "begin_of_the_begin": "1950-12-9",
+                "end_of_the_end": "1951-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40177",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

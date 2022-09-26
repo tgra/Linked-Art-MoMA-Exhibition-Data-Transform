@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60842",
+  "type": "Person",
+  "_label": "Ginger Brooks Takahashi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19555",
+      "type": "Name",
+      "_label": "Ginger Brooks Takahashi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19555",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39110",
+      "type": "TimeSpan",
+      "_label": "Ginger Brooks Takahashi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19555",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39111",
+      "type": "TimeSpan",
+      "_label": "Ginger Brooks Takahashi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19555",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19555",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4316",
+              "type": "Event",
+              "_label": "Space 1026: Scratch Off the Serial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-11-5 - 2002-14-7",
+                "begin_of_the_begin": "2002-11-5",
+                "end_of_the_end": "2002-14-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68764",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21855",
+              "type": "Event",
+              "_label": "Museum as Hub: Six Degrees",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-25-9 - 2009-11-1",
+                "begin_of_the_begin": "2008-25-9",
+                "end_of_the_end": "2009-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68765",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

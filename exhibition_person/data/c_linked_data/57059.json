@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57059",
+  "type": "Person",
+  "_label": "Clyde Connell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15502",
+      "type": "Name",
+      "_label": "Clyde Connell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15502",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31004",
+      "type": "TimeSpan",
+      "_label": "Clyde Connell Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15502",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31005",
+      "type": "TimeSpan",
+      "_label": "Clyde Connell Death timespan",
+      "begin_of_the_begin": "1998",
+      "end_of_the_end": "1998"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15502",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15502",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3667",
+              "type": "Event",
+              "_label": "Clyde Connell: Sculptures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-11-11 - 1981-13-12",
+                "begin_of_the_begin": "1981-11-11",
+                "end_of_the_end": "1981-13-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60318",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

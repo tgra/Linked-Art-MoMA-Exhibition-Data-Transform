@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67542",
+  "type": "Person",
+  "_label": "Ben Vida",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22903",
+      "type": "Name",
+      "_label": "Ben Vida"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22903",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45806",
+      "type": "TimeSpan",
+      "_label": "Ben Vida Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22903",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45807",
+      "type": "TimeSpan",
+      "_label": "Ben Vida Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22903",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22903",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18580",
+              "type": "Event",
+              "_label": "Synth Nights: Ben Vida wi…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-21-1 - ",
+                "begin_of_the_begin": "2015-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75868",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8706",
+  "type": "Person",
+  "_label": "Seguso S.R.L., Murano, Italy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26263",
+      "type": "Name",
+      "_label": "Seguso S.R.L., Murano, Italy"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9383",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, established 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26263",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52526",
+      "type": "TimeSpan",
+      "_label": "Seguso S.R.L., Murano, Italy Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26263",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52527",
+      "type": "TimeSpan",
+      "_label": "Seguso S.R.L., Murano, Italy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26263",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26263",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/422",
+              "type": "Event",
+              "_label": "100 Useful Objects of Fine Design (available under $100)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-16-9 - 1948-25-1",
+                "begin_of_the_begin": "1947-16-9",
+                "end_of_the_end": "1948-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85904",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/709",
+              "type": "Event",
+              "_label": "20th Century Design from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-17-12 - 1959-23-2",
+                "begin_of_the_begin": "1958-17-12",
+                "end_of_the_end": "1959-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85905",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

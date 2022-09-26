@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65212",
+  "type": "Person",
+  "_label": "John Cabral",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21607",
+      "type": "Name",
+      "_label": "John Cabral"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21607",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43214",
+      "type": "TimeSpan",
+      "_label": "John Cabral Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21607",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43215",
+      "type": "TimeSpan",
+      "_label": "John Cabral Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21607",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21607",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21923",
+              "type": "Event",
+              "_label": "Cin-o-matic: Memory and Cinematic Perception",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-19-10 - 2001-30-12",
+                "begin_of_the_begin": "2001-19-10",
+                "end_of_the_end": "2001-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73392",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

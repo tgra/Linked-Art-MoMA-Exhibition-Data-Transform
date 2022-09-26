@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67556",
+  "type": "Person",
+  "_label": "Brayne Bliss",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22918",
+      "type": "Name",
+      "_label": "Brayne Bliss"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22918",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45836",
+      "type": "TimeSpan",
+      "_label": "Brayne Bliss Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22918",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45837",
+      "type": "TimeSpan",
+      "_label": "Brayne Bliss Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22918",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22918",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18558",
+              "type": "Event",
+              "_label": "Soup and Tart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-30-11 - ",
+                "begin_of_the_begin": "1974-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75887",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18516",
+              "type": "Event",
+              "_label": "Return Jump",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-10-10 - ",
+                "begin_of_the_begin": "1982-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75888",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

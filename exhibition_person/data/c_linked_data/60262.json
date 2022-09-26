@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60262",
+  "type": "Person",
+  "_label": "Zackary Drucker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18943",
+      "type": "Name",
+      "_label": "Zackary Drucker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18943",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37886",
+      "type": "TimeSpan",
+      "_label": "Zackary Drucker Birth timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18943",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37887",
+      "type": "TimeSpan",
+      "_label": "Zackary Drucker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18943",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18943",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4007",
+              "type": "Event",
+              "_label": "Readykeulous by Ridykeulous: This is What Liberation Feels Like™",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-19-9 - 2014-28-12",
+                "begin_of_the_begin": "2014-19-9",
+                "end_of_the_end": "2014-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67421",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3524",
+              "type": "Event",
+              "_label": "Zackary Drucker: At Least You Know You Exist",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-7-7 - 2012-10-9",
+                "begin_of_the_begin": "2012-7-7",
+                "end_of_the_end": "2012-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67422",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

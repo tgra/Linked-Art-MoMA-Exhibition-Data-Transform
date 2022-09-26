@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58638",
+  "type": "Person",
+  "_label": "Kathy Temin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17198",
+      "type": "Name",
+      "_label": "Kathy Temin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17198",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34396",
+      "type": "TimeSpan",
+      "_label": "Kathy Temin Birth timespan",
+      "begin_of_the_begin": "1968",
+      "end_of_the_end": "1968"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17198",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34397",
+      "type": "TimeSpan",
+      "_label": "Kathy Temin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17198",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17198",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2894",
+              "type": "Event",
+              "_label": "National and International Studio Program (1997–1998)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63739",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3067",
+              "type": "Event",
+              "_label": "Wish You Luck: National and International Studio Program Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-15-3 - 1998-19-4",
+                "begin_of_the_begin": "1998-15-3",
+                "end_of_the_end": "1998-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63740",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

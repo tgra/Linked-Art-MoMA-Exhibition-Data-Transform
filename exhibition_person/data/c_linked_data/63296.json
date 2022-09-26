@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63296",
+  "type": "Person",
+  "_label": "Robert Feke",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20685",
+      "type": "Name",
+      "_label": "Robert Feke"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8100",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1705-1750"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20685",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41370",
+      "type": "TimeSpan",
+      "_label": "Robert Feke Birth timespan",
+      "begin_of_the_begin": "1705",
+      "end_of_the_end": "1705"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20685",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41371",
+      "type": "TimeSpan",
+      "_label": "Robert Feke Death timespan",
+      "begin_of_the_begin": "1750",
+      "end_of_the_end": "1750"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20685",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20685",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6377",
+              "type": "Event",
+              "_label": "Robert Feke",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-8-10 - 1946-30-10",
+                "begin_of_the_begin": "1946-8-10",
+                "end_of_the_end": "1946-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71533",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

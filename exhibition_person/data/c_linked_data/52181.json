@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/52181",
+  "type": "Person",
+  "_label": "Elizabeth Levine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14662",
+      "type": "Name",
+      "_label": "Elizabeth Levine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14662",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29324",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Levine Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14662",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29325",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Levine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14662",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14662",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2149",
+              "type": "Event",
+              "_label": "Modern Starts: Places",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-28-10 - 2000-14-3",
+                "begin_of_the_begin": "1999-28-10",
+                "end_of_the_end": "2000-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55741",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

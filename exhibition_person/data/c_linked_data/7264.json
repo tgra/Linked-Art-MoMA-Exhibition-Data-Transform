@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7264",
+  "type": "Person",
+  "_label": "Roger Ballen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25226",
+      "type": "Name",
+      "_label": "Roger Ballen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8652",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "South African, born America 1950"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25226",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50452",
+      "type": "TimeSpan",
+      "_label": "Roger Ballen Birth timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25226",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50453",
+      "type": "TimeSpan",
+      "_label": "Roger Ballen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25226",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25226",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17055",
+              "type": "Event",
+              "_label": "After Nature",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-17-7 - 2008-5-10",
+                "begin_of_the_begin": "2008-17-7",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81374",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

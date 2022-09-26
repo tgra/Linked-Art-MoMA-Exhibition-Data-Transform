@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35344",
+  "type": "Person",
+  "_label": "Lena Braun",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12514",
+      "type": "Name",
+      "_label": "Lena Braun"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5866",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1961"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12514",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25028",
+      "type": "TimeSpan",
+      "_label": "Lena Braun Birth timespan",
+      "begin_of_the_begin": "1961",
+      "end_of_the_end": "1961"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12514",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25029",
+      "type": "TimeSpan",
+      "_label": "Lena Braun Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12514",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12514",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2708",
+              "type": "Event",
+              "_label": "Boudoir in Exile",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-28-4 - 1994-14-5",
+                "begin_of_the_begin": "1994-28-4",
+                "end_of_the_end": "1994-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40639",
+                  "type": "Place",
+                  "_label": "54 White St., Tribeca",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

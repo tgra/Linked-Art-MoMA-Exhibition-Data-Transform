@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30016",
+  "type": "Person",
+  "_label": "Minnie Negoro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8694",
+      "type": "Name",
+      "_label": "Minnie Negoro"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8694",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17388",
+      "type": "TimeSpan",
+      "_label": "Minnie Negoro Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8694",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17389",
+      "type": "TimeSpan",
+      "_label": "Minnie Negoro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8694",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8694",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/532",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-11 - 1951-28-1",
+                "begin_of_the_begin": "1950-21-11",
+                "end_of_the_end": "1951-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31498",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/563",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-11 - 1952-27-1",
+                "begin_of_the_begin": "1951-27-11",
+                "end_of_the_end": "1952-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31499",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

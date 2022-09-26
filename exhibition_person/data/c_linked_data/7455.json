@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7455",
+  "type": "Person",
+  "_label": "Peter Klasen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25515",
+      "type": "Name",
+      "_label": "Peter Klasen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8761",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25515",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51030",
+      "type": "TimeSpan",
+      "_label": "Peter Klasen Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25515",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51031",
+      "type": "TimeSpan",
+      "_label": "Peter Klasen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25515",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25515",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2136",
+              "type": "Event",
+              "_label": "Pop Impressions Europe/USA: Prints and Multiples from the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-18-2 - 1999-18-5",
+                "begin_of_the_begin": "1999-18-2",
+                "end_of_the_end": "1999-18-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82712",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

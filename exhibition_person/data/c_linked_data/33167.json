@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33167",
+  "type": "Person",
+  "_label": "Don English",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12078",
+      "type": "Name",
+      "_label": "Don English"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12078",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24156",
+      "type": "TimeSpan",
+      "_label": "Don English Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12078",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24157",
+      "type": "TimeSpan",
+      "_label": "Don English Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12078",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12078",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1476",
+              "type": "Event",
+              "_label": "Hollywood Portrait Photographers, 1921–1941",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-5-12 - 1981-28-2",
+                "begin_of_the_begin": "1980-5-12",
+                "end_of_the_end": "1981-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38437",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30991",
+  "type": "Person",
+  "_label": "Elena Eleska",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9743",
+      "type": "Name",
+      "_label": "Elena Eleska"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9743",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19486",
+      "type": "TimeSpan",
+      "_label": "Elena Eleska Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9743",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19487",
+      "type": "TimeSpan",
+      "_label": "Elena Eleska Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9743",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9743",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/381",
+              "type": "Event",
+              "_label": "Original Illustrations of Children's Books",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-16-4 - 1946-2-6",
+                "begin_of_the_begin": "1946-16-4",
+                "end_of_the_end": "1946-2-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33719",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/428",
+              "type": "Event",
+              "_label": "Children's Holiday Fair of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-2-12 - 1948-4-1",
+                "begin_of_the_begin": "1947-2-12",
+                "end_of_the_end": "1948-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33720",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

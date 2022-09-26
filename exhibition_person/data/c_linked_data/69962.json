@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69962",
+  "type": "Person",
+  "_label": "Alan D. Lynch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24035",
+      "type": "Name",
+      "_label": "Alan D. Lynch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24035",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48070",
+      "type": "TimeSpan",
+      "_label": "Alan D. Lynch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24035",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48071",
+      "type": "TimeSpan",
+      "_label": "Alan D. Lynch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24035",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24035",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6597",
+              "type": "Event",
+              "_label": "1969 Annual Exhibition: Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-16-12 - 1970-1-2",
+                "begin_of_the_begin": "1969-16-12",
+                "end_of_the_end": "1970-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78463",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

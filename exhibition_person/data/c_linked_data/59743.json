@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59743",
+  "type": "Person",
+  "_label": "Dena Crane",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18386",
+      "type": "Name",
+      "_label": "Dena Crane"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18386",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36772",
+      "type": "TimeSpan",
+      "_label": "Dena Crane Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18386",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36773",
+      "type": "TimeSpan",
+      "_label": "Dena Crane Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18386",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18386",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3346",
+              "type": "Event",
+              "_label": "Video (Winter 1979): Anthology Film Archives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-31-3",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66235",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60957",
+  "type": "Person",
+  "_label": "Andy Beach",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19680",
+      "type": "Name",
+      "_label": "Andy Beach"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19680",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39360",
+      "type": "TimeSpan",
+      "_label": "Andy Beach Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19680",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39361",
+      "type": "TimeSpan",
+      "_label": "Andy Beach Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19680",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19680",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4030",
+              "type": "Event",
+              "_label": "Excursus I: Reference Library—Up on My Back, and I Will Take You Thither",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-13-9 - 2011-10-12",
+                "begin_of_the_begin": "2011-13-9",
+                "end_of_the_end": "2011-10-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68946",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

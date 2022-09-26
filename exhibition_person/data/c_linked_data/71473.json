@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71473",
+  "type": "Person",
+  "_label": "Dawn Fryling",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24889",
+      "type": "Name",
+      "_label": "Dawn Fryling"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24889",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49778",
+      "type": "TimeSpan",
+      "_label": "Dawn Fryling Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24889",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49779",
+      "type": "TimeSpan",
+      "_label": "Dawn Fryling Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24889",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24889",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6978",
+              "type": "Event",
+              "_label": "1991 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-4 - 1991-30-6",
+                "begin_of_the_begin": "1991-19-4",
+                "end_of_the_end": "1991-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80546",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Galleries, 2nd Floor Film/Video Gallery, 4th Floor Galleries, 3rd Floor Galleries, Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9233",
+  "type": "Person",
+  "_label": "Metal Tex, Inc.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26545",
+      "type": "Name",
+      "_label": "Metal Tex, Inc."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26545",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53090",
+      "type": "TimeSpan",
+      "_label": "Metal Tex, Inc. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26545",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53091",
+      "type": "TimeSpan",
+      "_label": "Metal Tex, Inc. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26545",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26545",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/163",
+              "type": "Event",
+              "_label": "Useful Objects of American Design under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-26-11 - 1940-24-12",
+                "begin_of_the_begin": "1940-26-11",
+                "end_of_the_end": "1940-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87142",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/208",
+              "type": "Event",
+              "_label": "Useful Objects Under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-2-12 - 1942-4-1",
+                "begin_of_the_begin": "1941-2-12",
+                "end_of_the_end": "1942-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87143",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

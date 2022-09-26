@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32023",
+  "type": "Person",
+  "_label": "E. H. Bone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10854",
+      "type": "Name",
+      "_label": "E. H. Bone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10854",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21708",
+      "type": "TimeSpan",
+      "_label": "E. H. Bone Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10854",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21709",
+      "type": "TimeSpan",
+      "_label": "E. H. Bone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10854",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10854",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/962",
+              "type": "Event",
+              "_label": "Photographs Before Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-3-4 - 1968-28-7",
+                "begin_of_the_begin": "1968-3-4",
+                "end_of_the_end": "1968-28-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35794",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

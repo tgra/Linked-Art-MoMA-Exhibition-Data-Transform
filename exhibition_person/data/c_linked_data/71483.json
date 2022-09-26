@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71483",
+  "type": "Person",
+  "_label": "Las Nietas de Nonó",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24900",
+      "type": "Name",
+      "_label": "Las Nietas de Nonó"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24900",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49800",
+      "type": "TimeSpan",
+      "_label": "Las Nietas de Nonó Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24900",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49801",
+      "type": "TimeSpan",
+      "_label": "Las Nietas de Nonó Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24900",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24900",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28418",
+              "type": "Event",
+              "_label": "Whitney Biennial 2019",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2019-17-5 - 2019-22-9",
+                "begin_of_the_begin": "2019-17-5",
+                "end_of_the_end": "2019-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80566",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

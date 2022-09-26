@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35407",
+  "type": "Person",
+  "_label": "Neil Beloufa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12528",
+      "type": "Name",
+      "_label": "Neil Beloufa"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5879",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Algerian-French, born 1985"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12528",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25056",
+      "type": "TimeSpan",
+      "_label": "Neil Beloufa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12528",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25057",
+      "type": "TimeSpan",
+      "_label": "Neil Beloufa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12528",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12528",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21840",
+              "type": "Event",
+              "_label": "Neil Beloufa: Kempinski",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-12-5 - 2011-15-7",
+                "begin_of_the_begin": "2011-12-5",
+                "end_of_the_end": "2011-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40730",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

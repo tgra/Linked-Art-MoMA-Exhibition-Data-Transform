@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57933",
+  "type": "Person",
+  "_label": "Peter Hopkins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16440",
+      "type": "Name",
+      "_label": "Peter Hopkins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16440",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32880",
+      "type": "TimeSpan",
+      "_label": "Peter Hopkins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16440",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32881",
+      "type": "TimeSpan",
+      "_label": "Peter Hopkins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16440",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16440",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3124",
+              "type": "Event",
+              "_label": "Slow Art: Painting in New York Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-26-4 - 1992-21-6",
+                "begin_of_the_begin": "1992-26-4",
+                "end_of_the_end": "1992-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62326",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21985",
+              "type": "Event",
+              "_label": "Skin Deep",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62327",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6419",
+              "type": "Event",
+              "_label": "1952 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-6-11 - 1953-4-1",
+                "begin_of_the_begin": "1952-6-11",
+                "end_of_the_end": "1953-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62328",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

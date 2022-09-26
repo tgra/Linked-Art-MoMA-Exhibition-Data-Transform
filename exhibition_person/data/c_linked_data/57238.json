@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57238",
+  "type": "Person",
+  "_label": "Angels Ribe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15696",
+      "type": "Name",
+      "_label": "Angels Ribe"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15696",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31392",
+      "type": "TimeSpan",
+      "_label": "Angels Ribe Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15696",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31393",
+      "type": "TimeSpan",
+      "_label": "Angels Ribe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15696",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15696",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3831",
+              "type": "Event",
+              "_label": "Ideas at the Idea Warehouse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-16-6 - 1975-11-7",
+                "begin_of_the_begin": "1975-16-6",
+                "end_of_the_end": "1975-11-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60756",
+                  "type": "Place",
+                  "_label": "The Idea Warehouse",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4732",
+              "type": "Event",
+              "_label": "Larry Miller, Angels Ribe and Francesc Torres",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-17-1 - 1976-29-1",
+                "begin_of_the_begin": "1976-17-1",
+                "end_of_the_end": "1976-29-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60757",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

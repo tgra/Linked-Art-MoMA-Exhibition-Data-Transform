@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57551",
+  "type": "Person",
+  "_label": "Paula Longendyke",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16031",
+      "type": "Name",
+      "_label": "Paula Longendyke"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16031",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32062",
+      "type": "TimeSpan",
+      "_label": "Paula Longendyke Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16031",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32063",
+      "type": "TimeSpan",
+      "_label": "Paula Longendyke Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16031",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16031",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3756",
+              "type": "Event",
+              "_label": "Film as Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-23-4 - 1980-17-5",
+                "begin_of_the_begin": "1980-23-4",
+                "end_of_the_end": "1980-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61449",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64078",
+  "type": "Person",
+  "_label": "Carlton Newton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21128",
+      "type": "Name",
+      "_label": "Carlton Newton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21128",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42256",
+      "type": "TimeSpan",
+      "_label": "Carlton Newton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21128",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42257",
+      "type": "TimeSpan",
+      "_label": "Carlton Newton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21128",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21128",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17286",
+              "type": "Event",
+              "_label": "Dimensions Variable",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-29-9 - 1979-29-11",
+                "begin_of_the_begin": "1979-29-9",
+                "end_of_the_end": "1979-29-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72476",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

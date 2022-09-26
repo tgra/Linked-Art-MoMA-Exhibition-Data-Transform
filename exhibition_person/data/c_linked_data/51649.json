@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51649",
+  "type": "Person",
+  "_label": "Andrew Bujalski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14571",
+      "type": "Name",
+      "_label": "Andrew Bujalski"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7174",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1977"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14571",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29142",
+      "type": "TimeSpan",
+      "_label": "Andrew Bujalski Birth timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14571",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29143",
+      "type": "TimeSpan",
+      "_label": "Andrew Bujalski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14571",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14571",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28416",
+              "type": "Event",
+              "_label": "Whitney Biennial 2014",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-7-3 - 2014-25-3",
+                "begin_of_the_begin": "2014-7-3",
+                "end_of_the_end": "2014-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55060",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

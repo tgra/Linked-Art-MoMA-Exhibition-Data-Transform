@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67536",
+  "type": "Person",
+  "_label": "Arturas Raila",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22896",
+      "type": "Name",
+      "_label": "Arturas Raila"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22896",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45792",
+      "type": "TimeSpan",
+      "_label": "Arturas Raila Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22896",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45793",
+      "type": "TimeSpan",
+      "_label": "Arturas Raila Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22896",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22896",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18444",
+              "type": "Event",
+              "_label": "New Video, New Europe",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-30-6 - ",
+                "begin_of_the_begin": "2006-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75859",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

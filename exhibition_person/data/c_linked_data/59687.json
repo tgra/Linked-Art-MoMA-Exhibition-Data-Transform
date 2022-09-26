@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59687",
+  "type": "Person",
+  "_label": "Andrea Kovacs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18325",
+      "type": "Name",
+      "_label": "Andrea Kovacs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18325",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36650",
+      "type": "TimeSpan",
+      "_label": "Andrea Kovacs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18325",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36651",
+      "type": "TimeSpan",
+      "_label": "Andrea Kovacs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18325",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18325",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3157",
+              "type": "Event",
+              "_label": "The Altered Photograph",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - 1979-10-6",
+                "begin_of_the_begin": "1979-22-4",
+                "end_of_the_end": "1979-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66103",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/22030",
+              "type": "Event",
+              "_label": "Deconstruction / Reconstruction: The Transformation of Photographic Information into Metaphor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-12-7 - 1980-18-9",
+                "begin_of_the_begin": "1980-12-7",
+                "end_of_the_end": "1980-18-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66104",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

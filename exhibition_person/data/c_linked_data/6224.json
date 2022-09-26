@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6224",
+  "type": "Person",
+  "_label": "Alfred Young",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20268",
+      "type": "Name",
+      "_label": "Alfred Young"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8017",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20268",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40536",
+      "type": "TimeSpan",
+      "_label": "Alfred Young Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20268",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40537",
+      "type": "TimeSpan",
+      "_label": "Alfred Young Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20268",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20268",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6559",
+              "type": "Event",
+              "_label": "1967 Annual Exhibition of Contemporary Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-13-12 - 1967-4-2",
+                "begin_of_the_begin": "1967-13-12",
+                "end_of_the_end": "1967-4-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70289",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

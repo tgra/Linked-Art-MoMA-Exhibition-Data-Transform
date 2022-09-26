@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62502",
+  "type": "Person",
+  "_label": "Holly Morse",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20378",
+      "type": "Name",
+      "_label": "Holly Morse"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20378",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40756",
+      "type": "TimeSpan",
+      "_label": "Holly Morse Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20378",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40757",
+      "type": "TimeSpan",
+      "_label": "Holly Morse Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20378",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20378",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5046",
+              "type": "Event",
+              "_label": "White Room: Holly Morse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-8-11 - 1991-8-12",
+                "begin_of_the_begin": "1991-8-11",
+                "end_of_the_end": "1991-8-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70556",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4958",
+              "type": "Event",
+              "_label": "Update 1992",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-11-9 - 1992-4-10",
+                "begin_of_the_begin": "1992-11-9",
+                "end_of_the_end": "1992-4-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70557",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

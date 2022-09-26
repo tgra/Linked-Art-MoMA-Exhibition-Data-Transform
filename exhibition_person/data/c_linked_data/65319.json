@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65319",
+  "type": "Person",
+  "_label": "Jubilee Arts",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21657",
+      "type": "Name",
+      "_label": "Jubilee Arts"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21657",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43314",
+      "type": "TimeSpan",
+      "_label": "Jubilee Arts Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21657",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43315",
+      "type": "TimeSpan",
+      "_label": "Jubilee Arts Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21657",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21657",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17129",
+              "type": "Event",
+              "_label": "Day Without Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-1-12 - ",
+                "begin_of_the_begin": "1992-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73468",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17105",
+              "type": "Event",
+              "_label": "alt.youth.media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-9 - 1996-5-11",
+                "begin_of_the_begin": "1996-6-9",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73469",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

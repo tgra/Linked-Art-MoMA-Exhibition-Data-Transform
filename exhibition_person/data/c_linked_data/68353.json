@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68353",
+  "type": "Person",
+  "_label": "Tuesday Smillie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23194",
+      "type": "Name",
+      "_label": "Tuesday Smillie"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23194",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46388",
+      "type": "TimeSpan",
+      "_label": "Tuesday Smillie Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23194",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46389",
+      "type": "TimeSpan",
+      "_label": "Tuesday Smillie Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23194",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23194",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21814",
+              "type": "Event",
+              "_label": "Trigger: Gender as a Tool and a Weapon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-27-9 - 2018-21-1",
+                "begin_of_the_begin": "2017-27-9",
+                "end_of_the_end": "2018-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76448",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

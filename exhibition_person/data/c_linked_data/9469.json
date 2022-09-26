@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9469",
+  "type": "Person",
+  "_label": "Red Lion Table Co.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26635",
+      "type": "Name",
+      "_label": "Red Lion Table Co."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26635",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53270",
+      "type": "TimeSpan",
+      "_label": "Red Lion Table Co. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26635",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53271",
+      "type": "TimeSpan",
+      "_label": "Red Lion Table Co. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26635",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26635",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/340",
+              "type": "Event",
+              "_label": "Integrated Building: Kitchen, Bathroom, and Storage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-21-2 - 1945-13-5",
+                "begin_of_the_begin": "1945-21-2",
+                "end_of_the_end": "1945-13-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87399",
+                  "type": "Place",
+                  "_label": "1st Floor, Architecture and Industrial Design Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

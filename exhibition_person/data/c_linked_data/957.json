@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/957",
+  "type": "Person",
+  "_label": "Patricia Jon Carroll",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26670",
+      "type": "Name",
+      "_label": "Patricia Jon Carroll"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9524",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26670",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53340",
+      "type": "TimeSpan",
+      "_label": "Patricia Jon Carroll Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26670",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53341",
+      "type": "TimeSpan",
+      "_label": "Patricia Jon Carroll Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26670",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26670",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1574",
+              "type": "Event",
+              "_label": "Color Photographs: Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-18-8 - 1984-6-11",
+                "begin_of_the_begin": "1984-18-8",
+                "end_of_the_end": "1984-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87606",
+                  "type": "Place",
+                  "_label": "Steichen Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

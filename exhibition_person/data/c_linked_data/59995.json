@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59995",
+  "type": "Person",
+  "_label": "Beat Huber",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18657",
+      "type": "Name",
+      "_label": "Beat Huber"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18657",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37314",
+      "type": "TimeSpan",
+      "_label": "Beat Huber Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18657",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37315",
+      "type": "TimeSpan",
+      "_label": "Beat Huber Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18657",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18657",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3235",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1999)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66851",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

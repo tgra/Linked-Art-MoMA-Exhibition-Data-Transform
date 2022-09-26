@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5315",
+  "type": "Person",
+  "_label": "Jørgen Haugen Sørensen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14763",
+      "type": "Name",
+      "_label": "Jørgen Haugen Sørensen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7313",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Danish, born 1934"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14763",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29526",
+      "type": "TimeSpan",
+      "_label": "Jørgen Haugen Sørensen Birth timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14763",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29527",
+      "type": "TimeSpan",
+      "_label": "Jørgen Haugen Sørensen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14763",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14763",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/799",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-20-11 - 1963-13-1",
+                "begin_of_the_begin": "1962-20-11",
+                "end_of_the_end": "1963-13-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/56562",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

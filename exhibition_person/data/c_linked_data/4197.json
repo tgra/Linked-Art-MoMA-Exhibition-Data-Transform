@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4197",
+  "type": "Person",
+  "_label": "Alejandro Obregón",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13669",
+      "type": "Name",
+      "_label": "Alejandro Obregón"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6404",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Colombian, 1920–1992"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13669",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27338",
+      "type": "TimeSpan",
+      "_label": "Alejandro Obregón Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13669",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27339",
+      "type": "TimeSpan",
+      "_label": "Alejandro Obregón Death timespan",
+      "begin_of_the_begin": "1992",
+      "end_of_the_end": "1992"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13669",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13669",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/659",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-30-11 - 1956-22-2",
+                "begin_of_the_begin": "1955-30-11",
+                "end_of_the_end": "1956-22-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47204",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

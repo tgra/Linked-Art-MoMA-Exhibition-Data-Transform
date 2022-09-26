@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60621",
+  "type": "Person",
+  "_label": "Vita Petersen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19324",
+      "type": "Name",
+      "_label": "Vita Petersen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19324",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38648",
+      "type": "TimeSpan",
+      "_label": "Vita Petersen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19324",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38649",
+      "type": "TimeSpan",
+      "_label": "Vita Petersen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19324",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19324",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4423",
+              "type": "Event",
+              "_label": "Paintings by Beauchamp, Berger, Cajori, Frelinghuysen, Goldberg, Jackson, Klavun, Petersen, Schapiro, Rivers, Stillman, Tworkov, Vicente",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-17-4 - 1953-6-5",
+                "begin_of_the_begin": "1953-17-4",
+                "end_of_the_end": "1953-6-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68372",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

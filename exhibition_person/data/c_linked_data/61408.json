@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61408",
+  "type": "Person",
+  "_label": "Andrew Chan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19959",
+      "type": "Name",
+      "_label": "Andrew Chan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19959",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39918",
+      "type": "TimeSpan",
+      "_label": "Andrew Chan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19959",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39919",
+      "type": "TimeSpan",
+      "_label": "Andrew Chan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19959",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19959",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5421",
+              "type": "Event",
+              "_label": "White Room: Andrew Chan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-1-2 - 2002-10-3",
+                "begin_of_the_begin": "2002-1-2",
+                "end_of_the_end": "2002-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69576",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

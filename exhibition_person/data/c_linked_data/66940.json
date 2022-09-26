@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66940",
+  "type": "Person",
+  "_label": "The X-Art Foundation and Candida Hofer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22429",
+      "type": "Name",
+      "_label": "The X-Art Foundation and Candida Hofer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22429",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44858",
+      "type": "TimeSpan",
+      "_label": "The X-Art Foundation and Candida Hofer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22429",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44859",
+      "type": "TimeSpan",
+      "_label": "The X-Art Foundation and Candida Hofer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22429",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22429",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75025",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

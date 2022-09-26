@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58363",
+  "type": "Person",
+  "_label": "Tay Soon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16902",
+      "type": "Name",
+      "_label": "Tay Soon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16902",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33804",
+      "type": "TimeSpan",
+      "_label": "Tay Soon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16902",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33805",
+      "type": "TimeSpan",
+      "_label": "Tay Soon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16902",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16902",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2895",
+              "type": "Event",
+              "_label": "Cities on the Move 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63262",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

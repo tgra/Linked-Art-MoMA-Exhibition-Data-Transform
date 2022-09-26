@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58908",
+  "type": "Person",
+  "_label": "Paul Henri Ramirez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17490",
+      "type": "Name",
+      "_label": "Paul Henri Ramirez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17490",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34980",
+      "type": "TimeSpan",
+      "_label": "Paul Henri Ramirez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17490",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34981",
+      "type": "TimeSpan",
+      "_label": "Paul Henri Ramirez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17490",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17490",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3632",
+              "type": "Event",
+              "_label": "Short-Term Residencies at the Clocktower Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-2-10 - 1995-24-12",
+                "begin_of_the_begin": "1995-2-10",
+                "end_of_the_end": "1995-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64321",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/5157",
+              "type": "Event",
+              "_label": "White Room: Paul Ramirez, Whirligig",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-20-3 - 1992-18-4",
+                "begin_of_the_begin": "1992-20-3",
+                "end_of_the_end": "1992-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64322",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

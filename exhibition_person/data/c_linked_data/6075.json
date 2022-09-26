@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6075",
+  "type": "Person",
+  "_label": "David Wilcox",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19455",
+      "type": "Name",
+      "_label": "David Wilcox"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7904",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19455",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38910",
+      "type": "TimeSpan",
+      "_label": "David Wilcox Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19455",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38911",
+      "type": "TimeSpan",
+      "_label": "David Wilcox Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19455",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19455",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1273",
+              "type": "Event",
+              "_label": "Posters from the Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-26-3 - 1976-19-5",
+                "begin_of_the_begin": "1976-26-3",
+                "end_of_the_end": "1976-19-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68575",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31081",
+  "type": "Person",
+  "_label": "Ralph Earl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9840",
+      "type": "Name",
+      "_label": "Ralph Earl"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9840",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19680",
+      "type": "TimeSpan",
+      "_label": "Ralph Earl Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9840",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19681",
+      "type": "TimeSpan",
+      "_label": "Ralph Earl Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9840",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9840",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/82",
+              "type": "Event",
+              "_label": "American Art Portfolio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-9 - 1936-12-10",
+                "begin_of_the_begin": "1936-14-9",
+                "end_of_the_end": "1936-12-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33898",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6370",
+              "type": "Event",
+              "_label": "Ralph Earl: 1751-1801",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-16-10 - 1945-21-11",
+                "begin_of_the_begin": "1945-16-10",
+                "end_of_the_end": "1945-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33899",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

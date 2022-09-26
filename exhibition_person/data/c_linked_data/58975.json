@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58975",
+  "type": "Person",
+  "_label": "Erik Steinbrecher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17561",
+      "type": "Name",
+      "_label": "Erik Steinbrecher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17561",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35122",
+      "type": "TimeSpan",
+      "_label": "Erik Steinbrecher Birth timespan",
+      "begin_of_the_begin": "1963",
+      "end_of_the_end": "1963"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17561",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35123",
+      "type": "TimeSpan",
+      "_label": "Erik Steinbrecher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17561",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17561",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2884",
+              "type": "Event",
+              "_label": "Erik Steinbrecher: Couch Park",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-4-2 - 2001-8-4",
+                "begin_of_the_begin": "2001-4-2",
+                "end_of_the_end": "2001-8-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64455",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

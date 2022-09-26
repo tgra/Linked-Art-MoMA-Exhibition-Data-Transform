@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31765",
+  "type": "Person",
+  "_label": "Richard Wagner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10580",
+      "type": "Name",
+      "_label": "Richard Wagner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10580",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21160",
+      "type": "TimeSpan",
+      "_label": "Richard Wagner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10580",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21161",
+      "type": "TimeSpan",
+      "_label": "Richard Wagner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10580",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10580",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/670",
+              "type": "Event",
+              "_label": "Recent Drawings U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-25-4 - 1956-5-8",
+                "begin_of_the_begin": "1956-25-4",
+                "end_of_the_end": "1956-5-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35300",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

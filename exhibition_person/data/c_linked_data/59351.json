@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59351",
+  "type": "Person",
+  "_label": "Hanako Kunishi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17966",
+      "type": "Name",
+      "_label": "Hanako Kunishi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17966",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35932",
+      "type": "TimeSpan",
+      "_label": "Hanako Kunishi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17966",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35933",
+      "type": "TimeSpan",
+      "_label": "Hanako Kunishi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17966",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17966",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3471",
+              "type": "Event",
+              "_label": "Buzz Club: News from Japan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-7 - 2001-30-9",
+                "begin_of_the_begin": "2001-1-7",
+                "end_of_the_end": "2001-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65304",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

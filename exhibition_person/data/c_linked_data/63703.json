@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63703",
+  "type": "Person",
+  "_label": "Amiri Baraka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20987",
+      "type": "Name",
+      "_label": "Amiri Baraka"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20987",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41974",
+      "type": "TimeSpan",
+      "_label": "Amiri Baraka Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20987",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41975",
+      "type": "TimeSpan",
+      "_label": "Amiri Baraka Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20987",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20987",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18596",
+              "type": "Event",
+              "_label": "The Dim' Crackr Party Con…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-16-10 - ",
+                "begin_of_the_begin": "1981-16-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72253",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

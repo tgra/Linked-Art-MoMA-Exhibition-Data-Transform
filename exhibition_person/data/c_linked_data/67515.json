@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67515",
+  "type": "Person",
+  "_label": "Anika Tromholt Kristensen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22873",
+      "type": "Name",
+      "_label": "Anika Tromholt Kristensen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22873",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45746",
+      "type": "TimeSpan",
+      "_label": "Anika Tromholt Kristensen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22873",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45747",
+      "type": "TimeSpan",
+      "_label": "Anika Tromholt Kristensen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22873",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22873",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18658",
+              "type": "Event",
+              "_label": "Wind (the Eternal Return …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-21-3 - ",
+                "begin_of_the_begin": "2001-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75813",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

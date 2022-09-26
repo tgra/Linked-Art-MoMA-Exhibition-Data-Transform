@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29755",
+  "type": "Person",
+  "_label": "Klein's Gift Shop",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8410",
+      "type": "Name",
+      "_label": "Klein's Gift Shop"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8410",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16820",
+      "type": "TimeSpan",
+      "_label": "Klein's Gift Shop Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8410",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16821",
+      "type": "TimeSpan",
+      "_label": "Klein's Gift Shop Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8410",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8410",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/364",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-21-11 - 1946-6-1",
+                "begin_of_the_begin": "1945-21-11",
+                "end_of_the_end": "1946-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30854",
+                  "type": "Place",
+                  "_label": "1st Floor, Architecture and Industrial Design Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58693",
+  "type": "Person",
+  "_label": "Judith Vivell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17259",
+      "type": "Name",
+      "_label": "Judith Vivell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17259",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34518",
+      "type": "TimeSpan",
+      "_label": "Judith Vivell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17259",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34519",
+      "type": "TimeSpan",
+      "_label": "Judith Vivell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17259",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17259",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3157",
+              "type": "Event",
+              "_label": "The Altered Photograph",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - 1979-10-6",
+                "begin_of_the_begin": "1979-22-4",
+                "end_of_the_end": "1979-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63853",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

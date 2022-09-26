@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67711",
+  "type": "Person",
+  "_label": "Zeitgeist",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23074",
+      "type": "Name",
+      "_label": "Zeitgeist"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23074",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46148",
+      "type": "TimeSpan",
+      "_label": "Zeitgeist Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23074",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46149",
+      "type": "TimeSpan",
+      "_label": "Zeitgeist Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23074",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23074",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18571",
+              "type": "Event",
+              "_label": "Strange Mutations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-16-1 - ",
+                "begin_of_the_begin": "1986-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76101",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

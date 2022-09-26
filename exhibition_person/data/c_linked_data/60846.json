@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60846",
+  "type": "Person",
+  "_label": "Jabez Burns",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19559",
+      "type": "Name",
+      "_label": "Jabez Burns"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19559",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39118",
+      "type": "TimeSpan",
+      "_label": "Jabez Burns Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19559",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39119",
+      "type": "TimeSpan",
+      "_label": "Jabez Burns Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19559",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19559",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4313",
+              "type": "Event",
+              "_label": "Pictures, Patents, Monkeys, and More: On Collecting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-15-9 - 2002-10-11",
+                "begin_of_the_begin": "2002-15-9",
+                "end_of_the_end": "2002-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68769",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

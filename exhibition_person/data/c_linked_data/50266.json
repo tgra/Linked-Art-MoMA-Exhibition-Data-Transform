@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/50266",
+  "type": "Person",
+  "_label": "Heinz Nösselt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14394",
+      "type": "Name",
+      "_label": "Heinz Nösselt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14394",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28788",
+      "type": "TimeSpan",
+      "_label": "Heinz Nösselt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14394",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28789",
+      "type": "TimeSpan",
+      "_label": "Heinz Nösselt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14394",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14394",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/125",
+              "type": "Event",
+              "_label": "Bauhaus: 1919–1928",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-7-12 - 1939-30-1",
+                "begin_of_the_begin": "1938-7-12",
+                "end_of_the_end": "1939-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53863",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

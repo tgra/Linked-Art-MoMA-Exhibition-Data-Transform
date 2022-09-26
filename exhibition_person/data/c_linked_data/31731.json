@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31731",
+  "type": "Person",
+  "_label": "Billy Morrow Jackson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10543",
+      "type": "Name",
+      "_label": "Billy Morrow Jackson"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5290",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1926"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10543",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21086",
+      "type": "TimeSpan",
+      "_label": "Billy Morrow Jackson Birth timespan",
+      "begin_of_the_begin": "1926",
+      "end_of_the_end": "1926"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10543",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21087",
+      "type": "TimeSpan",
+      "_label": "Billy Morrow Jackson Death timespan",
+      "begin_of_the_begin": "2006",
+      "end_of_the_end": "2006"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10543",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10543",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/670",
+              "type": "Event",
+              "_label": "Recent Drawings U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-25-4 - 1956-5-8",
+                "begin_of_the_begin": "1956-25-4",
+                "end_of_the_end": "1956-5-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35178",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

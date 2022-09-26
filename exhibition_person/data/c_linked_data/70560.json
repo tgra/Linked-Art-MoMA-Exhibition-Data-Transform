@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70560",
+  "type": "Person",
+  "_label": "Luther Price",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24349",
+      "type": "Name",
+      "_label": "Luther Price"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24349",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48698",
+      "type": "TimeSpan",
+      "_label": "Luther Price Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24349",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48699",
+      "type": "TimeSpan",
+      "_label": "Luther Price Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24349",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24349",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28415",
+              "type": "Event",
+              "_label": "Whitney Biennial 2012",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-1-3 - 2012-27-3",
+                "begin_of_the_begin": "2012-1-3",
+                "end_of_the_end": "2012-27-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78904",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

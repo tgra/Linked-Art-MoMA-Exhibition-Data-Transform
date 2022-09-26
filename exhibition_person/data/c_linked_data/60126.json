@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60126",
+  "type": "Person",
+  "_label": "Anders Goldfarb",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18798",
+      "type": "Name",
+      "_label": "Anders Goldfarb"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18798",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37596",
+      "type": "TimeSpan",
+      "_label": "Anders Goldfarb Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18798",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37597",
+      "type": "TimeSpan",
+      "_label": "Anders Goldfarb Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18798",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18798",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2852",
+              "type": "Event",
+              "_label": "International and National Projects Fall 2007: Eyal Danieli, Manon de Boer, Shannon Ebner, Tony Fitzpatrick, Anders Goldfarb, Lisa Kirk, Diana Puntar, and Andreas Zybach",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-10 - 2008-14-1",
+                "begin_of_the_begin": "2007-21-10",
+                "end_of_the_end": "2008-14-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67143",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51822",
+  "type": "Person",
+  "_label": "Daniel Steegmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14597",
+      "type": "Name",
+      "_label": "Daniel Steegmann"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7196",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Brazilian, born 1977"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14597",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29194",
+      "type": "TimeSpan",
+      "_label": "Daniel Steegmann Birth timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14597",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29195",
+      "type": "TimeSpan",
+      "_label": "Daniel Steegmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14597",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14597",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16990",
+              "type": "Event",
+              "_label": "2015 Triennial: Surround Audience",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-25-2 - 2015-24-5",
+                "begin_of_the_begin": "2015-25-2",
+                "end_of_the_end": "2015-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55334",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

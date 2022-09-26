@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66412",
+  "type": "Person",
+  "_label": "Raymond Ross",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22173",
+      "type": "Name",
+      "_label": "Raymond Ross"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22173",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44346",
+      "type": "TimeSpan",
+      "_label": "Raymond Ross Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22173",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44347",
+      "type": "TimeSpan",
+      "_label": "Raymond Ross Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22173",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22173",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17275",
+              "type": "Event",
+              "_label": "Events: Fashion Moda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-8-1",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74527",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

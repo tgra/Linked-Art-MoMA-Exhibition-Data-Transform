@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71669",
+  "type": "Person",
+  "_label": "Bunji Tagawa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25099",
+      "type": "Name",
+      "_label": "Bunji Tagawa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25099",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50198",
+      "type": "TimeSpan",
+      "_label": "Bunji Tagawa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25099",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50199",
+      "type": "TimeSpan",
+      "_label": "Bunji Tagawa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25099",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25099",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6286",
+              "type": "Event",
+              "_label": "First Biennial Exhibition of Contemporary American Sculpture, Watercolors, and Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-5-12 - 1933-11-1",
+                "begin_of_the_begin": "1933-5-12",
+                "end_of_the_end": "1933-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80975",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

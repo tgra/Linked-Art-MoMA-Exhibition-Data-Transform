@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/45784",
+  "type": "Person",
+  "_label": "Rubin Museum of Art",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14014",
+      "type": "Name",
+      "_label": "Rubin Museum of Art"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14014",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28028",
+      "type": "TimeSpan",
+      "_label": "Rubin Museum of Art Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14014",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28029",
+      "type": "TimeSpan",
+      "_label": "Rubin Museum of Art Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14014",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14014",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16959",
+              "type": "Event",
+              "_label": "I ♥ John Giorno",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-21-6 - 2017-3-9",
+                "begin_of_the_begin": "2017-21-6",
+                "end_of_the_end": "2017-3-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50368",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

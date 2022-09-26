@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64357",
+  "type": "Person",
+  "_label": "David Kulik",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21240",
+      "type": "Name",
+      "_label": "David Kulik"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21240",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42480",
+      "type": "TimeSpan",
+      "_label": "David Kulik Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21240",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42481",
+      "type": "TimeSpan",
+      "_label": "David Kulik Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21240",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21240",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22031",
+              "type": "Event",
+              "_label": "HALLWALLS: 5 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-30-6 - 1980-18-7",
+                "begin_of_the_begin": "1980-30-6",
+                "end_of_the_end": "1980-18-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72707",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

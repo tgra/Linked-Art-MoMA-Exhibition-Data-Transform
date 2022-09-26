@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31387",
+  "type": "Person",
+  "_label": "W. F. Mills",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10173",
+      "type": "Name",
+      "_label": "W. F. Mills"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10173",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20346",
+      "type": "TimeSpan",
+      "_label": "W. F. Mills Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10173",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20347",
+      "type": "TimeSpan",
+      "_label": "W. F. Mills Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10173",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10173",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/826",
+              "type": "Event",
+              "_label": "The Photographer's Eye",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-27-5 - 1964-23-8",
+                "begin_of_the_begin": "1964-27-5",
+                "end_of_the_end": "1964-23-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34414",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

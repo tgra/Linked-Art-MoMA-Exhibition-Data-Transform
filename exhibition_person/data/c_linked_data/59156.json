@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59156",
+  "type": "Person",
+  "_label": "Donald Roller Wilson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17758",
+      "type": "Name",
+      "_label": "Donald Roller Wilson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17758",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35516",
+      "type": "TimeSpan",
+      "_label": "Donald Roller Wilson Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17758",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35517",
+      "type": "TimeSpan",
+      "_label": "Donald Roller Wilson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17758",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17758",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64931",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6755",
+              "type": "Event",
+              "_label": "1975 Biennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-20-1 - 1975-9-4",
+                "begin_of_the_begin": "1975-20-1",
+                "end_of_the_end": "1975-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64932",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

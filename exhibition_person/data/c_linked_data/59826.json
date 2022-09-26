@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59826",
+  "type": "Person",
+  "_label": "Sante Scardillo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18476",
+      "type": "Name",
+      "_label": "Sante Scardillo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18476",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36952",
+      "type": "TimeSpan",
+      "_label": "Sante Scardillo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18476",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36953",
+      "type": "TimeSpan",
+      "_label": "Sante Scardillo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18476",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18476",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3721",
+              "type": "Event",
+              "_label": "Model Home",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-8-2 - 1996-31-3",
+                "begin_of_the_begin": "1996-8-2",
+                "end_of_the_end": "1996-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66419",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

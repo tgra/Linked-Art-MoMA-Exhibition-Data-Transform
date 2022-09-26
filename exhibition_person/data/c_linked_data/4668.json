@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4668",
+  "type": "Person",
+  "_label": "Federico Reinoso",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14090",
+      "type": "Name",
+      "_label": "Federico Reinoso"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6777",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Peruvian, born 1912"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14090",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28180",
+      "type": "TimeSpan",
+      "_label": "Federico Reinoso Birth timespan",
+      "begin_of_the_begin": "1912",
+      "end_of_the_end": "1912"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14090",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28181",
+      "type": "TimeSpan",
+      "_label": "Federico Reinoso Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14090",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14090",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2087",
+              "type": "Event",
+              "_label": "From the Collection: Drawing in Latin America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-29-1 - 1998-21-4",
+                "begin_of_the_begin": "1998-29-1",
+                "end_of_the_end": "1998-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/51135",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

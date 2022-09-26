@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29360",
+  "type": "Person",
+  "_label": "Maurice Johnson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7989",
+      "type": "Name",
+      "_label": "Maurice Johnson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7989",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15978",
+      "type": "TimeSpan",
+      "_label": "Maurice Johnson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7989",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15979",
+      "type": "TimeSpan",
+      "_label": "Maurice Johnson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7989",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7989",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/468",
+              "type": "Event",
+              "_label": "The Exact Instant",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-8-2 - 1949-1-5",
+                "begin_of_the_begin": "1949-8-2",
+                "end_of_the_end": "1949-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30059",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

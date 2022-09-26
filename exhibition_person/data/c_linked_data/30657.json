@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30657",
+  "type": "Person",
+  "_label": "Seijo Taguchi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9381",
+      "type": "Name",
+      "_label": "Seijo Taguchi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9381",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18762",
+      "type": "TimeSpan",
+      "_label": "Seijo Taguchi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9381",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18763",
+      "type": "TimeSpan",
+      "_label": "Seijo Taguchi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9381",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9381",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/629",
+              "type": "Event",
+              "_label": "Japanese Calligraphy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-22-6 - 1954-19-9",
+                "begin_of_the_begin": "1954-22-6",
+                "end_of_the_end": "1954-19-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32932",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

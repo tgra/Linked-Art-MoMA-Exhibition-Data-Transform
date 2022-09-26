@@ -1,0 +1,122 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30873",
+  "type": "Person",
+  "_label": "Charles Knox",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9615",
+      "type": "Name",
+      "_label": "Charles Knox"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9615",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19230",
+      "type": "TimeSpan",
+      "_label": "Charles Knox Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9615",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19231",
+      "type": "TimeSpan",
+      "_label": "Charles Knox Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9615",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9615",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/617",
+              "type": "Event",
+              "_label": "Recent Acquisitions, 1946–1953: Department of Architecture and Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-22-12 - 1954-28-2",
+                "begin_of_the_begin": "1953-22-12",
+                "end_of_the_end": "1954-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33431",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/709",
+              "type": "Event",
+              "_label": "20th Century Design from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-17-12 - 1959-23-2",
+                "begin_of_the_begin": "1958-17-12",
+                "end_of_the_end": "1959-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33432",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/738",
+              "type": "Event",
+              "_label": "Art Nouveau",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-6 - 1960-6-9",
+                "begin_of_the_begin": "1960-8-6",
+                "end_of_the_end": "1960-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33433",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73445",
+  "type": "Person",
+  "_label": "Louis Lieberman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25322",
+      "type": "Name",
+      "_label": "Louis Lieberman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25322",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50644",
+      "type": "TimeSpan",
+      "_label": "Louis Lieberman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25322",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50645",
+      "type": "TimeSpan",
+      "_label": "Louis Lieberman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25322",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25322",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54738",
+              "type": "Event",
+              "_label": "Handmade Paper",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-1-9 - ",
+                "begin_of_the_begin": "1981-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81716",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31440",
+  "type": "Person",
+  "_label": "Bentley Motors, Ltd.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10231",
+      "type": "Name",
+      "_label": "Bentley Motors, Ltd."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10231",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20462",
+      "type": "TimeSpan",
+      "_label": "Bentley Motors, Ltd. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10231",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20463",
+      "type": "TimeSpan",
+      "_label": "Bentley Motors, Ltd. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10231",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10231",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/557",
+              "type": "Event",
+              "_label": "8 Automobiles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-28-8 - 1951-11-11",
+                "begin_of_the_begin": "1951-28-8",
+                "end_of_the_end": "1951-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34571",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

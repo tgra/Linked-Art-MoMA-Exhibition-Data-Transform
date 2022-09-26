@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31197",
+  "type": "Person",
+  "_label": "Theodore Bernardi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9966",
+      "type": "Name",
+      "_label": "Theodore Bernardi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9966",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19932",
+      "type": "TimeSpan",
+      "_label": "Theodore Bernardi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9966",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19933",
+      "type": "TimeSpan",
+      "_label": "Theodore Bernardi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9966",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9966",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/352",
+              "type": "Event",
+              "_label": "Tomorrow's Small House: Models and Plans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-29-5 - 1945-30-9",
+                "begin_of_the_begin": "1945-29-5",
+                "end_of_the_end": "1945-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34101",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/373",
+              "type": "Event",
+              "_label": "A Home for U.N.O.: Must We Repeat the Geneva Fiasco?",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-5-2 - 1946-3-3",
+                "begin_of_the_begin": "1946-5-2",
+                "end_of_the_end": "1946-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34102",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62553",
+  "type": "Person",
+  "_label": "Catherine Newman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20398",
+      "type": "Name",
+      "_label": "Catherine Newman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20398",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40796",
+      "type": "TimeSpan",
+      "_label": "Catherine Newman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20398",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40797",
+      "type": "TimeSpan",
+      "_label": "Catherine Newman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20398",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20398",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4948",
+              "type": "Event",
+              "_label": "Untitled Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-13-4 - 1989-13-5",
+                "begin_of_the_begin": "1989-13-4",
+                "end_of_the_end": "1989-13-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70596",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

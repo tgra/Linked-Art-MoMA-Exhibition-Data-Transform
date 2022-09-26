@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3993",
+  "type": "Person",
+  "_label": "Robert Müller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13500",
+      "type": "Name",
+      "_label": "Robert Müller"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6251",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, born 1920"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13500",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27000",
+      "type": "TimeSpan",
+      "_label": "Robert Müller Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13500",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27001",
+      "type": "TimeSpan",
+      "_label": "Robert Müller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13500",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13500",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/727",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-3-12 - 1960-31-1",
+                "begin_of_the_begin": "1959-3-12",
+                "end_of_the_end": "1960-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45588",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/816",
+              "type": "Event",
+              "_label": "Painting and Sculpture from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-27-5 - ",
+                "begin_of_the_begin": "1964-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45589",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

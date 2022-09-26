@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68315",
+  "type": "Person",
+  "_label": "Patrick Frilet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23158",
+      "type": "Name",
+      "_label": "Patrick Frilet"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23158",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46316",
+      "type": "TimeSpan",
+      "_label": "Patrick Frilet Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23158",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46317",
+      "type": "TimeSpan",
+      "_label": "Patrick Frilet Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23158",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23158",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22013",
+              "type": "Event",
+              "_label": "The Nicaragua Media Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-21-9 - 1984-25-11",
+                "begin_of_the_begin": "1984-21-9",
+                "end_of_the_end": "1984-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76403",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30985",
+  "type": "Person",
+  "_label": "Christo Coetzee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9736",
+      "type": "Name",
+      "_label": "Christo Coetzee"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5194",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "South, born 1929"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9736",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19472",
+      "type": "TimeSpan",
+      "_label": "Christo Coetzee Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9736",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19473",
+      "type": "TimeSpan",
+      "_label": "Christo Coetzee Death timespan",
+      "begin_of_the_begin": "2000",
+      "end_of_the_end": "2000"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9736",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9736",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/773",
+              "type": "Event",
+              "_label": "The Art of Assemblage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-4-10 - 1961-12-11",
+                "begin_of_the_begin": "1961-4-10",
+                "end_of_the_end": "1961-12-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33711",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7070",
+  "type": "Person",
+  "_label": "Walter Pfeiffer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24454",
+      "type": "Name",
+      "_label": "Walter Pfeiffer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24454",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48908",
+      "type": "TimeSpan",
+      "_label": "Walter Pfeiffer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24454",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48909",
+      "type": "TimeSpan",
+      "_label": "Walter Pfeiffer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24454",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24454",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5261",
+              "type": "Event",
+              "_label": "30 / 130: Thirty Years of Books and Catalogs, etc. Bob Nickas at White Columns",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-6-11 - 2015-19-12",
+                "begin_of_the_begin": "2015-6-11",
+                "end_of_the_end": "2015-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79054",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

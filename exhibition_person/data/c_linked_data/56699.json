@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56699",
+  "type": "Person",
+  "_label": "Christopher Makos",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15117",
+      "type": "Name",
+      "_label": "Christopher Makos"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15117",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30234",
+      "type": "TimeSpan",
+      "_label": "Christopher Makos Birth timespan",
+      "begin_of_the_begin": "1948",
+      "end_of_the_end": "1948"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15117",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30235",
+      "type": "TimeSpan",
+      "_label": "Christopher Makos Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15117",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15117",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3178",
+              "type": "Event",
+              "_label": "New York/New Wave",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59356",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59357",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66511",
+  "type": "Person",
+  "_label": "Robert Gie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22228",
+      "type": "Name",
+      "_label": "Robert Gie"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22228",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44456",
+      "type": "TimeSpan",
+      "_label": "Robert Gie Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22228",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44457",
+      "type": "TimeSpan",
+      "_label": "Robert Gie Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22228",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22228",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17020",
+              "type": "Event",
+              "_label": "Ghosts in the Machine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-18-7 - 2012-30-9",
+                "begin_of_the_begin": "2012-18-7",
+                "end_of_the_end": "2012-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74670",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

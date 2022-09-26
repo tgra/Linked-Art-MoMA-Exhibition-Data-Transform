@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6682",
+  "type": "Person",
+  "_label": "John Murray",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22375",
+      "type": "Name",
+      "_label": "John Murray"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8272",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1809–1898"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22375",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44750",
+      "type": "TimeSpan",
+      "_label": "John Murray Birth timespan",
+      "begin_of_the_begin": "1809",
+      "end_of_the_end": "1809"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22375",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44751",
+      "type": "TimeSpan",
+      "_label": "John Murray Death timespan",
+      "begin_of_the_begin": "1898",
+      "end_of_the_end": "1898"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22375",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22375",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1972",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-19-1 - 1995-11-4",
+                "begin_of_the_begin": "1995-19-1",
+                "end_of_the_end": "1995-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74931",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2455",
+              "type": "Event",
+              "_label": "Photography Collection: Rotation 6",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-7-8 - 2010-22-3",
+                "begin_of_the_begin": "2009-7-8",
+                "end_of_the_end": "2010-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74932",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

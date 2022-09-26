@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6916",
+  "type": "Person",
+  "_label": "Alice von Pechmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23519",
+      "type": "Name",
+      "_label": "Alice von Pechmann"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8416",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Germany 1906"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23519",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47038",
+      "type": "TimeSpan",
+      "_label": "Alice von Pechmann Birth timespan",
+      "begin_of_the_begin": "1906",
+      "end_of_the_end": "1906"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23519",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47039",
+      "type": "TimeSpan",
+      "_label": "Alice von Pechmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23519",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23519",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/709",
+              "type": "Event",
+              "_label": "20th Century Design from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-17-12 - 1959-23-2",
+                "begin_of_the_begin": "1958-17-12",
+                "end_of_the_end": "1959-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77082",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

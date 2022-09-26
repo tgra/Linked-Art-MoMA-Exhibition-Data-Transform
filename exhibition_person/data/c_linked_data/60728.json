@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60728",
+  "type": "Person",
+  "_label": "Norrine Betjemann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19432",
+      "type": "Name",
+      "_label": "Norrine Betjemann"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19432",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38864",
+      "type": "TimeSpan",
+      "_label": "Norrine Betjemann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19432",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38865",
+      "type": "TimeSpan",
+      "_label": "Norrine Betjemann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19432",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19432",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4076",
+              "type": "Event",
+              "_label": "Philadelphia Photographers In Transit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-1-11 - 1988-31-12",
+                "begin_of_the_begin": "1988-1-11",
+                "end_of_the_end": "1988-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68548",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

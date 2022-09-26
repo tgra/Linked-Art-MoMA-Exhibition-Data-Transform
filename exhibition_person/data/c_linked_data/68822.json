@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68822",
+  "type": "Person",
+  "_label": "Jacque Herold",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23339",
+      "type": "Name",
+      "_label": "Jacque Herold"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23339",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46678",
+      "type": "TimeSpan",
+      "_label": "Jacque Herold Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23339",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46679",
+      "type": "TimeSpan",
+      "_label": "Jacque Herold Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23339",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23339",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4184",
+              "type": "Event",
+              "_label": "Against Order: Chance and Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-11 - 1970-22-12",
+                "begin_of_the_begin": "1970-14-11",
+                "end_of_the_end": "1970-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76722",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

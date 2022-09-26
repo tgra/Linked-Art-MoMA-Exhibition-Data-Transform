@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64111",
+  "type": "Person",
+  "_label": "Cathy Busby",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21138",
+      "type": "Name",
+      "_label": "Cathy Busby"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21138",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42276",
+      "type": "TimeSpan",
+      "_label": "Cathy Busby Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21138",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42277",
+      "type": "TimeSpan",
+      "_label": "Cathy Busby Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21138",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21138",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21975",
+              "type": "Event",
+              "_label": "Self-Help Library: Four Decades of Pain Management in North America ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-23-9 - 1994-23-11",
+                "begin_of_the_begin": "1994-23-9",
+                "end_of_the_end": "1994-23-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72536",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

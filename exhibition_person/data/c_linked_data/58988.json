@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58988",
+  "type": "Person",
+  "_label": "Massimo Bartolini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17575",
+      "type": "Name",
+      "_label": "Massimo Bartolini"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17575",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35150",
+      "type": "TimeSpan",
+      "_label": "Massimo Bartolini Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17575",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35151",
+      "type": "TimeSpan",
+      "_label": "Massimo Bartolini Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17575",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17575",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2874",
+              "type": "Event",
+              "_label": "Massimo Bartolini: Untitled (Wave)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-11-3 - 2001-20-5",
+                "begin_of_the_begin": "2001-11-3",
+                "end_of_the_end": "2001-20-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64475",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

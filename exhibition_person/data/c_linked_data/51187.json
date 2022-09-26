@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51187",
+  "type": "Person",
+  "_label": "Cheryl Dunye",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14523",
+      "type": "Name",
+      "_label": "Cheryl Dunye"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7130",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1966"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14523",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29046",
+      "type": "TimeSpan",
+      "_label": "Cheryl Dunye Birth timespan",
+      "begin_of_the_begin": "1966",
+      "end_of_the_end": "1966"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14523",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29047",
+      "type": "TimeSpan",
+      "_label": "Cheryl Dunye Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14523",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14523",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21981",
+              "type": "Event",
+              "_label": "Bad Girls Video (Program 1): She Laughed When She Saw It",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-14-1 - 1994-27-2",
+                "begin_of_the_begin": "1994-14-1",
+                "end_of_the_end": "1994-27-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54460",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21980",
+              "type": "Event",
+              "_label": "Bad Girls Video (Program 2): Female Friends",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-3 - 1994-10-4",
+                "begin_of_the_begin": "1994-5-3",
+                "end_of_the_end": "1994-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54461",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61452",
+  "type": "Person",
+  "_label": "Charles Clough",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19973",
+      "type": "Name",
+      "_label": "Charles Clough"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19973",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39946",
+      "type": "TimeSpan",
+      "_label": "Charles Clough Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19973",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39947",
+      "type": "TimeSpan",
+      "_label": "Charles Clough Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19973",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19973",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22031",
+              "type": "Event",
+              "_label": "HALLWALLS: 5 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-30-6 - 1980-18-7",
+                "begin_of_the_begin": "1980-30-6",
+                "end_of_the_end": "1980-18-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69613",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17179",
+              "type": "Event",
+              "_label": "New Paintings: Charles Clough and Mimi Thompson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-20-11 - 1988-24-1",
+                "begin_of_the_begin": "1987-20-11",
+                "end_of_the_end": "1988-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69614",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

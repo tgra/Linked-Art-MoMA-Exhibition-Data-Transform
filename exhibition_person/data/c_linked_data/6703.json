@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6703",
+  "type": "Person",
+  "_label": "Esther Parada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22472",
+      "type": "Name",
+      "_label": "Esther Parada"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8284",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1938–2005"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22472",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44944",
+      "type": "TimeSpan",
+      "_label": "Esther Parada Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22472",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44945",
+      "type": "TimeSpan",
+      "_label": "Esther Parada Death timespan",
+      "begin_of_the_begin": "2005",
+      "end_of_the_end": "2005"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22472",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22472",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1537",
+              "type": "Event",
+              "_label": "Big Pictures by Contemporary Photographers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-13-4 - 1983-28-6",
+                "begin_of_the_begin": "1983-13-4",
+                "end_of_the_end": "1983-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75132",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1869",
+              "type": "Event",
+              "_label": "More Than One Photography: Works Since 1980 from the Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-14-5 - 1992-9-8",
+                "begin_of_the_begin": "1992-14-5",
+                "end_of_the_end": "1992-9-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75133",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

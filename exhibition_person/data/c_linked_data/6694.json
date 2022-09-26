@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6694",
+  "type": "Person",
+  "_label": "Markus Oehlen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22428",
+      "type": "Name",
+      "_label": "Markus Oehlen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8276",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1956"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22428",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44856",
+      "type": "TimeSpan",
+      "_label": "Markus Oehlen Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22428",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44857",
+      "type": "TimeSpan",
+      "_label": "Markus Oehlen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22428",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22428",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1894",
+              "type": "Event",
+              "_label": "Projects 39: Georg Herold and Markus Oehlen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-5-2 - 1993-23-3",
+                "begin_of_the_begin": "1993-5-2",
+                "end_of_the_end": "1993-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75024",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

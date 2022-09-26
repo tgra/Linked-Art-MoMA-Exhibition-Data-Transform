@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71439",
+  "type": "Person",
+  "_label": "Jules Struppeck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24853",
+      "type": "Name",
+      "_label": "Jules Struppeck"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24853",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49706",
+      "type": "TimeSpan",
+      "_label": "Jules Struppeck Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24853",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49707",
+      "type": "TimeSpan",
+      "_label": "Jules Struppeck Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24853",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24853",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6429",
+              "type": "Event",
+              "_label": "1954 Annual Exhibition of Contemporary American Sculpture, Watercolor, and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-18-4 - 1954-17-3",
+                "begin_of_the_begin": "1954-18-4",
+                "end_of_the_end": "1954-17-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80486",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

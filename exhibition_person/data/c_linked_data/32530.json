@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32530",
+  "type": "Person",
+  "_label": "Myron Goldfinger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11402",
+      "type": "Name",
+      "_label": "Myron Goldfinger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11402",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22804",
+      "type": "TimeSpan",
+      "_label": "Myron Goldfinger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11402",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22805",
+      "type": "TimeSpan",
+      "_label": "Myron Goldfinger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11402",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11402",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1416",
+              "type": "Event",
+              "_label": "Transformations in Modern Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-21-2 - 1979-24-4",
+                "begin_of_the_begin": "1979-21-2",
+                "end_of_the_end": "1979-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36733",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

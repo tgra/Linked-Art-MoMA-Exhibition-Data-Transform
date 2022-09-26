@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70323",
+  "type": "Person",
+  "_label": "Anne Collier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24234",
+      "type": "Name",
+      "_label": "Anne Collier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24234",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48468",
+      "type": "TimeSpan",
+      "_label": "Anne Collier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24234",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48469",
+      "type": "TimeSpan",
+      "_label": "Anne Collier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24234",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24234",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28412",
+              "type": "Event",
+              "_label": "Whitney Biennial 2006: Day for Night",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-2-3 - 2006-28-5",
+                "begin_of_the_begin": "2006-2-3",
+                "end_of_the_end": "2006-28-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78701",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8902",
+  "type": "Person",
+  "_label": "Hall China Co., East Liverpool, OH",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26375",
+      "type": "Name",
+      "_label": "Hall China Co., East Liverpool, OH"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26375",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52750",
+      "type": "TimeSpan",
+      "_label": "Hall China Co., East Liverpool, OH Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26375",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52751",
+      "type": "TimeSpan",
+      "_label": "Hall China Co., East Liverpool, OH Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26375",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26375",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/257",
+              "type": "Event",
+              "_label": "Useful Objects in Wartime under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-2-12 - 1943-9-1",
+                "begin_of_the_begin": "1942-2-12",
+                "end_of_the_end": "1943-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86562",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/400",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86563",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

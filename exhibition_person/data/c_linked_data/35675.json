@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35675",
+  "type": "Person",
+  "_label": "Alexandre Lenoir",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12571",
+      "type": "Name",
+      "_label": "Alexandre Lenoir"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12571",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25142",
+      "type": "TimeSpan",
+      "_label": "Alexandre Lenoir Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12571",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25143",
+      "type": "TimeSpan",
+      "_label": "Alexandre Lenoir Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12571",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12571",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21990",
+              "type": "Event",
+              "_label": "The Big Nothing or Le Presque Rien",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41091",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/48",
+              "type": "Event",
+              "_label": "Early Museum Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-5-4 - 1934-5-5",
+                "begin_of_the_begin": "1934-5-4",
+                "end_of_the_end": "1934-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41092",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

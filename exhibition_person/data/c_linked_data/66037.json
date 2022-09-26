@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66037",
+  "type": "Person",
+  "_label": "Mohamed Bourouissa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22001",
+      "type": "Name",
+      "_label": "Mohamed Bourouissa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22001",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44002",
+      "type": "TimeSpan",
+      "_label": "Mohamed Bourouissa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22001",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44003",
+      "type": "TimeSpan",
+      "_label": "Mohamed Bourouissa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22001",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22001",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17048",
+              "type": "Event",
+              "_label": "The Generational Triennial: Younger Than Jesus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-4 - 2009-14-6",
+                "begin_of_the_begin": "2009-8-4",
+                "end_of_the_end": "2009-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74241",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

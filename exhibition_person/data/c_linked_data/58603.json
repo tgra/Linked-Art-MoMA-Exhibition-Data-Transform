@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58603",
+  "type": "Person",
+  "_label": "Julianne Swartz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17161",
+      "type": "Name",
+      "_label": "Julianne Swartz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17161",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34322",
+      "type": "TimeSpan",
+      "_label": "Julianne Swartz Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17161",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34323",
+      "type": "TimeSpan",
+      "_label": "Julianne Swartz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17161",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17161",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3493",
+              "type": "Event",
+              "_label": "Breaking Away: P.S.1 2002–2003 National and International Studio Program Exhibtion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-11-5 - 2003-15-6",
+                "begin_of_the_begin": "2003-11-5",
+                "end_of_the_end": "2003-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63679",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21909",
+              "type": "Event",
+              "_label": "Counter Culture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-10-7 - 2004-14-8",
+                "begin_of_the_begin": "2004-10-7",
+                "end_of_the_end": "2004-14-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63680",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

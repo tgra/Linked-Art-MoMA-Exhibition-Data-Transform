@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67211",
+  "type": "Person",
+  "_label": "Youree Jong Choi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22566",
+      "type": "Name",
+      "_label": "Youree Jong Choi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22566",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45132",
+      "type": "TimeSpan",
+      "_label": "Youree Jong Choi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22566",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45133",
+      "type": "TimeSpan",
+      "_label": "Youree Jong Choi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22566",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22566",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21821",
+              "type": "Event",
+              "_label": "X-ID REP Open Studio Rehearsals with Director Lileana Blain-Cruz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-20-11 - 2015-22-11",
+                "begin_of_the_begin": "2015-20-11",
+                "end_of_the_end": "2015-22-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75363",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

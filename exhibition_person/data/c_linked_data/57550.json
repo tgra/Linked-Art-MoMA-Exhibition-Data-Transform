@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57550",
+  "type": "Person",
+  "_label": "John Knecht",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16030",
+      "type": "Name",
+      "_label": "John Knecht"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16030",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32060",
+      "type": "TimeSpan",
+      "_label": "John Knecht Birth timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16030",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32061",
+      "type": "TimeSpan",
+      "_label": "John Knecht Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16030",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16030",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3756",
+              "type": "Event",
+              "_label": "Film as Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-23-4 - 1980-17-5",
+                "begin_of_the_begin": "1980-23-4",
+                "end_of_the_end": "1980-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61447",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3768",
+              "type": "Event",
+              "_label": "Film as Installation II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-20-4 - 1983-21-5",
+                "begin_of_the_begin": "1983-20-4",
+                "end_of_the_end": "1983-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61448",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59669",
+  "type": "Person",
+  "_label": "François Barré",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18306",
+      "type": "Name",
+      "_label": "François Barré"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18306",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36612",
+      "type": "TimeSpan",
+      "_label": "François Barré Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18306",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36613",
+      "type": "TimeSpan",
+      "_label": "François Barré Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18306",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18306",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2719",
+              "type": "Event",
+              "_label": "Tunnel of Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-11-2 - 1995-26-3",
+                "begin_of_the_begin": "1994-11-2",
+                "end_of_the_end": "1995-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66078",
+                  "type": "Place",
+                  "_label": "Calais, France",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

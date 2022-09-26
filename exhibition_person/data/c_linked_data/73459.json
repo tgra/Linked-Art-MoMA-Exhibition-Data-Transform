@@ -1,0 +1,94 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73459",
+  "type": "Person",
+  "_label": "Eduardo Ramirez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25334",
+      "type": "Name",
+      "_label": "Eduardo Ramirez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25334",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50668",
+      "type": "TimeSpan",
+      "_label": "Eduardo Ramirez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25334",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50669",
+      "type": "TimeSpan",
+      "_label": "Eduardo Ramirez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25334",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25334",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54771",
+              "type": "Event",
+              "_label": "Selections from the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-8-10 - ",
+                "begin_of_the_begin": "1962-8-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81732",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/54739",
+              "type": "Event",
+              "_label": "Hard Edge and Geometric Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-10-1 - ",
+                "begin_of_the_begin": "1963-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81733",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

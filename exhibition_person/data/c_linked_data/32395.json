@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32395",
+  "type": "Person",
+  "_label": "Paula Barr",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11256",
+      "type": "Name",
+      "_label": "Paula Barr"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5419",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1945"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11256",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22512",
+      "type": "TimeSpan",
+      "_label": "Paula Barr Birth timespan",
+      "begin_of_the_begin": "1945",
+      "end_of_the_end": "1945"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11256",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22513",
+      "type": "TimeSpan",
+      "_label": "Paula Barr Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11256",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11256",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1322",
+              "type": "Event",
+              "_label": "Bookworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-17-3 - 1977-30-5",
+                "begin_of_the_begin": "1977-17-3",
+                "end_of_the_end": "1977-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36426",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6696",
+              "type": "Event",
+              "_label": "1973 Biennial Exhibition of Contemporary American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-10-1 - 1973-18-3",
+                "begin_of_the_begin": "1973-10-1",
+                "end_of_the_end": "1973-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36427",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Gallery, 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/46841",
+  "type": "Person",
+  "_label": "Agata Boetti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14101",
+      "type": "Name",
+      "_label": "Agata Boetti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14101",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28202",
+      "type": "TimeSpan",
+      "_label": "Agata Boetti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14101",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28203",
+      "type": "TimeSpan",
+      "_label": "Agata Boetti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14101",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14101",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2232",
+              "type": "Event",
+              "_label": "To Be Looked At: Painting and Sculpture from the Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-29-6 - 2004-6-9",
+                "begin_of_the_begin": "2002-29-6",
+                "end_of_the_end": "2004-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/51229",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

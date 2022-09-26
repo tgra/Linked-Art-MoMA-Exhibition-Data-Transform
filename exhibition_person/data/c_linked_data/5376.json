@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5376",
+  "type": "Person",
+  "_label": "Eric Staller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14809",
+      "type": "Name",
+      "_label": "Eric Staller"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7359",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1947"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14809",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29618",
+      "type": "TimeSpan",
+      "_label": "Eric Staller Birth timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14809",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29619",
+      "type": "TimeSpan",
+      "_label": "Eric Staller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14809",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14809",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3157",
+              "type": "Event",
+              "_label": "The Altered Photograph",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - 1979-10-6",
+                "begin_of_the_begin": "1979-22-4",
+                "end_of_the_end": "1979-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/56989",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69344",
+  "type": "Person",
+  "_label": "Virginia McCall",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23638",
+      "type": "Name",
+      "_label": "Virginia McCall"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23638",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47276",
+      "type": "TimeSpan",
+      "_label": "Virginia McCall Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23638",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47277",
+      "type": "TimeSpan",
+      "_label": "Virginia McCall Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23638",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23638",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6316",
+              "type": "Event",
+              "_label": "1937 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-10-11 - 1937-12-12",
+                "begin_of_the_begin": "1937-10-11",
+                "end_of_the_end": "1937-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77530",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

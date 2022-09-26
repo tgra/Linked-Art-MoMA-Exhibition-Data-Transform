@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51594",
+  "type": "Person",
+  "_label": "Tseng Kwong Chi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14562",
+      "type": "Name",
+      "_label": "Tseng Kwong Chi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7165",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Hong Kongese, 1950–1990"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14562",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29124",
+      "type": "TimeSpan",
+      "_label": "Tseng Kwong Chi Birth timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14562",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29125",
+      "type": "TimeSpan",
+      "_label": "Tseng Kwong Chi Death timespan",
+      "begin_of_the_begin": "1990",
+      "end_of_the_end": "1990"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14562",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14562",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17071",
+              "type": "Event",
+              "_label": "East Village USA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-9-12 - 2005-19-3",
+                "begin_of_the_begin": "2004-9-12",
+                "end_of_the_end": "2005-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55044",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

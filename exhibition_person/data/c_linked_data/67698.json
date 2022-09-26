@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67698",
+  "type": "Person",
+  "_label": "Wally Cardona",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23059",
+      "type": "Name",
+      "_label": "Wally Cardona"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23059",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46118",
+      "type": "TimeSpan",
+      "_label": "Wally Cardona Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23059",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46119",
+      "type": "TimeSpan",
+      "_label": "Wally Cardona Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23059",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23059",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18688",
+              "type": "Event",
+              "_label": "Tool is Loot",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-22-9 - ",
+                "begin_of_the_begin": "2011-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76071",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

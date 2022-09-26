@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67248",
+  "type": "Person",
+  "_label": "Oliver Lake",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22589",
+      "type": "Name",
+      "_label": "Oliver Lake"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22589",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45178",
+      "type": "TimeSpan",
+      "_label": "Oliver Lake Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22589",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45179",
+      "type": "TimeSpan",
+      "_label": "Oliver Lake Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22589",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22589",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18236",
+              "type": "Event",
+              "_label": "Colors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-30-10 - ",
+                "begin_of_the_begin": "1976-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75400",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18611",
+              "type": "Event",
+              "_label": "The Matador of 1st &…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-5 - ",
+                "begin_of_the_begin": "1998-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75401",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

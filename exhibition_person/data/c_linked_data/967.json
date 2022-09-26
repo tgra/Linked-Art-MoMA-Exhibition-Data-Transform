@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/967",
+  "type": "Person",
+  "_label": "Andrea Cascella",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26685",
+      "type": "Name",
+      "_label": "Andrea Cascella"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9534",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, 1920–1990"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26685",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53370",
+      "type": "TimeSpan",
+      "_label": "Andrea Cascella Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26685",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53371",
+      "type": "TimeSpan",
+      "_label": "Andrea Cascella Death timespan",
+      "begin_of_the_begin": "1990",
+      "end_of_the_end": "1990"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26685",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26685",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4201",
+              "type": "Event",
+              "_label": "New Art in Philadelphia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-30-9 - 1966-11-11",
+                "begin_of_the_begin": "1966-30-9",
+                "end_of_the_end": "1966-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87696",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1371",
+              "type": "Event",
+              "_label": "A Treasury of Modern Drawing: The Joan and Lester Avnet Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-28-4 - 1978-4-7",
+                "begin_of_the_begin": "1978-28-4",
+                "end_of_the_end": "1978-4-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87697",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

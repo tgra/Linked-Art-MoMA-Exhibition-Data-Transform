@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/688",
+  "type": "Person",
+  "_label": "Lynn Bowers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23316",
+      "type": "Name",
+      "_label": "Lynn Bowers"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8398",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1932"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23316",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46632",
+      "type": "TimeSpan",
+      "_label": "Lynn Bowers Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23316",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46633",
+      "type": "TimeSpan",
+      "_label": "Lynn Bowers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23316",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23316",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6597",
+              "type": "Event",
+              "_label": "1969 Annual Exhibition: Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-16-12 - 1970-1-2",
+                "begin_of_the_begin": "1969-16-12",
+                "end_of_the_end": "1970-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76686",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

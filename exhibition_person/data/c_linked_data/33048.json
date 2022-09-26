@@ -1,0 +1,120 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33048",
+  "type": "Person",
+  "_label": "Kent Floeter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11950",
+      "type": "Name",
+      "_label": "Kent Floeter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11950",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23900",
+      "type": "TimeSpan",
+      "_label": "Kent Floeter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11950",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23901",
+      "type": "TimeSpan",
+      "_label": "Kent Floeter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11950",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11950",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54825",
+              "type": "Event",
+              "_label": "Selections from the ALS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-1-11 - ",
+                "begin_of_the_begin": "1981-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38101",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1510",
+              "type": "Event",
+              "_label": "Selections From the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-11 - 1982-3-1",
+                "begin_of_the_begin": "1981-26-11",
+                "end_of_the_end": "1982-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38102",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6755",
+              "type": "Event",
+              "_label": "1975 Biennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-20-1 - 1975-9-4",
+                "begin_of_the_begin": "1975-20-1",
+                "end_of_the_end": "1975-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38103",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

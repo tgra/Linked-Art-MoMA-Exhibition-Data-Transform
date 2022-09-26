@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35971",
+  "type": "Person",
+  "_label": "Ronald Meijs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12871",
+      "type": "Name",
+      "_label": "Ronald Meijs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12871",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25742",
+      "type": "TimeSpan",
+      "_label": "Ronald Meijs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12871",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25743",
+      "type": "TimeSpan",
+      "_label": "Ronald Meijs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12871",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12871",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2029",
+              "type": "Event",
+              "_label": "Contemporary Design from the Netherlands",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-27-6 - 1996-5-11",
+                "begin_of_the_begin": "1996-27-6",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41708",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

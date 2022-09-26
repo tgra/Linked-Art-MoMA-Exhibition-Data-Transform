@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58843",
+  "type": "Person",
+  "_label": "Andrea Hicks",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17420",
+      "type": "Name",
+      "_label": "Andrea Hicks"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17420",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34840",
+      "type": "TimeSpan",
+      "_label": "Andrea Hicks Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17420",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34841",
+      "type": "TimeSpan",
+      "_label": "Andrea Hicks Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17420",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17420",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2744",
+              "type": "Event",
+              "_label": "Spring Dance Series (1987): He/She: Love, Sex, and Gender",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-9-5 - 1987-21-6",
+                "begin_of_the_begin": "1987-9-5",
+                "end_of_the_end": "1987-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64160",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

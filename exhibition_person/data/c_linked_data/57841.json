@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57841",
+  "type": "Person",
+  "_label": "Peter Lodato",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16340",
+      "type": "Name",
+      "_label": "Peter Lodato"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16340",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32680",
+      "type": "TimeSpan",
+      "_label": "Peter Lodato Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16340",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32681",
+      "type": "TimeSpan",
+      "_label": "Peter Lodato Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16340",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16340",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3013",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1978)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-14-4 - 1978-28-5",
+                "begin_of_the_begin": "1978-14-4",
+                "end_of_the_end": "1978-28-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62106",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6859",
+              "type": "Event",
+              "_label": "1981 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-20-1 - 1981-19-4",
+                "begin_of_the_begin": "1981-20-1",
+                "end_of_the_end": "1981-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62107",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, 3rd Floor Gallery, 2nd Floor Gallery, Film/Video Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

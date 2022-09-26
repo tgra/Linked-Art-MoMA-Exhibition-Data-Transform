@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62062",
+  "type": "Person",
+  "_label": "Michael Jenkins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20207",
+      "type": "Name",
+      "_label": "Michael Jenkins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20207",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40414",
+      "type": "TimeSpan",
+      "_label": "Michael Jenkins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20207",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40415",
+      "type": "TimeSpan",
+      "_label": "Michael Jenkins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20207",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20207",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5136",
+              "type": "Event",
+              "_label": "White Room: Michael Jenkins",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-8-12 - 1989-14-1",
+                "begin_of_the_begin": "1988-8-12",
+                "end_of_the_end": "1989-14-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70170",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4955",
+              "type": "Event",
+              "_label": "Update 1989",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-6-10 - 1989-5-11",
+                "begin_of_the_begin": "1989-6-10",
+                "end_of_the_end": "1989-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70171",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

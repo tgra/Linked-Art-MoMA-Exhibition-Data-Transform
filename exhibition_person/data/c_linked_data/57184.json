@@ -1,0 +1,102 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57184",
+  "type": "Person",
+  "_label": "Rosemary Mayer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15637",
+      "type": "Name",
+      "_label": "Rosemary Mayer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15637",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31274",
+      "type": "TimeSpan",
+      "_label": "Rosemary Mayer Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15637",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31275",
+      "type": "TimeSpan",
+      "_label": "Rosemary Mayer Death timespan",
+      "begin_of_the_begin": "2014",
+      "end_of_the_end": "2014"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15637",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15637",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3627",
+              "type": "Event",
+              "_label": "Discussions: Works/Words",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-11-5 - 1974-30-6",
+                "begin_of_the_begin": "1974-11-5",
+                "end_of_the_end": "1974-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60610",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3357",
+              "type": "Event",
+              "_label": "Overview: An Exhibition in Two Parts by the A.I.R. Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-5-3 - 1978-9-4",
+                "begin_of_the_begin": "1978-5-3",
+                "end_of_the_end": "1978-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60611",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56756",
+  "type": "Person",
+  "_label": "Robert Kitchen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15178",
+      "type": "Name",
+      "_label": "Robert Kitchen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15178",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30356",
+      "type": "TimeSpan",
+      "_label": "Robert Kitchen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15178",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30357",
+      "type": "TimeSpan",
+      "_label": "Robert Kitchen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15178",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15178",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2982",
+              "type": "Event",
+              "_label": "Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-7-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-7-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59505",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3106",
+              "type": "Event",
+              "_label": "Critical Perspectives: Curators and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59506",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

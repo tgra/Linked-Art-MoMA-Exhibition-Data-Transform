@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/516",
+  "type": "Person",
+  "_label": "Art Bevacqua",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14563",
+      "type": "Name",
+      "_label": "Art Bevacqua"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7166",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14563",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29126",
+      "type": "TimeSpan",
+      "_label": "Art Bevacqua Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14563",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29127",
+      "type": "TimeSpan",
+      "_label": "Art Bevacqua Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14563",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14563",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/956",
+              "type": "Event",
+              "_label": "Word and Image: Posters and Typography from the Graphic Design Collection of the Museum of Modern Art, 1879–1967",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-25-1 - 1968-10-3",
+                "begin_of_the_begin": "1968-25-1",
+                "end_of_the_end": "1968-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55045",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2297",
+              "type": "Event",
+              "_label": "Architecture and Design: Rotation 2",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-14-12 - 2006-3-4",
+                "begin_of_the_begin": "2005-14-12",
+                "end_of_the_end": "2006-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55046",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

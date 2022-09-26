@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58612",
+  "type": "Person",
+  "_label": "Montserrat Soto",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17170",
+      "type": "Name",
+      "_label": "Montserrat Soto"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17170",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34340",
+      "type": "TimeSpan",
+      "_label": "Montserrat Soto Birth timespan",
+      "begin_of_the_begin": "1961",
+      "end_of_the_end": "1961"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17170",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34341",
+      "type": "TimeSpan",
+      "_label": "Montserrat Soto Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17170",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17170",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3725",
+              "type": "Event",
+              "_label": "Clockwork 2000: P.S. 1 National and International Studio Program 1999–2000",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-11-5 - 2000-17-6",
+                "begin_of_the_begin": "2000-11-5",
+                "end_of_the_end": "2000-17-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63690",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

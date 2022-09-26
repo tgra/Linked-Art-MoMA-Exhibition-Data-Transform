@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8524",
+  "type": "Person",
+  "_label": "Staatliche Porzellan-Manufaktur, Berlin, Germany",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26185",
+      "type": "Name",
+      "_label": "Staatliche Porzellan-Manufaktur, Berlin, Germany"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26185",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52370",
+      "type": "TimeSpan",
+      "_label": "Staatliche Porzellan-Manufaktur, Berlin, Germany Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26185",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52371",
+      "type": "TimeSpan",
+      "_label": "Staatliche Porzellan-Manufaktur, Berlin, Germany Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26185",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26185",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/32",
+              "type": "Event",
+              "_label": "Objects: 1900 and Today",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-10-4 - 1933-25-4",
+                "begin_of_the_begin": "1933-10-4",
+                "end_of_the_end": "1933-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85599",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67658",
+  "type": "Person",
+  "_label": "Susan Ensley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23019",
+      "type": "Name",
+      "_label": "Susan Ensley"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23019",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46038",
+      "type": "TimeSpan",
+      "_label": "Susan Ensley Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23019",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46039",
+      "type": "TimeSpan",
+      "_label": "Susan Ensley Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23019",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23019",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18641",
+              "type": "Event",
+              "_label": "Videotapes and Performanc…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-18-2 - ",
+                "begin_of_the_begin": "1975-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76017",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67529",
+  "type": "Person",
+  "_label": "Antonija Livingstone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22888",
+      "type": "Name",
+      "_label": "Antonija Livingstone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22888",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45776",
+      "type": "TimeSpan",
+      "_label": "Antonija Livingstone Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22888",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45777",
+      "type": "TimeSpan",
+      "_label": "Antonija Livingstone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22888",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22888",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18133",
+              "type": "Event",
+              "_label": "(K)NO(W) MORE VILLAGE",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-3-4 - ",
+                "begin_of_the_begin": "2008-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75835",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

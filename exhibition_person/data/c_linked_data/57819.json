@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57819",
+  "type": "Person",
+  "_label": "Baratloo-Balch Architects",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16315",
+      "type": "Name",
+      "_label": "Baratloo-Balch Architects"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16315",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32630",
+      "type": "TimeSpan",
+      "_label": "Baratloo-Balch Architects Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16315",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32631",
+      "type": "TimeSpan",
+      "_label": "Baratloo-Balch Architects Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16315",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16315",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2958",
+              "type": "Event",
+              "_label": "Clif Balch and Moji Baratloo: \"Fabrications and Understatements: Selected Architectural Projects\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-17-1 - 1988-10-3",
+                "begin_of_the_begin": "1988-17-1",
+                "end_of_the_end": "1988-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62069",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

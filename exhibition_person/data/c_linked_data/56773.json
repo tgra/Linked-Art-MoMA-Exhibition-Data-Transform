@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56773",
+  "type": "Person",
+  "_label": "Michael Bramwell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15194",
+      "type": "Name",
+      "_label": "Michael Bramwell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15194",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30388",
+      "type": "TimeSpan",
+      "_label": "Michael Bramwell Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15194",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30389",
+      "type": "TimeSpan",
+      "_label": "Michael Bramwell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15194",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15194",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3640",
+              "type": "Event",
+              "_label": "21st National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-16-5 - 1997-14-6",
+                "begin_of_the_begin": "1997-16-5",
+                "end_of_the_end": "1997-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59540",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2834",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-27-2 - 2000-30-5",
+                "begin_of_the_begin": "2000-27-2",
+                "end_of_the_end": "2000-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59541",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

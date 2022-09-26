@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66168",
+  "type": "Person",
+  "_label": "Niek Kemps",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22057",
+      "type": "Name",
+      "_label": "Niek Kemps"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22057",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44114",
+      "type": "TimeSpan",
+      "_label": "Niek Kemps Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22057",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44115",
+      "type": "TimeSpan",
+      "_label": "Niek Kemps Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22057",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22057",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17198",
+              "type": "Event",
+              "_label": "A Distanced View: One Aspect of Recent Art from Belgium, France, Germany and Holland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-9 - 1986-30-11",
+                "begin_of_the_begin": "1986-26-9",
+                "end_of_the_end": "1986-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74351",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33607",
+  "type": "Person",
+  "_label": "Joshua White",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12199",
+      "type": "Name",
+      "_label": "Joshua White"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5599",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12199",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24398",
+      "type": "TimeSpan",
+      "_label": "Joshua White Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12199",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24399",
+      "type": "TimeSpan",
+      "_label": "Joshua White Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12199",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12199",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4060",
+              "type": "Event",
+              "_label": "Mike's World: Michael Smith & Joshua White (and other collaborators)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-25-4 - 2008-3-8",
+                "begin_of_the_begin": "2008-25-4",
+                "end_of_the_end": "2008-3-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38784",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21956",
+              "type": "Event",
+              "_label": "Open House: Michael Smith and Joshua White",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-22-4 - 1999-27-6",
+                "begin_of_the_begin": "1999-22-4",
+                "end_of_the_end": "1999-27-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38785",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

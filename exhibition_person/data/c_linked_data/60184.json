@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60184",
+  "type": "Person",
+  "_label": "Carlos Motta",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18859",
+      "type": "Name",
+      "_label": "Carlos Motta"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18859",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37718",
+      "type": "TimeSpan",
+      "_label": "Carlos Motta Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18859",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37719",
+      "type": "TimeSpan",
+      "_label": "Carlos Motta Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18859",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18859",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3217",
+              "type": "Event",
+              "_label": "On-site 1: Carlos Motta",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-28-6 - 2009-14-9",
+                "begin_of_the_begin": "2009-28-6",
+                "end_of_the_end": "2009-14-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67237",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

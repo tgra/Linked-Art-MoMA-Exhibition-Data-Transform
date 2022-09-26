@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61664",
+  "type": "Person",
+  "_label": "John Farris",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20055",
+      "type": "Name",
+      "_label": "John Farris"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20055",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40110",
+      "type": "TimeSpan",
+      "_label": "John Farris Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20055",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40111",
+      "type": "TimeSpan",
+      "_label": "John Farris Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20055",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20055",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4743",
+              "type": "Event",
+              "_label": "Looking Back - The 11th White Columns Annual",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-14-1 - 2017-4-3",
+                "begin_of_the_begin": "2017-14-1",
+                "end_of_the_end": "2017-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69811",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

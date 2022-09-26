@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57154",
+  "type": "Person",
+  "_label": "Ross Knight",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15605",
+      "type": "Name",
+      "_label": "Ross Knight"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15605",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31210",
+      "type": "TimeSpan",
+      "_label": "Ross Knight Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15605",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31211",
+      "type": "TimeSpan",
+      "_label": "Ross Knight Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15605",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15605",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2977",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1988–89",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-4 - 1989-12-6",
+                "begin_of_the_begin": "1989-23-4",
+                "end_of_the_end": "1989-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60548",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3499",
+              "type": "Event",
+              "_label": "Building Structures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-23-9 - 2003-31-1",
+                "begin_of_the_begin": "2002-23-9",
+                "end_of_the_end": "2003-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60549",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64151",
+  "type": "Person",
+  "_label": "Chelsea Peretti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21153",
+      "type": "Name",
+      "_label": "Chelsea Peretti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21153",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42306",
+      "type": "TimeSpan",
+      "_label": "Chelsea Peretti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21153",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42307",
+      "type": "TimeSpan",
+      "_label": "Chelsea Peretti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21153",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21153",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21905",
+              "type": "Event",
+              "_label": "Contagious Media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-28-4 - 2005-4-6",
+                "begin_of_the_begin": "2005-28-4",
+                "end_of_the_end": "2005-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72554",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

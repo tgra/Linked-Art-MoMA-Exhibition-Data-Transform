@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61153",
+  "type": "Person",
+  "_label": "Matthew Antezzo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19859",
+      "type": "Name",
+      "_label": "Matthew Antezzo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19859",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39718",
+      "type": "TimeSpan",
+      "_label": "Matthew Antezzo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19859",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39719",
+      "type": "TimeSpan",
+      "_label": "Matthew Antezzo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19859",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19859",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4981",
+              "type": "Event",
+              "_label": "What I Did On My Summer Vacation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-13-9 - 1996-20-10",
+                "begin_of_the_begin": "1996-13-9",
+                "end_of_the_end": "1996-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69340",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62480",
+  "type": "Person",
+  "_label": "John Monti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20371",
+      "type": "Name",
+      "_label": "John Monti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20371",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40742",
+      "type": "TimeSpan",
+      "_label": "John Monti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20371",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40743",
+      "type": "TimeSpan",
+      "_label": "John Monti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20371",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20371",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5084",
+              "type": "Event",
+              "_label": "White Room: John Monti",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-20-3 - 1992-18-4",
+                "begin_of_the_begin": "1992-20-3",
+                "end_of_the_end": "1992-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70543",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4958",
+              "type": "Event",
+              "_label": "Update 1992",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-11-9 - 1992-4-10",
+                "begin_of_the_begin": "1992-11-9",
+                "end_of_the_end": "1992-4-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70544",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

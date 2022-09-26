@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58833",
+  "type": "Person",
+  "_label": "Daryl Trivieri",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17410",
+      "type": "Name",
+      "_label": "Daryl Trivieri"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17410",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34820",
+      "type": "TimeSpan",
+      "_label": "Daryl Trivieri Birth timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17410",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34821",
+      "type": "TimeSpan",
+      "_label": "Daryl Trivieri Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17410",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17410",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3615",
+              "type": "Event",
+              "_label": "Dreamwork",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-11-12 - 1987-11-1",
+                "begin_of_the_begin": "1986-11-12",
+                "end_of_the_end": "1987-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64136",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

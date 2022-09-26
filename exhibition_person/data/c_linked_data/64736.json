@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64736",
+  "type": "Person",
+  "_label": "Gerard Collin-Thiébaut",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21402",
+      "type": "Name",
+      "_label": "Gerard Collin-Thiébaut"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21402",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42804",
+      "type": "TimeSpan",
+      "_label": "Gerard Collin-Thiébaut Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21402",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42805",
+      "type": "TimeSpan",
+      "_label": "Gerard Collin-Thiébaut Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21402",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21402",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17198",
+              "type": "Event",
+              "_label": "A Distanced View: One Aspect of Recent Art from Belgium, France, Germany and Holland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-9 - 1986-30-11",
+                "begin_of_the_begin": "1986-26-9",
+                "end_of_the_end": "1986-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72965",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

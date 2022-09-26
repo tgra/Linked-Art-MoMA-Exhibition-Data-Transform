@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3223",
+  "type": "Person",
+  "_label": "Stanley Landsman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11079",
+      "type": "Name",
+      "_label": "Stanley Landsman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5351",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1930–1984"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11079",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22158",
+      "type": "TimeSpan",
+      "_label": "Stanley Landsman Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11079",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22159",
+      "type": "TimeSpan",
+      "_label": "Stanley Landsman Death timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11079",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11079",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/926",
+              "type": "Event",
+              "_label": "The 1960s: Painting and Sculpture from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-28-6 - 1967-24-9",
+                "begin_of_the_begin": "1967-28-6",
+                "end_of_the_end": "1967-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36145",
+                  "type": "Place",
+                  "_label": "Ground Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6577",
+              "type": "Event",
+              "_label": "1968 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-16-12 - 1969-19-1",
+                "begin_of_the_begin": "1968-16-12",
+                "end_of_the_end": "1969-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36146",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

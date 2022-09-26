@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58339",
+  "type": "Person",
+  "_label": "Alma Suljevic",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16876",
+      "type": "Name",
+      "_label": "Alma Suljevic"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16876",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33752",
+      "type": "TimeSpan",
+      "_label": "Alma Suljevic Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16876",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33753",
+      "type": "TimeSpan",
+      "_label": "Alma Suljevic Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16876",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16876",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3605",
+              "type": "Event",
+              "_label": "The Edge of Awareness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-13-9 - 1998-18-10",
+                "begin_of_the_begin": "1998-13-9",
+                "end_of_the_end": "1998-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63231",
+                  "type": "Place",
+                  "_label": "PS1 and the United Nations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

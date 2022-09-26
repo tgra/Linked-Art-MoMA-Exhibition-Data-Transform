@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67673",
+  "type": "Person",
+  "_label": "They Might Be Giants",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23034",
+      "type": "Name",
+      "_label": "They Might Be Giants"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23034",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46068",
+      "type": "TimeSpan",
+      "_label": "They Might Be Giants Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23034",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46069",
+      "type": "TimeSpan",
+      "_label": "They Might Be Giants Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23034",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23034",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18147",
+              "type": "Event",
+              "_label": "8BC Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-2 - ",
+                "begin_of_the_begin": "1986-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76038",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

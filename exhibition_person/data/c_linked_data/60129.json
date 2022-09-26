@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60129",
+  "type": "Person",
+  "_label": "Kris Martin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18801",
+      "type": "Name",
+      "_label": "Kris Martin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18801",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37602",
+      "type": "TimeSpan",
+      "_label": "Kris Martin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18801",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37603",
+      "type": "TimeSpan",
+      "_label": "Kris Martin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18801",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18801",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2849",
+              "type": "Event",
+              "_label": "Kris Martin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-10 - 2008-7-1",
+                "begin_of_the_begin": "2007-21-10",
+                "end_of_the_end": "2008-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67146",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

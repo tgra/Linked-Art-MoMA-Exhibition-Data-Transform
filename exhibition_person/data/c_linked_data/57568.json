@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57568",
+  "type": "Person",
+  "_label": "Andy Grundberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16049",
+      "type": "Name",
+      "_label": "Andy Grundberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16049",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32098",
+      "type": "TimeSpan",
+      "_label": "Andy Grundberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16049",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32099",
+      "type": "TimeSpan",
+      "_label": "Andy Grundberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16049",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16049",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3660",
+              "type": "Event",
+              "_label": "Five Thursday Poetry Readings at the Clocktower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-12-2 - 1976-11-3",
+                "begin_of_the_begin": "1976-12-2",
+                "end_of_the_end": "1976-11-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61550",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58238",
+  "type": "Person",
+  "_label": "Richard Waters",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16769",
+      "type": "Name",
+      "_label": "Richard Waters"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16769",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33538",
+      "type": "TimeSpan",
+      "_label": "Richard Waters Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16769",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33539",
+      "type": "TimeSpan",
+      "_label": "Richard Waters Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16769",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16769",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3156",
+              "type": "Event",
+              "_label": "Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63045",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64452",
+  "type": "Person",
+  "_label": "Doug Ashford",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21277",
+      "type": "Name",
+      "_label": "Doug Ashford"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21277",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42554",
+      "type": "TimeSpan",
+      "_label": "Doug Ashford Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21277",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42555",
+      "type": "TimeSpan",
+      "_label": "Doug Ashford Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21277",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21277",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22003",
+              "type": "Event",
+              "_label": "Connie Hatch, Jessica Diamond, Group Material",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-4 - 1986-12-6",
+                "begin_of_the_begin": "1986-12-4",
+                "end_of_the_end": "1986-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72758",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18478",
+              "type": "Event",
+              "_label": "PERSUASION(S)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-14-10 - ",
+                "begin_of_the_begin": "1983-14-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72759",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

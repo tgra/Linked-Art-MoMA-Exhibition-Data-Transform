@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7651",
+  "type": "Person",
+  "_label": "Itsuko Hasegawa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25663",
+      "type": "Name",
+      "_label": "Itsuko Hasegawa"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8908",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51326",
+      "type": "TimeSpan",
+      "_label": "Itsuko Hasegawa Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51327",
+      "type": "TimeSpan",
+      "_label": "Itsuko Hasegawa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2895",
+              "type": "Event",
+              "_label": "Cities on the Move 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/83415",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

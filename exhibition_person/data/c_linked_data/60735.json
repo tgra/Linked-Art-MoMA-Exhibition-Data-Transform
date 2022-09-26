@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60735",
+  "type": "Person",
+  "_label": "Edna Andrade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19439",
+      "type": "Name",
+      "_label": "Edna Andrade"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19439",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38878",
+      "type": "TimeSpan",
+      "_label": "Edna Andrade Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19439",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38879",
+      "type": "TimeSpan",
+      "_label": "Edna Andrade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19439",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19439",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68556",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4307",
+              "type": "Event",
+              "_label": "Edna Andrade: Optical Paintings 1963-1986",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-18-1 - 2003-6-4",
+                "begin_of_the_begin": "2003-18-1",
+                "end_of_the_end": "2003-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68557",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

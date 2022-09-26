@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68275",
+  "type": "Person",
+  "_label": "Gisèle Trudel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23123",
+      "type": "Name",
+      "_label": "Gisèle Trudel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23123",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46246",
+      "type": "TimeSpan",
+      "_label": "Gisèle Trudel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23123",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46247",
+      "type": "TimeSpan",
+      "_label": "Gisèle Trudel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23123",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23123",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21927",
+              "type": "Event",
+              "_label": "Location/Dislocation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-25-9 - 2001-7-10",
+                "begin_of_the_begin": "2001-25-9",
+                "end_of_the_end": "2001-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76362",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6805",
+  "type": "Person",
+  "_label": "Jack Stuck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23104",
+      "type": "Name",
+      "_label": "Jack Stuck"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8355",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1925–1993"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23104",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46208",
+      "type": "TimeSpan",
+      "_label": "Jack Stuck Birth timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23104",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46209",
+      "type": "TimeSpan",
+      "_label": "Jack Stuck Death timespan",
+      "begin_of_the_begin": "1993",
+      "end_of_the_end": "1993"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23104",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23104",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6540",
+              "type": "Event",
+              "_label": "1965 Annual Exhibition: Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-8-12 - 1966-30-1",
+                "begin_of_the_begin": "1965-8-12",
+                "end_of_the_end": "1966-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76291",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

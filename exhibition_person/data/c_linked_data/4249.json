@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4249",
+  "type": "Person",
+  "_label": "Felipe Orlando",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13720",
+      "type": "Name",
+      "_label": "Felipe Orlando"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6448",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Cuban, 1911–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13720",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27440",
+      "type": "TimeSpan",
+      "_label": "Felipe Orlando Birth timespan",
+      "begin_of_the_begin": "1911",
+      "end_of_the_end": "1911"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13720",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27441",
+      "type": "TimeSpan",
+      "_label": "Felipe Orlando Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13720",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13720",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/305",
+              "type": "Event",
+              "_label": "Modern Cuban Painters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-17-3 - 1944-7-5",
+                "begin_of_the_begin": "1944-17-3",
+                "end_of_the_end": "1944-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47518",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30136",
+  "type": "Person",
+  "_label": "Pierre Kleykamp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8823",
+      "type": "Name",
+      "_label": "Pierre Kleykamp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8823",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17646",
+      "type": "TimeSpan",
+      "_label": "Pierre Kleykamp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8823",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17647",
+      "type": "TimeSpan",
+      "_label": "Pierre Kleykamp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8823",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8823",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/563",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-11 - 1952-27-1",
+                "begin_of_the_begin": "1951-27-11",
+                "end_of_the_end": "1952-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31923",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/610",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-22-9 - 1953-29-11",
+                "begin_of_the_begin": "1953-22-9",
+                "end_of_the_end": "1953-29-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31924",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/676",
+              "type": "Event",
+              "_label": "Textiles U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-29-8 - 1956-4-11",
+                "begin_of_the_begin": "1956-29-8",
+                "end_of_the_end": "1956-4-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31925",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

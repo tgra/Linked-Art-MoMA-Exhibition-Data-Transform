@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8689",
+  "type": "Person",
+  "_label": "Technics, Secaucus, NJ",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26252",
+      "type": "Name",
+      "_label": "Technics, Secaucus, NJ"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26252",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52504",
+      "type": "TimeSpan",
+      "_label": "Technics, Secaucus, NJ Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26252",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52505",
+      "type": "TimeSpan",
+      "_label": "Technics, Secaucus, NJ Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26252",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26252",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1975",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-2 - 1995-5-6",
+                "begin_of_the_begin": "1995-15-2",
+                "end_of_the_end": "1995-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85877",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

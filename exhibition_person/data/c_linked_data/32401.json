@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32401",
+  "type": "Person",
+  "_label": "Wolf Knoebel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11264",
+      "type": "Name",
+      "_label": "Wolf Knoebel"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5426",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1940"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11264",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22528",
+      "type": "TimeSpan",
+      "_label": "Wolf Knoebel Birth timespan",
+      "begin_of_the_begin": "1940",
+      "end_of_the_end": "1940"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11264",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22529",
+      "type": "TimeSpan",
+      "_label": "Wolf Knoebel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11264",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11264",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1322",
+              "type": "Event",
+              "_label": "Bookworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-17-3 - 1977-30-5",
+                "begin_of_the_begin": "1977-17-3",
+                "end_of_the_end": "1977-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36439",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

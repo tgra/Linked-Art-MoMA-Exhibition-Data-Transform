@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58731",
+  "type": "Person",
+  "_label": "Gerd Rohling",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17300",
+      "type": "Name",
+      "_label": "Gerd Rohling"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17300",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34600",
+      "type": "TimeSpan",
+      "_label": "Gerd Rohling Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17300",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34601",
+      "type": "TimeSpan",
+      "_label": "Gerd Rohling Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17300",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17300",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3166",
+              "type": "Event",
+              "_label": "International Studio Program (Spring 1981)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63930",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3683",
+              "type": "Event",
+              "_label": "Old World/New Works: International Studio Artists at the Clocktower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-6-1 - 1982-6-2",
+                "begin_of_the_begin": "1982-6-1",
+                "end_of_the_end": "1982-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63931",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

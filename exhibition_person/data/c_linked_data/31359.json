@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31359",
+  "type": "Person",
+  "_label": "Charles Paul Etienne Desavary-Dutilleux",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10143",
+      "type": "Name",
+      "_label": "Charles Paul Etienne Desavary-Dutilleux"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10143",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20286",
+      "type": "TimeSpan",
+      "_label": "Charles Paul Etienne Desavary-Dutilleux Birth timespan",
+      "begin_of_the_begin": "1837",
+      "end_of_the_end": "1837"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10143",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20287",
+      "type": "TimeSpan",
+      "_label": "Charles Paul Etienne Desavary-Dutilleux Death timespan",
+      "begin_of_the_begin": "1885",
+      "end_of_the_end": "1885"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10143",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10143",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/500",
+              "type": "Event",
+              "_label": "Roots of French Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-29-11 - 1950-15-1",
+                "begin_of_the_begin": "1949-29-11",
+                "end_of_the_end": "1950-15-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34381",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7733",
+  "type": "Person",
+  "_label": "Mario Gabinio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25732",
+      "type": "Name",
+      "_label": "Mario Gabinio"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8975",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, 1871–1938"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25732",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51464",
+      "type": "TimeSpan",
+      "_label": "Mario Gabinio Birth timespan",
+      "begin_of_the_begin": "1871",
+      "end_of_the_end": "1871"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25732",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51465",
+      "type": "TimeSpan",
+      "_label": "Mario Gabinio Death timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25732",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25732",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2309",
+              "type": "Event",
+              "_label": "Photography Collection: Rotation 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-15-3 - 2006-27-11",
+                "begin_of_the_begin": "2006-15-3",
+                "end_of_the_end": "2006-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/83814",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

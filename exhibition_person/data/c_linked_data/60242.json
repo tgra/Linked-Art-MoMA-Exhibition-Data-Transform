@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60242",
+  "type": "Person",
+  "_label": "Fern Silva",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18922",
+      "type": "Name",
+      "_label": "Fern Silva"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18922",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37844",
+      "type": "TimeSpan",
+      "_label": "Fern Silva Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18922",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37845",
+      "type": "TimeSpan",
+      "_label": "Fern Silva Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18922",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18922",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67384",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/16960",
+              "type": "Event",
+              "_label": "Screens Series: Fern Silva",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-24-5 - 2017-16-7",
+                "begin_of_the_begin": "2017-24-5",
+                "end_of_the_end": "2017-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67385",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

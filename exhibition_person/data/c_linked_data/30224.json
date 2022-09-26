@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30224",
+  "type": "Person",
+  "_label": "James F. Bly",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8919",
+      "type": "Name",
+      "_label": "James F. Bly"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8919",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17838",
+      "type": "TimeSpan",
+      "_label": "James F. Bly Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8919",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17839",
+      "type": "TimeSpan",
+      "_label": "James F. Bly Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8919",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8919",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/77",
+              "type": "Event",
+              "_label": "Architecture in Government Housing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-8-6 - 1936-13-7",
+                "begin_of_the_begin": "1936-8-6",
+                "end_of_the_end": "1936-13-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32168",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

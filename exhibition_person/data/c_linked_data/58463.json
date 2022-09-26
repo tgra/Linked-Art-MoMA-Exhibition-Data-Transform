@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58463",
+  "type": "Person",
+  "_label": "Franky Kong",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17009",
+      "type": "Name",
+      "_label": "Franky Kong"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17009",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34018",
+      "type": "TimeSpan",
+      "_label": "Franky Kong Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17009",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34019",
+      "type": "TimeSpan",
+      "_label": "Franky Kong Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17009",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17009",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3052",
+              "type": "Event",
+              "_label": "Franky Kong: Drawing On",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-6 - 1999-29-8",
+                "begin_of_the_begin": "1999-20-6",
+                "end_of_the_end": "1999-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63446",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

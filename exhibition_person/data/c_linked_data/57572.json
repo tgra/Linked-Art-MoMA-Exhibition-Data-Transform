@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57572",
+  "type": "Person",
+  "_label": "Gioia Timpanelli",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16054",
+      "type": "Name",
+      "_label": "Gioia Timpanelli"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16054",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32108",
+      "type": "TimeSpan",
+      "_label": "Gioia Timpanelli Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16054",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32109",
+      "type": "TimeSpan",
+      "_label": "Gioia Timpanelli Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16054",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16054",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2982",
+              "type": "Event",
+              "_label": "Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-7-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-7-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61587",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

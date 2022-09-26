@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6744",
+  "type": "Person",
+  "_label": "Tony Fitzpatrick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22792",
+      "type": "Name",
+      "_label": "Tony Fitzpatrick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8318",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1958"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22792",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45584",
+      "type": "TimeSpan",
+      "_label": "Tony Fitzpatrick Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22792",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45585",
+      "type": "TimeSpan",
+      "_label": "Tony Fitzpatrick Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22792",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22792",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2852",
+              "type": "Event",
+              "_label": "International and National Projects Fall 2007: Eyal Danieli, Manon de Boer, Shannon Ebner, Tony Fitzpatrick, Anders Goldfarb, Lisa Kirk, Diana Puntar, and Andreas Zybach",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-10 - 2008-14-1",
+                "begin_of_the_begin": "2007-21-10",
+                "end_of_the_end": "2008-14-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75707",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2436",
+              "type": "Event",
+              "_label": "Compass in Hand: Selections from the Judith Rothschild Foundation Contemporary Drawings Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-22-4 - 2010-4-1",
+                "begin_of_the_begin": "2009-22-4",
+                "end_of_the_end": "2010-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75708",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

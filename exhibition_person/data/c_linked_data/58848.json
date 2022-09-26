@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58848",
+  "type": "Person",
+  "_label": "Robert Poss",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17425",
+      "type": "Name",
+      "_label": "Robert Poss"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17425",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34850",
+      "type": "TimeSpan",
+      "_label": "Robert Poss Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17425",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34851",
+      "type": "TimeSpan",
+      "_label": "Robert Poss Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17425",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17425",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3706",
+              "type": "Event",
+              "_label": "Music (Spring 1988): The Anatomy of Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-18-5 - 1988-20-5",
+                "begin_of_the_begin": "1988-18-5",
+                "end_of_the_end": "1988-20-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64169",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

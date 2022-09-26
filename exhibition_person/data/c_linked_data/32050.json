@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32050",
+  "type": "Person",
+  "_label": "Božidar Džmerković",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10884",
+      "type": "Name",
+      "_label": "Božidar Džmerković"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10884",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21768",
+      "type": "TimeSpan",
+      "_label": "Božidar Džmerković Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10884",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21769",
+      "type": "TimeSpan",
+      "_label": "Božidar Džmerković Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10884",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10884",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1016",
+              "type": "Event",
+              "_label": "Yugoslavia: A Report",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-29-9 - 1969-30-11",
+                "begin_of_the_begin": "1969-29-9",
+                "end_of_the_end": "1969-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35844",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

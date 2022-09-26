@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8692",
+  "type": "Person",
+  "_label": "Homer Laughlin China Co.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26254",
+      "type": "Name",
+      "_label": "Homer Laughlin China Co."
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9380",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "established 1877"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26254",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52508",
+      "type": "TimeSpan",
+      "_label": "Homer Laughlin China Co. Birth timespan",
+      "begin_of_the_begin": "1877",
+      "end_of_the_end": "1877"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26254",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52509",
+      "type": "TimeSpan",
+      "_label": "Homer Laughlin China Co. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26254",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26254",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/122",
+              "type": "Event",
+              "_label": "Useful Household Objects under $5.00",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-28-9 - 1938-28-10",
+                "begin_of_the_begin": "1938-28-9",
+                "end_of_the_end": "1938-28-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85879",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61449",
+  "type": "Person",
+  "_label": "Maurice Clifford",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19971",
+      "type": "Name",
+      "_label": "Maurice Clifford"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19971",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39942",
+      "type": "TimeSpan",
+      "_label": "Maurice Clifford Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19971",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39943",
+      "type": "TimeSpan",
+      "_label": "Maurice Clifford Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19971",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19971",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5260",
+              "type": "Event",
+              "_label": "\"3/7/3\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-10-3 - 1981-28-3",
+                "begin_of_the_begin": "1981-10-3",
+                "end_of_the_end": "1981-28-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69607",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4626",
+              "type": "Event",
+              "_label": "Group Show: April 21 - May 9, 1981",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-21-4 - 1981-9-5",
+                "begin_of_the_begin": "1981-21-4",
+                "end_of_the_end": "1981-9-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69608",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

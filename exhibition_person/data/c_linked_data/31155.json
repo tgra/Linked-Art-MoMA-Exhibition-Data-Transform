@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31155",
+  "type": "Person",
+  "_label": "Glenn W. Peart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9920",
+      "type": "Name",
+      "_label": "Glenn W. Peart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9920",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19840",
+      "type": "TimeSpan",
+      "_label": "Glenn W. Peart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9920",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19841",
+      "type": "TimeSpan",
+      "_label": "Glenn W. Peart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9920",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9920",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/231",
+              "type": "Event",
+              "_label": "Road to Victory",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-21-5 - 1942-4-10",
+                "begin_of_the_begin": "1942-21-5",
+                "end_of_the_end": "1942-4-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34023",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

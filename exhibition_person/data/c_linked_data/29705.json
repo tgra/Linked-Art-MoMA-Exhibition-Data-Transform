@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29705",
+  "type": "Person",
+  "_label": "Kampa Mfg. Co.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8360",
+      "type": "Name",
+      "_label": "Kampa Mfg. Co."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8360",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16720",
+      "type": "TimeSpan",
+      "_label": "Kampa Mfg. Co. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8360",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16721",
+      "type": "TimeSpan",
+      "_label": "Kampa Mfg. Co. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8360",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8360",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/257",
+              "type": "Event",
+              "_label": "Useful Objects in Wartime under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-2-12 - 1943-9-1",
+                "begin_of_the_begin": "1942-2-12",
+                "end_of_the_end": "1943-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30799",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/364",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-21-11 - 1946-6-1",
+                "begin_of_the_begin": "1945-21-11",
+                "end_of_the_end": "1946-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30800",
+                  "type": "Place",
+                  "_label": "1st Floor, Architecture and Industrial Design Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

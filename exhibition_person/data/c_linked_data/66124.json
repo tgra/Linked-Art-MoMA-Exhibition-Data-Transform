@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66124",
+  "type": "Person",
+  "_label": "Nato Thompson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22040",
+      "type": "Name",
+      "_label": "Nato Thompson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22040",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44080",
+      "type": "TimeSpan",
+      "_label": "Nato Thompson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22040",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44081",
+      "type": "TimeSpan",
+      "_label": "Nato Thompson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22040",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22040",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17049",
+              "type": "Event",
+              "_label": "New Commissions (Three M Project): Jeremy Deller: It Is What It Is: Conversations About Iraq",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-11-2 - 2009-22-3",
+                "begin_of_the_begin": "2009-11-2",
+                "end_of_the_end": "2009-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74325",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56694",
+  "type": "Person",
+  "_label": "Tom Rose",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15112",
+      "type": "Name",
+      "_label": "Tom Rose"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15112",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30224",
+      "type": "TimeSpan",
+      "_label": "Tom Rose Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15112",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30225",
+      "type": "TimeSpan",
+      "_label": "Tom Rose Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15112",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15112",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3628",
+              "type": "Event",
+              "_label": "Tom Rose: Certain Ambiguities",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-21-9 - 1977-27-10",
+                "begin_of_the_begin": "1977-21-9",
+                "end_of_the_end": "1977-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59347",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3041",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1978)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-10 - 1978-19-11",
+                "begin_of_the_begin": "1978-1-10",
+                "end_of_the_end": "1978-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59348",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

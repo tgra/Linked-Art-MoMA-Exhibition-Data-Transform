@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62524",
+  "type": "Person",
+  "_label": "Mary Murphy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20388",
+      "type": "Name",
+      "_label": "Mary Murphy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20388",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40776",
+      "type": "TimeSpan",
+      "_label": "Mary Murphy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20388",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40777",
+      "type": "TimeSpan",
+      "_label": "Mary Murphy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20388",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20388",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4962",
+              "type": "Event",
+              "_label": "Vibology",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-9-10 - 1992-1-11",
+                "begin_of_the_begin": "1992-9-10",
+                "end_of_the_end": "1992-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70583",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

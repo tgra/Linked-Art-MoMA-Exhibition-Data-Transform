@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59915",
+  "type": "Person",
+  "_label": "Ian Burns",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18571",
+      "type": "Name",
+      "_label": "Ian Burns"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7846",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Australian, 1964-"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18571",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37142",
+      "type": "TimeSpan",
+      "_label": "Ian Burns Birth timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18571",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37143",
+      "type": "TimeSpan",
+      "_label": "Ian Burns Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18571",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18571",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66578",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

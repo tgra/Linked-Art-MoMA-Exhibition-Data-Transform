@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/52180",
+  "type": "Person",
+  "_label": "Elizabeth Levine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14661",
+      "type": "Name",
+      "_label": "Elizabeth Levine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14661",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29322",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Levine Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14661",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29323",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Levine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14661",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14661",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/945",
+              "type": "Event",
+              "_label": "Composing the Figure",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-10 - 2000-1-2",
+                "begin_of_the_begin": "1999-7-10",
+                "end_of_the_end": "2000-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55739",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2159",
+              "type": "Event",
+              "_label": "Modern Starts: Things",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-21-11 - 2000-14-3",
+                "begin_of_the_begin": "1999-21-11",
+                "end_of_the_end": "2000-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55740",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

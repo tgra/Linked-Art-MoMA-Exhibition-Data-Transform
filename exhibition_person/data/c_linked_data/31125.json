@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31125",
+  "type": "Person",
+  "_label": "Josephine Joy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9887",
+      "type": "Name",
+      "_label": "Josephine Joy"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5219",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1869"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9887",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19774",
+      "type": "TimeSpan",
+      "_label": "Josephine Joy Birth timespan",
+      "begin_of_the_begin": "1869",
+      "end_of_the_end": "1869"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9887",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19775",
+      "type": "TimeSpan",
+      "_label": "Josephine Joy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9887",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9887",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/234",
+              "type": "Event",
+              "_label": "Josephine Joy: Romantic Painter",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-12-6 - 1942-7-10",
+                "begin_of_the_begin": "1942-12-6",
+                "end_of_the_end": "1942-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33964",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

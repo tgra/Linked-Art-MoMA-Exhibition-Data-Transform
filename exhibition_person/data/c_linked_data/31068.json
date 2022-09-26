@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31068",
+  "type": "Person",
+  "_label": "Edith Schloss",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9827",
+      "type": "Name",
+      "_label": "Edith Schloss"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9827",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19654",
+      "type": "TimeSpan",
+      "_label": "Edith Schloss Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9827",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19655",
+      "type": "TimeSpan",
+      "_label": "Edith Schloss Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9827",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9827",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/773",
+              "type": "Event",
+              "_label": "The Art of Assemblage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-4-10 - 1961-12-11",
+                "begin_of_the_begin": "1961-4-10",
+                "end_of_the_end": "1961-12-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33874",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

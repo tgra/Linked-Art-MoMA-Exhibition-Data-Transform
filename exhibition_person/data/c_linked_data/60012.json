@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60012",
+  "type": "Person",
+  "_label": "Chuck Webster",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18676",
+      "type": "Name",
+      "_label": "Chuck Webster"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18676",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37352",
+      "type": "TimeSpan",
+      "_label": "Chuck Webster Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18676",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37353",
+      "type": "TimeSpan",
+      "_label": "Chuck Webster Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18676",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18676",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3501",
+              "type": "Event",
+              "_label": "The Painted World",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-10 - 2006-13-3",
+                "begin_of_the_begin": "2005-23-10",
+                "end_of_the_end": "2006-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66883",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6165",
+  "type": "Person",
+  "_label": "Dick Wray",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20049",
+      "type": "Name",
+      "_label": "Dick Wray"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7976",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20049",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40098",
+      "type": "TimeSpan",
+      "_label": "Dick Wray Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20049",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40099",
+      "type": "TimeSpan",
+      "_label": "Dick Wray Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20049",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20049",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2765",
+              "type": "Event",
+              "_label": "Fresh Paint: The Houston School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69798",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1000",
+              "type": "Event",
+              "_label": "Tamarind: Homage to Lithography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-29-4 - 1969-1-9",
+                "begin_of_the_begin": "1969-29-4",
+                "end_of_the_end": "1969-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69799",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68336",
+  "type": "Person",
+  "_label": "Jahmal B. Golden",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23177",
+      "type": "Name",
+      "_label": "Jahmal B. Golden"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23177",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46354",
+      "type": "TimeSpan",
+      "_label": "Jahmal B. Golden Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23177",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46355",
+      "type": "TimeSpan",
+      "_label": "Jahmal B. Golden Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23177",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23177",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16961",
+              "type": "Event",
+              "_label": "RAGGA NYC: All the threatened and delicious things joining one another",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-3-5 - 2017-25-6",
+                "begin_of_the_begin": "2017-3-5",
+                "end_of_the_end": "2017-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76424",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

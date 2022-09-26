@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60669",
+  "type": "Person",
+  "_label": "Becky Young",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19371",
+      "type": "Name",
+      "_label": "Becky Young"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19371",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38742",
+      "type": "TimeSpan",
+      "_label": "Becky Young Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19371",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38743",
+      "type": "TimeSpan",
+      "_label": "Becky Young Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19371",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19371",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4142",
+              "type": "Event",
+              "_label": "Street Sights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-5 - 1980-18-5",
+                "begin_of_the_begin": "1980-1-5",
+                "end_of_the_end": "1980-18-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68451",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4137",
+              "type": "Event",
+              "_label": "Photography: Made in Philadelphia 5",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-5-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-5-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68452",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

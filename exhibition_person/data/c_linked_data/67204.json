@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67204",
+  "type": "Person",
+  "_label": "Yolande Racine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22563",
+      "type": "Name",
+      "_label": "Yolande Racine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22563",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45126",
+      "type": "TimeSpan",
+      "_label": "Yolande Racine Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22563",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45127",
+      "type": "TimeSpan",
+      "_label": "Yolande Racine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22563",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22563",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17185",
+              "type": "Event",
+              "_label": "Betty Goodwin: New Work",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-11-9 - 1987-8-11",
+                "begin_of_the_begin": "1987-11-9",
+                "end_of_the_end": "1987-8-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75359",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33123",
+  "type": "Person",
+  "_label": "Brian Hagiwara",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12032",
+      "type": "Name",
+      "_label": "Brian Hagiwara"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12032",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24064",
+      "type": "TimeSpan",
+      "_label": "Brian Hagiwara Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12032",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24065",
+      "type": "TimeSpan",
+      "_label": "Brian Hagiwara Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12032",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12032",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3164",
+              "type": "Event",
+              "_label": "Photography (Spring 1981): Couches, Diamonds and Pie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38328",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1444",
+              "type": "Event",
+              "_label": "People Watching",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-1-10 - 1979-27-11",
+                "begin_of_the_begin": "1979-1-10",
+                "end_of_the_end": "1979-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38329",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

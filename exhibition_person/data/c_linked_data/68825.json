@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68825",
+  "type": "Person",
+  "_label": "The Belltones",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23342",
+      "type": "Name",
+      "_label": "The Belltones"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23342",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46684",
+      "type": "TimeSpan",
+      "_label": "The Belltones Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23342",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46685",
+      "type": "TimeSpan",
+      "_label": "The Belltones Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23342",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23342",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7333",
+              "type": "Event",
+              "_label": "The Event of the Screw",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-12-7 - ",
+                "begin_of_the_begin": "1962-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76734",
+                  "type": "Place",
+                  "_label": "Exterior of MoMA, Whitney, Guggenheim",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

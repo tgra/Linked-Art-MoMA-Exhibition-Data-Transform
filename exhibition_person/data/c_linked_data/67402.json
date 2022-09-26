@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67402",
+  "type": "Person",
+  "_label": "Maita di Niscemi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22752",
+      "type": "Name",
+      "_label": "Maita di Niscemi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22752",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45504",
+      "type": "TimeSpan",
+      "_label": "Maita di Niscemi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22752",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45505",
+      "type": "TimeSpan",
+      "_label": "Maita di Niscemi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22752",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22752",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18439",
+              "type": "Event",
+              "_label": "Naked Revolution",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-7-10 - ",
+                "begin_of_the_begin": "1997-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75634",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

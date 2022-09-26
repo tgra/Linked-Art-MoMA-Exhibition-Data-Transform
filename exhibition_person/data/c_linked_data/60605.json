@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60605",
+  "type": "Person",
+  "_label": "Joelin Todd",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19306",
+      "type": "Name",
+      "_label": "Joelin Todd"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19306",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38612",
+      "type": "TimeSpan",
+      "_label": "Joelin Todd Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19306",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38613",
+      "type": "TimeSpan",
+      "_label": "Joelin Todd Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19306",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19306",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4416",
+              "type": "Event",
+              "_label": "Paintings by Benton, Grillo, Parker, Schapiro, Todd, Wilson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-21-10 - 1952-9-11",
+                "begin_of_the_begin": "1952-21-10",
+                "end_of_the_end": "1952-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68255",
+                  "type": "Place",
+                  "_label": "51 East 4th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4205",
+              "type": "Event",
+              "_label": "Christmas Show: Works by 68 Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-14-12 - 1954-10-1",
+                "begin_of_the_begin": "1953-14-12",
+                "end_of_the_end": "1954-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68256",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

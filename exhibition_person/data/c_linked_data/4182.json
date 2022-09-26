@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4182",
+  "type": "Person",
+  "_label": "Roderic O'Conor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13657",
+      "type": "Name",
+      "_label": "Roderic O'Conor"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6394",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Irish, 1860–1940"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13657",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27314",
+      "type": "TimeSpan",
+      "_label": "Roderic O'Conor Birth timespan",
+      "begin_of_the_begin": "1860",
+      "end_of_the_end": "1860"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13657",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27315",
+      "type": "TimeSpan",
+      "_label": "Roderic O'Conor Death timespan",
+      "begin_of_the_begin": "1940",
+      "end_of_the_end": "1940"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13657",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13657",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/679",
+              "type": "Event",
+              "_label": "Recent European Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-28-11 - 1957-20-1",
+                "begin_of_the_begin": "1956-28-11",
+                "end_of_the_end": "1957-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47065",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1664",
+              "type": "Event",
+              "_label": "Gaugin and his Circle in Brittany: The Prints of the Pont-Aven School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-22-5 - 1987-26-7",
+                "begin_of_the_begin": "1987-22-5",
+                "end_of_the_end": "1987-26-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47066",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

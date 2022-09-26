@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69819",
+  "type": "Person",
+  "_label": "William Gambini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23945",
+      "type": "Name",
+      "_label": "William Gambini"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23945",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47890",
+      "type": "TimeSpan",
+      "_label": "William Gambini Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23945",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47891",
+      "type": "TimeSpan",
+      "_label": "William Gambini Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23945",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23945",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6456",
+              "type": "Event",
+              "_label": "Annual Exhibition: Sculpture, Paintings, Watercolors and Drawings ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-13-11 - 1957-6-1",
+                "begin_of_the_begin": "1956-13-11",
+                "end_of_the_end": "1957-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78289",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8004",
+  "type": "Person",
+  "_label": "Keiji Otani",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25895",
+      "type": "Name",
+      "_label": "Keiji Otani"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9136",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25895",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51790",
+      "type": "TimeSpan",
+      "_label": "Keiji Otani Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25895",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51791",
+      "type": "TimeSpan",
+      "_label": "Keiji Otani Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25895",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25895",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2123",
+              "type": "Event",
+              "_label": "Structure and Surface: Contemporary Japanese Textiles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-12-11 - 1999-26-1",
+                "begin_of_the_begin": "1998-12-11",
+                "end_of_the_end": "1999-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84471",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

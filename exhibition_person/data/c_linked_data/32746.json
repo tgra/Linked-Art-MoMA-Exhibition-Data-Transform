@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32746",
+  "type": "Person",
+  "_label": "David de Long",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11634",
+      "type": "Name",
+      "_label": "David de Long"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11634",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23268",
+      "type": "TimeSpan",
+      "_label": "David de Long Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11634",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23269",
+      "type": "TimeSpan",
+      "_label": "David de Long Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11634",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11634",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1874",
+              "type": "Event",
+              "_label": "Louis I. Kahn: In the Realm of Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-14-6 - 1992-18-8",
+                "begin_of_the_begin": "1992-14-6",
+                "end_of_the_end": "1992-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37256",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7893",
+  "type": "Person",
+  "_label": "Dagoberto Rodriguez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25839",
+      "type": "Name",
+      "_label": "Dagoberto Rodriguez"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9080",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Cuban, born 1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25839",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51678",
+      "type": "TimeSpan",
+      "_label": "Dagoberto Rodriguez Birth timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25839",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51679",
+      "type": "TimeSpan",
+      "_label": "Dagoberto Rodriguez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25839",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25839",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21962",
+              "type": "Event",
+              "_label": "Bili Bidjocka, Los Carpinteros, Rivane Neuenschwander",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-6 - 1998-20-9",
+                "begin_of_the_begin": "1998-18-6",
+                "end_of_the_end": "1998-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84264",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

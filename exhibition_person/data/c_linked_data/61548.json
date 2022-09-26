@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61548",
+  "type": "Person",
+  "_label": "Amber Denker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20014",
+      "type": "Name",
+      "_label": "Amber Denker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20014",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40028",
+      "type": "TimeSpan",
+      "_label": "Amber Denker Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20014",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40029",
+      "type": "TimeSpan",
+      "_label": "Amber Denker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20014",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20014",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5417",
+              "type": "Event",
+              "_label": "White Room: Amber Denker",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-20-11 - 1987-12-12",
+                "begin_of_the_begin": "1987-20-11",
+                "end_of_the_end": "1987-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69707",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4954",
+              "type": "Event",
+              "_label": "Update 1987-88",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-21-5 - 1988-25-6",
+                "begin_of_the_begin": "1988-21-5",
+                "end_of_the_end": "1988-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69708",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

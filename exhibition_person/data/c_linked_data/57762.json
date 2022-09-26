@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57762",
+  "type": "Person",
+  "_label": "Peter Pfau",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16255",
+      "type": "Name",
+      "_label": "Peter Pfau"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16255",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32510",
+      "type": "TimeSpan",
+      "_label": "Peter Pfau Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16255",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32511",
+      "type": "TimeSpan",
+      "_label": "Peter Pfau Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16255",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16255",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2752",
+              "type": "Event",
+              "_label": "Architecture (Fall 1986): Building: Machines",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-10 - 1986-21-12",
+                "begin_of_the_begin": "1986-26-10",
+                "end_of_the_end": "1986-21-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61930",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

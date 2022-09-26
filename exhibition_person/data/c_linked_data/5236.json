@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5236",
+  "type": "Person",
+  "_label": "Gustave Singier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14697",
+      "type": "Name",
+      "_label": "Gustave Singier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7247",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14697",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29394",
+      "type": "TimeSpan",
+      "_label": "Gustave Singier Birth timespan",
+      "begin_of_the_begin": "1909",
+      "end_of_the_end": "1909"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14697",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29395",
+      "type": "TimeSpan",
+      "_label": "Gustave Singier Death timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14697",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14697",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/636",
+              "type": "Event",
+              "_label": "Modern Masterprints of Europe",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-7-12 - 1955-1-2",
+                "begin_of_the_begin": "1954-7-12",
+                "end_of_the_end": "1955-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55810",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

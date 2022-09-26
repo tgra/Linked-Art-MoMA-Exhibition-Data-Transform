@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60595",
+  "type": "Person",
+  "_label": "Perry Steindel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19296",
+      "type": "Name",
+      "_label": "Perry Steindel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38592",
+      "type": "TimeSpan",
+      "_label": "Perry Steindel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38593",
+      "type": "TimeSpan",
+      "_label": "Perry Steindel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4160",
+              "type": "Event",
+              "_label": "The Philadelphia Houston Exchange",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-8-10 - 1976-17-11",
+                "begin_of_the_begin": "1976-8-10",
+                "end_of_the_end": "1976-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68211",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4141",
+              "type": "Event",
+              "_label": "Made in Philadelphia 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-4 - 1980-23-5",
+                "begin_of_the_begin": "1980-1-4",
+                "end_of_the_end": "1980-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68212",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

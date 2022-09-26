@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66484",
+  "type": "Person",
+  "_label": "Rio Valledor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22214",
+      "type": "Name",
+      "_label": "Rio Valledor"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22214",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44428",
+      "type": "TimeSpan",
+      "_label": "Rio Valledor Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22214",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44429",
+      "type": "TimeSpan",
+      "_label": "Rio Valledor Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22214",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22214",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17105",
+              "type": "Event",
+              "_label": "alt.youth.media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-9 - 1996-5-11",
+                "begin_of_the_begin": "1996-6-9",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74636",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

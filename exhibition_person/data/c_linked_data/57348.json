@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57348",
+  "type": "Person",
+  "_label": "Tania Mouraud",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15814",
+      "type": "Name",
+      "_label": "Tania Mouraud"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15814",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31628",
+      "type": "TimeSpan",
+      "_label": "Tania Mouraud Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15814",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31629",
+      "type": "TimeSpan",
+      "_label": "Tania Mouraud Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15814",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15814",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3033",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-9 - 1977-1-12",
+                "begin_of_the_begin": "1977-1-9",
+                "end_of_the_end": "1977-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60962",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

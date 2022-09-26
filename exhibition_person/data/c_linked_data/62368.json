@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62368",
+  "type": "Person",
+  "_label": "Kate Manheim",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20325",
+      "type": "Name",
+      "_label": "Kate Manheim"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20325",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40650",
+      "type": "TimeSpan",
+      "_label": "Kate Manheim Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20325",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40651",
+      "type": "TimeSpan",
+      "_label": "Kate Manheim Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20325",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20325",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4718",
+              "type": "Event",
+              "_label": "Kate Manheim",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-12-6 - 2015-25-7",
+                "begin_of_the_begin": "2015-12-6",
+                "end_of_the_end": "2015-25-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70445",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

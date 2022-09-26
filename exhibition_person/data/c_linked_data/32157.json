@@ -1,0 +1,101 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32157",
+  "type": "Person",
+  "_label": "Catherine Bauer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10999",
+      "type": "Name",
+      "_label": "Catherine Bauer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10999",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21998",
+      "type": "TimeSpan",
+      "_label": "Catherine Bauer Birth timespan",
+      "begin_of_the_begin": "1905",
+      "end_of_the_end": "1905"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10999",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21999",
+      "type": "TimeSpan",
+      "_label": "Catherine Bauer Death timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10999",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10999",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/196",
+              "type": "Event",
+              "_label": "Organic Design in Home Furnishings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-24-9 - 1941-9-11",
+                "begin_of_the_begin": "1941-24-9",
+                "end_of_the_end": "1941-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36025",
+                  "type": "Place",
+                  "_label": "Sculpture Garden and 1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/515",
+              "type": "Event",
+              "_label": "Prize Designs for Modern Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-16-5 - 1950-16-7",
+                "begin_of_the_begin": "1950-16-5",
+                "end_of_the_end": "1950-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36026",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

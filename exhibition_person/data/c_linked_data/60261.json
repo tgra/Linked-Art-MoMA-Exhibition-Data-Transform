@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60261",
+  "type": "Person",
+  "_label": "Alejandro Jodorowsky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18942",
+      "type": "Name",
+      "_label": "Alejandro Jodorowsky"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18942",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37884",
+      "type": "TimeSpan",
+      "_label": "Alejandro Jodorowsky Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18942",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37885",
+      "type": "TimeSpan",
+      "_label": "Alejandro Jodorowsky Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18942",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18942",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3512",
+              "type": "Event",
+              "_label": "Alejandro Jodorowsky: The Holy Mountain",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-22-5 - 2011-24-7",
+                "begin_of_the_begin": "2011-22-5",
+                "end_of_the_end": "2011-24-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67420",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

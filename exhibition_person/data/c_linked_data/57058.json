@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57058",
+  "type": "Person",
+  "_label": "James Collins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15501",
+      "type": "Name",
+      "_label": "James Collins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15501",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31002",
+      "type": "TimeSpan",
+      "_label": "James Collins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15501",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31003",
+      "type": "TimeSpan",
+      "_label": "James Collins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15501",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15501",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3164",
+              "type": "Event",
+              "_label": "Photography (Spring 1981): Couches, Diamonds and Pie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60317",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

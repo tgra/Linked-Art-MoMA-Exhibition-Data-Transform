@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57408",
+  "type": "Person",
+  "_label": "Jerry Clapsaddle",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15879",
+      "type": "Name",
+      "_label": "Jerry Clapsaddle"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15879",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31758",
+      "type": "TimeSpan",
+      "_label": "Jerry Clapsaddle Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15879",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31759",
+      "type": "TimeSpan",
+      "_label": "Jerry Clapsaddle Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15879",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15879",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3035",
+              "type": "Event",
+              "_label": "Pattern Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-14-11 - 1977-4-12",
+                "begin_of_the_begin": "1977-14-11",
+                "end_of_the_end": "1977-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61076",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

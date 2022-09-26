@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31822",
+  "type": "Person",
+  "_label": "James A. Kern",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10638",
+      "type": "Name",
+      "_label": "James A. Kern"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10638",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21276",
+      "type": "TimeSpan",
+      "_label": "James A. Kern Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10638",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21277",
+      "type": "TimeSpan",
+      "_label": "James A. Kern Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10638",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10638",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/846",
+              "type": "Event",
+              "_label": "The Photo Essay",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-16-3 - 1965-16-5",
+                "begin_of_the_begin": "1965-16-3",
+                "end_of_the_end": "1965-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35381",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

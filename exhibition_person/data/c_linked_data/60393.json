@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60393",
+  "type": "Person",
+  "_label": "Hermann Weizenegger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19085",
+      "type": "Name",
+      "_label": "Hermann Weizenegger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19085",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38170",
+      "type": "TimeSpan",
+      "_label": "Hermann Weizenegger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19085",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38171",
+      "type": "TimeSpan",
+      "_label": "Hermann Weizenegger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19085",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19085",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2897",
+              "type": "Event",
+              "_label": "Children of Berlin: Cultural Developments 1989–1999",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-11 - 2000-2-1",
+                "begin_of_the_begin": "1999-7-11",
+                "end_of_the_end": "2000-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67701",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

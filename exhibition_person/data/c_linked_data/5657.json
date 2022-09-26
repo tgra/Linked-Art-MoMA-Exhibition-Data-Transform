@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5657",
+  "type": "Person",
+  "_label": "Zdravko Tisljar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15039",
+      "type": "Name",
+      "_label": "Zdravko Tisljar"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7578",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Yugoslav, born 1938"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15039",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30078",
+      "type": "TimeSpan",
+      "_label": "Zdravko Tisljar Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15039",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30079",
+      "type": "TimeSpan",
+      "_label": "Zdravko Tisljar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15039",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15039",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1016",
+              "type": "Event",
+              "_label": "Yugoslavia: A Report",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-29-9 - 1969-30-11",
+                "begin_of_the_begin": "1969-29-9",
+                "end_of_the_end": "1969-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59093",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

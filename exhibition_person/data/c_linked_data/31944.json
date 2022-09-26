@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31944",
+  "type": "Person",
+  "_label": "Shell Development Company",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10768",
+      "type": "Name",
+      "_label": "Shell Development Company"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10768",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21536",
+      "type": "TimeSpan",
+      "_label": "Shell Development Company Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10768",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21537",
+      "type": "TimeSpan",
+      "_label": "Shell Development Company Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10768",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10768",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/925",
+              "type": "Event",
+              "_label": "Once Invisible",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-20-6 - 1967-11-9",
+                "begin_of_the_begin": "1967-20-6",
+                "end_of_the_end": "1967-11-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35681",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67574",
+  "type": "Person",
+  "_label": "Cindy Jackson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22936",
+      "type": "Name",
+      "_label": "Cindy Jackson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22936",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45872",
+      "type": "TimeSpan",
+      "_label": "Cindy Jackson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22936",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45873",
+      "type": "TimeSpan",
+      "_label": "Cindy Jackson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22936",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22936",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18223",
+              "type": "Event",
+              "_label": "Cafe Barbie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-10-11 - ",
+                "begin_of_the_begin": "1994-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75910",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28421",
+              "type": "Event",
+              "_label": "Cafe Barbie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-10-11 - 1994-10-11",
+                "begin_of_the_begin": "1994-10-11",
+                "end_of_the_end": "1994-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75911",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

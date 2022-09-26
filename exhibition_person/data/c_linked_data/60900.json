@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60900",
+  "type": "Person",
+  "_label": "Michael Linares",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19619",
+      "type": "Name",
+      "_label": "Michael Linares"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19619",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39238",
+      "type": "TimeSpan",
+      "_label": "Michael Linares Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19619",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39239",
+      "type": "TimeSpan",
+      "_label": "Michael Linares Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19619",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19619",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4266",
+              "type": "Event",
+              "_label": "Crimes of Omission",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-19-4 - 2007-4-8",
+                "begin_of_the_begin": "2007-19-4",
+                "end_of_the_end": "2007-4-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68855",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

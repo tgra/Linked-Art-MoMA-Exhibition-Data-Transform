@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/599",
+  "type": "Person",
+  "_label": "Peter Bodner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18553",
+      "type": "Name",
+      "_label": "Peter Bodner"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7843",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18553",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37106",
+      "type": "TimeSpan",
+      "_label": "Peter Bodner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18553",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37107",
+      "type": "TimeSpan",
+      "_label": "Peter Bodner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18553",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18553",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4190",
+              "type": "Event",
+              "_label": "The Spirit of the Comics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-1-10 - 1969-9-11",
+                "begin_of_the_begin": "1969-1-10",
+                "end_of_the_end": "1969-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66528",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

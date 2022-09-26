@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58233",
+  "type": "Person",
+  "_label": "Tom Jenkins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16764",
+      "type": "Name",
+      "_label": "Tom Jenkins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16764",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33528",
+      "type": "TimeSpan",
+      "_label": "Tom Jenkins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16764",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33529",
+      "type": "TimeSpan",
+      "_label": "Tom Jenkins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16764",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16764",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3156",
+              "type": "Event",
+              "_label": "Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63037",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3322",
+              "type": "Event",
+              "_label": "Sunday Performance Series",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-7-10 - 1979-18-11",
+                "begin_of_the_begin": "1979-7-10",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63038",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59110",
+  "type": "Person",
+  "_label": "Hans Wigert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17709",
+      "type": "Name",
+      "_label": "Hans Wigert"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17709",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35418",
+      "type": "TimeSpan",
+      "_label": "Hans Wigert Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17709",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35419",
+      "type": "TimeSpan",
+      "_label": "Hans Wigert Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17709",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17709",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3704",
+              "type": "Event",
+              "_label": "Icebreakers: Contemporary Swedish Expressionists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-11-11 - 1982-11-12",
+                "begin_of_the_begin": "1982-11-11",
+                "end_of_the_end": "1982-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64854",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

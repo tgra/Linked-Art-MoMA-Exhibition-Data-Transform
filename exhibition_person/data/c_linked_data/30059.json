@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30059",
+  "type": "Person",
+  "_label": "A.E. Doyle and Associates",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8740",
+      "type": "Name",
+      "_label": "A.E. Doyle and Associates"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8740",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17480",
+      "type": "TimeSpan",
+      "_label": "A.E. Doyle and Associates Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8740",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17481",
+      "type": "TimeSpan",
+      "_label": "A.E. Doyle and Associates Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8740",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8740",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/131",
+              "type": "Event",
+              "_label": "Houses and Housing: Industrial Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-10-5 - 1939-30-9",
+                "begin_of_the_begin": "1939-10-5",
+                "end_of_the_end": "1939-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31748",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/312",
+              "type": "Event",
+              "_label": "Built in the U.S.A., 1932–44",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31749",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

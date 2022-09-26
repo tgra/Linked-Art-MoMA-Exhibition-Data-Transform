@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35600",
+  "type": "Person",
+  "_label": "Escobedo Soliz Studio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12552",
+      "type": "Name",
+      "_label": "Escobedo Soliz Studio"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12552",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25104",
+      "type": "TimeSpan",
+      "_label": "Escobedo Soliz Studio Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12552",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25105",
+      "type": "TimeSpan",
+      "_label": "Escobedo Soliz Studio Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12552",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12552",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3599",
+              "type": "Event",
+              "_label": "Young Architects Program 2016 (MoMA PS1): Weaving the Courtyard by Escobedo Soliz Studio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-8-6 - 2016-14-8",
+                "begin_of_the_begin": "2016-8-6",
+                "end_of_the_end": "2016-14-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40929",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62845",
+  "type": "Person",
+  "_label": "Sal Scarpitta",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20518",
+      "type": "Name",
+      "_label": "Sal Scarpitta"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20518",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41036",
+      "type": "TimeSpan",
+      "_label": "Sal Scarpitta Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20518",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41037",
+      "type": "TimeSpan",
+      "_label": "Sal Scarpitta Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20518",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20518",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4189",
+              "type": "Event",
+              "_label": "The Highway",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-1 - 1970-25-2",
+                "begin_of_the_begin": "1970-14-1",
+                "end_of_the_end": "1970-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70843",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

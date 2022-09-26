@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57320",
+  "type": "Person",
+  "_label": "Madeleine Hatz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15784",
+      "type": "Name",
+      "_label": "Madeleine Hatz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15784",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31568",
+      "type": "TimeSpan",
+      "_label": "Madeleine Hatz Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15784",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31569",
+      "type": "TimeSpan",
+      "_label": "Madeleine Hatz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15784",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15784",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3747",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-17-1 - 1987-22-2",
+                "begin_of_the_begin": "1987-17-1",
+                "end_of_the_end": "1987-22-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60922",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3049",
+              "type": "Event",
+              "_label": "Vertical Painting Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-28-6",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60923",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

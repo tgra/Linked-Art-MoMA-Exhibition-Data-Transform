@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64134",
+  "type": "Person",
+  "_label": "Charles Frazier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21150",
+      "type": "Name",
+      "_label": "Charles Frazier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21150",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42300",
+      "type": "TimeSpan",
+      "_label": "Charles Frazier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21150",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42301",
+      "type": "TimeSpan",
+      "_label": "Charles Frazier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21150",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21150",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22027",
+              "type": "Event",
+              "_label": "Not Just For Laughs: The Art of Subversion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-21-11 - 1982-21-1",
+                "begin_of_the_begin": "1981-21-11",
+                "end_of_the_end": "1982-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72550",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6527",
+              "type": "Event",
+              "_label": "Annual Exhibition 1964: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-9-12 - 1965-31-1",
+                "begin_of_the_begin": "1964-9-12",
+                "end_of_the_end": "1965-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72551",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

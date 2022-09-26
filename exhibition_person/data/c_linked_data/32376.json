@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32376",
+  "type": "Person",
+  "_label": "Maynard Dixon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11236",
+      "type": "Name",
+      "_label": "Maynard Dixon"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5411",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1875–1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11236",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22472",
+      "type": "TimeSpan",
+      "_label": "Maynard Dixon Birth timespan",
+      "begin_of_the_begin": "1875",
+      "end_of_the_end": "1875"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11236",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22473",
+      "type": "TimeSpan",
+      "_label": "Maynard Dixon Death timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11236",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11236",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1298",
+              "type": "Event",
+              "_label": "The Natural Paradise: Painting in America 1800–1950",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-29-9 - 1976-30-11",
+                "begin_of_the_begin": "1976-29-9",
+                "end_of_the_end": "1976-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36397",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

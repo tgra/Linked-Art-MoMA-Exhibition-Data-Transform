@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6252",
+  "type": "Person",
+  "_label": "Zao Wou-ki",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20385",
+      "type": "Name",
+      "_label": "Zao Wou-ki"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8041",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1920–2013"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20385",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40770",
+      "type": "TimeSpan",
+      "_label": "Zao Wou-ki Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20385",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40771",
+      "type": "TimeSpan",
+      "_label": "Zao Wou-ki Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20385",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20385",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/646",
+              "type": "Event",
+              "_label": "Prints from Europe and Japan; Etchings by Matisse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-4-5 - 1955-31-5",
+                "begin_of_the_begin": "1955-4-5",
+                "end_of_the_end": "1955-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70580",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59702",
+  "type": "Person",
+  "_label": "Barbara Noah",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18343",
+      "type": "Name",
+      "_label": "Barbara Noah"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18343",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36686",
+      "type": "TimeSpan",
+      "_label": "Barbara Noah Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18343",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36687",
+      "type": "TimeSpan",
+      "_label": "Barbara Noah Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18343",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18343",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3157",
+              "type": "Event",
+              "_label": "The Altered Photograph",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - 1979-10-6",
+                "begin_of_the_begin": "1979-22-4",
+                "end_of_the_end": "1979-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66175",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17247",
+              "type": "Event",
+              "_label": "Outside New York: Seattle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-26-3 - 1983-1-6",
+                "begin_of_the_begin": "1983-26-3",
+                "end_of_the_end": "1983-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66176",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

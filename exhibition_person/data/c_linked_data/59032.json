@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59032",
+  "type": "Person",
+  "_label": "Thinkdance",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17625",
+      "type": "Name",
+      "_label": "Thinkdance"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17625",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35250",
+      "type": "TimeSpan",
+      "_label": "Thinkdance Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17625",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35251",
+      "type": "TimeSpan",
+      "_label": "Thinkdance Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17625",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17625",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2872",
+              "type": "Event",
+              "_label": "Summer Dance Warm Up",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-7-7 - 2001-1-9",
+                "begin_of_the_begin": "2001-7-7",
+                "end_of_the_end": "2001-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64628",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

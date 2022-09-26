@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/750",
+  "type": "Person",
+  "_label": "L. N. Britton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25539",
+      "type": "Name",
+      "_label": "L. N. Britton"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8784",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1858–1934"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25539",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51078",
+      "type": "TimeSpan",
+      "_label": "L. N. Britton Birth timespan",
+      "begin_of_the_begin": "1858",
+      "end_of_the_end": "1858"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25539",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51079",
+      "type": "TimeSpan",
+      "_label": "L. N. Britton Death timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25539",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25539",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2499",
+              "type": "Event",
+              "_label": "Counter Space: Design and the Modern Kitchen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-15-9 - 2011-2-5",
+                "begin_of_the_begin": "2010-15-9",
+                "end_of_the_end": "2011-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82796",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

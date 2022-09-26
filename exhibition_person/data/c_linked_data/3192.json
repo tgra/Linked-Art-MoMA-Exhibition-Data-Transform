@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3192",
+  "type": "Person",
+  "_label": "Georges Lacombe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10743",
+      "type": "Name",
+      "_label": "Georges Lacombe"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5308",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1868–1916"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10743",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21486",
+      "type": "TimeSpan",
+      "_label": "Georges Lacombe Birth timespan",
+      "begin_of_the_begin": "1868",
+      "end_of_the_end": "1868"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10743",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21487",
+      "type": "TimeSpan",
+      "_label": "Georges Lacombe Death timespan",
+      "begin_of_the_begin": "1916",
+      "end_of_the_end": "1916"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10743",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10743",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/738",
+              "type": "Event",
+              "_label": "Art Nouveau",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-6 - 1960-6-9",
+                "begin_of_the_begin": "1960-8-6",
+                "end_of_the_end": "1960-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35654",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1406",
+              "type": "Event",
+              "_label": "20 Gifts in Honor of Myron Orlofsky",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-12 - 1979-9-1",
+                "begin_of_the_begin": "1978-1-12",
+                "end_of_the_end": "1979-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35655",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1477",
+              "type": "Event",
+              "_label": "The Symbolist Aesthetic",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-22-12 - 1981-10-3",
+                "begin_of_the_begin": "1980-22-12",
+                "end_of_the_end": "1981-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35656",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57717",
+  "type": "Person",
+  "_label": "Alan Kleiman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16208",
+      "type": "Name",
+      "_label": "Alan Kleiman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16208",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32416",
+      "type": "TimeSpan",
+      "_label": "Alan Kleiman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16208",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32417",
+      "type": "TimeSpan",
+      "_label": "Alan Kleiman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16208",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16208",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3690",
+              "type": "Event",
+              "_label": "Alan Kleiman: Facing Inward",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-14-3 - 1985-7-4",
+                "begin_of_the_begin": "1985-14-3",
+                "end_of_the_end": "1985-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61850",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2756",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-2-2 - 1986-23-3",
+                "begin_of_the_begin": "1986-2-2",
+                "end_of_the_end": "1986-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61851",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

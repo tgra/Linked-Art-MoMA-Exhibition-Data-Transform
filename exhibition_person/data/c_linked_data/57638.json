@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57638",
+  "type": "Person",
+  "_label": "Alan Jones",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16125",
+      "type": "Name",
+      "_label": "Alan Jones"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16125",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32250",
+      "type": "TimeSpan",
+      "_label": "Alan Jones Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16125",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32251",
+      "type": "TimeSpan",
+      "_label": "Alan Jones Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16125",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16125",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2770",
+              "type": "Event",
+              "_label": "Synesthetics: Writers and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-1 - 1985-10-3",
+                "begin_of_the_begin": "1985-13-1",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61707",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

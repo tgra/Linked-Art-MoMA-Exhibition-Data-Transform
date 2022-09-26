@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70097",
+  "type": "Person",
+  "_label": "Jim Lutes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24113",
+      "type": "Name",
+      "_label": "Jim Lutes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24113",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48226",
+      "type": "TimeSpan",
+      "_label": "Jim Lutes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24113",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48227",
+      "type": "TimeSpan",
+      "_label": "Jim Lutes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24113",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24113",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6937",
+              "type": "Event",
+              "_label": "1987 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-31-3 - 1987-28-6",
+                "begin_of_the_begin": "1987-31-3",
+                "end_of_the_end": "1987-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78558",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Gallery, Film/Video Gallery, 4th Floor Gallery, Lobby Gallery, Lower Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28414",
+              "type": "Event",
+              "_label": "Whitney Biennial 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-25-2 - 2010-30-3",
+                "begin_of_the_begin": "2010-25-2",
+                "end_of_the_end": "2010-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78559",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5080",
+  "type": "Person",
+  "_label": "Carlos Schwabe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14448",
+      "type": "Name",
+      "_label": "Carlos Schwabe"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7098",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, 1866–1926"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14448",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28896",
+      "type": "TimeSpan",
+      "_label": "Carlos Schwabe Birth timespan",
+      "begin_of_the_begin": "1866",
+      "end_of_the_end": "1866"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14448",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28897",
+      "type": "TimeSpan",
+      "_label": "Carlos Schwabe Death timespan",
+      "begin_of_the_begin": "1926",
+      "end_of_the_end": "1926"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14448",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14448",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1090",
+              "type": "Event",
+              "_label": "Summer Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-6-7 - 1971-15-9",
+                "begin_of_the_begin": "1971-6-7",
+                "end_of_the_end": "1971-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54132",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1709",
+              "type": "Event",
+              "_label": "The Modern Poster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-6-6 - 1988-6-9",
+                "begin_of_the_begin": "1988-6-6",
+                "end_of_the_end": "1988-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54133",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68776",
+  "type": "Person",
+  "_label": "GOD",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23294",
+      "type": "Name",
+      "_label": "GOD"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23294",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46588",
+      "type": "TimeSpan",
+      "_label": "GOD Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23294",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46589",
+      "type": "TimeSpan",
+      "_label": "GOD Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23294",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23294",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21818",
+              "type": "Event",
+              "_label": "Screens Series: GOD",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-21-2 - 2017-21-5",
+                "begin_of_the_begin": "2017-21-2",
+                "end_of_the_end": "2017-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76664",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

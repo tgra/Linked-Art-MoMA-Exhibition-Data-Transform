@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56869",
+  "type": "Person",
+  "_label": "Raimund van Well",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15296",
+      "type": "Name",
+      "_label": "Raimund van Well"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30592",
+      "type": "TimeSpan",
+      "_label": "Raimund van Well Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30593",
+      "type": "TimeSpan",
+      "_label": "Raimund van Well Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3016",
+              "type": "Event",
+              "_label": "International Studio Program (Winter 1979–1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59912",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

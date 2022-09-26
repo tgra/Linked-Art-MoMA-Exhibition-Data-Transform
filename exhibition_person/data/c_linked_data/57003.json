@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57003",
+  "type": "Person",
+  "_label": "John Alexander",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15441",
+      "type": "Name",
+      "_label": "John Alexander"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15441",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30882",
+      "type": "TimeSpan",
+      "_label": "John Alexander Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15441",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30883",
+      "type": "TimeSpan",
+      "_label": "John Alexander Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15441",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15441",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4160",
+              "type": "Event",
+              "_label": "The Philadelphia Houston Exchange",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-8-10 - 1976-17-11",
+                "begin_of_the_begin": "1976-8-10",
+                "end_of_the_end": "1976-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60190",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2765",
+              "type": "Event",
+              "_label": "Fresh Paint: The Houston School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60191",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

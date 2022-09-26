@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32258",
+  "type": "Person",
+  "_label": "Benedict J. Fernandez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11110",
+      "type": "Name",
+      "_label": "Benedict J. Fernandez"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5369",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1936"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11110",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22220",
+      "type": "TimeSpan",
+      "_label": "Benedict J. Fernandez Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11110",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22221",
+      "type": "TimeSpan",
+      "_label": "Benedict J. Fernandez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11110",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11110",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1089",
+              "type": "Event",
+              "_label": "The Artist as Adversary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-1-7 - 1971-27-9",
+                "begin_of_the_begin": "1971-1-7",
+                "end_of_the_end": "1971-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36201",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

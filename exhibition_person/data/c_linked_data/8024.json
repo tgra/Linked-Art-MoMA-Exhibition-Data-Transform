@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8024",
+  "type": "Person",
+  "_label": "Margherita Manzelli",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25909",
+      "type": "Name",
+      "_label": "Margherita Manzelli"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9150",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1968"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25909",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51818",
+      "type": "TimeSpan",
+      "_label": "Margherita Manzelli Birth timespan",
+      "begin_of_the_begin": "1968",
+      "end_of_the_end": "1968"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25909",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51819",
+      "type": "TimeSpan",
+      "_label": "Margherita Manzelli Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25909",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25909",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3605",
+              "type": "Event",
+              "_label": "The Edge of Awareness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-13-9 - 1998-18-10",
+                "begin_of_the_begin": "1998-13-9",
+                "end_of_the_end": "1998-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84522",
+                  "type": "Place",
+                  "_label": "PS1 and the United Nations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2223",
+              "type": "Event",
+              "_label": "New to Modern",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-25-10 - 2002-8-1",
+                "begin_of_the_begin": "2001-25-10",
+                "end_of_the_end": "2002-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84523",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

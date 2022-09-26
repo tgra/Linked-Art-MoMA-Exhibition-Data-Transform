@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31104",
+  "type": "Person",
+  "_label": "Horace Pierce",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9866",
+      "type": "Name",
+      "_label": "Horace Pierce"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9866",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19732",
+      "type": "TimeSpan",
+      "_label": "Horace Pierce Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9866",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19733",
+      "type": "TimeSpan",
+      "_label": "Horace Pierce Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9866",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9866",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/150",
+              "type": "Event",
+              "_label": "American Designs for Abstract Film",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-3-4 - 1940-1-5",
+                "begin_of_the_begin": "1940-3-4",
+                "end_of_the_end": "1940-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33939",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

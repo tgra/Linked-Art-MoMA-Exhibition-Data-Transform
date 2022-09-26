@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/475",
+  "type": "Person",
+  "_label": "Leon Berkowitz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14155",
+      "type": "Name",
+      "_label": "Leon Berkowitz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6834",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1919"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14155",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28310",
+      "type": "TimeSpan",
+      "_label": "Leon Berkowitz Birth timespan",
+      "begin_of_the_begin": "1919",
+      "end_of_the_end": "1919"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14155",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28311",
+      "type": "TimeSpan",
+      "_label": "Leon Berkowitz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14155",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14155",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4177",
+              "type": "Event",
+              "_label": "Inside Philadelphia: Selections from Private Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-11-11 - 1972-19-12",
+                "begin_of_the_begin": "1972-11-11",
+                "end_of_the_end": "1972-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/51605",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

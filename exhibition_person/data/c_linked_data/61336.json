@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61336",
+  "type": "Person",
+  "_label": "Helmut Brosch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19933",
+      "type": "Name",
+      "_label": "Helmut Brosch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19933",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39866",
+      "type": "TimeSpan",
+      "_label": "Helmut Brosch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19933",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39867",
+      "type": "TimeSpan",
+      "_label": "Helmut Brosch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19933",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19933",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5043",
+              "type": "Event",
+              "_label": "White Room: Helmut Brosch",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-31-5 - 1995-30-6",
+                "begin_of_the_begin": "1995-31-5",
+                "end_of_the_end": "1995-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69520",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4961",
+              "type": "Event",
+              "_label": "Update 1995",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-8-10",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-8-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69521",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57274",
+  "type": "Person",
+  "_label": "Heidi Gluck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15735",
+      "type": "Name",
+      "_label": "Heidi Gluck"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15735",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31470",
+      "type": "TimeSpan",
+      "_label": "Heidi Gluck Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15735",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31471",
+      "type": "TimeSpan",
+      "_label": "Heidi Gluck Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15735",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15735",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2993",
+              "type": "Event",
+              "_label": "A Painting Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-2-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-2-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60824",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

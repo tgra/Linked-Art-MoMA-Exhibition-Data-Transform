@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60163",
+  "type": "Person",
+  "_label": "Børre Sæthre",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18837",
+      "type": "Name",
+      "_label": "Børre Sæthre"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18837",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37674",
+      "type": "TimeSpan",
+      "_label": "Børre Sæthre Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18837",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37675",
+      "type": "TimeSpan",
+      "_label": "Børre Sæthre Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18837",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18837",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3511",
+              "type": "Event",
+              "_label": "Børre Sæthre",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-19-10 - 2009-22-2",
+                "begin_of_the_begin": "2008-19-10",
+                "end_of_the_end": "2009-22-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67199",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

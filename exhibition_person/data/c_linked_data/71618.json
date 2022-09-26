@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71618",
+  "type": "Person",
+  "_label": "James Metcalf",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25046",
+      "type": "Name",
+      "_label": "James Metcalf"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25046",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50092",
+      "type": "TimeSpan",
+      "_label": "James Metcalf Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25046",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50093",
+      "type": "TimeSpan",
+      "_label": "James Metcalf Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25046",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25046",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6527",
+              "type": "Event",
+              "_label": "Annual Exhibition 1964: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-9-12 - 1965-31-1",
+                "begin_of_the_begin": "1964-9-12",
+                "end_of_the_end": "1965-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80875",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

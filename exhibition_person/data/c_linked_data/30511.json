@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30511",
+  "type": "Person",
+  "_label": "John Benson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9224",
+      "type": "Name",
+      "_label": "John Benson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9224",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18448",
+      "type": "TimeSpan",
+      "_label": "John Benson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9224",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18449",
+      "type": "TimeSpan",
+      "_label": "John Benson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9224",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9224",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1007",
+              "type": "Event",
+              "_label": "Portrait Photographs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-9-7 - 1969-28-9",
+                "begin_of_the_begin": "1969-9-7",
+                "end_of_the_end": "1969-28-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32606",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1041",
+              "type": "Event",
+              "_label": "Photography: New Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-16-4 - 1970-5-7",
+                "begin_of_the_begin": "1970-16-4",
+                "end_of_the_end": "1970-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32607",
+                  "type": "Place",
+                  "_label": "Steichen Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

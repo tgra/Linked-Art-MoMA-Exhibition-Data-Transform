@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31444",
+  "type": "Person",
+  "_label": "Muntz Car Company",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10235",
+      "type": "Name",
+      "_label": "Muntz Car Company"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10235",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20470",
+      "type": "TimeSpan",
+      "_label": "Muntz Car Company Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10235",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20471",
+      "type": "TimeSpan",
+      "_label": "Muntz Car Company Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10235",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10235",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/557",
+              "type": "Event",
+              "_label": "8 Automobiles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-28-8 - 1951-11-11",
+                "begin_of_the_begin": "1951-28-8",
+                "end_of_the_end": "1951-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34576",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61649",
+  "type": "Person",
+  "_label": "Liam Everett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20048",
+      "type": "Name",
+      "_label": "Liam Everett"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20048",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40096",
+      "type": "TimeSpan",
+      "_label": "Liam Everett Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20048",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40097",
+      "type": "TimeSpan",
+      "_label": "Liam Everett Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20048",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20048",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4736",
+              "type": "Event",
+              "_label": "White Room: Liam Everett",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-26-5 - 2009-11-7",
+                "begin_of_the_begin": "2009-26-5",
+                "end_of_the_end": "2009-11-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69797",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

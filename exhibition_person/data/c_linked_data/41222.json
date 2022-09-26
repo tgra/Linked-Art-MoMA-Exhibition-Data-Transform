@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/41222",
+  "type": "Person",
+  "_label": "Museum fur Gegenwartskunst, Basel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13603",
+      "type": "Name",
+      "_label": "Museum fur Gegenwartskunst, Basel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13603",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27206",
+      "type": "TimeSpan",
+      "_label": "Museum fur Gegenwartskunst, Basel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13603",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27207",
+      "type": "TimeSpan",
+      "_label": "Museum fur Gegenwartskunst, Basel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13603",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13603",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17184",
+              "type": "Event",
+              "_label": "Bruce Nauman Drawings: 1965-1986",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-11-9 - 1987-8-11",
+                "begin_of_the_begin": "1987-11-9",
+                "end_of_the_end": "1987-8-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46651",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58171",
+  "type": "Person",
+  "_label": "Paul Hunter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16696",
+      "type": "Name",
+      "_label": "Paul Hunter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16696",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33392",
+      "type": "TimeSpan",
+      "_label": "Paul Hunter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16696",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33393",
+      "type": "TimeSpan",
+      "_label": "Paul Hunter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16696",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16696",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3638",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-11 - 1985-22-12",
+                "begin_of_the_begin": "1985-21-11",
+                "end_of_the_end": "1985-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62843",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

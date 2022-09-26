@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63333",
+  "type": "Person",
+  "_label": "William Sildar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20722",
+      "type": "Name",
+      "_label": "William Sildar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20722",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41444",
+      "type": "TimeSpan",
+      "_label": "William Sildar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20722",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41445",
+      "type": "TimeSpan",
+      "_label": "William Sildar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20722",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20722",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7258",
+              "type": "Event",
+              "_label": "William Sildar",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-1-1 - ",
+                "begin_of_the_begin": "1962-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71634",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

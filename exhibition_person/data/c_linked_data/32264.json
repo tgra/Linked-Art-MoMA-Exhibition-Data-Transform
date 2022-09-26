@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32264",
+  "type": "Person",
+  "_label": "William Degouve De Nuncques",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11116",
+      "type": "Name",
+      "_label": "William Degouve De Nuncques"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5375",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Belgian, 1867–1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11116",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22232",
+      "type": "TimeSpan",
+      "_label": "William Degouve De Nuncques Birth timespan",
+      "begin_of_the_begin": "1867",
+      "end_of_the_end": "1867"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11116",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22233",
+      "type": "TimeSpan",
+      "_label": "William Degouve De Nuncques Death timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11116",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11116",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1169",
+              "type": "Event",
+              "_label": "Drawings from the Kröller-Müller National Museum, Otterlo",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-24-5 - 1973-19-8",
+                "begin_of_the_begin": "1973-24-5",
+                "end_of_the_end": "1973-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36211",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

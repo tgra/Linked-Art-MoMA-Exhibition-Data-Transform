@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68874",
+  "type": "Person",
+  "_label": "John Okulick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23388",
+      "type": "Name",
+      "_label": "John Okulick"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23388",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46776",
+      "type": "TimeSpan",
+      "_label": "John Okulick Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23388",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46777",
+      "type": "TimeSpan",
+      "_label": "John Okulick Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23388",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23388",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4148",
+              "type": "Event",
+              "_label": "Late Twentieth Century Art: From the Sydney and Frances Lewis Foundation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-3 - 1979-2-5",
+                "begin_of_the_begin": "1979-22-3",
+                "end_of_the_end": "1979-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76803",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

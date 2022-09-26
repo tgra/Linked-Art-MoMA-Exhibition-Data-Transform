@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3979",
+  "type": "Person",
+  "_label": "Grant Mudford",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13484",
+      "type": "Name",
+      "_label": "Grant Mudford"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6237",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Australian, born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13484",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26968",
+      "type": "TimeSpan",
+      "_label": "Grant Mudford Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13484",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26969",
+      "type": "TimeSpan",
+      "_label": "Grant Mudford Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13484",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13484",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4132",
+              "type": "Event",
+              "_label": "Photography: A Sense of Order",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-11-12 - 1982-27-1",
+                "begin_of_the_begin": "1981-11-12",
+                "end_of_the_end": "1982-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45509",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6859",
+              "type": "Event",
+              "_label": "1981 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-20-1 - 1981-19-4",
+                "begin_of_the_begin": "1981-20-1",
+                "end_of_the_end": "1981-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45510",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, 3rd Floor Gallery, 2nd Floor Gallery, Film/Video Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

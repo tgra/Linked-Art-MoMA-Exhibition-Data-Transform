@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63458",
+  "type": "Person",
+  "_label": "Dean Lambert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20850",
+      "type": "Name",
+      "_label": "Dean Lambert"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20850",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41700",
+      "type": "TimeSpan",
+      "_label": "Dean Lambert Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20850",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41701",
+      "type": "TimeSpan",
+      "_label": "Dean Lambert Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20850",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20850",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4592",
+              "type": "Event",
+              "_label": "Ex Machina",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-18-5 - 1978-19-5",
+                "begin_of_the_begin": "1978-18-5",
+                "end_of_the_end": "1978-19-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71893",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

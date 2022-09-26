@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60896",
+  "type": "Person",
+  "_label": "LURE",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19613",
+      "type": "Name",
+      "_label": "LURE"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19613",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39226",
+      "type": "TimeSpan",
+      "_label": "LURE Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19613",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39227",
+      "type": "TimeSpan",
+      "_label": "LURE Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19613",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19613",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4268",
+              "type": "Event",
+              "_label": "Locally Localized Gravity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-20-1 - 2007-25-3",
+                "begin_of_the_begin": "2007-20-1",
+                "end_of_the_end": "2007-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68841",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

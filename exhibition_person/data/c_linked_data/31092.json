@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31092",
+  "type": "Person",
+  "_label": "J. Robert F. Swanson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9852",
+      "type": "Name",
+      "_label": "J. Robert F. Swanson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9852",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19704",
+      "type": "TimeSpan",
+      "_label": "J. Robert F. Swanson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9852",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19705",
+      "type": "TimeSpan",
+      "_label": "J. Robert F. Swanson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9852",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9852",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/140",
+              "type": "Event",
+              "_label": "Smithsonian Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-12-1 - 1940-3-3",
+                "begin_of_the_begin": "1940-12-1",
+                "end_of_the_end": "1940-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33913",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/304",
+  "type": "Person",
+  "_label": "John Banting",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9104",
+      "type": "Name",
+      "_label": "John Banting"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5095",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1902–1972"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9104",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18208",
+      "type": "TimeSpan",
+      "_label": "John Banting Birth timespan",
+      "begin_of_the_begin": "1902",
+      "end_of_the_end": "1902"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9104",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18209",
+      "type": "TimeSpan",
+      "_label": "John Banting Death timespan",
+      "begin_of_the_begin": "1972",
+      "end_of_the_end": "1972"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9104",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9104",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/84",
+              "type": "Event",
+              "_label": "Fantastic Art, Dada, Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-7-12 - 1937-17-1",
+                "begin_of_the_begin": "1936-7-12",
+                "end_of_the_end": "1937-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32433",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1799",
+              "type": "Event",
+              "_label": "Master Prints from the Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-26-7 - 1990-13-11",
+                "begin_of_the_begin": "1990-26-7",
+                "end_of_the_end": "1990-13-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32434",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

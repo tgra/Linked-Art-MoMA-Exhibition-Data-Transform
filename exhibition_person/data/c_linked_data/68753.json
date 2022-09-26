@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68753",
+  "type": "Person",
+  "_label": "Elian Stefa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23281",
+      "type": "Name",
+      "_label": "Elian Stefa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23281",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46562",
+      "type": "TimeSpan",
+      "_label": "Elian Stefa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23281",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46563",
+      "type": "TimeSpan",
+      "_label": "Elian Stefa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23281",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23281",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17013",
+              "type": "Event",
+              "_label": "Adhocracy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-4-5 - 2013-7-7",
+                "begin_of_the_begin": "2013-4-5",
+                "end_of_the_end": "2013-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76646",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67244",
+  "type": "Person",
+  "_label": "Red Decade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22585",
+      "type": "Name",
+      "_label": "Red Decade"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22585",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45170",
+      "type": "TimeSpan",
+      "_label": "Red Decade Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22585",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45171",
+      "type": "TimeSpan",
+      "_label": "Red Decade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22585",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22585",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18175",
+              "type": "Event",
+              "_label": "Aluminum Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-14-6 - ",
+                "begin_of_the_begin": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75394",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

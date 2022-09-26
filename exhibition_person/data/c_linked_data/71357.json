@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71357",
+  "type": "Person",
+  "_label": "Jeanne C. Finley and Gretchen Stoeltje",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24765",
+      "type": "Name",
+      "_label": "Jeanne C. Finley and Gretchen Stoeltje"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24765",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49530",
+      "type": "TimeSpan",
+      "_label": "Jeanne C. Finley and Gretchen Stoeltje Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24765",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49531",
+      "type": "TimeSpan",
+      "_label": "Jeanne C. Finley and Gretchen Stoeltje Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24765",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24765",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7008",
+              "type": "Event",
+              "_label": "1995 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-3 - 1995-11-6",
+                "begin_of_the_begin": "1995-15-3",
+                "end_of_the_end": "1995-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80183",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Galleries, 3rd Floor Galleries, 2nd Floor Galleries, Lobby Gallery, Lower Gallery, 2nd Floor Film/Video Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

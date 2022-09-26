@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30650",
+  "type": "Person",
+  "_label": "Yoshimichi Sekiya",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9374",
+      "type": "Name",
+      "_label": "Yoshimichi Sekiya"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9374",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18748",
+      "type": "TimeSpan",
+      "_label": "Yoshimichi Sekiya Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9374",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18749",
+      "type": "TimeSpan",
+      "_label": "Yoshimichi Sekiya Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9374",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9374",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/629",
+              "type": "Event",
+              "_label": "Japanese Calligraphy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-22-6 - 1954-19-9",
+                "begin_of_the_begin": "1954-22-6",
+                "end_of_the_end": "1954-19-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32925",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

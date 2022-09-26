@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66309",
+  "type": "Person",
+  "_label": "Peter Adair and Robert Epstein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22119",
+      "type": "Name",
+      "_label": "Peter Adair and Robert Epstein"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22119",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44238",
+      "type": "TimeSpan",
+      "_label": "Peter Adair and Robert Epstein Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22119",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44239",
+      "type": "TimeSpan",
+      "_label": "Peter Adair and Robert Epstein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22119",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22119",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17194",
+              "type": "Event",
+              "_label": "HOMO VIDEO: Where We Are Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-12 - 1987-15-2",
+                "begin_of_the_begin": "1986-12-12",
+                "end_of_the_end": "1987-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74453",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60683",
+  "type": "Person",
+  "_label": "Laurence Salzmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19385",
+      "type": "Name",
+      "_label": "Laurence Salzmann"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19385",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38770",
+      "type": "TimeSpan",
+      "_label": "Laurence Salzmann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19385",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38771",
+      "type": "TimeSpan",
+      "_label": "Laurence Salzmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19385",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19385",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4135",
+              "type": "Event",
+              "_label": "Street Sights 2",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-4 - 1981-10-5",
+                "begin_of_the_begin": "1981-15-4",
+                "end_of_the_end": "1981-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68470",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

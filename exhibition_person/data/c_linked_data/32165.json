@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32165",
+  "type": "Person",
+  "_label": "Marie Paneth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11008",
+      "type": "Name",
+      "_label": "Marie Paneth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11008",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22016",
+      "type": "TimeSpan",
+      "_label": "Marie Paneth Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11008",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22017",
+      "type": "TimeSpan",
+      "_label": "Marie Paneth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11008",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11008",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/440",
+              "type": "Event",
+              "_label": "Art Work by Children of Other Countries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-23-4 - 1948-23-5",
+                "begin_of_the_begin": "1948-23-4",
+                "end_of_the_end": "1948-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36047",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

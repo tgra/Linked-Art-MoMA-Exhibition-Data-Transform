@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58700",
+  "type": "Person",
+  "_label": "Bogdan Mync",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17268",
+      "type": "Name",
+      "_label": "Bogdan Mync"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17268",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34536",
+      "type": "TimeSpan",
+      "_label": "Bogdan Mync Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17268",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34537",
+      "type": "TimeSpan",
+      "_label": "Bogdan Mync Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17268",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17268",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3363",
+              "type": "Event",
+              "_label": "Super 8 Film (Spring 1979): Bogdan Mync",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - 1979-10-6",
+                "begin_of_the_begin": "1979-22-4",
+                "end_of_the_end": "1979-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63877",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

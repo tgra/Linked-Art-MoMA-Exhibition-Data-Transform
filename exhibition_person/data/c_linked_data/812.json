@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/812",
+  "type": "Person",
+  "_label": "John Buck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25983",
+      "type": "Name",
+      "_label": "John Buck"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9214",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25983",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51966",
+      "type": "TimeSpan",
+      "_label": "John Buck Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25983",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51967",
+      "type": "TimeSpan",
+      "_label": "John Buck Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25983",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25983",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4102",
+              "type": "Event",
+              "_label": "Awards in the Visual Arts 4",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-12 - 1986-26-1",
+                "begin_of_the_begin": "1985-12-12",
+                "end_of_the_end": "1986-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84752",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2917",
+              "type": "Event",
+              "_label": "Figuratively Sculpting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-31-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84753",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1533",
+              "type": "Event",
+              "_label": "Prints from Blocks: Gauguin to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-3-3 - 1983-15-5",
+                "begin_of_the_begin": "1983-3-3",
+                "end_of_the_end": "1983-15-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84754",
+                  "type": "Place",
+                  "_label": "West Wing Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

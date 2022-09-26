@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/52154",
+  "type": "Person",
+  "_label": "Susan Te Kahurangi King",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14639",
+      "type": "Name",
+      "_label": "Susan Te Kahurangi King"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14639",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29278",
+      "type": "TimeSpan",
+      "_label": "Susan Te Kahurangi King Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14639",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29279",
+      "type": "TimeSpan",
+      "_label": "Susan Te Kahurangi King Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14639",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14639",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4743",
+              "type": "Event",
+              "_label": "Looking Back - The 11th White Columns Annual",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-14-1 - 2017-4-3",
+                "begin_of_the_begin": "2017-14-1",
+                "end_of_the_end": "2017-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55713",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

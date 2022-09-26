@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3386",
+  "type": "Person",
+  "_label": "André Lhote",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12236",
+      "type": "Name",
+      "_label": "André Lhote"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5634",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1885–1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12236",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24472",
+      "type": "TimeSpan",
+      "_label": "André Lhote Birth timespan",
+      "begin_of_the_begin": "1885",
+      "end_of_the_end": "1885"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12236",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24473",
+      "type": "TimeSpan",
+      "_label": "André Lhote Death timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12236",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12236",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/76",
+              "type": "Event",
+              "_label": "Modern Painters and Sculptors as Illustrators",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-27-4 - 1936-2-9",
+                "begin_of_the_begin": "1936-27-4",
+                "end_of_the_end": "1936-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39213",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1667",
+              "type": "Event",
+              "_label": "Iliazd and the Illustrated Book",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-16-6 - 1987-18-8",
+                "begin_of_the_begin": "1987-16-6",
+                "end_of_the_end": "1987-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39214",
+                  "type": "Place",
+                  "_label": "Ground Floor, International Council Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59069",
+  "type": "Person",
+  "_label": "Christiana Dittmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17664",
+      "type": "Name",
+      "_label": "Christiana Dittmann"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17664",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35328",
+      "type": "TimeSpan",
+      "_label": "Christiana Dittmann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17664",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35329",
+      "type": "TimeSpan",
+      "_label": "Christiana Dittmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17664",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17664",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3206",
+              "type": "Event",
+              "_label": "Flash Theater",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-6-5 - 1979-27-5",
+                "begin_of_the_begin": "1979-6-5",
+                "end_of_the_end": "1979-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64692",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

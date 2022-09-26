@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59011",
+  "type": "Person",
+  "_label": "Yasuko Yokoshi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17603",
+      "type": "Name",
+      "_label": "Yasuko Yokoshi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17603",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35206",
+      "type": "TimeSpan",
+      "_label": "Yasuko Yokoshi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17603",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35207",
+      "type": "TimeSpan",
+      "_label": "Yasuko Yokoshi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17603",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17603",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2872",
+              "type": "Event",
+              "_label": "Summer Dance Warm Up",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-7-7 - 2001-1-9",
+                "begin_of_the_begin": "2001-7-7",
+                "end_of_the_end": "2001-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64572",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18510",
+              "type": "Event",
+              "_label": "Reframe the Framework DDD",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-24-4 - ",
+                "begin_of_the_begin": "2008-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64573",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

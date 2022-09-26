@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57619",
+  "type": "Person",
+  "_label": "Thomas Kiesel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16104",
+      "type": "Name",
+      "_label": "Thomas Kiesel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16104",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32208",
+      "type": "TimeSpan",
+      "_label": "Thomas Kiesel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16104",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32209",
+      "type": "TimeSpan",
+      "_label": "Thomas Kiesel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16104",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16104",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2808",
+              "type": "Event",
+              "_label": "Film (Winter 1984)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-4-2 - 1984-4-3",
+                "begin_of_the_begin": "1984-4-2",
+                "end_of_the_end": "1984-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61681",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

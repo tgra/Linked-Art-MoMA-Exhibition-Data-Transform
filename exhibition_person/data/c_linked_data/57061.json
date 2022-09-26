@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57061",
+  "type": "Person",
+  "_label": "Mary Corse",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15504",
+      "type": "Name",
+      "_label": "Mary Corse"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15504",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31008",
+      "type": "TimeSpan",
+      "_label": "Mary Corse Birth timespan",
+      "begin_of_the_begin": "1945",
+      "end_of_the_end": "1945"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15504",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31009",
+      "type": "TimeSpan",
+      "_label": "Mary Corse Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15504",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15504",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3814",
+              "type": "Event",
+              "_label": "Mary Corse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-22-4 - 1981-16-5",
+                "begin_of_the_begin": "1981-22-4",
+                "end_of_the_end": "1981-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60320",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6631",
+              "type": "Event",
+              "_label": "1970 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-12-12 - 1971-7-2",
+                "begin_of_the_begin": "1970-12-12",
+                "end_of_the_end": "1971-7-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60321",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery, 4th Floor Gallery.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

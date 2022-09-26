@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/40722",
+  "type": "Person",
+  "_label": "David Sylvester",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13558",
+      "type": "Name",
+      "_label": "David Sylvester"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13558",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27116",
+      "type": "TimeSpan",
+      "_label": "David Sylvester Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13558",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27117",
+      "type": "TimeSpan",
+      "_label": "David Sylvester Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13558",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13558",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2106",
+              "type": "Event",
+              "_label": "Bonnard",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-21-6 - 1998-13-10",
+                "begin_of_the_begin": "1998-21-6",
+                "end_of_the_end": "1998-13-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46202",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

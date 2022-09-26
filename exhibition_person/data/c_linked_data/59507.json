@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59507",
+  "type": "Person",
+  "_label": "David Blandy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18135",
+      "type": "Name",
+      "_label": "David Blandy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18135",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36270",
+      "type": "TimeSpan",
+      "_label": "David Blandy Birth timespan",
+      "begin_of_the_begin": "1976",
+      "end_of_the_end": "1976"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18135",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36271",
+      "type": "TimeSpan",
+      "_label": "David Blandy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18135",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18135",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3394",
+              "type": "Event",
+              "_label": "Romantic Detachment",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-18-10 - 2004-7-11",
+                "begin_of_the_begin": "2004-18-10",
+                "end_of_the_end": "2004-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65596",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

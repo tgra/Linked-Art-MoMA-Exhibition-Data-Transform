@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31352",
+  "type": "Person",
+  "_label": "John David Parrish",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10136",
+      "type": "Name",
+      "_label": "John David Parrish"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10136",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20272",
+      "type": "TimeSpan",
+      "_label": "John David Parrish Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10136",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20273",
+      "type": "TimeSpan",
+      "_label": "John David Parrish Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10136",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10136",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/467",
+              "type": "Event",
+              "_label": "Hidden Talent Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-1-2 - 1949-6-3",
+                "begin_of_the_begin": "1949-1-2",
+                "end_of_the_end": "1949-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34374",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

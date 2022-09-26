@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3817",
+  "type": "Person",
+  "_label": "Josef Mikl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13352",
+      "type": "Name",
+      "_label": "Josef Mikl"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6118",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Austrian, 1929–2008"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13352",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26704",
+      "type": "TimeSpan",
+      "_label": "Josef Mikl Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13352",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26705",
+      "type": "TimeSpan",
+      "_label": "Josef Mikl Death timespan",
+      "begin_of_the_begin": "2008",
+      "end_of_the_end": "2008"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13352",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13352",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/798",
+              "type": "Event",
+              "_label": "Lettering by Hand",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-6-11 - 1963-6-1",
+                "begin_of_the_begin": "1962-6-11",
+                "end_of_the_end": "1963-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43865",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

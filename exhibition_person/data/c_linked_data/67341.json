@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67341",
+  "type": "Person",
+  "_label": "John Davis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22687",
+      "type": "Name",
+      "_label": "John Davis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22687",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45374",
+      "type": "TimeSpan",
+      "_label": "John Davis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22687",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45375",
+      "type": "TimeSpan",
+      "_label": "John Davis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22687",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22687",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18343",
+              "type": "Event",
+              "_label": "Half Straddle: Here I Go,…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-8-3 - ",
+                "begin_of_the_begin": "2017-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75527",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

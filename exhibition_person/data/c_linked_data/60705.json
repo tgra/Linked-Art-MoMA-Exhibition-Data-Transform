@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60705",
+  "type": "Person",
+  "_label": "James Croak",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19410",
+      "type": "Name",
+      "_label": "James Croak"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19410",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38820",
+      "type": "TimeSpan",
+      "_label": "James Croak Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19410",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38821",
+      "type": "TimeSpan",
+      "_label": "James Croak Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19410",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19410",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4102",
+              "type": "Event",
+              "_label": "Awards in the Visual Arts 4",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-12 - 1986-26-1",
+                "begin_of_the_begin": "1985-12-12",
+                "end_of_the_end": "1986-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68519",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

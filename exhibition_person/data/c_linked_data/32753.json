@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32753",
+  "type": "Person",
+  "_label": "Global Village",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11641",
+      "type": "Name",
+      "_label": "Global Village"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11641",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23282",
+      "type": "TimeSpan",
+      "_label": "Global Village Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11641",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23283",
+      "type": "TimeSpan",
+      "_label": "Global Village Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11641",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11641",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1249",
+              "type": "Event",
+              "_label": "Projects: Video V",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-8 - 1975-30-9",
+                "begin_of_the_begin": "1975-1-8",
+                "end_of_the_end": "1975-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37263",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58718",
+  "type": "Person",
+  "_label": "A. David Christian",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17286",
+      "type": "Name",
+      "_label": "A. David Christian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17286",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34572",
+      "type": "TimeSpan",
+      "_label": "A. David Christian Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17286",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34573",
+      "type": "TimeSpan",
+      "_label": "A. David Christian Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17286",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17286",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3765",
+              "type": "Event",
+              "_label": "Postpuritanism: A Sculpture Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-26-11 - 1980-20-12",
+                "begin_of_the_begin": "1980-26-11",
+                "end_of_the_end": "1980-20-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63911",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

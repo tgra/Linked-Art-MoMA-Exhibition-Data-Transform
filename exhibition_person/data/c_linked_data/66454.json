@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66454",
+  "type": "Person",
+  "_label": "Rhizome",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22196",
+      "type": "Name",
+      "_label": "Rhizome"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22196",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44392",
+      "type": "TimeSpan",
+      "_label": "Rhizome Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22196",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44393",
+      "type": "TimeSpan",
+      "_label": "Rhizome Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22196",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22196",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21950",
+              "type": "Event",
+              "_label": "rhizome@newmuseum.org",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-15-11 - 2000-10-12",
+                "begin_of_the_begin": "2000-15-11",
+                "end_of_the_end": "2000-10-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74567",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21949",
+              "type": "Event",
+              "_label": "glasbead",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-11 - 2000-30-11",
+                "begin_of_the_begin": "2000-30-11",
+                "end_of_the_end": "2000-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74568",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21904",
+              "type": "Event",
+              "_label": "Rhizome ArtBase 101",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-6 - 2005-10-9",
+                "begin_of_the_begin": "2005-23-6",
+                "end_of_the_end": "2005-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74569",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

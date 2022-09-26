@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57419",
+  "type": "Person",
+  "_label": "Dee Shapiro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15890",
+      "type": "Name",
+      "_label": "Dee Shapiro"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15890",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31780",
+      "type": "TimeSpan",
+      "_label": "Dee Shapiro Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15890",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31781",
+      "type": "TimeSpan",
+      "_label": "Dee Shapiro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15890",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15890",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3035",
+              "type": "Event",
+              "_label": "Pattern Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-14-11 - 1977-4-12",
+                "begin_of_the_begin": "1977-14-11",
+                "end_of_the_end": "1977-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61094",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

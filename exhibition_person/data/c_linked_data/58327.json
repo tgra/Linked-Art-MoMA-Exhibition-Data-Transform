@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58327",
+  "type": "Person",
+  "_label": "Fabiana de Barros",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16863",
+      "type": "Name",
+      "_label": "Fabiana de Barros"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16863",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33726",
+      "type": "TimeSpan",
+      "_label": "Fabiana de Barros Birth timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16863",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33727",
+      "type": "TimeSpan",
+      "_label": "Fabiana de Barros Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16863",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16863",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3605",
+              "type": "Event",
+              "_label": "The Edge of Awareness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-13-9 - 1998-18-10",
+                "begin_of_the_begin": "1998-13-9",
+                "end_of_the_end": "1998-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63214",
+                  "type": "Place",
+                  "_label": "PS1 and the United Nations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

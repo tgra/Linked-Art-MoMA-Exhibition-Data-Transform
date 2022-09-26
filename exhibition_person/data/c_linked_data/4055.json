@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4055",
+  "type": "Person",
+  "_label": "Ronald Nameth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13542",
+      "type": "Name",
+      "_label": "Ronald Nameth"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6292",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13542",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27084",
+      "type": "TimeSpan",
+      "_label": "Ronald Nameth Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13542",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27085",
+      "type": "TimeSpan",
+      "_label": "Ronald Nameth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13542",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13542",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/865",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-6-10 - 1966-9-1",
+                "begin_of_the_begin": "1965-6-10",
+                "end_of_the_end": "1966-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46027",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

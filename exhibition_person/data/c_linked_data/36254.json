@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/36254",
+  "type": "Person",
+  "_label": "Atelier Muchsel-Fuchs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13170",
+      "type": "Name",
+      "_label": "Atelier Muchsel-Fuchs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13170",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26340",
+      "type": "TimeSpan",
+      "_label": "Atelier Muchsel-Fuchs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13170",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26341",
+      "type": "TimeSpan",
+      "_label": "Atelier Muchsel-Fuchs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13170",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13170",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2116",
+              "type": "Event",
+              "_label": "UFA Film Posters, 1918–1943",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-9 - 1999-5-1",
+                "begin_of_the_begin": "1998-17-9",
+                "end_of_the_end": "1999-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/42400",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

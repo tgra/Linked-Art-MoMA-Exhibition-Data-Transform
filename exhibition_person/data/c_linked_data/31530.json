@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31530",
+  "type": "Person",
+  "_label": "Paul M. Volther",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10329",
+      "type": "Name",
+      "_label": "Paul M. Volther"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10329",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20658",
+      "type": "TimeSpan",
+      "_label": "Paul M. Volther Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10329",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20659",
+      "type": "TimeSpan",
+      "_label": "Paul M. Volther Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10329",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10329",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/638",
+              "type": "Event",
+              "_label": "Good Design: 5th Anniversary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-8-2 - 1955-20-3",
+                "begin_of_the_begin": "1955-8-2",
+                "end_of_the_end": "1955-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34787",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

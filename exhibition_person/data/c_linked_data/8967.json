@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8967",
+  "type": "Person",
+  "_label": "Akari Associates, Long Island City, New York",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26411",
+      "type": "Name",
+      "_label": "Akari Associates, Long Island City, New York"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26411",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52822",
+      "type": "TimeSpan",
+      "_label": "Akari Associates, Long Island City, New York Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26411",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52823",
+      "type": "TimeSpan",
+      "_label": "Akari Associates, Long Island City, New York Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26411",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26411",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1856",
+              "type": "Event",
+              "_label": "Lighting from the Sixties and Seventies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-21-12 - 1992-29-3",
+                "begin_of_the_begin": "1991-21-12",
+                "end_of_the_end": "1992-29-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86693",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29675",
+  "type": "Person",
+  "_label": "William H. Blenko",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8328",
+      "type": "Name",
+      "_label": "William H. Blenko"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8328",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16656",
+      "type": "TimeSpan",
+      "_label": "William H. Blenko Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8328",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16657",
+      "type": "TimeSpan",
+      "_label": "William H. Blenko Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8328",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8328",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/257",
+              "type": "Event",
+              "_label": "Useful Objects in Wartime under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-2-12 - 1943-9-1",
+                "begin_of_the_begin": "1942-2-12",
+                "end_of_the_end": "1943-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30757",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4390",
+  "type": "Person",
+  "_label": "Robert Petersen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13849",
+      "type": "Name",
+      "_label": "Robert Petersen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6556",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1945"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13849",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27698",
+      "type": "TimeSpan",
+      "_label": "Robert Petersen Birth timespan",
+      "begin_of_the_begin": "1945",
+      "end_of_the_end": "1945"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13849",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27699",
+      "type": "TimeSpan",
+      "_label": "Robert Petersen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13849",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13849",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3776",
+              "type": "Event",
+              "_label": "Robert Peterson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-4 - 1979-5-5",
+                "begin_of_the_begin": "1979-11-4",
+                "end_of_the_end": "1979-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/48690",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1215",
+              "type": "Event",
+              "_label": "Works from Change, Inc.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-25-9 - 1974-20-10",
+                "begin_of_the_begin": "1974-25-9",
+                "end_of_the_end": "1974-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/48691",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

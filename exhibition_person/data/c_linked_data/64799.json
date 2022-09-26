@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64799",
+  "type": "Person",
+  "_label": "Guillaume Bijl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21424",
+      "type": "Name",
+      "_label": "Guillaume Bijl"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21424",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42848",
+      "type": "TimeSpan",
+      "_label": "Guillaume Bijl Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21424",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42849",
+      "type": "TimeSpan",
+      "_label": "Guillaume Bijl Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21424",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21424",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17155",
+              "type": "Event",
+              "_label": "Guillaume Bijl: Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-19-5 - 1989-9-7",
+                "begin_of_the_begin": "1989-19-5",
+                "end_of_the_end": "1989-9-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72993",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17157",
+              "type": "Event",
+              "_label": "Installation by Guillaume Bijl",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-19-5 - 1989-9-7",
+                "begin_of_the_begin": "1989-19-5",
+                "end_of_the_end": "1989-9-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72994",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28424",
+              "type": "Event",
+              "_label": "FluxAttitudes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72995",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64178",
+  "type": "Person",
+  "_label": "Chrissie Iles",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21163",
+      "type": "Name",
+      "_label": "Chrissie Iles"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21163",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42326",
+      "type": "TimeSpan",
+      "_label": "Chrissie Iles Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21163",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42327",
+      "type": "TimeSpan",
+      "_label": "Chrissie Iles Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21163",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21163",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7067",
+              "type": "Event",
+              "_label": "Hindsight: Recent Work from the Permanent Collection ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-12 - 1999-21-2",
+                "begin_of_the_begin": "1998-17-12",
+                "end_of_the_end": "1999-21-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72564",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Emily Fisher Landau Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29251",
+  "type": "Person",
+  "_label": "Shunran Kagawa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7872",
+      "type": "Name",
+      "_label": "Shunran Kagawa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7872",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15744",
+      "type": "TimeSpan",
+      "_label": "Shunran Kagawa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7872",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15745",
+      "type": "TimeSpan",
+      "_label": "Shunran Kagawa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7872",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7872",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/629",
+              "type": "Event",
+              "_label": "Japanese Calligraphy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-22-6 - 1954-19-9",
+                "begin_of_the_begin": "1954-22-6",
+                "end_of_the_end": "1954-19-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29917",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

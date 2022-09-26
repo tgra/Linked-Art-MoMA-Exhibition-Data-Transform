@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67600",
+  "type": "Person",
+  "_label": "Deans Keppel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22961",
+      "type": "Name",
+      "_label": "Deans Keppel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22961",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45922",
+      "type": "TimeSpan",
+      "_label": "Deans Keppel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22961",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45923",
+      "type": "TimeSpan",
+      "_label": "Deans Keppel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22961",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22961",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18304",
+              "type": "Event",
+              "_label": "Extant Work",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-9-2 - ",
+                "begin_of_the_begin": "1988-9-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75941",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

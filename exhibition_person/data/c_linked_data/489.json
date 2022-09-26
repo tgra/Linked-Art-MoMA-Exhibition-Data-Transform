@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/489",
+  "type": "Person",
+  "_label": "Jerry Berndt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14265",
+      "type": "Name",
+      "_label": "Jerry Berndt"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6936",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1943–2013"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14265",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28530",
+      "type": "TimeSpan",
+      "_label": "Jerry Berndt Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14265",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28531",
+      "type": "TimeSpan",
+      "_label": "Jerry Berndt Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14265",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14265",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1662",
+              "type": "Event",
+              "_label": "Photography: Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-7-5 - 1987-30-6",
+                "begin_of_the_begin": "1987-7-5",
+                "end_of_the_end": "1987-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/52977",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

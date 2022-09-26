@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33018",
+  "type": "Person",
+  "_label": "Jaap Drupsteen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11922",
+      "type": "Name",
+      "_label": "Jaap Drupsteen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5522",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch, born 1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11922",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23844",
+      "type": "TimeSpan",
+      "_label": "Jaap Drupsteen Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11922",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23845",
+      "type": "TimeSpan",
+      "_label": "Jaap Drupsteen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11922",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11922",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1741",
+              "type": "Event",
+              "_label": "The Arts for Television",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-20-4 - 1989-30-5",
+                "begin_of_the_begin": "1989-20-4",
+                "end_of_the_end": "1989-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38004",
+                  "type": "Place",
+                  "_label": "Edward John Noble Education Center, 4 West 54th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

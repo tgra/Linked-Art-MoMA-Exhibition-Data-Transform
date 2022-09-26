@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31136",
+  "type": "Person",
+  "_label": "Charles Darwin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9899",
+      "type": "Name",
+      "_label": "Charles Darwin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9899",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19798",
+      "type": "TimeSpan",
+      "_label": "Charles Darwin Birth timespan",
+      "begin_of_the_begin": "1809",
+      "end_of_the_end": "1809"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9899",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19799",
+      "type": "TimeSpan",
+      "_label": "Charles Darwin Death timespan",
+      "begin_of_the_begin": "1882",
+      "end_of_the_end": "1882"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9899",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9899",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/290",
+              "type": "Event",
+              "_label": "Action Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-18-8 - 1943-19-9",
+                "begin_of_the_begin": "1943-18-8",
+                "end_of_the_end": "1943-19-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33990",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

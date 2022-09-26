@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31070",
+  "type": "Person",
+  "_label": "Chang Die-Chien",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9829",
+      "type": "Name",
+      "_label": "Chang Die-Chien"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5210",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Chinese, 1899–1983"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9829",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19658",
+      "type": "TimeSpan",
+      "_label": "Chang Die-Chien Birth timespan",
+      "begin_of_the_begin": "1899",
+      "end_of_the_end": "1899"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9829",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19659",
+      "type": "TimeSpan",
+      "_label": "Chang Die-Chien Death timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9829",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9829",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/780",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-19-12 - 1962-25-2",
+                "begin_of_the_begin": "1961-19-12",
+                "end_of_the_end": "1962-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33883",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60906",
+  "type": "Person",
+  "_label": "Céleste Boursier-Mougenot",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19625",
+      "type": "Name",
+      "_label": "Céleste Boursier-Mougenot"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19625",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39250",
+      "type": "TimeSpan",
+      "_label": "Céleste Boursier-Mougenot Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19625",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39251",
+      "type": "TimeSpan",
+      "_label": "Céleste Boursier-Mougenot Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19625",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19625",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4261",
+              "type": "Event",
+              "_label": "Ensemble",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - 2007-16-12",
+                "begin_of_the_begin": "2007-7-9",
+                "end_of_the_end": "2007-16-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68862",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

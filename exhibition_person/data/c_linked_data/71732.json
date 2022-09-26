@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71732",
+  "type": "Person",
+  "_label": "Robert Swain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25165",
+      "type": "Name",
+      "_label": "Robert Swain"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25165",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50330",
+      "type": "TimeSpan",
+      "_label": "Robert Swain Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25165",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50331",
+      "type": "TimeSpan",
+      "_label": "Robert Swain Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25165",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25165",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/970",
+              "type": "Event",
+              "_label": "Art of the Real",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-3-7 - 1968-8-9",
+                "begin_of_the_begin": "1968-3-7",
+                "end_of_the_end": "1968-8-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81076",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

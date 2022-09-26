@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65548",
+  "type": "Person",
+  "_label": "Larry Rogers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21762",
+      "type": "Name",
+      "_label": "Larry Rogers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21762",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43524",
+      "type": "TimeSpan",
+      "_label": "Larry Rogers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21762",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43525",
+      "type": "TimeSpan",
+      "_label": "Larry Rogers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21762",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21762",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17128",
+              "type": "Event",
+              "_label": "In Transit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73660",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

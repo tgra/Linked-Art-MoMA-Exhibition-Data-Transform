@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59452",
+  "type": "Person",
+  "_label": "Vincent Szarek",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18074",
+      "type": "Name",
+      "_label": "Vincent Szarek"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18074",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36148",
+      "type": "TimeSpan",
+      "_label": "Vincent Szarek Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18074",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36149",
+      "type": "TimeSpan",
+      "_label": "Vincent Szarek Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18074",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18074",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3478",
+              "type": "Event",
+              "_label": "Vincent Szarek",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-12-10 - 2003-29-12",
+                "begin_of_the_begin": "2003-12-10",
+                "end_of_the_end": "2003-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65499",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3555",
+              "type": "Event",
+              "_label": "The Gold Standard",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-29-10 - 2007-15-1",
+                "begin_of_the_begin": "2006-29-10",
+                "end_of_the_end": "2007-15-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65500",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

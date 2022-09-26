@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35093",
+  "type": "Person",
+  "_label": "Matt Keegan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12472",
+      "type": "Name",
+      "_label": "Matt Keegan"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5833",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1976"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12472",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24944",
+      "type": "TimeSpan",
+      "_label": "Matt Keegan Birth timespan",
+      "begin_of_the_begin": "1976",
+      "end_of_the_end": "1976"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12472",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24945",
+      "type": "TimeSpan",
+      "_label": "Matt Keegan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12472",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12472",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17048",
+              "type": "Event",
+              "_label": "The Generational Triennial: Younger Than Jesus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-4 - 2009-14-6",
+                "begin_of_the_begin": "2009-8-4",
+                "end_of_the_end": "2009-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40475",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18413",
+              "type": "Event",
+              "_label": "Matt Keegan & Eileen…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-13-11 - ",
+                "begin_of_the_begin": "2012-13-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40476",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

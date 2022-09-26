@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62091",
+  "type": "Person",
+  "_label": "LeRoy \"King of Art\"",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20219",
+      "type": "Name",
+      "_label": "LeRoy \"King of Art\""
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20219",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40438",
+      "type": "TimeSpan",
+      "_label": "LeRoy \"King of Art\" Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20219",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40439",
+      "type": "TimeSpan",
+      "_label": "LeRoy \"King of Art\" Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20219",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20219",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4925",
+              "type": "Event",
+              "_label": "Stonewall 25: Imaginings of the Gay Past, Celebrating the Gay Present\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-6 - 1994-23-6",
+                "begin_of_the_begin": "1994-9-6",
+                "end_of_the_end": "1994-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70204",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58164",
+  "type": "Person",
+  "_label": "Aldo Walker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16688",
+      "type": "Name",
+      "_label": "Aldo Walker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16688",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33376",
+      "type": "TimeSpan",
+      "_label": "Aldo Walker Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16688",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33377",
+      "type": "TimeSpan",
+      "_label": "Aldo Walker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16688",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16688",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3741",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1984–1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-25-1 - 1985-3-3",
+                "begin_of_the_begin": "1985-25-1",
+                "end_of_the_end": "1985-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62823",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3695",
+              "type": "Event",
+              "_label": "Fri.Art: Made in Switzerland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-26-4 - 1985-2-6",
+                "begin_of_the_begin": "1985-26-4",
+                "end_of_the_end": "1985-2-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62824",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56771",
+  "type": "Person",
+  "_label": "Lili Dujourie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15192",
+      "type": "Name",
+      "_label": "Lili Dujourie"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15192",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30384",
+      "type": "TimeSpan",
+      "_label": "Lili Dujourie Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15192",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30385",
+      "type": "TimeSpan",
+      "_label": "Lili Dujourie Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15192",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15192",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3374",
+              "type": "Event",
+              "_label": "Reopening: Installations and Projects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59537",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17198",
+              "type": "Event",
+              "_label": "A Distanced View: One Aspect of Recent Art from Belgium, France, Germany and Holland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-9 - 1986-30-11",
+                "begin_of_the_begin": "1986-26-9",
+                "end_of_the_end": "1986-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59538",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59811",
+  "type": "Person",
+  "_label": "Rolf Engelen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18460",
+      "type": "Name",
+      "_label": "Rolf Engelen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18460",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36920",
+      "type": "TimeSpan",
+      "_label": "Rolf Engelen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18460",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36921",
+      "type": "TimeSpan",
+      "_label": "Rolf Engelen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18460",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18460",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3319",
+              "type": "Event",
+              "_label": "Hotel New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-12 - 2001-25-2",
+                "begin_of_the_begin": "1999-15-12",
+                "end_of_the_end": "2001-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66391",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

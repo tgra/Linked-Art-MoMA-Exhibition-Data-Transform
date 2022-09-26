@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64335",
+  "type": "Person",
+  "_label": "Dave Mandl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21231",
+      "type": "Name",
+      "_label": "Dave Mandl"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21231",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42462",
+      "type": "TimeSpan",
+      "_label": "Dave Mandl Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21231",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42463",
+      "type": "TimeSpan",
+      "_label": "Dave Mandl Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21231",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21231",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21910",
+              "type": "Event",
+              "_label": "ONE BLOCK RADIUS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-15-5 - 2004-15-5",
+                "begin_of_the_begin": "2004-15-5",
+                "end_of_the_end": "2004-15-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72689",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

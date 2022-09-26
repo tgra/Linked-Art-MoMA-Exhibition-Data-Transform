@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61818",
+  "type": "Person",
+  "_label": "Janine Gordon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20117",
+      "type": "Name",
+      "_label": "Janine Gordon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20117",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40234",
+      "type": "TimeSpan",
+      "_label": "Janine Gordon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20117",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40235",
+      "type": "TimeSpan",
+      "_label": "Janine Gordon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20117",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20117",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5060",
+              "type": "Event",
+              "_label": "White Room: Janine Gordon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-31-5 - 1995-30-6",
+                "begin_of_the_begin": "1995-31-5",
+                "end_of_the_end": "1995-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70019",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4961",
+              "type": "Event",
+              "_label": "Update 1995",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-8-10",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-8-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70020",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58957",
+  "type": "Person",
+  "_label": "Meg Webster",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17541",
+      "type": "Name",
+      "_label": "Meg Webster"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17541",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35082",
+      "type": "TimeSpan",
+      "_label": "Meg Webster Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17541",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35083",
+      "type": "TimeSpan",
+      "_label": "Meg Webster Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17541",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17541",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2904",
+              "type": "Event",
+              "_label": "Pool by Meg Webster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-15-3 - 1998-28-6",
+                "begin_of_the_begin": "1998-15-3",
+                "end_of_the_end": "1998-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64418",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6960",
+              "type": "Event",
+              "_label": "1989 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-18-4 - 1989-16-7",
+                "begin_of_the_begin": "1989-18-4",
+                "end_of_the_end": "1989-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64419",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, 2nd Floor Gallery, Film/Video Gallery, Lobby Gallery, Lower Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73417",
+  "type": "Person",
+  "_label": "Porfirio Di Donna",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25296",
+      "type": "Name",
+      "_label": "Porfirio Di Donna"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50592",
+      "type": "TimeSpan",
+      "_label": "Porfirio Di Donna Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50593",
+      "type": "TimeSpan",
+      "_label": "Porfirio Di Donna Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54780",
+              "type": "Event",
+              "_label": "Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-12-1 - ",
+                "begin_of_the_begin": "1965-12-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81683",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1109",
+              "type": "Event",
+              "_label": "The Christmas Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-23-11 - 1972-9-1",
+                "begin_of_the_begin": "1971-23-11",
+                "end_of_the_end": "1972-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81684",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

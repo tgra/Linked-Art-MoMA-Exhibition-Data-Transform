@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57742",
+  "type": "Person",
+  "_label": "Laurie Lynd",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16235",
+      "type": "Name",
+      "_label": "Laurie Lynd"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16235",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32470",
+      "type": "TimeSpan",
+      "_label": "Laurie Lynd Birth timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16235",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32471",
+      "type": "TimeSpan",
+      "_label": "Laurie Lynd Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16235",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16235",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3008",
+              "type": "Event",
+              "_label": "Film (Spring 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-10-5 - 1986-8-6",
+                "begin_of_the_begin": "1986-10-5",
+                "end_of_the_end": "1986-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61902",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

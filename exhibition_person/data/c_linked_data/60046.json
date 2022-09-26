@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60046",
+  "type": "Person",
+  "_label": "Jeff Burton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18711",
+      "type": "Name",
+      "_label": "Jeff Burton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18711",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37422",
+      "type": "TimeSpan",
+      "_label": "Jeff Burton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18711",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37423",
+      "type": "TimeSpan",
+      "_label": "Jeff Burton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18711",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18711",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66937",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4741",
+              "type": "Event",
+              "_label": "Looking Back - The Inaugural White Columns Annual",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-10-11 - 2006-20-12",
+                "begin_of_the_begin": "2006-10-11",
+                "end_of_the_end": "2006-20-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66938",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

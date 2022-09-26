@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64637",
+  "type": "Person",
+  "_label": "Finley Fryer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21351",
+      "type": "Name",
+      "_label": "Finley Fryer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21351",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42702",
+      "type": "TimeSpan",
+      "_label": "Finley Fryer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21351",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42703",
+      "type": "TimeSpan",
+      "_label": "Finley Fryer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21351",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21351",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17292",
+              "type": "Event",
+              "_label": "In A Pictorial Framework",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-6 - 1979-15-9",
+                "begin_of_the_begin": "1979-30-6",
+                "end_of_the_end": "1979-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72874",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17289",
+              "type": "Event",
+              "_label": "Finley Fryer: The Cat Band",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-28-7 - 1979-18-8",
+                "begin_of_the_begin": "1979-28-7",
+                "end_of_the_end": "1979-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72875",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

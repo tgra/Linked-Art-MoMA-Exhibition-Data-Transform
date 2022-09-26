@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59247",
+  "type": "Person",
+  "_label": "Anne Tallentire",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17855",
+      "type": "Name",
+      "_label": "Anne Tallentire"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17855",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35710",
+      "type": "TimeSpan",
+      "_label": "Anne Tallentire Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17855",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35711",
+      "type": "TimeSpan",
+      "_label": "Anne Tallentire Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17855",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17855",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2952",
+              "type": "Event",
+              "_label": "0044: Contemporary Irish Art in Britain",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-6 - 1999-29-8",
+                "begin_of_the_begin": "1999-20-6",
+                "end_of_the_end": "1999-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65150",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

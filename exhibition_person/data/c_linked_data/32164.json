@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32164",
+  "type": "Person",
+  "_label": "Charles Terrasse",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11007",
+      "type": "Name",
+      "_label": "Charles Terrasse"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11007",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22014",
+      "type": "TimeSpan",
+      "_label": "Charles Terrasse Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11007",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22015",
+      "type": "TimeSpan",
+      "_label": "Charles Terrasse Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11007",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11007",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/442",
+              "type": "Event",
+              "_label": "Pierre Bonnard",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-10-5 - 1948-6-9",
+                "begin_of_the_begin": "1948-10-5",
+                "end_of_the_end": "1948-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36046",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

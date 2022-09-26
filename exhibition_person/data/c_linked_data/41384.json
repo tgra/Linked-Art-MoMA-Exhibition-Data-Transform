@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/41384",
+  "type": "Person",
+  "_label": "Canadian Centre for Architecture, Montreal",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13619",
+      "type": "Name",
+      "_label": "Canadian Centre for Architecture, Montreal"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13619",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27238",
+      "type": "TimeSpan",
+      "_label": "Canadian Centre for Architecture, Montreal Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13619",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27239",
+      "type": "TimeSpan",
+      "_label": "Canadian Centre for Architecture, Montreal Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13619",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13619",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7044",
+              "type": "Event",
+              "_label": "Frank Lloyd Wright: Designs for an American Landscape ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-25-6 - 1997-21-9",
+                "begin_of_the_begin": "1997-25-6",
+                "end_of_the_end": "1997-21-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46701",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

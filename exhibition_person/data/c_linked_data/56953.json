@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56953",
+  "type": "Person",
+  "_label": "Kathy Duncan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15386",
+      "type": "Name",
+      "_label": "Kathy Duncan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15386",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30772",
+      "type": "TimeSpan",
+      "_label": "Kathy Duncan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15386",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30773",
+      "type": "TimeSpan",
+      "_label": "Kathy Duncan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15386",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15386",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3171",
+              "type": "Event",
+              "_label": "Spring Dance Series (1981): DANCETEXTFLASH Festival",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-9-5 - 1981-10-5",
+                "begin_of_the_begin": "1981-9-5",
+                "end_of_the_end": "1981-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60087",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2793",
+              "type": "Event",
+              "_label": "Spring Dance Series (1982): Paranarrative Dance Festival",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-8-5 - 1982-16-5",
+                "begin_of_the_begin": "1982-8-5",
+                "end_of_the_end": "1982-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60088",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

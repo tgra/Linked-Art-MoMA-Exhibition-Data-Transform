@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32342",
+  "type": "Person",
+  "_label": "Samuel Zur",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11199",
+      "type": "Name",
+      "_label": "Samuel Zur"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11199",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22398",
+      "type": "TimeSpan",
+      "_label": "Samuel Zur Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11199",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22399",
+      "type": "TimeSpan",
+      "_label": "Samuel Zur Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11199",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11199",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1266",
+              "type": "Event",
+              "_label": "Constructivism in Poland, 1923–1936",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-30-1 - 1976-25-3",
+                "begin_of_the_begin": "1976-30-1",
+                "end_of_the_end": "1976-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36351",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

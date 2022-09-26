@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68496",
+  "type": "Person",
+  "_label": "Farid Fairuz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23217",
+      "type": "Name",
+      "_label": "Farid Fairuz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23217",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46434",
+      "type": "TimeSpan",
+      "_label": "Farid Fairuz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23217",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46435",
+      "type": "TimeSpan",
+      "_label": "Farid Fairuz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23217",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23217",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21809",
+              "type": "Event",
+              "_label": "Alexandra Pirici: Co-natural",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2018-6-2 - 2018-15-4",
+                "begin_of_the_begin": "2018-6-2",
+                "end_of_the_end": "2018-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76550",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

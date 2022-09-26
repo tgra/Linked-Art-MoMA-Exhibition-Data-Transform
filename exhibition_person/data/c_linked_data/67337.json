@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67337",
+  "type": "Person",
+  "_label": "Jo Andres",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22683",
+      "type": "Name",
+      "_label": "Jo Andres"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22683",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45366",
+      "type": "TimeSpan",
+      "_label": "Jo Andres Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22683",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45367",
+      "type": "TimeSpan",
+      "_label": "Jo Andres Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22683",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22683",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18147",
+              "type": "Event",
+              "_label": "8BC Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-2 - ",
+                "begin_of_the_begin": "1986-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75522",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75523",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

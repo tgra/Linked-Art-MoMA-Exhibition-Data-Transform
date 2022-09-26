@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33223",
+  "type": "Person",
+  "_label": "Max Newmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12136",
+      "type": "Name",
+      "_label": "Max Newmann"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12136",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24272",
+      "type": "TimeSpan",
+      "_label": "Max Newmann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12136",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24273",
+      "type": "TimeSpan",
+      "_label": "Max Newmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12136",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12136",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1666",
+              "type": "Event",
+              "_label": "BERLINART 1961–1987",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-4-6 - 1987-8-9",
+                "begin_of_the_begin": "1987-4-6",
+                "end_of_the_end": "1987-8-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38545",
+                  "type": "Place",
+                  "_label": "René d'Harnoncourt Galleries, Lower Level, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

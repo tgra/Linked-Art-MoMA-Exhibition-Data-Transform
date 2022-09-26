@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59357",
+  "type": "Person",
+  "_label": "Katrin Asbury",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17972",
+      "type": "Name",
+      "_label": "Katrin Asbury"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17972",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35944",
+      "type": "TimeSpan",
+      "_label": "Katrin Asbury Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17972",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35945",
+      "type": "TimeSpan",
+      "_label": "Katrin Asbury Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17972",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17972",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3456",
+              "type": "Event",
+              "_label": "Heart of Gold",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-19-5 - 2002-14-9",
+                "begin_of_the_begin": "2002-19-5",
+                "end_of_the_end": "2002-14-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65310",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4709",
+              "type": "Event",
+              "_label": "Journey",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-23-10 - 1998-29-11",
+                "begin_of_the_begin": "1998-23-10",
+                "end_of_the_end": "1998-29-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65311",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57768",
+  "type": "Person",
+  "_label": "John Hesurun",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16261",
+      "type": "Name",
+      "_label": "John Hesurun"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16261",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32522",
+      "type": "TimeSpan",
+      "_label": "John Hesurun Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16261",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32523",
+      "type": "TimeSpan",
+      "_label": "John Hesurun Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16261",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16261",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2751",
+              "type": "Event",
+              "_label": "Film (Fall 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-10 - 1986-26-12",
+                "begin_of_the_begin": "1986-26-10",
+                "end_of_the_end": "1986-26-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61945",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18442",
+              "type": "Event",
+              "_label": "New Ice Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-3-1 - ",
+                "begin_of_the_begin": "1986-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61946",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

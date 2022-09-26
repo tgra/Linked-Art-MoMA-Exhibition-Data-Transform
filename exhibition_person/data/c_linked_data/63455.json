@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63455",
+  "type": "Person",
+  "_label": "Ingrid Schaffner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20847",
+      "type": "Name",
+      "_label": "Ingrid Schaffner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20847",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41694",
+      "type": "TimeSpan",
+      "_label": "Ingrid Schaffner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20847",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41695",
+      "type": "TimeSpan",
+      "_label": "Ingrid Schaffner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20847",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20847",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4615",
+              "type": "Event",
+              "_label": "Gloria: Another Look at Feminist Art in the 1970s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-13-9 - 2002-20-10",
+                "begin_of_the_begin": "2002-13-9",
+                "end_of_the_end": "2002-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71888",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

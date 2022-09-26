@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29650",
+  "type": "Person",
+  "_label": "William McTaggart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8301",
+      "type": "Name",
+      "_label": "William McTaggart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8301",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16602",
+      "type": "TimeSpan",
+      "_label": "William McTaggart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8301",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16603",
+      "type": "TimeSpan",
+      "_label": "William McTaggart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8301",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8301",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/677",
+              "type": "Event",
+              "_label": "Masters of British Painting, 1800–1950",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-3-10 - 1956-2-12",
+                "begin_of_the_begin": "1956-3-10",
+                "end_of_the_end": "1956-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30699",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

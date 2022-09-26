@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5734",
+  "type": "Person",
+  "_label": "Jakob Tuggener",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15805",
+      "type": "Name",
+      "_label": "Jakob Tuggener"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7645",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, born 1904"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15805",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31610",
+      "type": "TimeSpan",
+      "_label": "Jakob Tuggener Birth timespan",
+      "begin_of_the_begin": "1904",
+      "end_of_the_end": "1904"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15805",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31611",
+      "type": "TimeSpan",
+      "_label": "Jakob Tuggener Death timespan",
+      "begin_of_the_begin": "1988",
+      "end_of_the_end": "1988"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15805",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15805",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/606",
+              "type": "Event",
+              "_label": "Postwar European Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-26-5 - 1953-23-8",
+                "begin_of_the_begin": "1953-26-5",
+                "end_of_the_end": "1953-23-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60946",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/637",
+              "type": "Event",
+              "_label": "The Family of Man",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-24-1 - 1955-8-5",
+                "begin_of_the_begin": "1955-24-1",
+                "end_of_the_end": "1955-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60947",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/708",
+              "type": "Event",
+              "_label": "Photographs from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-26-11 - 1959-18-1",
+                "begin_of_the_begin": "1958-26-11",
+                "end_of_the_end": "1959-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60948",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30527",
+  "type": "Person",
+  "_label": "Leendert Cornelis van der Vlugt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9241",
+      "type": "Name",
+      "_label": "Leendert Cornelis van der Vlugt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9241",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18482",
+      "type": "TimeSpan",
+      "_label": "Leendert Cornelis van der Vlugt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9241",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18483",
+      "type": "TimeSpan",
+      "_label": "Leendert Cornelis van der Vlugt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9241",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9241",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16",
+              "type": "Event",
+              "_label": "Modern Architecture: International Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-9-2 - 1932-23-3",
+                "begin_of_the_begin": "1932-9-2",
+                "end_of_the_end": "1932-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32639",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

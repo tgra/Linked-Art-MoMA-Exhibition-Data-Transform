@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65213",
+  "type": "Person",
+  "_label": "John Carluccio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21608",
+      "type": "Name",
+      "_label": "John Carluccio"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21608",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43216",
+      "type": "TimeSpan",
+      "_label": "John Carluccio Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21608",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43217",
+      "type": "TimeSpan",
+      "_label": "John Carluccio Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21608",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21608",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17105",
+              "type": "Event",
+              "_label": "alt.youth.media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-9 - 1996-5-11",
+                "begin_of_the_begin": "1996-6-9",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73393",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

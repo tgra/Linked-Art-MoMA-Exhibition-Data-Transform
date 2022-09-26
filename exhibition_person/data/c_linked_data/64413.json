@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64413",
+  "type": "Person",
+  "_label": "Diego Romero",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21265",
+      "type": "Name",
+      "_label": "Diego Romero"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21265",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42530",
+      "type": "TimeSpan",
+      "_label": "Diego Romero Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21265",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42531",
+      "type": "TimeSpan",
+      "_label": "Diego Romero Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21265",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21265",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17107",
+              "type": "Event",
+              "_label": "A Labor of Love",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-20-1 - 1996-14-4",
+                "begin_of_the_begin": "1996-20-1",
+                "end_of_the_end": "1996-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72741",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

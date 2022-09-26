@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65598",
+  "type": "Person",
+  "_label": "Leonid Lamm",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21792",
+      "type": "Name",
+      "_label": "Leonid Lamm"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21792",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43584",
+      "type": "TimeSpan",
+      "_label": "Leonid Lamm Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21792",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43585",
+      "type": "TimeSpan",
+      "_label": "Leonid Lamm Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21792",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21792",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17204",
+              "type": "Event",
+              "_label": "Sots Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-4 - 1986-12-6",
+                "begin_of_the_begin": "1986-12-4",
+                "end_of_the_end": "1986-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73747",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73748",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

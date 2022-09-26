@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60845",
+  "type": "Person",
+  "_label": "Jesse Benson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19558",
+      "type": "Name",
+      "_label": "Jesse Benson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19558",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39116",
+      "type": "TimeSpan",
+      "_label": "Jesse Benson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19558",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39117",
+      "type": "TimeSpan",
+      "_label": "Jesse Benson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19558",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19558",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4313",
+              "type": "Event",
+              "_label": "Pictures, Patents, Monkeys, and More: On Collecting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-15-9 - 2002-10-11",
+                "begin_of_the_begin": "2002-15-9",
+                "end_of_the_end": "2002-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68768",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

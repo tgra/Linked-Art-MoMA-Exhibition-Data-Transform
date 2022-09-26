@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66391",
+  "type": "Person",
+  "_label": "Ramon Vila",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22161",
+      "type": "Name",
+      "_label": "Ramon Vila"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22161",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44322",
+      "type": "TimeSpan",
+      "_label": "Ramon Vila Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22161",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44323",
+      "type": "TimeSpan",
+      "_label": "Ramon Vila Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22161",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22161",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17245",
+              "type": "Event",
+              "_label": "Events: En Foco, Heresies Collective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74503",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/22024",
+              "type": "Event",
+              "_label": "Events: En Foco",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74504",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

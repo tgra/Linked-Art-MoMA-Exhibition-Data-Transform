@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66417",
+  "type": "Person",
+  "_label": "Rebecca Feig",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22175",
+      "type": "Name",
+      "_label": "Rebecca Feig"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22175",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44350",
+      "type": "TimeSpan",
+      "_label": "Rebecca Feig Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22175",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44351",
+      "type": "TimeSpan",
+      "_label": "Rebecca Feig Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22175",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22175",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17096",
+              "type": "Event",
+              "_label": "The Time of Our Lives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-7 - 1999-17-10",
+                "begin_of_the_begin": "1999-15-7",
+                "end_of_the_end": "1999-17-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74529",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

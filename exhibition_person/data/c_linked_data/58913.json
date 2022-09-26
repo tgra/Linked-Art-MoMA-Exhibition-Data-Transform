@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58913",
+  "type": "Person",
+  "_label": "Jan Baracz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17495",
+      "type": "Name",
+      "_label": "Jan Baracz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17495",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34990",
+      "type": "TimeSpan",
+      "_label": "Jan Baracz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17495",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34991",
+      "type": "TimeSpan",
+      "_label": "Jan Baracz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17495",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17495",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3722",
+              "type": "Event",
+              "_label": "Departure Lounge",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-5 - 1996-30-6",
+                "begin_of_the_begin": "1996-3-5",
+                "end_of_the_end": "1996-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64333",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

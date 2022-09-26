@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30569",
+  "type": "Person",
+  "_label": "Peter Vardo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9287",
+      "type": "Name",
+      "_label": "Peter Vardo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9287",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18574",
+      "type": "TimeSpan",
+      "_label": "Peter Vardo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9287",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18575",
+      "type": "TimeSpan",
+      "_label": "Peter Vardo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9287",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9287",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/492",
+              "type": "Event",
+              "_label": "Modern Art in Your Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-5-10 - 1949-4-12",
+                "begin_of_the_begin": "1949-5-10",
+                "end_of_the_end": "1949-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32710",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

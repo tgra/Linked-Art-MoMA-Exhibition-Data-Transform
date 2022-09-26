@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56633",
+  "type": "Person",
+  "_label": "Royden Rabinowitch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15046",
+      "type": "Name",
+      "_label": "Royden Rabinowitch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15046",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30092",
+      "type": "TimeSpan",
+      "_label": "Royden Rabinowitch Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15046",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30093",
+      "type": "TimeSpan",
+      "_label": "Royden Rabinowitch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15046",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15046",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3207",
+              "type": "Event",
+              "_label": "A Great Big Drawing Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-1-4",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59173",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3752",
+              "type": "Event",
+              "_label": "Royden Rabinowitch",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-2 - 1980-8-3",
+                "begin_of_the_begin": "1980-13-2",
+                "end_of_the_end": "1980-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59174",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

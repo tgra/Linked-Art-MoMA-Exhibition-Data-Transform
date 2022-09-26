@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/513",
+  "type": "Person",
+  "_label": "Pierre Betz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14532",
+      "type": "Name",
+      "_label": "Pierre Betz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7137",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1899–1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14532",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29064",
+      "type": "TimeSpan",
+      "_label": "Pierre Betz Birth timespan",
+      "begin_of_the_begin": "1899",
+      "end_of_the_end": "1899"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14532",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29065",
+      "type": "TimeSpan",
+      "_label": "Pierre Betz Death timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14532",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14532",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/90",
+              "type": "Event",
+              "_label": "Photography 1839–1937",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-17-3 - 1937-18-4",
+                "begin_of_the_begin": "1937-17-3",
+                "end_of_the_end": "1937-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54494",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

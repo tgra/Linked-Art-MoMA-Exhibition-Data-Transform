@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30539",
+  "type": "Person",
+  "_label": "Robert D. Kohn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9254",
+      "type": "Name",
+      "_label": "Robert D. Kohn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9254",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18508",
+      "type": "TimeSpan",
+      "_label": "Robert D. Kohn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9254",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18509",
+      "type": "TimeSpan",
+      "_label": "Robert D. Kohn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9254",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9254",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17281",
+              "type": "Event",
+              "_label": "Outside New York: The State of Ohio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-26-4 - 1980-26-6",
+                "begin_of_the_begin": "1980-26-4",
+                "end_of_the_end": "1980-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32652",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/16",
+              "type": "Event",
+              "_label": "Modern Architecture: International Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-9-2 - 1932-23-3",
+                "begin_of_the_begin": "1932-9-2",
+                "end_of_the_end": "1932-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32653",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

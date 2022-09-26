@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58876",
+  "type": "Person",
+  "_label": "Sung Ho Choi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17455",
+      "type": "Name",
+      "_label": "Sung Ho Choi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17455",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34910",
+      "type": "TimeSpan",
+      "_label": "Sung Ho Choi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17455",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34911",
+      "type": "TimeSpan",
+      "_label": "Sung Ho Choi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17455",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17455",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3705",
+              "type": "Event",
+              "_label": "CommuNYCations: Public Mirror: Artists Against Racial Prejudice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-13-9 - 1990-7-10",
+                "begin_of_the_begin": "1990-13-9",
+                "end_of_the_end": "1990-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64209",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4871",
+  "type": "Person",
+  "_label": "Reuven Rubin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14251",
+      "type": "Name",
+      "_label": "Reuven Rubin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6924",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Israeli, born Romania. 1893–1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14251",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28502",
+      "type": "TimeSpan",
+      "_label": "Reuven Rubin Birth timespan",
+      "begin_of_the_begin": "1893",
+      "end_of_the_end": "1893"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14251",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28503",
+      "type": "TimeSpan",
+      "_label": "Reuven Rubin Death timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14251",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14251",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/246",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-30-9 - 1942-10-12",
+                "begin_of_the_begin": "1942-30-9",
+                "end_of_the_end": "1942-10-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/52827",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/258",
+              "type": "Event",
+              "_label": "Twentieth Century Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-9-12 - 1943-24-1",
+                "begin_of_the_begin": "1942-9-12",
+                "end_of_the_end": "1943-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/52828",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68867",
+  "type": "Person",
+  "_label": "Kathleen Cooke",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23381",
+      "type": "Name",
+      "_label": "Kathleen Cooke"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23381",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46762",
+      "type": "TimeSpan",
+      "_label": "Kathleen Cooke Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23381",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46763",
+      "type": "TimeSpan",
+      "_label": "Kathleen Cooke Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23381",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23381",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76796",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

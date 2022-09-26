@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70247",
+  "type": "Person",
+  "_label": "Dennis Hopper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24196",
+      "type": "Name",
+      "_label": "Dennis Hopper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24196",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48392",
+      "type": "TimeSpan",
+      "_label": "Dennis Hopper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24196",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48393",
+      "type": "TimeSpan",
+      "_label": "Dennis Hopper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24196",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24196",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28411",
+              "type": "Event",
+              "_label": "Whitney Biennial 2002",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-7-3 - 2002-26-5",
+                "begin_of_the_begin": "2002-7-3",
+                "end_of_the_end": "2002-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78655",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

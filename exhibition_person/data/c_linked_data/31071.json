@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31071",
+  "type": "Person",
+  "_label": "Subiuate",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9830",
+      "type": "Name",
+      "_label": "Subiuate"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9830",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19660",
+      "type": "TimeSpan",
+      "_label": "Subiuate Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9830",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19661",
+      "type": "TimeSpan",
+      "_label": "Subiuate Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9830",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9830",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/104",
+              "type": "Event",
+              "_label": "Spanish and U.S. Government Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-15-11 - 1937-26-11",
+                "begin_of_the_begin": "1937-15-11",
+                "end_of_the_end": "1937-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33884",
+                  "type": "Place",
+                  "_label": "Concourse Level, 14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

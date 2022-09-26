@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66653",
+  "type": "Person",
+  "_label": "Scarlet Harlot",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22296",
+      "type": "Name",
+      "_label": "Scarlet Harlot"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44592",
+      "type": "TimeSpan",
+      "_label": "Scarlet Harlot Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44593",
+      "type": "TimeSpan",
+      "_label": "Scarlet Harlot Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17161",
+              "type": "Event",
+              "_label": "Overlooked/Underplayed: Videos on Women and AIDS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-24-2 - 1989-16-4",
+                "begin_of_the_begin": "1989-24-2",
+                "end_of_the_end": "1989-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74816",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

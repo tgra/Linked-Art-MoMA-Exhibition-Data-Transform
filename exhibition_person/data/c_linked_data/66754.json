@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66754",
+  "type": "Person",
+  "_label": "Southeastern Center for Contemporary Art, Winston-Salem, NC",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22347",
+      "type": "Name",
+      "_label": "Southeastern Center for Contemporary Art, Winston-Salem, NC"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22347",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44694",
+      "type": "TimeSpan",
+      "_label": "Southeastern Center for Contemporary Art, Winston-Salem, NC Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22347",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44695",
+      "type": "TimeSpan",
+      "_label": "Southeastern Center for Contemporary Art, Winston-Salem, NC Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22347",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22347",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17083",
+              "type": "Event",
+              "_label": "Tom Friedman",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-12-10 - 2002-3-2",
+                "begin_of_the_begin": "2001-12-10",
+                "end_of_the_end": "2002-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74888",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

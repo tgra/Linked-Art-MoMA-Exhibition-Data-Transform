@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65331",
+  "type": "Person",
+  "_label": "Judy Fiskin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21663",
+      "type": "Name",
+      "_label": "Judy Fiskin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43326",
+      "type": "TimeSpan",
+      "_label": "Judy Fiskin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43327",
+      "type": "TimeSpan",
+      "_label": "Judy Fiskin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22009",
+              "type": "Event",
+              "_label": "Judy Fiskin, Janet Pihlblad, Lance Rutledge",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-2 - 1985-7-4",
+                "begin_of_the_begin": "1985-12-2",
+                "end_of_the_end": "1985-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73477",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

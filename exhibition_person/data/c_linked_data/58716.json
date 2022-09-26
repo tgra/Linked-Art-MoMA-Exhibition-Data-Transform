@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58716",
+  "type": "Person",
+  "_label": "Till Hausman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17284",
+      "type": "Name",
+      "_label": "Till Hausman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17284",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34568",
+      "type": "TimeSpan",
+      "_label": "Till Hausman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17284",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34569",
+      "type": "TimeSpan",
+      "_label": "Till Hausman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17284",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17284",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3759",
+              "type": "Event",
+              "_label": "International Studio Program 1980–1981 (Fall 1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-9 - 1980-9-11",
+                "begin_of_the_begin": "1980-28-9",
+                "end_of_the_end": "1980-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63909",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

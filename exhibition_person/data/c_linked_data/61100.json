@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61100",
+  "type": "Person",
+  "_label": "taisha paggett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19836",
+      "type": "Name",
+      "_label": "taisha paggett"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19836",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39672",
+      "type": "TimeSpan",
+      "_label": "taisha paggett Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19836",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39673",
+      "type": "TimeSpan",
+      "_label": "taisha paggett Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19836",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19836",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3990",
+              "type": "Event",
+              "_label": "Endless Shout",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-14-9 - 2017-19-3",
+                "begin_of_the_begin": "2016-14-9",
+                "end_of_the_end": "2017-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69260",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

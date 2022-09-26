@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71128",
+  "type": "Person",
+  "_label": "Joseph Levi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24524",
+      "type": "Name",
+      "_label": "Joseph Levi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24524",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49048",
+      "type": "TimeSpan",
+      "_label": "Joseph Levi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24524",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49049",
+      "type": "TimeSpan",
+      "_label": "Joseph Levi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24524",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24524",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6577",
+              "type": "Event",
+              "_label": "1968 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-16-12 - 1969-19-1",
+                "begin_of_the_begin": "1968-16-12",
+                "end_of_the_end": "1969-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79449",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

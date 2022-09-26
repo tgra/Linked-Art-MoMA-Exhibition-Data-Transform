@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57454",
+  "type": "Person",
+  "_label": "Peter Siegel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15926",
+      "type": "Name",
+      "_label": "Peter Siegel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15926",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31852",
+      "type": "TimeSpan",
+      "_label": "Peter Siegel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15926",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31853",
+      "type": "TimeSpan",
+      "_label": "Peter Siegel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15926",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15926",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3167",
+              "type": "Event",
+              "_label": "Heads",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61154",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

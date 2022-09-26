@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60301",
+  "type": "Person",
+  "_label": "Anthony Chase",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18987",
+      "type": "Name",
+      "_label": "Anthony Chase"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18987",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37974",
+      "type": "TimeSpan",
+      "_label": "Anthony Chase Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18987",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37975",
+      "type": "TimeSpan",
+      "_label": "Anthony Chase Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18987",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18987",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3008",
+              "type": "Event",
+              "_label": "Film (Spring 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-10-5 - 1986-8-6",
+                "begin_of_the_begin": "1986-10-5",
+                "end_of_the_end": "1986-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67485",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

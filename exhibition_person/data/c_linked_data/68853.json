@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68853",
+  "type": "Person",
+  "_label": "MacKenzie Bennett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23367",
+      "type": "Name",
+      "_label": "MacKenzie Bennett"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23367",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46734",
+      "type": "TimeSpan",
+      "_label": "MacKenzie Bennett Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23367",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46735",
+      "type": "TimeSpan",
+      "_label": "MacKenzie Bennett Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23367",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23367",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2416",
+              "type": "Event",
+              "_label": "The Museum and the War Effort: Artistic Freedom and Reporting for \"The Cause\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-26-11 - 2009-11-2",
+                "begin_of_the_begin": "2008-26-11",
+                "end_of_the_end": "2009-11-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76776",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

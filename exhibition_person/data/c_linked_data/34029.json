@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/34029",
+  "type": "Person",
+  "_label": "Rachel Reichman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12266",
+      "type": "Name",
+      "_label": "Rachel Reichman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5659",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1958"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12266",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24532",
+      "type": "TimeSpan",
+      "_label": "Rachel Reichman Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12266",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24533",
+      "type": "TimeSpan",
+      "_label": "Rachel Reichman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12266",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12266",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6937",
+              "type": "Event",
+              "_label": "1987 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-31-3 - 1987-28-6",
+                "begin_of_the_begin": "1987-31-3",
+                "end_of_the_end": "1987-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39472",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Gallery, Film/Video Gallery, 4th Floor Gallery, Lobby Gallery, Lower Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

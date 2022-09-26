@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60754",
+  "type": "Person",
+  "_label": "Silvia Gruner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19460",
+      "type": "Name",
+      "_label": "Silvia Gruner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19460",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38920",
+      "type": "TimeSpan",
+      "_label": "Silvia Gruner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19460",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38921",
+      "type": "TimeSpan",
+      "_label": "Silvia Gruner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19460",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19460",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4387",
+              "type": "Event",
+              "_label": "El Corazón Sangrante (The Bleeding Heart)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-22-4 - 1992-5-7",
+                "begin_of_the_begin": "1992-22-4",
+                "end_of_the_end": "1992-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68580",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

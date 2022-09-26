@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68815",
+  "type": "Person",
+  "_label": "Robyn Martin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23332",
+      "type": "Name",
+      "_label": "Robyn Martin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23332",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46664",
+      "type": "TimeSpan",
+      "_label": "Robyn Martin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23332",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46665",
+      "type": "TimeSpan",
+      "_label": "Robyn Martin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23332",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23332",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4190",
+              "type": "Event",
+              "_label": "The Spirit of the Comics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-1-10 - 1969-9-11",
+                "begin_of_the_begin": "1969-1-10",
+                "end_of_the_end": "1969-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76711",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

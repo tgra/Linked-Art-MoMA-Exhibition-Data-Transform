@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64544",
+  "type": "Person",
+  "_label": "Emily Mello",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21315",
+      "type": "Name",
+      "_label": "Emily Mello"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21315",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42630",
+      "type": "TimeSpan",
+      "_label": "Emily Mello Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21315",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42631",
+      "type": "TimeSpan",
+      "_label": "Emily Mello Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21315",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21315",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16974",
+              "type": "Event",
+              "_label": "Simone Leigh: The Waiting Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-22-6 - 2016-18-9",
+                "begin_of_the_begin": "2016-22-6",
+                "end_of_the_end": "2016-18-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72819",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21803",
+              "type": "Event",
+              "_label": "The Black School x Kameelah Janan Rasheed",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2018-23-5 - 2018-16-9",
+                "begin_of_the_begin": "2018-23-5",
+                "end_of_the_end": "2018-16-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72820",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

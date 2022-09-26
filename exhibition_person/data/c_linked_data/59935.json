@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59935",
+  "type": "Person",
+  "_label": "Dave Hardy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18592",
+      "type": "Name",
+      "_label": "Dave Hardy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18592",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37184",
+      "type": "TimeSpan",
+      "_label": "Dave Hardy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18592",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37185",
+      "type": "TimeSpan",
+      "_label": "Dave Hardy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18592",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18592",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66606",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

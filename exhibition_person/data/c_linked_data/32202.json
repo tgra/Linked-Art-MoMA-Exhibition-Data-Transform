@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32202",
+  "type": "Person",
+  "_label": "Alfred A. Longden",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11049",
+      "type": "Name",
+      "_label": "Alfred A. Longden"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11049",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22098",
+      "type": "TimeSpan",
+      "_label": "Alfred A. Longden Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11049",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22099",
+      "type": "TimeSpan",
+      "_label": "Alfred A. Longden Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11049",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11049",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/204",
+              "type": "Event",
+              "_label": "Children of England Paint",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-6-11 - 1941-30-11",
+                "begin_of_the_begin": "1941-6-11",
+                "end_of_the_end": "1941-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36106",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67208",
+  "type": "Person",
+  "_label": "Yoshimasa Wada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22564",
+      "type": "Name",
+      "_label": "Yoshimasa Wada"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22564",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45128",
+      "type": "TimeSpan",
+      "_label": "Yoshimasa Wada Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22564",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45129",
+      "type": "TimeSpan",
+      "_label": "Yoshimasa Wada Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22564",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22564",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28424",
+              "type": "Event",
+              "_label": "FluxAttitudes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75360",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18219",
+              "type": "Event",
+              "_label": "Burp: Soup and Tart Revis…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-24-10 - ",
+                "begin_of_the_begin": "1991-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75361",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

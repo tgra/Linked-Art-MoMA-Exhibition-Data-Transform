@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/50122",
+  "type": "Person",
+  "_label": "Douglas Melini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14381",
+      "type": "Name",
+      "_label": "Douglas Melini"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14381",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28762",
+      "type": "TimeSpan",
+      "_label": "Douglas Melini Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14381",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28763",
+      "type": "TimeSpan",
+      "_label": "Douglas Melini Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14381",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14381",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5012",
+              "type": "Event",
+              "_label": "White Room: Douglas Melini",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-27-6 - 2003-2-8",
+                "begin_of_the_begin": "2003-27-6",
+                "end_of_the_end": "2003-2-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53757",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57042",
+  "type": "Person",
+  "_label": "John Bursill",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15484",
+      "type": "Name",
+      "_label": "John Bursill"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15484",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30968",
+      "type": "TimeSpan",
+      "_label": "John Bursill Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15484",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30969",
+      "type": "TimeSpan",
+      "_label": "John Bursill Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15484",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15484",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3638",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-11 - 1985-22-12",
+                "begin_of_the_begin": "1985-21-11",
+                "end_of_the_end": "1985-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60291",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

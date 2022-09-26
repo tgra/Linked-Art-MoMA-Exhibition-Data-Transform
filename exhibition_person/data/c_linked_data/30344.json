@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30344",
+  "type": "Person",
+  "_label": "Walter Glenn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9046",
+      "type": "Name",
+      "_label": "Walter Glenn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9046",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18092",
+      "type": "TimeSpan",
+      "_label": "Walter Glenn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9046",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18093",
+      "type": "TimeSpan",
+      "_label": "Walter Glenn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9046",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9046",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/470",
+              "type": "Event",
+              "_label": "The 28th Annual Exhibition of Advertising and Editorial Art of the New York Art Directors Club",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-3 - 1949-17-4",
+                "begin_of_the_begin": "1949-15-3",
+                "end_of_the_end": "1949-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32362",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

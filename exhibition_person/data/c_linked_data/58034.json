@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58034",
+  "type": "Person",
+  "_label": "John De Maya",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16548",
+      "type": "Name",
+      "_label": "John De Maya"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16548",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33096",
+      "type": "TimeSpan",
+      "_label": "John De Maya Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16548",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33097",
+      "type": "TimeSpan",
+      "_label": "John De Maya Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16548",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16548",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2897",
+              "type": "Event",
+              "_label": "Children of Berlin: Cultural Developments 1989–1999",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-11 - 2000-2-1",
+                "begin_of_the_begin": "1999-7-11",
+                "end_of_the_end": "2000-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62522",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

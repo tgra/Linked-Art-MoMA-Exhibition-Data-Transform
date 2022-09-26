@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63133",
+  "type": "Person",
+  "_label": "Sarah Vanderlip",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20622",
+      "type": "Name",
+      "_label": "Sarah Vanderlip"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20622",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41244",
+      "type": "TimeSpan",
+      "_label": "Sarah Vanderlip Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20622",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41245",
+      "type": "TimeSpan",
+      "_label": "Sarah Vanderlip Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20622",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20622",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5185",
+              "type": "Event",
+              "_label": "White Room: Sarah Vanderlip",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-29-3 - 1996-12-5",
+                "begin_of_the_begin": "1996-29-3",
+                "end_of_the_end": "1996-12-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71166",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4981",
+              "type": "Event",
+              "_label": "What I Did On My Summer Vacation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-13-9 - 1996-20-10",
+                "begin_of_the_begin": "1996-13-9",
+                "end_of_the_end": "1996-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71167",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

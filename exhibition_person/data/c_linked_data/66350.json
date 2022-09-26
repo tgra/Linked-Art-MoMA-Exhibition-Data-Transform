@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66350",
+  "type": "Person",
+  "_label": "Polly Ester Nation",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22142",
+      "type": "Name",
+      "_label": "Polly Ester Nation"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22142",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44284",
+      "type": "TimeSpan",
+      "_label": "Polly Ester Nation Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22142",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44285",
+      "type": "TimeSpan",
+      "_label": "Polly Ester Nation Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22142",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22142",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17275",
+              "type": "Event",
+              "_label": "Events: Fashion Moda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-8-1",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74477",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

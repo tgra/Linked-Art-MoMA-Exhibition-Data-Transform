@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31353",
+  "type": "Person",
+  "_label": "Claude M. Pendley, Jr.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10137",
+      "type": "Name",
+      "_label": "Claude M. Pendley, Jr."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10137",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20274",
+      "type": "TimeSpan",
+      "_label": "Claude M. Pendley, Jr. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10137",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20275",
+      "type": "TimeSpan",
+      "_label": "Claude M. Pendley, Jr. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10137",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10137",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/467",
+              "type": "Event",
+              "_label": "Hidden Talent Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-1-2 - 1949-6-3",
+                "begin_of_the_begin": "1949-1-2",
+                "end_of_the_end": "1949-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34375",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

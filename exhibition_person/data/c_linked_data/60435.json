@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60435",
+  "type": "Person",
+  "_label": "Abigail Lazkov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19130",
+      "type": "Name",
+      "_label": "Abigail Lazkov"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19130",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38260",
+      "type": "TimeSpan",
+      "_label": "Abigail Lazkov Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19130",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38261",
+      "type": "TimeSpan",
+      "_label": "Abigail Lazkov Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19130",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19130",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3588",
+              "type": "Event",
+              "_label": "MoMA PS1 Long-Term Installations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-1-1 - ",
+                "begin_of_the_begin": "1976-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67860",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

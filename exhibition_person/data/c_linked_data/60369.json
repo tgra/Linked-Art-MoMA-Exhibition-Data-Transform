@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60369",
+  "type": "Person",
+  "_label": "Wu Shan Zhuan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19060",
+      "type": "Name",
+      "_label": "Wu Shan Zhuan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19060",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38120",
+      "type": "TimeSpan",
+      "_label": "Wu Shan Zhuan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19060",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38121",
+      "type": "TimeSpan",
+      "_label": "Wu Shan Zhuan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19060",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19060",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2896",
+              "type": "Event",
+              "_label": "Inside Out: New Chinese Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-15-9 - 1999-3-1",
+                "begin_of_the_begin": "1998-15-9",
+                "end_of_the_end": "1999-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67651",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33929",
+  "type": "Person",
+  "_label": "Regina Vater",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12250",
+      "type": "Name",
+      "_label": "Regina Vater"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12250",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24500",
+      "type": "TimeSpan",
+      "_label": "Regina Vater Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12250",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24501",
+      "type": "TimeSpan",
+      "_label": "Regina Vater Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12250",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12250",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3768",
+              "type": "Event",
+              "_label": "Film as Installation II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-20-4 - 1983-21-5",
+                "begin_of_the_begin": "1983-20-4",
+                "end_of_the_end": "1983-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39406",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3797",
+              "type": "Event",
+              "_label": "Here and There: Travels, Part II: Sad Travels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-26-1 - 1989-12-3",
+                "begin_of_the_begin": "1989-26-1",
+                "end_of_the_end": "1989-12-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39407",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

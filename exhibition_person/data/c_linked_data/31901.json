@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31901",
+  "type": "Person",
+  "_label": "Joseph Paul D'Urso",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10723",
+      "type": "Name",
+      "_label": "Joseph Paul D'Urso"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10723",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21446",
+      "type": "TimeSpan",
+      "_label": "Joseph Paul D'Urso Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10723",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21447",
+      "type": "TimeSpan",
+      "_label": "Joseph Paul D'Urso Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10723",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10723",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/958",
+              "type": "Event",
+              "_label": "The York House Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-28-2 - 1968-3-6",
+                "begin_of_the_begin": "1968-28-2",
+                "end_of_the_end": "1968-3-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35555",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

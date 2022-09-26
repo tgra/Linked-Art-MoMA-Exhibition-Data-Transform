@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59663",
+  "type": "Person",
+  "_label": "John Rockwell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18300",
+      "type": "Name",
+      "_label": "John Rockwell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18300",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36600",
+      "type": "TimeSpan",
+      "_label": "John Rockwell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18300",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36601",
+      "type": "TimeSpan",
+      "_label": "John Rockwell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18300",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18300",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2719",
+              "type": "Event",
+              "_label": "Tunnel of Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-11-2 - 1995-26-3",
+                "begin_of_the_begin": "1994-11-2",
+                "end_of_the_end": "1995-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66072",
+                  "type": "Place",
+                  "_label": "Calais, France",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

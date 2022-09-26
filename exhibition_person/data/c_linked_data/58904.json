@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58904",
+  "type": "Person",
+  "_label": "Donald McKay",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17486",
+      "type": "Name",
+      "_label": "Donald McKay"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17486",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34972",
+      "type": "TimeSpan",
+      "_label": "Donald McKay Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17486",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34973",
+      "type": "TimeSpan",
+      "_label": "Donald McKay Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17486",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17486",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3805",
+              "type": "Event",
+              "_label": "Reprints in Anthropology: Material Culture of the Smithsonian Institution",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-29-6 - 1995-29-6",
+                "begin_of_the_begin": "1995-29-6",
+                "end_of_the_end": "1995-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64317",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

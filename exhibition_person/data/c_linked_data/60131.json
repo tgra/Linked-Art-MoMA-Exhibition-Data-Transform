@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60131",
+  "type": "Person",
+  "_label": "Angelo Filomeno",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18803",
+      "type": "Name",
+      "_label": "Angelo Filomeno"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18803",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37606",
+      "type": "TimeSpan",
+      "_label": "Angelo Filomeno Birth timespan",
+      "begin_of_the_begin": "1963",
+      "end_of_the_end": "1963"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18803",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37607",
+      "type": "TimeSpan",
+      "_label": "Angelo Filomeno Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18803",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18803",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3522",
+              "type": "Event",
+              "_label": "Senso Unico: A Show of Eight Contemporary Italian Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-10 - 2008-7-1",
+                "begin_of_the_begin": "2007-21-10",
+                "end_of_the_end": "2008-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67151",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65825",
+  "type": "Person",
+  "_label": "Marta Noemi Bautis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21904",
+      "type": "Name",
+      "_label": "Marta Noemi Bautis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21904",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43808",
+      "type": "TimeSpan",
+      "_label": "Marta Noemi Bautis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21904",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43809",
+      "type": "TimeSpan",
+      "_label": "Marta Noemi Bautis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21904",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21904",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22013",
+              "type": "Event",
+              "_label": "The Nicaragua Media Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-21-9 - 1984-25-11",
+                "begin_of_the_begin": "1984-21-9",
+                "end_of_the_end": "1984-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73975",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

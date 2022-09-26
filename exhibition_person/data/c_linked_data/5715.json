@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5715",
+  "type": "Person",
+  "_label": "Georg Trump",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15600",
+      "type": "Name",
+      "_label": "Georg Trump"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7630",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1896–1985"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15600",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31200",
+      "type": "TimeSpan",
+      "_label": "Georg Trump Birth timespan",
+      "begin_of_the_begin": "1896",
+      "end_of_the_end": "1896"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15600",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31201",
+      "type": "TimeSpan",
+      "_label": "Georg Trump Death timespan",
+      "begin_of_the_begin": "1985",
+      "end_of_the_end": "1985"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15600",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15600",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/493",
+              "type": "Event",
+              "_label": "New Posters from 16 Countries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-11-10 - 1949-20-11",
+                "begin_of_the_begin": "1949-11-10",
+                "end_of_the_end": "1949-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60537",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1447",
+              "type": "Event",
+              "_label": "Art of the Twenties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-14-11 - 1980-22-1",
+                "begin_of_the_begin": "1979-14-11",
+                "end_of_the_end": "1980-22-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60538",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

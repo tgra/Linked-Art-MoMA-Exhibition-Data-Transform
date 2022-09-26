@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65694",
+  "type": "Person",
+  "_label": "Lydia Dean Pilcher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21836",
+      "type": "Name",
+      "_label": "Lydia Dean Pilcher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21836",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43672",
+      "type": "TimeSpan",
+      "_label": "Lydia Dean Pilcher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21836",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43673",
+      "type": "TimeSpan",
+      "_label": "Lydia Dean Pilcher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21836",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21836",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17194",
+              "type": "Event",
+              "_label": "HOMO VIDEO: Where We Are Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-12 - 1987-15-2",
+                "begin_of_the_begin": "1986-12-12",
+                "end_of_the_end": "1987-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73804",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

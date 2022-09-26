@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5434",
+  "type": "Person",
+  "_label": "Albert Sterner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14861",
+      "type": "Name",
+      "_label": "Albert Sterner"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7411",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1863–1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14861",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29722",
+      "type": "TimeSpan",
+      "_label": "Albert Sterner Birth timespan",
+      "begin_of_the_begin": "1863",
+      "end_of_the_end": "1863"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14861",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29723",
+      "type": "TimeSpan",
+      "_label": "Albert Sterner Death timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14861",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14861",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/117",
+              "type": "Event",
+              "_label": "Three Centuries of American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-24-5 - 1938-31-7",
+                "begin_of_the_begin": "1938-24-5",
+                "end_of_the_end": "1938-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/57739",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

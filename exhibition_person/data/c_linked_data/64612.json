@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64612",
+  "type": "Person",
+  "_label": "F.L. Schroder",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21345",
+      "type": "Name",
+      "_label": "F.L. Schroder"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21345",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42690",
+      "type": "TimeSpan",
+      "_label": "F.L. Schroder Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21345",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42691",
+      "type": "TimeSpan",
+      "_label": "F.L. Schroder Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21345",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21345",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22032",
+              "type": "Event",
+              "_label": "New Work / New York: Nancy Arlen, Louisa Chase, Rudy Heintze, F.L. Schroder, David Wells",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-12 - 1980-8-2",
+                "begin_of_the_begin": "1979-8-12",
+                "end_of_the_end": "1980-8-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72867",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

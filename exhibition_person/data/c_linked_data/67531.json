@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67531",
+  "type": "Person",
+  "_label": "Archie Shepp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22891",
+      "type": "Name",
+      "_label": "Archie Shepp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22891",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45782",
+      "type": "TimeSpan",
+      "_label": "Archie Shepp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22891",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45783",
+      "type": "TimeSpan",
+      "_label": "Archie Shepp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22891",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22891",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18571",
+              "type": "Event",
+              "_label": "Strange Mutations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-16-1 - ",
+                "begin_of_the_begin": "1986-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75847",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18328",
+              "type": "Event",
+              "_label": "Free at Last, Free at Las…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-24-1 - ",
+                "begin_of_the_begin": "1986-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75848",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

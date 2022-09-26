@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35693",
+  "type": "Person",
+  "_label": "Viktor Mikhaylovich Vasnetsov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12591",
+      "type": "Name",
+      "_label": "Viktor Mikhaylovich Vasnetsov"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12591",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25182",
+      "type": "TimeSpan",
+      "_label": "Viktor Mikhaylovich Vasnetsov Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12591",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25183",
+      "type": "TimeSpan",
+      "_label": "Viktor Mikhaylovich Vasnetsov Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12591",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12591",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/76",
+              "type": "Event",
+              "_label": "Modern Painters and Sculptors as Illustrators",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-27-4 - 1936-2-9",
+                "begin_of_the_begin": "1936-27-4",
+                "end_of_the_end": "1936-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41143",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

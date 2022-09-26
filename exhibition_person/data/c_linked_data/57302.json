@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57302",
+  "type": "Person",
+  "_label": "Peter Taylor Barton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15764",
+      "type": "Name",
+      "_label": "Peter Taylor Barton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15764",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31528",
+      "type": "TimeSpan",
+      "_label": "Peter Taylor Barton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15764",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31529",
+      "type": "TimeSpan",
+      "_label": "Peter Taylor Barton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15764",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15764",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3837",
+              "type": "Event",
+              "_label": "New Urban Landscapes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-10 - 1977-31-1",
+                "begin_of_the_begin": "1975-1-10",
+                "end_of_the_end": "1977-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60880",
+                  "type": "Place",
+                  "_label": "Various outdoor locations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3041",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1978)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-10 - 1978-19-11",
+                "begin_of_the_begin": "1978-1-10",
+                "end_of_the_end": "1978-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60881",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

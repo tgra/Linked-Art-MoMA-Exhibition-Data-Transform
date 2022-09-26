@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61959",
+  "type": "Person",
+  "_label": "John Hiltunen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20160",
+      "type": "Name",
+      "_label": "John Hiltunen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20160",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40320",
+      "type": "TimeSpan",
+      "_label": "John Hiltunen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20160",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40321",
+      "type": "TimeSpan",
+      "_label": "John Hiltunen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20160",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20160",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5409",
+              "type": "Event",
+              "_label": "EXTRA Project John Hiltunen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-26-5 - 2011-16-7",
+                "begin_of_the_begin": "2011-26-5",
+                "end_of_the_end": "2011-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70082",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

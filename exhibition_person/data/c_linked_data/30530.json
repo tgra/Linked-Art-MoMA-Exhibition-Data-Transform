@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30530",
+  "type": "Person",
+  "_label": "José Manuel Aizpúrua",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9245",
+      "type": "Name",
+      "_label": "José Manuel Aizpúrua"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5112",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Spanish, 1904–1936"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18490",
+      "type": "TimeSpan",
+      "_label": "José Manuel Aizpúrua Birth timespan",
+      "begin_of_the_begin": "1904",
+      "end_of_the_end": "1904"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18491",
+      "type": "TimeSpan",
+      "_label": "José Manuel Aizpúrua Death timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16",
+              "type": "Event",
+              "_label": "Modern Architecture: International Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-9-2 - 1932-23-3",
+                "begin_of_the_begin": "1932-9-2",
+                "end_of_the_end": "1932-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32643",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

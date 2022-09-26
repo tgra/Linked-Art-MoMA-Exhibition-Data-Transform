@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59603",
+  "type": "Person",
+  "_label": "Beverly Conrad",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18238",
+      "type": "Name",
+      "_label": "Beverly Conrad"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18238",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36476",
+      "type": "TimeSpan",
+      "_label": "Beverly Conrad Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18238",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36477",
+      "type": "TimeSpan",
+      "_label": "Beverly Conrad Death timespan",
+      "begin_of_the_begin": "1990",
+      "end_of_the_end": "1990"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18238",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18238",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3716",
+              "type": "Event",
+              "_label": "Film (Spring 1988): Kitsch, Psychedelia, Headlines, Quotations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-2-6 - 1988-12-6",
+                "begin_of_the_begin": "1988-2-6",
+                "end_of_the_end": "1988-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65824",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

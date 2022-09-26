@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67440",
+  "type": "Person",
+  "_label": "Okwui Okpokwasili",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22793",
+      "type": "Name",
+      "_label": "Okwui Okpokwasili"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22793",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45586",
+      "type": "TimeSpan",
+      "_label": "Okwui Okpokwasili Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22793",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45587",
+      "type": "TimeSpan",
+      "_label": "Okwui Okpokwasili Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22793",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22793",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18528",
+              "type": "Event",
+              "_label": "Scaffold Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-30-10 - ",
+                "begin_of_the_begin": "2015-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75709",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

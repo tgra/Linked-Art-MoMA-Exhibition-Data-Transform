@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59236",
+  "type": "Person",
+  "_label": "Jin Hosoya",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17844",
+      "type": "Name",
+      "_label": "Jin Hosoya"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17844",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35688",
+      "type": "TimeSpan",
+      "_label": "Jin Hosoya Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17844",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35689",
+      "type": "TimeSpan",
+      "_label": "Jin Hosoya Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17844",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17844",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2895",
+              "type": "Event",
+              "_label": "Cities on the Move 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65139",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

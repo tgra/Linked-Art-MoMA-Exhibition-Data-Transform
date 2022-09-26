@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71665",
+  "type": "Person",
+  "_label": "Beatrice Stone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25095",
+      "type": "Name",
+      "_label": "Beatrice Stone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25095",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50190",
+      "type": "TimeSpan",
+      "_label": "Beatrice Stone Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25095",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50191",
+      "type": "TimeSpan",
+      "_label": "Beatrice Stone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25095",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25095",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6394",
+              "type": "Event",
+              "_label": "1949 Annual Exhibition of Contemporary American Sculpture, Watercolor, and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-2-4 - 1949-8-5",
+                "begin_of_the_begin": "1949-2-4",
+                "end_of_the_end": "1949-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80971",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

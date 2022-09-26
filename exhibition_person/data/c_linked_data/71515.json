@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71515",
+  "type": "Person",
+  "_label": "James Bolton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24934",
+      "type": "Name",
+      "_label": "James Bolton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24934",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49868",
+      "type": "TimeSpan",
+      "_label": "James Bolton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24934",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49869",
+      "type": "TimeSpan",
+      "_label": "James Bolton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24934",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24934",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6559",
+              "type": "Event",
+              "_label": "1967 Annual Exhibition of Contemporary Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-13-12 - 1967-4-2",
+                "begin_of_the_begin": "1967-13-12",
+                "end_of_the_end": "1967-4-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80676",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

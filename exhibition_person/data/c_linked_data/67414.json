@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67414",
+  "type": "Person",
+  "_label": "Melissa Guerrero",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22764",
+      "type": "Name",
+      "_label": "Melissa Guerrero"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22764",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45528",
+      "type": "TimeSpan",
+      "_label": "Melissa Guerrero Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22764",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45529",
+      "type": "TimeSpan",
+      "_label": "Melissa Guerrero Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22764",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22764",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18256",
+              "type": "Event",
+              "_label": "Dance Without Bodies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-6-12 - ",
+                "begin_of_the_begin": "2006-6-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75648",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

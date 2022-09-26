@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51346",
+  "type": "Person",
+  "_label": "Ande Whyland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14538",
+      "type": "Name",
+      "_label": "Ande Whyland"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7142",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14538",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29076",
+      "type": "TimeSpan",
+      "_label": "Ande Whyland Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14538",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29077",
+      "type": "TimeSpan",
+      "_label": "Ande Whyland Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14538",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14538",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17071",
+              "type": "Event",
+              "_label": "East Village USA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-9-12 - 2005-19-3",
+                "begin_of_the_begin": "2004-9-12",
+                "end_of_the_end": "2005-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54572",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

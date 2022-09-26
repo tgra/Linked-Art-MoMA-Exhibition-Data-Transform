@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56896",
+  "type": "Person",
+  "_label": "Robert Hamon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15325",
+      "type": "Name",
+      "_label": "Robert Hamon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15325",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30650",
+      "type": "TimeSpan",
+      "_label": "Robert Hamon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15325",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30651",
+      "type": "TimeSpan",
+      "_label": "Robert Hamon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15325",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15325",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3140",
+              "type": "Event",
+              "_label": "Video (Spring 1980): Canadian Video",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-27-4 - 1980-15-6",
+                "begin_of_the_begin": "1980-27-4",
+                "end_of_the_end": "1980-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59971",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

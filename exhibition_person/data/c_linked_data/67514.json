@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67514",
+  "type": "Person",
+  "_label": "Andy Soma",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22872",
+      "type": "Name",
+      "_label": "Andy Soma"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22872",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45744",
+      "type": "TimeSpan",
+      "_label": "Andy Soma Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22872",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45745",
+      "type": "TimeSpan",
+      "_label": "Andy Soma Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22872",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22872",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18147",
+              "type": "Event",
+              "_label": "8BC Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-2 - ",
+                "begin_of_the_begin": "1986-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75811",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18225",
+              "type": "Event",
+              "_label": "Carnival of Sleaze",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-20-2 - ",
+                "begin_of_the_begin": "1988-20-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75812",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

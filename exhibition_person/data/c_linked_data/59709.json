@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59709",
+  "type": "Person",
+  "_label": "Mary Campbell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18350",
+      "type": "Name",
+      "_label": "Mary Campbell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18350",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36700",
+      "type": "TimeSpan",
+      "_label": "Mary Campbell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18350",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36701",
+      "type": "TimeSpan",
+      "_label": "Mary Campbell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18350",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18350",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2919",
+              "type": "Event",
+              "_label": "The Wild Art Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66189",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

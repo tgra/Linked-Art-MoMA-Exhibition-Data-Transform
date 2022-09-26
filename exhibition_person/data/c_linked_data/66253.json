@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66253",
+  "type": "Person",
+  "_label": "Pamela Kelly",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22089",
+      "type": "Name",
+      "_label": "Pamela Kelly"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22089",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44178",
+      "type": "TimeSpan",
+      "_label": "Pamela Kelly Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22089",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44179",
+      "type": "TimeSpan",
+      "_label": "Pamela Kelly Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22089",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22089",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22027",
+              "type": "Event",
+              "_label": "Not Just For Laughs: The Art of Subversion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-21-11 - 1982-21-1",
+                "begin_of_the_begin": "1981-21-11",
+                "end_of_the_end": "1982-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74399",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

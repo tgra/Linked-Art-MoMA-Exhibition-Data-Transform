@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31349",
+  "type": "Person",
+  "_label": "James V. Hirsch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10132",
+      "type": "Name",
+      "_label": "James V. Hirsch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10132",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20264",
+      "type": "TimeSpan",
+      "_label": "James V. Hirsch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10132",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20265",
+      "type": "TimeSpan",
+      "_label": "James V. Hirsch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10132",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10132",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/467",
+              "type": "Event",
+              "_label": "Hidden Talent Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-1-2 - 1949-6-3",
+                "begin_of_the_begin": "1949-1-2",
+                "end_of_the_end": "1949-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34370",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

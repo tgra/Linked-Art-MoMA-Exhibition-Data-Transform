@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60996",
+  "type": "Person",
+  "_label": "Kahlil Joseph",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19723",
+      "type": "Name",
+      "_label": "Kahlil Joseph"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19723",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39446",
+      "type": "TimeSpan",
+      "_label": "Kahlil Joseph Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19723",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39447",
+      "type": "TimeSpan",
+      "_label": "Kahlil Joseph Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19723",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19723",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4011",
+              "type": "Event",
+              "_label": "Ruffneck Constructivists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-12-2 - 2014-17-8",
+                "begin_of_the_begin": "2014-12-2",
+                "end_of_the_end": "2014-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69026",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21816",
+              "type": "Event",
+              "_label": "Kahlil Joseph: Shadow Play",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-27-9 - 2018-7-1",
+                "begin_of_the_begin": "2017-27-9",
+                "end_of_the_end": "2018-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69027",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

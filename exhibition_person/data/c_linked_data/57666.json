@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57666",
+  "type": "Person",
+  "_label": "Bruno Ehrs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16155",
+      "type": "Name",
+      "_label": "Bruno Ehrs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16155",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32310",
+      "type": "TimeSpan",
+      "_label": "Bruno Ehrs Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16155",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32311",
+      "type": "TimeSpan",
+      "_label": "Bruno Ehrs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16155",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16155",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2764",
+              "type": "Event",
+              "_label": "Just Images: Swedish Photography Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61759",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

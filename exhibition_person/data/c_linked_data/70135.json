@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70135",
+  "type": "Person",
+  "_label": "Mark Rappaport",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24135",
+      "type": "Name",
+      "_label": "Mark Rappaport"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24135",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48270",
+      "type": "TimeSpan",
+      "_label": "Mark Rappaport Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24135",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48271",
+      "type": "TimeSpan",
+      "_label": "Mark Rappaport Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24135",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24135",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6992",
+              "type": "Event",
+              "_label": "1993 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-4-3 - 1993-20-6",
+                "begin_of_the_begin": "1993-4-3",
+                "end_of_the_end": "1993-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78583",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Galleries, 3rd Floor Galleries, 2nd Floor Film/Video Gallery, Lobby Gallery, Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

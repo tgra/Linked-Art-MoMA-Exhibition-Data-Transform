@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69932",
+  "type": "Person",
+  "_label": "William Sellers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24015",
+      "type": "Name",
+      "_label": "William Sellers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24015",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48030",
+      "type": "TimeSpan",
+      "_label": "William Sellers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24015",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48031",
+      "type": "TimeSpan",
+      "_label": "William Sellers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24015",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24015",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6548",
+              "type": "Event",
+              "_label": "Annual Exhibition 1966: Contemporary Sculpture and Prints ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-16-12 - 1966-5-2",
+                "begin_of_the_begin": "1966-16-12",
+                "end_of_the_end": "1966-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78429",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6577",
+              "type": "Event",
+              "_label": "1968 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-16-12 - 1969-19-1",
+                "begin_of_the_begin": "1968-16-12",
+                "end_of_the_end": "1969-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78430",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

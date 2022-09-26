@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51291",
+  "type": "Person",
+  "_label": "John Driscoll",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14531",
+      "type": "Name",
+      "_label": "John Driscoll"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14531",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29062",
+      "type": "TimeSpan",
+      "_label": "John Driscoll Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14531",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29063",
+      "type": "TimeSpan",
+      "_label": "John Driscoll Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14531",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14531",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18240",
+              "type": "Event",
+              "_label": "Composers Inside Electron…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-9 - ",
+                "begin_of_the_begin": "1978-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54492",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18199",
+              "type": "Event",
+              "_label": "Between Thought and Sound…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - ",
+                "begin_of_the_begin": "2007-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54493",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

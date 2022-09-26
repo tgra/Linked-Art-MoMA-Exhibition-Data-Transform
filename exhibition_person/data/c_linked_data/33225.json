@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33225",
+  "type": "Person",
+  "_label": "Richard C. Wood",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12138",
+      "type": "Name",
+      "_label": "Richard C. Wood"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12138",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24276",
+      "type": "TimeSpan",
+      "_label": "Richard C. Wood Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12138",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24277",
+      "type": "TimeSpan",
+      "_label": "Richard C. Wood Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12138",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12138",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/39",
+              "type": "Event",
+              "_label": "A House by Richard C. Wood",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-3-10 - 1933-27-10",
+                "begin_of_the_begin": "1933-3-10",
+                "end_of_the_end": "1933-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38547",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

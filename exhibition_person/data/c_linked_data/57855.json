@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57855",
+  "type": "Person",
+  "_label": "Catherine Howe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16355",
+      "type": "Name",
+      "_label": "Catherine Howe"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16355",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32710",
+      "type": "TimeSpan",
+      "_label": "Catherine Howe Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16355",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32711",
+      "type": "TimeSpan",
+      "_label": "Catherine Howe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16355",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16355",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3081",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1990)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-22-4 - 1990-17-6",
+                "begin_of_the_begin": "1990-22-4",
+                "end_of_the_end": "1990-17-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62138",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4884",
+              "type": "Event",
+              "_label": "Romantic Conventions Reordered",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-30-4 - 1987-23-5",
+                "begin_of_the_begin": "1987-30-4",
+                "end_of_the_end": "1987-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62139",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

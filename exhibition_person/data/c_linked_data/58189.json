@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58189",
+  "type": "Person",
+  "_label": "Diana Lopez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16714",
+      "type": "Name",
+      "_label": "Diana Lopez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16714",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33428",
+      "type": "TimeSpan",
+      "_label": "Diana Lopez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16714",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33429",
+      "type": "TimeSpan",
+      "_label": "Diana Lopez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16714",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16714",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2710",
+              "type": "Event",
+              "_label": "In the Ruins of the Twentieth Century: The 20th Annual International Studio Artist Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-5 - 1996-31-5",
+                "begin_of_the_begin": "1996-3-5",
+                "end_of_the_end": "1996-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62881",
+                  "type": "Place",
+                  "_label": "80 Lafayette St., New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

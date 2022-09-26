@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69099",
+  "type": "Person",
+  "_label": "George Rodart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23483",
+      "type": "Name",
+      "_label": "George Rodart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23483",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46966",
+      "type": "TimeSpan",
+      "_label": "George Rodart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23483",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46967",
+      "type": "TimeSpan",
+      "_label": "George Rodart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23483",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23483",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6755",
+              "type": "Event",
+              "_label": "1975 Biennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-20-1 - 1975-9-4",
+                "begin_of_the_begin": "1975-20-1",
+                "end_of_the_end": "1975-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76987",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6892",
+              "type": "Event",
+              "_label": "1983 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-15-3 - 1983-29-5",
+                "begin_of_the_begin": "1983-15-3",
+                "end_of_the_end": "1983-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76988",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, Lower Gallery, Sculpture Court, Film/Video Gallery, 2nd Floor Gallery, Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69342",
+  "type": "Person",
+  "_label": "Nora Houston",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23636",
+      "type": "Name",
+      "_label": "Nora Houston"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23636",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47272",
+      "type": "TimeSpan",
+      "_label": "Nora Houston Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23636",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47273",
+      "type": "TimeSpan",
+      "_label": "Nora Houston Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23636",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23636",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6316",
+              "type": "Event",
+              "_label": "1937 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-10-11 - 1937-12-12",
+                "begin_of_the_begin": "1937-10-11",
+                "end_of_the_end": "1937-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77527",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

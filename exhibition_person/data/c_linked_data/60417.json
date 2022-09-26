@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60417",
+  "type": "Person",
+  "_label": "Brigit Hein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19111",
+      "type": "Name",
+      "_label": "Brigit Hein"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19111",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38222",
+      "type": "TimeSpan",
+      "_label": "Brigit Hein Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19111",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38223",
+      "type": "TimeSpan",
+      "_label": "Brigit Hein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19111",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19111",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3683",
+              "type": "Event",
+              "_label": "Old World/New Works: International Studio Artists at the Clocktower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-6-1 - 1982-6-2",
+                "begin_of_the_begin": "1982-6-1",
+                "end_of_the_end": "1982-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67756",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2795",
+              "type": "Event",
+              "_label": "International Studio Program (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67757",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

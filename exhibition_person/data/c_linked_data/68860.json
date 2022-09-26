@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68860",
+  "type": "Person",
+  "_label": "H.N. Han",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23375",
+      "type": "Name",
+      "_label": "H.N. Han"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23375",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46750",
+      "type": "TimeSpan",
+      "_label": "H.N. Han Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23375",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46751",
+      "type": "TimeSpan",
+      "_label": "H.N. Han Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23375",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23375",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4173",
+              "type": "Event",
+              "_label": "A Selection of American and European Paintings from the Richard Brown Baker Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-7-12 - 1974-27-1",
+                "begin_of_the_begin": "1973-7-12",
+                "end_of_the_end": "1974-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76786",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

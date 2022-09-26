@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61068",
+  "type": "Person",
+  "_label": "Chrissy Jones",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19802",
+      "type": "Name",
+      "_label": "Chrissy Jones"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19802",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39604",
+      "type": "TimeSpan",
+      "_label": "Chrissy Jones Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19802",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39605",
+      "type": "TimeSpan",
+      "_label": "Chrissy Jones Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19802",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19802",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3995",
+              "type": "Event",
+              "_label": "Open Video Call",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-26-4 - 2016-14-8",
+                "begin_of_the_begin": "2016-26-4",
+                "end_of_the_end": "2016-14-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69158",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

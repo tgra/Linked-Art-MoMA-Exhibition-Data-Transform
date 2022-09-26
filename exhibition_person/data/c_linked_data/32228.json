@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32228",
+  "type": "Person",
+  "_label": "Dale Quarterman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11077",
+      "type": "Name",
+      "_label": "Dale Quarterman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5349",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11077",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22154",
+      "type": "TimeSpan",
+      "_label": "Dale Quarterman Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11077",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22155",
+      "type": "TimeSpan",
+      "_label": "Dale Quarterman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11077",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11077",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1039",
+              "type": "Event",
+              "_label": "Photography Into Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-8-4 - 1970-5-7",
+                "begin_of_the_begin": "1970-8-4",
+                "end_of_the_end": "1970-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36143",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

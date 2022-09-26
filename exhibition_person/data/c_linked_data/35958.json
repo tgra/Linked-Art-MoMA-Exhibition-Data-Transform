@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35958",
+  "type": "Person",
+  "_label": "Thomas Weski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12857",
+      "type": "Name",
+      "_label": "Thomas Weski"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12857",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25714",
+      "type": "TimeSpan",
+      "_label": "Thomas Weski Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12857",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25715",
+      "type": "TimeSpan",
+      "_label": "Thomas Weski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12857",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12857",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2011",
+              "type": "Event",
+              "_label": "Michael Schmidt: Einheit (U-NI-TY)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-18-1 - 1996-26-3",
+                "begin_of_the_begin": "1996-18-1",
+                "end_of_the_end": "1996-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41661",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

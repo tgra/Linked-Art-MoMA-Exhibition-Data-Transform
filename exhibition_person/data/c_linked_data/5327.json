@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5327",
+  "type": "Person",
+  "_label": "Louis Soutter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14774",
+      "type": "Name",
+      "_label": "Louis Soutter"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7324",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, 1871–1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14774",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29548",
+      "type": "TimeSpan",
+      "_label": "Louis Soutter Birth timespan",
+      "begin_of_the_begin": "1871",
+      "end_of_the_end": "1871"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14774",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29549",
+      "type": "TimeSpan",
+      "_label": "Louis Soutter Death timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14774",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14774",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2176",
+              "type": "Event",
+              "_label": "The Raw and the Cooked",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-3 - 2000-19-9",
+                "begin_of_the_begin": "2000-30-3",
+                "end_of_the_end": "2000-19-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/56657",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

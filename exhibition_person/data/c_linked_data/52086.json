@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/52086",
+  "type": "Person",
+  "_label": "Leda Catunda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14628",
+      "type": "Name",
+      "_label": "Leda Catunda"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7226",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Brazilian, born 1961"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14628",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29256",
+      "type": "TimeSpan",
+      "_label": "Leda Catunda Birth timespan",
+      "begin_of_the_begin": "1961",
+      "end_of_the_end": "1961"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14628",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29257",
+      "type": "TimeSpan",
+      "_label": "Leda Catunda Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14628",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14628",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1908",
+              "type": "Event",
+              "_label": "Latin American Artists of the Twentieth Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-2-6 - 1993-7-9",
+                "begin_of_the_begin": "1993-2-6",
+                "end_of_the_end": "1993-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55654",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

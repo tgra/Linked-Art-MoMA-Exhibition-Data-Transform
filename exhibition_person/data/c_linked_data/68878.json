@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68878",
+  "type": "Person",
+  "_label": "The Witness Project",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23392",
+      "type": "Name",
+      "_label": "The Witness Project"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23392",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46784",
+      "type": "TimeSpan",
+      "_label": "The Witness Project Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23392",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46785",
+      "type": "TimeSpan",
+      "_label": "The Witness Project Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23392",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23392",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4401",
+              "type": "Event",
+              "_label": "Devil on the Stairs: Looking Back on the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-4-10 - 1991-5-1",
+                "begin_of_the_begin": "1990-4-10",
+                "end_of_the_end": "1991-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76807",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

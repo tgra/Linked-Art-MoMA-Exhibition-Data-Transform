@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60548",
+  "type": "Person",
+  "_label": "Craig Kaufman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19248",
+      "type": "Name",
+      "_label": "Craig Kaufman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19248",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38496",
+      "type": "TimeSpan",
+      "_label": "Craig Kaufman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19248",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38497",
+      "type": "TimeSpan",
+      "_label": "Craig Kaufman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19248",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19248",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4192",
+              "type": "Event",
+              "_label": "Plastics and New Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-15-1 - 1969-25-2",
+                "begin_of_the_begin": "1969-15-1",
+                "end_of_the_end": "1969-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68104",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

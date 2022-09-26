@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63162",
+  "type": "Person",
+  "_label": "Doug Wada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20633",
+      "type": "Name",
+      "_label": "Doug Wada"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20633",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41266",
+      "type": "TimeSpan",
+      "_label": "Doug Wada Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20633",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41267",
+      "type": "TimeSpan",
+      "_label": "Doug Wada Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20633",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20633",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5011",
+              "type": "Event",
+              "_label": "White Room: Doug Wada",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-5-5 - 2000-4-6",
+                "begin_of_the_begin": "2000-5-5",
+                "end_of_the_end": "2000-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71178",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

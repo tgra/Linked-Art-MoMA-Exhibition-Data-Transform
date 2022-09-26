@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35027",
+  "type": "Person",
+  "_label": "Robert Atkins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12444",
+      "type": "Name",
+      "_label": "Robert Atkins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12444",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24888",
+      "type": "TimeSpan",
+      "_label": "Robert Atkins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12444",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24889",
+      "type": "TimeSpan",
+      "_label": "Robert Atkins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12444",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12444",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3740",
+              "type": "Event",
+              "_label": "San Francisco/Science Fiction",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-27-9 - 1984-28-10",
+                "begin_of_the_begin": "1984-27-9",
+                "end_of_the_end": "1984-28-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40420",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17230",
+              "type": "Event",
+              "_label": "Currents: David Ireland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-28-7 - 1984-9-9",
+                "begin_of_the_begin": "1984-28-7",
+                "end_of_the_end": "1984-9-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40421",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

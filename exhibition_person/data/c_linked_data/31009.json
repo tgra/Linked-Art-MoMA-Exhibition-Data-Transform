@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31009",
+  "type": "Person",
+  "_label": "Rowland Emett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9762",
+      "type": "Name",
+      "_label": "Rowland Emett"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5200",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "English, 1906–1990"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9762",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19524",
+      "type": "TimeSpan",
+      "_label": "Rowland Emett Birth timespan",
+      "begin_of_the_begin": "1906",
+      "end_of_the_end": "1906"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9762",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19525",
+      "type": "TimeSpan",
+      "_label": "Rowland Emett Death timespan",
+      "begin_of_the_begin": "1990",
+      "end_of_the_end": "1990"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9762",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9762",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/397",
+              "type": "Event",
+              "_label": "On Being a Cartoonist",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-15-10 - 1946-24-11",
+                "begin_of_the_begin": "1946-15-10",
+                "end_of_the_end": "1946-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33745",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

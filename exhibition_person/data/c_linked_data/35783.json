@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35783",
+  "type": "Person",
+  "_label": "Marilyn Nance",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12679",
+      "type": "Name",
+      "_label": "Marilyn Nance"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12679",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25358",
+      "type": "TimeSpan",
+      "_label": "Marilyn Nance Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12679",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25359",
+      "type": "TimeSpan",
+      "_label": "Marilyn Nance Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12679",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12679",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3301",
+              "type": "Event",
+              "_label": "Out of the Studio: Photography and Community",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-25-1 - 1987-22-3",
+                "begin_of_the_begin": "1987-25-1",
+                "end_of_the_end": "1987-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41321",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1840",
+              "type": "Event",
+              "_label": "Pleasures and Terrors of Domestic Comfort",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-26-9 - 1991-31-12",
+                "begin_of_the_begin": "1991-26-9",
+                "end_of_the_end": "1991-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41322",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

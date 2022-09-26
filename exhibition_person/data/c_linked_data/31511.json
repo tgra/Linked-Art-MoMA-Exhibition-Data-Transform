@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31511",
+  "type": "Person",
+  "_label": "Anne Tyng",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10308",
+      "type": "Name",
+      "_label": "Anne Tyng"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10308",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20616",
+      "type": "TimeSpan",
+      "_label": "Anne Tyng Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10308",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20617",
+      "type": "TimeSpan",
+      "_label": "Anne Tyng Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10308",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10308",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4037",
+              "type": "Event",
+              "_label": "Anne Tyng: Inhabiting Geometry",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-13-1 - 2011-20-3",
+                "begin_of_the_begin": "2011-13-1",
+                "end_of_the_end": "2011-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34764",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/742",
+              "type": "Event",
+              "_label": "Visionary Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-29-9 - 1960-4-12",
+                "begin_of_the_begin": "1960-29-9",
+                "end_of_the_end": "1960-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34765",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

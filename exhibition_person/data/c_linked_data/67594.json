@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67594",
+  "type": "Person",
+  "_label": "David Gamper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22955",
+      "type": "Name",
+      "_label": "David Gamper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22955",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45910",
+      "type": "TimeSpan",
+      "_label": "David Gamper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22955",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45911",
+      "type": "TimeSpan",
+      "_label": "David Gamper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22955",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22955",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18624",
+              "type": "Event",
+              "_label": "The Saucer's Apprentice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-4 - ",
+                "begin_of_the_begin": "1996-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75933",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

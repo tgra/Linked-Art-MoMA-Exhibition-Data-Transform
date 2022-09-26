@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67498",
+  "type": "Person",
+  "_label": "Afrika Islam",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22854",
+      "type": "Name",
+      "_label": "Afrika Islam"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22854",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45708",
+      "type": "TimeSpan",
+      "_label": "Afrika Islam Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22854",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45709",
+      "type": "TimeSpan",
+      "_label": "Afrika Islam Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22854",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22854",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18350",
+              "type": "Event",
+              "_label": "His Master's Voice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-24-11 - ",
+                "begin_of_the_begin": "1982-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75782",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

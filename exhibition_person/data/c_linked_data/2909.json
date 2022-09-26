@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/2909",
+  "type": "Person",
+  "_label": "Jerry Kearns",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7697",
+      "type": "Name",
+      "_label": "Jerry Kearns"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4942",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1943"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7697",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15394",
+      "type": "TimeSpan",
+      "_label": "Jerry Kearns Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7697",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15395",
+      "type": "TimeSpan",
+      "_label": "Jerry Kearns Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7697",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7697",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17239",
+              "type": "Event",
+              "_label": "Art and Ideology",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-4-2 - 1984-18-3",
+                "begin_of_the_begin": "1984-4-2",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29585",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2203",
+              "type": "Event",
+              "_label": "The Path of Resistance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-5-11 - 2001-30-1",
+                "begin_of_the_begin": "2000-5-11",
+                "end_of_the_end": "2001-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29586",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5800",
+  "type": "Person",
+  "_label": "Alfredo Valente",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16512",
+      "type": "Name",
+      "_label": "Alfredo Valente"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7696",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Italy. 1899–1973"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16512",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33024",
+      "type": "TimeSpan",
+      "_label": "Alfredo Valente Birth timespan",
+      "begin_of_the_begin": "1899",
+      "end_of_the_end": "1899"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16512",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33025",
+      "type": "TimeSpan",
+      "_label": "Alfredo Valente Death timespan",
+      "begin_of_the_begin": "1973",
+      "end_of_the_end": "1973"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16512",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16512",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/90",
+              "type": "Event",
+              "_label": "Photography 1839–1937",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-17-3 - 1937-18-4",
+                "begin_of_the_begin": "1937-17-3",
+                "end_of_the_end": "1937-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62459",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/203",
+              "type": "Event",
+              "_label": "Image of Freedom",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-29-10 - 1942-1-2",
+                "begin_of_the_begin": "1941-29-10",
+                "end_of_the_end": "1942-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62460",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

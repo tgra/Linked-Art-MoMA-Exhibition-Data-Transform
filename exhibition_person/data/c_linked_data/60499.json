@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60499",
+  "type": "Person",
+  "_label": "Margaret Lee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19198",
+      "type": "Name",
+      "_label": "Margaret Lee"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19198",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38396",
+      "type": "TimeSpan",
+      "_label": "Margaret Lee Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19198",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38397",
+      "type": "TimeSpan",
+      "_label": "Margaret Lee Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19198",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19198",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3571",
+              "type": "Event",
+              "_label": "New Pictures of Common Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-21-10 - 2013-14-4",
+                "begin_of_the_begin": "2012-21-10",
+                "end_of_the_end": "2013-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67957",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63375",
+  "type": "Person",
+  "_label": "Daniel Dezeuze",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20764",
+      "type": "Name",
+      "_label": "Daniel Dezeuze"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20764",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41528",
+      "type": "TimeSpan",
+      "_label": "Daniel Dezeuze Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20764",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41529",
+      "type": "TimeSpan",
+      "_label": "Daniel Dezeuze Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20764",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20764",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4946",
+              "type": "Event",
+              "_label": "Une Idee En L'Air",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-10 - 1980-20-12",
+                "begin_of_the_begin": "1980-28-10",
+                "end_of_the_end": "1980-20-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71705",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

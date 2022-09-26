@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60691",
+  "type": "Person",
+  "_label": "Phoebe Adams",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19394",
+      "type": "Name",
+      "_label": "Phoebe Adams"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19394",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38788",
+      "type": "TimeSpan",
+      "_label": "Phoebe Adams Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19394",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38789",
+      "type": "TimeSpan",
+      "_label": "Phoebe Adams Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19394",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19394",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4117",
+              "type": "Event",
+              "_label": "Made in Philadelphia 6",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-10-3 - 1984-25-4",
+                "begin_of_the_begin": "1984-10-3",
+                "end_of_the_end": "1984-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68483",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68484",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

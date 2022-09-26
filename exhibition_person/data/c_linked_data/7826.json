@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7826",
+  "type": "Person",
+  "_label": "Franz Wilhelm Seiwert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25787",
+      "type": "Name",
+      "_label": "Franz Wilhelm Seiwert"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9030",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1894–1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25787",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51574",
+      "type": "TimeSpan",
+      "_label": "Franz Wilhelm Seiwert Birth timespan",
+      "begin_of_the_begin": "1894",
+      "end_of_the_end": "1894"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25787",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51575",
+      "type": "TimeSpan",
+      "_label": "Franz Wilhelm Seiwert Death timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25787",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25787",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1339",
+              "type": "Event",
+              "_label": "The Graphic Revolution: 1915–1935",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-5-8 - 1977-31-10",
+                "begin_of_the_begin": "1977-5-8",
+                "end_of_the_end": "1977-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84056",
+                  "type": "Place",
+                  "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

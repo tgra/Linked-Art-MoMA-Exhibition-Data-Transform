@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/39475",
+  "type": "Person",
+  "_label": "American Museum of Folk Art",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13450",
+      "type": "Name",
+      "_label": "American Museum of Folk Art"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13450",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26900",
+      "type": "TimeSpan",
+      "_label": "American Museum of Folk Art Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13450",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26901",
+      "type": "TimeSpan",
+      "_label": "American Museum of Folk Art Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13450",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13450",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21982",
+              "type": "Event",
+              "_label": "Thornton Dial: Image of the Tiger",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-17-11 - 1994-2-1",
+                "begin_of_the_begin": "1993-17-11",
+                "end_of_the_end": "1994-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45099",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

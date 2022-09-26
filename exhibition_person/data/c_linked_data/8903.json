@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8903",
+  "type": "Person",
+  "_label": "Mutual Sunset Lamp Mfg. Co., New York, NY",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26376",
+      "type": "Name",
+      "_label": "Mutual Sunset Lamp Mfg. Co., New York, NY"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26376",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52752",
+      "type": "TimeSpan",
+      "_label": "Mutual Sunset Lamp Mfg. Co., New York, NY Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26376",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52753",
+      "type": "TimeSpan",
+      "_label": "Mutual Sunset Lamp Mfg. Co., New York, NY Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26376",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26376",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/563",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-11 - 1952-27-1",
+                "begin_of_the_begin": "1951-27-11",
+                "end_of_the_end": "1952-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86564",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

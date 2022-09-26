@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3090",
+  "type": "Person",
+  "_label": "Mark Kostabi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9644",
+      "type": "Name",
+      "_label": "Mark Kostabi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5164",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1960"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9644",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19288",
+      "type": "TimeSpan",
+      "_label": "Mark Kostabi Birth timespan",
+      "begin_of_the_begin": "1960",
+      "end_of_the_end": "1960"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9644",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19289",
+      "type": "TimeSpan",
+      "_label": "Mark Kostabi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9644",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9644",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4111",
+              "type": "Event",
+              "_label": "The East Village Scene",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-12-10 - 1984-2-12",
+                "begin_of_the_begin": "1984-12-10",
+                "end_of_the_end": "1984-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33511",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2807",
+              "type": "Event",
+              "_label": "Limbo",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33512",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33513",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

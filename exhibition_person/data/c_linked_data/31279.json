@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31279",
+  "type": "Person",
+  "_label": "Charlotte Trowbridge",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10055",
+      "type": "Name",
+      "_label": "Charlotte Trowbridge"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10055",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20110",
+      "type": "TimeSpan",
+      "_label": "Charlotte Trowbridge Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10055",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20111",
+      "type": "TimeSpan",
+      "_label": "Charlotte Trowbridge Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10055",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10055",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/394",
+              "type": "Event",
+              "_label": "Modern Handmade Jewelry",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-17-9 - 1946-17-11",
+                "begin_of_the_begin": "1946-17-9",
+                "end_of_the_end": "1946-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34250",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/425",
+              "type": "Event",
+              "_label": "World of Illusion: Elements of Stage Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-14-10 - 1948-4-1",
+                "begin_of_the_begin": "1947-14-10",
+                "end_of_the_end": "1948-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34251",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31088",
+  "type": "Person",
+  "_label": "William Hartmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9847",
+      "type": "Name",
+      "_label": "William Hartmann"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9847",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19694",
+      "type": "TimeSpan",
+      "_label": "William Hartmann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9847",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19695",
+      "type": "TimeSpan",
+      "_label": "William Hartmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9847",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9847",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/127",
+              "type": "Event",
+              "_label": "Williamsburg Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-28-2 - 1939-15-3",
+                "begin_of_the_begin": "1939-28-2",
+                "end_of_the_end": "1939-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33907",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

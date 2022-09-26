@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32122",
+  "type": "Person",
+  "_label": "Lois Lord",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10962",
+      "type": "Name",
+      "_label": "Lois Lord"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10962",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21924",
+      "type": "TimeSpan",
+      "_label": "Lois Lord Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10962",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21925",
+      "type": "TimeSpan",
+      "_label": "Lois Lord Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10962",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10962",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/870",
+              "type": "Event",
+              "_label": "Art Work of Japanese Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-15-12 - 1966-19-2",
+                "begin_of_the_begin": "1965-15-12",
+                "end_of_the_end": "1966-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35976",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

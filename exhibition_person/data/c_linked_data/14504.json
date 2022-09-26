@@ -54,7 +54,33 @@
         {
           "id": "https://linkedart.example.com/Set/645",
           "type": "Set",
-          "_label": "Exhibitions"
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2223",
+              "type": "Event",
+              "_label": "New to Modern",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-25-10 - 2002-8-1",
+                "begin_of_the_begin": "2001-25-10",
+                "end_of_the_end": "2002-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4216",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

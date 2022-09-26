@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32651",
+  "type": "Person",
+  "_label": "Roy Stout",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11533",
+      "type": "Name",
+      "_label": "Roy Stout"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11533",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23066",
+      "type": "TimeSpan",
+      "_label": "Roy Stout Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11533",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23067",
+      "type": "TimeSpan",
+      "_label": "Roy Stout Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11533",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11533",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1416",
+              "type": "Event",
+              "_label": "Transformations in Modern Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-21-2 - 1979-24-4",
+                "begin_of_the_begin": "1979-21-2",
+                "end_of_the_end": "1979-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36985",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

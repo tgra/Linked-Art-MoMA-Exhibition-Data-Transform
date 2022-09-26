@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57183",
+  "type": "Person",
+  "_label": "Tim Maul",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15636",
+      "type": "Name",
+      "_label": "Tim Maul"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15636",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31272",
+      "type": "TimeSpan",
+      "_label": "Tim Maul Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15636",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31273",
+      "type": "TimeSpan",
+      "_label": "Tim Maul Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15636",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15636",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2999",
+              "type": "Event",
+              "_label": "A Month of Sundays",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-19-9 - 1976-10-10",
+                "begin_of_the_begin": "1976-19-9",
+                "end_of_the_end": "1976-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60607",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3115",
+              "type": "Event",
+              "_label": "Video (Spring 1981): Funny Video Tapes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60608",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4912",
+              "type": "Event",
+              "_label": "Smoke Against the Beat",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-20-1 - 1998-21-1",
+                "begin_of_the_begin": "1998-20-1",
+                "end_of_the_end": "1998-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60609",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

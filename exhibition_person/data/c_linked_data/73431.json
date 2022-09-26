@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73431",
+  "type": "Person",
+  "_label": "Nore Jaffe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25310",
+      "type": "Name",
+      "_label": "Nore Jaffe"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25310",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50620",
+      "type": "TimeSpan",
+      "_label": "Nore Jaffe Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25310",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50621",
+      "type": "TimeSpan",
+      "_label": "Nore Jaffe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25310",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25310",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54789",
+              "type": "Event",
+              "_label": "[Penthouse Exhibition]",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-21-12 - ",
+                "begin_of_the_begin": "1959-21-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81701",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

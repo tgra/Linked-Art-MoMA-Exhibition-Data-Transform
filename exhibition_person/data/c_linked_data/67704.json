@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67704",
+  "type": "Person",
+  "_label": "Willa Carrp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23067",
+      "type": "Name",
+      "_label": "Willa Carrp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23067",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46134",
+      "type": "TimeSpan",
+      "_label": "Willa Carrp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23067",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46135",
+      "type": "TimeSpan",
+      "_label": "Willa Carrp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23067",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23067",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18658",
+              "type": "Event",
+              "_label": "Wind (the Eternal Return …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-21-3 - ",
+                "begin_of_the_begin": "2001-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76091",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

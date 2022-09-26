@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57182",
+  "type": "Person",
+  "_label": "Tony Mascatello",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15635",
+      "type": "Name",
+      "_label": "Tony Mascatello"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15635",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31270",
+      "type": "TimeSpan",
+      "_label": "Tony Mascatello Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15635",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31271",
+      "type": "TimeSpan",
+      "_label": "Tony Mascatello Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15635",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15635",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3115",
+              "type": "Event",
+              "_label": "Video (Spring 1981): Funny Video Tapes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60605",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3106",
+              "type": "Event",
+              "_label": "Critical Perspectives: Curators and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60606",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

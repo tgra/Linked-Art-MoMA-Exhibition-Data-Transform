@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65746",
+  "type": "Person",
+  "_label": "Marc André Robinson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21863",
+      "type": "Name",
+      "_label": "Marc André Robinson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21863",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43726",
+      "type": "TimeSpan",
+      "_label": "Marc André Robinson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21863",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43727",
+      "type": "TimeSpan",
+      "_label": "Marc André Robinson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21863",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21863",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17062",
+              "type": "Event",
+              "_label": "Unmonumental: The Object in the 21st Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-1-12 - 2008-30-3",
+                "begin_of_the_begin": "2007-1-12",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73855",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

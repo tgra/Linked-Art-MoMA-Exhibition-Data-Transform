@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30532",
+  "type": "Person",
+  "_label": "A. Fissenko",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9247",
+      "type": "Name",
+      "_label": "A. Fissenko"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9247",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18494",
+      "type": "TimeSpan",
+      "_label": "A. Fissenko Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9247",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18495",
+      "type": "TimeSpan",
+      "_label": "A. Fissenko Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9247",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9247",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16",
+              "type": "Event",
+              "_label": "Modern Architecture: International Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-9-2 - 1932-23-3",
+                "begin_of_the_begin": "1932-9-2",
+                "end_of_the_end": "1932-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32645",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

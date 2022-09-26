@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59421",
+  "type": "Person",
+  "_label": "Chelin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18041",
+      "type": "Name",
+      "_label": "Chelin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18041",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36082",
+      "type": "TimeSpan",
+      "_label": "Chelin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18041",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36083",
+      "type": "TimeSpan",
+      "_label": "Chelin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18041",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18041",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3497",
+              "type": "Event",
+              "_label": "First Steps: Emerging Artists from Japan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-16-2 - 2003-27-4",
+                "begin_of_the_begin": "2003-16-2",
+                "end_of_the_end": "2003-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65427",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

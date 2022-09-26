@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60213",
+  "type": "Person",
+  "_label": "Brian O’Connell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18891",
+      "type": "Name",
+      "_label": "Brian O’Connell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18891",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37782",
+      "type": "TimeSpan",
+      "_label": "Brian O’Connell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18891",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37783",
+      "type": "TimeSpan",
+      "_label": "Brian O’Connell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18891",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18891",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67319",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18508",
+              "type": "Event",
+              "_label": "Re Runs '79 Screening",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-9 - ",
+                "begin_of_the_begin": "1979-11-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67320",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

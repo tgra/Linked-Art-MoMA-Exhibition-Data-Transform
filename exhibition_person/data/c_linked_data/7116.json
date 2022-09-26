@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7116",
+  "type": "Person",
+  "_label": "Daniel Lang",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24555",
+      "type": "Name",
+      "_label": "Daniel Lang"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8544",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24555",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49110",
+      "type": "TimeSpan",
+      "_label": "Daniel Lang Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24555",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49111",
+      "type": "TimeSpan",
+      "_label": "Daniel Lang Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24555",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24555",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4189",
+              "type": "Event",
+              "_label": "The Highway",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-1 - 1970-25-2",
+                "begin_of_the_begin": "1970-14-1",
+                "end_of_the_end": "1970-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79505",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

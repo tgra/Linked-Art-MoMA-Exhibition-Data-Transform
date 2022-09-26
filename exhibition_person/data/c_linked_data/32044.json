@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32044",
+  "type": "Person",
+  "_label": "Lenore Browning",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10877",
+      "type": "Name",
+      "_label": "Lenore Browning"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10877",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21754",
+      "type": "TimeSpan",
+      "_label": "Lenore Browning Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10877",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21755",
+      "type": "TimeSpan",
+      "_label": "Lenore Browning Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10877",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10877",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/149",
+              "type": "Event",
+              "_label": "The Work of Sharaku",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-3-4 - 1940-1-5",
+                "begin_of_the_begin": "1940-3-4",
+                "end_of_the_end": "1940-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35832",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/198",
+              "type": "Event",
+              "_label": "George Grosz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-8-10 - 1941-2-11",
+                "begin_of_the_begin": "1941-8-10",
+                "end_of_the_end": "1941-2-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35833",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

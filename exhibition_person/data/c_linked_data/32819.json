@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32819",
+  "type": "Person",
+  "_label": "Sonia Andrade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11709",
+      "type": "Name",
+      "_label": "Sonia Andrade"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11709",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23418",
+      "type": "TimeSpan",
+      "_label": "Sonia Andrade Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11709",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23419",
+      "type": "TimeSpan",
+      "_label": "Sonia Andrade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11709",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11709",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4170",
+              "type": "Event",
+              "_label": "Video Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-17-1 - 1975-28-2",
+                "begin_of_the_begin": "1975-17-1",
+                "end_of_the_end": "1975-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37562",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1507",
+              "type": "Event",
+              "_label": "Video From Latin America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-29-10 - 1981-1-12",
+                "begin_of_the_begin": "1981-29-10",
+                "end_of_the_end": "1981-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37563",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

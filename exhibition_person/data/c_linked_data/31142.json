@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31142",
+  "type": "Person",
+  "_label": "Sybil Freed",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9906",
+      "type": "Name",
+      "_label": "Sybil Freed"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9906",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19812",
+      "type": "TimeSpan",
+      "_label": "Sybil Freed Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9906",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19813",
+      "type": "TimeSpan",
+      "_label": "Sybil Freed Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9906",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9906",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/294",
+              "type": "Event",
+              "_label": "Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-4-11 - 1943-7-12",
+                "begin_of_the_begin": "1943-4-11",
+                "end_of_the_end": "1943-7-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33998",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

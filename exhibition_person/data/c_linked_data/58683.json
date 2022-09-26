@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58683",
+  "type": "Person",
+  "_label": "Johan Elbers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17248",
+      "type": "Name",
+      "_label": "Johan Elbers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17248",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34496",
+      "type": "TimeSpan",
+      "_label": "Johan Elbers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17248",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34497",
+      "type": "TimeSpan",
+      "_label": "Johan Elbers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17248",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17248",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3372",
+              "type": "Event",
+              "_label": "Photography (Winter 1978–1979): Alternative Gestures: Another Look at Dance Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-12 - 1979-21-1",
+                "begin_of_the_begin": "1978-3-12",
+                "end_of_the_end": "1979-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63838",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17074",
+              "type": "Event",
+              "_label": "Trisha Brown: Dance and Art in Dialogue 1961-2001",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-10-10 - 2004-25-1",
+                "begin_of_the_begin": "2003-10-10",
+                "end_of_the_end": "2004-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63839",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29649",
+  "type": "Person",
+  "_label": "William Holman Hunt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8299",
+      "type": "Name",
+      "_label": "William Holman Hunt"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5023",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1827–1910"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8299",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16598",
+      "type": "TimeSpan",
+      "_label": "William Holman Hunt Birth timespan",
+      "begin_of_the_begin": "1827",
+      "end_of_the_end": "1827"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8299",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16599",
+      "type": "TimeSpan",
+      "_label": "William Holman Hunt Death timespan",
+      "begin_of_the_begin": "1910",
+      "end_of_the_end": "1910"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8299",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8299",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/677",
+              "type": "Event",
+              "_label": "Masters of British Painting, 1800–1950",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-3-10 - 1956-2-12",
+                "begin_of_the_begin": "1956-3-10",
+                "end_of_the_end": "1956-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30695",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

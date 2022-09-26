@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6371",
+  "type": "Person",
+  "_label": "F.-A Gorquet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20991",
+      "type": "Name",
+      "_label": "F.-A Gorquet"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8128",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1862–1927"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20991",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41982",
+      "type": "TimeSpan",
+      "_label": "F.-A Gorquet Birth timespan",
+      "begin_of_the_begin": "1862",
+      "end_of_the_end": "1862"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20991",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41983",
+      "type": "TimeSpan",
+      "_label": "F.-A Gorquet Death timespan",
+      "begin_of_the_begin": "1927",
+      "end_of_the_end": "1927"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20991",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20991",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1835",
+              "type": "Event",
+              "_label": "Color Prints from France: 1890–1910",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-8-8 - 1991-5-11",
+                "begin_of_the_begin": "1991-8-8",
+                "end_of_the_end": "1991-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72261",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

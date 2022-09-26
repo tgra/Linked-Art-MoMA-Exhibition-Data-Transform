@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59559",
+  "type": "Person",
+  "_label": "Alejandro Sina",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18190",
+      "type": "Name",
+      "_label": "Alejandro Sina"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18190",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36380",
+      "type": "TimeSpan",
+      "_label": "Alejandro Sina Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18190",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36381",
+      "type": "TimeSpan",
+      "_label": "Alejandro Sina Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18190",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18190",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2707",
+              "type": "Event",
+              "_label": "P.U.L.S.E. (People Who Use Light Sound and Energy)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-4-4 - 1987-23-5",
+                "begin_of_the_begin": "1987-4-4",
+                "end_of_the_end": "1987-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65702",
+                  "type": "Place",
+                  "_label": "420 West Broadway, NY",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

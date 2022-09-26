@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8224",
+  "type": "Person",
+  "_label": "Georgina Starr",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26065",
+      "type": "Name",
+      "_label": "Georgina Starr"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9284",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1968"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26065",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52130",
+      "type": "TimeSpan",
+      "_label": "Georgina Starr Birth timespan",
+      "begin_of_the_begin": "1968",
+      "end_of_the_end": "1968"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26065",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52131",
+      "type": "TimeSpan",
+      "_label": "Georgina Starr Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26065",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26065",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2039",
+              "type": "Event",
+              "_label": "New Photography 12: Richard Billingham, Thomas Demand, Thomas Demand, Osamu Kanemura, Sophie Ristlehueber, Georgina Starr, Wolfgang Tillmans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-24-10 - 1997-4-2",
+                "begin_of_the_begin": "1996-24-10",
+                "end_of_the_end": "1997-4-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84925",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

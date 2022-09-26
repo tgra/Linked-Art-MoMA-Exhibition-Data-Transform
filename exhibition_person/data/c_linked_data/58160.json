@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58160",
+  "type": "Person",
+  "_label": "Dan Havel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16684",
+      "type": "Name",
+      "_label": "Dan Havel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16684",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33368",
+      "type": "TimeSpan",
+      "_label": "Dan Havel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16684",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33369",
+      "type": "TimeSpan",
+      "_label": "Dan Havel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16684",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16684",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3741",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1984–1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-25-1 - 1985-3-3",
+                "begin_of_the_begin": "1985-25-1",
+                "end_of_the_end": "1985-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62818",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

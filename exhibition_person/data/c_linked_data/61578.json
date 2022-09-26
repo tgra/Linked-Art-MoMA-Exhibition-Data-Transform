@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61578",
+  "type": "Person",
+  "_label": "Lea Douglas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20023",
+      "type": "Name",
+      "_label": "Lea Douglas"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20023",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40046",
+      "type": "TimeSpan",
+      "_label": "Lea Douglas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20023",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40047",
+      "type": "TimeSpan",
+      "_label": "Lea Douglas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20023",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20023",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4734",
+              "type": "Event",
+              "_label": "Lea Douglas: Modern Harmony",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-2-12 - 1980-13-12",
+                "begin_of_the_begin": "1980-2-12",
+                "end_of_the_end": "1980-13-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69743",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4626",
+              "type": "Event",
+              "_label": "Group Show: April 21 - May 9, 1981",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-21-4 - 1981-9-5",
+                "begin_of_the_begin": "1981-21-4",
+                "end_of_the_end": "1981-9-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69744",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

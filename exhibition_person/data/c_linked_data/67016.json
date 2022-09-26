@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67016",
+  "type": "Person",
+  "_label": "Torbjorn Vejvi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22466",
+      "type": "Name",
+      "_label": "Torbjorn Vejvi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22466",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44932",
+      "type": "TimeSpan",
+      "_label": "Torbjorn Vejvi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22466",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44933",
+      "type": "TimeSpan",
+      "_label": "Torbjorn Vejvi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22466",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22466",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17082",
+              "type": "Event",
+              "_label": "New Additions to the Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-25-1 - 2002-17-2",
+                "begin_of_the_begin": "2002-25-1",
+                "end_of_the_end": "2002-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75115",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32158",
+  "type": "Person",
+  "_label": "Luis de Florez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11000",
+      "type": "Name",
+      "_label": "Luis de Florez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11000",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22000",
+      "type": "TimeSpan",
+      "_label": "Luis de Florez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11000",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22001",
+      "type": "TimeSpan",
+      "_label": "Luis de Florez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11000",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11000",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/515",
+              "type": "Event",
+              "_label": "Prize Designs for Modern Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-16-5 - 1950-16-7",
+                "begin_of_the_begin": "1950-16-5",
+                "end_of_the_end": "1950-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36027",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

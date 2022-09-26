@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67427",
+  "type": "Person",
+  "_label": "Miya Masaoka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22778",
+      "type": "Name",
+      "_label": "Miya Masaoka"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22778",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45556",
+      "type": "TimeSpan",
+      "_label": "Miya Masaoka Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22778",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45557",
+      "type": "TimeSpan",
+      "_label": "Miya Masaoka Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22778",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22778",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18199",
+              "type": "Event",
+              "_label": "Between Thought and Sound…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - ",
+                "begin_of_the_begin": "2007-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75679",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

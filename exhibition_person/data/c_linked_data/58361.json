@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58361",
+  "type": "Person",
+  "_label": "Choi Hwa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16900",
+      "type": "Name",
+      "_label": "Choi Hwa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16900",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33800",
+      "type": "TimeSpan",
+      "_label": "Choi Hwa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16900",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33801",
+      "type": "TimeSpan",
+      "_label": "Choi Hwa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16900",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16900",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2895",
+              "type": "Event",
+              "_label": "Cities on the Move 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63258",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21849",
+              "type": "Event",
+              "_label": "Museum as Hub: In and Out of Context",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-8 - 2010-8-6",
+                "begin_of_the_begin": "2009-8-8",
+                "end_of_the_end": "2010-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63259",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21847",
+              "type": "Event",
+              "_label": "Museum as Hub: In and Out of Context REDUX",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-26-3 - 2010-25-7",
+                "begin_of_the_begin": "2010-26-3",
+                "end_of_the_end": "2010-25-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63260",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

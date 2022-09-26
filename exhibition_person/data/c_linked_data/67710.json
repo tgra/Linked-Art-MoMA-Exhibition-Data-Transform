@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67710",
+  "type": "Person",
+  "_label": "ZBS Media",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23073",
+      "type": "Name",
+      "_label": "ZBS Media"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23073",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46146",
+      "type": "TimeSpan",
+      "_label": "ZBS Media Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23073",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46147",
+      "type": "TimeSpan",
+      "_label": "ZBS Media Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23073",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23073",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18154",
+              "type": "Event",
+              "_label": "A Listening Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-4 - ",
+                "begin_of_the_begin": "1980-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76100",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

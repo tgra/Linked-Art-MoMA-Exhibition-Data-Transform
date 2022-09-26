@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/50149",
+  "type": "Person",
+  "_label": "Ulrich Loock",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14385",
+      "type": "Name",
+      "_label": "Ulrich Loock"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14385",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28770",
+      "type": "TimeSpan",
+      "_label": "Ulrich Loock Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14385",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28771",
+      "type": "TimeSpan",
+      "_label": "Ulrich Loock Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14385",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14385",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21850",
+              "type": "Event",
+              "_label": "Intersections Intersected: The Photography of David Goldblatt",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-15-7 - 2009-11-10",
+                "begin_of_the_begin": "2009-15-7",
+                "end_of_the_end": "2009-11-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53768",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

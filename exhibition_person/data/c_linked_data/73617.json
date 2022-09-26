@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73617",
+  "type": "Person",
+  "_label": "Pierre  Cuniberti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25381",
+      "type": "Name",
+      "_label": "Pierre  Cuniberti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25381",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50762",
+      "type": "TimeSpan",
+      "_label": "Pierre  Cuniberti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25381",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50763",
+      "type": "TimeSpan",
+      "_label": "Pierre  Cuniberti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25381",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25381",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54757",
+              "type": "Event",
+              "_label": "Selections from the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-14-2 - ",
+                "begin_of_the_begin": "1966-14-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81816",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

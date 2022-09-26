@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63301",
+  "type": "Person",
+  "_label": "C. C. A. Christensen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20692",
+      "type": "Name",
+      "_label": "C. C. A. Christensen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8107",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American (Born in Denmark), 1831-1912"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20692",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41384",
+      "type": "TimeSpan",
+      "_label": "C. C. A. Christensen Birth timespan",
+      "begin_of_the_begin": "1831",
+      "end_of_the_end": "1831"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20692",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41385",
+      "type": "TimeSpan",
+      "_label": "C. C. A. Christensen Death timespan",
+      "begin_of_the_begin": "1912",
+      "end_of_the_end": "1912"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20692",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20692",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6620",
+              "type": "Event",
+              "_label": "Christensen: A Panorama of Mormon Life ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-13-8 - 1970-7-9",
+                "begin_of_the_begin": "1970-13-8",
+                "end_of_the_end": "1970-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71571",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

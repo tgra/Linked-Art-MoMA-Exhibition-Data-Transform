@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/49834",
+  "type": "Person",
+  "_label": "Enoc Perez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14360",
+      "type": "Name",
+      "_label": "Enoc Perez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14360",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28720",
+      "type": "TimeSpan",
+      "_label": "Enoc Perez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14360",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28721",
+      "type": "TimeSpan",
+      "_label": "Enoc Perez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14360",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14360",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5022",
+              "type": "Event",
+              "_label": "White Room: Enoc Perez",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-22-1 - 1993-21-2",
+                "begin_of_the_begin": "1993-22-1",
+                "end_of_the_end": "1993-21-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53576",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4959",
+              "type": "Event",
+              "_label": "Update 1993",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-10-9 - 1993-3-10",
+                "begin_of_the_begin": "1993-10-9",
+                "end_of_the_end": "1993-3-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53577",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

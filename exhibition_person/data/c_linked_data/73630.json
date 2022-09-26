@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73630",
+  "type": "Person",
+  "_label": "Oyvind  Fahlstrom",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25395",
+      "type": "Name",
+      "_label": "Oyvind  Fahlstrom"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25395",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50790",
+      "type": "TimeSpan",
+      "_label": "Oyvind  Fahlstrom Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25395",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50791",
+      "type": "TimeSpan",
+      "_label": "Oyvind  Fahlstrom Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25395",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25395",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1317",
+              "type": "Event",
+              "_label": "Maps",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-14-2 - 1977-10-4",
+                "begin_of_the_begin": "1977-14-2",
+                "end_of_the_end": "1977-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81831",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

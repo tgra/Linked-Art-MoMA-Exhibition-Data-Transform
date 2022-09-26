@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/34734",
+  "type": "Person",
+  "_label": "Titus Kaphar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12378",
+      "type": "Name",
+      "_label": "Titus Kaphar"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5751",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1976"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12378",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24756",
+      "type": "TimeSpan",
+      "_label": "Titus Kaphar Birth timespan",
+      "begin_of_the_begin": "1976",
+      "end_of_the_end": "1976"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12378",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24757",
+      "type": "TimeSpan",
+      "_label": "Titus Kaphar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12378",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12378",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3583",
+              "type": "Event",
+              "_label": "Titus Kaphar: Selections from Asphalt and Chalk\n",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-10-6 - 2015-10-9",
+                "begin_of_the_begin": "2015-10-6",
+                "end_of_the_end": "2015-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40184",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

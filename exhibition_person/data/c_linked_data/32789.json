@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32789",
+  "type": "Person",
+  "_label": "Robert Geddes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11679",
+      "type": "Name",
+      "_label": "Robert Geddes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11679",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23358",
+      "type": "TimeSpan",
+      "_label": "Robert Geddes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11679",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23359",
+      "type": "TimeSpan",
+      "_label": "Robert Geddes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11679",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11679",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1445",
+              "type": "Event",
+              "_label": "Liberty State Park: The Master Plan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-12-10 - 1979-25-11",
+                "begin_of_the_begin": "1979-12-10",
+                "end_of_the_end": "1979-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37417",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

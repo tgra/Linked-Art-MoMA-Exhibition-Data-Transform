@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60720",
+  "type": "Person",
+  "_label": "Bill Walton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19424",
+      "type": "Name",
+      "_label": "Bill Walton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19424",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38848",
+      "type": "TimeSpan",
+      "_label": "Bill Walton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19424",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38849",
+      "type": "TimeSpan",
+      "_label": "Bill Walton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19424",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19424",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4091",
+              "type": "Event",
+              "_label": "Made in Philadelphia 7",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-11-12 - 1987-26-1",
+                "begin_of_the_begin": "1986-11-12",
+                "end_of_the_end": "1987-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68537",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4031",
+              "type": "Event",
+              "_label": "Bill Walton's Studio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-7-9 - 2011-4-12",
+                "begin_of_the_begin": "2011-7-9",
+                "end_of_the_end": "2011-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68538",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

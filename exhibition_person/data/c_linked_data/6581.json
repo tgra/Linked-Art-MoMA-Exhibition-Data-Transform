@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6581",
+  "type": "Person",
+  "_label": "Charles Schenk",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21896",
+      "type": "Name",
+      "_label": "Charles Schenk"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8189",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21896",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43792",
+      "type": "TimeSpan",
+      "_label": "Charles Schenk Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21896",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43793",
+      "type": "TimeSpan",
+      "_label": "Charles Schenk Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21896",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21896",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/943",
+              "type": "Event",
+              "_label": "Language of the Body",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-10 - 2000-1-2",
+                "begin_of_the_begin": "1999-7-10",
+                "end_of_the_end": "2000-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73964",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

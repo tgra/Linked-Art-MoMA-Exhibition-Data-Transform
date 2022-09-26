@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64608",
+  "type": "Person",
+  "_label": "Experimental Sound Studio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21342",
+      "type": "Name",
+      "_label": "Experimental Sound Studio"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21342",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42684",
+      "type": "TimeSpan",
+      "_label": "Experimental Sound Studio Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21342",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42685",
+      "type": "TimeSpan",
+      "_label": "Experimental Sound Studio Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21342",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21342",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17105",
+              "type": "Event",
+              "_label": "alt.youth.media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-9 - 1996-5-11",
+                "begin_of_the_begin": "1996-6-9",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72864",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

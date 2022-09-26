@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69681",
+  "type": "Person",
+  "_label": "Miyoko Ito",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23862",
+      "type": "Name",
+      "_label": "Miyoko Ito"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23862",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47724",
+      "type": "TimeSpan",
+      "_label": "Miyoko Ito Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23862",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47725",
+      "type": "TimeSpan",
+      "_label": "Miyoko Ito Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23862",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23862",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6411",
+              "type": "Event",
+              "_label": "1951 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-8-11 - 1952-6-1",
+                "begin_of_the_begin": "1951-8-11",
+                "end_of_the_end": "1952-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78155",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6755",
+              "type": "Event",
+              "_label": "1975 Biennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-20-1 - 1975-9-4",
+                "begin_of_the_begin": "1975-20-1",
+                "end_of_the_end": "1975-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78156",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

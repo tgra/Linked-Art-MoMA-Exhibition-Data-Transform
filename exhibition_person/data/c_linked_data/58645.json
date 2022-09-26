@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58645",
+  "type": "Person",
+  "_label": "Patricia Nigro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17206",
+      "type": "Name",
+      "_label": "Patricia Nigro"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17206",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34412",
+      "type": "TimeSpan",
+      "_label": "Patricia Nigro Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17206",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34413",
+      "type": "TimeSpan",
+      "_label": "Patricia Nigro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17206",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17206",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3301",
+              "type": "Event",
+              "_label": "Out of the Studio: Photography and Community",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-25-1 - 1987-22-3",
+                "begin_of_the_begin": "1987-25-1",
+                "end_of_the_end": "1987-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63752",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

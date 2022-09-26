@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66878",
+  "type": "Person",
+  "_label": "Taofeek Saka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22405",
+      "type": "Name",
+      "_label": "Taofeek Saka"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22405",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44810",
+      "type": "TimeSpan",
+      "_label": "Taofeek Saka Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22405",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44811",
+      "type": "TimeSpan",
+      "_label": "Taofeek Saka Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22405",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22405",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17075",
+              "type": "Event",
+              "_label": "Black President: the Art and Legacy of Fela Anikulapo-Kuti",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-11-7 - 2003-19-10",
+                "begin_of_the_begin": "2003-11-7",
+                "end_of_the_end": "2003-19-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74989",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/36255",
+  "type": "Person",
+  "_label": "Kenan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13171",
+      "type": "Name",
+      "_label": "Kenan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13171",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26342",
+      "type": "TimeSpan",
+      "_label": "Kenan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13171",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26343",
+      "type": "TimeSpan",
+      "_label": "Kenan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13171",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13171",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2116",
+              "type": "Event",
+              "_label": "UFA Film Posters, 1918–1943",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-9 - 1999-5-1",
+                "begin_of_the_begin": "1998-17-9",
+                "end_of_the_end": "1999-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/42401",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

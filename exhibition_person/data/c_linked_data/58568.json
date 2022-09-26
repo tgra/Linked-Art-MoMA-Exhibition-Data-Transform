@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58568",
+  "type": "Person",
+  "_label": "Kit-Yin Snyder",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17123",
+      "type": "Name",
+      "_label": "Kit-Yin Snyder"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17123",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34246",
+      "type": "TimeSpan",
+      "_label": "Kit-Yin Snyder Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17123",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34247",
+      "type": "TimeSpan",
+      "_label": "Kit-Yin Snyder Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17123",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17123",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3788",
+              "type": "Event",
+              "_label": "Studio Workspace Exhibition 1979–1980",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63614",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3373",
+              "type": "Event",
+              "_label": "Studio Workspace Program Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-27-4 - 1980-15-6",
+                "begin_of_the_begin": "1980-27-4",
+                "end_of_the_end": "1980-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63615",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

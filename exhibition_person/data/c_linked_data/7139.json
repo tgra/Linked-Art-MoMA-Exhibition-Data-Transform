@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7139",
+  "type": "Person",
+  "_label": "Koichi Yoshimura",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24801",
+      "type": "Name",
+      "_label": "Koichi Yoshimura"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8570",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1940"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24801",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49602",
+      "type": "TimeSpan",
+      "_label": "Koichi Yoshimura Birth timespan",
+      "begin_of_the_begin": "1940",
+      "end_of_the_end": "1940"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24801",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49603",
+      "type": "TimeSpan",
+      "_label": "Koichi Yoshimura Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24801",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24801",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2265",
+              "type": "Event",
+              "_label": "Architecture and Design: Inaugural Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-20-11 - 2005-7-11",
+                "begin_of_the_begin": "2004-20-11",
+                "end_of_the_end": "2005-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80262",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57892",
+  "type": "Person",
+  "_label": "Lisa Hein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16394",
+      "type": "Name",
+      "_label": "Lisa Hein"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16394",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32788",
+      "type": "TimeSpan",
+      "_label": "Lisa Hein Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16394",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32789",
+      "type": "TimeSpan",
+      "_label": "Lisa Hein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16394",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16394",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3073",
+              "type": "Event",
+              "_label": "Out of Site: Part II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-4 - 1991-9-6",
+                "begin_of_the_begin": "1991-14-4",
+                "end_of_the_end": "1991-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62232",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3780",
+              "type": "Event",
+              "_label": "Tinsel Tower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-5-12 - 1996-24-12",
+                "begin_of_the_begin": "1996-5-12",
+                "end_of_the_end": "1996-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62233",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

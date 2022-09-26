@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56862",
+  "type": "Person",
+  "_label": "Bruce Chao",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15289",
+      "type": "Name",
+      "_label": "Bruce Chao"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15289",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30578",
+      "type": "TimeSpan",
+      "_label": "Bruce Chao Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15289",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30579",
+      "type": "TimeSpan",
+      "_label": "Bruce Chao Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15289",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15289",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3151",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1979–1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59902",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57870",
+  "type": "Person",
+  "_label": "Alex Streeter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16370",
+      "type": "Name",
+      "_label": "Alex Streeter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16370",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32740",
+      "type": "TimeSpan",
+      "_label": "Alex Streeter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16370",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32741",
+      "type": "TimeSpan",
+      "_label": "Alex Streeter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16370",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16370",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3297",
+              "type": "Event",
+              "_label": "Out of Site",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-16-12 - 1991-10-2",
+                "begin_of_the_begin": "1990-16-12",
+                "end_of_the_end": "1991-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62179",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

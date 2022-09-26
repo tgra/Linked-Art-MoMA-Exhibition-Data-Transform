@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/52176",
+  "type": "Person",
+  "_label": "Pat Hitchcock O'Connell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14657",
+      "type": "Name",
+      "_label": "Pat Hitchcock O'Connell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14657",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29314",
+      "type": "TimeSpan",
+      "_label": "Pat Hitchcock O'Connell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14657",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29315",
+      "type": "TimeSpan",
+      "_label": "Pat Hitchcock O'Connell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14657",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14657",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2145",
+              "type": "Event",
+              "_label": "Alfred Hitchcock Centenary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-4 - 1999-17-8",
+                "begin_of_the_begin": "1999-15-4",
+                "end_of_the_end": "1999-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55734",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

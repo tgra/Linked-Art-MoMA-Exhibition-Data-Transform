@@ -1,0 +1,76 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30393",
+  "type": "Person",
+  "_label": "Lou Dorfsman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9097",
+      "type": "Name",
+      "_label": "Lou Dorfsman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9097",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18194",
+      "type": "TimeSpan",
+      "_label": "Lou Dorfsman Birth timespan",
+      "begin_of_the_begin": "1918",
+      "end_of_the_end": "1918"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9097",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18195",
+      "type": "TimeSpan",
+      "_label": "Lou Dorfsman Death timespan",
+      "begin_of_the_begin": "2008",
+      "end_of_the_end": "2008"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9097",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9097",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/470",
+              "type": "Event",
+              "_label": "The 28th Annual Exhibition of Advertising and Editorial Art of the New York Art Directors Club",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-3 - 1949-17-4",
+                "begin_of_the_begin": "1949-15-3",
+                "end_of_the_end": "1949-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32426",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

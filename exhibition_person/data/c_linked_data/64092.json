@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64092",
+  "type": "Person",
+  "_label": "Carolina Caycedo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21132",
+      "type": "Name",
+      "_label": "Carolina Caycedo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21132",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42264",
+      "type": "TimeSpan",
+      "_label": "Carolina Caycedo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21132",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42265",
+      "type": "TimeSpan",
+      "_label": "Carolina Caycedo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21132",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21132",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17048",
+              "type": "Event",
+              "_label": "The Generational Triennial: Younger Than Jesus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-4 - 2009-14-6",
+                "begin_of_the_begin": "2009-8-4",
+                "end_of_the_end": "2009-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72480",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28412",
+              "type": "Event",
+              "_label": "Whitney Biennial 2006: Day for Night",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-2-3 - 2006-28-5",
+                "begin_of_the_begin": "2006-2-3",
+                "end_of_the_end": "2006-28-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72481",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

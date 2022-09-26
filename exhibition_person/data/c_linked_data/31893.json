@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31893",
+  "type": "Person",
+  "_label": "Ostuni O-Luca",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10714",
+      "type": "Name",
+      "_label": "Ostuni O-Luca"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10714",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21428",
+      "type": "TimeSpan",
+      "_label": "Ostuni O-Luca Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10714",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21429",
+      "type": "TimeSpan",
+      "_label": "Ostuni O-Luca Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10714",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10714",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/933",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Design Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-27-9 - 1968-1-1",
+                "begin_of_the_begin": "1967-27-9",
+                "end_of_the_end": "1968-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35541",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

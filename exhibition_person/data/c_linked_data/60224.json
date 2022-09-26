@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60224",
+  "type": "Person",
+  "_label": "Amy Yao",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18903",
+      "type": "Name",
+      "_label": "Amy Yao"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18903",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37806",
+      "type": "TimeSpan",
+      "_label": "Amy Yao Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18903",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37807",
+      "type": "TimeSpan",
+      "_label": "Amy Yao Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18903",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18903",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4016",
+              "type": "Event",
+              "_label": "White Petals Surround Your Yellow Heart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-6-2 - 2013-28-7",
+                "begin_of_the_begin": "2013-6-2",
+                "end_of_the_end": "2013-28-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67344",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67345",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

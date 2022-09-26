@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58562",
+  "type": "Person",
+  "_label": "Robert Rakita",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17117",
+      "type": "Name",
+      "_label": "Robert Rakita"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17117",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34234",
+      "type": "TimeSpan",
+      "_label": "Robert Rakita Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17117",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34235",
+      "type": "TimeSpan",
+      "_label": "Robert Rakita Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17117",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17117",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3237",
+              "type": "Event",
+              "_label": "Open Studios",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-1-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63605",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2723",
+              "type": "Event",
+              "_label": "The Detective Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-7-5 - 1978-30-6",
+                "begin_of_the_begin": "1978-7-5",
+                "end_of_the_end": "1978-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63606",
+                  "type": "Place",
+                  "_label": "Gorman Park, Queens",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

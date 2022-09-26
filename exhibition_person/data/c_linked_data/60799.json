@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60799",
+  "type": "Person",
+  "_label": "Aaron Rose",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19507",
+      "type": "Name",
+      "_label": "Aaron Rose"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19507",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39014",
+      "type": "TimeSpan",
+      "_label": "Aaron Rose Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19507",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39015",
+      "type": "TimeSpan",
+      "_label": "Aaron Rose Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19507",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19507",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4346",
+              "type": "Event",
+              "_label": "Sticker Shock: Artists' Stickers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-16-1 - 1999-7-3",
+                "begin_of_the_begin": "1999-16-1",
+                "end_of_the_end": "1999-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68641",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/7040",
+              "type": "Event",
+              "_label": "1997 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-12-3 - 1997-15-6",
+                "begin_of_the_begin": "1997-12-3",
+                "end_of_the_end": "1997-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68642",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Galleries, 2nd Floor Film/Video Gallery, Lobby Gallery, Lower Gallery, 3rd Floor Galleries, 2nd Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

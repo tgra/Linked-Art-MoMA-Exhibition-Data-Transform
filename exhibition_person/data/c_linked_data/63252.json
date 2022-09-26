@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63252",
+  "type": "Person",
+  "_label": "Thomas Woodruff",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20670",
+      "type": "Name",
+      "_label": "Thomas Woodruff"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20670",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41340",
+      "type": "TimeSpan",
+      "_label": "Thomas Woodruff Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20670",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41341",
+      "type": "TimeSpan",
+      "_label": "Thomas Woodruff Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20670",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20670",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5213",
+              "type": "Event",
+              "_label": "White Room: Tom Woodruff: The Specter of the Rose",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-16-3 - 1989-25-3",
+                "begin_of_the_begin": "1989-16-3",
+                "end_of_the_end": "1989-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71262",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4955",
+              "type": "Event",
+              "_label": "Update 1989",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-6-10 - 1989-5-11",
+                "begin_of_the_begin": "1989-6-10",
+                "end_of_the_end": "1989-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71263",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

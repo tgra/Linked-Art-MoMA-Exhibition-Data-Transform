@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56815",
+  "type": "Person",
+  "_label": "Graham Gussin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15239",
+      "type": "Name",
+      "_label": "Graham Gussin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15239",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30478",
+      "type": "TimeSpan",
+      "_label": "Graham Gussin Birth timespan",
+      "begin_of_the_begin": "1960",
+      "end_of_the_end": "1960"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15239",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30479",
+      "type": "TimeSpan",
+      "_label": "Graham Gussin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15239",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15239",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2911",
+              "type": "Event",
+              "_label": "Heaven: Public View, Private View",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59767",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21930",
+              "type": "Event",
+              "_label": "Graham Gussin: States of Mind",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-10-5 - 2001-1-7",
+                "begin_of_the_begin": "2001-10-5",
+                "end_of_the_end": "2001-1-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59768",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4044",
+  "type": "Person",
+  "_label": "Nagwaraba",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13534",
+      "type": "Name",
+      "_label": "Nagwaraba"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6285",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Australian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13534",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27068",
+      "type": "TimeSpan",
+      "_label": "Nagwaraba Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13534",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27069",
+      "type": "TimeSpan",
+      "_label": "Nagwaraba Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13534",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13534",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/727",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-3-12 - 1960-31-1",
+                "begin_of_the_begin": "1959-3-12",
+                "end_of_the_end": "1960-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45972",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/750",
+              "type": "Event",
+              "_label": "Birds and Beasts from the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-3-12 - 1961-8-1",
+                "begin_of_the_begin": "1960-3-12",
+                "end_of_the_end": "1961-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/45973",
+                  "type": "Place",
+                  "_label": "Country Art Gallery, Westbury, Long Island",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

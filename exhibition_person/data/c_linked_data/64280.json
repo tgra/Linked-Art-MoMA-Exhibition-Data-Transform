@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64280",
+  "type": "Person",
+  "_label": "Daina Augaitis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21208",
+      "type": "Name",
+      "_label": "Daina Augaitis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21208",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42416",
+      "type": "TimeSpan",
+      "_label": "Daina Augaitis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21208",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42417",
+      "type": "TimeSpan",
+      "_label": "Daina Augaitis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21208",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21208",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17066",
+              "type": "Event",
+              "_label": "Brian Jungen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-29-9 - ",
+                "begin_of_the_begin": "2005-29-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72618",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

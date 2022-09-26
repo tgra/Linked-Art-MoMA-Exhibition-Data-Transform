@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67469",
+  "type": "Person",
+  "_label": "Richard Winberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22823",
+      "type": "Name",
+      "_label": "Richard Winberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22823",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45646",
+      "type": "TimeSpan",
+      "_label": "Richard Winberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22823",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45647",
+      "type": "TimeSpan",
+      "_label": "Richard Winberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22823",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22823",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18654",
+              "type": "Event",
+              "_label": "When Women Had Tails",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-25-10 - ",
+                "begin_of_the_begin": "1990-25-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75742",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

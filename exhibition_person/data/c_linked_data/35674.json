@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35674",
+  "type": "Person",
+  "_label": "Kostia Terechkovitch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12570",
+      "type": "Name",
+      "_label": "Kostia Terechkovitch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12570",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25140",
+      "type": "TimeSpan",
+      "_label": "Kostia Terechkovitch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12570",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25141",
+      "type": "TimeSpan",
+      "_label": "Kostia Terechkovitch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12570",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12570",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5",
+              "type": "Event",
+              "_label": "46 Painters and Sculptors under 35 Years of Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1930-11-4 - 1930-27-4",
+                "begin_of_the_begin": "1930-11-4",
+                "end_of_the_end": "1930-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41090",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

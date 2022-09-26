@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/503",
+  "type": "Person",
+  "_label": "Paul Berthon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14397",
+      "type": "Name",
+      "_label": "Paul Berthon"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7053",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1872–1909"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14397",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28794",
+      "type": "TimeSpan",
+      "_label": "Paul Berthon Birth timespan",
+      "begin_of_the_begin": "1872",
+      "end_of_the_end": "1872"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14397",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28795",
+      "type": "TimeSpan",
+      "_label": "Paul Berthon Death timespan",
+      "begin_of_the_begin": "1909",
+      "end_of_the_end": "1909"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14397",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14397",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1133",
+              "type": "Event",
+              "_label": "Symbolism, Synthesists, and the Fin-de-Siècle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-20-6 - 1972-10-10",
+                "begin_of_the_begin": "1972-20-6",
+                "end_of_the_end": "1972-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53876",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1450",
+              "type": "Event",
+              "_label": "Women of the Nineties: Fin-de-Siècle Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-28-11 - 1980-28-1",
+                "begin_of_the_begin": "1979-28-11",
+                "end_of_the_end": "1980-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53877",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66430",
+  "type": "Person",
+  "_label": "Reginald Hudlin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22183",
+      "type": "Name",
+      "_label": "Reginald Hudlin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22183",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44366",
+      "type": "TimeSpan",
+      "_label": "Reginald Hudlin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22183",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44367",
+      "type": "TimeSpan",
+      "_label": "Reginald Hudlin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22183",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22183",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17188",
+              "type": "Event",
+              "_label": "Fake: A Meditation on Authenticity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-7-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-7-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74540",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17144",
+              "type": "Event",
+              "_label": "The Decade Show: Frameworks of Identity in the 1980s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-12-5 - 1990-19-8",
+                "begin_of_the_begin": "1990-12-5",
+                "end_of_the_end": "1990-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74541",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57881",
+  "type": "Person",
+  "_label": "Victor Boullion",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16382",
+      "type": "Name",
+      "_label": "Victor Boullion"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16382",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32764",
+      "type": "TimeSpan",
+      "_label": "Victor Boullion Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16382",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32765",
+      "type": "TimeSpan",
+      "_label": "Victor Boullion Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16382",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16382",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3074",
+              "type": "Event",
+              "_label": "New York Diary: Almost Twenty-Five Different Things",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-4 - 1991-9-6",
+                "begin_of_the_begin": "1991-14-4",
+                "end_of_the_end": "1991-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62191",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17135",
+              "type": "Event",
+              "_label": "The Interrupted Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-29-12",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62192",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

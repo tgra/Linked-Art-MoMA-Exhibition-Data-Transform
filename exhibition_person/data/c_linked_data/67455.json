@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67455",
+  "type": "Person",
+  "_label": "PearlDamour",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22808",
+      "type": "Name",
+      "_label": "PearlDamour"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22808",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45616",
+      "type": "TimeSpan",
+      "_label": "PearlDamour Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22808",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45617",
+      "type": "TimeSpan",
+      "_label": "PearlDamour Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22808",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22808",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18354",
+              "type": "Event",
+              "_label": "How to Build A Forest",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-17-6 - ",
+                "begin_of_the_begin": "2011-17-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75724",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

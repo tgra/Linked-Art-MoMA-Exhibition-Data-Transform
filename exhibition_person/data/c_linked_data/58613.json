@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58613",
+  "type": "Person",
+  "_label": "Mary Ellen Strom",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17171",
+      "type": "Name",
+      "_label": "Mary Ellen Strom"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17171",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34342",
+      "type": "TimeSpan",
+      "_label": "Mary Ellen Strom Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17171",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34343",
+      "type": "TimeSpan",
+      "_label": "Mary Ellen Strom Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17171",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17171",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3725",
+              "type": "Event",
+              "_label": "Clockwork 2000: P.S. 1 National and International Studio Program 1999–2000",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-11-5 - 2000-17-6",
+                "begin_of_the_begin": "2000-11-5",
+                "end_of_the_end": "2000-17-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63691",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63692",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

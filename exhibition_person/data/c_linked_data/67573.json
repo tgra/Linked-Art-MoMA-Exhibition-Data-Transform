@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67573",
+  "type": "Person",
+  "_label": "Christopher McIntyre",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22935",
+      "type": "Name",
+      "_label": "Christopher McIntyre"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22935",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45870",
+      "type": "TimeSpan",
+      "_label": "Christopher McIntyre Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22935",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45871",
+      "type": "TimeSpan",
+      "_label": "Christopher McIntyre Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22935",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22935",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18156",
+              "type": "Event",
+              "_label": "A Power Stronger Than Its…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-9-10 - ",
+                "begin_of_the_begin": "2008-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75909",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

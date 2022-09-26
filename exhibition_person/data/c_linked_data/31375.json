@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31375",
+  "type": "Person",
+  "_label": "Valentino Sarra",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10160",
+      "type": "Name",
+      "_label": "Valentino Sarra"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10160",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20320",
+      "type": "TimeSpan",
+      "_label": "Valentino Sarra Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10160",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20321",
+      "type": "TimeSpan",
+      "_label": "Valentino Sarra Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10160",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10160",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/514",
+              "type": "Event",
+              "_label": "Color Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-9-5 - 1950-4-7",
+                "begin_of_the_begin": "1950-9-5",
+                "end_of_the_end": "1950-4-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34401",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

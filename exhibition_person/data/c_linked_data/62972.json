@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62972",
+  "type": "Person",
+  "_label": "Carmen Spera",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20565",
+      "type": "Name",
+      "_label": "Carmen Spera"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20565",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41130",
+      "type": "TimeSpan",
+      "_label": "Carmen Spera Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20565",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41131",
+      "type": "TimeSpan",
+      "_label": "Carmen Spera Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20565",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20565",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17275",
+              "type": "Event",
+              "_label": "Events: Fashion Moda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-8-1",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71035",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

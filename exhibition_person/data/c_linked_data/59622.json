@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59622",
+  "type": "Person",
+  "_label": "Roberta Bender",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18257",
+      "type": "Name",
+      "_label": "Roberta Bender"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18257",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36514",
+      "type": "TimeSpan",
+      "_label": "Roberta Bender Birth timespan",
+      "begin_of_the_begin": "1945",
+      "end_of_the_end": "1945"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18257",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36515",
+      "type": "TimeSpan",
+      "_label": "Roberta Bender Death timespan",
+      "begin_of_the_begin": "1992",
+      "end_of_the_end": "1992"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18257",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18257",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2722",
+              "type": "Event",
+              "_label": "Serious Fun Night",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-4 - 1982-25-4",
+                "begin_of_the_begin": "1982-25-4",
+                "end_of_the_end": "1982-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65845",
+                  "type": "Place",
+                  "_label": "Danceteria, 30 West 21st St., New York City",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

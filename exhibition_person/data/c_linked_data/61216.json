@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61216",
+  "type": "Person",
+  "_label": "Stefano Basilico",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19885",
+      "type": "Name",
+      "_label": "Stefano Basilico"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19885",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39770",
+      "type": "TimeSpan",
+      "_label": "Stefano Basilico Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19885",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39771",
+      "type": "TimeSpan",
+      "_label": "Stefano Basilico Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19885",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19885",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4981",
+              "type": "Event",
+              "_label": "What I Did On My Summer Vacation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-13-9 - 1996-20-10",
+                "begin_of_the_begin": "1996-13-9",
+                "end_of_the_end": "1996-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69437",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

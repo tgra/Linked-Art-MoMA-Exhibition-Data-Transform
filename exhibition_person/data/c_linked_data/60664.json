@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60664",
+  "type": "Person",
+  "_label": "Lawrence Halprin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19366",
+      "type": "Name",
+      "_label": "Lawrence Halprin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19366",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38732",
+      "type": "TimeSpan",
+      "_label": "Lawrence Halprin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19366",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38733",
+      "type": "TimeSpan",
+      "_label": "Lawrence Halprin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19366",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19366",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4143",
+              "type": "Event",
+              "_label": "Urban Encounters: Art Architecture Audience",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-19-3 - 1980-30-4",
+                "begin_of_the_begin": "1980-19-3",
+                "end_of_the_end": "1980-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68444",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67645",
+  "type": "Person",
+  "_label": "Frequency",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23007",
+      "type": "Name",
+      "_label": "Frequency"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23007",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46014",
+      "type": "TimeSpan",
+      "_label": "Frequency Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23007",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46015",
+      "type": "TimeSpan",
+      "_label": "Frequency Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23007",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23007",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18374",
+              "type": "Event",
+              "_label": "Jamaican Music Festival",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-30-10 - ",
+                "begin_of_the_begin": "1981-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76003",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

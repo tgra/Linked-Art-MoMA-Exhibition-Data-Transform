@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59774",
+  "type": "Person",
+  "_label": "Derek Michael Besant",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18419",
+      "type": "Name",
+      "_label": "Derek Michael Besant"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18419",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36838",
+      "type": "TimeSpan",
+      "_label": "Derek Michael Besant Birth timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18419",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36839",
+      "type": "TimeSpan",
+      "_label": "Derek Michael Besant Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18419",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18419",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3204",
+              "type": "Event",
+              "_label": "Artists' Stamps and Stamp Images",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66304",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32136",
+  "type": "Person",
+  "_label": "Penelope Pinson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10977",
+      "type": "Name",
+      "_label": "Penelope Pinson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10977",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21954",
+      "type": "TimeSpan",
+      "_label": "Penelope Pinson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10977",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21955",
+      "type": "TimeSpan",
+      "_label": "Penelope Pinson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10977",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10977",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/630",
+              "type": "Event",
+              "_label": "Playground Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-30-6 - 1954-22-8",
+                "begin_of_the_begin": "1954-30-6",
+                "end_of_the_end": "1954-22-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35998",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56057",
+  "type": "Person",
+  "_label": "Geo Wyeth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14996",
+      "type": "Name",
+      "_label": "Geo Wyeth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14996",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29992",
+      "type": "TimeSpan",
+      "_label": "Geo Wyeth Birth timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14996",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29993",
+      "type": "TimeSpan",
+      "_label": "Geo Wyeth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14996",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14996",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21814",
+              "type": "Event",
+              "_label": "Trigger: Gender as a Tool and a Weapon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-27-9 - 2018-21-1",
+                "begin_of_the_begin": "2017-27-9",
+                "end_of_the_end": "2018-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/58857",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

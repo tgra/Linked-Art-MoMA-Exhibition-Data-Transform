@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31429",
+  "type": "Person",
+  "_label": "Robert Stevenson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10218",
+      "type": "Name",
+      "_label": "Robert Stevenson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10218",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20436",
+      "type": "TimeSpan",
+      "_label": "Robert Stevenson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10218",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20437",
+      "type": "TimeSpan",
+      "_label": "Robert Stevenson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10218",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10218",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4192",
+              "type": "Event",
+              "_label": "Plastics and New Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-15-1 - 1969-25-2",
+                "begin_of_the_begin": "1969-15-1",
+                "end_of_the_end": "1969-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34554",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/843",
+              "type": "Event",
+              "_label": "The Responsive Eye",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-25-2 - 1965-25-4",
+                "begin_of_the_begin": "1965-25-2",
+                "end_of_the_end": "1965-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34555",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

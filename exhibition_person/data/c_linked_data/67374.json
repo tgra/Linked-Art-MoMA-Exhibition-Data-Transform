@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67374",
+  "type": "Person",
+  "_label": "koosil-ja",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22722",
+      "type": "Name",
+      "_label": "koosil-ja"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22722",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45444",
+      "type": "TimeSpan",
+      "_label": "koosil-ja Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22722",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45445",
+      "type": "TimeSpan",
+      "_label": "koosil-ja Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22722",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22722",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18418",
+              "type": "Event",
+              "_label": "Memoryscan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-10-3 - ",
+                "begin_of_the_begin": "1999-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75594",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18256",
+              "type": "Event",
+              "_label": "Dance Without Bodies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-6-12 - ",
+                "begin_of_the_begin": "2006-6-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75595",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

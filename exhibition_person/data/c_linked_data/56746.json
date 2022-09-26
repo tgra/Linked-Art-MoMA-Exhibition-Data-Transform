@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56746",
+  "type": "Person",
+  "_label": "Larry Fuente",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15167",
+      "type": "Name",
+      "_label": "Larry Fuente"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15167",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30334",
+      "type": "TimeSpan",
+      "_label": "Larry Fuente Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15167",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30335",
+      "type": "TimeSpan",
+      "_label": "Larry Fuente Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15167",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15167",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3678",
+              "type": "Event",
+              "_label": "Larry Fuente: \"Transmutation at Ground Zero\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-2-4 - 1982-1-5",
+                "begin_of_the_begin": "1982-2-4",
+                "end_of_the_end": "1982-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59483",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

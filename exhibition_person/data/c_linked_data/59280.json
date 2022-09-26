@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59280",
+  "type": "Person",
+  "_label": "Alex Galloway",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17892",
+      "type": "Name",
+      "_label": "Alex Galloway"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17892",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35784",
+      "type": "TimeSpan",
+      "_label": "Alex Galloway Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17892",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35785",
+      "type": "TimeSpan",
+      "_label": "Alex Galloway Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17892",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17892",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3465",
+              "type": "Event",
+              "_label": "Animations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-14-10 - 2002-20-1",
+                "begin_of_the_begin": "2001-14-10",
+                "end_of_the_end": "2002-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65196",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21950",
+              "type": "Event",
+              "_label": "rhizome@newmuseum.org",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-15-11 - 2000-10-12",
+                "begin_of_the_begin": "2000-15-11",
+                "end_of_the_end": "2000-10-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65197",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

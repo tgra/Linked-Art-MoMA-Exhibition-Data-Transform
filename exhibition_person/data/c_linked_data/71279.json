@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71279",
+  "type": "Person",
+  "_label": "Richard Shaw",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24682",
+      "type": "Name",
+      "_label": "Richard Shaw"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24682",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49364",
+      "type": "TimeSpan",
+      "_label": "Richard Shaw Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24682",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49365",
+      "type": "TimeSpan",
+      "_label": "Richard Shaw Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24682",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24682",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6631",
+              "type": "Event",
+              "_label": "1970 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-12-12 - 1971-7-2",
+                "begin_of_the_begin": "1970-12-12",
+                "end_of_the_end": "1971-7-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79956",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery, 4th Floor Gallery.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6859",
+              "type": "Event",
+              "_label": "1981 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-20-1 - 1981-19-4",
+                "begin_of_the_begin": "1981-20-1",
+                "end_of_the_end": "1981-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79957",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, 3rd Floor Gallery, 2nd Floor Gallery, Film/Video Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

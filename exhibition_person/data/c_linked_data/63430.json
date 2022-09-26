@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63430",
+  "type": "Person",
+  "_label": "Richard Paul",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20821",
+      "type": "Name",
+      "_label": "Richard Paul"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20821",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41642",
+      "type": "TimeSpan",
+      "_label": "Richard Paul Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20821",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41643",
+      "type": "TimeSpan",
+      "_label": "Richard Paul Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20821",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20821",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4720",
+              "type": "Event",
+              "_label": "Keep Floors and Passages Clear",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-5-2 - 2011-5-3",
+                "begin_of_the_begin": "2011-5-2",
+                "end_of_the_end": "2011-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71855",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

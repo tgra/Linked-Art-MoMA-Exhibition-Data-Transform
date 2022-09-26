@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9621",
+  "type": "Person",
+  "_label": "London Passenger Transport Board",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26679",
+      "type": "Name",
+      "_label": "London Passenger Transport Board"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26679",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53358",
+      "type": "TimeSpan",
+      "_label": "London Passenger Transport Board Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26679",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53359",
+      "type": "TimeSpan",
+      "_label": "London Passenger Transport Board Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26679",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26679",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2496",
+              "type": "Event",
+              "_label": "Underground Gallery: London Transport Posters, 1920s–1940s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-28-7 - 2011-10-1",
+                "begin_of_the_begin": "2010-28-7",
+                "end_of_the_end": "2011-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87689",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

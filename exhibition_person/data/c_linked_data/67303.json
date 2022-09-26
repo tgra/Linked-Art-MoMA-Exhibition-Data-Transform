@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67303",
+  "type": "Person",
+  "_label": "J.B. Cobb",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22647",
+      "type": "Name",
+      "_label": "J.B. Cobb"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22647",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45294",
+      "type": "TimeSpan",
+      "_label": "J.B. Cobb Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22647",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45295",
+      "type": "TimeSpan",
+      "_label": "J.B. Cobb Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22647",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22647",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18641",
+              "type": "Event",
+              "_label": "Videotapes and Performanc…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-18-2 - ",
+                "begin_of_the_begin": "1975-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75478",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

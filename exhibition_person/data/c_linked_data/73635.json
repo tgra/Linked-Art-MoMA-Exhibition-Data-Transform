@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73635",
+  "type": "Person",
+  "_label": "Vin  Giuliant",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25400",
+      "type": "Name",
+      "_label": "Vin  Giuliant"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25400",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50800",
+      "type": "TimeSpan",
+      "_label": "Vin  Giuliant Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25400",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50801",
+      "type": "TimeSpan",
+      "_label": "Vin  Giuliant Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25400",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25400",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54790",
+              "type": "Event",
+              "_label": "[Penthouse Exhibition]",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-26-6 - ",
+                "begin_of_the_begin": "1956-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81836",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

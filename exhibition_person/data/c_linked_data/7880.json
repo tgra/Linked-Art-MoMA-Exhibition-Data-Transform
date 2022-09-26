@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7880",
+  "type": "Person",
+  "_label": "Jose Antonio Fernández-Muro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25830",
+      "type": "Name",
+      "_label": "Jose Antonio Fernández-Muro"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9072",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Argentine, born 1920"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25830",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51660",
+      "type": "TimeSpan",
+      "_label": "Jose Antonio Fernández-Muro Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25830",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51661",
+      "type": "TimeSpan",
+      "_label": "Jose Antonio Fernández-Muro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25830",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25830",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/883",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-6-4 - 1966-12-6",
+                "begin_of_the_begin": "1966-6-4",
+                "end_of_the_end": "1966-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84220",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/914",
+              "type": "Event",
+              "_label": "Latin-American Art, 1931–1966, from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-17-3 - 1967-4-6",
+                "begin_of_the_begin": "1967-17-3",
+                "end_of_the_end": "1967-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84221",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

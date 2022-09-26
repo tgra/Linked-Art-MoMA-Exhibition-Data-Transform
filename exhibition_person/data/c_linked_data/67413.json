@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67413",
+  "type": "Person",
+  "_label": "Meg Stuart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22763",
+      "type": "Name",
+      "_label": "Meg Stuart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22763",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45526",
+      "type": "TimeSpan",
+      "_label": "Meg Stuart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22763",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45527",
+      "type": "TimeSpan",
+      "_label": "Meg Stuart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22763",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22763",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18562",
+              "type": "Event",
+              "_label": "Splayed Mind Out",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-2-12 - ",
+                "begin_of_the_begin": "1998-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75647",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64049",
+  "type": "Person",
+  "_label": "Cally Spooner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21116",
+      "type": "Name",
+      "_label": "Cally Spooner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21116",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42232",
+      "type": "TimeSpan",
+      "_label": "Cally Spooner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21116",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42233",
+      "type": "TimeSpan",
+      "_label": "Cally Spooner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21116",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21116",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16978",
+              "type": "Event",
+              "_label": "Cally Spooner: On False Tears and Outsourcing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-27-4 - 2016-19-6",
+                "begin_of_the_begin": "2016-27-4",
+                "end_of_the_end": "2016-19-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72455",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/746",
+  "type": "Person",
+  "_label": "Serge Brignoni",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25519",
+      "type": "Name",
+      "_label": "Serge Brignoni"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8765",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, 1903–2002"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25519",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51038",
+      "type": "TimeSpan",
+      "_label": "Serge Brignoni Birth timespan",
+      "begin_of_the_begin": "1903",
+      "end_of_the_end": "1903"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25519",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51039",
+      "type": "TimeSpan",
+      "_label": "Serge Brignoni Death timespan",
+      "begin_of_the_begin": "2002",
+      "end_of_the_end": "2002"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25519",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25519",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1964",
+              "type": "Event",
+              "_label": "A Century of Artists Books",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-19-10 - 1995-24-1",
+                "begin_of_the_begin": "1994-19-10",
+                "end_of_the_end": "1995-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82725",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

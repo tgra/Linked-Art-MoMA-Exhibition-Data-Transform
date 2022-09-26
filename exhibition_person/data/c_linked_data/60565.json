@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60565",
+  "type": "Person",
+  "_label": "Herbert Schiffrin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19266",
+      "type": "Name",
+      "_label": "Herbert Schiffrin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19266",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38532",
+      "type": "TimeSpan",
+      "_label": "Herbert Schiffrin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19266",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38533",
+      "type": "TimeSpan",
+      "_label": "Herbert Schiffrin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19266",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19266",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4186",
+              "type": "Event",
+              "_label": "Two Generations of Color Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-1-10 - 1970-6-11",
+                "begin_of_the_begin": "1970-1-10",
+                "end_of_the_end": "1970-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68158",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4177",
+              "type": "Event",
+              "_label": "Inside Philadelphia: Selections from Private Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-11-11 - 1972-19-12",
+                "begin_of_the_begin": "1972-11-11",
+                "end_of_the_end": "1972-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68159",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

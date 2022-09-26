@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56704",
+  "type": "Person",
+  "_label": "Emily McLennan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15122",
+      "type": "Name",
+      "_label": "Emily McLennan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15122",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30244",
+      "type": "TimeSpan",
+      "_label": "Emily McLennan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15122",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30245",
+      "type": "TimeSpan",
+      "_label": "Emily McLennan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15122",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15122",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3133",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-9 - 1980-9-11",
+                "begin_of_the_begin": "1980-28-9",
+                "end_of_the_end": "1980-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59383",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

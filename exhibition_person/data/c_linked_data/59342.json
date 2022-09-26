@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59342",
+  "type": "Person",
+  "_label": "Katsuya Terada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17957",
+      "type": "Name",
+      "_label": "Katsuya Terada"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17957",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35914",
+      "type": "TimeSpan",
+      "_label": "Katsuya Terada Birth timespan",
+      "begin_of_the_begin": "1963",
+      "end_of_the_end": "1963"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17957",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35915",
+      "type": "TimeSpan",
+      "_label": "Katsuya Terada Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17957",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17957",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3471",
+              "type": "Event",
+              "_label": "Buzz Club: News from Japan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-7 - 2001-30-9",
+                "begin_of_the_begin": "2001-1-7",
+                "end_of_the_end": "2001-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65295",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

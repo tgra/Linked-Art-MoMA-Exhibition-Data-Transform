@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33015",
+  "type": "Person",
+  "_label": "Lisa Montrose",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11919",
+      "type": "Name",
+      "_label": "Lisa Montrose"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11919",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23838",
+      "type": "TimeSpan",
+      "_label": "Lisa Montrose Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11919",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23839",
+      "type": "TimeSpan",
+      "_label": "Lisa Montrose Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11919",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11919",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1741",
+              "type": "Event",
+              "_label": "The Arts for Television",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-20-4 - 1989-30-5",
+                "begin_of_the_begin": "1989-20-4",
+                "end_of_the_end": "1989-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37999",
+                  "type": "Place",
+                  "_label": "Edward John Noble Education Center, 4 West 54th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

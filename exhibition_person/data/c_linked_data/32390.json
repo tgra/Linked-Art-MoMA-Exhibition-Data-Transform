@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32390",
+  "type": "Person",
+  "_label": "Gerd Stern",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11251",
+      "type": "Name",
+      "_label": "Gerd Stern"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11251",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22502",
+      "type": "TimeSpan",
+      "_label": "Gerd Stern Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11251",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22503",
+      "type": "TimeSpan",
+      "_label": "Gerd Stern Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11251",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11251",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1314",
+              "type": "Event",
+              "_label": "Projects: Video XI",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-24-1 - 1977-28-4",
+                "begin_of_the_begin": "1977-24-1",
+                "end_of_the_end": "1977-28-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36416",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

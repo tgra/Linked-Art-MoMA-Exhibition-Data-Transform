@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57252",
+  "type": "Person",
+  "_label": "Barry Nelson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15712",
+      "type": "Name",
+      "_label": "Barry Nelson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15712",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31424",
+      "type": "TimeSpan",
+      "_label": "Barry Nelson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15712",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31425",
+      "type": "TimeSpan",
+      "_label": "Barry Nelson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15712",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15712",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2917",
+              "type": "Event",
+              "_label": "Figuratively Sculpting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-31-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60777",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3740",
+              "type": "Event",
+              "_label": "San Francisco/Science Fiction",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-27-9 - 1984-28-10",
+                "begin_of_the_begin": "1984-27-9",
+                "end_of_the_end": "1984-28-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60778",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

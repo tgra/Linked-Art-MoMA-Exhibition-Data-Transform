@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57461",
+  "type": "Person",
+  "_label": "William Stone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15933",
+      "type": "Name",
+      "_label": "William Stone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15933",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31866",
+      "type": "TimeSpan",
+      "_label": "William Stone Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15933",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31867",
+      "type": "TimeSpan",
+      "_label": "William Stone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15933",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15933",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3090",
+              "type": "Event",
+              "_label": "The Drowned World: Waterworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-4 - 1989-12-6",
+                "begin_of_the_begin": "1989-23-4",
+                "end_of_the_end": "1989-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61172",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28424",
+              "type": "Event",
+              "_label": "FluxAttitudes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61173",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

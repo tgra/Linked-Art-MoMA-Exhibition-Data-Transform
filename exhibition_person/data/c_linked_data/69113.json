@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69113",
+  "type": "Person",
+  "_label": "Peter Miller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23496",
+      "type": "Name",
+      "_label": "Peter Miller"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23496",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46992",
+      "type": "TimeSpan",
+      "_label": "Peter Miller Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23496",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46993",
+      "type": "TimeSpan",
+      "_label": "Peter Miller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23496",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23496",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6371",
+              "type": "Event",
+              "_label": "1945 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-27-11 - 1946-10-1",
+                "begin_of_the_begin": "1945-27-11",
+                "end_of_the_end": "1946-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77014",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

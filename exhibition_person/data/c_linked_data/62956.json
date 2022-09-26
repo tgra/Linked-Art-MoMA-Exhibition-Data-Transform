@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62956",
+  "type": "Person",
+  "_label": "Joe Sola",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20559",
+      "type": "Name",
+      "_label": "Joe Sola"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20559",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41118",
+      "type": "TimeSpan",
+      "_label": "Joe Sola Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20559",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41119",
+      "type": "TimeSpan",
+      "_label": "Joe Sola Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20559",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20559",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4963",
+              "type": "Event",
+              "_label": "Video Access",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-4 - 1998-24-5",
+                "begin_of_the_begin": "1998-17-4",
+                "end_of_the_end": "1998-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71024",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

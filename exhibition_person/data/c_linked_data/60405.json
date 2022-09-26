@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60405",
+  "type": "Person",
+  "_label": "Alvin Reamillo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19098",
+      "type": "Name",
+      "_label": "Alvin Reamillo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19098",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38196",
+      "type": "TimeSpan",
+      "_label": "Alvin Reamillo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19098",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38197",
+      "type": "TimeSpan",
+      "_label": "Alvin Reamillo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19098",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19098",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3605",
+              "type": "Event",
+              "_label": "The Edge of Awareness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-13-9 - 1998-18-10",
+                "begin_of_the_begin": "1998-13-9",
+                "end_of_the_end": "1998-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67718",
+                  "type": "Place",
+                  "_label": "PS1 and the United Nations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

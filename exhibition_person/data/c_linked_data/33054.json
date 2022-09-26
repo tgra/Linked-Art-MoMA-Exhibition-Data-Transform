@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33054",
+  "type": "Person",
+  "_label": "Jay Coogan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11957",
+      "type": "Name",
+      "_label": "Jay Coogan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11957",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23914",
+      "type": "TimeSpan",
+      "_label": "Jay Coogan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11957",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23915",
+      "type": "TimeSpan",
+      "_label": "Jay Coogan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11957",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11957",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1500",
+              "type": "Event",
+              "_label": "New Work in Black and White",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-17-9 - 1981-24-11",
+                "begin_of_the_begin": "1981-17-9",
+                "end_of_the_end": "1981-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38118",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

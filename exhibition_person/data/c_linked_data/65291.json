@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65291",
+  "type": "Person",
+  "_label": "Joseph Hryvniak",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21648",
+      "type": "Name",
+      "_label": "Joseph Hryvniak"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21648",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43296",
+      "type": "TimeSpan",
+      "_label": "Joseph Hryvniak Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21648",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43297",
+      "type": "TimeSpan",
+      "_label": "Joseph Hryvniak Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21648",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21648",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22031",
+              "type": "Event",
+              "_label": "HALLWALLS: 5 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-30-6 - 1980-18-7",
+                "begin_of_the_begin": "1980-30-6",
+                "end_of_the_end": "1980-18-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73458",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

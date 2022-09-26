@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7500",
+  "type": "Person",
+  "_label": "James Juszczyk",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25540",
+      "type": "Name",
+      "_label": "James Juszczyk"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8785",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25540",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51080",
+      "type": "TimeSpan",
+      "_label": "James Juszczyk Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25540",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51081",
+      "type": "TimeSpan",
+      "_label": "James Juszczyk Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25540",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25540",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4153",
+              "type": "Event",
+              "_label": "Eight Abstract Painters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-18-3 - 1978-2-5",
+                "begin_of_the_begin": "1978-18-3",
+                "end_of_the_end": "1978-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82797",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

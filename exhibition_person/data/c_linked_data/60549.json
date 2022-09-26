@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60549",
+  "type": "Person",
+  "_label": "Richard K. Randell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19249",
+      "type": "Name",
+      "_label": "Richard K. Randell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19249",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38498",
+      "type": "TimeSpan",
+      "_label": "Richard K. Randell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19249",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38499",
+      "type": "TimeSpan",
+      "_label": "Richard K. Randell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19249",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19249",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4192",
+              "type": "Event",
+              "_label": "Plastics and New Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-15-1 - 1969-25-2",
+                "begin_of_the_begin": "1969-15-1",
+                "end_of_the_end": "1969-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68105",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

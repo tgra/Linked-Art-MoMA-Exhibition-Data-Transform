@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30918",
+  "type": "Person",
+  "_label": "Alexandre Charpentier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9664",
+      "type": "Name",
+      "_label": "Alexandre Charpentier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5172",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1856–1909"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9664",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19328",
+      "type": "TimeSpan",
+      "_label": "Alexandre Charpentier Birth timespan",
+      "begin_of_the_begin": "1856",
+      "end_of_the_end": "1856"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9664",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19329",
+      "type": "TimeSpan",
+      "_label": "Alexandre Charpentier Death timespan",
+      "begin_of_the_begin": "1909",
+      "end_of_the_end": "1909"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9664",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9664",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/738",
+              "type": "Event",
+              "_label": "Art Nouveau",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-6 - 1960-6-9",
+                "begin_of_the_begin": "1960-8-6",
+                "end_of_the_end": "1960-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33567",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

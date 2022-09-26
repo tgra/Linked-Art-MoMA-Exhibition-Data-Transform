@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57802",
+  "type": "Person",
+  "_label": "Barbara Smukler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16297",
+      "type": "Name",
+      "_label": "Barbara Smukler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16297",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32594",
+      "type": "TimeSpan",
+      "_label": "Barbara Smukler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16297",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32595",
+      "type": "TimeSpan",
+      "_label": "Barbara Smukler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16297",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16297",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3161",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1987)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-26-4 - 1987-21-6",
+                "begin_of_the_begin": "1987-26-4",
+                "end_of_the_end": "1987-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62038",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

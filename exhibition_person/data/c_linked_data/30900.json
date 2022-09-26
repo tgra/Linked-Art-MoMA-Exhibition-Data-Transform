@@ -1,0 +1,120 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30900",
+  "type": "Person",
+  "_label": "William Calfee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9645",
+      "type": "Name",
+      "_label": "William Calfee"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9645",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19290",
+      "type": "TimeSpan",
+      "_label": "William Calfee Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9645",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19291",
+      "type": "TimeSpan",
+      "_label": "William Calfee Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9645",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9645",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54826",
+              "type": "Event",
+              "_label": "Selections from the ALS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-23-3 - ",
+                "begin_of_the_begin": "1960-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33514",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/734",
+              "type": "Event",
+              "_label": "Selections from the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-24-3 - 1960-17-4",
+                "begin_of_the_begin": "1960-24-3",
+                "end_of_the_end": "1960-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33515",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6548",
+              "type": "Event",
+              "_label": "Annual Exhibition 1966: Contemporary Sculpture and Prints ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-16-12 - 1966-5-2",
+                "begin_of_the_begin": "1966-16-12",
+                "end_of_the_end": "1966-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33516",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

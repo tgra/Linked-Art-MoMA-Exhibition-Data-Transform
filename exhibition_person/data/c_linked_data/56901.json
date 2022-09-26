@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56901",
+  "type": "Person",
+  "_label": "Koki Doktori",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15332",
+      "type": "Name",
+      "_label": "Koki Doktori"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15332",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30664",
+      "type": "TimeSpan",
+      "_label": "Koki Doktori Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15332",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30665",
+      "type": "TimeSpan",
+      "_label": "Koki Doktori Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15332",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15332",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3184",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1980–1981)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-7-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-7-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59981",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

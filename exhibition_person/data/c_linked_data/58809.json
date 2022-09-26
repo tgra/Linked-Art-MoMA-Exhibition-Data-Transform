@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58809",
+  "type": "Person",
+  "_label": "Craig Richardson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17384",
+      "type": "Name",
+      "_label": "Craig Richardson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17384",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34768",
+      "type": "TimeSpan",
+      "_label": "Craig Richardson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17384",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34769",
+      "type": "TimeSpan",
+      "_label": "Craig Richardson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17384",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17384",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3691",
+              "type": "Event",
+              "_label": "Labor Intensive Abstraction: An Exhibition of Highly Detailed Abstract Paintings and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-8-11 - 1984-8-12",
+                "begin_of_the_begin": "1984-8-11",
+                "end_of_the_end": "1984-8-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64092",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

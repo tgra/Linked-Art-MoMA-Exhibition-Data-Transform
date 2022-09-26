@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35024",
+  "type": "Person",
+  "_label": "Vincent Desiderio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12441",
+      "type": "Name",
+      "_label": "Vincent Desiderio"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5812",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1955"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12441",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24882",
+      "type": "TimeSpan",
+      "_label": "Vincent Desiderio Birth timespan",
+      "begin_of_the_begin": "1955",
+      "end_of_the_end": "1955"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12441",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24883",
+      "type": "TimeSpan",
+      "_label": "Vincent Desiderio Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12441",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12441",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3741",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1984–1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-25-1 - 1985-3-3",
+                "begin_of_the_begin": "1985-25-1",
+                "end_of_the_end": "1985-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40416",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3638",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-11 - 1985-22-12",
+                "begin_of_the_begin": "1985-21-11",
+                "end_of_the_end": "1985-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40417",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

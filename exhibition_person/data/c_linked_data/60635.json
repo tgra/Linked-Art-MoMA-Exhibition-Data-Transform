@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60635",
+  "type": "Person",
+  "_label": "Turku Trajan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19338",
+      "type": "Name",
+      "_label": "Turku Trajan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19338",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38676",
+      "type": "TimeSpan",
+      "_label": "Turku Trajan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19338",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38677",
+      "type": "TimeSpan",
+      "_label": "Turku Trajan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19338",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19338",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4238",
+              "type": "Event",
+              "_label": "Paintings by Held, Gash, Fromboluti, Duback, Young, Silbert, Schapiro, Stout; Sculpture by Frank, Terris, Trajan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-10-5 - 1957-1-6",
+                "begin_of_the_begin": "1957-10-5",
+                "end_of_the_end": "1957-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68405",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

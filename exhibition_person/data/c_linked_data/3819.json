@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3819",
+  "type": "Person",
+  "_label": "Stephen R. Milanowski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13354",
+      "type": "Name",
+      "_label": "Stephen R. Milanowski"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6120",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1953"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13354",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26708",
+      "type": "TimeSpan",
+      "_label": "Stephen R. Milanowski Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13354",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26709",
+      "type": "TimeSpan",
+      "_label": "Stephen R. Milanowski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13354",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13354",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1931",
+              "type": "Event",
+              "_label": "Gesture and Pose: Twentieth-Century Photographs from the Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-13-1 - 1994-5-4",
+                "begin_of_the_begin": "1994-13-1",
+                "end_of_the_end": "1994-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43868",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2330",
+              "type": "Event",
+              "_label": "Photography Collection: Rotation 4",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-15-12 - 2007-16-7",
+                "begin_of_the_begin": "2006-15-12",
+                "end_of_the_end": "2007-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43869",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

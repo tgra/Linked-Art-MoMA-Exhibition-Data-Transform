@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67433",
+  "type": "Person",
+  "_label": "Nancy Stark Smith",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22785",
+      "type": "Name",
+      "_label": "Nancy Stark Smith"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22785",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45570",
+      "type": "TimeSpan",
+      "_label": "Nancy Stark Smith Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22785",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45571",
+      "type": "TimeSpan",
+      "_label": "Nancy Stark Smith Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22785",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22785",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18472",
+              "type": "Event",
+              "_label": "Perfect Lives (Private Pa…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-26-12 - ",
+                "begin_of_the_begin": "1979-26-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75700",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

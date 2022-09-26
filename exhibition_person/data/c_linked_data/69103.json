@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69103",
+  "type": "Person",
+  "_label": "Charles Duncan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23489",
+      "type": "Name",
+      "_label": "Charles Duncan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23489",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46978",
+      "type": "TimeSpan",
+      "_label": "Charles Duncan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23489",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46979",
+      "type": "TimeSpan",
+      "_label": "Charles Duncan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23489",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23489",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6278",
+              "type": "Event",
+              "_label": "First Biennial Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-22-11 - 1933-5-1",
+                "begin_of_the_begin": "1932-22-11",
+                "end_of_the_end": "1933-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77003",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

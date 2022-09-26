@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67404",
+  "type": "Person",
+  "_label": "Marc Grafe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22754",
+      "type": "Name",
+      "_label": "Marc Grafe"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22754",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45508",
+      "type": "TimeSpan",
+      "_label": "Marc Grafe Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22754",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45509",
+      "type": "TimeSpan",
+      "_label": "Marc Grafe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22754",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22754",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18443",
+              "type": "Event",
+              "_label": "New Music, New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-6 - ",
+                "begin_of_the_begin": "1979-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75637",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

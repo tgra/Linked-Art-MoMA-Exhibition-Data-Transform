@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64820",
+  "type": "Person",
+  "_label": "Hallwalls Contemporary Art Center, Buffalo, NY",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21436",
+      "type": "Name",
+      "_label": "Hallwalls Contemporary Art Center, Buffalo, NY"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21436",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42872",
+      "type": "TimeSpan",
+      "_label": "Hallwalls Contemporary Art Center, Buffalo, NY Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21436",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42873",
+      "type": "TimeSpan",
+      "_label": "Hallwalls Contemporary Art Center, Buffalo, NY Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21436",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21436",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28424",
+              "type": "Event",
+              "_label": "FluxAttitudes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73013",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

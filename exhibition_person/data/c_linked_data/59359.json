@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59359",
+  "type": "Person",
+  "_label": "Peter Walsh",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17974",
+      "type": "Name",
+      "_label": "Peter Walsh"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17974",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35948",
+      "type": "TimeSpan",
+      "_label": "Peter Walsh Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17974",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35949",
+      "type": "TimeSpan",
+      "_label": "Peter Walsh Death timespan",
+      "begin_of_the_begin": "2009",
+      "end_of_the_end": "2009"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17974",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17974",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3456",
+              "type": "Event",
+              "_label": "Heart of Gold",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-19-5 - 2002-14-9",
+                "begin_of_the_begin": "2002-19-5",
+                "end_of_the_end": "2002-14-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65313",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

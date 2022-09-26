@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56636",
+  "type": "Person",
+  "_label": "Brian O'Neil",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15049",
+      "type": "Name",
+      "_label": "Brian O'Neil"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15049",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30098",
+      "type": "TimeSpan",
+      "_label": "Brian O'Neil Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15049",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30099",
+      "type": "TimeSpan",
+      "_label": "Brian O'Neil Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15049",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15049",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2999",
+              "type": "Event",
+              "_label": "A Month of Sundays",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-19-9 - 1976-10-10",
+                "begin_of_the_begin": "1976-19-9",
+                "end_of_the_end": "1976-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59179",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3642",
+              "type": "Event",
+              "_label": "Brian O'Neill: \"Fallen Fluhe\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-5 - 1980-21-6",
+                "begin_of_the_begin": "1980-28-5",
+                "end_of_the_end": "1980-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59180",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

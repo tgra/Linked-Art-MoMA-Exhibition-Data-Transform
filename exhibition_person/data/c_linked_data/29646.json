@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29646",
+  "type": "Person",
+  "_label": "William Dyce",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8296",
+      "type": "Name",
+      "_label": "William Dyce"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5020",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Scottish, 1806–1864"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16592",
+      "type": "TimeSpan",
+      "_label": "William Dyce Birth timespan",
+      "begin_of_the_begin": "1806",
+      "end_of_the_end": "1806"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16593",
+      "type": "TimeSpan",
+      "_label": "William Dyce Death timespan",
+      "begin_of_the_begin": "1864",
+      "end_of_the_end": "1864"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/677",
+              "type": "Event",
+              "_label": "Masters of British Painting, 1800–1950",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-3-10 - 1956-2-12",
+                "begin_of_the_begin": "1956-3-10",
+                "end_of_the_end": "1956-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30691",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63394",
+  "type": "Person",
+  "_label": "Joey Kotting",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20780",
+      "type": "Name",
+      "_label": "Joey Kotting"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20780",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41560",
+      "type": "TimeSpan",
+      "_label": "Joey Kotting Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20780",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41561",
+      "type": "TimeSpan",
+      "_label": "Joey Kotting Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20780",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20780",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5078",
+              "type": "Event",
+              "_label": "White Room: Joey Kotting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-5-12 - 1998-18-1",
+                "begin_of_the_begin": "1997-5-12",
+                "end_of_the_end": "1998-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71742",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

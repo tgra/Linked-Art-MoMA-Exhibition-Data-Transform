@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59197",
+  "type": "Person",
+  "_label": "Igor Makarevich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17802",
+      "type": "Name",
+      "_label": "Igor Makarevich"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17802",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35604",
+      "type": "TimeSpan",
+      "_label": "Igor Makarevich Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17802",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35605",
+      "type": "TimeSpan",
+      "_label": "Igor Makarevich Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17802",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17802",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3698",
+              "type": "Event",
+              "_label": "Perspectives of Conceptualism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-3 - 1991-21-4",
+                "begin_of_the_begin": "1991-14-3",
+                "end_of_the_end": "1991-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65073",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60226",
+  "type": "Person",
+  "_label": "Trisha Baga",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18905",
+      "type": "Name",
+      "_label": "Trisha Baga"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18905",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37810",
+      "type": "TimeSpan",
+      "_label": "Trisha Baga Birth timespan",
+      "begin_of_the_begin": "1985",
+      "end_of_the_end": "1985"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18905",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37811",
+      "type": "TimeSpan",
+      "_label": "Trisha Baga Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18905",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18905",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67347",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3571",
+              "type": "Event",
+              "_label": "New Pictures of Common Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-21-10 - 2013-14-4",
+                "begin_of_the_begin": "2012-21-10",
+                "end_of_the_end": "2013-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67348",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

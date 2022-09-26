@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59493",
+  "type": "Person",
+  "_label": "Harry Smith",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18119",
+      "type": "Name",
+      "_label": "Harry Smith"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18119",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36238",
+      "type": "TimeSpan",
+      "_label": "Harry Smith Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18119",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36239",
+      "type": "TimeSpan",
+      "_label": "Harry Smith Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18119",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18119",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3389",
+              "type": "Event",
+              "_label": "Curious Crystals of Unusual Purity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-27-6 - 2004-27-9",
+                "begin_of_the_begin": "2004-27-6",
+                "end_of_the_end": "2004-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65567",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/16973",
+              "type": "Event",
+              "_label": "The Keeper",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-20-7 - 2016-25-9",
+                "begin_of_the_begin": "2016-20-7",
+                "end_of_the_end": "2016-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65568",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

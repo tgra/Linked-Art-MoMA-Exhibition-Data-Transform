@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61669",
+  "type": "Person",
+  "_label": "Tom Fellner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20056",
+      "type": "Name",
+      "_label": "Tom Fellner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20056",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40112",
+      "type": "TimeSpan",
+      "_label": "Tom Fellner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20056",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40113",
+      "type": "TimeSpan",
+      "_label": "Tom Fellner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20056",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20056",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5210",
+              "type": "Event",
+              "_label": "White Room: Tom Fellner",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-4-12 - 1986-4-1",
+                "begin_of_the_begin": "1985-4-12",
+                "end_of_the_end": "1986-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69812",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4952",
+              "type": "Event",
+              "_label": "Update 1985-86",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-10-6 - 1986-28-6",
+                "begin_of_the_begin": "1986-10-6",
+                "end_of_the_end": "1986-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69813",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

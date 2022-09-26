@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59051",
+  "type": "Person",
+  "_label": "Donald Sanders",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17645",
+      "type": "Name",
+      "_label": "Donald Sanders"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17645",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35290",
+      "type": "TimeSpan",
+      "_label": "Donald Sanders Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17645",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35291",
+      "type": "TimeSpan",
+      "_label": "Donald Sanders Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17645",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17645",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3029",
+              "type": "Event",
+              "_label": "The Red Robins",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-29-12 - 1977-31-12",
+                "begin_of_the_begin": "1977-29-12",
+                "end_of_the_end": "1977-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64670",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

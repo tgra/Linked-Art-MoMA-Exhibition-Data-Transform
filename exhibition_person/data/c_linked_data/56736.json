@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56736",
+  "type": "Person",
+  "_label": "Al Robbins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15157",
+      "type": "Name",
+      "_label": "Al Robbins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15157",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30314",
+      "type": "TimeSpan",
+      "_label": "Al Robbins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15157",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30315",
+      "type": "TimeSpan",
+      "_label": "Al Robbins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15157",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15157",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3070",
+              "type": "Event",
+              "_label": "Video (Winter 1978–1979): Anthology Film Archives Video Program at P.S. 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-12 - 1979-21-1",
+                "begin_of_the_begin": "1978-3-12",
+                "end_of_the_end": "1979-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59465",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3132",
+              "type": "Event",
+              "_label": "Video (Fall 1980): Landscape in Video",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-26-10 - 1980-15-11",
+                "begin_of_the_begin": "1980-26-10",
+                "end_of_the_end": "1980-15-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59466",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

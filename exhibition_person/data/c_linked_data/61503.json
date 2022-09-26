@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61503",
+  "type": "Person",
+  "_label": "Megan Cump",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19995",
+      "type": "Name",
+      "_label": "Megan Cump"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19995",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39990",
+      "type": "TimeSpan",
+      "_label": "Megan Cump Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19995",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39991",
+      "type": "TimeSpan",
+      "_label": "Megan Cump Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19995",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19995",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5132",
+              "type": "Event",
+              "_label": "White Room: Megan Cump",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-10-9 - 2004-17-10",
+                "begin_of_the_begin": "2004-10-9",
+                "end_of_the_end": "2004-17-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69673",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

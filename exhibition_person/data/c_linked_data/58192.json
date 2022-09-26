@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58192",
+  "type": "Person",
+  "_label": "Jennifer Silitch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16718",
+      "type": "Name",
+      "_label": "Jennifer Silitch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16718",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33436",
+      "type": "TimeSpan",
+      "_label": "Jennifer Silitch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16718",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33437",
+      "type": "TimeSpan",
+      "_label": "Jennifer Silitch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16718",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16718",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2710",
+              "type": "Event",
+              "_label": "In the Ruins of the Twentieth Century: The 20th Annual International Studio Artist Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-5 - 1996-31-5",
+                "begin_of_the_begin": "1996-3-5",
+                "end_of_the_end": "1996-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62938",
+                  "type": "Place",
+                  "_label": "80 Lafayette St., New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

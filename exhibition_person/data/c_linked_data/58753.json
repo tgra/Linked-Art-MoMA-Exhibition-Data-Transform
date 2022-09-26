@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58753",
+  "type": "Person",
+  "_label": "Ehry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17324",
+      "type": "Name",
+      "_label": "Ehry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17324",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34648",
+      "type": "TimeSpan",
+      "_label": "Ehry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17324",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34649",
+      "type": "TimeSpan",
+      "_label": "Ehry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17324",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17324",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4128",
+              "type": "Event",
+              "_label": "Image Scavengers: Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-8-12 - 1983-30-1",
+                "begin_of_the_begin": "1982-8-12",
+                "end_of_the_end": "1983-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63992",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3105",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63993",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

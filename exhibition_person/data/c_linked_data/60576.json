@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60576",
+  "type": "Person",
+  "_label": "Bill Martin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19277",
+      "type": "Name",
+      "_label": "Bill Martin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19277",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38554",
+      "type": "TimeSpan",
+      "_label": "Bill Martin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19277",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38555",
+      "type": "TimeSpan",
+      "_label": "Bill Martin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19277",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19277",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4179",
+              "type": "Event",
+              "_label": "The Topography of Nature",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-22-3 - 1972-27-4",
+                "begin_of_the_begin": "1972-22-3",
+                "end_of_the_end": "1972-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68174",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17293",
+              "type": "Event",
+              "_label": "The 1970's: New American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-15-6 - 1981-10-2",
+                "begin_of_the_begin": "1979-15-6",
+                "end_of_the_end": "1981-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68175",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6671",
+              "type": "Event",
+              "_label": "1972 Annual Exhibition: Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-24-1 - 1972-19-3",
+                "begin_of_the_begin": "1972-24-1",
+                "end_of_the_end": "1972-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68176",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

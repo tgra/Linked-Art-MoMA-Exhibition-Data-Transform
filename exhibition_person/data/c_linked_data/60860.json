@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60860",
+  "type": "Person",
+  "_label": "Julio Grinblatt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19575",
+      "type": "Name",
+      "_label": "Julio Grinblatt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19575",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39150",
+      "type": "TimeSpan",
+      "_label": "Julio Grinblatt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19575",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39151",
+      "type": "TimeSpan",
+      "_label": "Julio Grinblatt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19575",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19575",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4300",
+              "type": "Event",
+              "_label": "Traces of Friday: Art, Tourism, Displacement",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-4-9 - 2003-14-12",
+                "begin_of_the_begin": "2003-4-9",
+                "end_of_the_end": "2003-14-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68785",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

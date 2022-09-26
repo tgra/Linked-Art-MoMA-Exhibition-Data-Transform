@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57050",
+  "type": "Person",
+  "_label": "Tom Christopher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15493",
+      "type": "Name",
+      "_label": "Tom Christopher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15493",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30986",
+      "type": "TimeSpan",
+      "_label": "Tom Christopher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15493",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30987",
+      "type": "TimeSpan",
+      "_label": "Tom Christopher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15493",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15493",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3665",
+              "type": "Event",
+              "_label": "Criminal Proceedings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-30-9 - 1981-31-10",
+                "begin_of_the_begin": "1981-30-9",
+                "end_of_the_end": "1981-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60305",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

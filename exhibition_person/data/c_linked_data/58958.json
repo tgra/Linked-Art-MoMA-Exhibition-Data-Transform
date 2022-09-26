@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58958",
+  "type": "Person",
+  "_label": "Yoshie Ueki",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17542",
+      "type": "Name",
+      "_label": "Yoshie Ueki"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17542",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35084",
+      "type": "TimeSpan",
+      "_label": "Yoshie Ueki Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17542",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35085",
+      "type": "TimeSpan",
+      "_label": "Yoshie Ueki Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17542",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17542",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2938",
+              "type": "Event",
+              "_label": "Late Blooming",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64420",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

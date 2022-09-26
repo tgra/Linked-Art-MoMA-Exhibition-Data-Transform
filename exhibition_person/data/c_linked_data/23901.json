@@ -54,7 +54,59 @@
         {
           "id": "https://linkedart.example.com/Set/4365",
           "type": "Set",
-          "_label": "Exhibitions"
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3201",
+              "type": "Event",
+              "_label": "The Logic of Association",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-12-12 - 2011-4-4",
+                "begin_of_the_begin": "2010-12-12",
+                "end_of_the_end": "2011-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18230",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1322",
+              "type": "Event",
+              "_label": "Bookworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-17-3 - 1977-30-5",
+                "begin_of_the_begin": "1977-17-3",
+                "end_of_the_end": "1977-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18231",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

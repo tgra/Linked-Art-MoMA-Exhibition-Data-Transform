@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56928",
+  "type": "Person",
+  "_label": "Billy Copley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15358",
+      "type": "Name",
+      "_label": "Billy Copley"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15358",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30716",
+      "type": "TimeSpan",
+      "_label": "Billy Copley Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15358",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30717",
+      "type": "TimeSpan",
+      "_label": "Billy Copley Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15358",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15358",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3106",
+              "type": "Event",
+              "_label": "Critical Perspectives: Curators and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60025",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2948",
+              "type": "Event",
+              "_label": "100 Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-18-4 - 1999-6-6",
+                "begin_of_the_begin": "1999-18-4",
+                "end_of_the_end": "1999-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60026",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

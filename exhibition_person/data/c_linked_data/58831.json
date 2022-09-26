@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58831",
+  "type": "Person",
+  "_label": "James Monte",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17408",
+      "type": "Name",
+      "_label": "James Monte"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17408",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34816",
+      "type": "TimeSpan",
+      "_label": "James Monte Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17408",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34817",
+      "type": "TimeSpan",
+      "_label": "James Monte Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17408",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17408",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3742",
+              "type": "Event",
+              "_label": "Color as Color and Field",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-27-3 - 1986-27-4",
+                "begin_of_the_begin": "1986-27-3",
+                "end_of_the_end": "1986-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64134",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

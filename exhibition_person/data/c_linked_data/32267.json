@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32267",
+  "type": "Person",
+  "_label": "Anton Mauve",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11119",
+      "type": "Name",
+      "_label": "Anton Mauve"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5378",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1838"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11119",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22238",
+      "type": "TimeSpan",
+      "_label": "Anton Mauve Birth timespan",
+      "begin_of_the_begin": "1838",
+      "end_of_the_end": "1838"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11119",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22239",
+      "type": "TimeSpan",
+      "_label": "Anton Mauve Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11119",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11119",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1169",
+              "type": "Event",
+              "_label": "Drawings from the Kröller-Müller National Museum, Otterlo",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-24-5 - 1973-19-8",
+                "begin_of_the_begin": "1973-24-5",
+                "end_of_the_end": "1973-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36214",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

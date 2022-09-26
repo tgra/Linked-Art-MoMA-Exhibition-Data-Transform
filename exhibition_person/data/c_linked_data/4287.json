@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4287",
+  "type": "Person",
+  "_label": "Andrzej Pagowski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13756",
+      "type": "Name",
+      "_label": "Andrzej Pagowski"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6477",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Polish, born 1953"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13756",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27512",
+      "type": "TimeSpan",
+      "_label": "Andrzej Pagowski Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13756",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27513",
+      "type": "TimeSpan",
+      "_label": "Andrzej Pagowski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13756",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13756",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1709",
+              "type": "Event",
+              "_label": "The Modern Poster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-6-6 - 1988-6-9",
+                "begin_of_the_begin": "1988-6-6",
+                "end_of_the_end": "1988-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47857",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2439",
+              "type": "Event",
+              "_label": "Polish Poster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-6-5 - 2009-30-11",
+                "begin_of_the_begin": "2009-6-5",
+                "end_of_the_end": "2009-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47858",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

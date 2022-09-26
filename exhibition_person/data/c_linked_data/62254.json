@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62254",
+  "type": "Person",
+  "_label": "Yusef Lateef",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20274",
+      "type": "Name",
+      "_label": "Yusef Lateef"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20274",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40548",
+      "type": "TimeSpan",
+      "_label": "Yusef Lateef Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20274",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40549",
+      "type": "TimeSpan",
+      "_label": "Yusef Lateef Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20274",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20274",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5235",
+              "type": "Event",
+              "_label": "Yusef Lateef",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-8-11 - 2014-20-12",
+                "begin_of_the_begin": "2014-8-11",
+                "end_of_the_end": "2014-20-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70296",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60019",
+  "type": "Person",
+  "_label": "Torbjørn Rødland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18683",
+      "type": "Name",
+      "_label": "Torbjørn Rødland"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18683",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37366",
+      "type": "TimeSpan",
+      "_label": "Torbjørn Rødland Birth timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18683",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37367",
+      "type": "TimeSpan",
+      "_label": "Torbjørn Rødland Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18683",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18683",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66893",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3445",
+              "type": "Event",
+              "_label": "Torbjørn Rødland: 132 BPM",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-26-2 - 2006-29-5",
+                "begin_of_the_begin": "2006-26-2",
+                "end_of_the_end": "2006-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66894",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

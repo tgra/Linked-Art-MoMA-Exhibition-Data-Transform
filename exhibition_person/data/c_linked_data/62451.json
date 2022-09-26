@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62451",
+  "type": "Person",
+  "_label": "Katie Merz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20361",
+      "type": "Name",
+      "_label": "Katie Merz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20361",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40722",
+      "type": "TimeSpan",
+      "_label": "Katie Merz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20361",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40723",
+      "type": "TimeSpan",
+      "_label": "Katie Merz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20361",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20361",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4914",
+              "type": "Event",
+              "_label": "Splat Figures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-7-1 - 1994-6-2",
+                "begin_of_the_begin": "1994-7-1",
+                "end_of_the_end": "1994-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70525",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

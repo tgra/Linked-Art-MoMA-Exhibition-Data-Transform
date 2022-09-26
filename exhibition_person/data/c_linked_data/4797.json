@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4797",
+  "type": "Person",
+  "_label": "Roger van Rogger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14190",
+      "type": "Name",
+      "_label": "Roger van Rogger"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6868",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Belgian, 1914–1983"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14190",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28380",
+      "type": "TimeSpan",
+      "_label": "Roger van Rogger Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14190",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28381",
+      "type": "TimeSpan",
+      "_label": "Roger van Rogger Death timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14190",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14190",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/510",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-28-3 - 1950-7-5",
+                "begin_of_the_begin": "1950-28-3",
+                "end_of_the_end": "1950-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/52045",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

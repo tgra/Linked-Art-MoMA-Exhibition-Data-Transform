@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56940",
+  "type": "Person",
+  "_label": "Russel Brami",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15372",
+      "type": "Name",
+      "_label": "Russel Brami"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15372",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30744",
+      "type": "TimeSpan",
+      "_label": "Russel Brami Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15372",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30745",
+      "type": "TimeSpan",
+      "_label": "Russel Brami Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15372",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15372",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3105",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60047",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

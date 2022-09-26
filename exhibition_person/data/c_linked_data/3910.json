@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3910",
+  "type": "Person",
+  "_label": "Claire (Claire Mahl) Moore",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13419",
+      "type": "Name",
+      "_label": "Claire (Claire Mahl) Moore"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6180",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1917"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13419",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26838",
+      "type": "TimeSpan",
+      "_label": "Claire (Claire Mahl) Moore Birth timespan",
+      "begin_of_the_begin": "1917",
+      "end_of_the_end": "1917"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13419",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26839",
+      "type": "TimeSpan",
+      "_label": "Claire (Claire Mahl) Moore Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13419",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13419",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/111",
+              "type": "Event",
+              "_label": "Subway Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-8-2 - 1938-7-3",
+                "begin_of_the_begin": "1938-8-2",
+                "end_of_the_end": "1938-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/44842",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1307",
+              "type": "Event",
+              "_label": "Prints: Acquisitions, 1973–1976",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-23-11 - 1977-20-2",
+                "begin_of_the_begin": "1976-23-11",
+                "end_of_the_end": "1977-20-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/44843",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

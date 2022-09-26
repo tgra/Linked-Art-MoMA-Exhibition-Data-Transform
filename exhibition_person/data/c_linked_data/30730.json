@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30730",
+  "type": "Person",
+  "_label": "Harrison & Abramovitz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9462",
+      "type": "Name",
+      "_label": "Harrison & Abramovitz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9462",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18924",
+      "type": "TimeSpan",
+      "_label": "Harrison & Abramovitz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9462",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18925",
+      "type": "TimeSpan",
+      "_label": "Harrison & Abramovitz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9462",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9462",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/658",
+              "type": "Event",
+              "_label": "Latin American Architecture Since 1945",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-23-11 - 1956-19-2",
+                "begin_of_the_begin": "1955-23-11",
+                "end_of_the_end": "1956-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33104",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1416",
+              "type": "Event",
+              "_label": "Transformations in Modern Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-21-2 - 1979-24-4",
+                "begin_of_the_begin": "1979-21-2",
+                "end_of_the_end": "1979-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33105",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

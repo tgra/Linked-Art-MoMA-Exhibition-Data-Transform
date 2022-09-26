@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58390",
+  "type": "Person",
+  "_label": "Beth Coleman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16931",
+      "type": "Name",
+      "_label": "Beth Coleman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16931",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33862",
+      "type": "TimeSpan",
+      "_label": "Beth Coleman Birth timespan",
+      "begin_of_the_begin": "2000",
+      "end_of_the_end": "2000"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16931",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33863",
+      "type": "TimeSpan",
+      "_label": "Beth Coleman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16931",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16931",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2881",
+              "type": "Event",
+              "_label": "Volume: Bed of Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-2-7 - 2000-30-9",
+                "begin_of_the_begin": "2000-2-7",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63322",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21902",
+              "type": "Event",
+              "_label": "Fresh Projects: Shimmer",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-10-11 - 2015-10-11",
+                "begin_of_the_begin": "2015-10-11",
+                "end_of_the_end": "2015-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63323",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

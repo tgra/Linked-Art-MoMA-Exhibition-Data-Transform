@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57218",
+  "type": "Person",
+  "_label": "Avital Oz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15674",
+      "type": "Name",
+      "_label": "Avital Oz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15674",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31348",
+      "type": "TimeSpan",
+      "_label": "Avital Oz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15674",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31349",
+      "type": "TimeSpan",
+      "_label": "Avital Oz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15674",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15674",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3203",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-17-2 - 1980-6-4",
+                "begin_of_the_begin": "1980-17-2",
+                "end_of_the_end": "1980-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60713",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3664",
+              "type": "Event",
+              "_label": "James Biederman, Don Gummer, Nigel Hall, Mel Kendrick, Avital Oz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-27-5 - 1981-20-6",
+                "begin_of_the_begin": "1981-27-5",
+                "end_of_the_end": "1981-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60714",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

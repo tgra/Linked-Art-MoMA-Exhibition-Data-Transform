@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60872",
+  "type": "Person",
+  "_label": "Chris Chiappa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19587",
+      "type": "Name",
+      "_label": "Chris Chiappa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19587",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39174",
+      "type": "TimeSpan",
+      "_label": "Chris Chiappa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19587",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39175",
+      "type": "TimeSpan",
+      "_label": "Chris Chiappa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19587",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19587",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4285",
+              "type": "Event",
+              "_label": "Framing Exposure: Process and Politics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-30-4 - 2005-31-7",
+                "begin_of_the_begin": "2005-30-4",
+                "end_of_the_end": "2005-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68805",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

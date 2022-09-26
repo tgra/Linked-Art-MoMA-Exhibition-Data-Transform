@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69385",
+  "type": "Person",
+  "_label": "Jo Cantine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23665",
+      "type": "Name",
+      "_label": "Jo Cantine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23665",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47330",
+      "type": "TimeSpan",
+      "_label": "Jo Cantine Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23665",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47331",
+      "type": "TimeSpan",
+      "_label": "Jo Cantine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23665",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23665",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6325",
+              "type": "Event",
+              "_label": "1938 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-2-11 - 1938-11-12",
+                "begin_of_the_begin": "1938-2-11",
+                "end_of_the_end": "1938-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77630",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

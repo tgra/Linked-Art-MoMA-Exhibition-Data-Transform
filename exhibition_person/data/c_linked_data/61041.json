@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61041",
+  "type": "Person",
+  "_label": "Guerilla Art Action Group",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19774",
+      "type": "Name",
+      "_label": "Guerilla Art Action Group"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19774",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39548",
+      "type": "TimeSpan",
+      "_label": "Guerilla Art Action Group Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19774",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39549",
+      "type": "TimeSpan",
+      "_label": "Guerilla Art Action Group Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19774",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19774",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4007",
+              "type": "Event",
+              "_label": "Readykeulous by Ridykeulous: This is What Liberation Feels Like™",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-19-9 - 2014-28-12",
+                "begin_of_the_begin": "2014-19-9",
+                "end_of_the_end": "2014-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69119",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

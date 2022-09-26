@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29871",
+  "type": "Person",
+  "_label": "Recreation Development Corp.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8536",
+      "type": "Name",
+      "_label": "Recreation Development Corp."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8536",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17072",
+      "type": "TimeSpan",
+      "_label": "Recreation Development Corp. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8536",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17073",
+      "type": "TimeSpan",
+      "_label": "Recreation Development Corp. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8536",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8536",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/460",
+              "type": "Event",
+              "_label": "Christmas Exhibition: Useful Objects Under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-9-11 - 1949-9-1",
+                "begin_of_the_begin": "1948-9-11",
+                "end_of_the_end": "1949-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31226",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

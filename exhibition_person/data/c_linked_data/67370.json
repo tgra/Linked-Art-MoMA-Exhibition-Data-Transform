@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67370",
+  "type": "Person",
+  "_label": "Kinematic",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22718",
+      "type": "Name",
+      "_label": "Kinematic"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22718",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45436",
+      "type": "TimeSpan",
+      "_label": "Kinematic Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22718",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45437",
+      "type": "TimeSpan",
+      "_label": "Kinematic Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22718",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22718",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18173",
+              "type": "Event",
+              "_label": "Almost Dance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-16-11 - ",
+                "begin_of_the_begin": "1984-16-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75586",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18442",
+              "type": "Event",
+              "_label": "New Ice Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-3-1 - ",
+                "begin_of_the_begin": "1986-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75587",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

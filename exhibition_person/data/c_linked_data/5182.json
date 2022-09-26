@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5182",
+  "type": "Person",
+  "_label": "A. F. Sherman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14596",
+      "type": "Name",
+      "_label": "A. F. Sherman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7195",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14596",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29192",
+      "type": "TimeSpan",
+      "_label": "A. F. Sherman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14596",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29193",
+      "type": "TimeSpan",
+      "_label": "A. F. Sherman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14596",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14596",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/695",
+              "type": "Event",
+              "_label": "70 Photographers Look at New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-27-11 - 1958-15-4",
+                "begin_of_the_begin": "1957-27-11",
+                "end_of_the_end": "1958-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55333",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

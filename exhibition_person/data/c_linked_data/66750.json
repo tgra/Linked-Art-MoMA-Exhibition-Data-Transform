@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66750",
+  "type": "Person",
+  "_label": "Sonia Labouriau",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22345",
+      "type": "Name",
+      "_label": "Sonia Labouriau"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22345",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44690",
+      "type": "TimeSpan",
+      "_label": "Sonia Labouriau Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22345",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44691",
+      "type": "TimeSpan",
+      "_label": "Sonia Labouriau Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22345",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22345",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17130",
+              "type": "Event",
+              "_label": "The Spatial Drive",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74886",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

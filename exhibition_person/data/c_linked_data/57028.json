@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57028",
+  "type": "Person",
+  "_label": "Remy Blanchard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15468",
+      "type": "Name",
+      "_label": "Remy Blanchard"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15468",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30936",
+      "type": "TimeSpan",
+      "_label": "Remy Blanchard Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15468",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30937",
+      "type": "TimeSpan",
+      "_label": "Remy Blanchard Death timespan",
+      "begin_of_the_begin": "1993",
+      "end_of_the_end": "1993"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15468",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15468",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2786",
+              "type": "Event",
+              "_label": "Beast: Animal Imagery in Recent Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60261",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68816",
+  "type": "Person",
+  "_label": "Alden Mason",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23333",
+      "type": "Name",
+      "_label": "Alden Mason"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23333",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46666",
+      "type": "TimeSpan",
+      "_label": "Alden Mason Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23333",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46667",
+      "type": "TimeSpan",
+      "_label": "Alden Mason Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23333",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23333",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4190",
+              "type": "Event",
+              "_label": "The Spirit of the Comics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-1-10 - 1969-9-11",
+                "begin_of_the_begin": "1969-1-10",
+                "end_of_the_end": "1969-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76712",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

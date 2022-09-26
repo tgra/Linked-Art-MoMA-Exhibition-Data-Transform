@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35664",
+  "type": "Person",
+  "_label": "Sur Rodney (Sur)",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12567",
+      "type": "Name",
+      "_label": "Sur Rodney (Sur)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5913",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian, born 1954"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12567",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25134",
+      "type": "TimeSpan",
+      "_label": "Sur Rodney (Sur) Birth timespan",
+      "begin_of_the_begin": "1954",
+      "end_of_the_end": "1954"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12567",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25135",
+      "type": "TimeSpan",
+      "_label": "Sur Rodney (Sur) Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12567",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12567",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2807",
+              "type": "Event",
+              "_label": "Limbo",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41086",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70616",
+  "type": "Person",
+  "_label": "Sara Greenberger Rafferty",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24396",
+      "type": "Name",
+      "_label": "Sara Greenberger Rafferty"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24396",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48792",
+      "type": "TimeSpan",
+      "_label": "Sara Greenberger Rafferty Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24396",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48793",
+      "type": "TimeSpan",
+      "_label": "Sara Greenberger Rafferty Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24396",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24396",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28416",
+              "type": "Event",
+              "_label": "Whitney Biennial 2014",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-7-3 - 2014-25-3",
+                "begin_of_the_begin": "2014-7-3",
+                "end_of_the_end": "2014-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78965",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32405",
+  "type": "Person",
+  "_label": "Vincent Trasov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11268",
+      "type": "Name",
+      "_label": "Vincent Trasov"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11268",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22536",
+      "type": "TimeSpan",
+      "_label": "Vincent Trasov Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11268",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22537",
+      "type": "TimeSpan",
+      "_label": "Vincent Trasov Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11268",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11268",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1322",
+              "type": "Event",
+              "_label": "Bookworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-17-3 - 1977-30-5",
+                "begin_of_the_begin": "1977-17-3",
+                "end_of_the_end": "1977-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36447",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1555",
+              "type": "Event",
+              "_label": "Video Art: A History",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-3-10 - 1984-3-1",
+                "begin_of_the_begin": "1983-3-10",
+                "end_of_the_end": "1984-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36448",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

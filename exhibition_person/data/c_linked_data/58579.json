@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58579",
+  "type": "Person",
+  "_label": "Gim Hongsok",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17135",
+      "type": "Name",
+      "_label": "Gim Hongsok"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17135",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34270",
+      "type": "TimeSpan",
+      "_label": "Gim Hongsok Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17135",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34271",
+      "type": "TimeSpan",
+      "_label": "Gim Hongsok Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17135",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17135",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3473",
+              "type": "Event",
+              "_label": "Listening to New Voices: P.S. 1 2001–2002 National and International Studio Program Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-19-5 - 2002-16-6",
+                "begin_of_the_begin": "2002-19-5",
+                "end_of_the_end": "2002-16-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63633",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

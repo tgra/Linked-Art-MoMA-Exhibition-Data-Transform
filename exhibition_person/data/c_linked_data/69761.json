@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69761",
+  "type": "Person",
+  "_label": "Roy Newell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23915",
+      "type": "Name",
+      "_label": "Roy Newell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23915",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47830",
+      "type": "TimeSpan",
+      "_label": "Roy Newell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23915",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47831",
+      "type": "TimeSpan",
+      "_label": "Roy Newell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23915",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23915",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54739",
+              "type": "Event",
+              "_label": "Hard Edge and Geometric Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-10-1 - ",
+                "begin_of_the_begin": "1963-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78239",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6425",
+              "type": "Event",
+              "_label": "1953 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-15-10 - 1953-6-12",
+                "begin_of_the_begin": "1953-15-10",
+                "end_of_the_end": "1953-6-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78240",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66291",
+  "type": "Person",
+  "_label": "Paul Tschinkel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22105",
+      "type": "Name",
+      "_label": "Paul Tschinkel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22105",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44210",
+      "type": "TimeSpan",
+      "_label": "Paul Tschinkel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22105",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44211",
+      "type": "TimeSpan",
+      "_label": "Paul Tschinkel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22105",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22105",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17019",
+              "type": "Event",
+              "_label": "Come Closer: Art Around the Bowery, 1969–1989",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-19-9 - 2012-30-12",
+                "begin_of_the_begin": "2012-19-9",
+                "end_of_the_end": "2012-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74429",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

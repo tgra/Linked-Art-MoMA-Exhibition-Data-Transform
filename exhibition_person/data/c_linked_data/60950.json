@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60950",
+  "type": "Person",
+  "_label": "Tamir Lichtenberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19673",
+      "type": "Name",
+      "_label": "Tamir Lichtenberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19673",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39346",
+      "type": "TimeSpan",
+      "_label": "Tamir Lichtenberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19673",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39347",
+      "type": "TimeSpan",
+      "_label": "Tamir Lichtenberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19673",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19673",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4032",
+              "type": "Event",
+              "_label": "Blowing On A Hairy Shoulder / Grief Hunters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-7-9 - 2011-4-12",
+                "begin_of_the_begin": "2011-7-9",
+                "end_of_the_end": "2011-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68938",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

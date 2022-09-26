@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4705",
+  "type": "Person",
+  "_label": "Burton Rice",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14120",
+      "type": "Name",
+      "_label": "Burton Rice"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6804",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14120",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28240",
+      "type": "TimeSpan",
+      "_label": "Burton Rice Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14120",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28241",
+      "type": "TimeSpan",
+      "_label": "Burton Rice Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14120",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14120",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/751",
+              "type": "Event",
+              "_label": "Film Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-14-12 - 1961-23-2",
+                "begin_of_the_begin": "1960-14-12",
+                "end_of_the_end": "1961-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/51282",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58858",
+  "type": "Person",
+  "_label": "Pops Cooper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17436",
+      "type": "Name",
+      "_label": "Pops Cooper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17436",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34872",
+      "type": "TimeSpan",
+      "_label": "Pops Cooper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17436",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34873",
+      "type": "TimeSpan",
+      "_label": "Pops Cooper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17436",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17436",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3810",
+              "type": "Event",
+              "_label": "Here and There: Travels, Part I: Outside Insight",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-27-10 - 1988-11-12",
+                "begin_of_the_begin": "1988-27-10",
+                "end_of_the_end": "1988-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64180",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

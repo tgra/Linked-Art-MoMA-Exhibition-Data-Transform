@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70173",
+  "type": "Person",
+  "_label": "Silvia Kolbowski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24155",
+      "type": "Name",
+      "_label": "Silvia Kolbowski"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24155",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48310",
+      "type": "TimeSpan",
+      "_label": "Silvia Kolbowski Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24155",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48311",
+      "type": "TimeSpan",
+      "_label": "Silvia Kolbowski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24155",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24155",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28410",
+              "type": "Event",
+              "_label": "Whitney Biennial 2000",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-23-3 - 2000-4-6",
+                "begin_of_the_begin": "2000-23-3",
+                "end_of_the_end": "2000-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78605",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

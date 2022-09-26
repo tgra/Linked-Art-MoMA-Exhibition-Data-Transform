@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57390",
+  "type": "Person",
+  "_label": "Frances Hegarty",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15861",
+      "type": "Name",
+      "_label": "Frances Hegarty"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15861",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31722",
+      "type": "TimeSpan",
+      "_label": "Frances Hegarty Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15861",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31723",
+      "type": "TimeSpan",
+      "_label": "Frances Hegarty Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15861",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15861",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2952",
+              "type": "Event",
+              "_label": "0044: Contemporary Irish Art in Britain",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-6 - 1999-29-8",
+                "begin_of_the_begin": "1999-20-6",
+                "end_of_the_end": "1999-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61054",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62268",
+  "type": "Person",
+  "_label": "Denise Lehocka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20277",
+      "type": "Name",
+      "_label": "Denise Lehocka"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20277",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40554",
+      "type": "TimeSpan",
+      "_label": "Denise Lehocka Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20277",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40555",
+      "type": "TimeSpan",
+      "_label": "Denise Lehocka Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20277",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20277",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17004",
+              "type": "Event",
+              "_label": "Museum as Hub: Report on the Construction of a Spaceship Module",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-22-1 - 2014-13-4",
+                "begin_of_the_begin": "2014-22-1",
+                "end_of_the_end": "2014-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70301",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

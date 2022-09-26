@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64906",
+  "type": "Person",
+  "_label": "Howard Goldstein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21475",
+      "type": "Name",
+      "_label": "Howard Goldstein"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21475",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42950",
+      "type": "TimeSpan",
+      "_label": "Howard Goldstein Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21475",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42951",
+      "type": "TimeSpan",
+      "_label": "Howard Goldstein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21475",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21475",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17272",
+              "type": "Event",
+              "_label": "Events: Artists Invite Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-13-2 - 1981-5-3",
+                "begin_of_the_begin": "1981-13-2",
+                "end_of_the_end": "1981-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73071",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

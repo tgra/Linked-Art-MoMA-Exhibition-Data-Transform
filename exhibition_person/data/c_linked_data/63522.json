@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63522",
+  "type": "Person",
+  "_label": "Benjamin Nelson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20904",
+      "type": "Name",
+      "_label": "Benjamin Nelson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20904",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41808",
+      "type": "TimeSpan",
+      "_label": "Benjamin Nelson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20904",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41809",
+      "type": "TimeSpan",
+      "_label": "Benjamin Nelson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20904",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20904",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7286",
+              "type": "Event",
+              "_label": "Panel Discussion: The Real Bohemia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-3-12 - ",
+                "begin_of_the_begin": "1961-3-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72028",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

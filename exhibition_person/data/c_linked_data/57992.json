@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57992",
+  "type": "Person",
+  "_label": "John Daley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16502",
+      "type": "Name",
+      "_label": "John Daley"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16502",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33004",
+      "type": "TimeSpan",
+      "_label": "John Daley Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16502",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33005",
+      "type": "TimeSpan",
+      "_label": "John Daley Death timespan",
+      "begin_of_the_begin": "2012",
+      "end_of_the_end": "2012"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16502",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16502",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2829",
+              "type": "Event",
+              "_label": "Poetry (Spring 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-4 - 1983-4-6",
+                "begin_of_the_begin": "1983-10-4",
+                "end_of_the_end": "1983-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62442",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

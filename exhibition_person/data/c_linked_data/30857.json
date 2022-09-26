@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30857",
+  "type": "Person",
+  "_label": "Eugene Kovner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9598",
+      "type": "Name",
+      "_label": "Eugene Kovner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9598",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19196",
+      "type": "TimeSpan",
+      "_label": "Eugene Kovner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9598",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19197",
+      "type": "TimeSpan",
+      "_label": "Eugene Kovner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9598",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9598",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/708",
+              "type": "Event",
+              "_label": "Photographs from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-26-11 - 1959-18-1",
+                "begin_of_the_begin": "1958-26-11",
+                "end_of_the_end": "1959-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33412",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

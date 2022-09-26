@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/49377",
+  "type": "Person",
+  "_label": "Victor Alimpiev",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14319",
+      "type": "Name",
+      "_label": "Victor Alimpiev"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6984",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, born 1973"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14319",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28638",
+      "type": "TimeSpan",
+      "_label": "Victor Alimpiev Birth timespan",
+      "begin_of_the_begin": "1973",
+      "end_of_the_end": "1973"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14319",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28639",
+      "type": "TimeSpan",
+      "_label": "Victor Alimpiev Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14319",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14319",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17032",
+              "type": "Event",
+              "_label": "Ostalgia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-14-7 - 2011-15-9",
+                "begin_of_the_begin": "2011-14-7",
+                "end_of_the_end": "2011-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53349",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

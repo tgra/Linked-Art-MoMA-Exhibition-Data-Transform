@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65130",
+  "type": "Person",
+  "_label": "Jerry Dreva",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21569",
+      "type": "Name",
+      "_label": "Jerry Dreva"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21569",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43138",
+      "type": "TimeSpan",
+      "_label": "Jerry Dreva Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21569",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43139",
+      "type": "TimeSpan",
+      "_label": "Jerry Dreva Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21569",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21569",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17251",
+              "type": "Event",
+              "_label": "Extended Sensibilities: Homosexual Presence in Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-16-10 - 1982-30-12",
+                "begin_of_the_begin": "1982-16-10",
+                "end_of_the_end": "1982-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73282",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

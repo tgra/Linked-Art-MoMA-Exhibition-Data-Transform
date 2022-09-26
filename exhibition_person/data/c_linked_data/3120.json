@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3120",
+  "type": "Person",
+  "_label": "Ferdinand Kriwet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9970",
+      "type": "Name",
+      "_label": "Ferdinand Kriwet"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5232",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9970",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19940",
+      "type": "TimeSpan",
+      "_label": "Ferdinand Kriwet Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9970",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19941",
+      "type": "TimeSpan",
+      "_label": "Ferdinand Kriwet Death timespan",
+      "begin_of_the_begin": "2018",
+      "end_of_the_end": "2018"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9970",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9970",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/956",
+              "type": "Event",
+              "_label": "Word and Image: Posters and Typography from the Graphic Design Collection of the Museum of Modern Art, 1879–1967",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-25-1 - 1968-10-3",
+                "begin_of_the_begin": "1968-25-1",
+                "end_of_the_end": "1968-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34107",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2581",
+              "type": "Event",
+              "_label": "Ecstatic Alphabets/Heaps of Language",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-6-5 - 2012-27-8",
+                "begin_of_the_begin": "2012-6-5",
+                "end_of_the_end": "2012-27-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34108",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

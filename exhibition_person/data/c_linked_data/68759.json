@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68759",
+  "type": "Person",
+  "_label": "Larisa Daiga",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23286",
+      "type": "Name",
+      "_label": "Larisa Daiga"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23286",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46572",
+      "type": "TimeSpan",
+      "_label": "Larisa Daiga Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23286",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46573",
+      "type": "TimeSpan",
+      "_label": "Larisa Daiga Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23286",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23286",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17013",
+              "type": "Event",
+              "_label": "Adhocracy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-4-5 - 2013-7-7",
+                "begin_of_the_begin": "2013-4-5",
+                "end_of_the_end": "2013-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76651",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

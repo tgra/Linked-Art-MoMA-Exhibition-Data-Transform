@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60907",
+  "type": "Person",
+  "_label": "David Ellis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19626",
+      "type": "Name",
+      "_label": "David Ellis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19626",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39252",
+      "type": "TimeSpan",
+      "_label": "David Ellis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19626",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39253",
+      "type": "TimeSpan",
+      "_label": "David Ellis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19626",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19626",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4261",
+              "type": "Event",
+              "_label": "Ensemble",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - 2007-16-12",
+                "begin_of_the_begin": "2007-7-9",
+                "end_of_the_end": "2007-16-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68863",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

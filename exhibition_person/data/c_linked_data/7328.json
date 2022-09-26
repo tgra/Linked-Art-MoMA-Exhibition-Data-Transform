@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7328",
+  "type": "Person",
+  "_label": "Margaret Moulton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25277",
+      "type": "Name",
+      "_label": "Margaret Moulton"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8702",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1956"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25277",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50554",
+      "type": "TimeSpan",
+      "_label": "Margaret Moulton Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25277",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50555",
+      "type": "TimeSpan",
+      "_label": "Margaret Moulton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25277",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25277",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2488",
+              "type": "Event",
+              "_label": "Pictures by Women: A History of Modern Photography (Part 2)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-7-5 - 2011-18-4",
+                "begin_of_the_begin": "2010-7-5",
+                "end_of_the_end": "2011-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81611",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

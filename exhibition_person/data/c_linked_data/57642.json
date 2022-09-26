@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57642",
+  "type": "Person",
+  "_label": "Shaun Cailey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16129",
+      "type": "Name",
+      "_label": "Shaun Cailey"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16129",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32258",
+      "type": "TimeSpan",
+      "_label": "Shaun Cailey Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16129",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32259",
+      "type": "TimeSpan",
+      "_label": "Shaun Cailey Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16129",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16129",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2770",
+              "type": "Event",
+              "_label": "Synesthetics: Writers and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-1 - 1985-10-3",
+                "begin_of_the_begin": "1985-13-1",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61711",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

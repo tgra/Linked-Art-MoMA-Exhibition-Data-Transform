@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57276",
+  "type": "Person",
+  "_label": "Jan Hafström",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15737",
+      "type": "Name",
+      "_label": "Jan Hafström"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15737",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31474",
+      "type": "TimeSpan",
+      "_label": "Jan Hafström Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15737",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31475",
+      "type": "TimeSpan",
+      "_label": "Jan Hafström Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15737",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15737",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2993",
+              "type": "Event",
+              "_label": "A Painting Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-2-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-2-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60827",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4668",
+              "type": "Event",
+              "_label": "Jan Hafstrom: Landscape Score",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-22-4 - 1978-6-5",
+                "begin_of_the_begin": "1978-22-4",
+                "end_of_the_end": "1978-6-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60828",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

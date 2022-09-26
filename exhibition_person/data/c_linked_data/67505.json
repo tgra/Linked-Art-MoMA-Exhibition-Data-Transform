@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67505",
+  "type": "Person",
+  "_label": "Alina Tenser",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22862",
+      "type": "Name",
+      "_label": "Alina Tenser"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22862",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45724",
+      "type": "TimeSpan",
+      "_label": "Alina Tenser Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22862",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45725",
+      "type": "TimeSpan",
+      "_label": "Alina Tenser Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22862",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22862",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18448",
+              "type": "Event",
+              "_label": "No Entrance, No Exit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-13-1 - ",
+                "begin_of_the_begin": "2015-13-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75792",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

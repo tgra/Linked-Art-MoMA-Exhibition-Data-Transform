@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63210",
+  "type": "Person",
+  "_label": "Lisa Wheeler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20656",
+      "type": "Name",
+      "_label": "Lisa Wheeler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20656",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41312",
+      "type": "TimeSpan",
+      "_label": "Lisa Wheeler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20656",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41313",
+      "type": "TimeSpan",
+      "_label": "Lisa Wheeler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20656",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20656",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4912",
+              "type": "Event",
+              "_label": "Smoke Against the Beat",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-20-1 - 1998-21-1",
+                "begin_of_the_begin": "1998-20-1",
+                "end_of_the_end": "1998-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71220",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

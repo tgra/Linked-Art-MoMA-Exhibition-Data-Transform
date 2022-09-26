@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35104",
+  "type": "Person",
+  "_label": "Liza Lou",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12479",
+      "type": "Name",
+      "_label": "Liza Lou"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5840",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12479",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24958",
+      "type": "TimeSpan",
+      "_label": "Liza Lou Birth timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12479",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24959",
+      "type": "TimeSpan",
+      "_label": "Liza Lou Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12479",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12479",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17107",
+              "type": "Event",
+              "_label": "A Labor of Love",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-20-1 - 1996-14-4",
+                "begin_of_the_begin": "1996-20-1",
+                "end_of_the_end": "1996-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40491",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17044",
+              "type": "Event",
+              "_label": "Skin Fruit: Selections from the Dakis Joannou Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-3-3 - 2010-6-6",
+                "begin_of_the_begin": "2010-3-3",
+                "end_of_the_end": "2010-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40492",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

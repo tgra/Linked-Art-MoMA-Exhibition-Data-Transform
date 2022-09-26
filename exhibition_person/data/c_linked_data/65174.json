@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65174",
+  "type": "Person",
+  "_label": "Joan Jubela",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21591",
+      "type": "Name",
+      "_label": "Joan Jubela"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21591",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43182",
+      "type": "TimeSpan",
+      "_label": "Joan Jubela Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21591",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43183",
+      "type": "TimeSpan",
+      "_label": "Joan Jubela Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21591",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21591",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17188",
+              "type": "Event",
+              "_label": "Fake: A Meditation on Authenticity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-7-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-7-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73318",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

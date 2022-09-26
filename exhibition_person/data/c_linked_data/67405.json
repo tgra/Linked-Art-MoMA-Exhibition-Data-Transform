@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67405",
+  "type": "Person",
+  "_label": "Marianne Weems",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22755",
+      "type": "Name",
+      "_label": "Marianne Weems"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22755",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45510",
+      "type": "TimeSpan",
+      "_label": "Marianne Weems Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22755",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45511",
+      "type": "TimeSpan",
+      "_label": "Marianne Weems Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22755",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22755",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18502",
+              "type": "Event",
+              "_label": "Queer and Alone",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-21-10 - ",
+                "begin_of_the_begin": "1993-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75638",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

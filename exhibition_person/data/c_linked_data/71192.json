@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71192",
+  "type": "Person",
+  "_label": "Ernest Walker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24590",
+      "type": "Name",
+      "_label": "Ernest Walker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24590",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49180",
+      "type": "TimeSpan",
+      "_label": "Ernest Walker Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24590",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49181",
+      "type": "TimeSpan",
+      "_label": "Ernest Walker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24590",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24590",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6328",
+              "type": "Event",
+              "_label": "1939 Annual Exhibition of Contemporary American Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-22-2 - 1939-15-3",
+                "begin_of_the_begin": "1939-22-2",
+                "end_of_the_end": "1939-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79608",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6341",
+              "type": "Event",
+              "_label": "1941 Annual Exhibition of Contemporay American Sculpture, Watercolors, Drawings and Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-15-1 - 1941-19-2",
+                "begin_of_the_begin": "1941-15-1",
+                "end_of_the_end": "1941-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79609",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

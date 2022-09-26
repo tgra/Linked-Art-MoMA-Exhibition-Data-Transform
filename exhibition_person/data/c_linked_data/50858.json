@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/50858",
+  "type": "Person",
+  "_label": "Tariq Alvi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14457",
+      "type": "Name",
+      "_label": "Tariq Alvi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14457",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28914",
+      "type": "TimeSpan",
+      "_label": "Tariq Alvi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14457",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28915",
+      "type": "TimeSpan",
+      "_label": "Tariq Alvi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14457",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14457",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4795",
+              "type": "Event",
+              "_label": "Monuments for the USA, curated by Ralph Rugoff",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-15-12 - 2006-28-1",
+                "begin_of_the_begin": "2005-15-12",
+                "end_of_the_end": "2006-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54157",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

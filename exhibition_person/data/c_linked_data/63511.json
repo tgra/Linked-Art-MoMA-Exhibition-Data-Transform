@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63511",
+  "type": "Person",
+  "_label": "Bruce Gilchrist",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20896",
+      "type": "Name",
+      "_label": "Bruce Gilchrist"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20896",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41792",
+      "type": "TimeSpan",
+      "_label": "Bruce Gilchrist Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20896",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41793",
+      "type": "TimeSpan",
+      "_label": "Bruce Gilchrist Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20896",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20896",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7310",
+              "type": "Event",
+              "_label": "Below Zero 1960",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-12 - 1960-5-1",
+                "begin_of_the_begin": "1959-18-12",
+                "end_of_the_end": "1960-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72011",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

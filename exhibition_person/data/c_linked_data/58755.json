@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58755",
+  "type": "Person",
+  "_label": "Bart Thrall",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17326",
+      "type": "Name",
+      "_label": "Bart Thrall"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17326",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34652",
+      "type": "TimeSpan",
+      "_label": "Bart Thrall Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17326",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34653",
+      "type": "TimeSpan",
+      "_label": "Bart Thrall Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17326",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17326",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2788",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63995",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

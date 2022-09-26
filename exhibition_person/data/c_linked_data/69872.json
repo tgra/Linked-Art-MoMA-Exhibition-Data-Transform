@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69872",
+  "type": "Person",
+  "_label": "Walter Erlebacher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23977",
+      "type": "Name",
+      "_label": "Walter Erlebacher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23977",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47954",
+      "type": "TimeSpan",
+      "_label": "Walter Erlebacher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23977",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47955",
+      "type": "TimeSpan",
+      "_label": "Walter Erlebacher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23977",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23977",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6492",
+              "type": "Event",
+              "_label": "1960 Annual Exhibition of Contemporary American Sculpture and Drawings ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-7-12 - 1961-22-1",
+                "begin_of_the_begin": "1960-7-12",
+                "end_of_the_end": "1961-22-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78355",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

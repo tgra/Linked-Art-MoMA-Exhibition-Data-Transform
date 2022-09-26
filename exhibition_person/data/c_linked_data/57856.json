@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57856",
+  "type": "Person",
+  "_label": "Clair Joy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16356",
+      "type": "Name",
+      "_label": "Clair Joy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16356",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32712",
+      "type": "TimeSpan",
+      "_label": "Clair Joy Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16356",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32713",
+      "type": "TimeSpan",
+      "_label": "Clair Joy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16356",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16356",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3081",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1990)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-22-4 - 1990-17-6",
+                "begin_of_the_begin": "1990-22-4",
+                "end_of_the_end": "1990-17-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62140",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

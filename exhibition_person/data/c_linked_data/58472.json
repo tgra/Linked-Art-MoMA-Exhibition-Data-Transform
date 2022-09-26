@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58472",
+  "type": "Person",
+  "_label": "Frank Bigbear, Jr.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17019",
+      "type": "Name",
+      "_label": "Frank Bigbear, Jr."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17019",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34038",
+      "type": "TimeSpan",
+      "_label": "Frank Bigbear, Jr. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17019",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34039",
+      "type": "TimeSpan",
+      "_label": "Frank Bigbear, Jr. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17019",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17019",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2810",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-25-9 - 1983-20-11",
+                "begin_of_the_begin": "1983-25-9",
+                "end_of_the_end": "1983-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63461",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

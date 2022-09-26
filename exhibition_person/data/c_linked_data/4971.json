@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4971",
+  "type": "Person",
+  "_label": "Key Sato",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14348",
+      "type": "Name",
+      "_label": "Key Sato"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7011",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1906"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14348",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28696",
+      "type": "TimeSpan",
+      "_label": "Key Sato Birth timespan",
+      "begin_of_the_begin": "1906",
+      "end_of_the_end": "1906"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14348",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28697",
+      "type": "TimeSpan",
+      "_label": "Key Sato Death timespan",
+      "begin_of_the_begin": "1978",
+      "end_of_the_end": "1978"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14348",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14348",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/897",
+              "type": "Event",
+              "_label": "The New Japanese Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-19-10 - 1967-2-1",
+                "begin_of_the_begin": "1966-19-10",
+                "end_of_the_end": "1967-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53525",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

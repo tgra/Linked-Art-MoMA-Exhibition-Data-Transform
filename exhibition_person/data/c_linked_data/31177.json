@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31177",
+  "type": "Person",
+  "_label": "Lippincott & Margulies",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9944",
+      "type": "Name",
+      "_label": "Lippincott & Margulies"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9944",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19888",
+      "type": "TimeSpan",
+      "_label": "Lippincott & Margulies Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9944",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19889",
+      "type": "TimeSpan",
+      "_label": "Lippincott & Margulies Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9944",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9944",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/719",
+              "type": "Event",
+              "_label": "The Package",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-9-9 - 1959-1-11",
+                "begin_of_the_begin": "1959-9-9",
+                "end_of_the_end": "1959-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34071",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

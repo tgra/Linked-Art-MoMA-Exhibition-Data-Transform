@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32890",
+  "type": "Person",
+  "_label": "John Scarlett-Davis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11785",
+      "type": "Name",
+      "_label": "John Scarlett-Davis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11785",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23570",
+      "type": "TimeSpan",
+      "_label": "John Scarlett-Davis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11785",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23571",
+      "type": "TimeSpan",
+      "_label": "John Scarlett-Davis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11785",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11785",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17188",
+              "type": "Event",
+              "_label": "Fake: A Meditation on Authenticity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-7-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-7-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37705",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1552",
+              "type": "Event",
+              "_label": "The Second Link: Viewpoints on Video in the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-18-8 - 1983-27-9",
+                "begin_of_the_begin": "1983-18-8",
+                "end_of_the_end": "1983-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37706",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

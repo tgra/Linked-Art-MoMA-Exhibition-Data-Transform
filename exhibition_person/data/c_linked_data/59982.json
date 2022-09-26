@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59982",
+  "type": "Person",
+  "_label": "Kazuko Miyamoto",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18643",
+      "type": "Name",
+      "_label": "Kazuko Miyamoto"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18643",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37286",
+      "type": "TimeSpan",
+      "_label": "Kazuko Miyamoto Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18643",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37287",
+      "type": "TimeSpan",
+      "_label": "Kazuko Miyamoto Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18643",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18643",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3357",
+              "type": "Event",
+              "_label": "Overview: An Exhibition in Two Parts by the A.I.R. Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-5-3 - 1978-9-4",
+                "begin_of_the_begin": "1978-5-3",
+                "end_of_the_end": "1978-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66767",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

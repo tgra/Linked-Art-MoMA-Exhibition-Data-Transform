@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56968",
+  "type": "Person",
+  "_label": "Cookie Mueller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15401",
+      "type": "Name",
+      "_label": "Cookie Mueller"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15401",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30802",
+      "type": "TimeSpan",
+      "_label": "Cookie Mueller Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15401",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30803",
+      "type": "TimeSpan",
+      "_label": "Cookie Mueller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15401",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15401",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2791",
+              "type": "Event",
+              "_label": "Poetry (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-23-5 - 1982-23-5",
+                "begin_of_the_begin": "1982-23-5",
+                "end_of_the_end": "1982-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60124",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18280",
+              "type": "Event",
+              "_label": "Dubbed in Glamour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-21-11 - ",
+                "begin_of_the_begin": "1980-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60125",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

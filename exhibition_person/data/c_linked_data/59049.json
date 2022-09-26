@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59049",
+  "type": "Person",
+  "_label": "Marjorie Morrow",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17642",
+      "type": "Name",
+      "_label": "Marjorie Morrow"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17642",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35284",
+      "type": "TimeSpan",
+      "_label": "Marjorie Morrow Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17642",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35285",
+      "type": "TimeSpan",
+      "_label": "Marjorie Morrow Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17642",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17642",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2991",
+              "type": "Event",
+              "_label": "10 Downtown: 10 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-11-9 - 1977-2-10",
+                "begin_of_the_begin": "1977-11-9",
+                "end_of_the_end": "1977-2-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64657",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

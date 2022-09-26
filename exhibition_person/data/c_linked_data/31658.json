@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31658",
+  "type": "Person",
+  "_label": "Jack Lorner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10465",
+      "type": "Name",
+      "_label": "Jack Lorner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10465",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20930",
+      "type": "TimeSpan",
+      "_label": "Jack Lorner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10465",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20931",
+      "type": "TimeSpan",
+      "_label": "Jack Lorner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10465",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10465",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/637",
+              "type": "Event",
+              "_label": "The Family of Man",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-24-1 - 1955-8-5",
+                "begin_of_the_begin": "1955-24-1",
+                "end_of_the_end": "1955-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35086",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

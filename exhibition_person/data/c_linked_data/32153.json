@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32153",
+  "type": "Person",
+  "_label": "Berthold Strauss",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10995",
+      "type": "Name",
+      "_label": "Berthold Strauss"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10995",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21990",
+      "type": "TimeSpan",
+      "_label": "Berthold Strauss Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10995",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21991",
+      "type": "TimeSpan",
+      "_label": "Berthold Strauss Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10995",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10995",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/532",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-11 - 1951-28-1",
+                "begin_of_the_begin": "1950-21-11",
+                "end_of_the_end": "1951-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36021",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

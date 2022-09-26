@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32816",
+  "type": "Person",
+  "_label": "Wendy Glatzel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11706",
+      "type": "Name",
+      "_label": "Wendy Glatzel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11706",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23412",
+      "type": "TimeSpan",
+      "_label": "Wendy Glatzel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11706",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23413",
+      "type": "TimeSpan",
+      "_label": "Wendy Glatzel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11706",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11706",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1492",
+              "type": "Event",
+              "_label": "Projects: Video XXXVIII",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-25-6 - 1981-4-8",
+                "begin_of_the_begin": "1981-25-6",
+                "end_of_the_end": "1981-4-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37559",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

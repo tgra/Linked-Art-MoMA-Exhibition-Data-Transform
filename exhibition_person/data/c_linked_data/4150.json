@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4150",
+  "type": "Person",
+  "_label": "Georges Noel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13632",
+      "type": "Name",
+      "_label": "Georges Noel"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6370",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1924"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13632",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27264",
+      "type": "TimeSpan",
+      "_label": "Georges Noel Birth timespan",
+      "begin_of_the_begin": "1924",
+      "end_of_the_end": "1924"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13632",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27265",
+      "type": "TimeSpan",
+      "_label": "Georges Noel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13632",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13632",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2991",
+              "type": "Event",
+              "_label": "10 Downtown: 10 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-11-9 - 1977-2-10",
+                "begin_of_the_begin": "1977-11-9",
+                "end_of_the_end": "1977-2-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46784",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

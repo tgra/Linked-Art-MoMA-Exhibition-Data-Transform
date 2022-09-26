@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51658",
+  "type": "Person",
+  "_label": "Tessa Hughes-Freeland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14573",
+      "type": "Name",
+      "_label": "Tessa Hughes-Freeland"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7176",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1957"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14573",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29146",
+      "type": "TimeSpan",
+      "_label": "Tessa Hughes-Freeland Birth timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14573",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29147",
+      "type": "TimeSpan",
+      "_label": "Tessa Hughes-Freeland Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14573",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14573",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18147",
+              "type": "Event",
+              "_label": "8BC Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-2 - ",
+                "begin_of_the_begin": "1986-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55108",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18225",
+              "type": "Event",
+              "_label": "Carnival of Sleaze",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-20-2 - ",
+                "begin_of_the_begin": "1988-20-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55109",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

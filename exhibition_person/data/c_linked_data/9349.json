@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9349",
+  "type": "Person",
+  "_label": "Lamson & Goodnow, Shellberg Falls, MA",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26592",
+      "type": "Name",
+      "_label": "Lamson & Goodnow, Shellberg Falls, MA"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9493",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, established 1837"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26592",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53184",
+      "type": "TimeSpan",
+      "_label": "Lamson & Goodnow, Shellberg Falls, MA Birth timespan",
+      "begin_of_the_begin": "1837",
+      "end_of_the_end": "1837"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26592",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53185",
+      "type": "TimeSpan",
+      "_label": "Lamson & Goodnow, Shellberg Falls, MA Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26592",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26592",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/311",
+              "type": "Event",
+              "_label": "Design for Use",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87279",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

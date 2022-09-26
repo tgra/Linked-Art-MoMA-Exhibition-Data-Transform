@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/34119",
+  "type": "Person",
+  "_label": "June Blum",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12283",
+      "type": "Name",
+      "_label": "June Blum"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12283",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24566",
+      "type": "TimeSpan",
+      "_label": "June Blum Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12283",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24567",
+      "type": "TimeSpan",
+      "_label": "June Blum Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12283",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12283",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3315",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1978)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-15-1 - 1978-18-2",
+                "begin_of_the_begin": "1978-15-1",
+                "end_of_the_end": "1978-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39534",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

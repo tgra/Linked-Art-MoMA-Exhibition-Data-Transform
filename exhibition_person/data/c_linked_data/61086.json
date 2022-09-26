@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61086",
+  "type": "Person",
+  "_label": "Wadsworth Jarrell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19820",
+      "type": "Name",
+      "_label": "Wadsworth Jarrell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19820",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39640",
+      "type": "TimeSpan",
+      "_label": "Wadsworth Jarrell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19820",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39641",
+      "type": "TimeSpan",
+      "_label": "Wadsworth Jarrell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19820",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19820",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3991",
+              "type": "Event",
+              "_label": "The Freedom Principle: Experiments in Art and Music, 1965 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-14-9 - 2017-19-3",
+                "begin_of_the_begin": "2016-14-9",
+                "end_of_the_end": "2017-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69183",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

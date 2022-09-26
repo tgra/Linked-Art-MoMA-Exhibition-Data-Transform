@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3132",
+  "type": "Person",
+  "_label": "Alexander Z. Kruse",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10100",
+      "type": "Name",
+      "_label": "Alexander Z. Kruse"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5243",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10100",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20200",
+      "type": "TimeSpan",
+      "_label": "Alexander Z. Kruse Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10100",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20201",
+      "type": "TimeSpan",
+      "_label": "Alexander Z. Kruse Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10100",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10100",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6286",
+              "type": "Event",
+              "_label": "First Biennial Exhibition of Contemporary American Sculpture, Watercolors, and Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-5-12 - 1933-11-1",
+                "begin_of_the_begin": "1933-5-12",
+                "end_of_the_end": "1933-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34309",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6299",
+              "type": "Event",
+              "_label": "Second Biennial Exhibition: Part 1 – Sculpture, Drawings, and Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-1 - 1936-13-2",
+                "begin_of_the_begin": "1936-14-1",
+                "end_of_the_end": "1936-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34310",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

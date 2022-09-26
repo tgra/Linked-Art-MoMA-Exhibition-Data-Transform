@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63708",
+  "type": "Person",
+  "_label": "Amy Hill",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20989",
+      "type": "Name",
+      "_label": "Amy Hill"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20989",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41978",
+      "type": "TimeSpan",
+      "_label": "Amy Hill Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20989",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41979",
+      "type": "TimeSpan",
+      "_label": "Amy Hill Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20989",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20989",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17120",
+              "type": "Event",
+              "_label": "Bad Girls (Part I)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-14-1 - 1994-27-2",
+                "begin_of_the_begin": "1994-14-1",
+                "end_of_the_end": "1994-27-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72255",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21979",
+              "type": "Event",
+              "_label": "Bad Girls",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-14-1 - 1994-27-2",
+                "begin_of_the_begin": "1994-14-1",
+                "end_of_the_end": "1994-27-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72256",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

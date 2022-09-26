@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31790",
+  "type": "Person",
+  "_label": "The Pantasote Company",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10605",
+      "type": "Name",
+      "_label": "The Pantasote Company"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10605",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21210",
+      "type": "TimeSpan",
+      "_label": "The Pantasote Company Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10605",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21211",
+      "type": "TimeSpan",
+      "_label": "The Pantasote Company Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10605",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10605",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/719",
+              "type": "Event",
+              "_label": "The Package",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-9-9 - 1959-1-11",
+                "begin_of_the_begin": "1959-9-9",
+                "end_of_the_end": "1959-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35341",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

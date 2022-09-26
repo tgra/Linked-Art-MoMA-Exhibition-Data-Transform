@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65012",
+  "type": "Person",
+  "_label": "James Bradley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21522",
+      "type": "Name",
+      "_label": "James Bradley"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21522",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43044",
+      "type": "TimeSpan",
+      "_label": "James Bradley Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21522",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43045",
+      "type": "TimeSpan",
+      "_label": "James Bradley Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21522",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21522",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22013",
+              "type": "Event",
+              "_label": "The Nicaragua Media Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-21-9 - 1984-25-11",
+                "begin_of_the_begin": "1984-21-9",
+                "end_of_the_end": "1984-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73161",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

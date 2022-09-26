@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60223",
+  "type": "Person",
+  "_label": "Conrad Ventur",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18902",
+      "type": "Name",
+      "_label": "Conrad Ventur"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18902",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37804",
+      "type": "TimeSpan",
+      "_label": "Conrad Ventur Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18902",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37805",
+      "type": "TimeSpan",
+      "_label": "Conrad Ventur Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18902",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18902",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67342",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3592",
+              "type": "Event",
+              "_label": "Extended Installations from Greater New York\n",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-8-11 - 2010-29-11",
+                "begin_of_the_begin": "2010-8-11",
+                "end_of_the_end": "2010-29-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67343",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

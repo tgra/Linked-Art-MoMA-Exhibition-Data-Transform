@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60918",
+  "type": "Person",
+  "_label": "Ann Agee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19637",
+      "type": "Name",
+      "_label": "Ann Agee"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19637",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39274",
+      "type": "TimeSpan",
+      "_label": "Ann Agee Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19637",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39275",
+      "type": "TimeSpan",
+      "_label": "Ann Agee Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19637",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19637",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4054",
+              "type": "Event",
+              "_label": "Dirt On Delight: Impulses That Form Clay",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-15-1 - 2009-21-6",
+                "begin_of_the_begin": "2009-15-1",
+                "end_of_the_end": "2009-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68888",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17120",
+              "type": "Event",
+              "_label": "Bad Girls (Part I)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-14-1 - 1994-27-2",
+                "begin_of_the_begin": "1994-14-1",
+                "end_of_the_end": "1994-27-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68889",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

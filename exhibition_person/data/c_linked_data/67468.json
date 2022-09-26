@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67468",
+  "type": "Person",
+  "_label": "Richard Gallo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22822",
+      "type": "Name",
+      "_label": "Richard Gallo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22822",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45644",
+      "type": "TimeSpan",
+      "_label": "Richard Gallo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22822",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45645",
+      "type": "TimeSpan",
+      "_label": "Richard Gallo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22822",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22822",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18151",
+              "type": "Event",
+              "_label": "A Killer's Loose But Nobo…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-15-5 - ",
+                "begin_of_the_begin": "1980-15-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75741",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

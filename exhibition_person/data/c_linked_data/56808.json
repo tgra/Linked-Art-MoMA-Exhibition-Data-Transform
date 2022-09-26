@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56808",
+  "type": "Person",
+  "_label": "Liisa Roberts",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15231",
+      "type": "Name",
+      "_label": "Liisa Roberts"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15231",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30462",
+      "type": "TimeSpan",
+      "_label": "Liisa Roberts Birth timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15231",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30463",
+      "type": "TimeSpan",
+      "_label": "Liisa Roberts Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15231",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15231",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2911",
+              "type": "Event",
+              "_label": "Heaven: Public View, Private View",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59655",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

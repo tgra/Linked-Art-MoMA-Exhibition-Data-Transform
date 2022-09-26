@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3857",
+  "type": "Person",
+  "_label": "Antoni Miralda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13377",
+      "type": "Name",
+      "_label": "Antoni Miralda"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6143",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Spanish, born 1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13377",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26754",
+      "type": "TimeSpan",
+      "_label": "Antoni Miralda Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13377",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26755",
+      "type": "TimeSpan",
+      "_label": "Antoni Miralda Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13377",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13377",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/44067",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/44068",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

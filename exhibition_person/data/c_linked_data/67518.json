@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67518",
+  "type": "Person",
+  "_label": "Ann Carlson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22876",
+      "type": "Name",
+      "_label": "Ann Carlson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22876",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45752",
+      "type": "TimeSpan",
+      "_label": "Ann Carlson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22876",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45753",
+      "type": "TimeSpan",
+      "_label": "Ann Carlson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22876",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22876",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18219",
+              "type": "Event",
+              "_label": "Burp: Soup and Tart Revis…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-24-10 - ",
+                "begin_of_the_begin": "1991-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75816",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

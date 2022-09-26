@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67655",
+  "type": "Person",
+  "_label": "Stephen Drury",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23016",
+      "type": "Name",
+      "_label": "Stephen Drury"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23016",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46032",
+      "type": "TimeSpan",
+      "_label": "Stephen Drury Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23016",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46033",
+      "type": "TimeSpan",
+      "_label": "Stephen Drury Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23016",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23016",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18237",
+              "type": "Event",
+              "_label": "Coming Together: Celebrat…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-16-4 - ",
+                "begin_of_the_begin": "1998-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76014",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

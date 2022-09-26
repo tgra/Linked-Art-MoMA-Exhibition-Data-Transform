@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4056",
+  "type": "Person",
+  "_label": "Mauricio Nannucci",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13543",
+      "type": "Name",
+      "_label": "Mauricio Nannucci"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6293",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1939"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13543",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27086",
+      "type": "TimeSpan",
+      "_label": "Mauricio Nannucci Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13543",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27087",
+      "type": "TimeSpan",
+      "_label": "Mauricio Nannucci Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13543",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13543",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2911",
+              "type": "Event",
+              "_label": "Heaven: Public View, Private View",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46028",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28424",
+              "type": "Event",
+              "_label": "FluxAttitudes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46029",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

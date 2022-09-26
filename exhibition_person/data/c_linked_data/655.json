@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/655",
+  "type": "Person",
+  "_label": "Elena Borstein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21740",
+      "type": "Name",
+      "_label": "Elena Borstein"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8178",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21740",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43480",
+      "type": "TimeSpan",
+      "_label": "Elena Borstein Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21740",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43481",
+      "type": "TimeSpan",
+      "_label": "Elena Borstein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21740",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21740",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1436",
+              "type": "Event",
+              "_label": "Gifts of Drawing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-8 - 1979-13-11",
+                "begin_of_the_begin": "1979-9-8",
+                "end_of_the_end": "1979-13-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73633",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

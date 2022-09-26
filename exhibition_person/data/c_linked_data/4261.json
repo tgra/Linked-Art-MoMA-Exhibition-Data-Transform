@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4261",
+  "type": "Person",
+  "_label": "Christine Osinski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13730",
+      "type": "Name",
+      "_label": "Christine Osinski"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6456",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1948"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13730",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27460",
+      "type": "TimeSpan",
+      "_label": "Christine Osinski Birth timespan",
+      "begin_of_the_begin": "1948",
+      "end_of_the_end": "1948"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13730",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27461",
+      "type": "TimeSpan",
+      "_label": "Christine Osinski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13730",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13730",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3102",
+              "type": "Event",
+              "_label": "Photography (Winter 1982): Selected Situations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47633",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1662",
+              "type": "Event",
+              "_label": "Photography: Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-7-5 - 1987-30-6",
+                "begin_of_the_begin": "1987-7-5",
+                "end_of_the_end": "1987-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47634",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

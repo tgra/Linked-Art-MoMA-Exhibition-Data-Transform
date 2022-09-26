@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31417",
+  "type": "Person",
+  "_label": "Frederick Hammersly",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10206",
+      "type": "Name",
+      "_label": "Frederick Hammersly"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5257",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1919–2009"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10206",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20412",
+      "type": "TimeSpan",
+      "_label": "Frederick Hammersly Birth timespan",
+      "begin_of_the_begin": "1919",
+      "end_of_the_end": "1919"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10206",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20413",
+      "type": "TimeSpan",
+      "_label": "Frederick Hammersly Death timespan",
+      "begin_of_the_begin": "2009",
+      "end_of_the_end": "2009"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10206",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10206",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/843",
+              "type": "Event",
+              "_label": "The Responsive Eye",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-25-2 - 1965-25-4",
+                "begin_of_the_begin": "1965-25-2",
+                "end_of_the_end": "1965-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34535",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

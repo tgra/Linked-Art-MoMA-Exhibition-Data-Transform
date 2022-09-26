@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67513",
+  "type": "Person",
+  "_label": "Andy deGroat",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22871",
+      "type": "Name",
+      "_label": "Andy deGroat"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22871",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45742",
+      "type": "TimeSpan",
+      "_label": "Andy deGroat Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22871",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45743",
+      "type": "TimeSpan",
+      "_label": "Andy deGroat Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22871",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22871",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18335",
+              "type": "Event",
+              "_label": "Get Wreck",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-12-9 - ",
+                "begin_of_the_begin": "1978-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75809",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18258",
+              "type": "Event",
+              "_label": "Dancing in The Kitchen Pr…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-1-4 - ",
+                "begin_of_the_begin": "1981-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75810",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

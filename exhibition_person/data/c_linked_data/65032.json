@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65032",
+  "type": "Person",
+  "_label": "Jan Verwoert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21531",
+      "type": "Name",
+      "_label": "Jan Verwoert"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21531",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43062",
+      "type": "TimeSpan",
+      "_label": "Jan Verwoert Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21531",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43063",
+      "type": "TimeSpan",
+      "_label": "Jan Verwoert Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21531",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21531",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17004",
+              "type": "Event",
+              "_label": "Museum as Hub: Report on the Construction of a Spaceship Module",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-22-1 - 2014-13-4",
+                "begin_of_the_begin": "2014-22-1",
+                "end_of_the_end": "2014-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73174",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

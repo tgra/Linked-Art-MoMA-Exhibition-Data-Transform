@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60581",
+  "type": "Person",
+  "_label": "Ronald Cohen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19282",
+      "type": "Name",
+      "_label": "Ronald Cohen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19282",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38564",
+      "type": "TimeSpan",
+      "_label": "Ronald Cohen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19282",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38565",
+      "type": "TimeSpan",
+      "_label": "Ronald Cohen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19282",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19282",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4174",
+              "type": "Event",
+              "_label": "Six Visions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-10-10 - 1973-25-11",
+                "begin_of_the_begin": "1973-10-10",
+                "end_of_the_end": "1973-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68185",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30233",
+  "type": "Person",
+  "_label": "John Wellborn Root, Jr.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8929",
+      "type": "Name",
+      "_label": "John Wellborn Root, Jr."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8929",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17858",
+      "type": "TimeSpan",
+      "_label": "John Wellborn Root, Jr. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8929",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17859",
+      "type": "TimeSpan",
+      "_label": "John Wellborn Root, Jr. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8929",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8929",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/78",
+              "type": "Event",
+              "_label": "Modern Exposition Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-8-6 - 1936-2-9",
+                "begin_of_the_begin": "1936-8-6",
+                "end_of_the_end": "1936-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32180",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/119",
+              "type": "Event",
+              "_label": "Wheaton College Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-28-6 - 1938-12-9",
+                "begin_of_the_begin": "1938-28-6",
+                "end_of_the_end": "1938-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32181",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

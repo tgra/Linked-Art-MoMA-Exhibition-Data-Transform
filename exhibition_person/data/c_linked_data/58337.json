@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58337",
+  "type": "Person",
+  "_label": "Ricardo Ribenboim",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16874",
+      "type": "Name",
+      "_label": "Ricardo Ribenboim"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16874",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33748",
+      "type": "TimeSpan",
+      "_label": "Ricardo Ribenboim Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16874",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33749",
+      "type": "TimeSpan",
+      "_label": "Ricardo Ribenboim Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16874",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16874",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3605",
+              "type": "Event",
+              "_label": "The Edge of Awareness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-13-9 - 1998-18-10",
+                "begin_of_the_begin": "1998-13-9",
+                "end_of_the_end": "1998-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63228",
+                  "type": "Place",
+                  "_label": "PS1 and the United Nations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3061",
+              "type": "Event",
+              "_label": "Special Projects (Spring 2000)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-4 - 2000-1-6",
+                "begin_of_the_begin": "2000-30-4",
+                "end_of_the_end": "2000-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63229",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64446",
+  "type": "Person",
+  "_label": "Dorothy Imagire",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21274",
+      "type": "Name",
+      "_label": "Dorothy Imagire"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21274",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42548",
+      "type": "TimeSpan",
+      "_label": "Dorothy Imagire Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21274",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42549",
+      "type": "TimeSpan",
+      "_label": "Dorothy Imagire Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21274",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21274",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17128",
+              "type": "Event",
+              "_label": "In Transit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72754",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

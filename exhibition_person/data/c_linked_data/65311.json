@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65311",
+  "type": "Person",
+  "_label": "Joyan Saunders",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21652",
+      "type": "Name",
+      "_label": "Joyan Saunders"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21652",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43304",
+      "type": "TimeSpan",
+      "_label": "Joyan Saunders Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21652",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43305",
+      "type": "TimeSpan",
+      "_label": "Joyan Saunders Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21652",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21652",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17194",
+              "type": "Event",
+              "_label": "HOMO VIDEO: Where We Are Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-12 - 1987-15-2",
+                "begin_of_the_begin": "1986-12-12",
+                "end_of_the_end": "1987-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73462",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21980",
+              "type": "Event",
+              "_label": "Bad Girls Video (Program 2): Female Friends",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-3 - 1994-10-4",
+                "begin_of_the_begin": "1994-5-3",
+                "end_of_the_end": "1994-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73463",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

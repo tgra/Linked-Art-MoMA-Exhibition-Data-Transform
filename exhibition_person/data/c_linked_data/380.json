@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/380",
+  "type": "Person",
+  "_label": "Douglas Baz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13335",
+      "type": "Name",
+      "_label": "Douglas Baz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6103",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1943"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13335",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26670",
+      "type": "TimeSpan",
+      "_label": "Douglas Baz Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13335",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26671",
+      "type": "TimeSpan",
+      "_label": "Douglas Baz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13335",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13335",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1325",
+              "type": "Event",
+              "_label": "Courthouse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-12-4 - 1977-10-7",
+                "begin_of_the_begin": "1977-12-4",
+                "end_of_the_end": "1977-10-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43771",
+                  "type": "Place",
+                  "_label": "Steichen Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

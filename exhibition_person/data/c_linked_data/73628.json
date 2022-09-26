@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73628",
+  "type": "Person",
+  "_label": "Gruppo  Enne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25393",
+      "type": "Name",
+      "_label": "Gruppo  Enne"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25393",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50786",
+      "type": "TimeSpan",
+      "_label": "Gruppo  Enne Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25393",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50787",
+      "type": "TimeSpan",
+      "_label": "Gruppo  Enne Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25393",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25393",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54732",
+              "type": "Event",
+              "_label": "Art in Editions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-7-6 - ",
+                "begin_of_the_begin": "1965-7-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81829",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

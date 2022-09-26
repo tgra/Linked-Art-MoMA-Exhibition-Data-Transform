@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33065",
+  "type": "Person",
+  "_label": "Ken Goodman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11969",
+      "type": "Name",
+      "_label": "Ken Goodman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11969",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23938",
+      "type": "TimeSpan",
+      "_label": "Ken Goodman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11969",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23939",
+      "type": "TimeSpan",
+      "_label": "Ken Goodman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11969",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11969",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38134",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1404",
+              "type": "Event",
+              "_label": "Gold",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-11 - 1979-19-2",
+                "begin_of_the_begin": "1978-20-11",
+                "end_of_the_end": "1979-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38135",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

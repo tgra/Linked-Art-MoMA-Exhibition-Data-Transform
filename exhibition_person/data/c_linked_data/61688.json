@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61688",
+  "type": "Person",
+  "_label": "Beverly Fishman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20065",
+      "type": "Name",
+      "_label": "Beverly Fishman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20065",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40130",
+      "type": "TimeSpan",
+      "_label": "Beverly Fishman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20065",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40131",
+      "type": "TimeSpan",
+      "_label": "Beverly Fishman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20065",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20065",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5438",
+              "type": "Event",
+              "_label": "White Room: Beverly Fishman",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-20-10 - 2000-26-11",
+                "begin_of_the_begin": "2000-20-10",
+                "end_of_the_end": "2000-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69887",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

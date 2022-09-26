@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63454",
+  "type": "Person",
+  "_label": "Essye Klempner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20846",
+      "type": "Name",
+      "_label": "Essye Klempner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20846",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41692",
+      "type": "TimeSpan",
+      "_label": "Essye Klempner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20846",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41693",
+      "type": "TimeSpan",
+      "_label": "Essye Klempner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20846",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20846",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4985",
+              "type": "Event",
+              "_label": "White Columns Online: Liberate Soil",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-9-9 - 2017-21-10",
+                "begin_of_the_begin": "2017-9-9",
+                "end_of_the_end": "2017-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71887",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

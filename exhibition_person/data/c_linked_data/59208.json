@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59208",
+  "type": "Person",
+  "_label": "Andrew Yachnin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17814",
+      "type": "Name",
+      "_label": "Andrew Yachnin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17814",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35628",
+      "type": "TimeSpan",
+      "_label": "Andrew Yachnin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17814",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35629",
+      "type": "TimeSpan",
+      "_label": "Andrew Yachnin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17814",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17814",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3698",
+              "type": "Event",
+              "_label": "Perspectives of Conceptualism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-3 - 1991-21-4",
+                "begin_of_the_begin": "1991-14-3",
+                "end_of_the_end": "1991-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65093",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

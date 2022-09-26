@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6036",
+  "type": "Person",
+  "_label": "Levon West",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19050",
+      "type": "Name",
+      "_label": "Levon West"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7882",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19050",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38100",
+      "type": "TimeSpan",
+      "_label": "Levon West Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19050",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38101",
+      "type": "TimeSpan",
+      "_label": "Levon West Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19050",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19050",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/117",
+              "type": "Event",
+              "_label": "Three Centuries of American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-24-5 - 1938-31-7",
+                "begin_of_the_begin": "1938-24-5",
+                "end_of_the_end": "1938-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67641",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

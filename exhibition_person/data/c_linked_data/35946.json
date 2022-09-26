@@ -1,0 +1,76 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35946",
+  "type": "Person",
+  "_label": "Abram P. Šterenberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12846",
+      "type": "Name",
+      "_label": "Abram P. Šterenberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12846",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25692",
+      "type": "TimeSpan",
+      "_label": "Abram P. Šterenberg Birth timespan",
+      "begin_of_the_begin": "1894",
+      "end_of_the_end": "1894"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12846",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25693",
+      "type": "TimeSpan",
+      "_label": "Abram P. Šterenberg Death timespan",
+      "begin_of_the_begin": "1978",
+      "end_of_the_end": "1978"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12846",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12846",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1972",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-19-1 - 1995-11-4",
+                "begin_of_the_begin": "1995-19-1",
+                "end_of_the_end": "1995-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41606",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

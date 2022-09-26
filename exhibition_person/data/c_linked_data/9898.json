@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9898",
+  "type": "Person",
+  "_label": "Stéphane Mallarmé",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26710",
+      "type": "Name",
+      "_label": "Stéphane Mallarmé"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9555",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1842–1898"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26710",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53420",
+      "type": "TimeSpan",
+      "_label": "Stéphane Mallarmé Birth timespan",
+      "begin_of_the_begin": "1842",
+      "end_of_the_end": "1842"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26710",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53421",
+      "type": "TimeSpan",
+      "_label": "Stéphane Mallarmé Death timespan",
+      "begin_of_the_begin": "1898",
+      "end_of_the_end": "1898"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26710",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26710",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2613",
+              "type": "Event",
+              "_label": "Inventing Abstraction: 1910–1925",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-23-12 - 2013-15-4",
+                "begin_of_the_begin": "2012-23-12",
+                "end_of_the_end": "2013-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87855",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7541",
+  "type": "Person",
+  "_label": "Roger Cutforth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25569",
+      "type": "Name",
+      "_label": "Roger Cutforth"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8814",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25569",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51138",
+      "type": "TimeSpan",
+      "_label": "Roger Cutforth Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25569",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51139",
+      "type": "TimeSpan",
+      "_label": "Roger Cutforth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25569",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25569",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82948",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1050",
+              "type": "Event",
+              "_label": "Information",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-2-7 - 1970-20-9",
+                "begin_of_the_begin": "1970-2-7",
+                "end_of_the_end": "1970-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82949",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1322",
+              "type": "Event",
+              "_label": "Bookworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-17-3 - 1977-30-5",
+                "begin_of_the_begin": "1977-17-3",
+                "end_of_the_end": "1977-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82950",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

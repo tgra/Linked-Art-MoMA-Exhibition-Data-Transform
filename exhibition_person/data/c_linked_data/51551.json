@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51551",
+  "type": "Person",
+  "_label": "Marcus Leatherdale",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14558",
+      "type": "Name",
+      "_label": "Marcus Leatherdale"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7161",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian, born 1952"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14558",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29116",
+      "type": "TimeSpan",
+      "_label": "Marcus Leatherdale Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14558",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29117",
+      "type": "TimeSpan",
+      "_label": "Marcus Leatherdale Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14558",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14558",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18280",
+              "type": "Event",
+              "_label": "Dubbed in Glamour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-21-11 - ",
+                "begin_of_the_begin": "1980-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54886",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

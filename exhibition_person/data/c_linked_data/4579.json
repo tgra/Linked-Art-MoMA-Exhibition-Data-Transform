@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4579",
+  "type": "Person",
+  "_label": "Edme Quenedey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14015",
+      "type": "Name",
+      "_label": "Edme Quenedey"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6709",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14015",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28030",
+      "type": "TimeSpan",
+      "_label": "Edme Quenedey Birth timespan",
+      "begin_of_the_begin": "1756",
+      "end_of_the_end": "1756"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14015",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28031",
+      "type": "TimeSpan",
+      "_label": "Edme Quenedey Death timespan",
+      "begin_of_the_begin": "1830",
+      "end_of_the_end": "1830"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14015",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14015",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/90",
+              "type": "Event",
+              "_label": "Photography 1839–1937",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-17-3 - 1937-18-4",
+                "begin_of_the_begin": "1937-17-3",
+                "end_of_the_end": "1937-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50369",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

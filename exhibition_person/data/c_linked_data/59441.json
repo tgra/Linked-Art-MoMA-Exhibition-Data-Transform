@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59441",
+  "type": "Person",
+  "_label": "Amy Kao",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18062",
+      "type": "Name",
+      "_label": "Amy Kao"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18062",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36124",
+      "type": "TimeSpan",
+      "_label": "Amy Kao Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18062",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36125",
+      "type": "TimeSpan",
+      "_label": "Amy Kao Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18062",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18062",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3495",
+              "type": "Event",
+              "_label": "After Matisse/Picasso",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-16-2 - 2003-15-5",
+                "begin_of_the_begin": "2003-16-2",
+                "end_of_the_end": "2003-15-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65458",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3550",
+              "type": "Event",
+              "_label": "Emergency Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-8-2 - 2007-19-3",
+                "begin_of_the_begin": "2007-8-2",
+                "end_of_the_end": "2007-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65459",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

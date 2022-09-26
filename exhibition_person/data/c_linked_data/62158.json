@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62158",
+  "type": "Person",
+  "_label": "Mary Ann King",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20238",
+      "type": "Name",
+      "_label": "Mary Ann King"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20238",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40476",
+      "type": "TimeSpan",
+      "_label": "Mary Ann King Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20238",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40477",
+      "type": "TimeSpan",
+      "_label": "Mary Ann King Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20238",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20238",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4228",
+              "type": "Event",
+              "_label": "15 Painters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-20-4 - 1956-20-5",
+                "begin_of_the_begin": "1956-20-4",
+                "end_of_the_end": "1956-20-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70251",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4435",
+              "type": "Event",
+              "_label": "A Lesbian Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-21-1 - 1978-11-2",
+                "begin_of_the_begin": "1978-21-1",
+                "end_of_the_end": "1978-11-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70252",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

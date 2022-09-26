@@ -1,0 +1,99 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58188",
+  "type": "Person",
+  "_label": "Ann Lislegaard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16713",
+      "type": "Name",
+      "_label": "Ann Lislegaard"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16713",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33426",
+      "type": "TimeSpan",
+      "_label": "Ann Lislegaard Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16713",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33427",
+      "type": "TimeSpan",
+      "_label": "Ann Lislegaard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16713",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16713",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2710",
+              "type": "Event",
+              "_label": "In the Ruins of the Twentieth Century: The 20th Annual International Studio Artist Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-5 - 1996-31-5",
+                "begin_of_the_begin": "1996-3-5",
+                "end_of_the_end": "1996-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62879",
+                  "type": "Place",
+                  "_label": "80 Lafayette St., New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18603",
+              "type": "Event",
+              "_label": "The Future As Disruption",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-18-6 - ",
+                "begin_of_the_begin": "2008-18-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62880",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

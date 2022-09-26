@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9817",
+  "type": "Person",
+  "_label": "Hageman Print, New York",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26696",
+      "type": "Name",
+      "_label": "Hageman Print, New York"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26696",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53392",
+      "type": "TimeSpan",
+      "_label": "Hageman Print, New York Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26696",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53393",
+      "type": "TimeSpan",
+      "_label": "Hageman Print, New York Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26696",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26696",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4419",
+              "type": "Event",
+              "_label": "Christmas Show: Works by 50 Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-2-12 - 1953-2-1",
+                "begin_of_the_begin": "1952-2-12",
+                "end_of_the_end": "1953-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87796",
+                  "type": "Place",
+                  "_label": "51 East 4th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65216",
+  "type": "Person",
+  "_label": "John Espinosa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21610",
+      "type": "Name",
+      "_label": "John Espinosa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21610",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43220",
+      "type": "TimeSpan",
+      "_label": "John Espinosa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21610",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43221",
+      "type": "TimeSpan",
+      "_label": "John Espinosa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21610",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21610",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17082",
+              "type": "Event",
+              "_label": "New Additions to the Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-25-1 - 2002-17-2",
+                "begin_of_the_begin": "2002-25-1",
+                "end_of_the_end": "2002-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73395",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

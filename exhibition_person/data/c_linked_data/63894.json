@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63894",
+  "type": "Person",
+  "_label": "Barbara Alper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21057",
+      "type": "Name",
+      "_label": "Barbara Alper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21057",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42114",
+      "type": "TimeSpan",
+      "_label": "Barbara Alper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21057",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42115",
+      "type": "TimeSpan",
+      "_label": "Barbara Alper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21057",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21057",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17093",
+              "type": "Event",
+              "_label": "Picturing the Modern Amazon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-3 - 2000-25-6",
+                "begin_of_the_begin": "2000-30-3",
+                "end_of_the_end": "2000-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72371",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

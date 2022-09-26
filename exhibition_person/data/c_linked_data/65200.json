@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65200",
+  "type": "Person",
+  "_label": "Joel Holmberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21600",
+      "type": "Name",
+      "_label": "Joel Holmberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21600",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43200",
+      "type": "TimeSpan",
+      "_label": "Joel Holmberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21600",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43201",
+      "type": "TimeSpan",
+      "_label": "Joel Holmberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21600",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21600",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17039",
+              "type": "Event",
+              "_label": "Free",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-20-10 - 2011-23-1",
+                "begin_of_the_begin": "2010-20-10",
+                "end_of_the_end": "2011-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73363",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

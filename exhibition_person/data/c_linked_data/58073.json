@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58073",
+  "type": "Person",
+  "_label": "Robert de Mar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16590",
+      "type": "Name",
+      "_label": "Robert de Mar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16590",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33180",
+      "type": "TimeSpan",
+      "_label": "Robert de Mar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16590",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33181",
+      "type": "TimeSpan",
+      "_label": "Robert de Mar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16590",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16590",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2834",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-27-2 - 2000-30-5",
+                "begin_of_the_begin": "2000-27-2",
+                "end_of_the_end": "2000-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62612",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4970",
+              "type": "Event",
+              "_label": "Visitor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-19-3 - 1999-2-5",
+                "begin_of_the_begin": "1999-19-3",
+                "end_of_the_end": "1999-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62613",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

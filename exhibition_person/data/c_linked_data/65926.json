@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65926",
+  "type": "Person",
+  "_label": "Mendi + Keith Obadike",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21951",
+      "type": "Name",
+      "_label": "Mendi + Keith Obadike"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21951",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43902",
+      "type": "TimeSpan",
+      "_label": "Mendi + Keith Obadike Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21951",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43903",
+      "type": "TimeSpan",
+      "_label": "Mendi + Keith Obadike Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21951",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21951",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17069",
+              "type": "Event",
+              "_label": "Transmission II: Airborne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-9-4 - 2005-4-6",
+                "begin_of_the_begin": "2005-9-4",
+                "end_of_the_end": "2005-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74107",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

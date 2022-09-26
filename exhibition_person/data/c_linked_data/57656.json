@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57656",
+  "type": "Person",
+  "_label": "Patrick Cronin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16144",
+      "type": "Name",
+      "_label": "Patrick Cronin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16144",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32288",
+      "type": "TimeSpan",
+      "_label": "Patrick Cronin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16144",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32289",
+      "type": "TimeSpan",
+      "_label": "Patrick Cronin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16144",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16144",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2765",
+              "type": "Event",
+              "_label": "Fresh Paint: The Houston School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61745",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

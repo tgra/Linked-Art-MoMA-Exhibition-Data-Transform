@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58466",
+  "type": "Person",
+  "_label": "Tim Burns",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17012",
+      "type": "Name",
+      "_label": "Tim Burns"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17012",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34024",
+      "type": "TimeSpan",
+      "_label": "Tim Burns Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17012",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34025",
+      "type": "TimeSpan",
+      "_label": "Tim Burns Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17012",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17012",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3768",
+              "type": "Event",
+              "_label": "Film as Installation II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-20-4 - 1983-21-5",
+                "begin_of_the_begin": "1983-20-4",
+                "end_of_the_end": "1983-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63451",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18312",
+              "type": "Event",
+              "_label": "Filmworks '82",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-5 - ",
+                "begin_of_the_begin": "1982-25-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63452",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60248",
+  "type": "Person",
+  "_label": "Tan Lin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18928",
+      "type": "Name",
+      "_label": "Tan Lin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18928",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37856",
+      "type": "TimeSpan",
+      "_label": "Tan Lin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18928",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37857",
+      "type": "TimeSpan",
+      "_label": "Tan Lin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18928",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18928",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3208",
+              "type": "Event",
+              "_label": "Greater New York 2010",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-5 - 2010-18-10",
+                "begin_of_the_begin": "2010-23-5",
+                "end_of_the_end": "2010-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67395",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3283",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-11-10 - 2016-7-3",
+                "begin_of_the_begin": "2015-11-10",
+                "end_of_the_end": "2016-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67396",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

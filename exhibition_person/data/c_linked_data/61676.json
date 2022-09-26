@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61676",
+  "type": "Person",
+  "_label": "Seth Ferris",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20060",
+      "type": "Name",
+      "_label": "Seth Ferris"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20060",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40120",
+      "type": "TimeSpan",
+      "_label": "Seth Ferris Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20060",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40121",
+      "type": "TimeSpan",
+      "_label": "Seth Ferris Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20060",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20060",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4737",
+              "type": "Event",
+              "_label": "Libidinal Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-12-11 - 1993-19-12",
+                "begin_of_the_begin": "1993-12-11",
+                "end_of_the_end": "1993-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69865",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

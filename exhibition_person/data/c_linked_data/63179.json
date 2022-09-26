@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63179",
+  "type": "Person",
+  "_label": "Melvin Way",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20638",
+      "type": "Name",
+      "_label": "Melvin Way"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20638",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41276",
+      "type": "TimeSpan",
+      "_label": "Melvin Way Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20638",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41277",
+      "type": "TimeSpan",
+      "_label": "Melvin Way Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20638",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20638",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4743",
+              "type": "Event",
+              "_label": "Looking Back - The 11th White Columns Annual",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-14-1 - 2017-4-3",
+                "begin_of_the_begin": "2017-14-1",
+                "end_of_the_end": "2017-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71190",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

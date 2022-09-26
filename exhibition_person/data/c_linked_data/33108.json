@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33108",
+  "type": "Person",
+  "_label": "Stewart Hitch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12016",
+      "type": "Name",
+      "_label": "Stewart Hitch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12016",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24032",
+      "type": "TimeSpan",
+      "_label": "Stewart Hitch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12016",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24033",
+      "type": "TimeSpan",
+      "_label": "Stewart Hitch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12016",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12016",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2993",
+              "type": "Event",
+              "_label": "A Painting Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-2-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-2-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38282",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3106",
+              "type": "Event",
+              "_label": "Critical Perspectives: Curators and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38283",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1484",
+              "type": "Event",
+              "_label": "New Art II: Surfaces/Textures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-3 - 1981-9-6",
+                "begin_of_the_begin": "1981-26-3",
+                "end_of_the_end": "1981-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38284",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

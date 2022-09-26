@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32854",
+  "type": "Person",
+  "_label": "Frank Soletti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11747",
+      "type": "Name",
+      "_label": "Frank Soletti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11747",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23494",
+      "type": "TimeSpan",
+      "_label": "Frank Soletti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11747",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23495",
+      "type": "TimeSpan",
+      "_label": "Frank Soletti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11747",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11747",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1528",
+              "type": "Event",
+              "_label": "Videoart in Germany: 1963–1982",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-9-12 - 1983-31-1",
+                "begin_of_the_begin": "1982-9-12",
+                "end_of_the_end": "1983-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37635",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

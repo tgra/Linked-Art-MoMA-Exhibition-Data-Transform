@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57143",
+  "type": "Person",
+  "_label": "Yoshiko Kanai",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15593",
+      "type": "Name",
+      "_label": "Yoshiko Kanai"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15593",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31186",
+      "type": "TimeSpan",
+      "_label": "Yoshiko Kanai Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15593",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31187",
+      "type": "TimeSpan",
+      "_label": "Yoshiko Kanai Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15593",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15593",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2915",
+              "type": "Event",
+              "_label": "P.S. 1 Studio Artists, 1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-8-5 - 1994-12-6",
+                "begin_of_the_begin": "1994-8-5",
+                "end_of_the_end": "1994-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60525",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17096",
+              "type": "Event",
+              "_label": "The Time of Our Lives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-7 - 1999-17-10",
+                "begin_of_the_begin": "1999-15-7",
+                "end_of_the_end": "1999-17-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60526",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

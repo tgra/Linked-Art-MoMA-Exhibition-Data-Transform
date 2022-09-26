@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61063",
+  "type": "Person",
+  "_label": "Becky Suss",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19797",
+      "type": "Name",
+      "_label": "Becky Suss"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19797",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39594",
+      "type": "TimeSpan",
+      "_label": "Becky Suss Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19797",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39595",
+      "type": "TimeSpan",
+      "_label": "Becky Suss Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19797",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19797",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3997",
+              "type": "Event",
+              "_label": "Becky Suss",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-16-9 - 2015-27-12",
+                "begin_of_the_begin": "2015-16-9",
+                "end_of_the_end": "2015-27-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69152",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

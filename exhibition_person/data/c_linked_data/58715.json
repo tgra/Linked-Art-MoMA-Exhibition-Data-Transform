@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58715",
+  "type": "Person",
+  "_label": "Imre Kocsis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17283",
+      "type": "Name",
+      "_label": "Imre Kocsis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17283",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34566",
+      "type": "TimeSpan",
+      "_label": "Imre Kocsis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17283",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34567",
+      "type": "TimeSpan",
+      "_label": "Imre Kocsis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17283",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17283",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3759",
+              "type": "Event",
+              "_label": "International Studio Program 1980–1981 (Fall 1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-9 - 1980-9-11",
+                "begin_of_the_begin": "1980-28-9",
+                "end_of_the_end": "1980-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63908",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

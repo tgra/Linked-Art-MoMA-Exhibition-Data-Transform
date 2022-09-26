@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63068",
+  "type": "Person",
+  "_label": "Patrick Thorne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20597",
+      "type": "Name",
+      "_label": "Patrick Thorne"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20597",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41194",
+      "type": "TimeSpan",
+      "_label": "Patrick Thorne Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20597",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41195",
+      "type": "TimeSpan",
+      "_label": "Patrick Thorne Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20597",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20597",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4914",
+              "type": "Event",
+              "_label": "Splat Figures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-7-1 - 1994-6-2",
+                "begin_of_the_begin": "1994-7-1",
+                "end_of_the_end": "1994-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71104",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31171",
+  "type": "Person",
+  "_label": "Sarah Harkness",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9938",
+      "type": "Name",
+      "_label": "Sarah Harkness"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9938",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19876",
+      "type": "TimeSpan",
+      "_label": "Sarah Harkness Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9938",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19877",
+      "type": "TimeSpan",
+      "_label": "Sarah Harkness Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9938",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9938",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/371",
+              "type": "Event",
+              "_label": "New Dormitories for Smith College",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-5-2 - 1946-14-4",
+                "begin_of_the_begin": "1946-5-2",
+                "end_of_the_end": "1946-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34062",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

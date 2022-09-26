@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60424",
+  "type": "Person",
+  "_label": "Nico Krebs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19119",
+      "type": "Name",
+      "_label": "Nico Krebs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19119",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38238",
+      "type": "TimeSpan",
+      "_label": "Nico Krebs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19119",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38239",
+      "type": "TimeSpan",
+      "_label": "Nico Krebs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19119",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19119",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3422",
+              "type": "Event",
+              "_label": "International and National Projects Summer 2006: Joe Bradley, Drew Heitzler, Kalup Linzy, Curtis Mitchell, Taiyo Onorato & Nico Krebs, and Lisi Raskin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-9-10",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67766",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

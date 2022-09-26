@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63423",
+  "type": "Person",
+  "_label": "Christian Weidner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20813",
+      "type": "Name",
+      "_label": "Christian Weidner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20813",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41626",
+      "type": "TimeSpan",
+      "_label": "Christian Weidner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20813",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41627",
+      "type": "TimeSpan",
+      "_label": "Christian Weidner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20813",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20813",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4984",
+              "type": "Event",
+              "_label": "White Columns Online: Full House",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-14-1 - 2017-4-3",
+                "begin_of_the_begin": "2017-14-1",
+                "end_of_the_end": "2017-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71842",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

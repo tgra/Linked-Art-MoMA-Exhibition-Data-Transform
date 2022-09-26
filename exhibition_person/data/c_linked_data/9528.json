@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9528",
+  "type": "Person",
+  "_label": "Ampex Corporation, Elk Grove Village, IL",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26660",
+      "type": "Name",
+      "_label": "Ampex Corporation, Elk Grove Village, IL"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26660",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53320",
+      "type": "TimeSpan",
+      "_label": "Ampex Corporation, Elk Grove Village, IL Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26660",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53321",
+      "type": "TimeSpan",
+      "_label": "Ampex Corporation, Elk Grove Village, IL Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26660",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26660",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/933",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Design Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-27-9 - 1968-1-1",
+                "begin_of_the_begin": "1967-27-9",
+                "end_of_the_end": "1968-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87568",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

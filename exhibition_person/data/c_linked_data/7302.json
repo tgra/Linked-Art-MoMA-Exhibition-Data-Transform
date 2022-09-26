@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7302",
+  "type": "Person",
+  "_label": "Alyson Shotz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25262",
+      "type": "Name",
+      "_label": "Alyson Shotz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8687",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1964"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25262",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50524",
+      "type": "TimeSpan",
+      "_label": "Alyson Shotz Birth timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25262",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50525",
+      "type": "TimeSpan",
+      "_label": "Alyson Shotz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25262",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25262",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2834",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-27-2 - 2000-30-5",
+                "begin_of_the_begin": "2000-27-2",
+                "end_of_the_end": "2000-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81540",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

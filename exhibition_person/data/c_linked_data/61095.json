@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61095",
+  "type": "Person",
+  "_label": "Nelson Stevens",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19830",
+      "type": "Name",
+      "_label": "Nelson Stevens"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19830",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39660",
+      "type": "TimeSpan",
+      "_label": "Nelson Stevens Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19830",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39661",
+      "type": "TimeSpan",
+      "_label": "Nelson Stevens Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19830",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19830",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3991",
+              "type": "Event",
+              "_label": "The Freedom Principle: Experiments in Art and Music, 1965 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-14-9 - 2017-19-3",
+                "begin_of_the_begin": "2016-14-9",
+                "end_of_the_end": "2017-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69205",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

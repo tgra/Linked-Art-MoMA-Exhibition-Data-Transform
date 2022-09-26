@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8276",
+  "type": "Person",
+  "_label": "Rafael Viñoly Architects",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26088",
+      "type": "Name",
+      "_label": "Rafael Viñoly Architects"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9304",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26088",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52176",
+      "type": "TimeSpan",
+      "_label": "Rafael Viñoly Architects Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26088",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52177",
+      "type": "TimeSpan",
+      "_label": "Rafael Viñoly Architects Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26088",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26088",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1909",
+              "type": "Event",
+              "_label": "Preview: The Tokyo International Forum by Rafael Viñoly Architects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-11-6 - 1993-4-8",
+                "begin_of_the_begin": "1993-11-6",
+                "end_of_the_end": "1993-4-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85070",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

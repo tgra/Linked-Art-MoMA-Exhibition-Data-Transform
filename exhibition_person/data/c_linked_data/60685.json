@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60685",
+  "type": "Person",
+  "_label": "Bevan Davies",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19387",
+      "type": "Name",
+      "_label": "Bevan Davies"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19387",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38774",
+      "type": "TimeSpan",
+      "_label": "Bevan Davies Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19387",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38775",
+      "type": "TimeSpan",
+      "_label": "Bevan Davies Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19387",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19387",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4132",
+              "type": "Event",
+              "_label": "Photography: A Sense of Order",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-11-12 - 1982-27-1",
+                "begin_of_the_begin": "1981-11-12",
+                "end_of_the_end": "1982-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68472",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

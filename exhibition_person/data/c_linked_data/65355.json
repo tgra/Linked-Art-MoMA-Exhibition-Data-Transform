@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65355",
+  "type": "Person",
+  "_label": "Justine Cooper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21676",
+      "type": "Name",
+      "_label": "Justine Cooper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21676",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43352",
+      "type": "TimeSpan",
+      "_label": "Justine Cooper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21676",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43353",
+      "type": "TimeSpan",
+      "_label": "Justine Cooper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21676",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21676",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17095",
+              "type": "Event",
+              "_label": "Videodrome",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-22-10 - 1999-11-11",
+                "begin_of_the_begin": "1999-22-10",
+                "end_of_the_end": "1999-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73534",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21922",
+              "type": "Event",
+              "_label": "World Views: Open Studio Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-12 - 2002-13-1",
+                "begin_of_the_begin": "2001-1-12",
+                "end_of_the_end": "2002-13-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73535",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

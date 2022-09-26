@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3523",
+  "type": "Person",
+  "_label": "Wendy MacNeil",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12504",
+      "type": "Name",
+      "_label": "Wendy MacNeil"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5856",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1943"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12504",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25008",
+      "type": "TimeSpan",
+      "_label": "Wendy MacNeil Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12504",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25009",
+      "type": "TimeSpan",
+      "_label": "Wendy MacNeil Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12504",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12504",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1629",
+              "type": "Event",
+              "_label": "Contemporary Photography Reinstallation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-7-4 - 1986-18-6",
+                "begin_of_the_begin": "1986-7-4",
+                "end_of_the_end": "1986-18-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40622",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2695",
+              "type": "Event",
+              "_label": "Reinstallation of Contemporary Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-6-6 - ",
+                "begin_of_the_begin": "1986-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40623",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58667",
+  "type": "Person",
+  "_label": "Piotr Nathan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17230",
+      "type": "Name",
+      "_label": "Piotr Nathan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17230",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34460",
+      "type": "TimeSpan",
+      "_label": "Piotr Nathan Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17230",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34461",
+      "type": "TimeSpan",
+      "_label": "Piotr Nathan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17230",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17230",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3034",
+              "type": "Event",
+              "_label": "National and International Studio Artist Exhibtion Series 1989–1990",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-15-10 - 1990-14-3",
+                "begin_of_the_begin": "1989-15-10",
+                "end_of_the_end": "1990-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63793",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

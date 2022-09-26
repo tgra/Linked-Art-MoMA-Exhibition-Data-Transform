@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57523",
+  "type": "Person",
+  "_label": "Momoyo Torimitsu",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16001",
+      "type": "Name",
+      "_label": "Momoyo Torimitsu"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16001",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32002",
+      "type": "TimeSpan",
+      "_label": "Momoyo Torimitsu Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16001",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32003",
+      "type": "TimeSpan",
+      "_label": "Momoyo Torimitsu Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16001",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16001",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3640",
+              "type": "Event",
+              "_label": "21st National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-16-5 - 1997-14-6",
+                "begin_of_the_begin": "1997-16-5",
+                "end_of_the_end": "1997-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61383",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17095",
+              "type": "Event",
+              "_label": "Videodrome",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-22-10 - 1999-11-11",
+                "begin_of_the_begin": "1999-22-10",
+                "end_of_the_end": "1999-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61384",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

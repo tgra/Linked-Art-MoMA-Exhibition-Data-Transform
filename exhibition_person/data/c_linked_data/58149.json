@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58149",
+  "type": "Person",
+  "_label": "Anne Messner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16671",
+      "type": "Name",
+      "_label": "Anne Messner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16671",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33342",
+      "type": "TimeSpan",
+      "_label": "Anne Messner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16671",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33343",
+      "type": "TimeSpan",
+      "_label": "Anne Messner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16671",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16671",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2803",
+              "type": "Event",
+              "_label": "Timeline: The Chronicle of US Intervention in Central and Latin America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62792",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/22005",
+              "type": "Event",
+              "_label": "Ann Messner: Look-Out for Broadway",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-23-11 - 1986-19-1",
+                "begin_of_the_begin": "1985-23-11",
+                "end_of_the_end": "1986-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62793",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

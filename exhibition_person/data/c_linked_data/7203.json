@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7203",
+  "type": "Person",
+  "_label": "Helmut Swiczinsky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25189",
+      "type": "Name",
+      "_label": "Helmut Swiczinsky"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8615",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Polish, born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25189",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50378",
+      "type": "TimeSpan",
+      "_label": "Helmut Swiczinsky Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25189",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50379",
+      "type": "TimeSpan",
+      "_label": "Helmut Swiczinsky Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25189",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25189",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4308",
+              "type": "Event",
+              "_label": "Intricacy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-18-1 - 2003-6-4",
+                "begin_of_the_begin": "2003-18-1",
+                "end_of_the_end": "2003-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81189",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

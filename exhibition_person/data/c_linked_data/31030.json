@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31030",
+  "type": "Person",
+  "_label": "Kersten",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9786",
+      "type": "Name",
+      "_label": "Kersten"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9786",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19572",
+      "type": "TimeSpan",
+      "_label": "Kersten Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9786",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19573",
+      "type": "TimeSpan",
+      "_label": "Kersten Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9786",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9786",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/521",
+              "type": "Event",
+              "_label": "Three Modern Styles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-11-7 - 1950-5-9",
+                "begin_of_the_begin": "1950-11-7",
+                "end_of_the_end": "1950-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33790",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

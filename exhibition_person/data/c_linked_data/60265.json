@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60265",
+  "type": "Person",
+  "_label": "Ilja Karilampi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18946",
+      "type": "Name",
+      "_label": "Ilja Karilampi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18946",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37892",
+      "type": "TimeSpan",
+      "_label": "Ilja Karilampi Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18946",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37893",
+      "type": "TimeSpan",
+      "_label": "Ilja Karilampi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18946",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18946",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3534",
+              "type": "Event",
+              "_label": "Solo Projects by Rey Akdogan, Edgardo Aragón, Ilja Karilampi, and Caitlin Keogh",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-3-6 - 2012-17-9",
+                "begin_of_the_begin": "2012-3-6",
+                "end_of_the_end": "2012-17-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67425",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

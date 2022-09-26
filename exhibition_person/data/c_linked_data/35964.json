@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35964",
+  "type": "Person",
+  "_label": "Jan Konings",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12864",
+      "type": "Name",
+      "_label": "Jan Konings"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12864",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25728",
+      "type": "TimeSpan",
+      "_label": "Jan Konings Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12864",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25729",
+      "type": "TimeSpan",
+      "_label": "Jan Konings Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12864",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12864",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2029",
+              "type": "Event",
+              "_label": "Contemporary Design from the Netherlands",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-27-6 - 1996-5-11",
+                "begin_of_the_begin": "1996-27-6",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41700",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

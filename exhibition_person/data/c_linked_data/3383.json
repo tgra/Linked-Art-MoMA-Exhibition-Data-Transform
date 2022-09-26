@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3383",
+  "type": "Person",
+  "_label": "Jay Leyda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12232",
+      "type": "Name",
+      "_label": "Jay Leyda"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5630",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1910–1988"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12232",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24464",
+      "type": "TimeSpan",
+      "_label": "Jay Leyda Birth timespan",
+      "begin_of_the_begin": "1910",
+      "end_of_the_end": "1910"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12232",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24465",
+      "type": "TimeSpan",
+      "_label": "Jay Leyda Death timespan",
+      "begin_of_the_begin": "1988",
+      "end_of_the_end": "1988"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12232",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12232",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1693",
+              "type": "Event",
+              "_label": "Picturing \"Greatness\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-14-1 - 1988-17-4",
+                "begin_of_the_begin": "1988-14-1",
+                "end_of_the_end": "1988-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39207",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1810",
+              "type": "Event",
+              "_label": "Artist's Choice: Chuck Close, Head-On/The Modern Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-10-1 - 1991-19-3",
+                "begin_of_the_begin": "1991-10-1",
+                "end_of_the_end": "1991-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39208",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

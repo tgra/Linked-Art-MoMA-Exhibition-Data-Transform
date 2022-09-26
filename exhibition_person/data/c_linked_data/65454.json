@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65454",
+  "type": "Person",
+  "_label": "Kerri Scharlin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21714",
+      "type": "Name",
+      "_label": "Kerri Scharlin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21714",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43428",
+      "type": "TimeSpan",
+      "_label": "Kerri Scharlin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21714",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43429",
+      "type": "TimeSpan",
+      "_label": "Kerri Scharlin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21714",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21714",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21990",
+              "type": "Event",
+              "_label": "The Big Nothing or Le Presque Rien",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73601",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21988",
+              "type": "Event",
+              "_label": "The Art Mall: A Social Space",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-16-5 - 1992-28-6",
+                "begin_of_the_begin": "1992-16-5",
+                "end_of_the_end": "1992-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73602",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

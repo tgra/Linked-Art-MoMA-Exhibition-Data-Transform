@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3655",
+  "type": "Person",
+  "_label": "Antonio Martorell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13204",
+      "type": "Name",
+      "_label": "Antonio Martorell"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5983",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Puerto Rico 1939"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13204",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26408",
+      "type": "TimeSpan",
+      "_label": "Antonio Martorell Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13204",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26409",
+      "type": "TimeSpan",
+      "_label": "Antonio Martorell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13204",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13204",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7040",
+              "type": "Event",
+              "_label": "1997 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-12-3 - 1997-15-6",
+                "begin_of_the_begin": "1997-12-3",
+                "end_of_the_end": "1997-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/42647",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Galleries, 2nd Floor Film/Video Gallery, Lobby Gallery, Lower Gallery, 3rd Floor Galleries, 2nd Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

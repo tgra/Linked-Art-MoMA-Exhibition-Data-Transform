@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71710",
+  "type": "Person",
+  "_label": "John E. Dowell Jr.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25141",
+      "type": "Name",
+      "_label": "John E. Dowell Jr."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25141",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50282",
+      "type": "TimeSpan",
+      "_label": "John E. Dowell Jr. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25141",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50283",
+      "type": "TimeSpan",
+      "_label": "John E. Dowell Jr. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25141",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25141",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6755",
+              "type": "Event",
+              "_label": "1975 Biennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-20-1 - 1975-9-4",
+                "begin_of_the_begin": "1975-20-1",
+                "end_of_the_end": "1975-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81040",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

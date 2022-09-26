@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62667",
+  "type": "Person",
+  "_label": "Craig Pleasants",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20455",
+      "type": "Name",
+      "_label": "Craig Pleasants"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20455",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40910",
+      "type": "TimeSpan",
+      "_label": "Craig Pleasants Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20455",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40911",
+      "type": "TimeSpan",
+      "_label": "Craig Pleasants Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20455",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20455",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5459",
+              "type": "Event",
+              "_label": "White Room: Craig Pleasants",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-1-1 - ",
+                "begin_of_the_begin": "1987-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70716",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4954",
+              "type": "Event",
+              "_label": "Update 1987-88",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-21-5 - 1988-25-6",
+                "begin_of_the_begin": "1988-21-5",
+                "end_of_the_end": "1988-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70717",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

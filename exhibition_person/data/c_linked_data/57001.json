@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57001",
+  "type": "Person",
+  "_label": "Sandor Ajzenstat",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15439",
+      "type": "Name",
+      "_label": "Sandor Ajzenstat"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15439",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30878",
+      "type": "TimeSpan",
+      "_label": "Sandor Ajzenstat Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15439",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30879",
+      "type": "TimeSpan",
+      "_label": "Sandor Ajzenstat Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15439",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15439",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3144",
+              "type": "Event",
+              "_label": "Sound (Spring 1988): Installations by Sandor Ajzenstat and Ward Fleming",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-18-6 - 1988-3-7",
+                "begin_of_the_begin": "1988-18-6",
+                "end_of_the_end": "1988-3-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60188",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

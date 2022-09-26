@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65153",
+  "type": "Person",
+  "_label": "Jim E. Reynolds",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21584",
+      "type": "Name",
+      "_label": "Jim E. Reynolds"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21584",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43168",
+      "type": "TimeSpan",
+      "_label": "Jim E. Reynolds Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21584",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43169",
+      "type": "TimeSpan",
+      "_label": "Jim E. Reynolds Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21584",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21584",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17272",
+              "type": "Event",
+              "_label": "Events: Artists Invite Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-13-2 - 1981-5-3",
+                "begin_of_the_begin": "1981-13-2",
+                "end_of_the_end": "1981-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73309",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

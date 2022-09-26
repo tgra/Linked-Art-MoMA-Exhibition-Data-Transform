@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6813",
+  "type": "Person",
+  "_label": "Hin Bredendieck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23111",
+      "type": "Name",
+      "_label": "Hin Bredendieck"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8362",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1904–1995"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23111",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46222",
+      "type": "TimeSpan",
+      "_label": "Hin Bredendieck Birth timespan",
+      "begin_of_the_begin": "1904",
+      "end_of_the_end": "1904"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23111",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46223",
+      "type": "TimeSpan",
+      "_label": "Hin Bredendieck Death timespan",
+      "begin_of_the_begin": "1995",
+      "end_of_the_end": "1995"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23111",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23111",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/125",
+              "type": "Event",
+              "_label": "Bauhaus: 1919–1928",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-7-12 - 1939-30-1",
+                "begin_of_the_begin": "1938-7-12",
+                "end_of_the_end": "1939-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76314",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2464",
+              "type": "Event",
+              "_label": "Bauhaus 1919–1933: Workshops for Modernity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-11 - 2010-25-1",
+                "begin_of_the_begin": "2009-8-11",
+                "end_of_the_end": "2010-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76315",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

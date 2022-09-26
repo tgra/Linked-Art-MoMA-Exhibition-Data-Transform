@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58564",
+  "type": "Person",
+  "_label": "Joan Weber",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17119",
+      "type": "Name",
+      "_label": "Joan Weber"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17119",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34238",
+      "type": "TimeSpan",
+      "_label": "Joan Weber Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17119",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34239",
+      "type": "TimeSpan",
+      "_label": "Joan Weber Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17119",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17119",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3237",
+              "type": "Event",
+              "_label": "Open Studios",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-1-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63608",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

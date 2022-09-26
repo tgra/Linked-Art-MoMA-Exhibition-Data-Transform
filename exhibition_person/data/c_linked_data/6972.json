@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6972",
+  "type": "Person",
+  "_label": "Ugo La Pietra",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23890",
+      "type": "Name",
+      "_label": "Ugo La Pietra"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8447",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1938"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23890",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47780",
+      "type": "TimeSpan",
+      "_label": "Ugo La Pietra Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23890",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47781",
+      "type": "TimeSpan",
+      "_label": "Ugo La Pietra Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23890",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23890",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2437",
+              "type": "Event",
+              "_label": "Architecture and Design Rotation 2009",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-6-5 - 2009-30-11",
+                "begin_of_the_begin": "2009-6-5",
+                "end_of_the_end": "2009-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78206",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2469",
+              "type": "Event",
+              "_label": "Shaping Modernity: Design 1880–1980, Part 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-12-12 - 2012-27-2",
+                "begin_of_the_begin": "2009-12-12",
+                "end_of_the_end": "2012-27-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78207",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

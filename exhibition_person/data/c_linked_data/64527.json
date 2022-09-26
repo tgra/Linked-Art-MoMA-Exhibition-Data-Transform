@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64527",
+  "type": "Person",
+  "_label": "Elmgreen & Dragset",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21306",
+      "type": "Name",
+      "_label": "Elmgreen & Dragset"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21306",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42612",
+      "type": "TimeSpan",
+      "_label": "Elmgreen & Dragset Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21306",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42613",
+      "type": "TimeSpan",
+      "_label": "Elmgreen & Dragset Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21306",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21306",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21915",
+              "type": "Event",
+              "_label": "Living Inside the Grid",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-28-2 - 2003-15-7",
+                "begin_of_the_begin": "2003-28-2",
+                "end_of_the_end": "2003-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72805",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17035",
+              "type": "Event",
+              "_label": "After Hours: Murals on the Bowery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-7-3 - 2011-7-7",
+                "begin_of_the_begin": "2011-7-3",
+                "end_of_the_end": "2011-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72806",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

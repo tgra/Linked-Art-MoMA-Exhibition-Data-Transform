@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4690",
+  "type": "Person",
+  "_label": "Jesús Reyes Ferreira",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14106",
+      "type": "Name",
+      "_label": "Jesús Reyes Ferreira"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6791",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Mexican, 1882–1977"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14106",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28212",
+      "type": "TimeSpan",
+      "_label": "Jesús Reyes Ferreira Birth timespan",
+      "begin_of_the_begin": "1882",
+      "end_of_the_end": "1882"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14106",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28213",
+      "type": "TimeSpan",
+      "_label": "Jesús Reyes Ferreira Death timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14106",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14106",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/273",
+              "type": "Event",
+              "_label": "The Latin-American Collection of the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-31-3 - 1943-6-6",
+                "begin_of_the_begin": "1943-31-3",
+                "end_of_the_end": "1943-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/51236",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

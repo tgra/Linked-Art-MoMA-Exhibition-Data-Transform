@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5009",
+  "type": "Person",
+  "_label": "Gustav Schenk",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14378",
+      "type": "Name",
+      "_label": "Gustav Schenk"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7039",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1905–1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14378",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28756",
+      "type": "TimeSpan",
+      "_label": "Gustav Schenk Birth timespan",
+      "begin_of_the_begin": "1905",
+      "end_of_the_end": "1905"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14378",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28757",
+      "type": "TimeSpan",
+      "_label": "Gustav Schenk Death timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14378",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14378",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/668",
+              "type": "Event",
+              "_label": "Diogenes with a Camera IV",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-4-4 - 1956-3-6",
+                "begin_of_the_begin": "1956-4-4",
+                "end_of_the_end": "1956-3-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53712",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/708",
+              "type": "Event",
+              "_label": "Photographs from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-26-11 - 1959-18-1",
+                "begin_of_the_begin": "1958-26-11",
+                "end_of_the_end": "1959-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53713",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

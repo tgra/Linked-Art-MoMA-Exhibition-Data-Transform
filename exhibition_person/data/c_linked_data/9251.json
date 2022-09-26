@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9251",
+  "type": "Person",
+  "_label": "S.p.A. Carrozzeria Pininfarina, Torino, Italy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26554",
+      "type": "Name",
+      "_label": "S.p.A. Carrozzeria Pininfarina, Torino, Italy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26554",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53108",
+      "type": "TimeSpan",
+      "_label": "S.p.A. Carrozzeria Pininfarina, Torino, Italy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26554",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53109",
+      "type": "TimeSpan",
+      "_label": "S.p.A. Carrozzeria Pininfarina, Torino, Italy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26554",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26554",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1977",
+              "type": "Event",
+              "_label": "Machine Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-2 - 1995-4-4",
+                "begin_of_the_begin": "1995-15-2",
+                "end_of_the_end": "1995-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87178",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

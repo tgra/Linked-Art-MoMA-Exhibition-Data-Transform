@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63858",
+  "type": "Person",
+  "_label": "Artwiser/Artweiser",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21043",
+      "type": "Name",
+      "_label": "Artwiser/Artweiser"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21043",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42086",
+      "type": "TimeSpan",
+      "_label": "Artwiser/Artweiser Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21043",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42087",
+      "type": "TimeSpan",
+      "_label": "Artwiser/Artweiser Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21043",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21043",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17267",
+              "type": "Event",
+              "_label": "Alternatives in Retrospect: An Historical Overview 1969 – 1975",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-9-5 - 1981-16-7",
+                "begin_of_the_begin": "1981-9-5",
+                "end_of_the_end": "1981-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72355",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

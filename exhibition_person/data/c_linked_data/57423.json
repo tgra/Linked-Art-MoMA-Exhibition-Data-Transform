@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57423",
+  "type": "Person",
+  "_label": "Ingrid Roscheck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15895",
+      "type": "Name",
+      "_label": "Ingrid Roscheck"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15895",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31790",
+      "type": "TimeSpan",
+      "_label": "Ingrid Roscheck Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15895",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31791",
+      "type": "TimeSpan",
+      "_label": "Ingrid Roscheck Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15895",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15895",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3291",
+              "type": "Event",
+              "_label": "International Studio Artists Exhibition (Fall 1982): Ingrid Roschek",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61102",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3730",
+              "type": "Event",
+              "_label": "International Studio Artists Exhibition (Winter 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-12-1 - 1983-12-2",
+                "begin_of_the_begin": "1983-12-1",
+                "end_of_the_end": "1983-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61103",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

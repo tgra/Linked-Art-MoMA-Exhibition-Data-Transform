@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58358",
+  "type": "Person",
+  "_label": "Wang Du",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16896",
+      "type": "Name",
+      "_label": "Wang Du"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16896",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33792",
+      "type": "TimeSpan",
+      "_label": "Wang Du Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16896",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33793",
+      "type": "TimeSpan",
+      "_label": "Wang Du Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16896",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16896",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2895",
+              "type": "Event",
+              "_label": "Cities on the Move 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63254",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

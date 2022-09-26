@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32040",
+  "type": "Person",
+  "_label": "Janet Henrich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10873",
+      "type": "Name",
+      "_label": "Janet Henrich"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10873",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21746",
+      "type": "TimeSpan",
+      "_label": "Janet Henrich Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10873",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21747",
+      "type": "TimeSpan",
+      "_label": "Janet Henrich Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10873",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10873",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/117",
+              "type": "Event",
+              "_label": "Three Centuries of American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-24-5 - 1938-31-7",
+                "begin_of_the_begin": "1938-24-5",
+                "end_of_the_end": "1938-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35827",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/126",
+              "type": "Event",
+              "_label": "Three Centuries of American Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-15-2 - 1939-15-3",
+                "begin_of_the_begin": "1939-15-2",
+                "end_of_the_end": "1939-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35828",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

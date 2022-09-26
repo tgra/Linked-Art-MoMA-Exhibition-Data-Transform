@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57952",
+  "type": "Person",
+  "_label": "Jim Neu",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16460",
+      "type": "Name",
+      "_label": "Jim Neu"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16460",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32920",
+      "type": "TimeSpan",
+      "_label": "Jim Neu Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16460",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32921",
+      "type": "TimeSpan",
+      "_label": "Jim Neu Death timespan",
+      "begin_of_the_begin": "2010",
+      "end_of_the_end": "2010"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16460",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16460",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2994",
+              "type": "Event",
+              "_label": "Performer In Residence Program",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-9 - 1978-1-5",
+                "begin_of_the_begin": "1977-1-9",
+                "end_of_the_end": "1978-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62360",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

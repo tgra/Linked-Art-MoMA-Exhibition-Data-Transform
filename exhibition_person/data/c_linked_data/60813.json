@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60813",
+  "type": "Person",
+  "_label": "Mei-Ling Hom",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19523",
+      "type": "Name",
+      "_label": "Mei-Ling Hom"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19523",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39046",
+      "type": "TimeSpan",
+      "_label": "Mei-Ling Hom Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19523",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39047",
+      "type": "TimeSpan",
+      "_label": "Mei-Ling Hom Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19523",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19523",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68702",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4331",
+              "type": "Event",
+              "_label": "Mei-Ling Hom: Silkworm Grind",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-2-12 - 2001-9-2",
+                "begin_of_the_begin": "2000-2-12",
+                "end_of_the_end": "2001-9-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68703",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

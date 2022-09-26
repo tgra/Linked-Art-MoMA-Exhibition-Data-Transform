@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/49627",
+  "type": "Person",
+  "_label": "Nanda Vigo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14339",
+      "type": "Name",
+      "_label": "Nanda Vigo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14339",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28678",
+      "type": "TimeSpan",
+      "_label": "Nanda Vigo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14339",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28679",
+      "type": "TimeSpan",
+      "_label": "Nanda Vigo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14339",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14339",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4406",
+              "type": "Event",
+              "_label": "Group Zero",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-30-10 - 1964-11-12",
+                "begin_of_the_begin": "1964-30-10",
+                "end_of_the_end": "1964-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53506",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

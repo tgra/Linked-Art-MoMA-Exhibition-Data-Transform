@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31175",
+  "type": "Person",
+  "_label": "Paul Weidlinger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9942",
+      "type": "Name",
+      "_label": "Paul Weidlinger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9942",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19884",
+      "type": "TimeSpan",
+      "_label": "Paul Weidlinger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9942",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19885",
+      "type": "TimeSpan",
+      "_label": "Paul Weidlinger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9942",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9942",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/372",
+              "type": "Event",
+              "_label": "Architecture in Steel: An Experiment in Standarization by Konrad Wachsmann",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-5-2 - 1946-6-3",
+                "begin_of_the_begin": "1946-5-2",
+                "end_of_the_end": "1946-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34066",
+                  "type": "Place",
+                  "_label": "1st Floor, Architecture and Industrial Design Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

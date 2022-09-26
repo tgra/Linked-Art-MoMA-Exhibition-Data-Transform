@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66664",
+  "type": "Person",
+  "_label": "Sergei Mironenko",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22301",
+      "type": "Name",
+      "_label": "Sergei Mironenko"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22301",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44602",
+      "type": "TimeSpan",
+      "_label": "Sergei Mironenko Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22301",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44603",
+      "type": "TimeSpan",
+      "_label": "Sergei Mironenko Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22301",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22301",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17203",
+              "type": "Event",
+              "_label": "APT ART",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-4 - 1986-12-6",
+                "begin_of_the_begin": "1986-12-4",
+                "end_of_the_end": "1986-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74821",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5396",
+  "type": "Person",
+  "_label": "Vernon P. Steele",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14826",
+      "type": "Name",
+      "_label": "Vernon P. Steele"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7376",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14826",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29652",
+      "type": "TimeSpan",
+      "_label": "Vernon P. Steele Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14826",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29653",
+      "type": "TimeSpan",
+      "_label": "Vernon P. Steele Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14826",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14826",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/422",
+              "type": "Event",
+              "_label": "100 Useful Objects of Fine Design (available under $100)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-16-9 - 1948-25-1",
+                "begin_of_the_begin": "1947-16-9",
+                "end_of_the_end": "1948-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/57104",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2438",
+              "type": "Event",
+              "_label": "What was Good Design? MoMA's Message 1944–56",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-6-5 - 2011-11-1",
+                "begin_of_the_begin": "2009-6-5",
+                "end_of_the_end": "2011-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/57105",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7819",
+  "type": "Person",
+  "_label": "Henny Cahn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25780",
+      "type": "Name",
+      "_label": "Henny Cahn"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9023",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25780",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51560",
+      "type": "TimeSpan",
+      "_label": "Henny Cahn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25780",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51561",
+      "type": "TimeSpan",
+      "_label": "Henny Cahn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25780",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25780",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2169",
+              "type": "Event",
+              "_label": "Graphic-Photographic",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-16-3 - 2000-22-8",
+                "begin_of_the_begin": "2000-16-3",
+                "end_of_the_end": "2000-22-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84032",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

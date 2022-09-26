@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60304",
+  "type": "Person",
+  "_label": "Terry Richardson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18990",
+      "type": "Name",
+      "_label": "Terry Richardson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18990",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37980",
+      "type": "TimeSpan",
+      "_label": "Terry Richardson Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18990",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37981",
+      "type": "TimeSpan",
+      "_label": "Terry Richardson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18990",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18990",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2855",
+              "type": "Event",
+              "_label": "Terry Richardson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-22-6 - 2007-25-9",
+                "begin_of_the_begin": "2007-22-6",
+                "end_of_the_end": "2007-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67488",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

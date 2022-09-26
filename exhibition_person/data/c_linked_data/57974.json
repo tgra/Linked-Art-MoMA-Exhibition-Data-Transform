@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57974",
+  "type": "Person",
+  "_label": "Richard Kriesche",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16483",
+      "type": "Name",
+      "_label": "Richard Kriesche"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16483",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32966",
+      "type": "TimeSpan",
+      "_label": "Richard Kriesche Birth timespan",
+      "begin_of_the_begin": "1940",
+      "end_of_the_end": "1940"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16483",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32967",
+      "type": "TimeSpan",
+      "_label": "Richard Kriesche Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16483",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16483",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3022",
+              "type": "Event",
+              "_label": "Video (Fall 1978): Richard Kriesche",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-10 - 1978-19-11",
+                "begin_of_the_begin": "1978-1-10",
+                "end_of_the_end": "1978-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62390",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

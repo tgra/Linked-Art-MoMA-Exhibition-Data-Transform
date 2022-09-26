@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57275",
+  "type": "Person",
+  "_label": "Edith Gwathmey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15736",
+      "type": "Name",
+      "_label": "Edith Gwathmey"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15736",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31472",
+      "type": "TimeSpan",
+      "_label": "Edith Gwathmey Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15736",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31473",
+      "type": "TimeSpan",
+      "_label": "Edith Gwathmey Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15736",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15736",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2993",
+              "type": "Event",
+              "_label": "A Painting Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-2-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-2-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60825",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2982",
+              "type": "Event",
+              "_label": "Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-7-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-7-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60826",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

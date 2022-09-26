@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/834",
+  "type": "Person",
+  "_label": "Pablo Burchard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26101",
+      "type": "Name",
+      "_label": "Pablo Burchard"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9313",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Chilean"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26101",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52202",
+      "type": "TimeSpan",
+      "_label": "Pablo Burchard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26101",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52203",
+      "type": "TimeSpan",
+      "_label": "Pablo Burchard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26101",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26101",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/273",
+              "type": "Event",
+              "_label": "The Latin-American Collection of the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-31-3 - 1943-6-6",
+                "begin_of_the_begin": "1943-31-3",
+                "end_of_the_end": "1943-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85131",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/551",
+              "type": "Event",
+              "_label": "Some American Prints, 1949–50, from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-3-7 - 1951-13-9",
+                "begin_of_the_begin": "1951-3-7",
+                "end_of_the_end": "1951-13-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85132",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

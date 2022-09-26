@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63490",
+  "type": "Person",
+  "_label": "Ernest Marciano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20875",
+      "type": "Name",
+      "_label": "Ernest Marciano"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20875",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41750",
+      "type": "TimeSpan",
+      "_label": "Ernest Marciano Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20875",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41751",
+      "type": "TimeSpan",
+      "_label": "Ernest Marciano Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20875",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20875",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7336",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-11-10 - 1963-10-11",
+                "begin_of_the_begin": "1963-11-10",
+                "end_of_the_end": "1963-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71953",
+                  "type": "Place",
+                  "_label": "St. Mark's Church-in-the-Boewry, 106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

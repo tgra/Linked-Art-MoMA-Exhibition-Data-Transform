@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31826",
+  "type": "Person",
+  "_label": "Douglas Kirkland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10642",
+      "type": "Name",
+      "_label": "Douglas Kirkland"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10642",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21284",
+      "type": "TimeSpan",
+      "_label": "Douglas Kirkland Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10642",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21285",
+      "type": "TimeSpan",
+      "_label": "Douglas Kirkland Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10642",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10642",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/846",
+              "type": "Event",
+              "_label": "The Photo Essay",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-16-3 - 1965-16-5",
+                "begin_of_the_begin": "1965-16-3",
+                "end_of_the_end": "1965-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35385",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

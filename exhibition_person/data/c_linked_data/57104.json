@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57104",
+  "type": "Person",
+  "_label": "Ludger Gerdes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15551",
+      "type": "Name",
+      "_label": "Ludger Gerdes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15551",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31102",
+      "type": "TimeSpan",
+      "_label": "Ludger Gerdes Birth timespan",
+      "begin_of_the_begin": "1954",
+      "end_of_the_end": "1954"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15551",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31103",
+      "type": "TimeSpan",
+      "_label": "Ludger Gerdes Death timespan",
+      "begin_of_the_begin": "2008",
+      "end_of_the_end": "2008"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15551",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15551",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3092",
+              "type": "Event",
+              "_label": "Theatergarden Bestiarium",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-15-1 - 1989-12-3",
+                "begin_of_the_begin": "1989-15-1",
+                "end_of_the_end": "1989-12-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60436",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

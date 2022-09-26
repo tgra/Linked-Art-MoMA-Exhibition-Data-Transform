@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65431",
+  "type": "Person",
+  "_label": "Keith Obadike",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21704",
+      "type": "Name",
+      "_label": "Keith Obadike"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21704",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43408",
+      "type": "TimeSpan",
+      "_label": "Keith Obadike Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21704",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43409",
+      "type": "TimeSpan",
+      "_label": "Keith Obadike Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21704",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21704",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17069",
+              "type": "Event",
+              "_label": "Transmission II: Airborne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-9-4 - 2005-4-6",
+                "begin_of_the_begin": "2005-9-4",
+                "end_of_the_end": "2005-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73586",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17058",
+              "type": "Event",
+              "_label": "The Sound of Things: Unmonumental Audio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-13-2 - 2008-30-3",
+                "begin_of_the_begin": "2008-13-2",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73587",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32097",
+  "type": "Person",
+  "_label": "Aristide Rouseaud",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10935",
+      "type": "Name",
+      "_label": "Aristide Rouseaud"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10935",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21870",
+      "type": "TimeSpan",
+      "_label": "Aristide Rouseaud Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10935",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21871",
+      "type": "TimeSpan",
+      "_label": "Aristide Rouseaud Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10935",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10935",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1002",
+              "type": "Event",
+              "_label": "Twentieth-Century Art from the Nelson Aldrich Rockefeller Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-28-5 - 1969-1-9",
+                "begin_of_the_begin": "1969-28-5",
+                "end_of_the_end": "1969-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35934",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

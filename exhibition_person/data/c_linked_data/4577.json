@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4577",
+  "type": "Person",
+  "_label": "Gertrude Quastler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14012",
+      "type": "Name",
+      "_label": "Gertrude Quastler"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6707",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14012",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28024",
+      "type": "TimeSpan",
+      "_label": "Gertrude Quastler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14012",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28025",
+      "type": "TimeSpan",
+      "_label": "Gertrude Quastler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14012",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14012",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/588",
+              "type": "Event",
+              "_label": "Recent American Woodcuts and Prints by Marin, Hopper and Weber",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-9-9 - 1952-16-11",
+                "begin_of_the_begin": "1952-9-9",
+                "end_of_the_end": "1952-16-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50356",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/634",
+              "type": "Event",
+              "_label": "American Prints of the 20th Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-8-9 - 1954-28-11",
+                "begin_of_the_begin": "1954-8-9",
+                "end_of_the_end": "1954-28-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50357",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

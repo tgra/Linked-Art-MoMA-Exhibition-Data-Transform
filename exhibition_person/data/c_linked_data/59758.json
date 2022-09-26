@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59758",
+  "type": "Person",
+  "_label": "S.E.M. Ensemble",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18401",
+      "type": "Name",
+      "_label": "S.E.M. Ensemble"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18401",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36802",
+      "type": "TimeSpan",
+      "_label": "S.E.M. Ensemble Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18401",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36803",
+      "type": "TimeSpan",
+      "_label": "S.E.M. Ensemble Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18401",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18401",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3766",
+              "type": "Event",
+              "_label": "S.E.M. Ensemble Performing Music by Peter Kotik",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-28-1 - 1978-28-1",
+                "begin_of_the_begin": "1978-28-1",
+                "end_of_the_end": "1978-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66284",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18524",
+              "type": "Event",
+              "_label": "S.E.M. Festival at The Ki…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-13-3 - ",
+                "begin_of_the_begin": "1975-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66285",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

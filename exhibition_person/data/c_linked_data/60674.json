@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60674",
+  "type": "Person",
+  "_label": "Isaiah Zagar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19376",
+      "type": "Name",
+      "_label": "Isaiah Zagar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19376",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38752",
+      "type": "TimeSpan",
+      "_label": "Isaiah Zagar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19376",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38753",
+      "type": "TimeSpan",
+      "_label": "Isaiah Zagar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19376",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19376",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4138",
+              "type": "Event",
+              "_label": "Projects: Made in Philadelphia 4",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-5-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-5-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68457",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68458",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

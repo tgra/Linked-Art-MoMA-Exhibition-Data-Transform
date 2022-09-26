@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71457",
+  "type": "Person",
+  "_label": "Leon Zouté",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24871",
+      "type": "Name",
+      "_label": "Leon Zouté"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24871",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49742",
+      "type": "TimeSpan",
+      "_label": "Leon Zouté Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24871",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49743",
+      "type": "TimeSpan",
+      "_label": "Leon Zouté Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24871",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24871",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6386",
+              "type": "Event",
+              "_label": "1947 Annual Exhibition of Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-6-12 - 1948-25-1",
+                "begin_of_the_begin": "1947-6-12",
+                "end_of_the_end": "1948-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80505",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

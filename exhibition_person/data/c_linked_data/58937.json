@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58937",
+  "type": "Person",
+  "_label": "Chen Chih-Cheng",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17520",
+      "type": "Name",
+      "_label": "Chen Chih-Cheng"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17520",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35040",
+      "type": "TimeSpan",
+      "_label": "Chen Chih-Cheng Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17520",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35041",
+      "type": "TimeSpan",
+      "_label": "Chen Chih-Cheng Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17520",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17520",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2911",
+              "type": "Event",
+              "_label": "Heaven: Public View, Private View",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64379",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

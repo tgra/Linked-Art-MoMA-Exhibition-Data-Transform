@@ -1,0 +1,94 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73602",
+  "type": "Person",
+  "_label": "Richard  Ahr",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25366",
+      "type": "Name",
+      "_label": "Richard  Ahr"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25366",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50732",
+      "type": "TimeSpan",
+      "_label": "Richard  Ahr Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25366",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50733",
+      "type": "TimeSpan",
+      "_label": "Richard  Ahr Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25366",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25366",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54783",
+              "type": "Event",
+              "_label": "[Penthouse Exhibition]",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-1-2 - ",
+                "begin_of_the_begin": "1959-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81796",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/54784",
+              "type": "Event",
+              "_label": "[Penthouse Exhibition]",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-10-2 - ",
+                "begin_of_the_begin": "1961-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81797",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

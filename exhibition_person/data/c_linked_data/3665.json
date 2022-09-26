@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3665",
+  "type": "Person",
+  "_label": "John Massey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13213",
+      "type": "Name",
+      "_label": "John Massey"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5991",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1931"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13213",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26426",
+      "type": "TimeSpan",
+      "_label": "John Massey Birth timespan",
+      "begin_of_the_begin": "1931",
+      "end_of_the_end": "1931"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13213",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26427",
+      "type": "TimeSpan",
+      "_label": "John Massey Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13213",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13213",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3141",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-27-4 - 1980-15-6",
+                "begin_of_the_begin": "1980-27-4",
+                "end_of_the_end": "1980-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/42693",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

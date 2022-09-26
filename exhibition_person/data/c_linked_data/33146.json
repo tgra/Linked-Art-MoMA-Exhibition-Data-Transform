@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33146",
+  "type": "Person",
+  "_label": "Tom Kovachevich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12056",
+      "type": "Name",
+      "_label": "Tom Kovachevich"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12056",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24112",
+      "type": "TimeSpan",
+      "_label": "Tom Kovachevich Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12056",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24113",
+      "type": "TimeSpan",
+      "_label": "Tom Kovachevich Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12056",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12056",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1077",
+              "type": "Event",
+              "_label": "Untitled I",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-9-3 - 1971-15-5",
+                "begin_of_the_begin": "1971-9-3",
+                "end_of_the_end": "1971-15-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38400",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

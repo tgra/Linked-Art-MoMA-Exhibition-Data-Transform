@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32271",
+  "type": "Person",
+  "_label": "Giovanni Segantini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11123",
+      "type": "Name",
+      "_label": "Giovanni Segantini"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5382",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1858"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11123",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22246",
+      "type": "TimeSpan",
+      "_label": "Giovanni Segantini Birth timespan",
+      "begin_of_the_begin": "1858",
+      "end_of_the_end": "1858"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11123",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22247",
+      "type": "TimeSpan",
+      "_label": "Giovanni Segantini Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11123",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11123",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1169",
+              "type": "Event",
+              "_label": "Drawings from the Kröller-Müller National Museum, Otterlo",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-24-5 - 1973-19-8",
+                "begin_of_the_begin": "1973-24-5",
+                "end_of_the_end": "1973-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36221",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

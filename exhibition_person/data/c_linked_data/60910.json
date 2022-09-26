@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60910",
+  "type": "Person",
+  "_label": "Handspring Puppet Company",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19629",
+      "type": "Name",
+      "_label": "Handspring Puppet Company"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19629",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39258",
+      "type": "TimeSpan",
+      "_label": "Handspring Puppet Company Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19629",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39259",
+      "type": "TimeSpan",
+      "_label": "Handspring Puppet Company Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19629",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19629",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4065",
+              "type": "Event",
+              "_label": "The Puppet Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-18-1 - 2008-30-3",
+                "begin_of_the_begin": "2008-18-1",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68866",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

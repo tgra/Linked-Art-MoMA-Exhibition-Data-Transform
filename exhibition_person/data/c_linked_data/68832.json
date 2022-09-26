@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68832",
+  "type": "Person",
+  "_label": "Barbara Haskell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23347",
+      "type": "Name",
+      "_label": "Barbara Haskell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23347",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46694",
+      "type": "TimeSpan",
+      "_label": "Barbara Haskell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23347",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46695",
+      "type": "TimeSpan",
+      "_label": "Barbara Haskell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23347",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23347",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7069",
+              "type": "Event",
+              "_label": "The American Century: Art & Culture 1900-2000, Part I, 1900-1950 ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-23-4 - 1999-22-8",
+                "begin_of_the_begin": "1999-23-4",
+                "end_of_the_end": "1999-22-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76739",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - All Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

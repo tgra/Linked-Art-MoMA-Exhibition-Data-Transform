@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59584",
+  "type": "Person",
+  "_label": "Leni Andrade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18217",
+      "type": "Name",
+      "_label": "Leni Andrade"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18217",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36434",
+      "type": "TimeSpan",
+      "_label": "Leni Andrade Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18217",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36435",
+      "type": "TimeSpan",
+      "_label": "Leni Andrade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18217",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18217",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3836",
+              "type": "Event",
+              "_label": "Brazil Projects: Music Concerts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-11-5 - 1988-14-5",
+                "begin_of_the_begin": "1988-11-5",
+                "end_of_the_end": "1988-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65735",
+                  "type": "Place",
+                  "_label": "The Town Hall, 123 West 43rd St., New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

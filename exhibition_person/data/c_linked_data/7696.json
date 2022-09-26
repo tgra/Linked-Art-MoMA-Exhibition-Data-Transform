@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7696",
+  "type": "Person",
+  "_label": "Osamu Shiihara",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25700",
+      "type": "Name",
+      "_label": "Osamu Shiihara"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8944",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, 1905–1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25700",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51400",
+      "type": "TimeSpan",
+      "_label": "Osamu Shiihara Birth timespan",
+      "begin_of_the_begin": "1905",
+      "end_of_the_end": "1905"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25700",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51401",
+      "type": "TimeSpan",
+      "_label": "Osamu Shiihara Death timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25700",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25700",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2178",
+              "type": "Event",
+              "_label": "Anatomically Incorrect",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-4 - 2000-26-9",
+                "begin_of_the_begin": "2000-30-4",
+                "end_of_the_end": "2000-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/83673",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2455",
+              "type": "Event",
+              "_label": "Photography Collection: Rotation 6",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-7-8 - 2010-22-3",
+                "begin_of_the_begin": "2009-7-8",
+                "end_of_the_end": "2010-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/83674",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

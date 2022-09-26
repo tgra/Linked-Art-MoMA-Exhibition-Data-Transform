@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60682",
+  "type": "Person",
+  "_label": "Elliot Kaufman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19384",
+      "type": "Name",
+      "_label": "Elliot Kaufman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19384",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38768",
+      "type": "TimeSpan",
+      "_label": "Elliot Kaufman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19384",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38769",
+      "type": "TimeSpan",
+      "_label": "Elliot Kaufman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19384",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19384",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4135",
+              "type": "Event",
+              "_label": "Street Sights 2",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-4 - 1981-10-5",
+                "begin_of_the_begin": "1981-15-4",
+                "end_of_the_end": "1981-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68469",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

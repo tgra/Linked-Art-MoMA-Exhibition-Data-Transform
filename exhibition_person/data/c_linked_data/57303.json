@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57303",
+  "type": "Person",
+  "_label": "Church of the Subgenius",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15765",
+      "type": "Name",
+      "_label": "Church of the Subgenius"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15765",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31530",
+      "type": "TimeSpan",
+      "_label": "Church of the Subgenius Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15765",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31531",
+      "type": "TimeSpan",
+      "_label": "Church of the Subgenius Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15765",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15765",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2798",
+              "type": "Event",
+              "_label": "Performance (Spring 1982): Performance Rites: the Word, the Flesh, the Fracas, and the Light",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-11-4 - 1982-2-5",
+                "begin_of_the_begin": "1982-11-4",
+                "end_of_the_end": "1982-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60882",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

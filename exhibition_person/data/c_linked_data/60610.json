@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60610",
+  "type": "Person",
+  "_label": "Laura Jones",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19312",
+      "type": "Name",
+      "_label": "Laura Jones"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19312",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38624",
+      "type": "TimeSpan",
+      "_label": "Laura Jones Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19312",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38625",
+      "type": "TimeSpan",
+      "_label": "Laura Jones Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19312",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19312",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4422",
+              "type": "Event",
+              "_label": "Paintings by Asher, De Groot, Isquith, Jones, Kanovitz, Ortman, Park, Resnick",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-17-3 - 1953-7-4",
+                "begin_of_the_begin": "1953-17-3",
+                "end_of_the_end": "1953-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68311",
+                  "type": "Place",
+                  "_label": "51 East 4th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

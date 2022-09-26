@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65243",
+  "type": "Person",
+  "_label": "John Pitts",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21625",
+      "type": "Name",
+      "_label": "John Pitts"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21625",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43250",
+      "type": "TimeSpan",
+      "_label": "John Pitts Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21625",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43251",
+      "type": "TimeSpan",
+      "_label": "John Pitts Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21625",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21625",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17128",
+              "type": "Event",
+              "_label": "In Transit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73419",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21961",
+              "type": "Event",
+              "_label": "Urban Encounters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-16-7 - 1998-20-9",
+                "begin_of_the_begin": "1998-16-7",
+                "end_of_the_end": "1998-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73420",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

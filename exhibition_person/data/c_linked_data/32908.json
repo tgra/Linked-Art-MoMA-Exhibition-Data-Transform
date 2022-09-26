@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32908",
+  "type": "Person",
+  "_label": "Communications Update",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11804",
+      "type": "Name",
+      "_label": "Communications Update"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11804",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23608",
+      "type": "TimeSpan",
+      "_label": "Communications Update Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11804",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23609",
+      "type": "TimeSpan",
+      "_label": "Communications Update Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11804",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11804",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1555",
+              "type": "Event",
+              "_label": "Video Art: A History",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-3-10 - 1984-3-1",
+                "begin_of_the_begin": "1983-3-10",
+                "end_of_the_end": "1984-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37751",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

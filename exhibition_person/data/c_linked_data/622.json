@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/622",
+  "type": "Person",
+  "_label": "Michael Bolus",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20258",
+      "type": "Name",
+      "_label": "Michael Bolus"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8015",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1934"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20258",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40516",
+      "type": "TimeSpan",
+      "_label": "Michael Bolus Birth timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20258",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40517",
+      "type": "TimeSpan",
+      "_label": "Michael Bolus Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20258",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20258",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1061",
+              "type": "Event",
+              "_label": "Salvation Army Reception Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-5-11 - ",
+                "begin_of_the_begin": "1970-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70277",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1430",
+              "type": "Event",
+              "_label": "Contemporary Sculpture: Selections from the Collection of The Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-18-5 - 1979-7-8",
+                "begin_of_the_begin": "1979-18-5",
+                "end_of_the_end": "1979-7-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70278",
+                  "type": "Place",
+                  "_label": "Sculpture Garden and 1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

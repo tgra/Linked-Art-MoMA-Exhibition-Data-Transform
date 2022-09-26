@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66295",
+  "type": "Person",
+  "_label": "Paulo Nazareth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22109",
+      "type": "Name",
+      "_label": "Paulo Nazareth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22109",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44218",
+      "type": "TimeSpan",
+      "_label": "Paulo Nazareth Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22109",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44219",
+      "type": "TimeSpan",
+      "_label": "Paulo Nazareth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22109",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22109",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17015",
+              "type": "Event",
+              "_label": "Museum as Hub: Walking Drifting Dragging",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-9-1 - 2013-3-2",
+                "begin_of_the_begin": "2013-9-1",
+                "end_of_the_end": "2013-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74433",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

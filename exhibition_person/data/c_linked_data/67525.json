@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67525",
+  "type": "Person",
+  "_label": "Annette Michelson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22884",
+      "type": "Name",
+      "_label": "Annette Michelson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22884",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45768",
+      "type": "TimeSpan",
+      "_label": "Annette Michelson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22884",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45769",
+      "type": "TimeSpan",
+      "_label": "Annette Michelson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22884",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22884",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18583",
+              "type": "Event",
+              "_label": "Television Society Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-24-10 - ",
+                "begin_of_the_begin": "1980-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75831",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

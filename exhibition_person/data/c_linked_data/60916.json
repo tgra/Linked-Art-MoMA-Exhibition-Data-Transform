@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60916",
+  "type": "Person",
+  "_label": "R. Sikoryak",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19635",
+      "type": "Name",
+      "_label": "R. Sikoryak"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19635",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39270",
+      "type": "TimeSpan",
+      "_label": "R. Sikoryak Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19635",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39271",
+      "type": "TimeSpan",
+      "_label": "R. Sikoryak Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19635",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19635",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4060",
+              "type": "Event",
+              "_label": "Mike's World: Michael Smith & Joshua White (and other collaborators)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-25-4 - 2008-3-8",
+                "begin_of_the_begin": "2008-25-4",
+                "end_of_the_end": "2008-3-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68884",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

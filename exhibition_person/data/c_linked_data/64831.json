@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64831",
+  "type": "Person",
+  "_label": "Hanne Mugaas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21441",
+      "type": "Name",
+      "_label": "Hanne Mugaas"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21441",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42882",
+      "type": "TimeSpan",
+      "_label": "Hanne Mugaas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21441",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42883",
+      "type": "TimeSpan",
+      "_label": "Hanne Mugaas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21441",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21441",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17039",
+              "type": "Event",
+              "_label": "Free",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-20-10 - 2011-23-1",
+                "begin_of_the_begin": "2010-20-10",
+                "end_of_the_end": "2011-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73018",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

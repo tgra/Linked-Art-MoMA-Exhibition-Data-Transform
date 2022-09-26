@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70096",
+  "type": "Person",
+  "_label": "Helm Robert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24112",
+      "type": "Name",
+      "_label": "Helm Robert"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24112",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48224",
+      "type": "TimeSpan",
+      "_label": "Helm Robert Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24112",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48225",
+      "type": "TimeSpan",
+      "_label": "Helm Robert Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24112",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24112",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6937",
+              "type": "Event",
+              "_label": "1987 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-31-3 - 1987-28-6",
+                "begin_of_the_begin": "1987-31-3",
+                "end_of_the_end": "1987-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78557",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Gallery, Film/Video Gallery, 4th Floor Gallery, Lobby Gallery, Lower Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

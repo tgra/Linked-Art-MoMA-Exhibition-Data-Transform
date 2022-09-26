@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29503",
+  "type": "Person",
+  "_label": "Ken Wittenberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8143",
+      "type": "Name",
+      "_label": "Ken Wittenberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8143",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16286",
+      "type": "TimeSpan",
+      "_label": "Ken Wittenberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8143",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16287",
+      "type": "TimeSpan",
+      "_label": "Ken Wittenberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8143",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8143",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3301",
+              "type": "Event",
+              "_label": "Out of the Studio: Photography and Community",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-25-1 - 1987-22-3",
+                "begin_of_the_begin": "1987-25-1",
+                "end_of_the_end": "1987-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30371",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/601",
+              "type": "Event",
+              "_label": "Always the Young Strangers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-26-2 - 1953-1-4",
+                "begin_of_the_begin": "1953-26-2",
+                "end_of_the_end": "1953-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30372",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

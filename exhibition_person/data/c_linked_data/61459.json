@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61459",
+  "type": "Person",
+  "_label": "Janet Cohen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19975",
+      "type": "Name",
+      "_label": "Janet Cohen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19975",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39950",
+      "type": "TimeSpan",
+      "_label": "Janet Cohen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19975",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39951",
+      "type": "TimeSpan",
+      "_label": "Janet Cohen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19975",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19975",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4634",
+              "type": "Event",
+              "_label": "Hang Time",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-25-6 - 1998-1-8",
+                "begin_of_the_begin": "1998-25-6",
+                "end_of_the_end": "1998-1-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69616",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58828",
+  "type": "Person",
+  "_label": "Margarita Quesada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17405",
+      "type": "Name",
+      "_label": "Margarita Quesada"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17405",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34810",
+      "type": "TimeSpan",
+      "_label": "Margarita Quesada Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17405",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34811",
+      "type": "TimeSpan",
+      "_label": "Margarita Quesada Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17405",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17405",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3794",
+              "type": "Event",
+              "_label": "Contemporary Costa Rica",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-6 - 1985-14-7",
+                "begin_of_the_begin": "1985-13-6",
+                "end_of_the_end": "1985-14-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64131",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

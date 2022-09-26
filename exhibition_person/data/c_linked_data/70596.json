@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/70596",
+  "type": "Person",
+  "_label": "Tony Lewis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24380",
+      "type": "Name",
+      "_label": "Tony Lewis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24380",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48760",
+      "type": "TimeSpan",
+      "_label": "Tony Lewis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24380",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48761",
+      "type": "TimeSpan",
+      "_label": "Tony Lewis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24380",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24380",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28416",
+              "type": "Event",
+              "_label": "Whitney Biennial 2014",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-7-3 - 2014-25-3",
+                "begin_of_the_begin": "2014-7-3",
+                "end_of_the_end": "2014-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78939",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

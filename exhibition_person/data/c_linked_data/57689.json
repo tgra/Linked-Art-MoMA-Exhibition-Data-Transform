@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57689",
+  "type": "Person",
+  "_label": "Joel DeMott",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16179",
+      "type": "Name",
+      "_label": "Joel DeMott"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16179",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32358",
+      "type": "TimeSpan",
+      "_label": "Joel DeMott Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16179",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32359",
+      "type": "TimeSpan",
+      "_label": "Joel DeMott Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16179",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16179",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3006",
+              "type": "Event",
+              "_label": "Film (Fall 1985)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-26-10 - 1985-24-11",
+                "begin_of_the_begin": "1985-26-10",
+                "end_of_the_end": "1985-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61809",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

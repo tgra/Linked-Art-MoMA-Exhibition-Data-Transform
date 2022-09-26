@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64939",
+  "type": "Person",
+  "_label": "ink",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21493",
+      "type": "Name",
+      "_label": "ink"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21493",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42986",
+      "type": "TimeSpan",
+      "_label": "ink Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21493",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42987",
+      "type": "TimeSpan",
+      "_label": "ink Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21493",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21493",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17035",
+              "type": "Event",
+              "_label": "After Hours: Murals on the Bowery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-7-3 - 2011-7-7",
+                "begin_of_the_begin": "2011-7-3",
+                "end_of_the_end": "2011-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73089",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

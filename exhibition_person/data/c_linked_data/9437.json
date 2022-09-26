@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9437",
+  "type": "Person",
+  "_label": "Reinecke",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26622",
+      "type": "Name",
+      "_label": "Reinecke"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26622",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53244",
+      "type": "TimeSpan",
+      "_label": "Reinecke Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26622",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53245",
+      "type": "TimeSpan",
+      "_label": "Reinecke Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26622",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26622",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/532",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-11 - 1951-28-1",
+                "begin_of_the_begin": "1950-21-11",
+                "end_of_the_end": "1951-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87368",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

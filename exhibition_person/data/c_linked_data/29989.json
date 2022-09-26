@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29989",
+  "type": "Person",
+  "_label": "Plus Studio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8663",
+      "type": "Name",
+      "_label": "Plus Studio"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17326",
+      "type": "TimeSpan",
+      "_label": "Plus Studio Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17327",
+      "type": "TimeSpan",
+      "_label": "Plus Studio Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/563",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-11 - 1952-27-1",
+                "begin_of_the_begin": "1951-27-11",
+                "end_of_the_end": "1952-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31440",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/638",
+              "type": "Event",
+              "_label": "Good Design: 5th Anniversary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-8-2 - 1955-20-3",
+                "begin_of_the_begin": "1955-8-2",
+                "end_of_the_end": "1955-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31441",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

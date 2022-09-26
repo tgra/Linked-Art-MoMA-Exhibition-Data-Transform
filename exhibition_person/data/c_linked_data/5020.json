@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5020",
+  "type": "Person",
+  "_label": "Edwin Schlossberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14391",
+      "type": "Name",
+      "_label": "Edwin Schlossberg"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7048",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1945"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14391",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28782",
+      "type": "TimeSpan",
+      "_label": "Edwin Schlossberg Birth timespan",
+      "begin_of_the_begin": "1945",
+      "end_of_the_end": "1945"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14391",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28783",
+      "type": "TimeSpan",
+      "_label": "Edwin Schlossberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14391",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14391",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1201",
+              "type": "Event",
+              "_label": "Printed, Cut, Folded, and Torn",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-10-5 - 1974-11-8",
+                "begin_of_the_begin": "1974-10-5",
+                "end_of_the_end": "1974-11-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53843",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1516",
+              "type": "Event",
+              "_label": "For 25 Years: Prints from ULAE",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-6 - 1982-14-10",
+                "begin_of_the_begin": "1982-17-6",
+                "end_of_the_end": "1982-14-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53844",
+                  "type": "Place",
+                  "_label": "1st Floor Foyer, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32198",
+  "type": "Person",
+  "_label": "Edward B. Rowan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11043",
+      "type": "Name",
+      "_label": "Edward B. Rowan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11043",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22086",
+      "type": "TimeSpan",
+      "_label": "Edward B. Rowan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11043",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22087",
+      "type": "TimeSpan",
+      "_label": "Edward B. Rowan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11043",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11043",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/223",
+              "type": "Event",
+              "_label": "Art in War: OEM Purchases from a National Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-13-3 - 1942-25-3",
+                "begin_of_the_begin": "1942-13-3",
+                "end_of_the_end": "1942-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36088",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

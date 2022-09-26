@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59820",
+  "type": "Person",
+  "_label": "Bob Bingham",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18470",
+      "type": "Name",
+      "_label": "Bob Bingham"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18470",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36940",
+      "type": "TimeSpan",
+      "_label": "Bob Bingham Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18470",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36941",
+      "type": "TimeSpan",
+      "_label": "Bob Bingham Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18470",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18470",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3721",
+              "type": "Event",
+              "_label": "Model Home",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-8-2 - 1996-31-3",
+                "begin_of_the_begin": "1996-8-2",
+                "end_of_the_end": "1996-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66410",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57113",
+  "type": "Person",
+  "_label": "Don Gummer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15560",
+      "type": "Name",
+      "_label": "Don Gummer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15560",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31120",
+      "type": "TimeSpan",
+      "_label": "Don Gummer Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15560",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31121",
+      "type": "TimeSpan",
+      "_label": "Don Gummer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15560",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15560",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3664",
+              "type": "Event",
+              "_label": "James Biederman, Don Gummer, Nigel Hall, Mel Kendrick, Avital Oz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-27-5 - 1981-20-6",
+                "begin_of_the_begin": "1981-27-5",
+                "end_of_the_end": "1981-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60462",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

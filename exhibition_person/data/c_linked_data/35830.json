@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35830",
+  "type": "Person",
+  "_label": "Agostino Bonalumi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12725",
+      "type": "Name",
+      "_label": "Agostino Bonalumi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12725",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25450",
+      "type": "TimeSpan",
+      "_label": "Agostino Bonalumi Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12725",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25451",
+      "type": "TimeSpan",
+      "_label": "Agostino Bonalumi Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12725",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12725",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1883",
+              "type": "Event",
+              "_label": "The Artist and the Book in Twentieth Century Italy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-13-10 - 1993-16-2",
+                "begin_of_the_begin": "1992-13-10",
+                "end_of_the_end": "1993-16-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41395",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62731",
+  "type": "Person",
+  "_label": "Michael Rees",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20479",
+      "type": "Name",
+      "_label": "Michael Rees"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20479",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40958",
+      "type": "TimeSpan",
+      "_label": "Michael Rees Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20479",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40959",
+      "type": "TimeSpan",
+      "_label": "Michael Rees Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20479",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20479",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7008",
+              "type": "Event",
+              "_label": "1995 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-3 - 1995-11-6",
+                "begin_of_the_begin": "1995-15-3",
+                "end_of_the_end": "1995-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70783",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Galleries, 3rd Floor Galleries, 2nd Floor Galleries, Lobby Gallery, Lower Gallery, 2nd Floor Film/Video Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

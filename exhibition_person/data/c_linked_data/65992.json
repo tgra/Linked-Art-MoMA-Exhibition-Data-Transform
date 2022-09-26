@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65992",
+  "type": "Person",
+  "_label": "Miguel Gutierrez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21977",
+      "type": "Name",
+      "_label": "Miguel Gutierrez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21977",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43954",
+      "type": "TimeSpan",
+      "_label": "Miguel Gutierrez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21977",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43955",
+      "type": "TimeSpan",
+      "_label": "Miguel Gutierrez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21977",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21977",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18528",
+              "type": "Event",
+              "_label": "Scaffold Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-30-10 - ",
+                "begin_of_the_begin": "2015-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74182",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28416",
+              "type": "Event",
+              "_label": "Whitney Biennial 2014",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-7-3 - 2014-25-3",
+                "begin_of_the_begin": "2014-7-3",
+                "end_of_the_end": "2014-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74183",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

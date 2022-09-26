@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65323",
+  "type": "Person",
+  "_label": "Judith Daniel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21659",
+      "type": "Name",
+      "_label": "Judith Daniel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21659",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43318",
+      "type": "TimeSpan",
+      "_label": "Judith Daniel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21659",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43319",
+      "type": "TimeSpan",
+      "_label": "Judith Daniel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21659",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21659",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17131",
+              "type": "Event",
+              "_label": "The Spatial Drive: Security and Admissions Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73472",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

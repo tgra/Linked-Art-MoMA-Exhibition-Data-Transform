@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63950",
+  "type": "Person",
+  "_label": "Beverly Naidus",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21086",
+      "type": "Name",
+      "_label": "Beverly Naidus"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21086",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42172",
+      "type": "TimeSpan",
+      "_label": "Beverly Naidus Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21086",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42173",
+      "type": "TimeSpan",
+      "_label": "Beverly Naidus Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21086",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21086",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17241",
+              "type": "Event",
+              "_label": "The End of the World: Contemporary Visions of the Apocalypse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-12 - 1984-22-1",
+                "begin_of_the_begin": "1983-10-12",
+                "end_of_the_end": "1984-22-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72412",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

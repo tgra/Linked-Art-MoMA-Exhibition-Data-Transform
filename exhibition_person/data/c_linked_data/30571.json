@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30571",
+  "type": "Person",
+  "_label": "Stanislav Duda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9290",
+      "type": "Name",
+      "_label": "Stanislav Duda"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9290",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18580",
+      "type": "TimeSpan",
+      "_label": "Stanislav Duda Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9290",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18581",
+      "type": "TimeSpan",
+      "_label": "Stanislav Duda Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9290",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9290",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/493",
+              "type": "Event",
+              "_label": "New Posters from 16 Countries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-11-10 - 1949-20-11",
+                "begin_of_the_begin": "1949-11-10",
+                "end_of_the_end": "1949-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32713",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/965",
+              "type": "Event",
+              "_label": "Recent Czech and Polish Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-10-6 - 1968-18-11",
+                "begin_of_the_begin": "1968-10-6",
+                "end_of_the_end": "1968-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32714",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

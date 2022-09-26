@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67446",
+  "type": "Person",
+  "_label": "Parker Lutz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22799",
+      "type": "Name",
+      "_label": "Parker Lutz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22799",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45598",
+      "type": "TimeSpan",
+      "_label": "Parker Lutz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22799",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45599",
+      "type": "TimeSpan",
+      "_label": "Parker Lutz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22799",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22799",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18343",
+              "type": "Event",
+              "_label": "Half Straddle: Here I Go,…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-8-3 - ",
+                "begin_of_the_begin": "2017-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75715",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

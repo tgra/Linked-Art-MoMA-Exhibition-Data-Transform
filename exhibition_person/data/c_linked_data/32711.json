@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32711",
+  "type": "Person",
+  "_label": "Isabelle Jammes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11597",
+      "type": "Name",
+      "_label": "Isabelle Jammes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11597",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23194",
+      "type": "TimeSpan",
+      "_label": "Isabelle Jammes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11597",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23195",
+      "type": "TimeSpan",
+      "_label": "Isabelle Jammes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11597",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11597",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1651",
+              "type": "Event",
+              "_label": "Lartigue: Panoramas of the Twenties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-15-1 - 1987-3-3",
+                "begin_of_the_begin": "1987-15-1",
+                "end_of_the_end": "1987-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37114",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

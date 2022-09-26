@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30962",
+  "type": "Person",
+  "_label": "George Rodger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9713",
+      "type": "Name",
+      "_label": "George Rodger"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5190",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1908–2008"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9713",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19426",
+      "type": "TimeSpan",
+      "_label": "George Rodger Birth timespan",
+      "begin_of_the_begin": "1908",
+      "end_of_the_end": "1908"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9713",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19427",
+      "type": "TimeSpan",
+      "_label": "George Rodger Death timespan",
+      "begin_of_the_begin": "2008",
+      "end_of_the_end": "2008"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9713",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9713",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/637",
+              "type": "Event",
+              "_label": "The Family of Man",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-24-1 - 1955-8-5",
+                "begin_of_the_begin": "1955-24-1",
+                "end_of_the_end": "1955-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33684",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/743",
+              "type": "Event",
+              "_label": "Photographs for Collectors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-1-10 - 1960-16-10",
+                "begin_of_the_begin": "1960-1-10",
+                "end_of_the_end": "1960-16-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33685",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

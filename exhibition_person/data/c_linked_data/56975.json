@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56975",
+  "type": "Person",
+  "_label": "Richard Newton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15409",
+      "type": "Name",
+      "_label": "Richard Newton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15409",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30818",
+      "type": "TimeSpan",
+      "_label": "Richard Newton Birth timespan",
+      "begin_of_the_begin": "1777",
+      "end_of_the_end": "1777"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15409",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30819",
+      "type": "TimeSpan",
+      "_label": "Richard Newton Death timespan",
+      "begin_of_the_begin": "1798",
+      "end_of_the_end": "1798"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15409",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15409",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2789",
+              "type": "Event",
+              "_label": "Space Invaders",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-31-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60139",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

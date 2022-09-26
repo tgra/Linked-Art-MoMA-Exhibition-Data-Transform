@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5614",
+  "type": "Person",
+  "_label": "Herbert von Thaden",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15004",
+      "type": "Name",
+      "_label": "Herbert von Thaden"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7543",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1898–1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15004",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30008",
+      "type": "TimeSpan",
+      "_label": "Herbert von Thaden Birth timespan",
+      "begin_of_the_begin": "1898",
+      "end_of_the_end": "1898"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15004",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30009",
+      "type": "TimeSpan",
+      "_label": "Herbert von Thaden Death timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15004",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15004",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2522",
+              "type": "Event",
+              "_label": "Plywood: Material, Process, Form",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-2-2 - 2013-4-3",
+                "begin_of_the_begin": "2011-2-2",
+                "end_of_the_end": "2013-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/58874",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63667",
+  "type": "Person",
+  "_label": "Alida Vega",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20976",
+      "type": "Name",
+      "_label": "Alida Vega"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20976",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41952",
+      "type": "TimeSpan",
+      "_label": "Alida Vega Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20976",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41953",
+      "type": "TimeSpan",
+      "_label": "Alida Vega Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20976",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20976",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17142",
+              "type": "Event",
+              "_label": "Rhetorical Image Resource Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-9-12 - 1991-3-2",
+                "begin_of_the_begin": "1990-9-12",
+                "end_of_the_end": "1991-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72148",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63654",
+  "type": "Person",
+  "_label": "Ali Subotnick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20972",
+      "type": "Name",
+      "_label": "Ali Subotnick"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20972",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41944",
+      "type": "TimeSpan",
+      "_label": "Ali Subotnick Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20972",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41945",
+      "type": "TimeSpan",
+      "_label": "Ali Subotnick Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20972",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20972",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17010",
+              "type": "Event",
+              "_label": "Llyn Foulkes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-12-6 - 2013-1-9",
+                "begin_of_the_begin": "2013-12-6",
+                "end_of_the_end": "2013-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72127",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30580",
+  "type": "Person",
+  "_label": "Brown-Saltman Furniture Co.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9299",
+      "type": "Name",
+      "_label": "Brown-Saltman Furniture Co."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9299",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18598",
+      "type": "TimeSpan",
+      "_label": "Brown-Saltman Furniture Co. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9299",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18599",
+      "type": "TimeSpan",
+      "_label": "Brown-Saltman Furniture Co. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9299",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9299",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/532",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-11 - 1951-28-1",
+                "begin_of_the_begin": "1950-21-11",
+                "end_of_the_end": "1951-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32723",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

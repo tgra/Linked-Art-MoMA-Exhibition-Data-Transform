@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57071",
+  "type": "Person",
+  "_label": "Cecilie Dahl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15515",
+      "type": "Name",
+      "_label": "Cecilie Dahl"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15515",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31030",
+      "type": "TimeSpan",
+      "_label": "Cecilie Dahl Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15515",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31031",
+      "type": "TimeSpan",
+      "_label": "Cecilie Dahl Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15515",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15515",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2915",
+              "type": "Event",
+              "_label": "P.S. 1 Studio Artists, 1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-8-5 - 1994-12-6",
+                "begin_of_the_begin": "1994-8-5",
+                "end_of_the_end": "1994-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60352",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

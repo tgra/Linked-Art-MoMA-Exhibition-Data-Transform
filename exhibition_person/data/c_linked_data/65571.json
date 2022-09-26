@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65571",
+  "type": "Person",
+  "_label": "Lauren Szold",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21778",
+      "type": "Name",
+      "_label": "Lauren Szold"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21778",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43556",
+      "type": "TimeSpan",
+      "_label": "Lauren Szold Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21778",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43557",
+      "type": "TimeSpan",
+      "_label": "Lauren Szold Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21778",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21778",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21985",
+              "type": "Event",
+              "_label": "Skin Deep",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73724",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

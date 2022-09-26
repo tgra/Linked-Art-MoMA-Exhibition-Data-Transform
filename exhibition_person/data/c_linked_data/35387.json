@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35387",
+  "type": "Person",
+  "_label": "Johan Van Der Keuken",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12522",
+      "type": "Name",
+      "_label": "Johan Van Der Keuken"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5873",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch, 1938–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12522",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25044",
+      "type": "TimeSpan",
+      "_label": "Johan Van Der Keuken Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12522",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25045",
+      "type": "TimeSpan",
+      "_label": "Johan Van Der Keuken Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12522",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12522",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21853",
+              "type": "Event",
+              "_label": "Museum as Hub: Be(com)ing Dutch at a Distance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-15-1 - 2009-29-3",
+                "begin_of_the_begin": "2009-15-1",
+                "end_of_the_end": "2009-29-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40658",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

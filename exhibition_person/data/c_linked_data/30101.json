@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30101",
+  "type": "Person",
+  "_label": "Erickson Glass Works",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8786",
+      "type": "Name",
+      "_label": "Erickson Glass Works"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8786",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17572",
+      "type": "TimeSpan",
+      "_label": "Erickson Glass Works Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8786",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17573",
+      "type": "TimeSpan",
+      "_label": "Erickson Glass Works Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8786",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8786",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/400",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31873",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/589",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-23-9 - 1952-30-11",
+                "begin_of_the_begin": "1952-23-9",
+                "end_of_the_end": "1952-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31874",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/638",
+              "type": "Event",
+              "_label": "Good Design: 5th Anniversary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-8-2 - 1955-20-3",
+                "begin_of_the_begin": "1955-8-2",
+                "end_of_the_end": "1955-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31875",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

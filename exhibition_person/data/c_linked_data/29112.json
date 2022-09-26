@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29112",
+  "type": "Person",
+  "_label": "Irving Fisher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7722",
+      "type": "Name",
+      "_label": "Irving Fisher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7722",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15444",
+      "type": "TimeSpan",
+      "_label": "Irving Fisher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7722",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15445",
+      "type": "TimeSpan",
+      "_label": "Irving Fisher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7722",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7722",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/285",
+              "type": "Event",
+              "_label": "Airways to Peace",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-2-7 - 1943-31-10",
+                "begin_of_the_begin": "1943-2-7",
+                "end_of_the_end": "1943-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29613",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

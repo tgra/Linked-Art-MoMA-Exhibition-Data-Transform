@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/51628",
+  "type": "Person",
+  "_label": "Frazer Dougherty",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14568",
+      "type": "Name",
+      "_label": "Frazer Dougherty"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7171",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1922"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14568",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29136",
+      "type": "TimeSpan",
+      "_label": "Frazer Dougherty Birth timespan",
+      "begin_of_the_begin": "1922",
+      "end_of_the_end": "1922"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14568",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29137",
+      "type": "TimeSpan",
+      "_label": "Frazer Dougherty Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14568",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14568",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4007",
+              "type": "Event",
+              "_label": "Readykeulous by Ridykeulous: This is What Liberation Feels Like™",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-19-9 - 2014-28-12",
+                "begin_of_the_begin": "2014-19-9",
+                "end_of_the_end": "2014-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55053",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

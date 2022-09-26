@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66868",
+  "type": "Person",
+  "_label": "Taller Boricua",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22400",
+      "type": "Name",
+      "_label": "Taller Boricua"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22400",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44800",
+      "type": "TimeSpan",
+      "_label": "Taller Boricua Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22400",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44801",
+      "type": "TimeSpan",
+      "_label": "Taller Boricua Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22400",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22400",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17276",
+              "type": "Event",
+              "_label": "Events: Fashion Moda, Taller Boricua, Artists Invite Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-5-3",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74982",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17273",
+              "type": "Event",
+              "_label": "Events: Taller Boricua",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-17-1 - 1981-5-2",
+                "begin_of_the_begin": "1981-17-1",
+                "end_of_the_end": "1981-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74983",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

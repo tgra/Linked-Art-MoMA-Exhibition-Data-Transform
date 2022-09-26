@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60859",
+  "type": "Person",
+  "_label": "Jessica Irish",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19573",
+      "type": "Name",
+      "_label": "Jessica Irish"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19573",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39146",
+      "type": "TimeSpan",
+      "_label": "Jessica Irish Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19573",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39147",
+      "type": "TimeSpan",
+      "_label": "Jessica Irish Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19573",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19573",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4300",
+              "type": "Event",
+              "_label": "Traces of Friday: Art, Tourism, Displacement",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-4-9 - 2003-14-12",
+                "begin_of_the_begin": "2003-4-9",
+                "end_of_the_end": "2003-14-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68783",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

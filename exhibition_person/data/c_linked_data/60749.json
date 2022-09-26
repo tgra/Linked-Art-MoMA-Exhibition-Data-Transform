@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60749",
+  "type": "Person",
+  "_label": "Alan Rath",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19454",
+      "type": "Name",
+      "_label": "Alan Rath"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19454",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38908",
+      "type": "TimeSpan",
+      "_label": "Alan Rath Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19454",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38909",
+      "type": "TimeSpan",
+      "_label": "Alan Rath Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19454",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19454",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4389",
+              "type": "Event",
+              "_label": "Alan Rath",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-20-2 - 1992-26-4",
+                "begin_of_the_begin": "1992-20-2",
+                "end_of_the_end": "1992-26-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68573",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6978",
+              "type": "Event",
+              "_label": "1991 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-4 - 1991-30-6",
+                "begin_of_the_begin": "1991-19-4",
+                "end_of_the_end": "1991-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68574",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Galleries, 2nd Floor Film/Video Gallery, 4th Floor Galleries, 3rd Floor Galleries, Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

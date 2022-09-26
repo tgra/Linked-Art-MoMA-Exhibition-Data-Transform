@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29621",
+  "type": "Person",
+  "_label": "Guiseppe Vaccaro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8269",
+      "type": "Name",
+      "_label": "Guiseppe Vaccaro"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8269",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16538",
+      "type": "TimeSpan",
+      "_label": "Guiseppe Vaccaro Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8269",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16539",
+      "type": "TimeSpan",
+      "_label": "Guiseppe Vaccaro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8269",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8269",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/633",
+              "type": "Event",
+              "_label": "The Modern Movement in Italy: Architecture and Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-18-8 - 1954-6-9",
+                "begin_of_the_begin": "1954-18-8",
+                "end_of_the_end": "1954-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30615",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

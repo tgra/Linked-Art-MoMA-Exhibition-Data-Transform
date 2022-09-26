@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59721",
+  "type": "Person",
+  "_label": "Jackie Lipton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18363",
+      "type": "Name",
+      "_label": "Jackie Lipton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18363",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36726",
+      "type": "TimeSpan",
+      "_label": "Jackie Lipton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18363",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36727",
+      "type": "TimeSpan",
+      "_label": "Jackie Lipton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18363",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18363",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2919",
+              "type": "Event",
+              "_label": "The Wild Art Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66206",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56640",
+  "type": "Person",
+  "_label": "Bobbie Oliver",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15054",
+      "type": "Name",
+      "_label": "Bobbie Oliver"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15054",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30108",
+      "type": "TimeSpan",
+      "_label": "Bobbie Oliver Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15054",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30109",
+      "type": "TimeSpan",
+      "_label": "Bobbie Oliver Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15054",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15054",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3207",
+              "type": "Event",
+              "_label": "A Great Big Drawing Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-1-4",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59189",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3769",
+              "type": "Event",
+              "_label": "Material Matters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-5 - 1980-21-6",
+                "begin_of_the_begin": "1980-28-5",
+                "end_of_the_end": "1980-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59190",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

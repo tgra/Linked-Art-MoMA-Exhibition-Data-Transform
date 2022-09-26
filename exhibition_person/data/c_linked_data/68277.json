@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68277",
+  "type": "Person",
+  "_label": "Sylvie Parent",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23124",
+      "type": "Name",
+      "_label": "Sylvie Parent"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23124",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46248",
+      "type": "TimeSpan",
+      "_label": "Sylvie Parent Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23124",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46249",
+      "type": "TimeSpan",
+      "_label": "Sylvie Parent Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23124",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23124",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21927",
+              "type": "Event",
+              "_label": "Location/Dislocation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-25-9 - 2001-7-10",
+                "begin_of_the_begin": "2001-25-9",
+                "end_of_the_end": "2001-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76363",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

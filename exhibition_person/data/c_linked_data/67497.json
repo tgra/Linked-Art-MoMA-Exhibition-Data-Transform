@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67497",
+  "type": "Person",
+  "_label": "Adrienne Truscott",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22853",
+      "type": "Name",
+      "_label": "Adrienne Truscott"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22853",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45706",
+      "type": "TimeSpan",
+      "_label": "Adrienne Truscott Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22853",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45707",
+      "type": "TimeSpan",
+      "_label": "Adrienne Truscott Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22853",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22853",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18135",
+              "type": "Event",
+              "_label": "...Too Freedom...",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-8-12 - ",
+                "begin_of_the_begin": "2012-8-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75781",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62002",
+  "type": "Person",
+  "_label": "Ian Hughes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20182",
+      "type": "Name",
+      "_label": "Ian Hughes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20182",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40364",
+      "type": "TimeSpan",
+      "_label": "Ian Hughes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20182",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40365",
+      "type": "TimeSpan",
+      "_label": "Ian Hughes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20182",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20182",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5049",
+              "type": "Event",
+              "_label": "White Room: Ian Hughes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-30-3 - 1991-21-4",
+                "begin_of_the_begin": "1991-30-3",
+                "end_of_the_end": "1991-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70137",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4957",
+              "type": "Event",
+              "_label": "Update 1991",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-6-10",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70138",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

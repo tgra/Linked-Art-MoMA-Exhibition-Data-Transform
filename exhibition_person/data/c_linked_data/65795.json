@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65795",
+  "type": "Person",
+  "_label": "Marina Abramovic and Ulay",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21889",
+      "type": "Name",
+      "_label": "Marina Abramovic and Ulay"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21889",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43778",
+      "type": "TimeSpan",
+      "_label": "Marina Abramovic and Ulay Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21889",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43779",
+      "type": "TimeSpan",
+      "_label": "Marina Abramovic and Ulay Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21889",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21889",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17209",
+              "type": "Event",
+              "_label": "Choices: Making an Art of Everyday Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-30-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73952",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

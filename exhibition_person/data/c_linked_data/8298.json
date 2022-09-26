@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8298",
+  "type": "Person",
+  "_label": "Massachusetts Institute of Technology",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26094",
+      "type": "Name",
+      "_label": "Massachusetts Institute of Technology"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9307",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "USA, est. 1861"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26094",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52188",
+      "type": "TimeSpan",
+      "_label": "Massachusetts Institute of Technology Birth timespan",
+      "begin_of_the_begin": "1861",
+      "end_of_the_end": "1861"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26094",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52189",
+      "type": "TimeSpan",
+      "_label": "Massachusetts Institute of Technology Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26094",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26094",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/515",
+              "type": "Event",
+              "_label": "Prize Designs for Modern Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-16-5 - 1950-16-7",
+                "begin_of_the_begin": "1950-16-5",
+                "end_of_the_end": "1950-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85086",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2399",
+              "type": "Event",
+              "_label": "Home Delivery: Fabricating the Modern Dwelling",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-20-7 - 2008-20-10",
+                "begin_of_the_begin": "2008-20-7",
+                "end_of_the_end": "2008-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85087",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60272",
+  "type": "Person",
+  "_label": "Ami Garmon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18954",
+      "type": "Name",
+      "_label": "Ami Garmon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18954",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37908",
+      "type": "TimeSpan",
+      "_label": "Ami Garmon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18954",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37909",
+      "type": "TimeSpan",
+      "_label": "Ami Garmon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18954",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18954",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2913",
+              "type": "Event",
+              "_label": "The Winter of Love (L'Hiver de l'Amour)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-10 - 1995-8-1",
+                "begin_of_the_begin": "1994-9-10",
+                "end_of_the_end": "1995-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67447",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

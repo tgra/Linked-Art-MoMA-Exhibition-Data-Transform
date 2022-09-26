@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31720",
+  "type": "Person",
+  "_label": "Louis R. Fink",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10532",
+      "type": "Name",
+      "_label": "Louis R. Fink"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10532",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21064",
+      "type": "TimeSpan",
+      "_label": "Louis R. Fink Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10532",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21065",
+      "type": "TimeSpan",
+      "_label": "Louis R. Fink Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10532",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10532",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/670",
+              "type": "Event",
+              "_label": "Recent Drawings U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-25-4 - 1956-5-8",
+                "begin_of_the_begin": "1956-25-4",
+                "end_of_the_end": "1956-5-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35164",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

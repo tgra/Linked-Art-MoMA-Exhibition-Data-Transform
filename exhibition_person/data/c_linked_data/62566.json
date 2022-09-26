@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62566",
+  "type": "Person",
+  "_label": "Lori Nix",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20407",
+      "type": "Name",
+      "_label": "Lori Nix"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20407",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40814",
+      "type": "TimeSpan",
+      "_label": "Lori Nix Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20407",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40815",
+      "type": "TimeSpan",
+      "_label": "Lori Nix Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20407",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20407",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4656",
+              "type": "Event",
+              "_label": "It's a Cruel World",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-5-5 - 2000-4-6",
+                "begin_of_the_begin": "2000-5-5",
+                "end_of_the_end": "2000-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70608",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/5122",
+              "type": "Event",
+              "_label": "White Room: Lori Nix",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-19-10 - 2001-25-11",
+                "begin_of_the_begin": "2001-19-10",
+                "end_of_the_end": "2001-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70609",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

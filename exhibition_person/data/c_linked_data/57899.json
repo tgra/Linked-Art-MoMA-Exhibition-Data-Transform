@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57899",
+  "type": "Person",
+  "_label": "Alexander Honory",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16401",
+      "type": "Name",
+      "_label": "Alexander Honory"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16401",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32802",
+      "type": "TimeSpan",
+      "_label": "Alexander Honory Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16401",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32803",
+      "type": "TimeSpan",
+      "_label": "Alexander Honory Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16401",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16401",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3116",
+              "type": "Event",
+              "_label": "Private Video Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-4 - 1991-9-6",
+                "begin_of_the_begin": "1991-14-4",
+                "end_of_the_end": "1991-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62243",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

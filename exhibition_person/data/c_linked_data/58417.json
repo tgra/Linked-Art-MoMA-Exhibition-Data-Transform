@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58417",
+  "type": "Person",
+  "_label": "Joe Hannan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16960",
+      "type": "Name",
+      "_label": "Joe Hannan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16960",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33920",
+      "type": "TimeSpan",
+      "_label": "Joe Hannan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16960",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33921",
+      "type": "TimeSpan",
+      "_label": "Joe Hannan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16960",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16960",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2798",
+              "type": "Event",
+              "_label": "Performance (Spring 1982): Performance Rites: the Word, the Flesh, the Fracas, and the Light",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-11-4 - 1982-2-5",
+                "begin_of_the_begin": "1982-11-4",
+                "end_of_the_end": "1982-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63364",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

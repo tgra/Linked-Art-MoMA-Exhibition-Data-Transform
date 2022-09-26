@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67234",
+  "type": "Person",
+  "_label": "Ziad Abillama",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22576",
+      "type": "Name",
+      "_label": "Ziad Abillama"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22576",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45152",
+      "type": "TimeSpan",
+      "_label": "Ziad Abillama Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22576",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45153",
+      "type": "TimeSpan",
+      "_label": "Ziad Abillama Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22576",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22576",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21836",
+              "type": "Event",
+              "_label": "Museum as Hub: Beirut Art Center: Due to unforeseen events...",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-14-12 - 2012-5-2",
+                "begin_of_the_begin": "2011-14-12",
+                "end_of_the_end": "2012-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75380",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

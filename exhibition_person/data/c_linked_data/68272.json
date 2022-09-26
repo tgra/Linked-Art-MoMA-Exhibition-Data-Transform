@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68272",
+  "type": "Person",
+  "_label": "Guimar Arjona López",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23121",
+      "type": "Name",
+      "_label": "Guimar Arjona López"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23121",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46242",
+      "type": "TimeSpan",
+      "_label": "Guimar Arjona López Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23121",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46243",
+      "type": "TimeSpan",
+      "_label": "Guimar Arjona López Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23121",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23121",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21931",
+              "type": "Event",
+              "_label": "Waveform: David Galbraith and Teresa Seemann",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-8-3 - 2001-29-4",
+                "begin_of_the_begin": "2001-8-3",
+                "end_of_the_end": "2001-29-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76360",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30006",
+  "type": "Person",
+  "_label": "Abel Sorensen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8683",
+      "type": "Name",
+      "_label": "Abel Sorensen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8683",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17366",
+      "type": "TimeSpan",
+      "_label": "Abel Sorensen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8683",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17367",
+      "type": "TimeSpan",
+      "_label": "Abel Sorensen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8683",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8683",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/515",
+              "type": "Event",
+              "_label": "Prize Designs for Modern Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-16-5 - 1950-16-7",
+                "begin_of_the_begin": "1950-16-5",
+                "end_of_the_end": "1950-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31481",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/563",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-11 - 1952-27-1",
+                "begin_of_the_begin": "1951-27-11",
+                "end_of_the_end": "1952-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31482",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

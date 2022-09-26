@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6643",
+  "type": "Person",
+  "_label": "Ricardo Scofidio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22182",
+      "type": "Name",
+      "_label": "Ricardo Scofidio"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8235",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22182",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44364",
+      "type": "TimeSpan",
+      "_label": "Ricardo Scofidio Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22182",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44365",
+      "type": "TimeSpan",
+      "_label": "Ricardo Scofidio Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22182",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22182",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17125",
+              "type": "Event",
+              "_label": "The Final Frontier",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74538",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1750",
+              "type": "Event",
+              "_label": "Projects: Elizabeth Diller and Ricardo Scofidio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-1-7 - 1989-15-8",
+                "begin_of_the_begin": "1989-1-7",
+                "end_of_the_end": "1989-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74539",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

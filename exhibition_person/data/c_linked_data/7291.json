@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7291",
+  "type": "Person",
+  "_label": "Eugène Druet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25251",
+      "type": "Name",
+      "_label": "Eugène Druet"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8676",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1868–1917"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25251",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50502",
+      "type": "TimeSpan",
+      "_label": "Eugène Druet Birth timespan",
+      "begin_of_the_begin": "1868",
+      "end_of_the_end": "1868"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25251",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50503",
+      "type": "TimeSpan",
+      "_label": "Eugène Druet Death timespan",
+      "begin_of_the_begin": "1917",
+      "end_of_the_end": "1917"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25251",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25251",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1972",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-19-1 - 1995-11-4",
+                "begin_of_the_begin": "1995-19-1",
+                "end_of_the_end": "1995-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81480",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2497",
+              "type": "Event",
+              "_label": "The Original Copy: Photography of Sculpture, 1839 to Today",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-1-8 - 2010-1-11",
+                "begin_of_the_begin": "2010-1-8",
+                "end_of_the_end": "2010-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81481",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

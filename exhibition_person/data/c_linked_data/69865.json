@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69865",
+  "type": "Person",
+  "_label": "Anthony Palumbo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23974",
+      "type": "Name",
+      "_label": "Anthony Palumbo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23974",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47948",
+      "type": "TimeSpan",
+      "_label": "Anthony Palumbo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23974",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47949",
+      "type": "TimeSpan",
+      "_label": "Anthony Palumbo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23974",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23974",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6486",
+              "type": "Event",
+              "_label": "1959 Annual Exhibition of Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-9-12 - 1960-31-1",
+                "begin_of_the_begin": "1959-9-12",
+                "end_of_the_end": "1960-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78347",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

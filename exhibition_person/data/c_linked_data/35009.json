@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35009",
+  "type": "Person",
+  "_label": "Amy Brener",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12433",
+      "type": "Name",
+      "_label": "Amy Brener"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5804",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12433",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24866",
+      "type": "TimeSpan",
+      "_label": "Amy Brener Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12433",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24867",
+      "type": "TimeSpan",
+      "_label": "Amy Brener Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12433",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12433",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3283",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-11-10 - 2016-7-3",
+                "begin_of_the_begin": "2015-11-10",
+                "end_of_the_end": "2016-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40404",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

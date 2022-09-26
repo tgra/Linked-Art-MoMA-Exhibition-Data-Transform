@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60869",
+  "type": "Person",
+  "_label": "Doug Michaels",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19584",
+      "type": "Name",
+      "_label": "Doug Michaels"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19584",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39168",
+      "type": "TimeSpan",
+      "_label": "Doug Michaels Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19584",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39169",
+      "type": "TimeSpan",
+      "_label": "Doug Michaels Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19584",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19584",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4288",
+              "type": "Event",
+              "_label": "Ant Farm: 1968-1978",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-8-9 - 2004-12-12",
+                "begin_of_the_begin": "2004-8-9",
+                "end_of_the_end": "2004-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68801",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

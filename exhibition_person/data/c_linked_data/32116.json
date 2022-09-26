@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32116",
+  "type": "Person",
+  "_label": "Automobiles Ettore Bugatti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10956",
+      "type": "Name",
+      "_label": "Automobiles Ettore Bugatti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10956",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21912",
+      "type": "TimeSpan",
+      "_label": "Automobiles Ettore Bugatti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10956",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21913",
+      "type": "TimeSpan",
+      "_label": "Automobiles Ettore Bugatti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10956",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10956",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/986",
+              "type": "Event",
+              "_label": "The Machine as Seen at the End of the Mechanical Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-27-11 - 1969-9-2",
+                "begin_of_the_begin": "1968-27-11",
+                "end_of_the_end": "1969-9-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35969",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

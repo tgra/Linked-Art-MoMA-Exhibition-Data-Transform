@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58553",
+  "type": "Person",
+  "_label": "Kenneth Deifik",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17107",
+      "type": "Name",
+      "_label": "Kenneth Deifik"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17107",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34214",
+      "type": "TimeSpan",
+      "_label": "Kenneth Deifik Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17107",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34215",
+      "type": "TimeSpan",
+      "_label": "Kenneth Deifik Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17107",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17107",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3328",
+              "type": "Event",
+              "_label": "Poetry (Winter 1978–1979): Kenneth Deifik and Michael Robbins",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-12 - 1979-21-1",
+                "begin_of_the_begin": "1978-3-12",
+                "end_of_the_end": "1979-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63583",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

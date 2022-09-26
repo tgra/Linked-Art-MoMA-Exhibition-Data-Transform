@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60739",
+  "type": "Person",
+  "_label": "Anne Bourassa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19443",
+      "type": "Name",
+      "_label": "Anne Bourassa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19443",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38886",
+      "type": "TimeSpan",
+      "_label": "Anne Bourassa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19443",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38887",
+      "type": "TimeSpan",
+      "_label": "Anne Bourassa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19443",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19443",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68561",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

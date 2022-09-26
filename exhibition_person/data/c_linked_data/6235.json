@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6235",
+  "type": "Person",
+  "_label": "Teresa Zabala",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20318",
+      "type": "Name",
+      "_label": "Teresa Zabala"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8027",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1938"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20318",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40636",
+      "type": "TimeSpan",
+      "_label": "Teresa Zabala Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20318",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40637",
+      "type": "TimeSpan",
+      "_label": "Teresa Zabala Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20318",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20318",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1962",
+              "type": "Event",
+              "_label": "American Politicians: Photographs from 1843 to 1993",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-10 - 1995-3-1",
+                "begin_of_the_begin": "1994-5-10",
+                "end_of_the_end": "1995-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70433",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

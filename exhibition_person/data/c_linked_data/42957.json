@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/42957",
+  "type": "Person",
+  "_label": "Museo Nacional de Bellas Artes, Santiago",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13762",
+      "type": "Name",
+      "_label": "Museo Nacional de Bellas Artes, Santiago"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13762",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27524",
+      "type": "TimeSpan",
+      "_label": "Museo Nacional de Bellas Artes, Santiago Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13762",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27525",
+      "type": "TimeSpan",
+      "_label": "Museo Nacional de Bellas Artes, Santiago Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13762",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13762",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21967",
+              "type": "Event",
+              "_label": "Remota: Airmail Paintings by Eugenio Dittborn",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-12-2 - 1997-13-4",
+                "begin_of_the_begin": "1997-12-2",
+                "end_of_the_end": "1997-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/48004",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

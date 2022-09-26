@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58341",
+  "type": "Person",
+  "_label": "Yann Weymouth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16878",
+      "type": "Name",
+      "_label": "Yann Weymouth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16878",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33756",
+      "type": "TimeSpan",
+      "_label": "Yann Weymouth Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16878",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33757",
+      "type": "TimeSpan",
+      "_label": "Yann Weymouth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16878",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16878",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3173",
+              "type": "Event",
+              "_label": "Architecture (Winter 1980–1981): Red Roof Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-7-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-7-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63233",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

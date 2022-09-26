@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69408",
+  "type": "Person",
+  "_label": "George Macrum",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23681",
+      "type": "Name",
+      "_label": "George Macrum"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23681",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47362",
+      "type": "TimeSpan",
+      "_label": "George Macrum Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23681",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47363",
+      "type": "TimeSpan",
+      "_label": "George Macrum Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23681",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23681",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6328",
+              "type": "Event",
+              "_label": "1939 Annual Exhibition of Contemporary American Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-22-2 - 1939-15-3",
+                "begin_of_the_begin": "1939-22-2",
+                "end_of_the_end": "1939-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77668",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

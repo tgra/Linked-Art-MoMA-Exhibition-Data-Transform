@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60588",
+  "type": "Person",
+  "_label": "Gary Carl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19289",
+      "type": "Name",
+      "_label": "Gary Carl"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19289",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38578",
+      "type": "TimeSpan",
+      "_label": "Gary Carl Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19289",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38579",
+      "type": "TimeSpan",
+      "_label": "Gary Carl Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19289",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19289",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4160",
+              "type": "Event",
+              "_label": "The Philadelphia Houston Exchange",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-8-10 - 1976-17-11",
+                "begin_of_the_begin": "1976-8-10",
+                "end_of_the_end": "1976-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68200",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

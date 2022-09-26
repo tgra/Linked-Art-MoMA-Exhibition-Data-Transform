@@ -1,0 +1,99 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60158",
+  "type": "Person",
+  "_label": "Ry Rocklen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18831",
+      "type": "Name",
+      "_label": "Ry Rocklen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18831",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37662",
+      "type": "TimeSpan",
+      "_label": "Ry Rocklen Birth timespan",
+      "begin_of_the_begin": "1978",
+      "end_of_the_end": "1978"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18831",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37663",
+      "type": "TimeSpan",
+      "_label": "Ry Rocklen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18831",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18831",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3503",
+              "type": "Event",
+              "_label": "That was Then, This is Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-22-6 - 2008-5-10",
+                "begin_of_the_begin": "2008-22-6",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67191",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28413",
+              "type": "Event",
+              "_label": "Whitney Biennial 2008",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-6-3 - 2008-1-6",
+                "begin_of_the_begin": "2008-6-3",
+                "end_of_the_end": "2008-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67192",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

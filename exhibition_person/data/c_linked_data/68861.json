@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68861",
+  "type": "Person",
+  "_label": "Georges Mathieu",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23376",
+      "type": "Name",
+      "_label": "Georges Mathieu"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23376",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46752",
+      "type": "TimeSpan",
+      "_label": "Georges Mathieu Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23376",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46753",
+      "type": "TimeSpan",
+      "_label": "Georges Mathieu Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23376",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23376",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4173",
+              "type": "Event",
+              "_label": "A Selection of American and European Paintings from the Richard Brown Baker Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-7-12 - 1974-27-1",
+                "begin_of_the_begin": "1973-7-12",
+                "end_of_the_end": "1974-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76787",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/54788",
+              "type": "Event",
+              "_label": "[Penthouse Exhibition]",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-26-1 - ",
+                "begin_of_the_begin": "1956-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76788",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

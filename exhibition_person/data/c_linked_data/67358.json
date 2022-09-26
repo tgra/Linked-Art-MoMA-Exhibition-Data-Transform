@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67358",
+  "type": "Person",
+  "_label": "Kaneza Schaal",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22705",
+      "type": "Name",
+      "_label": "Kaneza Schaal"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22705",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45410",
+      "type": "TimeSpan",
+      "_label": "Kaneza Schaal Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22705",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45411",
+      "type": "TimeSpan",
+      "_label": "Kaneza Schaal Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22705",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22705",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18343",
+              "type": "Event",
+              "_label": "Half Straddle: Here I Go,…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-8-3 - ",
+                "begin_of_the_begin": "2017-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75572",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

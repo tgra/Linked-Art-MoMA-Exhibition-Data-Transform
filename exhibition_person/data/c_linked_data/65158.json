@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65158",
+  "type": "Person",
+  "_label": "Jim O'Rourke",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21585",
+      "type": "Name",
+      "_label": "Jim O'Rourke"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21585",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43170",
+      "type": "TimeSpan",
+      "_label": "Jim O'Rourke Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21585",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43171",
+      "type": "TimeSpan",
+      "_label": "Jim O'Rourke Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21585",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21585",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28412",
+              "type": "Event",
+              "_label": "Whitney Biennial 2006: Day for Night",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-2-3 - 2006-28-5",
+                "begin_of_the_begin": "2006-2-3",
+                "end_of_the_end": "2006-28-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73310",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

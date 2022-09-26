@@ -1,0 +1,99 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32957",
+  "type": "Person",
+  "_label": "Josef Fenneker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11856",
+      "type": "Name",
+      "_label": "Josef Fenneker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11856",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23712",
+      "type": "TimeSpan",
+      "_label": "Josef Fenneker Birth timespan",
+      "begin_of_the_begin": "1895",
+      "end_of_the_end": "1895"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11856",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23713",
+      "type": "TimeSpan",
+      "_label": "Josef Fenneker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11856",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11856",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1587",
+              "type": "Event",
+              "_label": "Josef Fenneker: Cinema Posters From Berlin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-14-2 - 1985-31-3",
+                "begin_of_the_begin": "1985-14-2",
+                "end_of_the_end": "1985-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37854",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2116",
+              "type": "Event",
+              "_label": "UFA Film Posters, 1918–1943",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-9 - 1999-5-1",
+                "begin_of_the_begin": "1998-17-9",
+                "end_of_the_end": "1999-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37855",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

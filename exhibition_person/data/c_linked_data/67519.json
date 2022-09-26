@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67519",
+  "type": "Person",
+  "_label": "Ann Liv Young",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22877",
+      "type": "Name",
+      "_label": "Ann Liv Young"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22877",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45754",
+      "type": "TimeSpan",
+      "_label": "Ann Liv Young Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22877",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45755",
+      "type": "TimeSpan",
+      "_label": "Ann Liv Young Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22877",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22877",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18549",
+              "type": "Event",
+              "_label": "Snow White",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-3-3 - ",
+                "begin_of_the_begin": "2007-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75817",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18592",
+              "type": "Event",
+              "_label": "The Bagwell In Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-2-10 - ",
+                "begin_of_the_begin": "2008-2-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75818",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

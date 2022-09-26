@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58356",
+  "type": "Person",
+  "_label": "Carola Dertnig",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16894",
+      "type": "Name",
+      "_label": "Carola Dertnig"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16894",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33788",
+      "type": "TimeSpan",
+      "_label": "Carola Dertnig Birth timespan",
+      "begin_of_the_begin": "1963",
+      "end_of_the_end": "1963"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16894",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33789",
+      "type": "TimeSpan",
+      "_label": "Carola Dertnig Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16894",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16894",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2848",
+              "type": "Event",
+              "_label": "Special Projects (Summer 2000)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-2-7 - 2000-30-9",
+                "begin_of_the_begin": "2000-2-7",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63251",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21922",
+              "type": "Event",
+              "_label": "World Views: Open Studio Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-12 - 2002-13-1",
+                "begin_of_the_begin": "2001-1-12",
+                "end_of_the_end": "2002-13-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63252",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

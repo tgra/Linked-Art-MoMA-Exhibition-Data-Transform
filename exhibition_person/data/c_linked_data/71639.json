@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71639",
+  "type": "Person",
+  "_label": "Rudolf Ray",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25068",
+      "type": "Name",
+      "_label": "Rudolf Ray"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25068",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50136",
+      "type": "TimeSpan",
+      "_label": "Rudolf Ray Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25068",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50137",
+      "type": "TimeSpan",
+      "_label": "Rudolf Ray Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25068",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25068",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6446",
+              "type": "Event",
+              "_label": "1955 Annual Exhibition of Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-9-11 - 1956-8-1",
+                "begin_of_the_begin": "1955-9-11",
+                "end_of_the_end": "1956-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80932",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

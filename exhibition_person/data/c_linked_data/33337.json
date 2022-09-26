@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33337",
+  "type": "Person",
+  "_label": "The Atlas Group/Walid Raad",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12153",
+      "type": "Name",
+      "_label": "The Atlas Group/Walid Raad"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5564",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Lebanese, born 1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12153",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24306",
+      "type": "TimeSpan",
+      "_label": "The Atlas Group/Walid Raad Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12153",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24307",
+      "type": "TimeSpan",
+      "_label": "The Atlas Group/Walid Raad Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12153",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12153",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38604",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28411",
+              "type": "Event",
+              "_label": "Whitney Biennial 2002",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-7-3 - 2002-26-5",
+                "begin_of_the_begin": "2002-7-3",
+                "end_of_the_end": "2002-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38605",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

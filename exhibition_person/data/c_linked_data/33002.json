@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33002",
+  "type": "Person",
+  "_label": "Elizabeth Rodriguez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11905",
+      "type": "Name",
+      "_label": "Elizabeth Rodriguez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11905",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23810",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Rodriguez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11905",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23811",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Rodriguez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11905",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11905",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1694",
+              "type": "Event",
+              "_label": "Committed to Print",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-31-1 - 1988-19-4",
+                "begin_of_the_begin": "1988-31-1",
+                "end_of_the_end": "1988-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37967",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8654",
+  "type": "Person",
+  "_label": "BMC Manufacturing Corp., USA",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26236",
+      "type": "Name",
+      "_label": "BMC Manufacturing Corp., USA"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26236",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52472",
+      "type": "TimeSpan",
+      "_label": "BMC Manufacturing Corp., USA Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26236",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52473",
+      "type": "TimeSpan",
+      "_label": "BMC Manufacturing Corp., USA Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26236",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26236",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/400",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85802",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

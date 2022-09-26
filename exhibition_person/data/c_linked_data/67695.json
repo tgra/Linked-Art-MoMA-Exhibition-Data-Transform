@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67695",
+  "type": "Person",
+  "_label": "Veronica Vera",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23056",
+      "type": "Name",
+      "_label": "Veronica Vera"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23056",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46112",
+      "type": "TimeSpan",
+      "_label": "Veronica Vera Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23056",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46113",
+      "type": "TimeSpan",
+      "_label": "Veronica Vera Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23056",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23056",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18225",
+              "type": "Event",
+              "_label": "Carnival of Sleaze",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-20-2 - ",
+                "begin_of_the_begin": "1988-20-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76067",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18487",
+              "type": "Event",
+              "_label": "Post-Porn Modernist",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-11-1 - ",
+                "begin_of_the_begin": "1990-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76068",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

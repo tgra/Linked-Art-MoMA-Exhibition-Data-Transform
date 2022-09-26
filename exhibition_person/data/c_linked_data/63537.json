@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63537",
+  "type": "Person",
+  "_label": "0100101110101101.org",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20918",
+      "type": "Name",
+      "_label": "0100101110101101.org"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20918",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41836",
+      "type": "TimeSpan",
+      "_label": "0100101110101101.org Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20918",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41837",
+      "type": "TimeSpan",
+      "_label": "0100101110101101.org Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20918",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20918",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21904",
+              "type": "Event",
+              "_label": "Rhizome ArtBase 101",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-6 - 2005-10-9",
+                "begin_of_the_begin": "2005-23-6",
+                "end_of_the_end": "2005-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72044",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

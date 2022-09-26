@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67094",
+  "type": "Person",
+  "_label": "Victoria Haven",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22510",
+      "type": "Name",
+      "_label": "Victoria Haven"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22510",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45020",
+      "type": "TimeSpan",
+      "_label": "Victoria Haven Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22510",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45021",
+      "type": "TimeSpan",
+      "_label": "Victoria Haven Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22510",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22510",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21920",
+              "type": "Event",
+              "_label": "Out of Site: Fictional Architectural Spaces",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-28-6 - 2002-13-10",
+                "begin_of_the_begin": "2002-28-6",
+                "end_of_the_end": "2002-13-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75264",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

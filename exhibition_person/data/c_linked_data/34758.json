@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/34758",
+  "type": "Person",
+  "_label": "Bruce La Bruce",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12383",
+      "type": "Name",
+      "_label": "Bruce La Bruce"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5756",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian, born 1964"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12383",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24766",
+      "type": "TimeSpan",
+      "_label": "Bruce La Bruce Birth timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12383",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24767",
+      "type": "TimeSpan",
+      "_label": "Bruce La Bruce Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12383",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12383",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3335",
+              "type": "Event",
+              "_label": "Outdoor Cinema Series Part II: Bruce LaBruce Picks His Flicks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-17-8 - 1999-16-9",
+                "begin_of_the_begin": "1999-17-8",
+                "end_of_the_end": "1999-16-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40196",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40197",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60084",
+  "type": "Person",
+  "_label": "Ted Riederer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18752",
+      "type": "Name",
+      "_label": "Ted Riederer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18752",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37504",
+      "type": "TimeSpan",
+      "_label": "Ted Riederer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18752",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37505",
+      "type": "TimeSpan",
+      "_label": "Ted Riederer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18752",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18752",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3547",
+              "type": "Event",
+              "_label": "Altered, Stitched and Gathered",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-14-12 - 2007-28-1",
+                "begin_of_the_begin": "2006-14-12",
+                "end_of_the_end": "2007-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67071",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64475",
+  "type": "Person",
+  "_label": "Ed Montgomery",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21284",
+      "type": "Name",
+      "_label": "Ed Montgomery"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21284",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42568",
+      "type": "TimeSpan",
+      "_label": "Ed Montgomery Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21284",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42569",
+      "type": "TimeSpan",
+      "_label": "Ed Montgomery Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21284",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21284",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18362",
+              "type": "Event",
+              "_label": "Indian Blood",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-4-11 - ",
+                "begin_of_the_begin": "1987-4-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72768",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58566",
+  "type": "Person",
+  "_label": "Rochelle Wyner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17121",
+      "type": "Name",
+      "_label": "Rochelle Wyner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17121",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34242",
+      "type": "TimeSpan",
+      "_label": "Rochelle Wyner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17121",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34243",
+      "type": "TimeSpan",
+      "_label": "Rochelle Wyner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17121",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17121",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2999",
+              "type": "Event",
+              "_label": "A Month of Sundays",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-19-9 - 1976-10-10",
+                "begin_of_the_begin": "1976-19-9",
+                "end_of_the_end": "1976-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63610",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3237",
+              "type": "Event",
+              "_label": "Open Studios",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-1-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63611",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

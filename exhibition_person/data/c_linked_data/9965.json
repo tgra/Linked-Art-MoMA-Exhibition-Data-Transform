@@ -1,0 +1,86 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9965",
+  "type": "Person",
+  "_label": "Sappho",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26718",
+      "type": "Name",
+      "_label": "Sappho"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9561",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Greek"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26718",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53436",
+      "type": "TimeSpan",
+      "_label": "Sappho Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26718",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53437",
+      "type": "TimeSpan",
+      "_label": "Sappho Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26718",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26718",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18340",
+              "type": "Event",
+              "_label": "Good Morning, Mr. Orwell",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-1-1 - ",
+                "begin_of_the_begin": "1984-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87883",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

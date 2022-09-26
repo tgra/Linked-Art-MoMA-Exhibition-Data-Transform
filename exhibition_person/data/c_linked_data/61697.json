@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61697",
+  "type": "Person",
+  "_label": "Gerasimos Floratos",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20070",
+      "type": "Name",
+      "_label": "Gerasimos Floratos"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20070",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40140",
+      "type": "TimeSpan",
+      "_label": "Gerasimos Floratos Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20070",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40141",
+      "type": "TimeSpan",
+      "_label": "Gerasimos Floratos Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20070",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20070",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4611",
+              "type": "Event",
+              "_label": "Gerasimos Floratos",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-1-3 - 2016-16-4",
+                "begin_of_the_begin": "2016-1-3",
+                "end_of_the_end": "2016-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69893",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

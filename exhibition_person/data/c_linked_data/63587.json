@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63587",
+  "type": "Person",
+  "_label": "Afua Kafi Akna",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20939",
+      "type": "Name",
+      "_label": "Afua Kafi Akna"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20939",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41878",
+      "type": "TimeSpan",
+      "_label": "Afua Kafi Akna Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20939",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41879",
+      "type": "TimeSpan",
+      "_label": "Afua Kafi Akna Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20939",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20939",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17194",
+              "type": "Event",
+              "_label": "HOMO VIDEO: Where We Are Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-12 - 1987-15-2",
+                "begin_of_the_begin": "1986-12-12",
+                "end_of_the_end": "1987-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72081",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

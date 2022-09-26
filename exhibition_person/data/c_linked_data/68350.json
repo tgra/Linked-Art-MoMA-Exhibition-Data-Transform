@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68350",
+  "type": "Person",
+  "_label": "Troy Michie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23191",
+      "type": "Name",
+      "_label": "Troy Michie"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23191",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46382",
+      "type": "TimeSpan",
+      "_label": "Troy Michie Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23191",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46383",
+      "type": "TimeSpan",
+      "_label": "Troy Michie Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23191",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23191",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21814",
+              "type": "Event",
+              "_label": "Trigger: Gender as a Tool and a Weapon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-27-9 - 2018-21-1",
+                "begin_of_the_begin": "2017-27-9",
+                "end_of_the_end": "2018-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76444",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28418",
+              "type": "Event",
+              "_label": "Whitney Biennial 2019",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2019-17-5 - 2019-22-9",
+                "begin_of_the_begin": "2019-17-5",
+                "end_of_the_end": "2019-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76445",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

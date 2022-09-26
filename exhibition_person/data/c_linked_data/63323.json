@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63323",
+  "type": "Person",
+  "_label": "Claire Zeisler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20712",
+      "type": "Name",
+      "_label": "Claire Zeisler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20712",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41424",
+      "type": "TimeSpan",
+      "_label": "Claire Zeisler Birth timespan",
+      "begin_of_the_begin": "1903",
+      "end_of_the_end": "1903"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20712",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41425",
+      "type": "TimeSpan",
+      "_label": "Claire Zeisler Death timespan",
+      "begin_of_the_begin": "1991",
+      "end_of_the_end": "1991"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20712",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20712",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6913",
+              "type": "Event",
+              "_label": "Claire Zeisler ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-14-12 - 1985-10-3",
+                "begin_of_the_begin": "1984-14-12",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71616",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

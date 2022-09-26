@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30911",
+  "type": "Person",
+  "_label": "Adolphe Monticelli",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9657",
+      "type": "Name",
+      "_label": "Adolphe Monticelli"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9657",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19314",
+      "type": "TimeSpan",
+      "_label": "Adolphe Monticelli Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9657",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19315",
+      "type": "TimeSpan",
+      "_label": "Adolphe Monticelli Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9657",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9657",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/735",
+              "type": "Event",
+              "_label": "Fifty Modern Paintings and Sculpture Especially Donated for the Benefit of the 30th Anniversary Fund of The Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-20-4 - ",
+                "begin_of_the_begin": "1960-20-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33560",
+                  "type": "Place",
+                  "_label": "Parke-Bernet Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

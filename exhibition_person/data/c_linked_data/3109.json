@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3109",
+  "type": "Person",
+  "_label": "Erwin Kraus",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9849",
+      "type": "Name",
+      "_label": "Erwin Kraus"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5211",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Colombian, born 1911"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9849",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19698",
+      "type": "TimeSpan",
+      "_label": "Erwin Kraus Birth timespan",
+      "begin_of_the_begin": "1911",
+      "end_of_the_end": "1911"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9849",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19699",
+      "type": "TimeSpan",
+      "_label": "Erwin Kraus Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9849",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9849",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/273",
+              "type": "Event",
+              "_label": "The Latin-American Collection of the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-31-3 - 1943-6-6",
+                "begin_of_the_begin": "1943-31-3",
+                "end_of_the_end": "1943-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33909",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

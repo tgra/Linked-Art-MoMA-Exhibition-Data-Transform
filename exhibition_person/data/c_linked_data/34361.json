@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/34361",
+  "type": "Person",
+  "_label": "Luise Straus",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12327",
+      "type": "Name",
+      "_label": "Luise Straus"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5711",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1893–1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12327",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24654",
+      "type": "TimeSpan",
+      "_label": "Luise Straus Birth timespan",
+      "begin_of_the_begin": "1893",
+      "end_of_the_end": "1893"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12327",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24655",
+      "type": "TimeSpan",
+      "_label": "Luise Straus Death timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12327",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12327",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1899",
+              "type": "Event",
+              "_label": "Max Ernst: Dada and the Dawn of Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-3 - 1993-2-5",
+                "begin_of_the_begin": "1993-14-3",
+                "end_of_the_end": "1993-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39870",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

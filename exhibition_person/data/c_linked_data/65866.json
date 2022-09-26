@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65866",
+  "type": "Person",
+  "_label": "Mary Stoppert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21926",
+      "type": "Name",
+      "_label": "Mary Stoppert"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21926",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43852",
+      "type": "TimeSpan",
+      "_label": "Mary Stoppert Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21926",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43853",
+      "type": "TimeSpan",
+      "_label": "Mary Stoppert Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21926",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21926",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17256",
+              "type": "Event",
+              "_label": "Currents: Mary Stoppert",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-12-6 - 1982-29-7",
+                "begin_of_the_begin": "1982-12-6",
+                "end_of_the_end": "1982-29-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74004",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

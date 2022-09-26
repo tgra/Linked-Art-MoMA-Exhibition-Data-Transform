@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29844",
+  "type": "Person",
+  "_label": "Reijmyre",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8507",
+      "type": "Name",
+      "_label": "Reijmyre"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8507",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17014",
+      "type": "TimeSpan",
+      "_label": "Reijmyre Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8507",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17015",
+      "type": "TimeSpan",
+      "_label": "Reijmyre Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8507",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8507",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/422",
+              "type": "Event",
+              "_label": "100 Useful Objects of Fine Design (available under $100)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-16-9 - 1948-25-1",
+                "begin_of_the_begin": "1947-16-9",
+                "end_of_the_end": "1948-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31085",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/532",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-11 - 1951-28-1",
+                "begin_of_the_begin": "1950-21-11",
+                "end_of_the_end": "1951-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/31086",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

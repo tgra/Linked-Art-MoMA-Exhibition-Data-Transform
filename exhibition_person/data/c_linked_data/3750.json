@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3750",
+  "type": "Person",
+  "_label": "Howard Mehring",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13289",
+      "type": "Name",
+      "_label": "Howard Mehring"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6060",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1931"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13289",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26578",
+      "type": "TimeSpan",
+      "_label": "Howard Mehring Birth timespan",
+      "begin_of_the_begin": "1931",
+      "end_of_the_end": "1931"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13289",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26579",
+      "type": "TimeSpan",
+      "_label": "Howard Mehring Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13289",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13289",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4186",
+              "type": "Event",
+              "_label": "Two Generations of Color Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-1-10 - 1970-6-11",
+                "begin_of_the_begin": "1970-1-10",
+                "end_of_the_end": "1970-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43485",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6559",
+              "type": "Event",
+              "_label": "1967 Annual Exhibition of Contemporary Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-13-12 - 1967-4-2",
+                "begin_of_the_begin": "1967-13-12",
+                "end_of_the_end": "1967-4-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43486",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

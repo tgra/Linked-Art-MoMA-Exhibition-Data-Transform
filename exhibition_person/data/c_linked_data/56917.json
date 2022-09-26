@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56917",
+  "type": "Person",
+  "_label": "Ellen Cooper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15348",
+      "type": "Name",
+      "_label": "Ellen Cooper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15348",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30696",
+      "type": "TimeSpan",
+      "_label": "Ellen Cooper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15348",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30697",
+      "type": "TimeSpan",
+      "_label": "Ellen Cooper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15348",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15348",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3179",
+              "type": "Event",
+              "_label": "Lighting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60010",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4724",
+              "type": "Event",
+              "_label": "Kiki Smith and Ellen Cooper: Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-8-9 - 1981-13-9",
+                "begin_of_the_begin": "1981-8-9",
+                "end_of_the_end": "1981-13-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60011",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

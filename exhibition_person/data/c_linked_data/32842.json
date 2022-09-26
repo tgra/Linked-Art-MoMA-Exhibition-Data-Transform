@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32842",
+  "type": "Person",
+  "_label": "John Arvanites",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11735",
+      "type": "Name",
+      "_label": "John Arvanites"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11735",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23470",
+      "type": "TimeSpan",
+      "_label": "John Arvanites Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11735",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23471",
+      "type": "TimeSpan",
+      "_label": "John Arvanites Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11735",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11735",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1517",
+              "type": "Event",
+              "_label": "New Imagery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-1-7 - 1982-12-8",
+                "begin_of_the_begin": "1982-1-7",
+                "end_of_the_end": "1982-12-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37614",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6755",
+              "type": "Event",
+              "_label": "1975 Biennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-20-1 - 1975-9-4",
+                "begin_of_the_begin": "1975-20-1",
+                "end_of_the_end": "1975-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37615",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6960",
+              "type": "Event",
+              "_label": "1989 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-18-4 - 1989-16-7",
+                "begin_of_the_begin": "1989-18-4",
+                "end_of_the_end": "1989-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37616",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, 2nd Floor Gallery, Film/Video Gallery, Lobby Gallery, Lower Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

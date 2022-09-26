@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33210",
+  "type": "Person",
+  "_label": "Anthony Berger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12124",
+      "type": "Name",
+      "_label": "Anthony Berger"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5549",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12124",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24248",
+      "type": "TimeSpan",
+      "_label": "Anthony Berger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12124",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24249",
+      "type": "TimeSpan",
+      "_label": "Anthony Berger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12124",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12124",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1580",
+              "type": "Event",
+              "_label": "From the Gilman Collection: Photographs Preserved in Ink",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-11 - 1985-3-3",
+                "begin_of_the_begin": "1984-15-11",
+                "end_of_the_end": "1985-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38532",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1962",
+              "type": "Event",
+              "_label": "American Politicians: Photographs from 1843 to 1993",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-10 - 1995-3-1",
+                "begin_of_the_begin": "1994-5-10",
+                "end_of_the_end": "1995-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38533",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32343",
+  "type": "Person",
+  "_label": "Juan Palomar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11200",
+      "type": "Name",
+      "_label": "Juan Palomar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11200",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22400",
+      "type": "TimeSpan",
+      "_label": "Juan Palomar Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11200",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22401",
+      "type": "TimeSpan",
+      "_label": "Juan Palomar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11200",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11200",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1286",
+              "type": "Event",
+              "_label": "The Architecture of Luis Barragán",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-4-6 - 1976-1-9",
+                "begin_of_the_begin": "1976-4-6",
+                "end_of_the_end": "1976-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36352",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

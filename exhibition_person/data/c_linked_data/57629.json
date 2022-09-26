@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57629",
+  "type": "Person",
+  "_label": "Pierre Louaver",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16115",
+      "type": "Name",
+      "_label": "Pierre Louaver"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16115",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32230",
+      "type": "TimeSpan",
+      "_label": "Pierre Louaver Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16115",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32231",
+      "type": "TimeSpan",
+      "_label": "Pierre Louaver Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16115",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16115",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2794",
+              "type": "Event",
+              "_label": "National Studio Artists (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61693",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3671",
+              "type": "Event",
+              "_label": "National Studio Program Open Studios",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-21-1 - 1983-22-1",
+                "begin_of_the_begin": "1983-21-1",
+                "end_of_the_end": "1983-22-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61694",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

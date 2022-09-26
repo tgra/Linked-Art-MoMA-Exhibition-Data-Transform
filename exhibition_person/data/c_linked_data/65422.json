@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65422",
+  "type": "Person",
+  "_label": "Kazumi Tanaka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21699",
+      "type": "Name",
+      "_label": "Kazumi Tanaka"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21699",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43398",
+      "type": "TimeSpan",
+      "_label": "Kazumi Tanaka Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21699",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43399",
+      "type": "TimeSpan",
+      "_label": "Kazumi Tanaka Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21699",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21699",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21983",
+              "type": "Event",
+              "_label": "Kazumi Tanaka",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73579",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17107",
+              "type": "Event",
+              "_label": "A Labor of Love",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-20-1 - 1996-14-4",
+                "begin_of_the_begin": "1996-20-1",
+                "end_of_the_end": "1996-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73580",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

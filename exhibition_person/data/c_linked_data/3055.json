@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3055",
+  "type": "Person",
+  "_label": "Karl Koepping",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9266",
+      "type": "Name",
+      "_label": "Karl Koepping"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5116",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1848–1914"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9266",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18532",
+      "type": "TimeSpan",
+      "_label": "Karl Koepping Birth timespan",
+      "begin_of_the_begin": "1848",
+      "end_of_the_end": "1848"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9266",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18533",
+      "type": "TimeSpan",
+      "_label": "Karl Koepping Death timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9266",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9266",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/738",
+              "type": "Event",
+              "_label": "Art Nouveau",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-6 - 1960-6-9",
+                "begin_of_the_begin": "1960-8-6",
+                "end_of_the_end": "1960-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32667",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1260",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Design Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-21-11 - 1976-11-1",
+                "begin_of_the_begin": "1975-21-11",
+                "end_of_the_end": "1976-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32668",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

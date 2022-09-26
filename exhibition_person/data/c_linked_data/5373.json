@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5373",
+  "type": "Person",
+  "_label": "Paul Staiger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14806",
+      "type": "Name",
+      "_label": "Paul Staiger"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7356",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14806",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29612",
+      "type": "TimeSpan",
+      "_label": "Paul Staiger Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14806",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29613",
+      "type": "TimeSpan",
+      "_label": "Paul Staiger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14806",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14806",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4173",
+              "type": "Event",
+              "_label": "A Selection of American and European Paintings from the Richard Brown Baker Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-7-12 - 1974-27-1",
+                "begin_of_the_begin": "1973-7-12",
+                "end_of_the_end": "1974-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/56982",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

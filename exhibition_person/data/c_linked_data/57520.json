@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57520",
+  "type": "Person",
+  "_label": "Luke Roberts",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15998",
+      "type": "Name",
+      "_label": "Luke Roberts"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15998",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31996",
+      "type": "TimeSpan",
+      "_label": "Luke Roberts Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15998",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31997",
+      "type": "TimeSpan",
+      "_label": "Luke Roberts Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15998",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15998",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3640",
+              "type": "Event",
+              "_label": "21st National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-16-5 - 1997-14-6",
+                "begin_of_the_begin": "1997-16-5",
+                "end_of_the_end": "1997-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61380",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

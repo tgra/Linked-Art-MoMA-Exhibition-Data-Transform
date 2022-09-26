@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67296",
+  "type": "Person",
+  "_label": "Hope Hamilton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22639",
+      "type": "Name",
+      "_label": "Hope Hamilton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22639",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45278",
+      "type": "TimeSpan",
+      "_label": "Hope Hamilton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22639",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45279",
+      "type": "TimeSpan",
+      "_label": "Hope Hamilton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22639",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22639",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18589",
+              "type": "Event",
+              "_label": "The Absolutely Other",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-25-6 - ",
+                "begin_of_the_begin": "2010-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75468",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

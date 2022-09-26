@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60867",
+  "type": "Person",
+  "_label": "Rene Gabri",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19582",
+      "type": "Name",
+      "_label": "Rene Gabri"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19582",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39164",
+      "type": "TimeSpan",
+      "_label": "Rene Gabri Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19582",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39165",
+      "type": "TimeSpan",
+      "_label": "Rene Gabri Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19582",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19582",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4293",
+              "type": "Event",
+              "_label": "The Big Nothing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-1-5 - 2004-1-8",
+                "begin_of_the_begin": "2004-1-5",
+                "end_of_the_end": "2004-1-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68797",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21847",
+              "type": "Event",
+              "_label": "Museum as Hub: In and Out of Context REDUX",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-26-3 - 2010-25-7",
+                "begin_of_the_begin": "2010-26-3",
+                "end_of_the_end": "2010-25-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68798",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62624",
+  "type": "Person",
+  "_label": "Mike Paré",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20433",
+      "type": "Name",
+      "_label": "Mike Paré"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20433",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40866",
+      "type": "TimeSpan",
+      "_label": "Mike Paré Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20433",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40867",
+      "type": "TimeSpan",
+      "_label": "Mike Paré Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20433",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20433",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5145",
+              "type": "Event",
+              "_label": "White Room: Mike Paré",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-4-5 - 2001-10-6",
+                "begin_of_the_begin": "2001-4-5",
+                "end_of_the_end": "2001-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70682",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

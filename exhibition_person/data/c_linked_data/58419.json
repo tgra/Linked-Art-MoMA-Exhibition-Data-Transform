@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58419",
+  "type": "Person",
+  "_label": "Gerald Little",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16962",
+      "type": "Name",
+      "_label": "Gerald Little"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16962",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33924",
+      "type": "TimeSpan",
+      "_label": "Gerald Little Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16962",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33925",
+      "type": "TimeSpan",
+      "_label": "Gerald Little Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16962",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16962",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2798",
+              "type": "Event",
+              "_label": "Performance (Spring 1982): Performance Rites: the Word, the Flesh, the Fracas, and the Light",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-11-4 - 1982-2-5",
+                "begin_of_the_begin": "1982-11-4",
+                "end_of_the_end": "1982-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63375",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

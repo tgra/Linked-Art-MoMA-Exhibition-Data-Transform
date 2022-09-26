@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64958",
+  "type": "Person",
+  "_label": "Irvin Tepper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21504",
+      "type": "Name",
+      "_label": "Irvin Tepper"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21504",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43008",
+      "type": "TimeSpan",
+      "_label": "Irvin Tepper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21504",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43009",
+      "type": "TimeSpan",
+      "_label": "Irvin Tepper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21504",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21504",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22028",
+              "type": "Event",
+              "_label": "Stay Tuned",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-25-7 - 1981-10-9",
+                "begin_of_the_begin": "1981-25-7",
+                "end_of_the_end": "1981-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73106",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17244",
+              "type": "Event",
+              "_label": "Language, Drama, Source and Vision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-8-10 - 1983-27-11",
+                "begin_of_the_begin": "1983-8-10",
+                "end_of_the_end": "1983-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73107",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

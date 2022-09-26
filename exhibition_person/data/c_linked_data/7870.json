@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7870",
+  "type": "Person",
+  "_label": "Matilda A. Haviland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25820",
+      "type": "Name",
+      "_label": "Matilda A. Haviland"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9062",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1800–1840"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25820",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51640",
+      "type": "TimeSpan",
+      "_label": "Matilda A. Haviland Birth timespan",
+      "begin_of_the_begin": "1800",
+      "end_of_the_end": "1800"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25820",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51641",
+      "type": "TimeSpan",
+      "_label": "Matilda A. Haviland Death timespan",
+      "begin_of_the_begin": "1840",
+      "end_of_the_end": "1840"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25820",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25820",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/23",
+              "type": "Event",
+              "_label": "American Folk Art: The Art of the Common Man in America, 1750–1900",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-30-11 - 1933-14-1",
+                "begin_of_the_begin": "1932-30-11",
+                "end_of_the_end": "1933-14-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84169",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

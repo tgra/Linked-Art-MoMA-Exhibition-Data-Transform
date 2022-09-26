@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/43207",
+  "type": "Person",
+  "_label": "Fort Wayne Museum of Art",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13786",
+      "type": "Name",
+      "_label": "Fort Wayne Museum of Art"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13786",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27572",
+      "type": "TimeSpan",
+      "_label": "Fort Wayne Museum of Art Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13786",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27573",
+      "type": "TimeSpan",
+      "_label": "Fort Wayne Museum of Art Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13786",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13786",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17099",
+              "type": "Event",
+              "_label": "Dancing at the Louvre: Faith Ringgold's French Collection and Other Story Quilts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-1-10 - 1999-3-1",
+                "begin_of_the_begin": "1998-1-10",
+                "end_of_the_end": "1999-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/48169",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32176",
+  "type": "Person",
+  "_label": "Margaret D. Garrett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11020",
+      "type": "Name",
+      "_label": "Margaret D. Garrett"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11020",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22040",
+      "type": "TimeSpan",
+      "_label": "Margaret D. Garrett Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11020",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22041",
+      "type": "TimeSpan",
+      "_label": "Margaret D. Garrett Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11020",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11020",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/322",
+              "type": "Event",
+              "_label": "American Battle Painting 1776–1918",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-26-9 - 1944-12-11",
+                "begin_of_the_begin": "1944-26-9",
+                "end_of_the_end": "1944-12-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36063",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

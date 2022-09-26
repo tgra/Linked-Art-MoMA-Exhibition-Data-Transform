@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62408",
+  "type": "Person",
+  "_label": "Sigrid McCabe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20344",
+      "type": "Name",
+      "_label": "Sigrid McCabe"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20344",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40688",
+      "type": "TimeSpan",
+      "_label": "Sigrid McCabe Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20344",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40689",
+      "type": "TimeSpan",
+      "_label": "Sigrid McCabe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20344",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20344",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5192",
+              "type": "Event",
+              "_label": "White Room: Sigrid McCabe",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-12-5 - 1987-23-5",
+                "begin_of_the_begin": "1987-12-5",
+                "end_of_the_end": "1987-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70487",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4953",
+              "type": "Event",
+              "_label": "Update 1986-87",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-29-5 - 1987-20-6",
+                "begin_of_the_begin": "1987-29-5",
+                "end_of_the_end": "1987-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70488",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

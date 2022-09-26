@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65867",
+  "type": "Person",
+  "_label": "Marylène Negro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21927",
+      "type": "Name",
+      "_label": "Marylène Negro"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21927",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43854",
+      "type": "TimeSpan",
+      "_label": "Marylène Negro Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21927",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43855",
+      "type": "TimeSpan",
+      "_label": "Marylène Negro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21927",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21927",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17130",
+              "type": "Event",
+              "_label": "The Spatial Drive",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74005",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74006",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

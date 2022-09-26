@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57023",
+  "type": "Person",
+  "_label": "Diane Bertolo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15463",
+      "type": "Name",
+      "_label": "Diane Bertolo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15463",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30926",
+      "type": "TimeSpan",
+      "_label": "Diane Bertolo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15463",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30927",
+      "type": "TimeSpan",
+      "_label": "Diane Bertolo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15463",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15463",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3747",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-17-1 - 1987-22-2",
+                "begin_of_the_begin": "1987-17-1",
+                "end_of_the_end": "1987-22-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60252",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/22031",
+              "type": "Event",
+              "_label": "HALLWALLS: 5 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-30-6 - 1980-18-7",
+                "begin_of_the_begin": "1980-30-6",
+                "end_of_the_end": "1980-18-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60253",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

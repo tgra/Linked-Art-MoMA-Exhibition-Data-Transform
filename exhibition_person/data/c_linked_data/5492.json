@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5492",
+  "type": "Person",
+  "_label": "Jindřich Štyrský",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14905",
+      "type": "Name",
+      "_label": "Jindřich Štyrský"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7455",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Czech, 1899–1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14905",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29810",
+      "type": "TimeSpan",
+      "_label": "Jindřich Štyrský Birth timespan",
+      "begin_of_the_begin": "1899",
+      "end_of_the_end": "1899"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14905",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29811",
+      "type": "TimeSpan",
+      "_label": "Jindřich Štyrský Death timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14905",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14905",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2421",
+              "type": "Event",
+              "_label": "Painting and Scultpure Changes 2009",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-1-1 - 2009-31-12",
+                "begin_of_the_begin": "2009-1-1",
+                "end_of_the_end": "2009-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/58111",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2497",
+              "type": "Event",
+              "_label": "The Original Copy: Photography of Sculpture, 1839 to Today",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-1-8 - 2010-1-11",
+                "begin_of_the_begin": "2010-1-8",
+                "end_of_the_end": "2010-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/58112",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

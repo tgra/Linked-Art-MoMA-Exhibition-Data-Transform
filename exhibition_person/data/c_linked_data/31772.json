@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31772",
+  "type": "Person",
+  "_label": "B.S. Cunningham Company",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10587",
+      "type": "Name",
+      "_label": "B.S. Cunningham Company"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10587",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21174",
+      "type": "TimeSpan",
+      "_label": "B.S. Cunningham Company Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10587",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21175",
+      "type": "TimeSpan",
+      "_label": "B.S. Cunningham Company Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10587",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10587",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/609",
+              "type": "Event",
+              "_label": "Ten Automobiles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-15-9 - 1953-4-10",
+                "begin_of_the_begin": "1953-15-9",
+                "end_of_the_end": "1953-4-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35323",
+                  "type": "Place",
+                  "_label": "Sculpture Garden, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

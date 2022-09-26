@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32230",
+  "type": "Person",
+  "_label": "Michael Stone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11080",
+      "type": "Name",
+      "_label": "Michael Stone"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5352",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1945"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11080",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22160",
+      "type": "TimeSpan",
+      "_label": "Michael Stone Birth timespan",
+      "begin_of_the_begin": "1945",
+      "end_of_the_end": "1945"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11080",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22161",
+      "type": "TimeSpan",
+      "_label": "Michael Stone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11080",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11080",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1039",
+              "type": "Event",
+              "_label": "Photography Into Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-8-4 - 1970-5-7",
+                "begin_of_the_begin": "1970-8-4",
+                "end_of_the_end": "1970-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36147",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

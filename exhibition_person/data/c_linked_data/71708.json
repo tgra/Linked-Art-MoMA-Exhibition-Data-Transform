@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71708",
+  "type": "Person",
+  "_label": "James Hansen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25139",
+      "type": "Name",
+      "_label": "James Hansen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25139",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50278",
+      "type": "TimeSpan",
+      "_label": "James Hansen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25139",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50279",
+      "type": "TimeSpan",
+      "_label": "James Hansen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25139",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25139",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6423",
+              "type": "Event",
+              "_label": "1953 Annual Exhibition of Contemporary American Sculpture, Watercolors, and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-9-4 - 1953-29-5",
+                "begin_of_the_begin": "1953-9-4",
+                "end_of_the_end": "1953-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81038",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

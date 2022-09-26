@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57752",
+  "type": "Person",
+  "_label": "Betsy Hulton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16245",
+      "type": "Name",
+      "_label": "Betsy Hulton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32490",
+      "type": "TimeSpan",
+      "_label": "Betsy Hulton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32491",
+      "type": "TimeSpan",
+      "_label": "Betsy Hulton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2754",
+              "type": "Event",
+              "_label": "Spring Dance Series (1986): Shared and Borrowed Images: Cross-Cultural Influences in Contemporary Dance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-10-5 - 1986-22-6",
+                "begin_of_the_begin": "1986-10-5",
+                "end_of_the_end": "1986-22-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61920",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

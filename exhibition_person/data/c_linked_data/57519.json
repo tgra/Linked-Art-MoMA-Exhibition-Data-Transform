@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57519",
+  "type": "Person",
+  "_label": "Job Koelewyn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15996",
+      "type": "Name",
+      "_label": "Job Koelewyn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15996",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31992",
+      "type": "TimeSpan",
+      "_label": "Job Koelewyn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15996",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31993",
+      "type": "TimeSpan",
+      "_label": "Job Koelewyn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15996",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15996",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3640",
+              "type": "Event",
+              "_label": "21st National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-16-5 - 1997-14-6",
+                "begin_of_the_begin": "1997-16-5",
+                "end_of_the_end": "1997-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61377",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

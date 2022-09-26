@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9839",
+  "type": "Person",
+  "_label": "Kirill Zdanevich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26699",
+      "type": "Name",
+      "_label": "Kirill Zdanevich"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9545",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, 1892–1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26699",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53398",
+      "type": "TimeSpan",
+      "_label": "Kirill Zdanevich Birth timespan",
+      "begin_of_the_begin": "1892",
+      "end_of_the_end": "1892"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26699",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53399",
+      "type": "TimeSpan",
+      "_label": "Kirill Zdanevich Death timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26699",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26699",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1667",
+              "type": "Event",
+              "_label": "Iliazd and the Illustrated Book",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-16-6 - 1987-18-8",
+                "begin_of_the_begin": "1987-16-6",
+                "end_of_the_end": "1987-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87800",
+                  "type": "Place",
+                  "_label": "Ground Floor, International Council Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2229",
+              "type": "Event",
+              "_label": "The Russian Avant-Garde Book 1910–1934",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-28-3 - 2002-21-5",
+                "begin_of_the_begin": "2002-28-3",
+                "end_of_the_end": "2002-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87801",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

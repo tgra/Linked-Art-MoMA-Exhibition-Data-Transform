@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64951",
+  "type": "Person",
+  "_label": "Iona Rozeal Brown",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21501",
+      "type": "Name",
+      "_label": "Iona Rozeal Brown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21501",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43002",
+      "type": "TimeSpan",
+      "_label": "Iona Rozeal Brown Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21501",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43003",
+      "type": "TimeSpan",
+      "_label": "Iona Rozeal Brown Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21501",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21501",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21906",
+              "type": "Event",
+              "_label": "Sixth Annual Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-29-10 - 2004-20-11",
+                "begin_of_the_begin": "2004-29-10",
+                "end_of_the_end": "2004-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73103",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

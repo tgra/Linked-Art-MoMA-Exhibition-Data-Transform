@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71278",
+  "type": "Person",
+  "_label": "Nicholas Vasilieff",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24681",
+      "type": "Name",
+      "_label": "Nicholas Vasilieff"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24681",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49362",
+      "type": "TimeSpan",
+      "_label": "Nicholas Vasilieff Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24681",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49363",
+      "type": "TimeSpan",
+      "_label": "Nicholas Vasilieff Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24681",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24681",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54767",
+              "type": "Event",
+              "_label": "Selections from the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-4-1 - ",
+                "begin_of_the_begin": "1962-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79954",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6446",
+              "type": "Event",
+              "_label": "1955 Annual Exhibition of Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-9-11 - 1956-8-1",
+                "begin_of_the_begin": "1955-9-11",
+                "end_of_the_end": "1956-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79955",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

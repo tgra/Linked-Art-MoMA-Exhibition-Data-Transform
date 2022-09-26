@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68378",
+  "type": "Person",
+  "_label": "MARIO",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23199",
+      "type": "Name",
+      "_label": "MARIO"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23199",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46398",
+      "type": "TimeSpan",
+      "_label": "MARIO Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23199",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46399",
+      "type": "TimeSpan",
+      "_label": "MARIO Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23199",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23199",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17275",
+              "type": "Event",
+              "_label": "Events: Fashion Moda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-8-1",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76454",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8027",
+  "type": "Person",
+  "_label": "John D. Thomas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25911",
+      "type": "Name",
+      "_label": "John D. Thomas"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9152",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, died 1947"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25911",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51822",
+      "type": "TimeSpan",
+      "_label": "John D. Thomas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25911",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51823",
+      "type": "TimeSpan",
+      "_label": "John D. Thomas Death timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25911",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25911",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1962",
+              "type": "Event",
+              "_label": "American Politicians: Photographs from 1843 to 1993",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-10 - 1995-3-1",
+                "begin_of_the_begin": "1994-5-10",
+                "end_of_the_end": "1995-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84528",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

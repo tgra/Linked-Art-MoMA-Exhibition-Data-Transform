@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3555",
+  "type": "Person",
+  "_label": "Gerard Malanga",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12540",
+      "type": "Name",
+      "_label": "Gerard Malanga"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5888",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1943"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12540",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25080",
+      "type": "TimeSpan",
+      "_label": "Gerard Malanga Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12540",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25081",
+      "type": "TimeSpan",
+      "_label": "Gerard Malanga Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12540",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12540",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3660",
+              "type": "Event",
+              "_label": "Five Thursday Poetry Readings at the Clocktower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-12-2 - 1976-11-3",
+                "begin_of_the_begin": "1976-12-2",
+                "end_of_the_end": "1976-11-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40834",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

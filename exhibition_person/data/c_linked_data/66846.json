@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66846",
+  "type": "Person",
+  "_label": "Suzanne Bloom",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22386",
+      "type": "Name",
+      "_label": "Suzanne Bloom"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22386",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44772",
+      "type": "TimeSpan",
+      "_label": "Suzanne Bloom Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22386",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44773",
+      "type": "TimeSpan",
+      "_label": "Suzanne Bloom Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22386",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22386",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22006",
+              "type": "Event",
+              "_label": "Signs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-27-4 - 1985-7-7",
+                "begin_of_the_begin": "1985-27-4",
+                "end_of_the_end": "1985-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74960",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

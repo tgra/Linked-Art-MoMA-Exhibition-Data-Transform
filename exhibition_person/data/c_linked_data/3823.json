@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3823",
+  "type": "Person",
+  "_label": "Raùl Miliàn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13357",
+      "type": "Name",
+      "_label": "Raùl Miliàn"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6123",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Cuban, 1914–1984"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13357",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26714",
+      "type": "TimeSpan",
+      "_label": "Raùl Miliàn Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13357",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26715",
+      "type": "TimeSpan",
+      "_label": "Raùl Miliàn Death timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13357",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13357",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/687",
+              "type": "Event",
+              "_label": "Recent American Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-14-3 - 1957-30-4",
+                "begin_of_the_begin": "1957-14-3",
+                "end_of_the_end": "1957-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43890",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/780",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-19-12 - 1962-25-2",
+                "begin_of_the_begin": "1961-19-12",
+                "end_of_the_end": "1962-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43891",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

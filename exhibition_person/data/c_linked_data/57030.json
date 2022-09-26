@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57030",
+  "type": "Person",
+  "_label": "Andrea Blum",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15471",
+      "type": "Name",
+      "_label": "Andrea Blum"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15471",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30942",
+      "type": "TimeSpan",
+      "_label": "Andrea Blum Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15471",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30943",
+      "type": "TimeSpan",
+      "_label": "Andrea Blum Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15471",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15471",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3222",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1979)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-1-4",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60264",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3074",
+              "type": "Event",
+              "_label": "New York Diary: Almost Twenty-Five Different Things",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-4 - 1991-9-6",
+                "begin_of_the_begin": "1991-14-4",
+                "end_of_the_end": "1991-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60265",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

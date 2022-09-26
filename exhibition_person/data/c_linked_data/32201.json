@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32201",
+  "type": "Person",
+  "_label": "Ray Faulkner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11048",
+      "type": "Name",
+      "_label": "Ray Faulkner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11048",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22096",
+      "type": "TimeSpan",
+      "_label": "Ray Faulkner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11048",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22097",
+      "type": "TimeSpan",
+      "_label": "Ray Faulkner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11048",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11048",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/213",
+              "type": "Event",
+              "_label": "Pictures for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-10-12 - 1942-25-1",
+                "begin_of_the_begin": "1941-10-12",
+                "end_of_the_end": "1942-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36105",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

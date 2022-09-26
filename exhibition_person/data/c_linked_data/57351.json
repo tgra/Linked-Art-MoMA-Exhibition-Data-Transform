@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57351",
+  "type": "Person",
+  "_label": "Robert George",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15818",
+      "type": "Name",
+      "_label": "Robert George"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15818",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31636",
+      "type": "TimeSpan",
+      "_label": "Robert George Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15818",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31637",
+      "type": "TimeSpan",
+      "_label": "Robert George Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15818",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15818",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2986",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-1 - 1977-1-3",
+                "begin_of_the_begin": "1977-1-1",
+                "end_of_the_end": "1977-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60968",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3156",
+              "type": "Event",
+              "_label": "Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60969",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

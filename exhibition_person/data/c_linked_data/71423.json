@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71423",
+  "type": "Person",
+  "_label": "Grace Raney",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24836",
+      "type": "Name",
+      "_label": "Grace Raney"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24836",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49672",
+      "type": "TimeSpan",
+      "_label": "Grace Raney Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24836",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49673",
+      "type": "TimeSpan",
+      "_label": "Grace Raney Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24836",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24836",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6404",
+              "type": "Event",
+              "_label": "1951 Annual Exhibition of Contemporary American Sculpture, Watercolors, and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-17-3 - 1951-6-5",
+                "begin_of_the_begin": "1951-17-3",
+                "end_of_the_end": "1951-6-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80457",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59059",
+  "type": "Person",
+  "_label": "Susan Crile",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17653",
+      "type": "Name",
+      "_label": "Susan Crile"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17653",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35306",
+      "type": "TimeSpan",
+      "_label": "Susan Crile Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17653",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35307",
+      "type": "TimeSpan",
+      "_label": "Susan Crile Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17653",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17653",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3207",
+              "type": "Event",
+              "_label": "A Great Big Drawing Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-1-4",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64680",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6671",
+              "type": "Event",
+              "_label": "1972 Annual Exhibition: Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-24-1 - 1972-19-3",
+                "begin_of_the_begin": "1972-24-1",
+                "end_of_the_end": "1972-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64681",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

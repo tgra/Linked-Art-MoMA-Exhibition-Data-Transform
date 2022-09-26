@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60186",
+  "type": "Person",
+  "_label": "Graciela Carnevale",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18861",
+      "type": "Name",
+      "_label": "Graciela Carnevale"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18861",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37722",
+      "type": "TimeSpan",
+      "_label": "Graciela Carnevale Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18861",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37723",
+      "type": "TimeSpan",
+      "_label": "Graciela Carnevale Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18861",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18861",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3193",
+              "type": "Event",
+              "_label": "The Talent Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-12-12 - 2011-4-4",
+                "begin_of_the_begin": "2010-12-12",
+                "end_of_the_end": "2011-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67239",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

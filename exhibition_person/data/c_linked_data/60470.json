@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60470",
+  "type": "Person",
+  "_label": "Jillian Mayer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19167",
+      "type": "Name",
+      "_label": "Jillian Mayer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19167",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38334",
+      "type": "TimeSpan",
+      "_label": "Jillian Mayer Birth timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19167",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38335",
+      "type": "TimeSpan",
+      "_label": "Jillian Mayer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19167",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19167",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3595",
+              "type": "Event",
+              "_label": "Past Skin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-9-4 - 2017-10-9",
+                "begin_of_the_begin": "2017-9-4",
+                "end_of_the_end": "2017-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67903",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

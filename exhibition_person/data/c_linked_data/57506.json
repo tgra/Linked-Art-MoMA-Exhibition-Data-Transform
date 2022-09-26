@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57506",
+  "type": "Person",
+  "_label": "Fedo Ertl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15982",
+      "type": "Name",
+      "_label": "Fedo Ertl"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15982",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31964",
+      "type": "TimeSpan",
+      "_label": "Fedo Ertl Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15982",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31965",
+      "type": "TimeSpan",
+      "_label": "Fedo Ertl Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15982",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15982",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3117",
+              "type": "Event",
+              "_label": "In Their Own Image: The 1992–1993 Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-2 - 1993-14-3",
+                "begin_of_the_begin": "1993-14-2",
+                "end_of_the_end": "1993-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61294",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

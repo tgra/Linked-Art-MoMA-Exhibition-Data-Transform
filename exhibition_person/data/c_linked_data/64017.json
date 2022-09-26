@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64017",
+  "type": "Person",
+  "_label": "Brian Tripp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21110",
+      "type": "Name",
+      "_label": "Brian Tripp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21110",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42220",
+      "type": "TimeSpan",
+      "_label": "Brian Tripp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21110",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42221",
+      "type": "TimeSpan",
+      "_label": "Brian Tripp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21110",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21110",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17123",
+              "type": "Event",
+              "_label": "Trade Routes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-10-9 - 1993-7-11",
+                "begin_of_the_begin": "1993-10-9",
+                "end_of_the_end": "1993-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72441",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17003",
+              "type": "Event",
+              "_label": "Occupied Territory: A New Museum Trilogy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-22-1 - 2014-13-4",
+                "begin_of_the_begin": "2014-22-1",
+                "end_of_the_end": "2014-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72442",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

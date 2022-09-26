@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33301",
+  "type": "Person",
+  "_label": "Ben Langlands",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12147",
+      "type": "Name",
+      "_label": "Ben Langlands"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5559",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1955"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12147",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24294",
+      "type": "TimeSpan",
+      "_label": "Ben Langlands Birth timespan",
+      "begin_of_the_begin": "1955",
+      "end_of_the_end": "1955"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12147",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24295",
+      "type": "TimeSpan",
+      "_label": "Ben Langlands Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12147",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12147",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21915",
+              "type": "Event",
+              "_label": "Living Inside the Grid",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-28-2 - 2003-15-7",
+                "begin_of_the_begin": "2003-28-2",
+                "end_of_the_end": "2003-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38595",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

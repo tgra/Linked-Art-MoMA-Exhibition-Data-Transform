@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64398",
+  "type": "Person",
+  "_label": "Dennis Gillingwater",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21256",
+      "type": "Name",
+      "_label": "Dennis Gillingwater"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21256",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42512",
+      "type": "TimeSpan",
+      "_label": "Dennis Gillingwater Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21256",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42513",
+      "type": "TimeSpan",
+      "_label": "Dennis Gillingwater Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21256",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21256",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17187",
+              "type": "Event",
+              "_label": "Denis Gillingwater: Peering Beyond the Mask",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-8-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-8-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72727",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

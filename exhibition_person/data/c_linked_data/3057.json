@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3057",
+  "type": "Person",
+  "_label": "Jinkichi Koga",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9288",
+      "type": "Name",
+      "_label": "Jinkichi Koga"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5118",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9288",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18576",
+      "type": "TimeSpan",
+      "_label": "Jinkichi Koga Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9288",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18577",
+      "type": "TimeSpan",
+      "_label": "Jinkichi Koga Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9288",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9288",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/708",
+              "type": "Event",
+              "_label": "Photographs from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-26-11 - 1959-18-1",
+                "begin_of_the_begin": "1958-26-11",
+                "end_of_the_end": "1959-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32711",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

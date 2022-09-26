@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32221",
+  "type": "Person",
+  "_label": "Darryl Curran",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11070",
+      "type": "Name",
+      "_label": "Darryl Curran"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5342",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11070",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22140",
+      "type": "TimeSpan",
+      "_label": "Darryl Curran Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11070",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22141",
+      "type": "TimeSpan",
+      "_label": "Darryl Curran Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11070",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11070",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1039",
+              "type": "Event",
+              "_label": "Photography Into Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-8-4 - 1970-5-7",
+                "begin_of_the_begin": "1970-8-4",
+                "end_of_the_end": "1970-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36134",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1383",
+              "type": "Event",
+              "_label": "Mirrors and Windows: American Photography Since 1960",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-26-7 - 1978-2-10",
+                "begin_of_the_begin": "1978-26-7",
+                "end_of_the_end": "1978-2-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36135",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60172",
+  "type": "Person",
+  "_label": "Performa 09",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18847",
+      "type": "Name",
+      "_label": "Performa 09"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18847",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37694",
+      "type": "TimeSpan",
+      "_label": "Performa 09 Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18847",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37695",
+      "type": "TimeSpan",
+      "_label": "Performa 09 Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18847",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18847",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3359",
+              "type": "Event",
+              "_label": "100 Years (version #2, ps1, nov 2009)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-1-11 - 2010-3-5",
+                "begin_of_the_begin": "2009-1-11",
+                "end_of_the_end": "2010-3-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67216",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/50785",
+  "type": "Person",
+  "_label": "Rudi Gernreich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14445",
+      "type": "Name",
+      "_label": "Rudi Gernreich"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14445",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28890",
+      "type": "TimeSpan",
+      "_label": "Rudi Gernreich Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14445",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28891",
+      "type": "TimeSpan",
+      "_label": "Rudi Gernreich Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14445",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14445",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4323",
+              "type": "Event",
+              "_label": "Rudi Gernreich: Fashion Will Go Out of Fashion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-15-9 - 2001-11-11",
+                "begin_of_the_begin": "2001-15-9",
+                "end_of_the_end": "2001-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54127",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

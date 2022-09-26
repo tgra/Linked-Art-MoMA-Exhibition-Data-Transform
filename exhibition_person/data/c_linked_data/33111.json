@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33111",
+  "type": "Person",
+  "_label": "Roseanne Livingston",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12020",
+      "type": "Name",
+      "_label": "Roseanne Livingston"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12020",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24040",
+      "type": "TimeSpan",
+      "_label": "Roseanne Livingston Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12020",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24041",
+      "type": "TimeSpan",
+      "_label": "Roseanne Livingston Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12020",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12020",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54821",
+              "type": "Event",
+              "_label": "NewYork/New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-9 - ",
+                "begin_of_the_begin": "1978-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38293",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1388",
+              "type": "Event",
+              "_label": "New York/New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-11-9 - 1978-13-11",
+                "begin_of_the_begin": "1978-11-9",
+                "end_of_the_end": "1978-13-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38294",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

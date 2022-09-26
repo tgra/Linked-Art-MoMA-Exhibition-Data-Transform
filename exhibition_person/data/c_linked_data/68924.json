@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68924",
+  "type": "Person",
+  "_label": "TempAgency",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23437",
+      "type": "Name",
+      "_label": "TempAgency"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23437",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46874",
+      "type": "TimeSpan",
+      "_label": "TempAgency Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23437",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46875",
+      "type": "TimeSpan",
+      "_label": "TempAgency Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23437",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23437",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2645",
+              "type": "Event",
+              "_label": "Young Architects Program 2013 (MoMA): Exhibition of Designs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-2-7 - 2013-2-9",
+                "begin_of_the_begin": "2013-2-7",
+                "end_of_the_end": "2013-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76856",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57076",
+  "type": "Person",
+  "_label": "Roy DeForest",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15520",
+      "type": "Name",
+      "_label": "Roy DeForest"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15520",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31040",
+      "type": "TimeSpan",
+      "_label": "Roy DeForest Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15520",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31041",
+      "type": "TimeSpan",
+      "_label": "Roy DeForest Death timespan",
+      "begin_of_the_begin": "2007",
+      "end_of_the_end": "2007"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15520",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15520",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2786",
+              "type": "Event",
+              "_label": "Beast: Animal Imagery in Recent Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60359",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6757",
+              "type": "Event",
+              "_label": "Roy DeForest: Retrospective 1975",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-27-3 - 1975-4-5",
+                "begin_of_the_begin": "1975-27-3",
+                "end_of_the_end": "1975-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60360",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

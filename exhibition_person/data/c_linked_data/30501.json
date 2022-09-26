@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30501",
+  "type": "Person",
+  "_label": "Lillian Bassman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9213",
+      "type": "Name",
+      "_label": "Lillian Bassman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5104",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1917–2012"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9213",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18426",
+      "type": "TimeSpan",
+      "_label": "Lillian Bassman Birth timespan",
+      "begin_of_the_begin": "1917",
+      "end_of_the_end": "1917"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9213",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18427",
+      "type": "TimeSpan",
+      "_label": "Lillian Bassman Death timespan",
+      "begin_of_the_begin": "2012",
+      "end_of_the_end": "2012"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9213",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9213",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/470",
+              "type": "Event",
+              "_label": "The 28th Annual Exhibition of Advertising and Editorial Art of the New York Art Directors Club",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-3 - 1949-17-4",
+                "begin_of_the_begin": "1949-15-3",
+                "end_of_the_end": "1949-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32587",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

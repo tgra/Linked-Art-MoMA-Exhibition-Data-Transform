@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32807",
+  "type": "Person",
+  "_label": "Helen Oji",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11696",
+      "type": "Name",
+      "_label": "Helen Oji"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11696",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23392",
+      "type": "TimeSpan",
+      "_label": "Helen Oji Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11696",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23393",
+      "type": "TimeSpan",
+      "_label": "Helen Oji Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11696",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11696",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17241",
+              "type": "Event",
+              "_label": "The End of the World: Contemporary Visions of the Apocalypse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-12 - 1984-22-1",
+                "begin_of_the_begin": "1983-10-12",
+                "end_of_the_end": "1984-22-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37448",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1484",
+              "type": "Event",
+              "_label": "New Art II: Surfaces/Textures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-3 - 1981-9-6",
+                "begin_of_the_begin": "1981-26-3",
+                "end_of_the_end": "1981-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37449",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

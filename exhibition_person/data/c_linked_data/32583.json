@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32583",
+  "type": "Person",
+  "_label": "Giovanni Michelucci",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11459",
+      "type": "Name",
+      "_label": "Giovanni Michelucci"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11459",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22918",
+      "type": "TimeSpan",
+      "_label": "Giovanni Michelucci Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11459",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22919",
+      "type": "TimeSpan",
+      "_label": "Giovanni Michelucci Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11459",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11459",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1416",
+              "type": "Event",
+              "_label": "Transformations in Modern Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-21-2 - 1979-24-4",
+                "begin_of_the_begin": "1979-21-2",
+                "end_of_the_end": "1979-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36823",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

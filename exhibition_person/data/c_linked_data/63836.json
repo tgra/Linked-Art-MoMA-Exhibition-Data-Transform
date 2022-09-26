@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63836",
+  "type": "Person",
+  "_label": "Aron Ranen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21040",
+      "type": "Name",
+      "_label": "Aron Ranen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21040",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42080",
+      "type": "TimeSpan",
+      "_label": "Aron Ranen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21040",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42081",
+      "type": "TimeSpan",
+      "_label": "Aron Ranen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21040",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21040",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17178",
+              "type": "Event",
+              "_label": "Social Studies: Recent Work on Video and Film",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-20-11 - 1988-20-1",
+                "begin_of_the_begin": "1987-20-11",
+                "end_of_the_end": "1988-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72352",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

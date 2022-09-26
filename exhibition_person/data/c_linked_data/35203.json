@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35203",
+  "type": "Person",
+  "_label": "Calvin Marcus",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12502",
+      "type": "Name",
+      "_label": "Calvin Marcus"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5854",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1988"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12502",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25004",
+      "type": "TimeSpan",
+      "_label": "Calvin Marcus Birth timespan",
+      "begin_of_the_begin": "1988",
+      "end_of_the_end": "1988"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12502",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25005",
+      "type": "TimeSpan",
+      "_label": "Calvin Marcus Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12502",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12502",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28418",
+              "type": "Event",
+              "_label": "Whitney Biennial 2019",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2019-17-5 - 2019-22-9",
+                "begin_of_the_begin": "2019-17-5",
+                "end_of_the_end": "2019-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40620",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

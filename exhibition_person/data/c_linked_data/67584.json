@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67584",
+  "type": "Person",
+  "_label": "Dael Orlandersmith",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22945",
+      "type": "Name",
+      "_label": "Dael Orlandersmith"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22945",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45890",
+      "type": "TimeSpan",
+      "_label": "Dael Orlandersmith Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22945",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45891",
+      "type": "TimeSpan",
+      "_label": "Dael Orlandersmith Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22945",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22945",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75923",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67285",
+  "type": "Person",
+  "_label": "Hayal Pozanti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22627",
+      "type": "Name",
+      "_label": "Hayal Pozanti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22627",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45254",
+      "type": "TimeSpan",
+      "_label": "Hayal Pozanti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22627",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45255",
+      "type": "TimeSpan",
+      "_label": "Hayal Pozanti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22627",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22627",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18330",
+              "type": "Event",
+              "_label": "From Minimalism into Algo…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-8-1 - ",
+                "begin_of_the_begin": "2016-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75453",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

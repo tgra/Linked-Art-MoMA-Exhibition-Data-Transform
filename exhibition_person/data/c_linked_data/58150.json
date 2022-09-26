@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58150",
+  "type": "Person",
+  "_label": "Bolivar Arellano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16673",
+      "type": "Name",
+      "_label": "Bolivar Arellano"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16673",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33346",
+      "type": "TimeSpan",
+      "_label": "Bolivar Arellano Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16673",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33347",
+      "type": "TimeSpan",
+      "_label": "Bolivar Arellano Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16673",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16673",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2803",
+              "type": "Event",
+              "_label": "Timeline: The Chronicle of US Intervention in Central and Latin America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62806",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

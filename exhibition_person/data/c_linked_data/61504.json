@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61504",
+  "type": "Person",
+  "_label": "Anita Curtis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19996",
+      "type": "Name",
+      "_label": "Anita Curtis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19996",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39992",
+      "type": "TimeSpan",
+      "_label": "Anita Curtis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19996",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39993",
+      "type": "TimeSpan",
+      "_label": "Anita Curtis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19996",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19996",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5423",
+              "type": "Event",
+              "_label": "White Room: Anita Curtis",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-3 - 1985-6-4",
+                "begin_of_the_begin": "1985-12-3",
+                "end_of_the_end": "1985-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69674",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4951",
+              "type": "Event",
+              "_label": "Update 1984-85",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-6 - 1985-25-6",
+                "begin_of_the_begin": "1985-5-6",
+                "end_of_the_end": "1985-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69675",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58428",
+  "type": "Person",
+  "_label": "John Blake",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16972",
+      "type": "Name",
+      "_label": "John Blake"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16972",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33944",
+      "type": "TimeSpan",
+      "_label": "John Blake Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16972",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33945",
+      "type": "TimeSpan",
+      "_label": "John Blake Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16972",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16972",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3039",
+              "type": "Event",
+              "_label": "John Blake: Special Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-24-2 - ",
+                "begin_of_the_begin": "1977-24-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63397",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

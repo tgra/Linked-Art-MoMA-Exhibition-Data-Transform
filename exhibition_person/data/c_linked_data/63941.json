@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63941",
+  "type": "Person",
+  "_label": "Beth Gill",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21081",
+      "type": "Name",
+      "_label": "Beth Gill"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21081",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42162",
+      "type": "TimeSpan",
+      "_label": "Beth Gill Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21081",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42163",
+      "type": "TimeSpan",
+      "_label": "Beth Gill Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21081",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21081",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18198",
+              "type": "Event",
+              "_label": "Beth Gill: wounded giant …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-29-9 - ",
+                "begin_of_the_begin": "2005-29-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72406",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18653",
+              "type": "Event",
+              "_label": "what it looks like, what …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-20-11 - ",
+                "begin_of_the_begin": "2008-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72407",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

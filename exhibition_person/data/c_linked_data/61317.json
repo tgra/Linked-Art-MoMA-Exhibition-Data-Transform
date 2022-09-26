@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61317",
+  "type": "Person",
+  "_label": "Tom Brazelton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19922",
+      "type": "Name",
+      "_label": "Tom Brazelton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19922",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39844",
+      "type": "TimeSpan",
+      "_label": "Tom Brazelton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19922",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39845",
+      "type": "TimeSpan",
+      "_label": "Tom Brazelton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19922",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19922",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5208",
+              "type": "Event",
+              "_label": "White Room: Tom Brazelton, Designer Candy God",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-8-1 - 1987-31-1",
+                "begin_of_the_begin": "1987-8-1",
+                "end_of_the_end": "1987-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69499",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4953",
+              "type": "Event",
+              "_label": "Update 1986-87",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-29-5 - 1987-20-6",
+                "begin_of_the_begin": "1987-29-5",
+                "end_of_the_end": "1987-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69500",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

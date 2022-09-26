@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61091",
+  "type": "Person",
+  "_label": "Lili Reynaud-Dewar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19826",
+      "type": "Name",
+      "_label": "Lili Reynaud-Dewar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19826",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39652",
+      "type": "TimeSpan",
+      "_label": "Lili Reynaud-Dewar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19826",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39653",
+      "type": "TimeSpan",
+      "_label": "Lili Reynaud-Dewar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19826",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19826",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3991",
+              "type": "Event",
+              "_label": "The Freedom Principle: Experiments in Art and Music, 1965 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-14-9 - 2017-19-3",
+                "begin_of_the_begin": "2016-14-9",
+                "end_of_the_end": "2017-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69194",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21827",
+              "type": "Event",
+              "_label": "Lili Reynaud-Dewar: Live Through That?!",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-15-10 - 2015-25-1",
+                "begin_of_the_begin": "2014-15-10",
+                "end_of_the_end": "2015-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69195",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

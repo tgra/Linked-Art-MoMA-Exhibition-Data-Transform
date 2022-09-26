@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35887",
+  "type": "Person",
+  "_label": "Ray Smith",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12784",
+      "type": "Name",
+      "_label": "Ray Smith"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12784",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25568",
+      "type": "TimeSpan",
+      "_label": "Ray Smith Birth timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12784",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25569",
+      "type": "TimeSpan",
+      "_label": "Ray Smith Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12784",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12784",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1908",
+              "type": "Event",
+              "_label": "Latin American Artists of the Twentieth Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-2-6 - 1993-7-9",
+                "begin_of_the_begin": "1993-2-6",
+                "end_of_the_end": "1993-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41502",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6960",
+              "type": "Event",
+              "_label": "1989 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-18-4 - 1989-16-7",
+                "begin_of_the_begin": "1989-18-4",
+                "end_of_the_end": "1989-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41503",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, 2nd Floor Gallery, Film/Video Gallery, Lobby Gallery, Lower Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

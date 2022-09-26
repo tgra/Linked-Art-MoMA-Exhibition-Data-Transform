@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66293",
+  "type": "Person",
+  "_label": "Paulina Lasa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22107",
+      "type": "Name",
+      "_label": "Paulina Lasa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22107",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44214",
+      "type": "TimeSpan",
+      "_label": "Paulina Lasa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22107",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44215",
+      "type": "TimeSpan",
+      "_label": "Paulina Lasa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22107",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22107",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21862",
+              "type": "Event",
+              "_label": "Museum as Hub: Tlatelolco and the localized negotiation of future imaginaries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-27-2 - 2008-4-5",
+                "begin_of_the_begin": "2008-27-2",
+                "end_of_the_end": "2008-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74431",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

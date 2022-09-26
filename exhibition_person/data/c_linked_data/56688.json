@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56688",
+  "type": "Person",
+  "_label": "Kathryn Kennedy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15105",
+      "type": "Name",
+      "_label": "Kathryn Kennedy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15105",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30210",
+      "type": "TimeSpan",
+      "_label": "Kathryn Kennedy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15105",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30211",
+      "type": "TimeSpan",
+      "_label": "Kathryn Kennedy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15105",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15105",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3178",
+              "type": "Event",
+              "_label": "New York/New Wave",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59327",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3106",
+              "type": "Event",
+              "_label": "Critical Perspectives: Curators and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-1 - 1982-14-3",
+                "begin_of_the_begin": "1982-17-1",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59328",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

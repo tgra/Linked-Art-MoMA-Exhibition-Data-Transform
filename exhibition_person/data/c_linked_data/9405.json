@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/9405",
+  "type": "Person",
+  "_label": "AT&T Bell Laboratories, Murray Hill, NJ",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26606",
+      "type": "Name",
+      "_label": "AT&T Bell Laboratories, Murray Hill, NJ"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9499",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, established 1925"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26606",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53212",
+      "type": "TimeSpan",
+      "_label": "AT&T Bell Laboratories, Murray Hill, NJ Birth timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26606",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53213",
+      "type": "TimeSpan",
+      "_label": "AT&T Bell Laboratories, Murray Hill, NJ Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26606",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26606",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1801",
+              "type": "Event",
+              "_label": "Information Art: Diagramming Microchips",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-6-9 - 1990-30-10",
+                "begin_of_the_begin": "1990-6-9",
+                "end_of_the_end": "1990-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87339",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2607",
+              "type": "Event",
+              "_label": "Artist's Choice: Trisha Donnelly",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-9-11 - 2013-28-7",
+                "begin_of_the_begin": "2012-9-11",
+                "end_of_the_end": "2013-28-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87340",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

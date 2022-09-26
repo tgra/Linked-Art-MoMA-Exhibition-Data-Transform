@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69769",
+  "type": "Person",
+  "_label": "Blanche Phillips",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23921",
+      "type": "Name",
+      "_label": "Blanche Phillips"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23921",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47842",
+      "type": "TimeSpan",
+      "_label": "Blanche Phillips Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23921",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47843",
+      "type": "TimeSpan",
+      "_label": "Blanche Phillips Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23921",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23921",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6429",
+              "type": "Event",
+              "_label": "1954 Annual Exhibition of Contemporary American Sculpture, Watercolor, and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-18-4 - 1954-17-3",
+                "begin_of_the_begin": "1954-18-4",
+                "end_of_the_end": "1954-17-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78253",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6468",
+              "type": "Event",
+              "_label": "1957 Annual Exhibition: Sculpture, Paintings, Watercolors ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-20-11 - 1958-12-1",
+                "begin_of_the_begin": "1957-20-11",
+                "end_of_the_end": "1958-12-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78254",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64119",
+  "type": "Person",
+  "_label": "Central Australian Aboriginal Media Association",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21143",
+      "type": "Name",
+      "_label": "Central Australian Aboriginal Media Association"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21143",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42286",
+      "type": "TimeSpan",
+      "_label": "Central Australian Aboriginal Media Association Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21143",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42287",
+      "type": "TimeSpan",
+      "_label": "Central Australian Aboriginal Media Association Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21143",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21143",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21998",
+              "type": "Event",
+              "_label": "Satellite Cultures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-8-12 - 1990-4-2",
+                "begin_of_the_begin": "1989-8-12",
+                "end_of_the_end": "1990-4-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72541",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

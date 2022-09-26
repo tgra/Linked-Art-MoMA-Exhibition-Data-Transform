@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64876",
+  "type": "Person",
+  "_label": "Hendel Teicher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21463",
+      "type": "Name",
+      "_label": "Hendel Teicher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21463",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42926",
+      "type": "TimeSpan",
+      "_label": "Hendel Teicher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21463",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42927",
+      "type": "TimeSpan",
+      "_label": "Hendel Teicher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21463",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21463",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17074",
+              "type": "Event",
+              "_label": "Trisha Brown: Dance and Art in Dialogue 1961-2001",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-10-10 - 2004-25-1",
+                "begin_of_the_begin": "2003-10-10",
+                "end_of_the_end": "2004-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73056",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

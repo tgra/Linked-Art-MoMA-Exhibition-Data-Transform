@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32736",
+  "type": "Person",
+  "_label": "John Tweddle",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11624",
+      "type": "Name",
+      "_label": "John Tweddle"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11624",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23248",
+      "type": "TimeSpan",
+      "_label": "John Tweddle Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11624",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23249",
+      "type": "TimeSpan",
+      "_label": "John Tweddle Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11624",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11624",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3145",
+              "type": "Event",
+              "_label": "Image into Pattern",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-27-4 - 1980-15-6",
+                "begin_of_the_begin": "1980-27-4",
+                "end_of_the_end": "1980-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37241",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2937",
+              "type": "Event",
+              "_label": "John Tweddle: In Memory of Robert C. Scull",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-6 - 1999-29-8",
+                "begin_of_the_begin": "1999-20-6",
+                "end_of_the_end": "1999-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37242",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1167",
+              "type": "Event",
+              "_label": "Homers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-20-4 - 1973-25-5",
+                "begin_of_the_begin": "1973-20-4",
+                "end_of_the_end": "1973-25-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37243",
+                  "type": "Place",
+                  "_label": "Penthouse Restaurant, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29437",
+  "type": "Person",
+  "_label": "Hill & Adamson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8071",
+      "type": "Name",
+      "_label": "Hill & Adamson"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4977",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Scottish, 1843–1848"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8071",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16142",
+      "type": "TimeSpan",
+      "_label": "Hill & Adamson Birth timespan",
+      "begin_of_the_begin": "1843",
+      "end_of_the_end": "1843"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8071",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16143",
+      "type": "TimeSpan",
+      "_label": "Hill & Adamson Death timespan",
+      "begin_of_the_begin": "1848",
+      "end_of_the_end": "1848"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8071",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8071",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/585",
+              "type": "Event",
+              "_label": "Then and Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-5-8 - 1952-18-8",
+                "begin_of_the_begin": "1952-5-8",
+                "end_of_the_end": "1952-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30195",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/821",
+              "type": "Event",
+              "_label": "Edward Steichen Photography Center",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-27-5 - ",
+                "begin_of_the_begin": "1964-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30196",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

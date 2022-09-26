@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65946",
+  "type": "Person",
+  "_label": "Michael Glen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21958",
+      "type": "Name",
+      "_label": "Michael Glen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21958",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43916",
+      "type": "TimeSpan",
+      "_label": "Michael Glen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21958",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43917",
+      "type": "TimeSpan",
+      "_label": "Michael Glen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21958",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21958",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17074",
+              "type": "Event",
+              "_label": "Trisha Brown: Dance and Art in Dialogue 1961-2001",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-10-10 - 2004-25-1",
+                "begin_of_the_begin": "2003-10-10",
+                "end_of_the_end": "2004-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74114",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

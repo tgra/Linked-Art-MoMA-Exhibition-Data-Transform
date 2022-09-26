@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64816",
+  "type": "Person",
+  "_label": "Hal Eager",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21433",
+      "type": "Name",
+      "_label": "Hal Eager"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21433",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42866",
+      "type": "TimeSpan",
+      "_label": "Hal Eager Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21433",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42867",
+      "type": "TimeSpan",
+      "_label": "Hal Eager Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21433",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21433",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21923",
+              "type": "Event",
+              "_label": "Cin-o-matic: Memory and Cinematic Perception",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-19-10 - 2001-30-12",
+                "begin_of_the_begin": "2001-19-10",
+                "end_of_the_end": "2001-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73010",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32413",
+  "type": "Person",
+  "_label": "Charles Cottet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11277",
+      "type": "Name",
+      "_label": "Charles Cottet"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5432",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1863–1925"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11277",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22554",
+      "type": "TimeSpan",
+      "_label": "Charles Cottet Birth timespan",
+      "begin_of_the_begin": "1863",
+      "end_of_the_end": "1863"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11277",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22555",
+      "type": "TimeSpan",
+      "_label": "Charles Cottet Death timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11277",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11277",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1331",
+              "type": "Event",
+              "_label": "Impresario: Ambroise Vollard",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-6-6 - 1977-6-9",
+                "begin_of_the_begin": "1977-6-6",
+                "end_of_the_end": "1977-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36465",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

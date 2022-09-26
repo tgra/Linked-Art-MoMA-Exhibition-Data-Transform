@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33100",
+  "type": "Person",
+  "_label": "Maurilio Minuzzi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12008",
+      "type": "Name",
+      "_label": "Maurilio Minuzzi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12008",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24016",
+      "type": "TimeSpan",
+      "_label": "Maurilio Minuzzi Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12008",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24017",
+      "type": "TimeSpan",
+      "_label": "Maurilio Minuzzi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12008",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12008",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1263",
+              "type": "Event",
+              "_label": "A Museum Menagerie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-9-12 - 1976-7-3",
+                "begin_of_the_begin": "1975-9-12",
+                "end_of_the_end": "1976-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38272",
+                  "type": "Place",
+                  "_label": "6th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

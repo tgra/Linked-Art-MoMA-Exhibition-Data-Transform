@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65945",
+  "type": "Person",
+  "_label": "Michael Ferraro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21957",
+      "type": "Name",
+      "_label": "Michael Ferraro"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21957",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43914",
+      "type": "TimeSpan",
+      "_label": "Michael Ferraro Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21957",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43915",
+      "type": "TimeSpan",
+      "_label": "Michael Ferraro Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21957",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21957",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17125",
+              "type": "Event",
+              "_label": "The Final Frontier",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74113",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

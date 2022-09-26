@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35015",
+  "type": "Person",
+  "_label": "Liene Bosque",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12437",
+      "type": "Name",
+      "_label": "Liene Bosque"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5808",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Brazilian, born 1980"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12437",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24874",
+      "type": "TimeSpan",
+      "_label": "Liene Bosque Birth timespan",
+      "begin_of_the_begin": "1980",
+      "end_of_the_end": "1980"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12437",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24875",
+      "type": "TimeSpan",
+      "_label": "Liene Bosque Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12437",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12437",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3283",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-11-10 - 2016-7-3",
+                "begin_of_the_begin": "2015-11-10",
+                "end_of_the_end": "2016-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40411",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

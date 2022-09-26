@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59742",
+  "type": "Person",
+  "_label": "Pola Weiss",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18385",
+      "type": "Name",
+      "_label": "Pola Weiss"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18385",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36770",
+      "type": "TimeSpan",
+      "_label": "Pola Weiss Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18385",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36771",
+      "type": "TimeSpan",
+      "_label": "Pola Weiss Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18385",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18385",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3346",
+              "type": "Event",
+              "_label": "Video (Winter 1979): Anthology Film Archives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-31-3",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66234",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66705",
+  "type": "Person",
+  "_label": "Shelly Hull",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22322",
+      "type": "Name",
+      "_label": "Shelly Hull"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22322",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44644",
+      "type": "TimeSpan",
+      "_label": "Shelly Hull Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22322",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44645",
+      "type": "TimeSpan",
+      "_label": "Shelly Hull Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22322",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22322",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22011",
+              "type": "Event",
+              "_label": "John Hernandez, Shelly Hull, Robin Winters, Krzysztof Wodiczko",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-8-12 - 1985-3-2",
+                "begin_of_the_begin": "1984-8-12",
+                "end_of_the_end": "1985-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74855",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

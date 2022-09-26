@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57983",
+  "type": "Person",
+  "_label": "Chris Sauter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16493",
+      "type": "Name",
+      "_label": "Chris Sauter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16493",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32986",
+      "type": "TimeSpan",
+      "_label": "Chris Sauter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16493",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32987",
+      "type": "TimeSpan",
+      "_label": "Chris Sauter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16493",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16493",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2950",
+              "type": "Event",
+              "_label": "Generation Z",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-18-4 - 1999-6-6",
+                "begin_of_the_begin": "1999-18-4",
+                "end_of_the_end": "1999-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62415",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

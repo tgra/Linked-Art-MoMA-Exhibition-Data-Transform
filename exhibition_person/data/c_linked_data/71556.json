@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71556",
+  "type": "Person",
+  "_label": "LeRoy Frazier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24978",
+      "type": "Name",
+      "_label": "LeRoy Frazier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24978",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49956",
+      "type": "TimeSpan",
+      "_label": "LeRoy Frazier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24978",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49957",
+      "type": "TimeSpan",
+      "_label": "LeRoy Frazier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24978",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24978",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1065",
+              "type": "Event",
+              "_label": "Paperworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-24-11 - 1971-10-1",
+                "begin_of_the_begin": "1970-24-11",
+                "end_of_the_end": "1971-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80761",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6671",
+              "type": "Event",
+              "_label": "1972 Annual Exhibition: Contemporary American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-24-1 - 1972-19-3",
+                "begin_of_the_begin": "1972-24-1",
+                "end_of_the_end": "1972-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80762",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

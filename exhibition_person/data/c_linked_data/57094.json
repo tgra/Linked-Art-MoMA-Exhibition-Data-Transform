@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57094",
+  "type": "Person",
+  "_label": "Gretchen Faust",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15540",
+      "type": "Name",
+      "_label": "Gretchen Faust"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15540",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31080",
+      "type": "TimeSpan",
+      "_label": "Gretchen Faust Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15540",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31081",
+      "type": "TimeSpan",
+      "_label": "Gretchen Faust Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15540",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15540",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2977",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1988–89",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-4 - 1989-12-6",
+                "begin_of_the_begin": "1989-23-4",
+                "end_of_the_end": "1989-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60411",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17130",
+              "type": "Event",
+              "_label": "The Spatial Drive",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60412",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

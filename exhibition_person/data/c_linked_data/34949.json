@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/34949",
+  "type": "Person",
+  "_label": "Villa Arson, Nice",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12409",
+      "type": "Name",
+      "_label": "Villa Arson, Nice"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12409",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24818",
+      "type": "TimeSpan",
+      "_label": "Villa Arson, Nice Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12409",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24819",
+      "type": "TimeSpan",
+      "_label": "Villa Arson, Nice Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12409",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12409",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17085",
+              "type": "Event",
+              "_label": "Paul McCarthy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-22-2 - 2001-13-5",
+                "begin_of_the_begin": "2001-22-2",
+                "end_of_the_end": "2001-13-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40322",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

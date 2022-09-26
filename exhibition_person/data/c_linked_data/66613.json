@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66613",
+  "type": "Person",
+  "_label": "Samba Sylla",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22274",
+      "type": "Name",
+      "_label": "Samba Sylla"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22274",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44548",
+      "type": "TimeSpan",
+      "_label": "Samba Sylla Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22274",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44549",
+      "type": "TimeSpan",
+      "_label": "Samba Sylla Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22274",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22274",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17137",
+              "type": "Event",
+              "_label": "Africa Explores: 20th Century African Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-11-5 - 1991-18-9",
+                "begin_of_the_begin": "1991-11-5",
+                "end_of_the_end": "1991-18-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74768",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60036",
+  "type": "Person",
+  "_label": "Michele Kong",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18701",
+      "type": "Name",
+      "_label": "Michele Kong"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18701",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37402",
+      "type": "TimeSpan",
+      "_label": "Michele Kong Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18701",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37403",
+      "type": "TimeSpan",
+      "_label": "Michele Kong Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18701",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18701",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3415",
+              "type": "Event",
+              "_label": "Bearable Lightness…Likeness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-9-10",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66923",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

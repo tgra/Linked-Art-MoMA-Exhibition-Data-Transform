@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69133",
+  "type": "Person",
+  "_label": "Denis McCarthy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23508",
+      "type": "Name",
+      "_label": "Denis McCarthy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23508",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47016",
+      "type": "TimeSpan",
+      "_label": "Denis McCarthy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23508",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47017",
+      "type": "TimeSpan",
+      "_label": "Denis McCarthy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23508",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23508",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6597",
+              "type": "Event",
+              "_label": "1969 Annual Exhibition: Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-16-12 - 1970-1-2",
+                "begin_of_the_begin": "1969-16-12",
+                "end_of_the_end": "1970-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77033",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6696",
+              "type": "Event",
+              "_label": "1973 Biennial Exhibition of Contemporary American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-10-1 - 1973-18-3",
+                "begin_of_the_begin": "1973-10-1",
+                "end_of_the_end": "1973-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77034",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Gallery, 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64140",
+  "type": "Person",
+  "_label": "Charley Brown",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21151",
+      "type": "Name",
+      "_label": "Charley Brown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21151",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42302",
+      "type": "TimeSpan",
+      "_label": "Charley Brown Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21151",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42303",
+      "type": "TimeSpan",
+      "_label": "Charley Brown Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21151",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21151",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17251",
+              "type": "Event",
+              "_label": "Extended Sensibilities: Homosexual Presence in Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-16-10 - 1982-30-12",
+                "begin_of_the_begin": "1982-16-10",
+                "end_of_the_end": "1982-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72552",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

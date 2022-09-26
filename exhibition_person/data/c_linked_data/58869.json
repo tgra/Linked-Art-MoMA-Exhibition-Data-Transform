@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58869",
+  "type": "Person",
+  "_label": "Alva Rogers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17448",
+      "type": "Name",
+      "_label": "Alva Rogers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17448",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34896",
+      "type": "TimeSpan",
+      "_label": "Alva Rogers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17448",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34897",
+      "type": "TimeSpan",
+      "_label": "Alva Rogers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17448",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17448",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3790",
+              "type": "Event",
+              "_label": "Music (Spring 1989): Music/Mapping New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-27-4 - 1989-29-4",
+                "begin_of_the_begin": "1989-27-4",
+                "end_of_the_end": "1989-29-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64199",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64200",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

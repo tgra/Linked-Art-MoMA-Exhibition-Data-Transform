@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58214",
+  "type": "Person",
+  "_label": "John Lindell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16743",
+      "type": "Name",
+      "_label": "John Lindell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16743",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33486",
+      "type": "TimeSpan",
+      "_label": "John Lindell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16743",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33487",
+      "type": "TimeSpan",
+      "_label": "John Lindell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16743",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16743",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2913",
+              "type": "Event",
+              "_label": "The Winter of Love (L'Hiver de l'Amour)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-10 - 1995-8-1",
+                "begin_of_the_begin": "1994-9-10",
+                "end_of_the_end": "1995-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62988",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17130",
+              "type": "Event",
+              "_label": "The Spatial Drive",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62989",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4925",
+              "type": "Event",
+              "_label": "Stonewall 25: Imaginings of the Gay Past, Celebrating the Gay Present\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-6 - 1994-23-6",
+                "begin_of_the_begin": "1994-9-6",
+                "end_of_the_end": "1994-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62990",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

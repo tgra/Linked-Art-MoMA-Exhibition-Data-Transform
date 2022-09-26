@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59866",
+  "type": "Person",
+  "_label": "Cynthia Hawkins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18517",
+      "type": "Name",
+      "_label": "Cynthia Hawkins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18517",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37034",
+      "type": "TimeSpan",
+      "_label": "Cynthia Hawkins Birth timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18517",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37035",
+      "type": "TimeSpan",
+      "_label": "Cynthia Hawkins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18517",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18517",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3637",
+              "type": "Event",
+              "_label": "Progressions: A Cultural Legacy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-2 - 1986-15-3",
+                "begin_of_the_begin": "1986-13-2",
+                "end_of_the_end": "1986-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66473",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

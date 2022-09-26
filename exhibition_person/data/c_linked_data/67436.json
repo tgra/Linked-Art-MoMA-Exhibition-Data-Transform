@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67436",
+  "type": "Person",
+  "_label": "Neil Greenberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22788",
+      "type": "Name",
+      "_label": "Neil Greenberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22788",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45576",
+      "type": "TimeSpan",
+      "_label": "Neil Greenberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22788",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45577",
+      "type": "TimeSpan",
+      "_label": "Neil Greenberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22788",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22788",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18453",
+              "type": "Event",
+              "_label": "Not-About-AIDS-Dance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-5 - ",
+                "begin_of_the_begin": "1994-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75703",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

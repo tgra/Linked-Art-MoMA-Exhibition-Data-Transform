@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64007",
+  "type": "Person",
+  "_label": "Brenda Goodman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21104",
+      "type": "Name",
+      "_label": "Brenda Goodman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21104",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42208",
+      "type": "TimeSpan",
+      "_label": "Brenda Goodman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21104",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42209",
+      "type": "TimeSpan",
+      "_label": "Brenda Goodman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21104",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21104",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17301",
+              "type": "Event",
+              "_label": "Memory",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-10-5 - 1977-21-5",
+                "begin_of_the_begin": "1977-10-5",
+                "end_of_the_end": "1977-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72431",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/22033",
+              "type": "Event",
+              "_label": "Double Take",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-15-7 - 1978-2-9",
+                "begin_of_the_begin": "1978-15-7",
+                "end_of_the_end": "1978-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72432",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6826",
+              "type": "Event",
+              "_label": "1979 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-6-2 - 1979-8-4",
+                "begin_of_the_begin": "1979-6-2",
+                "end_of_the_end": "1979-8-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72433",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, Film/Video Gallery, Lobby Gallery, 3rd Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

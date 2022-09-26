@@ -1,0 +1,122 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58077",
+  "type": "Person",
+  "_label": "Jonah Freeman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16594",
+      "type": "Name",
+      "_label": "Jonah Freeman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16594",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33188",
+      "type": "TimeSpan",
+      "_label": "Jonah Freeman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16594",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33189",
+      "type": "TimeSpan",
+      "_label": "Jonah Freeman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16594",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16594",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2834",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-27-2 - 2000-30-5",
+                "begin_of_the_begin": "2000-27-2",
+                "end_of_the_end": "2000-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62619",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3440",
+              "type": "Event",
+              "_label": "Day Labor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-10 - 2006-9-1",
+                "begin_of_the_begin": "2005-23-10",
+                "end_of_the_end": "2006-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62620",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18603",
+              "type": "Event",
+              "_label": "The Future As Disruption",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-18-6 - ",
+                "begin_of_the_begin": "2008-18-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62621",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

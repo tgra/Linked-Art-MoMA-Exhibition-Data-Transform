@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57068",
+  "type": "Person",
+  "_label": "William Crozier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15511",
+      "type": "Name",
+      "_label": "William Crozier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15511",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31022",
+      "type": "TimeSpan",
+      "_label": "William Crozier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15511",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31023",
+      "type": "TimeSpan",
+      "_label": "William Crozier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15511",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15511",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2917",
+              "type": "Event",
+              "_label": "Figuratively Sculpting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-31-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60332",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6892",
+              "type": "Event",
+              "_label": "1983 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-15-3 - 1983-29-5",
+                "begin_of_the_begin": "1983-15-3",
+                "end_of_the_end": "1983-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60333",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Gallery, Lower Gallery, Sculpture Court, Film/Video Gallery, 2nd Floor Gallery, Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

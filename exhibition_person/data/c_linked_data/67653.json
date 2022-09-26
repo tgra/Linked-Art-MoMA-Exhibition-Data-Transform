@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67653",
+  "type": "Person",
+  "_label": "Stefan Rummel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23014",
+      "type": "Name",
+      "_label": "Stefan Rummel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23014",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46028",
+      "type": "TimeSpan",
+      "_label": "Stefan Rummel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23014",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46029",
+      "type": "TimeSpan",
+      "_label": "Stefan Rummel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23014",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23014",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18368",
+              "type": "Event",
+              "_label": "Invisible Geographies: Ne…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-9-9 - ",
+                "begin_of_the_begin": "2006-9-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76012",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

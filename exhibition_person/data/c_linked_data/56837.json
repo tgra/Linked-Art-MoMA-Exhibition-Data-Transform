@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56837",
+  "type": "Person",
+  "_label": "Per Barclay",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15262",
+      "type": "Name",
+      "_label": "Per Barclay"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15262",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30524",
+      "type": "TimeSpan",
+      "_label": "Per Barclay Birth timespan",
+      "begin_of_the_begin": "1955",
+      "end_of_the_end": "1955"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15262",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30525",
+      "type": "TimeSpan",
+      "_label": "Per Barclay Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15262",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15262",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3047",
+              "type": "Event",
+              "_label": "Projects/Installations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-15-2 - 1998-30-8",
+                "begin_of_the_begin": "1998-15-2",
+                "end_of_the_end": "1998-30-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59832",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

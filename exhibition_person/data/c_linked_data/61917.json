@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61917",
+  "type": "Person",
+  "_label": "John Hatfield",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20147",
+      "type": "Name",
+      "_label": "John Hatfield"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20147",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40294",
+      "type": "TimeSpan",
+      "_label": "John Hatfield Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20147",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40295",
+      "type": "TimeSpan",
+      "_label": "John Hatfield Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20147",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20147",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70059",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

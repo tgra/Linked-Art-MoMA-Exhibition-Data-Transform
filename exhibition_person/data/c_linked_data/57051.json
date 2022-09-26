@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57051",
+  "type": "Person",
+  "_label": "Calvin Churchman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15494",
+      "type": "Name",
+      "_label": "Calvin Churchman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15494",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30988",
+      "type": "TimeSpan",
+      "_label": "Calvin Churchman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15494",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30989",
+      "type": "TimeSpan",
+      "_label": "Calvin Churchman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15494",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15494",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3179",
+              "type": "Event",
+              "_label": "Lighting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60306",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2724",
+              "type": "Event",
+              "_label": "Grand Windows",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-14-6 - 1988-30-10",
+                "begin_of_the_begin": "1988-14-6",
+                "end_of_the_end": "1988-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60307",
+                  "type": "Place",
+                  "_label": "Grand Central Terminal, New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

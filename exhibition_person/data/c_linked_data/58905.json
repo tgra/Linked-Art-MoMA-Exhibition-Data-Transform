@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58905",
+  "type": "Person",
+  "_label": "Helmut Weber",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17487",
+      "type": "Name",
+      "_label": "Helmut Weber"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17487",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34974",
+      "type": "TimeSpan",
+      "_label": "Helmut Weber Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17487",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34975",
+      "type": "TimeSpan",
+      "_label": "Helmut Weber Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17487",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17487",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3804",
+              "type": "Event",
+              "_label": "Urban Exercises 95: Sabine Bitter and Helmut Weber: \"Active Installation\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-29-6 - 1995-29-6",
+                "begin_of_the_begin": "1995-29-6",
+                "end_of_the_end": "1995-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64318",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

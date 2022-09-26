@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7186",
+  "type": "Person",
+  "_label": "John Biggers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25175",
+      "type": "Name",
+      "_label": "John Biggers"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8601",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1924–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25175",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50350",
+      "type": "TimeSpan",
+      "_label": "John Biggers Birth timespan",
+      "begin_of_the_begin": "1924",
+      "end_of_the_end": "1924"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25175",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50351",
+      "type": "TimeSpan",
+      "_label": "John Biggers Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25175",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25175",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2765",
+              "type": "Event",
+              "_label": "Fresh Paint: The Houston School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81111",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

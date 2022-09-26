@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68847",
+  "type": "Person",
+  "_label": "Judith Hoos Fox",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23361",
+      "type": "Name",
+      "_label": "Judith Hoos Fox"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23361",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46722",
+      "type": "TimeSpan",
+      "_label": "Judith Hoos Fox Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23361",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46723",
+      "type": "TimeSpan",
+      "_label": "Judith Hoos Fox Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23361",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23361",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7021",
+              "type": "Event",
+              "_label": "Collection in Context: Willem de Kooning’s Door Cycle ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-14-3 - 1996-26-5",
+                "begin_of_the_begin": "1996-14-3",
+                "end_of_the_end": "1996-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76763",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

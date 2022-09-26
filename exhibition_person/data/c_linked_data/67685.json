@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67685",
+  "type": "Person",
+  "_label": "Trude Kobe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23046",
+      "type": "Name",
+      "_label": "Trude Kobe"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23046",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46092",
+      "type": "TimeSpan",
+      "_label": "Trude Kobe Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23046",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46093",
+      "type": "TimeSpan",
+      "_label": "Trude Kobe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23046",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23046",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18173",
+              "type": "Event",
+              "_label": "Almost Dance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-16-11 - ",
+                "begin_of_the_begin": "1984-16-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76057",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

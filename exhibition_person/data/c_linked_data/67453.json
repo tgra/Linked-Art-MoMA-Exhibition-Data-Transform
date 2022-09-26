@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67453",
+  "type": "Person",
+  "_label": "Pavel Brăila",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22806",
+      "type": "Name",
+      "_label": "Pavel Brăila"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22806",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45612",
+      "type": "TimeSpan",
+      "_label": "Pavel Brăila Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22806",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45613",
+      "type": "TimeSpan",
+      "_label": "Pavel Brăila Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22806",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22806",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18444",
+              "type": "Event",
+              "_label": "New Video, New Europe",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-30-6 - ",
+                "begin_of_the_begin": "2006-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75722",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

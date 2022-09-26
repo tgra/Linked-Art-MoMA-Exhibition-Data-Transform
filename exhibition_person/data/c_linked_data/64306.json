@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64306",
+  "type": "Person",
+  "_label": "Daniel Guzmán",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21219",
+      "type": "Name",
+      "_label": "Daniel Guzmán"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21219",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42438",
+      "type": "TimeSpan",
+      "_label": "Daniel Guzmán Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21219",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42439",
+      "type": "TimeSpan",
+      "_label": "Daniel Guzmán Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21219",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21219",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21859",
+              "type": "Event",
+              "_label": "Double Album: Daniel Guzmán and Steven Shearer",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-23-4 - 2008-6-7",
+                "begin_of_the_begin": "2008-23-4",
+                "end_of_the_end": "2008-6-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72674",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57073",
+  "type": "Person",
+  "_label": "Rene Daniels",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15517",
+      "type": "Name",
+      "_label": "Rene Daniels"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15517",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31034",
+      "type": "TimeSpan",
+      "_label": "Rene Daniels Birth timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15517",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31035",
+      "type": "TimeSpan",
+      "_label": "Rene Daniels Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15517",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15517",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3738",
+              "type": "Event",
+              "_label": "National and International Studio Program 1983–1984 Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-12-1 - 1984-12-2",
+                "begin_of_the_begin": "1984-12-1",
+                "end_of_the_end": "1984-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60354",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

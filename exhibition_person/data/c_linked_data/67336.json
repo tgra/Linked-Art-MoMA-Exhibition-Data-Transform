@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67336",
+  "type": "Person",
+  "_label": "Jimmy Joe Roche",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22682",
+      "type": "Name",
+      "_label": "Jimmy Joe Roche"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22682",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45364",
+      "type": "TimeSpan",
+      "_label": "Jimmy Joe Roche Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22682",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45365",
+      "type": "TimeSpan",
+      "_label": "Jimmy Joe Roche Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22682",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22682",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18538",
+              "type": "Event",
+              "_label": "Shame the Devil",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-17-3 - ",
+                "begin_of_the_begin": "2011-17-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75521",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

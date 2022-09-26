@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5919",
+  "type": "Person",
+  "_label": "Gérard Vulliamy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17794",
+      "type": "Name",
+      "_label": "Gérard Vulliamy"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7792",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1909–2005"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17794",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35588",
+      "type": "TimeSpan",
+      "_label": "Gérard Vulliamy Birth timespan",
+      "begin_of_the_begin": "1909",
+      "end_of_the_end": "1909"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17794",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35589",
+      "type": "TimeSpan",
+      "_label": "Gérard Vulliamy Death timespan",
+      "begin_of_the_begin": "2005",
+      "end_of_the_end": "2005"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17794",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17794",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1999",
+              "type": "Event",
+              "_label": "Impressions of Nature",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-16-9 - 1996-2-1",
+                "begin_of_the_begin": "1995-16-9",
+                "end_of_the_end": "1996-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65064",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

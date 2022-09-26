@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59609",
+  "type": "Person",
+  "_label": "Lucia Dellefant",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18244",
+      "type": "Name",
+      "_label": "Lucia Dellefant"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18244",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36488",
+      "type": "TimeSpan",
+      "_label": "Lucia Dellefant Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18244",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36489",
+      "type": "TimeSpan",
+      "_label": "Lucia Dellefant Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18244",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18244",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3812",
+              "type": "Event",
+              "_label": "Friends of New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-1 - 1996-10-1",
+                "begin_of_the_begin": "1996-3-1",
+                "end_of_the_end": "1996-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65832",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

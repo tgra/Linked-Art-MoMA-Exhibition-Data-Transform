@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62914",
+  "type": "Person",
+  "_label": "Jeffrey W. Shultz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20544",
+      "type": "Name",
+      "_label": "Jeffrey W. Shultz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20544",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41088",
+      "type": "TimeSpan",
+      "_label": "Jeffrey W. Shultz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20544",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41089",
+      "type": "TimeSpan",
+      "_label": "Jeffrey W. Shultz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20544",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20544",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4681",
+              "type": "Event",
+              "_label": "Jeffrey W. Shultz: Synergistics 1.1: Bioinformatic Surfiets",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-7-10 - 1994-6-11",
+                "begin_of_the_begin": "1994-7-10",
+                "end_of_the_end": "1994-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70980",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

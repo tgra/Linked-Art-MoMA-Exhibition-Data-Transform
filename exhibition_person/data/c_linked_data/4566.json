@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4566",
+  "type": "Person",
+  "_label": "Hans Purrmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14001",
+      "type": "Name",
+      "_label": "Hans Purrmann"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6697",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1880–1966"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14001",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28002",
+      "type": "TimeSpan",
+      "_label": "Hans Purrmann Birth timespan",
+      "begin_of_the_begin": "1880",
+      "end_of_the_end": "1880"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14001",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28003",
+      "type": "TimeSpan",
+      "_label": "Hans Purrmann Death timespan",
+      "begin_of_the_begin": "1966",
+      "end_of_the_end": "1966"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14001",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14001",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1069",
+              "type": "Event",
+              "_label": "Four Americans in Paris: The Collections of Gertrude Stein and her Family",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-19-12 - 1971-1-3",
+                "begin_of_the_begin": "1970-19-12",
+                "end_of_the_end": "1971-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/50305",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

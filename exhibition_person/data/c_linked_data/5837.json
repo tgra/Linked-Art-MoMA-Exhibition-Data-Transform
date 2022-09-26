@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5837",
+  "type": "Person",
+  "_label": "Grazia Varisco",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16909",
+      "type": "Name",
+      "_label": "Grazia Varisco"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7725",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1937"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16909",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33818",
+      "type": "TimeSpan",
+      "_label": "Grazia Varisco Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16909",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33819",
+      "type": "TimeSpan",
+      "_label": "Grazia Varisco Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16909",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16909",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17020",
+              "type": "Event",
+              "_label": "Ghosts in the Machine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-18-7 - 2012-30-9",
+                "begin_of_the_begin": "2012-18-7",
+                "end_of_the_end": "2012-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63269",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/842",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-16-2 - 1965-25-4",
+                "begin_of_the_begin": "1965-16-2",
+                "end_of_the_end": "1965-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63270",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

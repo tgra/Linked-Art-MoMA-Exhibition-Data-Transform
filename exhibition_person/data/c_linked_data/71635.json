@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71635",
+  "type": "Person",
+  "_label": "Elle Pérez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25064",
+      "type": "Name",
+      "_label": "Elle Pérez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25064",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50128",
+      "type": "TimeSpan",
+      "_label": "Elle Pérez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25064",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50129",
+      "type": "TimeSpan",
+      "_label": "Elle Pérez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25064",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25064",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28418",
+              "type": "Event",
+              "_label": "Whitney Biennial 2019",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2019-17-5 - 2019-22-9",
+                "begin_of_the_begin": "2019-17-5",
+                "end_of_the_end": "2019-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80924",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

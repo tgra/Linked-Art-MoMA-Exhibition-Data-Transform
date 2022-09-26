@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30277",
+  "type": "Person",
+  "_label": "James Sanders",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8975",
+      "type": "Name",
+      "_label": "James Sanders"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8975",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17950",
+      "type": "TimeSpan",
+      "_label": "James Sanders Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8975",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17951",
+      "type": "TimeSpan",
+      "_label": "James Sanders Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8975",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8975",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18199",
+              "type": "Event",
+              "_label": "Between Thought and Sound…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - ",
+                "begin_of_the_begin": "2007-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32236",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/126",
+              "type": "Event",
+              "_label": "Three Centuries of American Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-15-2 - 1939-15-3",
+                "begin_of_the_begin": "1939-15-2",
+                "end_of_the_end": "1939-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32237",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

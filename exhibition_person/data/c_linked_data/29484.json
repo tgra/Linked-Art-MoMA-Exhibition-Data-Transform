@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29484",
+  "type": "Person",
+  "_label": "Brown, de Mars, Kennedy, Koch & Rapson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8122",
+      "type": "Name",
+      "_label": "Brown, de Mars, Kennedy, Koch & Rapson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8122",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16244",
+      "type": "TimeSpan",
+      "_label": "Brown, de Mars, Kennedy, Koch & Rapson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8122",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16245",
+      "type": "TimeSpan",
+      "_label": "Brown, de Mars, Kennedy, Koch & Rapson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8122",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8122",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/597",
+              "type": "Event",
+              "_label": "Built in USA: Post-War Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-20-1 - 1953-15-3",
+                "begin_of_the_begin": "1953-20-1",
+                "end_of_the_end": "1953-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30318",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

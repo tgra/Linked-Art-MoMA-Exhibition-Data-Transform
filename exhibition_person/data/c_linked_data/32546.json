@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32546",
+  "type": "Person",
+  "_label": "Kazuhiro Ishii",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11418",
+      "type": "Name",
+      "_label": "Kazuhiro Ishii"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5466",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11418",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22836",
+      "type": "TimeSpan",
+      "_label": "Kazuhiro Ishii Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11418",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22837",
+      "type": "TimeSpan",
+      "_label": "Kazuhiro Ishii Death timespan",
+      "begin_of_the_begin": "2015",
+      "end_of_the_end": "2015"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11418",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11418",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1416",
+              "type": "Event",
+              "_label": "Transformations in Modern Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-21-2 - 1979-24-4",
+                "begin_of_the_begin": "1979-21-2",
+                "end_of_the_end": "1979-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36750",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

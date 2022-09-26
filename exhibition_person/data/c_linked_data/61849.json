@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61849",
+  "type": "Person",
+  "_label": "Tim Griffin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20130",
+      "type": "Name",
+      "_label": "Tim Griffin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20130",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40260",
+      "type": "TimeSpan",
+      "_label": "Tim Griffin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20130",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40261",
+      "type": "TimeSpan",
+      "_label": "Tim Griffin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20130",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20130",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4986",
+              "type": "Event",
+              "_label": "White Columns Poetry Project #1: Tim Griffin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-2-6 - 2007-14-7",
+                "begin_of_the_begin": "2007-2-6",
+                "end_of_the_end": "2007-14-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70036",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

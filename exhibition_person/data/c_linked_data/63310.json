@@ -1,0 +1,74 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63310",
+  "type": "Person",
+  "_label": "David Smyth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20698",
+      "type": "Name",
+      "_label": "David Smyth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20698",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41396",
+      "type": "TimeSpan",
+      "_label": "David Smyth Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20698",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41397",
+      "type": "TimeSpan",
+      "_label": "David Smyth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20698",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20698",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6682",
+              "type": "Event",
+              "_label": "David Smyth",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-15-6 - 1973-16-7",
+                "begin_of_the_begin": "1973-15-6",
+                "end_of_the_end": "1973-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71582",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

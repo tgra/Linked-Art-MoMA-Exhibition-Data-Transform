@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66173",
+  "type": "Person",
+  "_label": "Nikhil Chopra",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22061",
+      "type": "Name",
+      "_label": "Nikhil Chopra"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22061",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44122",
+      "type": "TimeSpan",
+      "_label": "Nikhil Chopra Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22061",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44123",
+      "type": "TimeSpan",
+      "_label": "Nikhil Chopra Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22061",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22061",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21848",
+              "type": "Event",
+              "_label": "Nikhil Chopra: Yog Raj Chitrakar Memory Drawing IX",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-28-10 - 2010-21-2",
+                "begin_of_the_begin": "2009-28-10",
+                "end_of_the_end": "2010-21-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74356",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

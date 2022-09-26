@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/88",
+  "type": "Person",
+  "_label": "Russell Barnett Aitken",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26318",
+      "type": "Name",
+      "_label": "Russell Barnett Aitken"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9399",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1910–2002"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26318",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52636",
+      "type": "TimeSpan",
+      "_label": "Russell Barnett Aitken Birth timespan",
+      "begin_of_the_begin": "1910",
+      "end_of_the_end": "1910"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26318",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52637",
+      "type": "TimeSpan",
+      "_label": "Russell Barnett Aitken Death timespan",
+      "begin_of_the_begin": "2002",
+      "end_of_the_end": "2002"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26318",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26318",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/84",
+              "type": "Event",
+              "_label": "Fantastic Art, Dada, Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-7-12 - 1937-17-1",
+                "begin_of_the_begin": "1936-7-12",
+                "end_of_the_end": "1937-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86190",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/117",
+              "type": "Event",
+              "_label": "Three Centuries of American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-24-5 - 1938-31-7",
+                "begin_of_the_begin": "1938-24-5",
+                "end_of_the_end": "1938-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86191",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

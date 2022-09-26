@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35599",
+  "type": "Person",
+  "_label": "Ian CHENG",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12550",
+      "type": "Name",
+      "_label": "Ian CHENG"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5898",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1984"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12550",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25100",
+      "type": "TimeSpan",
+      "_label": "Ian CHENG Birth timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12550",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25101",
+      "type": "TimeSpan",
+      "_label": "Ian CHENG Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12550",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12550",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3567",
+              "type": "Event",
+              "_label": "Ian Cheng: Emissaries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-9-4 - 2017-25-9",
+                "begin_of_the_begin": "2017-9-4",
+                "end_of_the_end": "2017-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40925",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

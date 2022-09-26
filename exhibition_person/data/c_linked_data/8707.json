@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8707",
+  "type": "Person",
+  "_label": "Sakase Adtech Co., Fukui, Japan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26264",
+      "type": "Name",
+      "_label": "Sakase Adtech Co., Fukui, Japan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26264",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52528",
+      "type": "TimeSpan",
+      "_label": "Sakase Adtech Co., Fukui, Japan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26264",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52529",
+      "type": "TimeSpan",
+      "_label": "Sakase Adtech Co., Fukui, Japan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26264",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26264",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2123",
+              "type": "Event",
+              "_label": "Structure and Surface: Contemporary Japanese Textiles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-12-11 - 1999-26-1",
+                "begin_of_the_begin": "1998-12-11",
+                "end_of_the_end": "1999-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85906",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/671",
+  "type": "Person",
+  "_label": "Alice Boughton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22513",
+      "type": "Name",
+      "_label": "Alice Boughton"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8290",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1865–1943"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22513",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45026",
+      "type": "TimeSpan",
+      "_label": "Alice Boughton Birth timespan",
+      "begin_of_the_begin": "1865",
+      "end_of_the_end": "1865"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22513",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45027",
+      "type": "TimeSpan",
+      "_label": "Alice Boughton Death timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22513",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22513",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/258",
+              "type": "Event",
+              "_label": "Twentieth Century Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-9-12 - 1943-24-1",
+                "begin_of_the_begin": "1942-9-12",
+                "end_of_the_end": "1943-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75267",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/453",
+              "type": "Event",
+              "_label": "Photo-Secession (American Photography 1902–1910)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-29-9 - 1948-28-11",
+                "begin_of_the_begin": "1948-29-9",
+                "end_of_the_end": "1948-28-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75268",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/68856",
+  "type": "Person",
+  "_label": "Donald Prochera",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23370",
+      "type": "Name",
+      "_label": "Donald Prochera"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23370",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46740",
+      "type": "TimeSpan",
+      "_label": "Donald Prochera Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23370",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46741",
+      "type": "TimeSpan",
+      "_label": "Donald Prochera Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23370",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23370",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2474",
+              "type": "Event",
+              "_label": "Paul Rosenberg and Company: From France to America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-27-1 - 2010-5-4",
+                "begin_of_the_begin": "2010-27-1",
+                "end_of_the_end": "2010-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76781",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

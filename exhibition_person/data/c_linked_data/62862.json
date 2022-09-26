@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/62862",
+  "type": "Person",
+  "_label": "Todd Schroeder",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20525",
+      "type": "Name",
+      "_label": "Todd Schroeder"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20525",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41050",
+      "type": "TimeSpan",
+      "_label": "Todd Schroeder Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20525",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41051",
+      "type": "TimeSpan",
+      "_label": "Todd Schroeder Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20525",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20525",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/5207",
+              "type": "Event",
+              "_label": "White Room: Todd Schroeder",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-18-1 - 1997-23-2",
+                "begin_of_the_begin": "1997-18-1",
+                "end_of_the_end": "1997-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70856",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

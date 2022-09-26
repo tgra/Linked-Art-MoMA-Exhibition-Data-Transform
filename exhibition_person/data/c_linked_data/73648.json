@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73648",
+  "type": "Person",
+  "_label": "Robert  Indinan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25414",
+      "type": "Name",
+      "_label": "Robert  Indinan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25414",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50828",
+      "type": "TimeSpan",
+      "_label": "Robert  Indinan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25414",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50829",
+      "type": "TimeSpan",
+      "_label": "Robert  Indinan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25414",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25414",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54754",
+              "type": "Event",
+              "_label": "Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-26-2 - ",
+                "begin_of_the_begin": "1962-26-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81852",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

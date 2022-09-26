@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57451",
+  "type": "Person",
+  "_label": "Susan Shie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15923",
+      "type": "Name",
+      "_label": "Susan Shie"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15923",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31846",
+      "type": "TimeSpan",
+      "_label": "Susan Shie Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15923",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31847",
+      "type": "TimeSpan",
+      "_label": "Susan Shie Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15923",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15923",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2977",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1988–89",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-4 - 1989-12-6",
+                "begin_of_the_begin": "1989-23-4",
+                "end_of_the_end": "1989-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61150",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

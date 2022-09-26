@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30940",
+  "type": "Person",
+  "_label": "Bernhard Pankok",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9689",
+      "type": "Name",
+      "_label": "Bernhard Pankok"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9689",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19378",
+      "type": "TimeSpan",
+      "_label": "Bernhard Pankok Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9689",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19379",
+      "type": "TimeSpan",
+      "_label": "Bernhard Pankok Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9689",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9689",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/738",
+              "type": "Event",
+              "_label": "Art Nouveau",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-6 - 1960-6-9",
+                "begin_of_the_begin": "1960-8-6",
+                "end_of_the_end": "1960-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33618",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

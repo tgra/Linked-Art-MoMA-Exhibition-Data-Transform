@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58642",
+  "type": "Person",
+  "_label": "Klaus Jung",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17203",
+      "type": "Name",
+      "_label": "Klaus Jung"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17203",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34406",
+      "type": "TimeSpan",
+      "_label": "Klaus Jung Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17203",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34407",
+      "type": "TimeSpan",
+      "_label": "Klaus Jung Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17203",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17203",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2795",
+              "type": "Event",
+              "_label": "International Studio Program (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63749",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57867",
+  "type": "Person",
+  "_label": "Billy Bang",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16367",
+      "type": "Name",
+      "_label": "Billy Bang"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16367",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32734",
+      "type": "TimeSpan",
+      "_label": "Billy Bang Birth timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16367",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32735",
+      "type": "TimeSpan",
+      "_label": "Billy Bang Death timespan",
+      "begin_of_the_begin": "2011",
+      "end_of_the_end": "2011"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16367",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16367",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2986",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-1 - 1977-1-3",
+                "begin_of_the_begin": "1977-1-1",
+                "end_of_the_end": "1977-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62166",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3262",
+              "type": "Event",
+              "_label": "Un Homme-Song of Praise",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-19-2 - 1987-19-2",
+                "begin_of_the_begin": "1987-19-2",
+                "end_of_the_end": "1987-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62167",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

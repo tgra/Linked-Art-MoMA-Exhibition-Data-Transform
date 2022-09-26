@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63426",
+  "type": "Person",
+  "_label": "Grant Foster",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20816",
+      "type": "Name",
+      "_label": "Grant Foster"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20816",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41632",
+      "type": "TimeSpan",
+      "_label": "Grant Foster Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20816",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41633",
+      "type": "TimeSpan",
+      "_label": "Grant Foster Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20816",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20816",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4984",
+              "type": "Event",
+              "_label": "White Columns Online: Full House",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-14-1 - 2017-4-3",
+                "begin_of_the_begin": "2017-14-1",
+                "end_of_the_end": "2017-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71845",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

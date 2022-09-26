@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57161",
+  "type": "Person",
+  "_label": "Walter Kravitz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15613",
+      "type": "Name",
+      "_label": "Walter Kravitz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15613",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31226",
+      "type": "TimeSpan",
+      "_label": "Walter Kravitz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15613",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31227",
+      "type": "TimeSpan",
+      "_label": "Walter Kravitz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15613",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15613",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3130",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1981)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-13-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-13-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60561",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

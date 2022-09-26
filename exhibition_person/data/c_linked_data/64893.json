@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64893",
+  "type": "Person",
+  "_label": "Hiwa K",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21469",
+      "type": "Name",
+      "_label": "Hiwa K"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21469",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42938",
+      "type": "TimeSpan",
+      "_label": "Hiwa K Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21469",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42939",
+      "type": "TimeSpan",
+      "_label": "Hiwa K Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21469",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21469",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16994",
+              "type": "Event",
+              "_label": "Here and Elsewhere",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-16-7 - 2014-28-9",
+                "begin_of_the_begin": "2014-16-7",
+                "end_of_the_end": "2014-28-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73062",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/21806",
+              "type": "Event",
+              "_label": "Hiwa K: Blind as the Mother Tongue",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2018-2-5 - 2018-19-8",
+                "begin_of_the_begin": "2018-2-5",
+                "end_of_the_end": "2018-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73063",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

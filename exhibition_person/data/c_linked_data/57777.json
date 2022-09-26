@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57777",
+  "type": "Person",
+  "_label": "Judith Simonian",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16270",
+      "type": "Name",
+      "_label": "Judith Simonian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16270",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32540",
+      "type": "TimeSpan",
+      "_label": "Judith Simonian Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16270",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32541",
+      "type": "TimeSpan",
+      "_label": "Judith Simonian Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16270",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16270",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3203",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-17-2 - 1980-6-4",
+                "begin_of_the_begin": "1980-17-2",
+                "end_of_the_end": "1980-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61960",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

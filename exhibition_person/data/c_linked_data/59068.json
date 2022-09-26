@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59068",
+  "type": "Person",
+  "_label": "Jeff Foxx",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17663",
+      "type": "Name",
+      "_label": "Jeff Foxx"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35326",
+      "type": "TimeSpan",
+      "_label": "Jeff Foxx Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35327",
+      "type": "TimeSpan",
+      "_label": "Jeff Foxx Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3206",
+              "type": "Event",
+              "_label": "Flash Theater",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-6-5 - 1979-27-5",
+                "begin_of_the_begin": "1979-6-5",
+                "end_of_the_end": "1979-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64691",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

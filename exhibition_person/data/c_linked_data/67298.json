@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67298",
+  "type": "Person",
+  "_label": "Huong Ngo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22641",
+      "type": "Name",
+      "_label": "Huong Ngo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22641",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45282",
+      "type": "TimeSpan",
+      "_label": "Huong Ngo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22641",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45283",
+      "type": "TimeSpan",
+      "_label": "Huong Ngo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22641",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22641",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18538",
+              "type": "Event",
+              "_label": "Shame the Devil",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-17-3 - ",
+                "begin_of_the_begin": "2011-17-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75470",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59917",
+  "type": "Person",
+  "_label": "Peter Caine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18573",
+      "type": "Name",
+      "_label": "Peter Caine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18573",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37146",
+      "type": "TimeSpan",
+      "_label": "Peter Caine Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18573",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37147",
+      "type": "TimeSpan",
+      "_label": "Peter Caine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18573",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18573",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66580",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2930",
+              "type": "Event",
+              "_label": "Silicone Valley",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-2 - 2007-30-4",
+                "begin_of_the_begin": "2007-11-2",
+                "end_of_the_end": "2007-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66581",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

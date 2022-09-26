@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65013",
+  "type": "Person",
+  "_label": "James Chatelain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21523",
+      "type": "Name",
+      "_label": "James Chatelain"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21523",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43046",
+      "type": "TimeSpan",
+      "_label": "James Chatelain Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21523",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43047",
+      "type": "TimeSpan",
+      "_label": "James Chatelain Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21523",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21523",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17299",
+              "type": "Event",
+              "_label": "\"Bad\" Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-14-1 - 1978-28-2",
+                "begin_of_the_begin": "1978-14-1",
+                "end_of_the_end": "1978-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73162",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

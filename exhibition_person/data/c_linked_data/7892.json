@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7892",
+  "type": "Person",
+  "_label": "Alexandre Arrechea",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25838",
+      "type": "Name",
+      "_label": "Alexandre Arrechea"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9079",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Cuban, born 1970"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25838",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51676",
+      "type": "TimeSpan",
+      "_label": "Alexandre Arrechea Birth timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25838",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51677",
+      "type": "TimeSpan",
+      "_label": "Alexandre Arrechea Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25838",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25838",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21962",
+              "type": "Event",
+              "_label": "Bili Bidjocka, Los Carpinteros, Rivane Neuenschwander",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-6 - 1998-20-9",
+                "begin_of_the_begin": "1998-18-6",
+                "end_of_the_end": "1998-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84262",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2371",
+              "type": "Event",
+              "_label": "New Perspectives in Latin American Art, 1930–2006: Selections from a Decade of Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-11 - 2008-28-2",
+                "begin_of_the_begin": "2007-21-11",
+                "end_of_the_end": "2008-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84263",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63534",
+  "type": "Person",
+  "_label": "Clement Greenberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20915",
+      "type": "Name",
+      "_label": "Clement Greenberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20915",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41830",
+      "type": "TimeSpan",
+      "_label": "Clement Greenberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20915",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41831",
+      "type": "TimeSpan",
+      "_label": "Clement Greenberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20915",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20915",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7084",
+              "type": "Event",
+              "_label": "Clement Greenberg: Problems in Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-15-1 - ",
+                "begin_of_the_begin": "1953-15-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72040",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/7102",
+              "type": "Event",
+              "_label": "Drawings, Watercolors, Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-5-1 - 1954-16-1",
+                "begin_of_the_begin": "1954-5-1",
+                "end_of_the_end": "1954-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72041",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64726",
+  "type": "Person",
+  "_label": "George Thurman Green",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21398",
+      "type": "Name",
+      "_label": "George Thurman Green"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21398",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42796",
+      "type": "TimeSpan",
+      "_label": "George Thurman Green Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21398",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42797",
+      "type": "TimeSpan",
+      "_label": "George Thurman Green Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21398",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21398",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17293",
+              "type": "Event",
+              "_label": "The 1970's: New American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-15-6 - 1981-10-2",
+                "begin_of_the_begin": "1979-15-6",
+                "end_of_the_end": "1981-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72960",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17232",
+              "type": "Event",
+              "_label": "Paradise Lost / Paradise Regained: American Visions of the New Decade",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-10-6 - 1984-30-9",
+                "begin_of_the_begin": "1984-10-6",
+                "end_of_the_end": "1984-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72961",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

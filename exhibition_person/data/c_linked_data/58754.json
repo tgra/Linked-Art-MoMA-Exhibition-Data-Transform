@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58754",
+  "type": "Person",
+  "_label": "Julie Cohen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17325",
+      "type": "Name",
+      "_label": "Julie Cohen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17325",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34650",
+      "type": "TimeSpan",
+      "_label": "Julie Cohen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17325",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34651",
+      "type": "TimeSpan",
+      "_label": "Julie Cohen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17325",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17325",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2789",
+              "type": "Event",
+              "_label": "Space Invaders",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-31-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63994",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35366",
+  "type": "Person",
+  "_label": "Michael Gitlin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12518",
+      "type": "Name",
+      "_label": "Michael Gitlin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5870",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "South African, born 1943"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12518",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25036",
+      "type": "TimeSpan",
+      "_label": "Michael Gitlin Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12518",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25037",
+      "type": "TimeSpan",
+      "_label": "Michael Gitlin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12518",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12518",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7040",
+              "type": "Event",
+              "_label": "1997 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-12-3 - 1997-15-6",
+                "begin_of_the_begin": "1997-12-3",
+                "end_of_the_end": "1997-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40649",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Galleries, 2nd Floor Film/Video Gallery, Lobby Gallery, Lower Gallery, 3rd Floor Galleries, 2nd Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

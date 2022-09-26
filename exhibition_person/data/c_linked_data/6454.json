@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6454",
+  "type": "Person",
+  "_label": "Jerrold Maddox",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21313",
+      "type": "Name",
+      "_label": "Jerrold Maddox"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8143",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21313",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42626",
+      "type": "TimeSpan",
+      "_label": "Jerrold Maddox Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21313",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42627",
+      "type": "TimeSpan",
+      "_label": "Jerrold Maddox Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21313",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21313",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/788",
+              "type": "Event",
+              "_label": "Recent Painting U.S.A.: The Figure",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-23-5 - 1962-26-8",
+                "begin_of_the_begin": "1962-23-5",
+                "end_of_the_end": "1962-26-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72816",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/54756",
+              "type": "Event",
+              "_label": "Selections from the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-24-10 - ",
+                "begin_of_the_begin": "1963-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72817",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

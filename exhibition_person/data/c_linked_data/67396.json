@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67396",
+  "type": "Person",
+  "_label": "Live Skull",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22745",
+      "type": "Name",
+      "_label": "Live Skull"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22745",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45490",
+      "type": "TimeSpan",
+      "_label": "Live Skull Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22745",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45491",
+      "type": "TimeSpan",
+      "_label": "Live Skull Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22745",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22745",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18147",
+              "type": "Event",
+              "_label": "8BC Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-2 - ",
+                "begin_of_the_begin": "1986-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75626",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

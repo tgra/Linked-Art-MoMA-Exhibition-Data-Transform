@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60803",
+  "type": "Person",
+  "_label": "Donald E. Camp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19512",
+      "type": "Name",
+      "_label": "Donald E. Camp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19512",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39024",
+      "type": "TimeSpan",
+      "_label": "Donald E. Camp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19512",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39025",
+      "type": "TimeSpan",
+      "_label": "Donald E. Camp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19512",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19512",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4343",
+              "type": "Event",
+              "_label": "Biographies: Philadelphia Narratives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-19-3 - 1999-25-4",
+                "begin_of_the_begin": "1999-19-3",
+                "end_of_the_end": "1999-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68653",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

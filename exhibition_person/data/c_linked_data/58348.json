@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58348",
+  "type": "Person",
+  "_label": "Sally Bowden",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16885",
+      "type": "Name",
+      "_label": "Sally Bowden"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16885",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33770",
+      "type": "TimeSpan",
+      "_label": "Sally Bowden Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16885",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33771",
+      "type": "TimeSpan",
+      "_label": "Sally Bowden Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16885",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16885",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3637",
+              "type": "Event",
+              "_label": "Progressions: A Cultural Legacy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-2 - 1986-15-3",
+                "begin_of_the_begin": "1986-13-2",
+                "end_of_the_end": "1986-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63240",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60936",
+  "type": "Person",
+  "_label": "Alexandro Segade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19657",
+      "type": "Name",
+      "_label": "Alexandro Segade"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19657",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39314",
+      "type": "TimeSpan",
+      "_label": "Alexandro Segade Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19657",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39315",
+      "type": "TimeSpan",
+      "_label": "Alexandro Segade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19657",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19657",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4044",
+              "type": "Event",
+              "_label": "Video Art: Replay, Part 3. Ludicrous!",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-24-3 - 2010-6-6",
+                "begin_of_the_begin": "2010-24-3",
+                "end_of_the_end": "2010-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68919",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17059",
+              "type": "Event",
+              "_label": "My Barbarian: The Golden Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-6-2 - 2008-30-3",
+                "begin_of_the_begin": "2008-6-2",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68920",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60560",
+  "type": "Person",
+  "_label": "Don Campbell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19261",
+      "type": "Name",
+      "_label": "Don Campbell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19261",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38522",
+      "type": "TimeSpan",
+      "_label": "Don Campbell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19261",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38523",
+      "type": "TimeSpan",
+      "_label": "Don Campbell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19261",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19261",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4188",
+              "type": "Event",
+              "_label": "A Laser Environment: Don Campbell and Matt G. Lavin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-2-3 - 1970-22-3",
+                "begin_of_the_begin": "1970-2-3",
+                "end_of_the_end": "1970-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68150",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

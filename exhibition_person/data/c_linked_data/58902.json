@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58902",
+  "type": "Person",
+  "_label": "Phoebe Legere",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17484",
+      "type": "Name",
+      "_label": "Phoebe Legere"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17484",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34968",
+      "type": "TimeSpan",
+      "_label": "Phoebe Legere Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17484",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34969",
+      "type": "TimeSpan",
+      "_label": "Phoebe Legere Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17484",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17484",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2708",
+              "type": "Event",
+              "_label": "Boudoir in Exile",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-28-4 - 1994-14-5",
+                "begin_of_the_begin": "1994-28-4",
+                "end_of_the_end": "1994-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64315",
+                  "type": "Place",
+                  "_label": "54 White St., Tribeca",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

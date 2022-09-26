@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59860",
+  "type": "Person",
+  "_label": "Cecilia Tripp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18511",
+      "type": "Name",
+      "_label": "Cecilia Tripp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18511",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37022",
+      "type": "TimeSpan",
+      "_label": "Cecilia Tripp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18511",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37023",
+      "type": "TimeSpan",
+      "_label": "Cecilia Tripp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18511",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18511",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3411",
+              "type": "Event",
+              "_label": "Visa for Thirteen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-25-4 - 2004-1-6",
+                "begin_of_the_begin": "2004-25-4",
+                "end_of_the_end": "2004-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66463",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

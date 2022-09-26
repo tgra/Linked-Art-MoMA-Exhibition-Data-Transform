@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59686",
+  "type": "Person",
+  "_label": "Manuel Neri",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18324",
+      "type": "Name",
+      "_label": "Manuel Neri"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18324",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36648",
+      "type": "TimeSpan",
+      "_label": "Manuel Neri Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18324",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36649",
+      "type": "TimeSpan",
+      "_label": "Manuel Neri Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18324",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18324",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2917",
+              "type": "Event",
+              "_label": "Figuratively Sculpting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-31-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66101",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6631",
+              "type": "Event",
+              "_label": "1970 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-12-12 - 1971-7-2",
+                "begin_of_the_begin": "1970-12-12",
+                "end_of_the_end": "1971-7-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66102",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery, 4th Floor Gallery.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

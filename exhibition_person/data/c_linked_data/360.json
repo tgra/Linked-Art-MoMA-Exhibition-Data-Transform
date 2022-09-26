@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/360",
+  "type": "Person",
+  "_label": "Eugen Batz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12900",
+      "type": "Name",
+      "_label": "Eugen Batz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5938",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1905–1986; at Bauhaus 1929–31"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12900",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25800",
+      "type": "TimeSpan",
+      "_label": "Eugen Batz Birth timespan",
+      "begin_of_the_begin": "1905",
+      "end_of_the_end": "1905"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12900",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25801",
+      "type": "TimeSpan",
+      "_label": "Eugen Batz Death timespan",
+      "begin_of_the_begin": "1986",
+      "end_of_the_end": "1986"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12900",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12900",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2464",
+              "type": "Event",
+              "_label": "Bauhaus 1919–1933: Workshops for Modernity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-11 - 2010-25-1",
+                "begin_of_the_begin": "2009-8-11",
+                "end_of_the_end": "2010-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41742",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57781",
+  "type": "Person",
+  "_label": "Diane Martel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16275",
+      "type": "Name",
+      "_label": "Diane Martel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16275",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32550",
+      "type": "TimeSpan",
+      "_label": "Diane Martel Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16275",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32551",
+      "type": "TimeSpan",
+      "_label": "Diane Martel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16275",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16275",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2744",
+              "type": "Event",
+              "_label": "Spring Dance Series (1987): He/She: Love, Sex, and Gender",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-9-5 - 1987-21-6",
+                "begin_of_the_begin": "1987-9-5",
+                "end_of_the_end": "1987-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61969",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

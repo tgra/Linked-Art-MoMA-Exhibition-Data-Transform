@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59996",
+  "type": "Person",
+  "_label": "Petra Lindholm",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18658",
+      "type": "Name",
+      "_label": "Petra Lindholm"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18658",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37316",
+      "type": "TimeSpan",
+      "_label": "Petra Lindholm Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18658",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37317",
+      "type": "TimeSpan",
+      "_label": "Petra Lindholm Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18658",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18658",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3419",
+              "type": "Event",
+              "_label": "Special Projects (Fall 2004): Paolo Canevari, Amy O'Neill and Petra Lindholm",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-24-10 - 2005-21-2",
+                "begin_of_the_begin": "2004-24-10",
+                "end_of_the_end": "2005-21-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66852",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

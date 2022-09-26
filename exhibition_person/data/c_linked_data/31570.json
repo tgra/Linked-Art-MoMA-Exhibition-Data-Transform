@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31570",
+  "type": "Person",
+  "_label": "Walter Sanders",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10371",
+      "type": "Name",
+      "_label": "Walter Sanders"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10371",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20742",
+      "type": "TimeSpan",
+      "_label": "Walter Sanders Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10371",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20743",
+      "type": "TimeSpan",
+      "_label": "Walter Sanders Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10371",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10371",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/562",
+              "type": "Event",
+              "_label": "Memorable Life Photographs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-20-11 - 1951-12-12",
+                "begin_of_the_begin": "1951-20-11",
+                "end_of_the_end": "1951-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34909",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/637",
+              "type": "Event",
+              "_label": "The Family of Man",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-24-1 - 1955-8-5",
+                "begin_of_the_begin": "1955-24-1",
+                "end_of_the_end": "1955-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34910",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3708",
+  "type": "Person",
+  "_label": "Roger Mayne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13250",
+      "type": "Name",
+      "_label": "Roger Mayne"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6024",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1929"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13250",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26500",
+      "type": "TimeSpan",
+      "_label": "Roger Mayne Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13250",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26501",
+      "type": "TimeSpan",
+      "_label": "Roger Mayne Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13250",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13250",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/752",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-21-12 - 1961-5-2",
+                "begin_of_the_begin": "1960-21-12",
+                "end_of_the_end": "1961-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43305",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/821",
+              "type": "Event",
+              "_label": "Edward Steichen Photography Center",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-27-5 - ",
+                "begin_of_the_begin": "1964-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/43306",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

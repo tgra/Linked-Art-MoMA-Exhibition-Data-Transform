@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3196",
+  "type": "Person",
+  "_label": "George Ladas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10785",
+      "type": "Name",
+      "_label": "George Ladas"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5310",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10785",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21570",
+      "type": "TimeSpan",
+      "_label": "George Ladas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10785",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21571",
+      "type": "TimeSpan",
+      "_label": "George Ladas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10785",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10785",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1066",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Design Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-1-12 - 1971-31-1",
+                "begin_of_the_begin": "1970-1-12",
+                "end_of_the_end": "1971-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35699",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2329",
+              "type": "Event",
+              "_label": "Digitally Mastered: Recent Acquisitions from the Museum's Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-22-11 - 2007-26-11",
+                "begin_of_the_begin": "2006-22-11",
+                "end_of_the_end": "2007-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35700",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67022",
+  "type": "Person",
+  "_label": "Tracey Rose",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22469",
+      "type": "Name",
+      "_label": "Tracey Rose"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22469",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44938",
+      "type": "TimeSpan",
+      "_label": "Tracey Rose Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22469",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44939",
+      "type": "TimeSpan",
+      "_label": "Tracey Rose Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22469",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22469",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17095",
+              "type": "Event",
+              "_label": "Videodrome",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-22-10 - 1999-11-11",
+                "begin_of_the_begin": "1999-22-10",
+                "end_of_the_end": "1999-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75126",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

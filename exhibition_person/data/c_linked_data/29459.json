@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29459",
+  "type": "Person",
+  "_label": "George Kostritsky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8095",
+      "type": "Name",
+      "_label": "George Kostritsky"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8095",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16190",
+      "type": "TimeSpan",
+      "_label": "George Kostritsky Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8095",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16191",
+      "type": "TimeSpan",
+      "_label": "George Kostritsky Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8095",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8095",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/574",
+              "type": "Event",
+              "_label": "Human Quality in Creative Experience",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-20-3 - 1952-20-4",
+                "begin_of_the_begin": "1952-20-3",
+                "end_of_the_end": "1952-20-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30264",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

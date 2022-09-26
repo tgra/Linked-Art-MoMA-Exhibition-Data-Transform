@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67541",
+  "type": "Person",
+  "_label": "Becky Johnston",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22902",
+      "type": "Name",
+      "_label": "Becky Johnston"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22902",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45804",
+      "type": "TimeSpan",
+      "_label": "Becky Johnston Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22902",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45805",
+      "type": "TimeSpan",
+      "_label": "Becky Johnston Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22902",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22902",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18280",
+              "type": "Event",
+              "_label": "Dubbed in Glamour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-21-11 - ",
+                "begin_of_the_begin": "1980-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75867",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

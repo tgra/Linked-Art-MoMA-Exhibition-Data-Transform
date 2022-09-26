@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64164",
+  "type": "Person",
+  "_label": "Chris Coy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21157",
+      "type": "Name",
+      "_label": "Chris Coy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21157",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42314",
+      "type": "TimeSpan",
+      "_label": "Chris Coy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21157",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42315",
+      "type": "TimeSpan",
+      "_label": "Chris Coy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21157",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21157",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17057",
+              "type": "Event",
+              "_label": "Montage: Unmonumental Online",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-13-2 - 2008-30-3",
+                "begin_of_the_begin": "2008-13-2",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72558",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

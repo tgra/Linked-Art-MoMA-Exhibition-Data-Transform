@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5224",
+  "type": "Person",
+  "_label": "Jeffrey Silverthorne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14689",
+      "type": "Name",
+      "_label": "Jeffrey Silverthorne"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7239",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14689",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29378",
+      "type": "TimeSpan",
+      "_label": "Jeffrey Silverthorne Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14689",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29379",
+      "type": "TimeSpan",
+      "_label": "Jeffrey Silverthorne Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14689",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14689",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17135",
+              "type": "Event",
+              "_label": "The Interrupted Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-29-12",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55780",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1041",
+              "type": "Event",
+              "_label": "Photography: New Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-16-4 - 1970-5-7",
+                "begin_of_the_begin": "1970-16-4",
+                "end_of_the_end": "1970-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/55781",
+                  "type": "Place",
+                  "_label": "Steichen Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

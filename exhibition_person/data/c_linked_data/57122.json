@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57122",
+  "type": "Person",
+  "_label": "Cathy Hardwick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15570",
+      "type": "Name",
+      "_label": "Cathy Hardwick"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15570",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31140",
+      "type": "TimeSpan",
+      "_label": "Cathy Hardwick Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15570",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31141",
+      "type": "TimeSpan",
+      "_label": "Cathy Hardwick Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15570",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15570",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2797",
+              "type": "Event",
+              "_label": "Fashion (Spring 1982): Cathy Hardwick, Michele Lamy and Corrine Guibert, Regina Kravitz and Willi Smith",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60482",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

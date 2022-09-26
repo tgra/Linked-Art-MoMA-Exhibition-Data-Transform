@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32839",
+  "type": "Person",
+  "_label": "Jeff Turtletaub",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11731",
+      "type": "Name",
+      "_label": "Jeff Turtletaub"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11731",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23462",
+      "type": "TimeSpan",
+      "_label": "Jeff Turtletaub Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11731",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23463",
+      "type": "TimeSpan",
+      "_label": "Jeff Turtletaub Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11731",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11731",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1517",
+              "type": "Event",
+              "_label": "New Imagery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-1-7 - 1982-12-8",
+                "begin_of_the_begin": "1982-1-7",
+                "end_of_the_end": "1982-12-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37600",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

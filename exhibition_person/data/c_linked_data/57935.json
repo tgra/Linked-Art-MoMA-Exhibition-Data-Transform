@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57935",
+  "type": "Person",
+  "_label": "Melissa Kretschmer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16442",
+      "type": "Name",
+      "_label": "Melissa Kretschmer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16442",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32884",
+      "type": "TimeSpan",
+      "_label": "Melissa Kretschmer Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16442",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32885",
+      "type": "TimeSpan",
+      "_label": "Melissa Kretschmer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16442",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16442",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3124",
+              "type": "Event",
+              "_label": "Slow Art: Painting in New York Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-26-4 - 1992-21-6",
+                "begin_of_the_begin": "1992-26-4",
+                "end_of_the_end": "1992-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62330",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

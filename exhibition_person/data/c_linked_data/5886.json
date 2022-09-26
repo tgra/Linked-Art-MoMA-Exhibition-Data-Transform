@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/5886",
+  "type": "Person",
+  "_label": "Eduardo Vilches",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17438",
+      "type": "Name",
+      "_label": "Eduardo Vilches"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7766",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Chilean"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17438",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34876",
+      "type": "TimeSpan",
+      "_label": "Eduardo Vilches Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17438",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34877",
+      "type": "TimeSpan",
+      "_label": "Eduardo Vilches Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17438",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17438",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1533",
+              "type": "Event",
+              "_label": "Prints from Blocks: Gauguin to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-3-3 - 1983-15-5",
+                "begin_of_the_begin": "1983-3-3",
+                "end_of_the_end": "1983-15-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64182",
+                  "type": "Place",
+                  "_label": "West Wing Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

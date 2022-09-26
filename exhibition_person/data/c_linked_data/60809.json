@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60809",
+  "type": "Person",
+  "_label": "Nancy Davidson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19518",
+      "type": "Name",
+      "_label": "Nancy Davidson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19518",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39036",
+      "type": "TimeSpan",
+      "_label": "Nancy Davidson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19518",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39037",
+      "type": "TimeSpan",
+      "_label": "Nancy Davidson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19518",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19518",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4338",
+              "type": "Event",
+              "_label": "Nancy Davidson: Breathless",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-11 - 2000-16-1",
+                "begin_of_the_begin": "1999-20-11",
+                "end_of_the_end": "2000-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68661",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

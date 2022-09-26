@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63556",
+  "type": "Person",
+  "_label": "Abdul Hay Mosallam",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20926",
+      "type": "Name",
+      "_label": "Abdul Hay Mosallam"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20926",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41852",
+      "type": "TimeSpan",
+      "_label": "Abdul Hay Mosallam Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20926",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41853",
+      "type": "TimeSpan",
+      "_label": "Abdul Hay Mosallam Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20926",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20926",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16994",
+              "type": "Event",
+              "_label": "Here and Elsewhere",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-16-7 - 2014-28-9",
+                "begin_of_the_begin": "2014-16-7",
+                "end_of_the_end": "2014-28-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72054",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

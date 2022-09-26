@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60421",
+  "type": "Person",
+  "_label": "John Beagles",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19116",
+      "type": "Name",
+      "_label": "John Beagles"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19116",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38232",
+      "type": "TimeSpan",
+      "_label": "John Beagles Birth timespan",
+      "begin_of_the_begin": "1844",
+      "end_of_the_end": "1844"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19116",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38233",
+      "type": "TimeSpan",
+      "_label": "John Beagles Death timespan",
+      "begin_of_the_begin": "1907",
+      "end_of_the_end": "1907"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19116",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19116",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3394",
+              "type": "Event",
+              "_label": "Romantic Detachment",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-18-10 - 2004-7-11",
+                "begin_of_the_begin": "2004-18-10",
+                "end_of_the_end": "2004-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67763",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

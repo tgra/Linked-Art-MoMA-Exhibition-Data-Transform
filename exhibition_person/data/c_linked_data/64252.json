@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64252",
+  "type": "Person",
+  "_label": "Corkey Lee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21197",
+      "type": "Name",
+      "_label": "Corkey Lee"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21197",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42394",
+      "type": "TimeSpan",
+      "_label": "Corkey Lee Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21197",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42395",
+      "type": "TimeSpan",
+      "_label": "Corkey Lee Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21197",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21197",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21996",
+              "type": "Event",
+              "_label": "$pent: Currency, Security, and Art on Deposit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-1-10 - 1990-7-11",
+                "begin_of_the_begin": "1990-1-10",
+                "end_of_the_end": "1990-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72606",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

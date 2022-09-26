@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60395",
+  "type": "Person",
+  "_label": "Daniel Davidson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19087",
+      "type": "Name",
+      "_label": "Daniel Davidson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19087",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38174",
+      "type": "TimeSpan",
+      "_label": "Daniel Davidson Birth timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19087",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38175",
+      "type": "TimeSpan",
+      "_label": "Daniel Davidson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19087",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19087",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2915",
+              "type": "Event",
+              "_label": "P.S. 1 Studio Artists, 1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-8-5 - 1994-12-6",
+                "begin_of_the_begin": "1994-8-5",
+                "end_of_the_end": "1994-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67703",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

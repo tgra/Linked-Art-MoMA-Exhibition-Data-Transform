@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67463",
+  "type": "Person",
+  "_label": "Rae C. Wright",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22817",
+      "type": "Name",
+      "_label": "Rae C. Wright"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22817",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45634",
+      "type": "TimeSpan",
+      "_label": "Rae C. Wright Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22817",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45635",
+      "type": "TimeSpan",
+      "_label": "Rae C. Wright Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22817",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22817",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75735",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

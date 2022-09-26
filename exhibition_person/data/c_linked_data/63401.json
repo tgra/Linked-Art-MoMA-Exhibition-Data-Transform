@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63401",
+  "type": "Person",
+  "_label": "Leopold van de Ven",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20789",
+      "type": "Name",
+      "_label": "Leopold van de Ven"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20789",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41578",
+      "type": "TimeSpan",
+      "_label": "Leopold van de Ven Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20789",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41579",
+      "type": "TimeSpan",
+      "_label": "Leopold van de Ven Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20789",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20789",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4983",
+              "type": "Event",
+              "_label": "White Columns Online: 'Default Network' curated by Jamie Sterns",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-18-3 - 2017-22-4",
+                "begin_of_the_begin": "2017-18-3",
+                "end_of_the_end": "2017-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71755",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

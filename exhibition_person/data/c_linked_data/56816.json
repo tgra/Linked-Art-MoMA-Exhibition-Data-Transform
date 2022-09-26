@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56816",
+  "type": "Person",
+  "_label": "Art Club 2000",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15240",
+      "type": "Name",
+      "_label": "Art Club 2000"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15240",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30480",
+      "type": "TimeSpan",
+      "_label": "Art Club 2000 Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15240",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30481",
+      "type": "TimeSpan",
+      "_label": "Art Club 2000 Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15240",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15240",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2911",
+              "type": "Event",
+              "_label": "Heaven: Public View, Private View",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59769",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17014",
+              "type": "Event",
+              "_label": "NYC 1993: Experimental Jet Set, Trash and No Star",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-13-2 - 2013-26-5",
+                "begin_of_the_begin": "2013-13-2",
+                "end_of_the_end": "2013-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59770",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

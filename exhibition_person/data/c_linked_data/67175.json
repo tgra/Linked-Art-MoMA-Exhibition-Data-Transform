@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67175",
+  "type": "Person",
+  "_label": "Wolfgang Mayer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22551",
+      "type": "Name",
+      "_label": "Wolfgang Mayer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22551",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45102",
+      "type": "TimeSpan",
+      "_label": "Wolfgang Mayer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22551",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45103",
+      "type": "TimeSpan",
+      "_label": "Wolfgang Mayer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22551",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22551",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21931",
+              "type": "Event",
+              "_label": "Waveform: David Galbraith and Teresa Seemann",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-8-3 - 2001-29-4",
+                "begin_of_the_begin": "2001-8-3",
+                "end_of_the_end": "2001-29-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75335",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

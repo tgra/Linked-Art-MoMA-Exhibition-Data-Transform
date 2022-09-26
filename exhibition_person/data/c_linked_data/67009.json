@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67009",
+  "type": "Person",
+  "_label": "Tony Feher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22463",
+      "type": "Name",
+      "_label": "Tony Feher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22463",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44926",
+      "type": "TimeSpan",
+      "_label": "Tony Feher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22463",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44927",
+      "type": "TimeSpan",
+      "_label": "Tony Feher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22463",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22463",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17106",
+              "type": "Event",
+              "_label": "Untitled (Colored Water)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-18-4 - 1996-2-5",
+                "begin_of_the_begin": "1996-18-4",
+                "end_of_the_end": "1996-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75112",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

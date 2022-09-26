@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57428",
+  "type": "Person",
+  "_label": "Berhard Sachs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15899",
+      "type": "Name",
+      "_label": "Berhard Sachs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15899",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31798",
+      "type": "TimeSpan",
+      "_label": "Berhard Sachs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15899",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31799",
+      "type": "TimeSpan",
+      "_label": "Berhard Sachs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15899",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15899",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2915",
+              "type": "Event",
+              "_label": "P.S. 1 Studio Artists, 1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-8-5 - 1994-12-6",
+                "begin_of_the_begin": "1994-8-5",
+                "end_of_the_end": "1994-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61111",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

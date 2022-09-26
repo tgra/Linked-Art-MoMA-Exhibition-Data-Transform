@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63494",
+  "type": "Person",
+  "_label": "Joel Krause",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20879",
+      "type": "Name",
+      "_label": "Joel Krause"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20879",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41758",
+      "type": "TimeSpan",
+      "_label": "Joel Krause Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20879",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41759",
+      "type": "TimeSpan",
+      "_label": "Joel Krause Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20879",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20879",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7336",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-11-10 - 1963-10-11",
+                "begin_of_the_begin": "1963-11-10",
+                "end_of_the_end": "1963-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71964",
+                  "type": "Place",
+                  "_label": "St. Mark's Church-in-the-Boewry, 106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

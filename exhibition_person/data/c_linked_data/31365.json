@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31365",
+  "type": "Person",
+  "_label": "Lilo Hess",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10149",
+      "type": "Name",
+      "_label": "Lilo Hess"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10149",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20298",
+      "type": "TimeSpan",
+      "_label": "Lilo Hess Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10149",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20299",
+      "type": "TimeSpan",
+      "_label": "Lilo Hess Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10149",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10149",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/514",
+              "type": "Event",
+              "_label": "Color Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-9-5 - 1950-4-7",
+                "begin_of_the_begin": "1950-9-5",
+                "end_of_the_end": "1950-4-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34388",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67053",
+  "type": "Person",
+  "_label": "United Art Contractors",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22487",
+      "type": "Name",
+      "_label": "United Art Contractors"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22487",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44974",
+      "type": "TimeSpan",
+      "_label": "United Art Contractors Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22487",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44975",
+      "type": "TimeSpan",
+      "_label": "United Art Contractors Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22487",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22487",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17209",
+              "type": "Event",
+              "_label": "Choices: Making an Art of Everyday Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-30-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75152",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

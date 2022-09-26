@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65197",
+  "type": "Person",
+  "_label": "Joe McKay",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21596",
+      "type": "Name",
+      "_label": "Joe McKay"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21596",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43192",
+      "type": "TimeSpan",
+      "_label": "Joe McKay Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21596",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43193",
+      "type": "TimeSpan",
+      "_label": "Joe McKay Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21596",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21596",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21928",
+              "type": "Event",
+              "_label": "Kristin Lucas & Joe McKay: The Electric Donut",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-13-7 - 2001-16-9",
+                "begin_of_the_begin": "2001-13-7",
+                "end_of_the_end": "2001-16-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73329",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

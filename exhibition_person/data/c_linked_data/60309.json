@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60309",
+  "type": "Person",
+  "_label": "Wensheng Dong",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18995",
+      "type": "Name",
+      "_label": "Wensheng Dong"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18995",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37990",
+      "type": "TimeSpan",
+      "_label": "Wensheng Dong Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18995",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37991",
+      "type": "TimeSpan",
+      "_label": "Wensheng Dong Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18995",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18995",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3427",
+              "type": "Event",
+              "_label": "The Thirteen: Chinese Video Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-26-2 - 2006-1-5",
+                "begin_of_the_begin": "2006-26-2",
+                "end_of_the_end": "2006-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67493",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

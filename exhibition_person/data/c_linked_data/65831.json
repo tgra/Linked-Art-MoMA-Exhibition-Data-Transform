@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65831",
+  "type": "Person",
+  "_label": "Martha Jackson-Jarvis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21908",
+      "type": "Name",
+      "_label": "Martha Jackson-Jarvis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21908",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43816",
+      "type": "TimeSpan",
+      "_label": "Martha Jackson-Jarvis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21908",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43817",
+      "type": "TimeSpan",
+      "_label": "Martha Jackson-Jarvis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21908",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21908",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17144",
+              "type": "Event",
+              "_label": "The Decade Show: Frameworks of Identity in the 1980s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-12-5 - 1990-19-8",
+                "begin_of_the_begin": "1990-12-5",
+                "end_of_the_end": "1990-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73980",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

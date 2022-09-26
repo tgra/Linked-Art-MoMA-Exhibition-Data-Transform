@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56817",
+  "type": "Person",
+  "_label": "Patrick Killoran",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15241",
+      "type": "Name",
+      "_label": "Patrick Killoran"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15241",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30482",
+      "type": "TimeSpan",
+      "_label": "Patrick Killoran Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15241",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30483",
+      "type": "TimeSpan",
+      "_label": "Patrick Killoran Death timespan",
+      "begin_of_the_begin": "2010",
+      "end_of_the_end": "2010"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15241",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15241",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3374",
+              "type": "Event",
+              "_label": "Reopening: Installations and Projects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59771",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

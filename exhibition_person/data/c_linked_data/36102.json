@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/36102",
+  "type": "Person",
+  "_label": "Lignocel S.a.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13007",
+      "type": "Name",
+      "_label": "Lignocel S.a."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13007",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26014",
+      "type": "TimeSpan",
+      "_label": "Lignocel S.a. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13007",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26015",
+      "type": "TimeSpan",
+      "_label": "Lignocel S.a. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13007",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13007",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1984",
+              "type": "Event",
+              "_label": "Mutant Materials in Contemporary Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-25-5 - 1995-27-8",
+                "begin_of_the_begin": "1995-25-5",
+                "end_of_the_end": "1995-27-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/42000",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

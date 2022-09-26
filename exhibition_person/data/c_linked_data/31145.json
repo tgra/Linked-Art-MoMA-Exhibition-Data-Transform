@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31145",
+  "type": "Person",
+  "_label": "Ralph C. Coxhead Corp.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9909",
+      "type": "Name",
+      "_label": "Ralph C. Coxhead Corp."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9909",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19818",
+      "type": "TimeSpan",
+      "_label": "Ralph C. Coxhead Corp. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9909",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19819",
+      "type": "TimeSpan",
+      "_label": "Ralph C. Coxhead Corp. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9909",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9909",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/311",
+              "type": "Event",
+              "_label": "Design for Use",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34001",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

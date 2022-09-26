@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/6907",
+  "type": "Person",
+  "_label": "Steven T. Kaneko",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23460",
+      "type": "Name",
+      "_label": "Steven T. Kaneko"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8412",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23460",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46920",
+      "type": "TimeSpan",
+      "_label": "Steven T. Kaneko Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23460",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46921",
+      "type": "TimeSpan",
+      "_label": "Steven T. Kaneko Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23460",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23460",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1975",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-2 - 1995-5-6",
+                "begin_of_the_begin": "1995-15-2",
+                "end_of_the_end": "1995-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76913",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

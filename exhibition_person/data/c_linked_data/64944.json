@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64944",
+  "type": "Person",
+  "_label": "Institute of Cultural Inquiry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21496",
+      "type": "Name",
+      "_label": "Institute of Cultural Inquiry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21496",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42992",
+      "type": "TimeSpan",
+      "_label": "Institute of Cultural Inquiry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21496",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42993",
+      "type": "TimeSpan",
+      "_label": "Institute of Cultural Inquiry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21496",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21496",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17129",
+              "type": "Event",
+              "_label": "Day Without Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-1-12 - ",
+                "begin_of_the_begin": "1992-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73098",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31592",
+  "type": "Person",
+  "_label": "Tadeusz Kantor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10395",
+      "type": "Name",
+      "_label": "Tadeusz Kantor"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10395",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20790",
+      "type": "TimeSpan",
+      "_label": "Tadeusz Kantor Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10395",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20791",
+      "type": "TimeSpan",
+      "_label": "Tadeusz Kantor Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10395",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10395",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17135",
+              "type": "Event",
+              "_label": "The Interrupted Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-29-12",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34937",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/766",
+              "type": "Event",
+              "_label": "Fifteen Polish Painters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-1-8 - 1961-1-10",
+                "begin_of_the_begin": "1961-1-8",
+                "end_of_the_end": "1961-1-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34938",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/54761",
+              "type": "Event",
+              "_label": "Selections from the Art Lending Service",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-21-7 - ",
+                "begin_of_the_begin": "1962-21-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34939",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

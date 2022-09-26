@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58646",
+  "type": "Person",
+  "_label": "Patrick O'Hare",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17207",
+      "type": "Name",
+      "_label": "Patrick O'Hare"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17207",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34414",
+      "type": "TimeSpan",
+      "_label": "Patrick O'Hare Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17207",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34415",
+      "type": "TimeSpan",
+      "_label": "Patrick O'Hare Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17207",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17207",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3301",
+              "type": "Event",
+              "_label": "Out of the Studio: Photography and Community",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-25-1 - 1987-22-3",
+                "begin_of_the_begin": "1987-25-1",
+                "end_of_the_end": "1987-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63753",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3523",
+              "type": "Event",
+              "_label": "International and National Projects Fall 2008: Robert Boyd, Ana Horvat, Minus Space, and Patrick O'Hare",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-19-10 - 2009-26-1",
+                "begin_of_the_begin": "2008-19-10",
+                "end_of_the_end": "2009-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63754",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

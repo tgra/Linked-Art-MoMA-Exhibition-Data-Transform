@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60970",
+  "type": "Person",
+  "_label": "Brian Weil",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19695",
+      "type": "Name",
+      "_label": "Brian Weil"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19695",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39390",
+      "type": "TimeSpan",
+      "_label": "Brian Weil Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19695",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39391",
+      "type": "TimeSpan",
+      "_label": "Brian Weil Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19695",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19695",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4018",
+              "type": "Event",
+              "_label": "Brian Weil",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-6-2 - 2013-31-3",
+                "begin_of_the_begin": "2013-6-2",
+                "end_of_the_end": "2013-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68979",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17135",
+              "type": "Event",
+              "_label": "The Interrupted Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-29-12",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68980",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

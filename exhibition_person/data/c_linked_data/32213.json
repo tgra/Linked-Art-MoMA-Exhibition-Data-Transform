@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32213",
+  "type": "Person",
+  "_label": "Esther Isabelle Seaver",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11061",
+      "type": "Name",
+      "_label": "Esther Isabelle Seaver"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11061",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22122",
+      "type": "TimeSpan",
+      "_label": "Esther Isabelle Seaver Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11061",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22123",
+      "type": "TimeSpan",
+      "_label": "Esther Isabelle Seaver Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11061",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11061",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/119",
+              "type": "Event",
+              "_label": "Wheaton College Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-28-6 - 1938-12-9",
+                "begin_of_the_begin": "1938-28-6",
+                "end_of_the_end": "1938-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36121",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

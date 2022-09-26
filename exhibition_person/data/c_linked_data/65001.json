@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65001",
+  "type": "Person",
+  "_label": "Jakob Fenger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21515",
+      "type": "Name",
+      "_label": "Jakob Fenger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21515",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43030",
+      "type": "TimeSpan",
+      "_label": "Jakob Fenger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21515",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43031",
+      "type": "TimeSpan",
+      "_label": "Jakob Fenger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21515",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21515",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17101",
+              "type": "Event",
+              "_label": "Video Copenhagen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-19-3 - 1998-31-5",
+                "begin_of_the_begin": "1998-19-3",
+                "end_of_the_end": "1998-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73152",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

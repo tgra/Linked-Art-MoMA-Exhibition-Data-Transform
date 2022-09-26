@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58990",
+  "type": "Person",
+  "_label": "Miri Segal",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17578",
+      "type": "Name",
+      "_label": "Miri Segal"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17578",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35156",
+      "type": "TimeSpan",
+      "_label": "Miri Segal Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17578",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35157",
+      "type": "TimeSpan",
+      "_label": "Miri Segal Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17578",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17578",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2865",
+              "type": "Event",
+              "_label": "Miri Segal: Circular Acts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-20-5 - 2001-3-9",
+                "begin_of_the_begin": "2001-20-5",
+                "end_of_the_end": "2001-3-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64478",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

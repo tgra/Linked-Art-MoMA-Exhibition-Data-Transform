@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60487",
+  "type": "Person",
+  "_label": "Khalid Al Gharaballi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19185",
+      "type": "Name",
+      "_label": "Khalid Al Gharaballi"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19185",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38370",
+      "type": "TimeSpan",
+      "_label": "Khalid Al Gharaballi Birth timespan",
+      "begin_of_the_begin": "1981",
+      "end_of_the_end": "1981"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19185",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38371",
+      "type": "TimeSpan",
+      "_label": "Khalid Al Gharaballi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19185",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19185",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3244",
+              "type": "Event",
+              "_label": "GCC: Achievements in Retrospective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-23-3 - 2014-7-9",
+                "begin_of_the_begin": "2014-23-3",
+                "end_of_the_end": "2014-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67930",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

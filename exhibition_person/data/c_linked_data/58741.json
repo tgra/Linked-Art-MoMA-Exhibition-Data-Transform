@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58741",
+  "type": "Person",
+  "_label": "Layne Redmond",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17311",
+      "type": "Name",
+      "_label": "Layne Redmond"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17311",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34622",
+      "type": "TimeSpan",
+      "_label": "Layne Redmond Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17311",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34623",
+      "type": "TimeSpan",
+      "_label": "Layne Redmond Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17311",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17311",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3165",
+              "type": "Event",
+              "_label": "National Studio Artists 1980–1981",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63947",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

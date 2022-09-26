@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57322",
+  "type": "Person",
+  "_label": "Bernhard Zimmer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15786",
+      "type": "Name",
+      "_label": "Bernhard Zimmer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15786",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31572",
+      "type": "TimeSpan",
+      "_label": "Bernhard Zimmer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15786",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31573",
+      "type": "TimeSpan",
+      "_label": "Bernhard Zimmer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15786",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15786",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2786",
+              "type": "Event",
+              "_label": "Beast: Animal Imagery in Recent Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60926",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

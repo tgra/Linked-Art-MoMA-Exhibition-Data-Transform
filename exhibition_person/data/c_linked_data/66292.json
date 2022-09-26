@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66292",
+  "type": "Person",
+  "_label": "Paul Vanouse",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22106",
+      "type": "Name",
+      "_label": "Paul Vanouse"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22106",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44212",
+      "type": "TimeSpan",
+      "_label": "Paul Vanouse Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22106",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44213",
+      "type": "TimeSpan",
+      "_label": "Paul Vanouse Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22106",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22106",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21948",
+              "type": "Event",
+              "_label": "Trust Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-14-12 - 2000-31-12",
+                "begin_of_the_begin": "2000-14-12",
+                "end_of_the_end": "2000-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74430",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

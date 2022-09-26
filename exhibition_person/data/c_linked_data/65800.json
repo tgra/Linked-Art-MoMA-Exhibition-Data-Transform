@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65800",
+  "type": "Person",
+  "_label": "Marion Wilson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21894",
+      "type": "Name",
+      "_label": "Marion Wilson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21894",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43788",
+      "type": "TimeSpan",
+      "_label": "Marion Wilson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21894",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43789",
+      "type": "TimeSpan",
+      "_label": "Marion Wilson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21894",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21894",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21909",
+              "type": "Event",
+              "_label": "Counter Culture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-10-7 - 2004-14-8",
+                "begin_of_the_begin": "2004-10-7",
+                "end_of_the_end": "2004-14-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73962",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

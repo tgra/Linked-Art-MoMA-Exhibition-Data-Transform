@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64830",
+  "type": "Person",
+  "_label": "Hannah Sawtell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21440",
+      "type": "Name",
+      "_label": "Hannah Sawtell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21440",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42880",
+      "type": "TimeSpan",
+      "_label": "Hannah Sawtell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21440",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42881",
+      "type": "TimeSpan",
+      "_label": "Hannah Sawtell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21440",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21440",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/16999",
+              "type": "Event",
+              "_label": "Hannah Sawtell: ACCUMULATOR",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-23-4 - 2014-22-6",
+                "begin_of_the_begin": "2014-23-4",
+                "end_of_the_end": "2014-22-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73017",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

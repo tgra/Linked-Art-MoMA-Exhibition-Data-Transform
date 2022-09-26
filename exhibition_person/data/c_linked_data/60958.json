@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60958",
+  "type": "Person",
+  "_label": "Jacqueline Hoang Nguyen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19681",
+      "type": "Name",
+      "_label": "Jacqueline Hoang Nguyen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19681",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39362",
+      "type": "TimeSpan",
+      "_label": "Jacqueline Hoang Nguyen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19681",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39363",
+      "type": "TimeSpan",
+      "_label": "Jacqueline Hoang Nguyen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19681",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19681",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4027",
+              "type": "Event",
+              "_label": "Living Document / Naked Reality: Towards an Archival Cinema",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-11-1 - 2012-4-3",
+                "begin_of_the_begin": "2012-11-1",
+                "end_of_the_end": "2012-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68947",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60396",
+  "type": "Person",
+  "_label": "Stefan Michele",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19088",
+      "type": "Name",
+      "_label": "Stefan Michele"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19088",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38176",
+      "type": "TimeSpan",
+      "_label": "Stefan Michele Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19088",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38177",
+      "type": "TimeSpan",
+      "_label": "Stefan Michele Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19088",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19088",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2710",
+              "type": "Event",
+              "_label": "In the Ruins of the Twentieth Century: The 20th Annual International Studio Artist Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-5 - 1996-31-5",
+                "begin_of_the_begin": "1996-3-5",
+                "end_of_the_end": "1996-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67704",
+                  "type": "Place",
+                  "_label": "80 Lafayette St., New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

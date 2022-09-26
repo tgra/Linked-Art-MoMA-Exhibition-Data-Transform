@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8766",
+  "type": "Person",
+  "_label": "Kenco Products Corp., New Kensington, PA",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26299",
+      "type": "Name",
+      "_label": "Kenco Products Corp., New Kensington, PA"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26299",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52598",
+      "type": "TimeSpan",
+      "_label": "Kenco Products Corp., New Kensington, PA Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26299",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52599",
+      "type": "TimeSpan",
+      "_label": "Kenco Products Corp., New Kensington, PA Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26299",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26299",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/400",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/86092",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

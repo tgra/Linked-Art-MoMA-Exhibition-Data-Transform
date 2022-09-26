@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56965",
+  "type": "Person",
+  "_label": "Bruce Andrews",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15398",
+      "type": "Name",
+      "_label": "Bruce Andrews"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15398",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30796",
+      "type": "TimeSpan",
+      "_label": "Bruce Andrews Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15398",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30797",
+      "type": "TimeSpan",
+      "_label": "Bruce Andrews Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15398",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15398",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2791",
+              "type": "Event",
+              "_label": "Poetry (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-23-5 - 1982-23-5",
+                "begin_of_the_begin": "1982-23-5",
+                "end_of_the_end": "1982-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60116",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

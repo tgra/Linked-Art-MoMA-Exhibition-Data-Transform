@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58907",
+  "type": "Person",
+  "_label": "Hiromi Niizeki",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17489",
+      "type": "Name",
+      "_label": "Hiromi Niizeki"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17489",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34978",
+      "type": "TimeSpan",
+      "_label": "Hiromi Niizeki Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17489",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34979",
+      "type": "TimeSpan",
+      "_label": "Hiromi Niizeki Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17489",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17489",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3632",
+              "type": "Event",
+              "_label": "Short-Term Residencies at the Clocktower Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-2-10 - 1995-24-12",
+                "begin_of_the_begin": "1995-2-10",
+                "end_of_the_end": "1995-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64320",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

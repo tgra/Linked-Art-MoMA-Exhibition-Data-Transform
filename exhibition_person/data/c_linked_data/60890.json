@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60890",
+  "type": "Person",
+  "_label": "Laurie Olin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19607",
+      "type": "Name",
+      "_label": "Laurie Olin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19607",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39214",
+      "type": "TimeSpan",
+      "_label": "Laurie Olin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19607",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39215",
+      "type": "TimeSpan",
+      "_label": "Laurie Olin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19607",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19607",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4272",
+              "type": "Event",
+              "_label": "Fertilizers: Olin/Eisenman",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-9-9 - 2006-17-12",
+                "begin_of_the_begin": "2006-9-9",
+                "end_of_the_end": "2006-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68835",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

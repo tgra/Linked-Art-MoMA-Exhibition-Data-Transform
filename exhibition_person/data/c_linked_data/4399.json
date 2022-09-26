@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4399",
+  "type": "Person",
+  "_label": "Dimitri Petrov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13855",
+      "type": "Name",
+      "_label": "Dimitri Petrov"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6562",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1919–1986"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13855",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27710",
+      "type": "TimeSpan",
+      "_label": "Dimitri Petrov Birth timespan",
+      "begin_of_the_begin": "1919",
+      "end_of_the_end": "1919"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13855",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27711",
+      "type": "TimeSpan",
+      "_label": "Dimitri Petrov Death timespan",
+      "begin_of_the_begin": "1986",
+      "end_of_the_end": "1986"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13855",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13855",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6404",
+              "type": "Event",
+              "_label": "1951 Annual Exhibition of Contemporary American Sculpture, Watercolors, and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-17-3 - 1951-6-5",
+                "begin_of_the_begin": "1951-17-3",
+                "end_of_the_end": "1951-6-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/48711",
+                  "type": "Place",
+                  "_label": "10 West 8th St",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

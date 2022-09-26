@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63702",
+  "type": "Person",
+  "_label": "Amir Zaki",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20986",
+      "type": "Name",
+      "_label": "Amir Zaki"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20986",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41972",
+      "type": "TimeSpan",
+      "_label": "Amir Zaki Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20986",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41973",
+      "type": "TimeSpan",
+      "_label": "Amir Zaki Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20986",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20986",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17082",
+              "type": "Event",
+              "_label": "New Additions to the Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-25-1 - 2002-17-2",
+                "begin_of_the_begin": "2002-25-1",
+                "end_of_the_end": "2002-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72252",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33409",
+  "type": "Person",
+  "_label": "Simone Morris",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12165",
+      "type": "Name",
+      "_label": "Simone Morris"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12165",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24330",
+      "type": "TimeSpan",
+      "_label": "Simone Morris Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12165",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24331",
+      "type": "TimeSpan",
+      "_label": "Simone Morris Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12165",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12165",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7267",
+              "type": "Event",
+              "_label": "Simone Morris [Forti]: Five Dance Constructions + Some Other Things",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-26-5 - 1961-27-5",
+                "begin_of_the_begin": "1961-26-5",
+                "end_of_the_end": "1961-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38634",
+                  "type": "Place",
+                  "_label": "112 Chambers Street, 3rd Floor (Yoko Ono’s Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/7308",
+              "type": "Event",
+              "_label": "Varieties: Jim Dine (A Shining Bed), Simone Morris (See Saw), Claes Oldenburg: (Chimneyfire and Erasers)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-16-12 - 1960-18-12",
+                "begin_of_the_begin": "1960-16-12",
+                "end_of_the_end": "1960-18-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38635",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

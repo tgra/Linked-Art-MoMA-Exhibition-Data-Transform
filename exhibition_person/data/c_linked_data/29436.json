@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29436",
+  "type": "Person",
+  "_label": "Randolph Laboratories, Inc.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8070",
+      "type": "Name",
+      "_label": "Randolph Laboratories, Inc."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8070",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16140",
+      "type": "TimeSpan",
+      "_label": "Randolph Laboratories, Inc. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8070",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16141",
+      "type": "TimeSpan",
+      "_label": "Randolph Laboratories, Inc. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8070",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8070",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/474",
+              "type": "Event",
+              "_label": "The House in the Museum Garden",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-12-4 - 1949-30-10",
+                "begin_of_the_begin": "1949-12-4",
+                "end_of_the_end": "1949-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30194",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

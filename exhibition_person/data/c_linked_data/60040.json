@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60040",
+  "type": "Person",
+  "_label": "Cory Wagner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18705",
+      "type": "Name",
+      "_label": "Cory Wagner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18705",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37410",
+      "type": "TimeSpan",
+      "_label": "Cory Wagner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18705",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37411",
+      "type": "TimeSpan",
+      "_label": "Cory Wagner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18705",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18705",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3415",
+              "type": "Event",
+              "_label": "Bearable Lightness…Likeness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-9-10",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66927",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

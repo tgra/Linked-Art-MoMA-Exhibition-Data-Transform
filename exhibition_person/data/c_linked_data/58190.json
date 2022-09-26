@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58190",
+  "type": "Person",
+  "_label": "Christine Meierhofer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16716",
+      "type": "Name",
+      "_label": "Christine Meierhofer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16716",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33432",
+      "type": "TimeSpan",
+      "_label": "Christine Meierhofer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16716",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33433",
+      "type": "TimeSpan",
+      "_label": "Christine Meierhofer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16716",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16716",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3812",
+              "type": "Event",
+              "_label": "Friends of New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-1 - 1996-10-1",
+                "begin_of_the_begin": "1996-3-1",
+                "end_of_the_end": "1996-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62935",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2710",
+              "type": "Event",
+              "_label": "In the Ruins of the Twentieth Century: The 20th Annual International Studio Artist Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-3-5 - 1996-31-5",
+                "begin_of_the_begin": "1996-3-5",
+                "end_of_the_end": "1996-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62936",
+                  "type": "Place",
+                  "_label": "80 Lafayette St., New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

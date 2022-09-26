@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63405",
+  "type": "Person",
+  "_label": "Jim Burton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20793",
+      "type": "Name",
+      "_label": "Jim Burton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20793",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41586",
+      "type": "TimeSpan",
+      "_label": "Jim Burton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20793",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41587",
+      "type": "TimeSpan",
+      "_label": "Jim Burton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20793",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20793",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18299",
+              "type": "Event",
+              "_label": "Evening of New Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-9-10 - ",
+                "begin_of_the_begin": "1972-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71759",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/4688",
+              "type": "Event",
+              "_label": "Jim Burton: Performer Isolation Event",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-13-6 - 1972-13-6",
+                "begin_of_the_begin": "1972-13-6",
+                "end_of_the_end": "1972-13-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71760",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

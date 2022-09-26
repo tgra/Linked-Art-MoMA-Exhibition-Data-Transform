@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59092",
+  "type": "Person",
+  "_label": "Edwin London",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17688",
+      "type": "Name",
+      "_label": "Edwin London"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17688",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35376",
+      "type": "TimeSpan",
+      "_label": "Edwin London Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17688",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35377",
+      "type": "TimeSpan",
+      "_label": "Edwin London Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17688",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17688",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3156",
+              "type": "Event",
+              "_label": "Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64737",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

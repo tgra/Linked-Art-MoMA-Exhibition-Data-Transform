@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59885",
+  "type": "Person",
+  "_label": "Fran Hodes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18538",
+      "type": "Name",
+      "_label": "Fran Hodes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18538",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37076",
+      "type": "TimeSpan",
+      "_label": "Fran Hodes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18538",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37077",
+      "type": "TimeSpan",
+      "_label": "Fran Hodes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18538",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18538",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3635",
+              "type": "Event",
+              "_label": "Costumes, Masks and Disguises",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-2 - 1986-15-3",
+                "begin_of_the_begin": "1986-13-2",
+                "end_of_the_end": "1986-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66513",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

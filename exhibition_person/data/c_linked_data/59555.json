@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59555",
+  "type": "Person",
+  "_label": "Cherif Defraoui",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18186",
+      "type": "Name",
+      "_label": "Cherif Defraoui"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18186",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36372",
+      "type": "TimeSpan",
+      "_label": "Cherif Defraoui Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18186",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36373",
+      "type": "TimeSpan",
+      "_label": "Cherif Defraoui Death timespan",
+      "begin_of_the_begin": "1994",
+      "end_of_the_end": "1994"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18186",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18186",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3695",
+              "type": "Event",
+              "_label": "Fri.Art: Made in Switzerland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-26-4 - 1985-2-6",
+                "begin_of_the_begin": "1985-26-4",
+                "end_of_the_end": "1985-2-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65698",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

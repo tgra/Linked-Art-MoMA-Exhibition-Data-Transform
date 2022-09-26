@@ -1,0 +1,71 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/73425",
+  "type": "Person",
+  "_label": "John Goode",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25304",
+      "type": "Name",
+      "_label": "John Goode"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25304",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50608",
+      "type": "TimeSpan",
+      "_label": "John Goode Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25304",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50609",
+      "type": "TimeSpan",
+      "_label": "John Goode Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25304",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25304",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/54745",
+              "type": "Event",
+              "_label": "Nine Print Portfolios",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-13-10 - ",
+                "begin_of_the_begin": "1970-13-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81695",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

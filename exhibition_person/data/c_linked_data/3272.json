@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3272",
+  "type": "Person",
+  "_label": "Alma R. Lavenson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11606",
+      "type": "Name",
+      "_label": "Alma R. Lavenson"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5486",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1897–1989"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11606",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23212",
+      "type": "TimeSpan",
+      "_label": "Alma R. Lavenson Birth timespan",
+      "begin_of_the_begin": "1897",
+      "end_of_the_end": "1897"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11606",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23213",
+      "type": "TimeSpan",
+      "_label": "Alma R. Lavenson Death timespan",
+      "begin_of_the_begin": "1989",
+      "end_of_the_end": "1989"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11606",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11606",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/203",
+              "type": "Event",
+              "_label": "Image of Freedom",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-29-10 - 1942-1-2",
+                "begin_of_the_begin": "1941-29-10",
+                "end_of_the_end": "1942-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37146",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/637",
+              "type": "Event",
+              "_label": "The Family of Man",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-24-1 - 1955-8-5",
+                "begin_of_the_begin": "1955-24-1",
+                "end_of_the_end": "1955-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37147",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

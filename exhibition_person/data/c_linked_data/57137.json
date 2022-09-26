@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57137",
+  "type": "Person",
+  "_label": "Lydia Hunn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15586",
+      "type": "Name",
+      "_label": "Lydia Hunn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15586",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31172",
+      "type": "TimeSpan",
+      "_label": "Lydia Hunn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15586",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31173",
+      "type": "TimeSpan",
+      "_label": "Lydia Hunn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15586",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15586",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2917",
+              "type": "Event",
+              "_label": "Figuratively Sculpting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-31-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60508",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2830",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-4 - 1983-5-6",
+                "begin_of_the_begin": "1983-10-4",
+                "end_of_the_end": "1983-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60509",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

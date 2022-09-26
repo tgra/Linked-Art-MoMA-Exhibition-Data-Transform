@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32400",
+  "type": "Person",
+  "_label": "Poppy Johnson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11263",
+      "type": "Name",
+      "_label": "Poppy Johnson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11263",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22526",
+      "type": "TimeSpan",
+      "_label": "Poppy Johnson Birth timespan",
+      "begin_of_the_begin": "1949",
+      "end_of_the_end": "1949"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11263",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22527",
+      "type": "TimeSpan",
+      "_label": "Poppy Johnson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11263",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11263",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3033",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-9 - 1977-1-12",
+                "begin_of_the_begin": "1977-1-9",
+                "end_of_the_end": "1977-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36437",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1322",
+              "type": "Event",
+              "_label": "Bookworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-17-3 - 1977-30-5",
+                "begin_of_the_begin": "1977-17-3",
+                "end_of_the_end": "1977-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36438",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

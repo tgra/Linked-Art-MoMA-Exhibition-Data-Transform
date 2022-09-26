@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57116",
+  "type": "Person",
+  "_label": "Daniel Habegger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15563",
+      "type": "Name",
+      "_label": "Daniel Habegger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15563",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31126",
+      "type": "TimeSpan",
+      "_label": "Daniel Habegger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15563",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31127",
+      "type": "TimeSpan",
+      "_label": "Daniel Habegger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15563",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15563",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3611",
+              "type": "Event",
+              "_label": "Incidental Alterations: National and International Studio Program Exhibition 1994–1995",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-30-3 - 1995-23-4",
+                "begin_of_the_begin": "1995-30-3",
+                "end_of_the_end": "1995-23-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60465",
+                  "type": "Place",
+                  "_label": "The Angel Orensanz Foundation, New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3805",
+              "type": "Event",
+              "_label": "Reprints in Anthropology: Material Culture of the Smithsonian Institution",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-29-6 - 1995-29-6",
+                "begin_of_the_begin": "1995-29-6",
+                "end_of_the_end": "1995-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60466",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

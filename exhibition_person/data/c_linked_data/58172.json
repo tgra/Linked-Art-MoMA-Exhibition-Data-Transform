@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58172",
+  "type": "Person",
+  "_label": "Thomas Schulz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16697",
+      "type": "Name",
+      "_label": "Thomas Schulz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16697",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33394",
+      "type": "TimeSpan",
+      "_label": "Thomas Schulz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16697",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33395",
+      "type": "TimeSpan",
+      "_label": "Thomas Schulz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16697",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16697",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3638",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-11 - 1985-22-12",
+                "begin_of_the_begin": "1985-21-11",
+                "end_of_the_end": "1985-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62844",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2719",
+              "type": "Event",
+              "_label": "Tunnel of Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-11-2 - 1995-26-3",
+                "begin_of_the_begin": "1994-11-2",
+                "end_of_the_end": "1995-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62845",
+                  "type": "Place",
+                  "_label": "Calais, France",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

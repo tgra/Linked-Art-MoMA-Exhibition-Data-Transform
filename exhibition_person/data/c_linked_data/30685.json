@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30685",
+  "type": "Person",
+  "_label": "Gustave Moreau",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9412",
+      "type": "Name",
+      "_label": "Gustave Moreau"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9412",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18824",
+      "type": "TimeSpan",
+      "_label": "Gustave Moreau Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9412",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18825",
+      "type": "TimeSpan",
+      "_label": "Gustave Moreau Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9412",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9412",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4184",
+              "type": "Event",
+              "_label": "Against Order: Chance and Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-11 - 1970-22-12",
+                "begin_of_the_begin": "1970-14-11",
+                "end_of_the_end": "1970-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32988",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/779",
+              "type": "Event",
+              "_label": "Redon, Moreau, Bresdin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-6-12 - 1962-25-2",
+                "begin_of_the_begin": "1961-6-12",
+                "end_of_the_end": "1962-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32989",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

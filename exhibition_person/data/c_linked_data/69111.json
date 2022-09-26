@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69111",
+  "type": "Person",
+  "_label": "Henry Rollins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23495",
+      "type": "Name",
+      "_label": "Henry Rollins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23495",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46990",
+      "type": "TimeSpan",
+      "_label": "Henry Rollins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23495",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46991",
+      "type": "TimeSpan",
+      "_label": "Henry Rollins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23495",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23495",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6577",
+              "type": "Event",
+              "_label": "1968 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-16-12 - 1969-19-1",
+                "begin_of_the_begin": "1968-16-12",
+                "end_of_the_end": "1969-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77013",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

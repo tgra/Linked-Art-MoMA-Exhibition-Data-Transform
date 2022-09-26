@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71502",
+  "type": "Person",
+  "_label": "Joel Barletta",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24920",
+      "type": "Name",
+      "_label": "Joel Barletta"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24920",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49840",
+      "type": "TimeSpan",
+      "_label": "Joel Barletta Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24920",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49841",
+      "type": "TimeSpan",
+      "_label": "Joel Barletta Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24920",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24920",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6540",
+              "type": "Event",
+              "_label": "1965 Annual Exhibition: Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-8-12 - 1966-30-1",
+                "begin_of_the_begin": "1965-8-12",
+                "end_of_the_end": "1966-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80644",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

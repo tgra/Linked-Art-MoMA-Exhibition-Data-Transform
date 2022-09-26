@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/64186",
+  "type": "Person",
+  "_label": "Christiana Soulou",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21166",
+      "type": "Name",
+      "_label": "Christiana Soulou"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21166",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42332",
+      "type": "TimeSpan",
+      "_label": "Christiana Soulou Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21166",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42333",
+      "type": "TimeSpan",
+      "_label": "Christiana Soulou Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21166",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21166",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17044",
+              "type": "Event",
+              "_label": "Skin Fruit: Selections from the Dakis Joannou Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-3-3 - 2010-6-6",
+                "begin_of_the_begin": "2010-3-3",
+                "end_of_the_end": "2010-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72567",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

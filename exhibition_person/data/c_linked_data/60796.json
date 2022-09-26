@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60796",
+  "type": "Person",
+  "_label": "Shepard Fairey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19504",
+      "type": "Name",
+      "_label": "Shepard Fairey"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19504",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39008",
+      "type": "TimeSpan",
+      "_label": "Shepard Fairey Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19504",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39009",
+      "type": "TimeSpan",
+      "_label": "Shepard Fairey Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19504",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19504",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4346",
+              "type": "Event",
+              "_label": "Sticker Shock: Artists' Stickers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-16-1 - 1999-7-3",
+                "begin_of_the_begin": "1999-16-1",
+                "end_of_the_end": "1999-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68637",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17105",
+              "type": "Event",
+              "_label": "alt.youth.media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-9 - 1996-5-11",
+                "begin_of_the_begin": "1996-6-9",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68638",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

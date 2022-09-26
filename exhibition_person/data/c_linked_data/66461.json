@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66461",
+  "type": "Person",
+  "_label": "Richard Armijo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22202",
+      "type": "Name",
+      "_label": "Richard Armijo"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22202",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44404",
+      "type": "TimeSpan",
+      "_label": "Richard Armijo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22202",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44405",
+      "type": "TimeSpan",
+      "_label": "Richard Armijo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22202",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22202",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17249",
+              "type": "Event",
+              "_label": "Richard Armijo: Miguel de la Madrid: He’s the Guy I Like",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-11 - 1982-30-12",
+                "begin_of_the_begin": "1982-25-11",
+                "end_of_the_end": "1982-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74593",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

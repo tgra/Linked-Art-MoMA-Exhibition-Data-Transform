@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57650",
+  "type": "Person",
+  "_label": "Matthew Nash",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16138",
+      "type": "Name",
+      "_label": "Matthew Nash"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16138",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32276",
+      "type": "TimeSpan",
+      "_label": "Matthew Nash Birth timespan",
+      "begin_of_the_begin": "1981",
+      "end_of_the_end": "1981"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16138",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32277",
+      "type": "TimeSpan",
+      "_label": "Matthew Nash Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16138",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16138",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2755",
+              "type": "Event",
+              "_label": "Spring Dance Series (1985): Dance and Popular Culture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61737",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

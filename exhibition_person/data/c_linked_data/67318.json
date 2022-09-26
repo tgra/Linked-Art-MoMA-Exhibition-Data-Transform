@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67318",
+  "type": "Person",
+  "_label": "Jayne Bliss and Beautifier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22663",
+      "type": "Name",
+      "_label": "Jayne Bliss and Beautifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45326",
+      "type": "TimeSpan",
+      "_label": "Jayne Bliss and Beautifier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45327",
+      "type": "TimeSpan",
+      "_label": "Jayne Bliss and Beautifier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18571",
+              "type": "Event",
+              "_label": "Strange Mutations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-16-1 - ",
+                "begin_of_the_begin": "1986-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75502",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

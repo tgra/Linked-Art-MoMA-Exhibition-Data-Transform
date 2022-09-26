@@ -1,0 +1,90 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7839",
+  "type": "Person",
+  "_label": "Frantisek Kalivoda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25796",
+      "type": "Name",
+      "_label": "Frantisek Kalivoda"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9038",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Czech, 1913–1971"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25796",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51592",
+      "type": "TimeSpan",
+      "_label": "Frantisek Kalivoda Birth timespan",
+      "begin_of_the_begin": "1913",
+      "end_of_the_end": "1913"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25796",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51593",
+      "type": "TimeSpan",
+      "_label": "Frantisek Kalivoda Death timespan",
+      "begin_of_the_begin": "1971",
+      "end_of_the_end": "1971"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25796",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25796",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2470",
+              "type": "Event",
+              "_label": "The New Typography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-23-12 - 2010-26-7",
+                "begin_of_the_begin": "2009-23-12",
+                "end_of_the_end": "2010-26-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/84071",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

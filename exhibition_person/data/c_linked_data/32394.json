@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32394",
+  "type": "Person",
+  "_label": "Maureen Lambray",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11255",
+      "type": "Name",
+      "_label": "Maureen Lambray"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11255",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22510",
+      "type": "TimeSpan",
+      "_label": "Maureen Lambray Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11255",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22511",
+      "type": "TimeSpan",
+      "_label": "Maureen Lambray Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11255",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11255",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1316",
+              "type": "Event",
+              "_label": "The Filmmakers' Image",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-10-2 - 1977-25-4",
+                "begin_of_the_begin": "1977-10-2",
+                "end_of_the_end": "1977-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36425",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

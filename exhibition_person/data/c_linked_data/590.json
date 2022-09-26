@@ -1,0 +1,137 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/590",
+  "type": "Person",
+  "_label": "Bernhard Blume",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17589",
+      "type": "Name",
+      "_label": "Bernhard Blume"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7777",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1937"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17589",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35178",
+      "type": "TimeSpan",
+      "_label": "Bernhard Blume Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17589",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35179",
+      "type": "TimeSpan",
+      "_label": "Bernhard Blume Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17589",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17589",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1699",
+              "type": "Event",
+              "_label": "Contemporary Art in Context",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-29-2 - 1988-6-3",
+                "begin_of_the_begin": "1988-29-2",
+                "end_of_the_end": "1988-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64544",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1745",
+              "type": "Event",
+              "_label": "Projects: Bernhard and Anna Blume",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-13-5 - 1989-20-6",
+                "begin_of_the_begin": "1989-13-5",
+                "end_of_the_end": "1989-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64545",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2270",
+              "type": "Event",
+              "_label": "Photography: Inaugural Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-20-11 - 2005-6-6",
+                "begin_of_the_begin": "2004-20-11",
+                "end_of_the_end": "2005-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/64546",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60425",
+  "type": "Person",
+  "_label": "John Lovett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19120",
+      "type": "Name",
+      "_label": "John Lovett"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19120",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38240",
+      "type": "TimeSpan",
+      "_label": "John Lovett Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19120",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38241",
+      "type": "TimeSpan",
+      "_label": "John Lovett Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19120",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19120",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3551",
+              "type": "Event",
+              "_label": "Lovett/Codagnone: Interruption of a Course of Action",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-10 - 2008-21-1",
+                "begin_of_the_begin": "2007-21-10",
+                "end_of_the_end": "2008-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67767",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3503",
+              "type": "Event",
+              "_label": "That was Then, This is Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-22-6 - 2008-5-10",
+                "begin_of_the_begin": "2008-22-6",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67768",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

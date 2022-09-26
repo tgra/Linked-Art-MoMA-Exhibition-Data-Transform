@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32196",
+  "type": "Person",
+  "_label": "William A. Irwin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11041",
+      "type": "Name",
+      "_label": "William A. Irwin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11041",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22082",
+      "type": "TimeSpan",
+      "_label": "William A. Irwin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11041",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22083",
+      "type": "TimeSpan",
+      "_label": "William A. Irwin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11041",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11041",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/250",
+              "type": "Event",
+              "_label": "United Hemisphere Poster Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-21-10 - 1942-24-11",
+                "begin_of_the_begin": "1942-21-10",
+                "end_of_the_end": "1942-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36086",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

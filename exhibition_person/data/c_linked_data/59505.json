@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59505",
+  "type": "Person",
+  "_label": "Garrett Phelan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18133",
+      "type": "Name",
+      "_label": "Garrett Phelan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18133",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36266",
+      "type": "TimeSpan",
+      "_label": "Garrett Phelan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18133",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36267",
+      "type": "TimeSpan",
+      "_label": "Garrett Phelan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18133",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18133",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3394",
+              "type": "Event",
+              "_label": "Romantic Detachment",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-18-10 - 2004-7-11",
+                "begin_of_the_begin": "2004-18-10",
+                "end_of_the_end": "2004-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65594",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

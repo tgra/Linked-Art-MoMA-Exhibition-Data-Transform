@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/31364",
+  "type": "Person",
+  "_label": "Thomas B. Hollyman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10148",
+      "type": "Name",
+      "_label": "Thomas B. Hollyman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10148",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20296",
+      "type": "TimeSpan",
+      "_label": "Thomas B. Hollyman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10148",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20297",
+      "type": "TimeSpan",
+      "_label": "Thomas B. Hollyman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10148",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10148",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/514",
+              "type": "Event",
+              "_label": "Color Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-9-5 - 1950-4-7",
+                "begin_of_the_begin": "1950-9-5",
+                "end_of_the_end": "1950-4-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34387",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67585",
+  "type": "Person",
+  "_label": "Damaged Goods",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22946",
+      "type": "Name",
+      "_label": "Damaged Goods"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22946",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45892",
+      "type": "TimeSpan",
+      "_label": "Damaged Goods Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22946",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45893",
+      "type": "TimeSpan",
+      "_label": "Damaged Goods Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22946",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22946",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18562",
+              "type": "Event",
+              "_label": "Splayed Mind Out",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-2-12 - ",
+                "begin_of_the_begin": "1998-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75924",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

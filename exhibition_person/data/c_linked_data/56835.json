@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56835",
+  "type": "Person",
+  "_label": "Robert Janz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15260",
+      "type": "Name",
+      "_label": "Robert Janz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15260",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30520",
+      "type": "TimeSpan",
+      "_label": "Robert Janz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15260",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30521",
+      "type": "TimeSpan",
+      "_label": "Robert Janz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15260",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15260",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3627",
+              "type": "Event",
+              "_label": "Discussions: Works/Words",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-11-5 - 1974-30-6",
+                "begin_of_the_begin": "1974-11-5",
+                "end_of_the_end": "1974-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59825",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3652",
+              "type": "Event",
+              "_label": "Robert Janz: Six Sticks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-23-3 - 1975-29-3",
+                "begin_of_the_begin": "1975-23-3",
+                "end_of_the_end": "1975-29-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59826",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3607",
+              "type": "Event",
+              "_label": "Robert Janz: Line on a Walk",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-1-3 - 1976-30-4",
+                "begin_of_the_begin": "1976-1-3",
+                "end_of_the_end": "1976-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59827",
+                  "type": "Place",
+                  "_label": "Streets of New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60047",
+  "type": "Person",
+  "_label": "Wim Delvoye",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18712",
+      "type": "Name",
+      "_label": "Wim Delvoye"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18712",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37424",
+      "type": "TimeSpan",
+      "_label": "Wim Delvoye Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18712",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37425",
+      "type": "TimeSpan",
+      "_label": "Wim Delvoye Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18712",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18712",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66939",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17081",
+              "type": "Event",
+              "_label": "Wim Delvoye: Cloaca",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-25-1 - 2002-28-4",
+                "begin_of_the_begin": "2002-25-1",
+                "end_of_the_end": "2002-28-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66940",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

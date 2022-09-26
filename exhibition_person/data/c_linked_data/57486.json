@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57486",
+  "type": "Person",
+  "_label": "Charles Wiley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15960",
+      "type": "Name",
+      "_label": "Charles Wiley"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15960",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31920",
+      "type": "TimeSpan",
+      "_label": "Charles Wiley Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15960",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31921",
+      "type": "TimeSpan",
+      "_label": "Charles Wiley Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15960",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15960",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3645",
+              "type": "Event",
+              "_label": "Artists Make Toys",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-1 - 1975-25-1",
+                "begin_of_the_begin": "1975-1-1",
+                "end_of_the_end": "1975-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/61237",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

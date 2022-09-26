@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33340",
+  "type": "Person",
+  "_label": "Santa Monica Museum of Art",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12155",
+      "type": "Name",
+      "_label": "Santa Monica Museum of Art"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12155",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24310",
+      "type": "TimeSpan",
+      "_label": "Santa Monica Museum of Art Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12155",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24311",
+      "type": "TimeSpan",
+      "_label": "Santa Monica Museum of Art Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12155",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12155",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17113",
+              "type": "Event",
+              "_label": "Visiting Hours: An Installation by Bob Flanagan in collaboration with Sheree Rose",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-23-9 - ",
+                "begin_of_the_begin": "1994-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38608",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58230",
+  "type": "Person",
+  "_label": "Stephen Goodman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16761",
+      "type": "Name",
+      "_label": "Stephen Goodman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16761",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33522",
+      "type": "TimeSpan",
+      "_label": "Stephen Goodman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16761",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/33523",
+      "type": "TimeSpan",
+      "_label": "Stephen Goodman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16761",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16761",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3156",
+              "type": "Event",
+              "_label": "Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63033",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3196",
+              "type": "Event",
+              "_label": "Video (Fall 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-25-9 - 1983-20-11",
+                "begin_of_the_begin": "1983-25-9",
+                "end_of_the_end": "1983-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63034",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

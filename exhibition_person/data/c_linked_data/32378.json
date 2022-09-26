@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32378",
+  "type": "Person",
+  "_label": "Fitz Hugh Lane",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11238",
+      "type": "Name",
+      "_label": "Fitz Hugh Lane"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5413",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1804"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11238",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22476",
+      "type": "TimeSpan",
+      "_label": "Fitz Hugh Lane Birth timespan",
+      "begin_of_the_begin": "1804",
+      "end_of_the_end": "1804"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11238",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22477",
+      "type": "TimeSpan",
+      "_label": "Fitz Hugh Lane Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11238",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11238",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1298",
+              "type": "Event",
+              "_label": "The Natural Paradise: Painting in America 1800–1950",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-29-9 - 1976-30-11",
+                "begin_of_the_begin": "1976-29-9",
+                "end_of_the_end": "1976-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36399",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6431",
+              "type": "Event",
+              "_label": "Heade-Lane Exhibition from Karolik Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-3-5 - 1954-28-5",
+                "begin_of_the_begin": "1954-3-5",
+                "end_of_the_end": "1954-28-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36400",
+                  "type": "Place",
+                  "_label": "Knoedler Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

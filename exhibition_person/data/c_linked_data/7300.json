@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/7300",
+  "type": "Person",
+  "_label": "Louis Legrand",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25260",
+      "type": "Name",
+      "_label": "Louis Legrand"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8685",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1863–1951"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25260",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50520",
+      "type": "TimeSpan",
+      "_label": "Louis Legrand Birth timespan",
+      "begin_of_the_begin": "1863",
+      "end_of_the_end": "1863"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25260",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50521",
+      "type": "TimeSpan",
+      "_label": "Louis Legrand Death timespan",
+      "begin_of_the_begin": "1951",
+      "end_of_the_end": "1951"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25260",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25260",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2067",
+              "type": "Event",
+              "_label": "Paris-the 1890s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-18-6 - 1997-2-9",
+                "begin_of_the_begin": "1997-18-6",
+                "end_of_the_end": "1997-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81521",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

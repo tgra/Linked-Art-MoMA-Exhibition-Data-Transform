@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60082",
+  "type": "Person",
+  "_label": "Rä di Martino",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18750",
+      "type": "Name",
+      "_label": "Rä di Martino"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18750",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37500",
+      "type": "TimeSpan",
+      "_label": "Rä di Martino Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18750",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37501",
+      "type": "TimeSpan",
+      "_label": "Rä di Martino Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18750",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18750",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3547",
+              "type": "Event",
+              "_label": "Altered, Stitched and Gathered",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-14-12 - 2007-28-1",
+                "begin_of_the_begin": "2006-14-12",
+                "end_of_the_end": "2007-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67068",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3522",
+              "type": "Event",
+              "_label": "Senso Unico: A Show of Eight Contemporary Italian Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-21-10 - 2008-7-1",
+                "begin_of_the_begin": "2007-21-10",
+                "end_of_the_end": "2008-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67069",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

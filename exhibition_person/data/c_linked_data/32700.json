@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32700",
+  "type": "Person",
+  "_label": "Anthony Lumsden",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11586",
+      "type": "Name",
+      "_label": "Anthony Lumsden"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11586",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23172",
+      "type": "TimeSpan",
+      "_label": "Anthony Lumsden Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11586",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23173",
+      "type": "TimeSpan",
+      "_label": "Anthony Lumsden Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11586",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11586",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1452",
+              "type": "Event",
+              "_label": "Buildings for Best Products",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-12-12 - 1980-10-2",
+                "begin_of_the_begin": "1979-12-12",
+                "end_of_the_end": "1980-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37099",
+                  "type": "Place",
+                  "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/8575",
+  "type": "Person",
+  "_label": "Arzberg Porcelain Mfg. Co., Arzberg, Germany",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26203",
+      "type": "Name",
+      "_label": "Arzberg Porcelain Mfg. Co., Arzberg, Germany"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26203",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52406",
+      "type": "TimeSpan",
+      "_label": "Arzberg Porcelain Mfg. Co., Arzberg, Germany Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26203",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/52407",
+      "type": "TimeSpan",
+      "_label": "Arzberg Porcelain Mfg. Co., Arzberg, Germany Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26203",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26203",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/498",
+              "type": "Event",
+              "_label": "Design Show: Christmas 1949",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-11 - 1950-8-1",
+                "begin_of_the_begin": "1949-15-11",
+                "end_of_the_end": "1950-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/85694",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

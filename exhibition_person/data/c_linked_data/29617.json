@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29617",
+  "type": "Person",
+  "_label": "Renzo Zavanella",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8264",
+      "type": "Name",
+      "_label": "Renzo Zavanella"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8264",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16528",
+      "type": "TimeSpan",
+      "_label": "Renzo Zavanella Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8264",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16529",
+      "type": "TimeSpan",
+      "_label": "Renzo Zavanella Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8264",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8264",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/633",
+              "type": "Event",
+              "_label": "The Modern Movement in Italy: Architecture and Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-18-8 - 1954-6-9",
+                "begin_of_the_begin": "1954-18-8",
+                "end_of_the_end": "1954-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30607",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

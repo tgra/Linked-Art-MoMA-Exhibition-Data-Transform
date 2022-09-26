@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29686",
+  "type": "Person",
+  "_label": "Amberg-Hirth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8340",
+      "type": "Name",
+      "_label": "Amberg-Hirth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8340",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16680",
+      "type": "TimeSpan",
+      "_label": "Amberg-Hirth Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8340",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16681",
+      "type": "TimeSpan",
+      "_label": "Amberg-Hirth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8340",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8340",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/257",
+              "type": "Event",
+              "_label": "Useful Objects in Wartime under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-2-12 - 1943-9-1",
+                "begin_of_the_begin": "1942-2-12",
+                "end_of_the_end": "1943-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30771",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/422",
+              "type": "Event",
+              "_label": "100 Useful Objects of Fine Design (available under $100)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-16-9 - 1948-25-1",
+                "begin_of_the_begin": "1947-16-9",
+                "end_of_the_end": "1948-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30772",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

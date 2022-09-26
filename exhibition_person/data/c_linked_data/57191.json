@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57191",
+  "type": "Person",
+  "_label": "Michael Minnis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15645",
+      "type": "Name",
+      "_label": "Michael Minnis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15645",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31290",
+      "type": "TimeSpan",
+      "_label": "Michael Minnis Birth timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15645",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31291",
+      "type": "TimeSpan",
+      "_label": "Michael Minnis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15645",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15645",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3611",
+              "type": "Event",
+              "_label": "Incidental Alterations: National and International Studio Program Exhibition 1994–1995",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-30-3 - 1995-23-4",
+                "begin_of_the_begin": "1995-30-3",
+                "end_of_the_end": "1995-23-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60643",
+                  "type": "Place",
+                  "_label": "The Angel Orensanz Foundation, New York",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

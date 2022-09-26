@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63115",
+  "type": "Person",
+  "_label": "Ellen Turner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20617",
+      "type": "Name",
+      "_label": "Ellen Turner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20617",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41234",
+      "type": "TimeSpan",
+      "_label": "Ellen Turner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20617",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41235",
+      "type": "TimeSpan",
+      "_label": "Ellen Turner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20617",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20617",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4435",
+              "type": "Event",
+              "_label": "A Lesbian Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-21-1 - 1978-11-2",
+                "begin_of_the_begin": "1978-21-1",
+                "end_of_the_end": "1978-11-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71160",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

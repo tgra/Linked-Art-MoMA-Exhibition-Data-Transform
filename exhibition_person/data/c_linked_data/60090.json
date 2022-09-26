@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60090",
+  "type": "Person",
+  "_label": "McKendree Key",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18759",
+      "type": "Name",
+      "_label": "McKendree Key"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18759",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37518",
+      "type": "TimeSpan",
+      "_label": "McKendree Key Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18759",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37519",
+      "type": "TimeSpan",
+      "_label": "McKendree Key Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18759",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18759",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4276",
+              "type": "Event",
+              "_label": "Soft Sites",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-4 - 2006-31-7",
+                "begin_of_the_begin": "2006-21-4",
+                "end_of_the_end": "2006-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67081",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2932",
+              "type": "Event",
+              "_label": "International and National Projects Spring 2007: Joe Deutch, Stefan Eins, McKendree Key, Mark Lewis, David Maljkovic, and Senam Okudzeto",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-2 - 2007-30-4",
+                "begin_of_the_begin": "2007-11-2",
+                "end_of_the_end": "2007-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/67082",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

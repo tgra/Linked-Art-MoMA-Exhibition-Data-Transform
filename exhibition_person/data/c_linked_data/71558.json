@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/71558",
+  "type": "Person",
+  "_label": "Richard Friedberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24980",
+      "type": "Name",
+      "_label": "Richard Friedberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24980",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49960",
+      "type": "TimeSpan",
+      "_label": "Richard Friedberg Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24980",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49961",
+      "type": "TimeSpan",
+      "_label": "Richard Friedberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24980",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24980",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6631",
+              "type": "Event",
+              "_label": "1970 Annual Exhibition: Contemporary American Sculpture ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-12-12 - 1971-7-2",
+                "begin_of_the_begin": "1970-12-12",
+                "end_of_the_end": "1971-7-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80764",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 3rd Floor Gallery, 4th Floor Gallery.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/6696",
+              "type": "Event",
+              "_label": "1973 Biennial Exhibition of Contemporary American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-10-1 - 1973-18-3",
+                "begin_of_the_begin": "1973-10-1",
+                "end_of_the_end": "1973-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80765",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Gallery, 1st Floor Gallery, 2nd Floor Gallery, 3rd Floor Gallery, 4th Floor Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

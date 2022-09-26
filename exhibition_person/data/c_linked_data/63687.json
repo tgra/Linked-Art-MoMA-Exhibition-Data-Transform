@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63687",
+  "type": "Person",
+  "_label": "Amanda Means",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20981",
+      "type": "Name",
+      "_label": "Amanda Means"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20981",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41962",
+      "type": "TimeSpan",
+      "_label": "Amanda Means Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20981",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41963",
+      "type": "TimeSpan",
+      "_label": "Amanda Means Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20981",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20981",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17199",
+              "type": "Event",
+              "_label": "Past, Present, Future",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-21-6 - 1986-10-8",
+                "begin_of_the_begin": "1986-21-6",
+                "end_of_the_end": "1986-10-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72153",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

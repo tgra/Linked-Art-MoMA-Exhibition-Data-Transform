@@ -1,0 +1,121 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/56976",
+  "type": "Person",
+  "_label": "Squat Theater",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15410",
+      "type": "Name",
+      "_label": "Squat Theater"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15410",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30820",
+      "type": "TimeSpan",
+      "_label": "Squat Theater Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15410",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30821",
+      "type": "TimeSpan",
+      "_label": "Squat Theater Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15410",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15410",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2789",
+              "type": "Event",
+              "_label": "Space Invaders",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-31-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60140",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18279",
+              "type": "Event",
+              "_label": "Dreamland Burns",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-5-3 - ",
+                "begin_of_the_begin": "1986-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60141",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18333",
+              "type": "Event",
+              "_label": "Full Moon Killer",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-3-1 - ",
+                "begin_of_the_begin": "1991-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60142",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

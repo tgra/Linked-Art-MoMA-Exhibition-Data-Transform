@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32831",
+  "type": "Person",
+  "_label": "Jeanne Mellinger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11723",
+      "type": "Name",
+      "_label": "Jeanne Mellinger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11723",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23446",
+      "type": "TimeSpan",
+      "_label": "Jeanne Mellinger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11723",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23447",
+      "type": "TimeSpan",
+      "_label": "Jeanne Mellinger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11723",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11723",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1515",
+              "type": "Event",
+              "_label": "Art and Technology: Chicago Video at MoMA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-13-5 - 1982-29-6",
+                "begin_of_the_begin": "1982-13-5",
+                "end_of_the_end": "1982-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37583",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

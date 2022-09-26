@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59321",
+  "type": "Person",
+  "_label": "Burberry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17936",
+      "type": "Name",
+      "_label": "Burberry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17936",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35872",
+      "type": "TimeSpan",
+      "_label": "Burberry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17936",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/35873",
+      "type": "TimeSpan",
+      "_label": "Burberry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17936",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17936",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3472",
+              "type": "Event",
+              "_label": "Uniform: Order and Disorder",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-20-5 - 2001-23-9",
+                "begin_of_the_begin": "2001-20-5",
+                "end_of_the_end": "2001-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65274",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

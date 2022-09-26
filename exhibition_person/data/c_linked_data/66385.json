@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66385",
+  "type": "Person",
+  "_label": "Raina Lampkins-Fielder",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22158",
+      "type": "Name",
+      "_label": "Raina Lampkins-Fielder"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22158",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44316",
+      "type": "TimeSpan",
+      "_label": "Raina Lampkins-Fielder Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22158",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44317",
+      "type": "TimeSpan",
+      "_label": "Raina Lampkins-Fielder Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22158",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22158",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21966",
+              "type": "Event",
+              "_label": "Keeping Track of the Joneses",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-19-3 - 1998-12-4",
+                "begin_of_the_begin": "1998-19-3",
+                "end_of_the_end": "1998-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74500",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/42007",
+  "type": "Person",
+  "_label": "Dorothy Iannone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13675",
+      "type": "Name",
+      "_label": "Dorothy Iannone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13675",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27350",
+      "type": "TimeSpan",
+      "_label": "Dorothy Iannone Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13675",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27351",
+      "type": "TimeSpan",
+      "_label": "Dorothy Iannone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13675",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13675",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17047",
+              "type": "Event",
+              "_label": "Dorothy Iannone: Lioness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-22-7 - 2009-18-10",
+                "begin_of_the_begin": "2009-22-7",
+                "end_of_the_end": "2009-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47217",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/28412",
+              "type": "Event",
+              "_label": "Whitney Biennial 2006: Day for Night",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-2-3 - 2006-28-5",
+                "begin_of_the_begin": "2006-2-3",
+                "end_of_the_end": "2006-28-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47218",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

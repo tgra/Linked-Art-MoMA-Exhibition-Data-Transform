@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60804",
+  "type": "Person",
+  "_label": "Marilyn Holsing",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19513",
+      "type": "Name",
+      "_label": "Marilyn Holsing"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19513",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39026",
+      "type": "TimeSpan",
+      "_label": "Marilyn Holsing Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19513",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39027",
+      "type": "TimeSpan",
+      "_label": "Marilyn Holsing Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19513",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19513",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4343",
+              "type": "Event",
+              "_label": "Biographies: Philadelphia Narratives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-19-3 - 1999-25-4",
+                "begin_of_the_begin": "1999-19-3",
+                "end_of_the_end": "1999-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68654",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

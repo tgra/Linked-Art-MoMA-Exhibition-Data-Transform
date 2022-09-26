@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/50636",
+  "type": "Person",
+  "_label": "Jan Rothuizen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14426",
+      "type": "Name",
+      "_label": "Jan Rothuizen"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7080",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch, born 1968"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14426",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28852",
+      "type": "TimeSpan",
+      "_label": "Jan Rothuizen Birth timespan",
+      "begin_of_the_begin": "1968",
+      "end_of_the_end": "1968"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14426",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28853",
+      "type": "TimeSpan",
+      "_label": "Jan Rothuizen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14426",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14426",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/21856",
+              "type": "Event",
+              "_label": "Museum as Hub: Antikhana",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-11-7 - 2008-21-9",
+                "begin_of_the_begin": "2008-11-7",
+                "end_of_the_end": "2008-21-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54057",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

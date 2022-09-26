@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4228",
+  "type": "Person",
+  "_label": "Oliver",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13701",
+      "type": "Name",
+      "_label": "Oliver"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6430",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Spanish"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13701",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27402",
+      "type": "TimeSpan",
+      "_label": "Oliver Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13701",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27403",
+      "type": "TimeSpan",
+      "_label": "Oliver Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13701",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13701",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/104",
+              "type": "Event",
+              "_label": "Spanish and U.S. Government Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-15-11 - 1937-26-11",
+                "begin_of_the_begin": "1937-15-11",
+                "end_of_the_end": "1937-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47358",
+                  "type": "Place",
+                  "_label": "Concourse Level, 14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

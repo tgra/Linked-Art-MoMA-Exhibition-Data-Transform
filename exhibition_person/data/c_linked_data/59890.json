@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59890",
+  "type": "Person",
+  "_label": "Lizard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18543",
+      "type": "Name",
+      "_label": "Lizard"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18543",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37086",
+      "type": "TimeSpan",
+      "_label": "Lizard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18543",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37087",
+      "type": "TimeSpan",
+      "_label": "Lizard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18543",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18543",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3635",
+              "type": "Event",
+              "_label": "Costumes, Masks and Disguises",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-2 - 1986-15-3",
+                "begin_of_the_begin": "1986-13-2",
+                "end_of_the_end": "1986-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66518",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

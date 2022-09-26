@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/58509",
+  "type": "Person",
+  "_label": "Howie Burr",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/17060",
+      "type": "Name",
+      "_label": "Howie Burr"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/17060",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34120",
+      "type": "TimeSpan",
+      "_label": "Howie Burr Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/17060",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/34121",
+      "type": "TimeSpan",
+      "_label": "Howie Burr Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/17060",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/17060",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2785",
+              "type": "Event",
+              "_label": "Salvaged: Altered Everyday Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/63515",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

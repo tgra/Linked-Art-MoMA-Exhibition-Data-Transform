@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67723",
+  "type": "Person",
+  "_label": "Bill Harvey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23078",
+      "type": "Name",
+      "_label": "Bill Harvey"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23078",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46156",
+      "type": "TimeSpan",
+      "_label": "Bill Harvey Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23078",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46157",
+      "type": "TimeSpan",
+      "_label": "Bill Harvey Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23078",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23078",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/28422",
+              "type": "Event",
+              "_label": "Objects in Collision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-6-4 - 1985-4-5",
+                "begin_of_the_begin": "1985-6-4",
+                "end_of_the_end": "1985-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76108",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

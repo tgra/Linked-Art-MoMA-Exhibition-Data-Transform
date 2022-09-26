@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/29216",
+  "type": "Person",
+  "_label": "Howe, Stonorov & Kahn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7833",
+      "type": "Name",
+      "_label": "Howe, Stonorov & Kahn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7833",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15666",
+      "type": "TimeSpan",
+      "_label": "Howe, Stonorov & Kahn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7833",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15667",
+      "type": "TimeSpan",
+      "_label": "Howe, Stonorov & Kahn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7833",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7833",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/312",
+              "type": "Event",
+              "_label": "Built in the U.S.A., 1932–44",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29843",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/336",
+              "type": "Event",
+              "_label": "The Lesson of War Housing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-16-1 - 1945-4-3",
+                "begin_of_the_begin": "1945-16-1",
+                "end_of_the_end": "1945-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29844",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63324",
+  "type": "Person",
+  "_label": "Pritchard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20713",
+      "type": "Name",
+      "_label": "Pritchard"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20713",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41426",
+      "type": "TimeSpan",
+      "_label": "Pritchard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20713",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41427",
+      "type": "TimeSpan",
+      "_label": "Pritchard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20713",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20713",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/7163",
+              "type": "Event",
+              "_label": "Beauchamp, Chamberlain, Follett, Forst, Lansner, Pasilis, Pritchard, Stout, Samaras, Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-5 - 1959-6-6",
+                "begin_of_the_begin": "1959-18-5",
+                "end_of_the_end": "1959-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71617",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

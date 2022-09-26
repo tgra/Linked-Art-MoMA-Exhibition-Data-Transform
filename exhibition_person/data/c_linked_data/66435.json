@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/66435",
+  "type": "Person",
+  "_label": "Remo Campopiano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22185",
+      "type": "Name",
+      "_label": "Remo Campopiano"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22185",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44370",
+      "type": "TimeSpan",
+      "_label": "Remo Campopiano Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22185",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/44371",
+      "type": "TimeSpan",
+      "_label": "Remo Campopiano Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22185",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22185",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17215",
+              "type": "Event",
+              "_label": "Remo Campopiano: Plato's Cave",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-9 - 1985-10-11",
+                "begin_of_the_begin": "1985-21-9",
+                "end_of_the_end": "1985-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74543",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/17217",
+              "type": "Event",
+              "_label": "Five from Minnesota",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-9 - 1985-10-11",
+                "begin_of_the_begin": "1985-21-9",
+                "end_of_the_end": "1985-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/74544",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

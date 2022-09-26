@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/33066",
+  "type": "Person",
+  "_label": "Gordon Hart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11970",
+      "type": "Name",
+      "_label": "Gordon Hart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11970",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23940",
+      "type": "TimeSpan",
+      "_label": "Gordon Hart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11970",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23941",
+      "type": "TimeSpan",
+      "_label": "Gordon Hart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11970",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11970",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3787",
+              "type": "Event",
+              "_label": "New Wave Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-7-3 - 1979-31-3",
+                "begin_of_the_begin": "1979-7-3",
+                "end_of_the_end": "1979-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38136",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1404",
+              "type": "Event",
+              "_label": "Gold",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-11 - 1979-19-2",
+                "begin_of_the_begin": "1978-20-11",
+                "end_of_the_end": "1979-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38137",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

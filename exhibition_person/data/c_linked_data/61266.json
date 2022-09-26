@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/61266",
+  "type": "Person",
+  "_label": "Janet Biggs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19903",
+      "type": "Name",
+      "_label": "Janet Biggs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19903",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39806",
+      "type": "TimeSpan",
+      "_label": "Janet Biggs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19903",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39807",
+      "type": "TimeSpan",
+      "_label": "Janet Biggs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19903",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19903",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4738",
+              "type": "Event",
+              "_label": "Little Women/ Little Men",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-28-6 - 1992-27-5",
+                "begin_of_the_begin": "1992-28-6",
+                "end_of_the_end": "1992-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69466",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/65740",
+  "type": "Person",
+  "_label": "MANUAL",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21861",
+      "type": "Name",
+      "_label": "MANUAL"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21861",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43722",
+      "type": "TimeSpan",
+      "_label": "MANUAL Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21861",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43723",
+      "type": "TimeSpan",
+      "_label": "MANUAL Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21861",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21861",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/22006",
+              "type": "Event",
+              "_label": "Signs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-27-4 - 1985-7-7",
+                "begin_of_the_begin": "1985-27-4",
+                "end_of_the_end": "1985-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73853",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/67382",
+  "type": "Person",
+  "_label": "Larry Duckette",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22730",
+      "type": "Name",
+      "_label": "Larry Duckette"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/22730",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45460",
+      "type": "TimeSpan",
+      "_label": "Larry Duckette Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/22730",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/45461",
+      "type": "TimeSpan",
+      "_label": "Larry Duckette Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/22730",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/22730",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/18218",
+              "type": "Event",
+              "_label": "Brother to Brother: Words…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-6-4 - ",
+                "begin_of_the_begin": "1989-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/75606",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

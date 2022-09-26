@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32291",
+  "type": "Person",
+  "_label": "Joseph Nicolle",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11145",
+      "type": "Name",
+      "_label": "Joseph Nicolle"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11145",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22290",
+      "type": "TimeSpan",
+      "_label": "Joseph Nicolle Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11145",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22291",
+      "type": "TimeSpan",
+      "_label": "Joseph Nicolle Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11145",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11145",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1256",
+              "type": "Event",
+              "_label": "The Architecture of the École des Beaux-Arts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-29-10 - 1976-4-1",
+                "begin_of_the_begin": "1975-29-10",
+                "end_of_the_end": "1976-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36294",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

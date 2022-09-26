@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59884",
+  "type": "Person",
+  "_label": "Jane Henry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18537",
+      "type": "Name",
+      "_label": "Jane Henry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18537",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37074",
+      "type": "TimeSpan",
+      "_label": "Jane Henry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18537",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37075",
+      "type": "TimeSpan",
+      "_label": "Jane Henry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18537",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18537",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3635",
+              "type": "Event",
+              "_label": "Costumes, Masks and Disguises",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-2 - 1986-15-3",
+                "begin_of_the_begin": "1986-13-2",
+                "end_of_the_end": "1986-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66512",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

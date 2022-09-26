@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/63968",
+  "type": "Person",
+  "_label": "Björg Arnarsdottir",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21091",
+      "type": "Name",
+      "_label": "Björg Arnarsdottir"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21091",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42182",
+      "type": "TimeSpan",
+      "_label": "Björg Arnarsdottir Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21091",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42183",
+      "type": "TimeSpan",
+      "_label": "Björg Arnarsdottir Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21091",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21091",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/17093",
+              "type": "Event",
+              "_label": "Picturing the Modern Amazon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-3 - 2000-25-6",
+                "begin_of_the_begin": "2000-30-3",
+                "end_of_the_end": "2000-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/72418",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60730",
+  "type": "Person",
+  "_label": "Susan Oyama",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19434",
+      "type": "Name",
+      "_label": "Susan Oyama"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19434",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38868",
+      "type": "TimeSpan",
+      "_label": "Susan Oyama Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19434",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38869",
+      "type": "TimeSpan",
+      "_label": "Susan Oyama Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19434",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19434",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4076",
+              "type": "Event",
+              "_label": "Philadelphia Photographers In Transit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-1-11 - 1988-31-12",
+                "begin_of_the_begin": "1988-1-11",
+                "end_of_the_end": "1988-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68550",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

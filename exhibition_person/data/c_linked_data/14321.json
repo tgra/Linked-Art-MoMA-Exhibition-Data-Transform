@@ -56,7 +56,59 @@
         {
           "id": "https://linkedart.example.com/Set/578",
           "type": "Set",
-          "_label": "Exhibitions"
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3",
+              "type": "Event",
+              "_label": "Painting in Paris",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1930-19-1 - 1930-2-3",
+                "begin_of_the_begin": "1930-19-1",
+                "end_of_the_end": "1930-2-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4028",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18",
+              "type": "Event",
+              "_label": "Summer Exhibition: Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-7-6 - 1932-30-10",
+                "begin_of_the_begin": "1932-7-6",
+                "end_of_the_end": "1932-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4029",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

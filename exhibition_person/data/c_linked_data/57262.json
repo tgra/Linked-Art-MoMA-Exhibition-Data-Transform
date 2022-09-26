@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57262",
+  "type": "Person",
+  "_label": "Steve Chambers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15722",
+      "type": "Name",
+      "_label": "Steve Chambers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15722",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31444",
+      "type": "TimeSpan",
+      "_label": "Steve Chambers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15722",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/31445",
+      "type": "TimeSpan",
+      "_label": "Steve Chambers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15722",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15722",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3612",
+              "type": "Event",
+              "_label": "The Brooklyn Bridge Event",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-21-5 - 1971-24-5",
+                "begin_of_the_begin": "1971-21-5",
+                "end_of_the_end": "1971-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/60793",
+                  "type": "Place",
+                  "_label": "The Brooklyn Bridge",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

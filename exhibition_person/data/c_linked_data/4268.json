@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/4268",
+  "type": "Person",
+  "_label": "María Catalina Otero Lamas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13738",
+      "type": "Name",
+      "_label": "María Catalina Otero Lamas"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6462",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Argentine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13738",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27476",
+      "type": "TimeSpan",
+      "_label": "María Catalina Otero Lamas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13738",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27477",
+      "type": "TimeSpan",
+      "_label": "María Catalina Otero Lamas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13738",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13738",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/273",
+              "type": "Event",
+              "_label": "The Latin-American Collection of the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-31-3 - 1943-6-6",
+                "begin_of_the_begin": "1943-31-3",
+                "end_of_the_end": "1943-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47690",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

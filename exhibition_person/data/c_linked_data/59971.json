@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59971",
+  "type": "Person",
+  "_label": "Saya Woolfalk",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18631",
+      "type": "Name",
+      "_label": "Saya Woolfalk"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18631",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37262",
+      "type": "TimeSpan",
+      "_label": "Saya Woolfalk Birth timespan",
+      "begin_of_the_begin": "1979",
+      "end_of_the_end": "1979"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18631",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37263",
+      "type": "TimeSpan",
+      "_label": "Saya Woolfalk Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18631",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18631",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66745",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/3277",
+              "type": "Event",
+              "_label": "Clifford Owens: Anthology",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-13-11 - 2012-7-5",
+                "begin_of_the_begin": "2011-13-11",
+                "end_of_the_end": "2012-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66746",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

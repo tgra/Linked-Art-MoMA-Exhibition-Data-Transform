@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60057",
+  "type": "Person",
+  "_label": "Amy Smith-Stewart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18723",
+      "type": "Name",
+      "_label": "Amy Smith-Stewart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18723",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37446",
+      "type": "TimeSpan",
+      "_label": "Amy Smith-Stewart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18723",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37447",
+      "type": "TimeSpan",
+      "_label": "Amy Smith-Stewart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18723",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18723",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66967",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/57840",
+  "type": "Person",
+  "_label": "Peter Grass",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16339",
+      "type": "Name",
+      "_label": "Peter Grass"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/16339",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32678",
+      "type": "TimeSpan",
+      "_label": "Peter Grass Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/16339",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/32679",
+      "type": "TimeSpan",
+      "_label": "Peter Grass Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/16339",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/16339",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/2999",
+              "type": "Event",
+              "_label": "A Month of Sundays",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-19-9 - 1976-10-10",
+                "begin_of_the_begin": "1976-19-9",
+                "end_of_the_end": "1976-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62104",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/2994",
+              "type": "Event",
+              "_label": "Performer In Residence Program",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-9 - 1978-1-5",
+                "begin_of_the_begin": "1977-1-9",
+                "end_of_the_end": "1978-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/62105",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

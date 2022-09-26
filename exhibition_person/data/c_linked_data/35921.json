@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/35921",
+  "type": "Person",
+  "_label": "Kaufmann & Fabry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12820",
+      "type": "Name",
+      "_label": "Kaufmann & Fabry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12820",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25640",
+      "type": "TimeSpan",
+      "_label": "Kaufmann & Fabry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12820",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25641",
+      "type": "TimeSpan",
+      "_label": "Kaufmann & Fabry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12820",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12820",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1962",
+              "type": "Event",
+              "_label": "American Politicians: Photographs from 1843 to 1993",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-10 - 1995-3-1",
+                "begin_of_the_begin": "1994-5-10",
+                "end_of_the_end": "1995-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41578",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/69320",
+  "type": "Person",
+  "_label": "Anne Ophelia Todd",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23622",
+      "type": "Name",
+      "_label": "Anne Ophelia Todd"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23622",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47244",
+      "type": "TimeSpan",
+      "_label": "Anne Ophelia Todd Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23622",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47245",
+      "type": "TimeSpan",
+      "_label": "Anne Ophelia Todd Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23622",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23622",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/6300",
+              "type": "Event",
+              "_label": "Second Biennial Exhibition: Part 2 – Watercolors and Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-18-2 - 1936-18-3",
+                "begin_of_the_begin": "1936-18-2",
+                "end_of_the_end": "1936-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77492",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

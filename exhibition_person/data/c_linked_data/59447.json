@@ -1,0 +1,101 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59447",
+  "type": "Person",
+  "_label": "John Berger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18068",
+      "type": "Name",
+      "_label": "John Berger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18068",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36136",
+      "type": "TimeSpan",
+      "_label": "John Berger Birth timespan",
+      "begin_of_the_begin": "1926",
+      "end_of_the_end": "1926"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18068",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36137",
+      "type": "TimeSpan",
+      "_label": "John Berger Death timespan",
+      "begin_of_the_begin": "2017",
+      "end_of_the_end": "2017"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18068",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18068",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3502",
+              "type": "Event",
+              "_label": "Signatures of the Invisible",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-29-6 - 2003-14-9",
+                "begin_of_the_begin": "2003-29-6",
+                "end_of_the_end": "2003-14-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65466",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/18583",
+              "type": "Event",
+              "_label": "Television Society Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-24-10 - ",
+                "begin_of_the_begin": "1980-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/65467",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

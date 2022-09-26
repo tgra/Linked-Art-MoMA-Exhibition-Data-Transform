@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/30678",
+  "type": "Person",
+  "_label": "Guilio Minoletti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9404",
+      "type": "Name",
+      "_label": "Guilio Minoletti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9404",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18808",
+      "type": "TimeSpan",
+      "_label": "Guilio Minoletti Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9404",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18809",
+      "type": "TimeSpan",
+      "_label": "Guilio Minoletti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9404",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9404",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/633",
+              "type": "Event",
+              "_label": "The Modern Movement in Italy: Architecture and Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-18-8 - 1954-6-9",
+                "begin_of_the_begin": "1954-18-8",
+                "end_of_the_end": "1954-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32980",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

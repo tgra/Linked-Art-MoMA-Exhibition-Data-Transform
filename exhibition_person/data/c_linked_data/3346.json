@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/3346",
+  "type": "Person",
+  "_label": "Norman Lerner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12174",
+      "type": "Name",
+      "_label": "Norman Lerner"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5580",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1927"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12174",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24348",
+      "type": "TimeSpan",
+      "_label": "Norman Lerner Birth timespan",
+      "begin_of_the_begin": "1927",
+      "end_of_the_end": "1927"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12174",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24349",
+      "type": "TimeSpan",
+      "_label": "Norman Lerner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12174",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12174",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/959",
+              "type": "Event",
+              "_label": "Photography as Printmaking",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-19-3 - 1968-27-5",
+                "begin_of_the_begin": "1968-19-3",
+                "end_of_the_end": "1968-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38661",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://localhost:3010/api/exhibition/1081",
+              "type": "Event",
+              "_label": "Steichen Gallery Reinstallation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-2-4 - ",
+                "begin_of_the_begin": "1971-2-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38662",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

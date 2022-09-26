@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/59795",
+  "type": "Person",
+  "_label": "Harley Francis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18442",
+      "type": "Name",
+      "_label": "Harley Francis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18442",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36884",
+      "type": "TimeSpan",
+      "_label": "Harley Francis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18442",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36885",
+      "type": "TimeSpan",
+      "_label": "Harley Francis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18442",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18442",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/3204",
+              "type": "Event",
+              "_label": "Artists' Stamps and Stamp Images",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/66339",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

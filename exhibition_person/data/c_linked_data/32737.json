@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/32737",
+  "type": "Person",
+  "_label": "Michael Balog",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11625",
+      "type": "Name",
+      "_label": "Michael Balog"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11625",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23250",
+      "type": "TimeSpan",
+      "_label": "Michael Balog Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11625",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23251",
+      "type": "TimeSpan",
+      "_label": "Michael Balog Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11625",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11625",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/1215",
+              "type": "Event",
+              "_label": "Works from Change, Inc.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-25-9 - 1974-20-10",
+                "begin_of_the_begin": "1974-25-9",
+                "end_of_the_end": "1974-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37244",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/60767",
+  "type": "Person",
+  "_label": "Richard Wentworth",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19473",
+      "type": "Name",
+      "_label": "Richard Wentworth"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19473",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38946",
+      "type": "TimeSpan",
+      "_label": "Richard Wentworth Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19473",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/38947",
+      "type": "TimeSpan",
+      "_label": "Richard Wentworth Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19473",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19473",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://localhost:3010/api/exhibition/4373",
+              "type": "Event",
+              "_label": "Conversation Pieces",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-14-5 - 1994-17-7",
+                "begin_of_the_begin": "1994-14-5",
+                "end_of_the_end": "1994-17-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/68594",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
