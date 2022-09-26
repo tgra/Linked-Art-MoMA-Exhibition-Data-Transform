@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/20011",
+  "type": "Person",
+  "_label": "Christopher Woebken",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2589",
+      "type": "Name",
+      "_label": "Christopher Woebken"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2228",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1980"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2589",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5178",
+      "type": "TimeSpan",
+      "_label": "Christopher Woebken Birth timespan",
+      "begin_of_the_begin": "1980",
+      "end_of_the_end": "1980"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2589",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5179",
+      "type": "TimeSpan",
+      "_label": "Christopher Woebken Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2589",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2589",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/2890",
+  "type": "Person",
+  "_label": "Alex Katz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7489",
+      "type": "Name",
+      "_label": "Alex Katz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4912",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1927"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7489",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14978",
+      "type": "TimeSpan",
+      "_label": "Alex Katz Birth timespan",
+      "begin_of_the_begin": "1927",
+      "end_of_the_end": "1927"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7489",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14979",
+      "type": "TimeSpan",
+      "_label": "Alex Katz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7489",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7489",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

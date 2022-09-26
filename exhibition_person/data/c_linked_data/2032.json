@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/2032",
+  "type": "Person",
+  "_label": "Juan Genovés",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2692",
+      "type": "Name",
+      "_label": "Juan Genovés"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2328",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Spanish, born 1930"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2692",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5384",
+      "type": "TimeSpan",
+      "_label": "Juan Genovés Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2692",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5385",
+      "type": "TimeSpan",
+      "_label": "Juan Genovés Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2692",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2692",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

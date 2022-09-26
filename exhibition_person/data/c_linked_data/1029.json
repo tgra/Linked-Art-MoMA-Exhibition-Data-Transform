@@ -1,0 +1,64 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/1029",
+  "type": "Person",
+  "_label": "Walter Chappell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/40",
+      "type": "Name",
+      "_label": "Walter Chappell"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/33",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1925"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/40",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/80",
+      "type": "TimeSpan",
+      "_label": "Walter Chappell Birth timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/40",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/81",
+      "type": "TimeSpan",
+      "_label": "Walter Chappell Death timespan",
+      "begin_of_the_begin": "2000",
+      "end_of_the_end": "2000"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/40",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/40",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

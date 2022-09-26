@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/24111",
+  "type": "Person",
+  "_label": "Roger Limbrick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4456",
+      "type": "Name",
+      "_label": "Roger Limbrick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3762",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4456",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8912",
+      "type": "TimeSpan",
+      "_label": "Roger Limbrick Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4456",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8913",
+      "type": "TimeSpan",
+      "_label": "Roger Limbrick Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4456",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4456",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

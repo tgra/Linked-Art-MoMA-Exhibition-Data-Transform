@@ -1,0 +1,73 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://linked.art/example/person/2",
+    "type": "Person",
+    "_label": "J. Smith",
+    "identified_by": [{
+          "type": "Name",
+          "classified_as": [{
+              "id": "http://vocab.getty.edu/aat/300404670",
+              "type": "Type",
+              "_label": "Primary Name"
+                            }],
+          "content": "J. Smith"
+        },
+        {
+            "type": "Identifier",
+            "classified_as": [{
+                "id": "http://vocab.getty.edu/aat/300404621",
+                "type": "Type",
+                "_label": "Owner-Assigned Number"
+                            }],
+            "content": "643"
+                    }],
+    "equivalent": [{
+          "id": "http://vocab.getty.edu/ulan/500115588",
+          "type": "Person",
+          "_label": "Vincent Van Gogh"
+        }],
+    "born": {
+        "type": "Birth",
+        "timespan": {
+          "type": "TimeSpan",
+          "begin_of_the_begin": "1767-01-09",
+          "end_of_the_end": "1767-01-12"
+                    }
+            },
+    "died": {
+        "type": "Death",
+        "timespan": {
+          "type": "TimeSpan",
+          "begin_of_the_begin": "1824-08-21",
+          "end_of_the_end": "1824-08-21"
+                    },
+            },
+    "referred_to_by": [{
+              "type": "LinguisticObject",
+              "classified_as": [{
+                  "id": "http://vocab.getty.edu/aat/300435422",
+                  "type": "Type",
+                  "_label": "Biography Statement",
+                  "classified_as": [{
+                      "id": "http://vocab.getty.edu/aat/300418049",
+                      "type": "Type",
+                      "_label": "Brief Text"
+                                    }]
+                                }],
+              "content": "David was born at a very early age."
+                    }],
+    "part": [{
+              "id": "https://linkedart.example.com/AttributeAssignment/0",
+              "type": "AttributeAssignment",
+              "involved": [{
+                  "id": "https://linkedart.example.com/Set/0",
+                  "type": "Set",
+                  "_label": "Exhibitions",
+                  "about": [{
+                      "id": "https://linkedart.example.com/Event/0",
+                      "type": "Event",
+                      "_label": "Georges-Pierre Seurat"
+                            }]
+                        }]
+            }]
+    }

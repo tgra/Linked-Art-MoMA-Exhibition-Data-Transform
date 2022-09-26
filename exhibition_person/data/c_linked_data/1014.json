@@ -1,0 +1,64 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/1014",
+  "type": "Person",
+  "_label": "Marc Chagall",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25",
+      "type": "Name",
+      "_label": "Marc Chagall"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/18",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born Belarus. 1887–1985"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50",
+      "type": "TimeSpan",
+      "_label": "Marc Chagall Birth timespan",
+      "begin_of_the_begin": "1887",
+      "end_of_the_end": "1887"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51",
+      "type": "TimeSpan",
+      "_label": "Marc Chagall Death timespan",
+      "begin_of_the_begin": "1985",
+      "end_of_the_end": "1985"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

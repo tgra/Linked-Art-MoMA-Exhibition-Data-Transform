@@ -1,0 +1,46 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/11437",
+  "type": "Person",
+  "_label": "John Russell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/200",
+      "type": "Name",
+      "_label": "John Russell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/200",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/400",
+      "type": "TimeSpan",
+      "_label": "John Russell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/200",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/401",
+      "type": "TimeSpan",
+      "_label": "John Russell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/200",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/200",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

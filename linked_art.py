@@ -6,7 +6,6 @@ import json
 import yaml
 from yaml.loader import SafeLoader
 
-
 from pathlib import Path
 
 import patterns
@@ -20,7 +19,6 @@ with open(config_file) as f:
     data = yaml.load(f, Loader=SafeLoader)
     config = data[1]
 
-
 # dir to store collection data files
 directory               = config["directory"]
 b_mapped                = directory + config["b_mapped"]
@@ -28,13 +26,11 @@ c_linked_art            = directory + config["c_linked_art"]
 factory.default_lang    = config["default_lang"]
 factory.base_url        = config["base_url"]
 
-
 globalvars = []
 # read in config
 with open('globalvars.yaml') as f:
     data = yaml.load(f, Loader=SafeLoader)
     globalvars = data
-
 
 files = []
 for (dirpath, dirnames, filenames) in walk(b_mapped):
@@ -43,7 +39,6 @@ for (dirpath, dirnames, filenames) in walk(b_mapped):
 files.sort()
 
 # iterate over files in b_mapped
-
 for file in files:
     filename = os.path.basename(file)
 
@@ -56,12 +51,14 @@ for file in files:
             data = patterns.humanmadeobject_pattern(data, globalvars)
         elif objtype == "set":
             data = patterns.set_pattern(data, globalvars)
-        elif objtype == "alternative_exhibition":
+        elif objtype == "exhibition_event":
             data = patterns.exhibition_pattern(data, globalvars)
+        elif objtype == "exhibition_person":
+            data = patterns.exhibition_person_pattern(data, globalvars)
 
-        la = factory.toString(data, compact=False)
+        linked_art = factory.toString(data, compact=False)
 
         # write linked art to file
         f = open(c_linked_art + '/' + filename, "w")
-        f.write(la)
+        f.write(linked_art)
         f.close()

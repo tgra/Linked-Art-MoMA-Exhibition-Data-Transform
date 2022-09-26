@@ -1,29 +1,65 @@
 
 import cromulent 
-from cromulent.model import factory, Group, DigitalObject
-from cromulent.vocab import AttributeAssignment, Exhibition, Type, Set, LinguisticObject, Name, InformationObject, Creation, VisualItem, Identifier, Production, HumanMadeObject, Dimension, MeasurementUnit, TimeSpan, Place, Person, Language, DigitalService
+from cromulent.model import factory, Group, DigitalObject, TimeSpan
+from cromulent.vocab import Event, Birth, Death, AttributeAssignment, Exhibition, Type, Set, LinguisticObject, Name, InformationObject, Creation, VisualItem, Identifier, Production, HumanMadeObject, Dimension, MeasurementUnit, TimeSpan, Place, Person, Language, DigitalService
 
 import json
 # ==========================
-'''
 
-    "took_place_at": [
-      {
-        "type": "Place",
-        "_label": "Example Museum's Location",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300005768",
-            "type": "Type",
-            "_label": "Museum (place)"
-          }
-        ]
-      }
-    ],
+
+
+def person_pattern(data, globalvars):
+
+    id = data["id"]
+    label = data["label"]
+
+    person = Person(ident=id, label=label)
+
+    person.identified_by = Name(label=label)
+
+    birth = Birth(label = "Birth")
+    timespan = TimeSpan(label= label + " Birth timespan")
+    timespan.begin_of_the_begin = data["birth_date"]
+    timespan.end_of_the_end = data["birth_date"]
+    birth.timespan = timespan
+    person.born = birth
+
+    death = Death(label = "Death")
+    timespan = TimeSpan(label= label + " Death timespan")
+    timespan.begin_of_the_begin = data["death_date"]
+    timespan.end_of_the_end = data["death_date"]
+    death.timespan = timespan
+    person.died = death
+
+    if data["description"] != "":
+        lo = LinguisticObject()
+        lo.content = data["description"]
+        lo.classified_as = Type(ident="http://vocab.getty.edu/aat/300435422", label="Biography Statement")
+        person.referred_to_by = lo
+        
+    return person
+
+
+def exhibition_person_pattern(data,globalvars):
+
+    person = person_pattern(data, globalvars)
+
+    exhibitions = []
+    for exhibition in data["exhibitions"]:
+        d = exhibition["exhibition"]
+       
+        #ex = Event(id==d["id"],label=d["label"])
+        #exhibitions.append(ex)
     
-    ]
-  }
-'''
+    set = Set(label="Exhibitions")
+    aa = AttributeAssignment()
+    #set.about = {exhibitions}
+    aa.involved = set
+    person.assigned_by = aa
+
+    return person
+
+
 
 
 def exhibition_pattern(data, globalvars):

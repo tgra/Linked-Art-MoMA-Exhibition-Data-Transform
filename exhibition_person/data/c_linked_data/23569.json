@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/23569",
+  "type": "Person",
+  "_label": "Media Molecule",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4241",
+      "type": "Name",
+      "_label": "Media Molecule"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3569",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "UK, est. 2006"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4241",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8482",
+      "type": "TimeSpan",
+      "_label": "Media Molecule Birth timespan",
+      "begin_of_the_begin": "2006",
+      "end_of_the_end": "2006"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4241",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8483",
+      "type": "TimeSpan",
+      "_label": "Media Molecule Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4241",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4241",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

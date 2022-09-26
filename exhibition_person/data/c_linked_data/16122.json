@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/16122",
+  "type": "Person",
+  "_label": "Henry Ehlers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/928",
+      "type": "Name",
+      "_label": "Henry Ehlers"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/724",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1897"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/928",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1856",
+      "type": "TimeSpan",
+      "_label": "Henry Ehlers Birth timespan",
+      "begin_of_the_begin": "1897",
+      "end_of_the_end": "1897"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/928",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1857",
+      "type": "TimeSpan",
+      "_label": "Henry Ehlers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/928",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/928",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

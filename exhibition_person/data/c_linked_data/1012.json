@@ -1,0 +1,64 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/1012",
+  "type": "Person",
+  "_label": "Paul Cézanne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21",
+      "type": "Name",
+      "_label": "Paul Cézanne"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/16",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1839–1906"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/42",
+      "type": "TimeSpan",
+      "_label": "Paul Cézanne Birth timespan",
+      "begin_of_the_begin": "1839",
+      "end_of_the_end": "1839"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43",
+      "type": "TimeSpan",
+      "_label": "Paul Cézanne Death timespan",
+      "begin_of_the_begin": "1906",
+      "end_of_the_end": "1906"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}

@@ -21,6 +21,54 @@ def reformatDate(date, char):
         return date
     return date
 
+def exhibition_person(data,template):
+
+    startdate = data["Startdate"]
+    startdate = reformatDate(startdate, "/")
+
+    enddate = data["EndDate"]
+    enddate = reformatDate(enddate, "/")
+    
+    json_str = "{}"
+    
+    ext_vars = {
+        "id"                : data["Unique_Constituents_ID"],
+        "person_role"   : data["Constituent Role"],
+        "person_name"   : data["AlphaSortName"],
+        "person_display_name" : data["DisplayName"],
+        "person_viaf_id"   : data["VIAFID"],
+        "person_wiki_id"   : data["WikidataQID"],
+        "person_ulan_id"   : data["ULANID"],
+        "birth_date"        : data["TMSBirthYear"],
+        "death_date"        : data["TMSDeathYear"],
+        "person_bio"        : data["TMS DisplayBio"],
+
+        "exhibition_label"  : data["Exhibition Title"],
+        "exhibition_id"     : data["Unique_ExhibitionsEvents_ID"],
+        "startdate"     : startdate,
+        "enddate"       : enddate,
+        "place_label"   : data["Exhibition Location/Address"],
+        "exhibition_url": data["Exhibitions_Events_URL"],
+        "exhibition_org" : data["ExhibitingInstitution"],
+
+        
+        }
+
+    
+    # iterate through ext_vars - if any values == None, replace with empty string
+    for k , val in ext_vars.items():
+        if val is None:
+            ext_vars.update({k: ""})
+    
+    # use jsonnet to populate template with vars from ext_vars python dict
+    json_str = _jsonnet.evaluate_snippet("snippet", template, ext_vars=ext_vars)
+
+    if json_str != "":
+        return json.dumps(json.loads(json_str),indent=2)
+    else:
+        return False
+
+
 def exhibition(data,template):
 
     startdate = data["Startdate"]

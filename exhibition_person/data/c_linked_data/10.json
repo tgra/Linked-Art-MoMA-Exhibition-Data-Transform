@@ -1,0 +1,62 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://localhost:3010/api/person/10",
+  "type": "Person",
+  "_label": "Irene Aronson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1",
+      "type": "Name",
+      "_label": "Irene Aronson"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/0",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2",
+      "type": "TimeSpan",
+      "_label": "Irene Aronson Birth timespan",
+      "begin_of_the_begin": "1918",
+      "end_of_the_end": "1918"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3",
+      "type": "TimeSpan",
+      "_label": "Irene Aronson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1",
+          "type": "Set",
+          "_label": "Exhibitions"
+        }
+      ]
+    }
+  ]
+}
