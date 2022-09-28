@@ -10,12 +10,21 @@ import json
 
 def person_pattern(data, globalvars):
 
+    ulan_uri = "http://vocab.getty.edu/page/ulan/"
+    viaf_uri  = "https://viaf.org/viaf/"
+    wikidata_uri = "https://www.wikidata.org/wiki/"
+
     id = data["id"]
     label = data["label"]
 
     person = Person(ident=id, label=label)
 
     person.identified_by = Name(label=label)
+    person.identified_by = Name(label=data["identifiers"]["alphsort_name"])
+    person.identified_by = Identifier(ident=ulan_uri + data["identifiers"]["ulan"], label="ULAN Identifier")
+    person.identified_by = Identifier(ident=viaf_uri + data["identifiers"]["viaf"], label="VIAF Identifier")
+    person.identified_by = Identifier(ident=wikidata_uri + data["identifiers"]["wikidata"], label="Wikidata Identifier")
+
 
     birth = Birth(label = "Birth")
     timespan = TimeSpan(label= label + " Birth timespan")
@@ -39,21 +48,40 @@ def person_pattern(data, globalvars):
         
     return person
 
+def timespan_pattern(data):
+
+    timespan = TimeSpan(ident="", label=data["label"])
+    timespan.begin_of_the_begin = data["begin"]
+    timespan.end_of_the_end = data["end"]
+    return timespan
+
+def place_pattern(data, globalvars):
+
+    place = Place(label=data["label"])
+    place.classified_as = type_pattern(300005768, globalvars)
+
+    return place
 
 def exhibition_person_pattern(data,globalvars):
 
     person = person_pattern(data, globalvars)
 
-    exhibitions = []
-    for exhibition in data["exhibitions"]:
-        d = exhibition["exhibition"]
-       
-        #ex = Event(id==d["id"],label=d["label"])
-        #exhibitions.append(ex)
-    
     set = Set(label="Exhibitions")
+    for exhibition in data["exhibitions"]:
+        if "exhibition" in exhibition:
+
+            d = exhibition["exhibition"]
+
+            ex = Event(ident=d["id"],label=d["label"])
+            ex.timespan = timespan_pattern(d["date"])
+            
+            ex.took_place_at = place_pattern(d["place"],globalvars)
+            set.about = ex
+            
+    
+    
+   
     aa = AttributeAssignment()
-    #set.about = {exhibitions}
     aa.involved = set
     person.assigned_by = aa
 
@@ -77,6 +105,7 @@ def exhibition_pattern(data, globalvars):
     if "primary_name" in data["identified_by"].keys():
         exhibition.identified_by = name_pattern(data["identified_by"]["primary_name"], globalvars)
 
+    
     # timespan
     data_time = data["timespan"]
     timespan = TimeSpan(ident="", label="")
@@ -89,8 +118,6 @@ def exhibition_pattern(data, globalvars):
     place.classified_as = type_pattern(300005768, globalvars)
     exhibition.took_place_at = place
 
-    
-
     roles = []
     for person in data["persons"]:
         person_role = person["person"]["role"]
@@ -98,19 +125,31 @@ def exhibition_pattern(data, globalvars):
             roles.append(person_role)
 
     aa = AttributeAssignment()
+    role_list = []
     for role in roles:
+        
         set = Set(label=role)
+        person_list = []
         for person in data["persons"]:
+            
             person_role = person["person"]["role"]
-            if person_role == role:
+            if (person_role == role):
                 display_name = person["person"]["name"]["display_name"] 
-                person_id = person["person"]["identified_by"]["ulan"]
-                person = Person(label=display_name, id=person_id)
-                set.about = person
-                
-                aa.involved = set
+                person_id = person["person"]["id"]
+                person = Person(label=display_name, ident=person_id)
+                person_list.append(person)
+        set.about = person_list
+        role_list.append(set)        
+    aa.involved = role_list
     exhibition.part = aa
 
+    # carried out by 
+    if "carried_out_by" in data:
+        label = data["carried_out_by"][0]["_label"]
+        grp = Group(label=label)
+        grp.classified_as = Type(ident="http://vocab.getty.edu/aat/300312281", label="Museum")
+        exhibition.carried_out_by = grp
+         
 
     return exhibition
 

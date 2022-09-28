@@ -1,7 +1,7 @@
 
-local la_base_uri = 'http://localhost:3010/api/';
+local la_base_uri = 'http://linkedart.example.com/';
 
-local person_id = la_base_uri + 'person/' + std.extVar('id');
+local person_id = la_base_uri + "person/" + std.extVar('id');
 
 local birth_date = std.extVar('birth_date');
 local death_date = std.extVar('death_date');
