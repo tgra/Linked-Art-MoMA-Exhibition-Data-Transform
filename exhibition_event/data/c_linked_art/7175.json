@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7175",
+  "id": "http://linkedart.example.com/exhibition/7175",
   "type": "Activity",
   "_label": "Founding Five",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Founding Five",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Founding Five",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1960-13-5",
     "end_of_the_end": "1960-3-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3730",
-      "type": "Place",
-      "_label": "90 East 10th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6646",
+    "type": "Place",
+    "_label": "90 East 10th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3730",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4891",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/37455",
-              "type": "Person",
-              "_label": "Charles Cajori"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37456",
-              "type": "Person",
-              "_label": "Fred Mitchell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37457",
-              "type": "Person",
-              "_label": "William D. King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37458",
-              "type": "Person",
-              "_label": "Angelo Ippolito"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37459",
-              "type": "Person",
-              "_label": "Lois Dodd"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6646",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6646",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8629",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/883",
+            "type": "Person",
+            "_label": "Charles Cajori"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60599",
+            "type": "Person",
+            "_label": "Fred Mitchell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27506",
+            "type": "Person",
+            "_label": "William D. King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2703",
+            "type": "Person",
+            "_label": "Angelo Ippolito"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32723",
+            "type": "Person",
+            "_label": "Lois Dodd"
+          }
+        ]
+      }
+    ]
+  }
 }

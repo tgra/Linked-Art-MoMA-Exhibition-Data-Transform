@@ -1,117 +1,115 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17297",
+  "id": "http://linkedart.example.com/exhibition/17297",
   "type": "Activity",
   "_label": "Outside New York",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Outside New York",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Outside New York",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-23-9",
     "end_of_the_end": "1978-11-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/523",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1152",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/523",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1031",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6925",
-              "type": "Person",
-              "_label": "Allan Schwartzman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6926",
-              "type": "Person",
-              "_label": "Susan Logan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6927",
-              "type": "Person",
-              "_label": "Kathleen Thomas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6928",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1032",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6929",
-              "type": "Person",
-              "_label": "James Hill"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6930",
-              "type": "Person",
-              "_label": "Katherine Carter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6931",
-              "type": "Person",
-              "_label": "Dan Rizzie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6932",
-              "type": "Person",
-              "_label": "Alexa Kleinbard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6933",
-              "type": "Person",
-              "_label": "Tom Hatch"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6934",
-              "type": "Person",
-              "_label": "Janis Provisor"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1152",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1152",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2179",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/47407",
+            "type": "Person",
+            "_label": "Allan Schwartzman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66836",
+            "type": "Person",
+            "_label": "Susan Logan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65403",
+            "type": "Person",
+            "_label": "Kathleen Thomas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2180",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65016",
+            "type": "Person",
+            "_label": "James Hill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56647",
+            "type": "Person",
+            "_label": "Katherine Carter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4752",
+            "type": "Person",
+            "_label": "Dan Rizzie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57152",
+            "type": "Person",
+            "_label": "Alexa Kleinbard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56680",
+            "type": "Person",
+            "_label": "Tom Hatch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57711",
+            "type": "Person",
+            "_label": "Janis Provisor"
+          }
+        ]
+      }
+    ]
+  }
 }

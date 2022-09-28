@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17046",
+  "id": "http://linkedart.example.com/exhibition/17046",
   "type": "Activity",
   "_label": "Emory Douglas: Black Panther",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Emory Douglas: Black Panther",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Emory Douglas: Black Panther",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2009-22-7",
     "end_of_the_end": "2009-18-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/270",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/874",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/270",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/505",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4429",
-              "type": "Person",
-              "_label": "Sam Durant"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/506",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4430",
-              "type": "Person",
-              "_label": "Emory Douglas"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/507",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4431",
-              "type": "Person",
-              "_label": "Laura Hoptman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/874",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/874",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1609",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/20543",
+            "type": "Person",
+            "_label": "Sam Durant"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1610",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60148",
+            "type": "Person",
+            "_label": "Emory Douglas"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1611",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27013",
+            "type": "Person",
+            "_label": "Laura Hoptman"
+          }
+        ]
+      }
+    ]
+  }
 }

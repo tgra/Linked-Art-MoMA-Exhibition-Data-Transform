@@ -1,127 +1,125 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/202",
+  "id": "http://linkedart.example.com/exhibition/202",
   "type": "Activity",
   "_label": "Isadora Duncan: Drawings, Photographs, Memorabilia",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Isadora Duncan: Drawings, Photographs, Memorabilia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Isadora Duncan: Drawings, Photographs, Memorabilia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1941-21-10",
     "end_of_the_end": "1942-10-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1133",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2052",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1133",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1656",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9127",
-              "type": "Person",
-              "_label": "André Dunoyer de Segonzac"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9128",
-              "type": "Person",
-              "_label": "Auguste Rodin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9129",
-              "type": "Person",
-              "_label": "John Sloan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9130",
-              "type": "Person",
-              "_label": "Edward Steichen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9131",
-              "type": "Person",
-              "_label": "Abraham Walkowitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9132",
-              "type": "Person",
-              "_label": "Jules Grandjouan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9133",
-              "type": "Person",
-              "_label": "José Clara"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9134",
-              "type": "Person",
-              "_label": "Émile-Antoine Bourdelle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9135",
-              "type": "Person",
-              "_label": "Arnold Genthe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9136",
-              "type": "Person",
-              "_label": "Léon Bakst"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9137",
-              "type": "Person",
-              "_label": "Edward Gordon Craig"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1657",
-          "type": "Set",
-          "_label": "Arranger",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9138",
-              "type": "Person",
-              "_label": "Paul Magriel"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2052",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2052",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3222",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5114",
+            "type": "Person",
+            "_label": "André Dunoyer de Segonzac"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4781",
+            "type": "Person",
+            "_label": "Auguste Rodin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5258",
+            "type": "Person",
+            "_label": "John Sloan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5402",
+            "type": "Person",
+            "_label": "Edward Steichen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5945",
+            "type": "Person",
+            "_label": "Abraham Walkowitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31121",
+            "type": "Person",
+            "_label": "Jules Grandjouan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31122",
+            "type": "Person",
+            "_label": "José Clara"
+          },
+          {
+            "id": "http://linkedart.example.com/person/678",
+            "type": "Person",
+            "_label": "Émile-Antoine Bourdelle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2033",
+            "type": "Person",
+            "_label": "Arnold Genthe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/282",
+            "type": "Person",
+            "_label": "Léon Bakst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1227",
+            "type": "Person",
+            "_label": "Edward Gordon Craig"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3223",
+        "type": "Set",
+        "_label": "Arranger",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31120",
+            "type": "Person",
+            "_label": "Paul Magriel"
+          }
+        ]
+      }
+    ]
+  }
 }

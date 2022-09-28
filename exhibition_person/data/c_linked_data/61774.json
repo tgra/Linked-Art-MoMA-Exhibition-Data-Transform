@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61774",
+  "type": "Person",
+  "_label": "John Geldersma",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/40200",
+      "type": "Name",
+      "_label": "John Geldersma"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/40201",
+      "type": "Name",
+      "_label": "Geldersma John"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20100",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40200",
+      "type": "TimeSpan",
+      "_label": "John Geldersma Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20100",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40201",
+      "type": "TimeSpan",
+      "_label": "John Geldersma Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20100",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20100",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4698",
+              "type": "Event",
+              "_label": "John Geldersma: Fetishes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-27-11 - 1976-9-12",
+                "begin_of_the_begin": "1976-27-11",
+                "end_of_the_end": "1976-9-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69987",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

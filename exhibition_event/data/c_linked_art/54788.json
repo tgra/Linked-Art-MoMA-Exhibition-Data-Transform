@@ -1,98 +1,96 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/54788",
+  "id": "http://linkedart.example.com/exhibition/54788",
   "type": "Activity",
   "_label": "[Penthouse Exhibition]",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "[Penthouse Exhibition]",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "[Penthouse Exhibition]",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1956-26-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3487",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5607",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3487",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4455",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/31867",
-              "type": "Person",
-              "_label": "Georges Mathieu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31868",
-              "type": "Person",
-              "_label": "Dorothy Andrews"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31869",
-              "type": "Person",
-              "_label": "Henry Niese"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31870",
-              "type": "Person",
-              "_label": "Theodoros Stamos"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31871",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31872",
-              "type": "Person",
-              "_label": "Alberto Burri"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31873",
-              "type": "Person",
-              "_label": "Jean (Hans) Arp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31874",
-              "type": "Person",
-              "_label": "Robert  Parder"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5607",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5607",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7376",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/68861",
+            "type": "Person",
+            "_label": "Georges Mathieu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/71493",
+            "type": "Person",
+            "_label": "Dorothy Andrews"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31496",
+            "type": "Person",
+            "_label": "Henry Niese"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5379",
+            "type": "Person",
+            "_label": "Theodoros Stamos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/850",
+            "type": "Person",
+            "_label": "Alberto Burri"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11",
+            "type": "Person",
+            "_label": "Jean (Hans) Arp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73674",
+            "type": "Person",
+            "_label": "Robert  Parder"
+          }
+        ]
+      }
+    ]
+  }
 }

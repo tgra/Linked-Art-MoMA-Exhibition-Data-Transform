@@ -1,125 +1,123 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3945",
+  "id": "http://linkedart.example.com/exhibition/3945",
   "type": "Activity",
   "_label": "Contemporary Painting and Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Contemporary Painting and Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Contemporary Painting and Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1962-10-4",
     "end_of_the_end": "1962-27-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2788",
-      "type": "Place",
-      "_label": "Green Gallery",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4377",
+    "type": "Place",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2788",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3613",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23732",
-              "type": "Person",
-              "_label": "Peter Agostini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23733",
-              "type": "Person",
-              "_label": "Mark di Suvero"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23734",
-              "type": "Person",
-              "_label": "Milet Andrejevic"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23735",
-              "type": "Person",
-              "_label": "James Rosenquist"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23736",
-              "type": "Person",
-              "_label": "Franz Kline"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23737",
-              "type": "Person",
-              "_label": "Philip Pavia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23738",
-              "type": "Person",
-              "_label": "Anthony Magar"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23739",
-              "type": "Person",
-              "_label": "Burgoyne Diller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23740",
-              "type": "Person",
-              "_label": "Ronald Bladen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23741",
-              "type": "Person",
-              "_label": "Neil Williams"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23742",
-              "type": "Person",
-              "_label": "Julius Hatofsky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23743",
-              "type": "Person",
-              "_label": "Myron Stout"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23744",
-              "type": "Person",
-              "_label": "John Chamberlain"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4377",
+    "type": "Group",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4377",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5972",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/80",
+            "type": "Person",
+            "_label": "Peter Agostini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5521",
+            "type": "Person",
+            "_label": "Mark di Suvero"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32717",
+            "type": "Person",
+            "_label": "Milet Andrejevic"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4822",
+            "type": "Person",
+            "_label": "James Rosenquist"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3020",
+            "type": "Person",
+            "_label": "Franz Kline"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60514",
+            "type": "Person",
+            "_label": "Philip Pavia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60515",
+            "type": "Person",
+            "_label": "Anthony Magar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1475",
+            "type": "Person",
+            "_label": "Burgoyne Diller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/563",
+            "type": "Person",
+            "_label": "Ronald Bladen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32760",
+            "type": "Person",
+            "_label": "Neil Williams"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60509",
+            "type": "Person",
+            "_label": "Julius Hatofsky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5462",
+            "type": "Person",
+            "_label": "Myron Stout"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1019",
+            "type": "Person",
+            "_label": "John Chamberlain"
+          }
+        ]
+      }
+    ]
+  }
 }

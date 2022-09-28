@@ -1,84 +1,82 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18451",
+  "id": "http://linkedart.example.com/exhibition/18451",
   "type": "Activity",
   "_label": "Nodal Excitation",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Nodal Excitation",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Nodal Excitation",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-14-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/858",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1603",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/858",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1375",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8215",
-              "type": "Person",
-              "_label": "Greg Lewis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8216",
-              "type": "Person",
-              "_label": "Arnold Dreyblatt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8217",
-              "type": "Person",
-              "_label": "Kraig Mason Hill"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8218",
-              "type": "Person",
-              "_label": "Michael Hauenstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8219",
-              "type": "Person",
-              "_label": "Peter Phillips"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1603",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1603",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2703",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67275",
+            "type": "Person",
+            "_label": "Greg Lewis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67534",
+            "type": "Person",
+            "_label": "Arnold Dreyblatt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67375",
+            "type": "Person",
+            "_label": "Kraig Mason Hill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67419",
+            "type": "Person",
+            "_label": "Michael Hauenstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4417",
+            "type": "Person",
+            "_label": "Peter Phillips"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3025",
+  "id": "http://linkedart.example.com/exhibition/3025",
   "type": "Activity",
   "_label": "Another Aspect of Pop Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Another Aspect of Pop Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Another Aspect of Pop Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-1-10",
     "end_of_the_end": "1978-19-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1786",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3375",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1786",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2560",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16124",
-              "type": "Person",
-              "_label": "Robert Stanley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16125",
-              "type": "Person",
-              "_label": "Nicholas Krushenick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16126",
-              "type": "Person",
-              "_label": "Rosalyn Drexler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16127",
-              "type": "Person",
-              "_label": "Robert Watts"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16128",
-              "type": "Person",
-              "_label": "John Wesley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16129",
-              "type": "Person",
-              "_label": "Marisol (Marisol Escobar)"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3375",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3375",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4919",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5384",
+            "type": "Person",
+            "_label": "Robert Stanley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3133",
+            "type": "Person",
+            "_label": "Nicholas Krushenick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32761",
+            "type": "Person",
+            "_label": "Rosalyn Drexler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5988",
+            "type": "Person",
+            "_label": "Robert Watts"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6033",
+            "type": "Person",
+            "_label": "John Wesley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3621",
+            "type": "Person",
+            "_label": "Marisol (Marisol Escobar)"
+          }
+        ]
+      }
+    ]
+  }
 }

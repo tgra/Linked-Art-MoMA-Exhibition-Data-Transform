@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3672",
+  "id": "http://linkedart.example.com/exhibition/3672",
   "type": "Activity",
   "_label": "The Periphery, Part III: Video Spin-Offs",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Periphery, Part III: Video Spin-Offs",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Periphery, Part III: Video Spin-Offs",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1990-18-1",
     "end_of_the_end": "1990-25-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2504",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4093",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2504",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3310",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22097",
-              "type": "Person",
-              "_label": "Nam June Paik"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22098",
-              "type": "Person",
-              "_label": "Betsy Connors"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22099",
-              "type": "Person",
-              "_label": "Paul Garrin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22100",
-              "type": "Person",
-              "_label": "Marianne Heske"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4093",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4093",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5669",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4288",
+            "type": "Person",
+            "_label": "Nam June Paik"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23616",
+            "type": "Person",
+            "_label": "Betsy Connors"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23209",
+            "type": "Person",
+            "_label": "Paul Garrin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58870",
+            "type": "Person",
+            "_label": "Marianne Heske"
+          }
+        ]
+      }
+    ]
+  }
 }

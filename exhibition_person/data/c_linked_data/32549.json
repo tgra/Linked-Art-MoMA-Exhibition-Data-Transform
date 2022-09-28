@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32549",
+  "type": "Person",
+  "_label": "Hugh Jacobsen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22842",
+      "type": "Name",
+      "_label": "Hugh Jacobsen"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22843",
+      "type": "Name",
+      "_label": "Jacobsen Hugh"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500086593",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q5932104",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q5932104",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5467",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1929"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11421",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22842",
+      "type": "TimeSpan",
+      "_label": "Hugh Jacobsen Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11421",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22843",
+      "type": "TimeSpan",
+      "_label": "Hugh Jacobsen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11421",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11421",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1416",
+              "type": "Event",
+              "_label": "Transformations in Modern Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-21-2 - 1979-24-4",
+                "begin_of_the_begin": "1979-21-2",
+                "end_of_the_end": "1979-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36753",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2789",
+  "id": "http://linkedart.example.com/exhibition/2789",
   "type": "Activity",
   "_label": "Space Invaders",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Space Invaders",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Space Invaders",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-4-4",
     "end_of_the_end": "1982-31-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1516",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3094",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1516",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2266",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12933",
-              "type": "Person",
-              "_label": "Alex Grey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12934",
-              "type": "Person",
-              "_label": "Kenny Scharf"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12935",
-              "type": "Person",
-              "_label": "TODT"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12936",
-              "type": "Person",
-              "_label": "Squat Theater"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12937",
-              "type": "Person",
-              "_label": "Richard Newton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12938",
-              "type": "Person",
-              "_label": "Brant Kingman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12939",
-              "type": "Person",
-              "_label": "Frank Holliday"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12940",
-              "type": "Person",
-              "_label": "Denise Chenel Vallon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12941",
-              "type": "Person",
-              "_label": "Julie Cohen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12942",
-              "type": "Person",
-              "_label": "Emery Clark"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3094",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3094",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4613",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17692",
+            "type": "Person",
+            "_label": "Alex Grey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33777",
+            "type": "Person",
+            "_label": "Kenny Scharf"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56977",
+            "type": "Person",
+            "_label": "TODT"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56976",
+            "type": "Person",
+            "_label": "Squat Theater"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56975",
+            "type": "Person",
+            "_label": "Richard Newton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56974",
+            "type": "Person",
+            "_label": "Brant Kingman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56973",
+            "type": "Person",
+            "_label": "Frank Holliday"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56972",
+            "type": "Person",
+            "_label": "Denise Chenel Vallon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58754",
+            "type": "Person",
+            "_label": "Julie Cohen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59543",
+            "type": "Person",
+            "_label": "Emery Clark"
+          }
+        ]
+      }
+    ]
+  }
 }

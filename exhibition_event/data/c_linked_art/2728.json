@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2728",
+  "id": "http://linkedart.example.com/exhibition/2728",
   "type": "Activity",
   "_label": "Film (Winter 1985)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film (Winter 1985)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film (Winter 1985)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1985-19-1",
     "end_of_the_end": "1985-3-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1449",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3027",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1449",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2196",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12225",
-              "type": "Person",
-              "_label": "Su Friedrich"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12226",
-              "type": "Person",
-              "_label": "Hollis Frampton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12227",
-              "type": "Person",
-              "_label": "Chick Strand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12228",
-              "type": "Person",
-              "_label": "Dan Eisenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12229",
-              "type": "Person",
-              "_label": "Michael Snow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12230",
-              "type": "Person",
-              "_label": "Howard Better"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12231",
-              "type": "Person",
-              "_label": "Larry Gottheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12232",
-              "type": "Person",
-              "_label": "Bill Brand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12233",
-              "type": "Person",
-              "_label": "Richard Levine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12234",
-              "type": "Person",
-              "_label": "Jeffrey Skoller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12235",
-              "type": "Person",
-              "_label": "Owen Land"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3027",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3027",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4543",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26309",
+            "type": "Person",
+            "_label": "Su Friedrich"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1882",
+            "type": "Person",
+            "_label": "Hollis Frampton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59163",
+            "type": "Person",
+            "_label": "Chick Strand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59164",
+            "type": "Person",
+            "_label": "Dan Eisenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5286",
+            "type": "Person",
+            "_label": "Michael Snow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57024",
+            "type": "Person",
+            "_label": "Howard Better"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57725",
+            "type": "Person",
+            "_label": "Larry Gottheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57037",
+            "type": "Person",
+            "_label": "Bill Brand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57615",
+            "type": "Person",
+            "_label": "Richard Levine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57614",
+            "type": "Person",
+            "_label": "Jeffrey Skoller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57613",
+            "type": "Person",
+            "_label": "Owen Land"
+          }
+        ]
+      }
+    ]
+  }
 }

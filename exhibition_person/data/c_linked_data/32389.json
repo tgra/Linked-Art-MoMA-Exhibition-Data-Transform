@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32389",
+  "type": "Person",
+  "_label": "Walter Crane",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22498",
+      "type": "Name",
+      "_label": "Walter Crane"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22499",
+      "type": "Name",
+      "_label": "Crane Walter"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11249",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22498",
+      "type": "TimeSpan",
+      "_label": "Walter Crane Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11249",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22499",
+      "type": "TimeSpan",
+      "_label": "Walter Crane Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11249",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11249",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1301",
+              "type": "Event",
+              "_label": "Satellite Exhibition at The Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-13-10 - 1976-8-11",
+                "begin_of_the_begin": "1976-13-10",
+                "end_of_the_end": "1976-8-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36414",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

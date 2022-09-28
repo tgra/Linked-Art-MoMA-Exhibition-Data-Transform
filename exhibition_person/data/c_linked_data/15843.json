@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/15843",
+  "type": "Person",
+  "_label": "Ivan Leonidov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1734",
+      "type": "Name",
+      "_label": "Ivan Leonidov"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/1735",
+      "type": "Name",
+      "_label": "Leonidov Ivan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500028497",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q641667",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q641667",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/666",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, 1902–1959"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/867",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1734",
+      "type": "TimeSpan",
+      "_label": "Ivan Leonidov Birth timespan",
+      "begin_of_the_begin": "1902",
+      "end_of_the_end": "1902"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/867",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1735",
+      "type": "TimeSpan",
+      "_label": "Ivan Leonidov Death timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/867",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/867",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2264",
+              "type": "Event",
+              "_label": "Architecture and Design Drawings: Inaugural Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-20-11 - 2005-21-3",
+                "begin_of_the_begin": "2004-20-11",
+                "end_of_the_end": "2005-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5612",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

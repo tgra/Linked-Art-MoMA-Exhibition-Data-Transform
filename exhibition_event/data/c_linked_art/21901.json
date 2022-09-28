@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21901",
+  "id": "http://linkedart.example.com/exhibition/21901",
   "type": "Activity",
   "_label": "YOUNG-HAE CHANG HEAVY INDUSTRIES BLACK ON WHITE, GRAY ASCENDING",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "YOUNG-HAE CHANG HEAVY INDUSTRIES BLACK ON WHITE, GRAY ASCENDING",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "YOUNG-HAE CHANG HEAVY INDUSTRIES BLACK ON WHITE, GRAY ASCENDING",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2007-1-12",
     "end_of_the_end": "2008-23-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1217",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2307",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1217",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1820",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9850",
-              "type": "Person",
-              "_label": "Marc Voge"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9851",
-              "type": "Person",
-              "_label": "Young-Hae Chang Heavy Industries"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1821",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9852",
-              "type": "Person",
-              "_label": "Laura Hoptman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9853",
-              "type": "Person",
-              "_label": "Lauren Cornell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2307",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2307",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3613",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65750",
+            "type": "Person",
+            "_label": "Marc Voge"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59286",
+            "type": "Person",
+            "_label": "Young-Hae Chang Heavy Industries"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3614",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27013",
+            "type": "Person",
+            "_label": "Laura Hoptman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65567",
+            "type": "Person",
+            "_label": "Lauren Cornell"
+          }
+        ]
+      }
+    ]
+  }
 }

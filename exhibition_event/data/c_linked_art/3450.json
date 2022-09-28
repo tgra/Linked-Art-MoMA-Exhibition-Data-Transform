@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3450",
+  "id": "http://linkedart.example.com/exhibition/3450",
   "type": "Activity",
   "_label": "Special Projects (Spring 2004): Christian Holstad, Justin Lowe, Tracy Nakayama, Gary Rough, and David Shapiro",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Spring 2004): Christian Holstad, Justin Lowe, Tracy Nakayama, Gary Rough, and David Shapiro",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Spring 2004): Christian Holstad, Justin Lowe, Tracy Nakayama, Gary Rough, and David Shapiro",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2004-29-1",
     "end_of_the_end": "2004-1-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2258",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3847",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2258",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3053",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/20191",
-              "type": "Person",
-              "_label": "Christian Holstad"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20192",
-              "type": "Person",
-              "_label": "Tracy Nakayama"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20193",
-              "type": "Person",
-              "_label": "David Shapiro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20194",
-              "type": "Person",
-              "_label": "Gary Rough"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20195",
-              "type": "Person",
-              "_label": "Justin Lowe"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3847",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3847",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5412",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17708",
+            "type": "Person",
+            "_label": "Christian Holstad"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17776",
+            "type": "Person",
+            "_label": "Tracy Nakayama"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5164",
+            "type": "Person",
+            "_label": "David Shapiro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58955",
+            "type": "Person",
+            "_label": "Gary Rough"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58954",
+            "type": "Person",
+            "_label": "Justin Lowe"
+          }
+        ]
+      }
+    ]
+  }
 }

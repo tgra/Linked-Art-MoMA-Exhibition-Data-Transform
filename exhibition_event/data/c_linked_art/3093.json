@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3093",
+  "id": "http://linkedart.example.com/exhibition/3093",
   "type": "Activity",
   "_label": "Special Projects (Winter 1989)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Winter 1989)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Winter 1989)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1989-15-1",
     "end_of_the_end": "1989-12-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1861",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3450",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1861",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2638",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16537",
-              "type": "Person",
-              "_label": "Mary Weatherford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16538",
-              "type": "Person",
-              "_label": "Rudolf Stingel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16539",
-              "type": "Person",
-              "_label": "Ellen Rumm"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16540",
-              "type": "Person",
-              "_label": "Margo Sawyer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16541",
-              "type": "Person",
-              "_label": "Barbara Gallucci"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16542",
-              "type": "Person",
-              "_label": "Katharine Gates"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16543",
-              "type": "Person",
-              "_label": "Victoria Vesna"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16544",
-              "type": "Person",
-              "_label": "Andrea Fisher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16545",
-              "type": "Person",
-              "_label": "David Melamed"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16546",
-              "type": "Person",
-              "_label": "Nan Tull"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16547",
-              "type": "Person",
-              "_label": "Malcolm Cochran"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3450",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3450",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4997",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17533",
+            "type": "Person",
+            "_label": "Mary Weatherford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7253",
+            "type": "Person",
+            "_label": "Rudolf Stingel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57426",
+            "type": "Person",
+            "_label": "Ellen Rumm"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57434",
+            "type": "Person",
+            "_label": "Margo Sawyer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57100",
+            "type": "Person",
+            "_label": "Barbara Gallucci"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57102",
+            "type": "Person",
+            "_label": "Katharine Gates"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57472",
+            "type": "Person",
+            "_label": "Victoria Vesna"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57096",
+            "type": "Person",
+            "_label": "Andrea Fisher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57187",
+            "type": "Person",
+            "_label": "David Melamed"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57470",
+            "type": "Person",
+            "_label": "Nan Tull"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57055",
+            "type": "Person",
+            "_label": "Malcolm Cochran"
+          }
+        ]
+      }
+    ]
+  }
 }

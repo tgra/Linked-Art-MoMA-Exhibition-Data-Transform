@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27044",
+  "type": "Person",
+  "_label": "John Kobal",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11006",
+      "type": "Name",
+      "_label": "John Kobal"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/11007",
+      "type": "Name",
+      "_label": "Kobal John"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q15437768",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q15437768",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5503",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11006",
+      "type": "TimeSpan",
+      "_label": "John Kobal Birth timespan",
+      "begin_of_the_begin": "1940",
+      "end_of_the_end": "1940"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5503",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11007",
+      "type": "TimeSpan",
+      "_label": "John Kobal Death timespan",
+      "begin_of_the_begin": "1991",
+      "end_of_the_end": "1991"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5503",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5503",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1476",
+              "type": "Event",
+              "_label": "Hollywood Portrait Photographers, 1921–1941",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-5-12 - 1981-28-2",
+                "begin_of_the_begin": "1980-5-12",
+                "end_of_the_end": "1981-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22859",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2779",
+  "id": "http://linkedart.example.com/exhibition/2779",
   "type": "Activity",
   "_label": "Video (Fall 1982): Animal Magnetism",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Video (Fall 1982): Animal Magnetism",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Video (Fall 1982): Animal Magnetism",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-17-10",
     "end_of_the_end": "1982-12-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1505",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3083",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1505",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2255",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12828",
-              "type": "Person",
-              "_label": "Tomiyo Sasaki"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12829",
-              "type": "Person",
-              "_label": "Jonathan Borofsky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12830",
-              "type": "Person",
-              "_label": "Kirk von Heflin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12831",
-              "type": "Person",
-              "_label": "Skip Blumberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12832",
-              "type": "Person",
-              "_label": "Simone Forti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12833",
-              "type": "Person",
-              "_label": "Rii Kanzaki"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12834",
-              "type": "Person",
-              "_label": "Neil Zusman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12835",
-              "type": "Person",
-              "_label": "Steven Koplan"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3083",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3083",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4602",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32393",
+            "type": "Person",
+            "_label": "Tomiyo Sasaki"
+          },
+          {
+            "id": "http://linkedart.example.com/person/652",
+            "type": "Person",
+            "_label": "Jonathan Borofsky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22943",
+            "type": "Person",
+            "_label": "Kirk von Heflin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21063",
+            "type": "Person",
+            "_label": "Skip Blumberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21062",
+            "type": "Person",
+            "_label": "Simone Forti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56856",
+            "type": "Person",
+            "_label": "Rii Kanzaki"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57492",
+            "type": "Person",
+            "_label": "Neil Zusman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57538",
+            "type": "Person",
+            "_label": "Steven Koplan"
+          }
+        ]
+      }
+    ]
+  }
 }

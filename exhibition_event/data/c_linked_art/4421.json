@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4421",
+  "id": "http://linkedart.example.com/exhibition/4421",
   "type": "Activity",
   "_label": "Paintings by Groell, Ippolito; Sculpture by Terris",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Paintings by Groell, Ippolito; Sculpture by Terris",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Paintings by Groell, Ippolito; Sculpture by Terris",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1953-24-2",
     "end_of_the_end": "1953-15-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3316",
-      "type": "Place",
-      "_label": "51 East 4th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4905",
+    "type": "Place",
+    "_label": "51 East 4th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3316",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4179",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27450",
-              "type": "Person",
-              "_label": "Angelo Ippolito"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27451",
-              "type": "Person",
-              "_label": "Albert Terris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27452",
-              "type": "Person",
-              "_label": "Joseph Groell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4905",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4905",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6538",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2703",
+            "type": "Person",
+            "_label": "Angelo Ippolito"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60608",
+            "type": "Person",
+            "_label": "Albert Terris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60598",
+            "type": "Person",
+            "_label": "Joseph Groell"
+          }
+        ]
+      }
+    ]
+  }
 }

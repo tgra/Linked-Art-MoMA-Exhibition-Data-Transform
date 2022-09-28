@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17005",
+  "id": "http://linkedart.example.com/exhibition/17005",
   "type": "Activity",
   "_label": "Performance Archiving Performance",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Performance Archiving Performance",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Performance Archiving Performance",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2013-6-11",
     "end_of_the_end": "2014-12-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/229",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/829",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/229",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/411",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3883",
-              "type": "Person",
-              "_label": "Travis Chamberlain"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/412",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3884",
-              "type": "Person",
-              "_label": "Jennifer Monson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3885",
-              "type": "Person",
-              "_label": "a canary torsi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3886",
-              "type": "Person",
-              "_label": "Julie Tolentino"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3887",
-              "type": "Person",
-              "_label": "Sara Wookey"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/829",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/829",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1509",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67028",
+            "type": "Person",
+            "_label": "Travis Chamberlain"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1510",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57341",
+            "type": "Person",
+            "_label": "Jennifer Monson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63542",
+            "type": "Person",
+            "_label": "a canary torsi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65343",
+            "type": "Person",
+            "_label": "Julie Tolentino"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66632",
+            "type": "Person",
+            "_label": "Sara Wookey"
+          }
+        ]
+      }
+    ]
+  }
 }

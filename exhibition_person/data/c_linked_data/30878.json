@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/30878",
+  "type": "Person",
+  "_label": "Kent C. Bloomer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19240",
+      "type": "Name",
+      "_label": "Kent C. Bloomer"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/19241",
+      "type": "Name",
+      "_label": "Bloomer Kent C."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500017612",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q16096865",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q16096865",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9620",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19240",
+      "type": "TimeSpan",
+      "_label": "Kent C. Bloomer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9620",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19241",
+      "type": "TimeSpan",
+      "_label": "Kent C. Bloomer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9620",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9620",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/716",
+              "type": "Event",
+              "_label": "Recent Sculpture U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-13-5 - 1959-16-8",
+                "begin_of_the_begin": "1959-13-5",
+                "end_of_the_end": "1959-16-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33441",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

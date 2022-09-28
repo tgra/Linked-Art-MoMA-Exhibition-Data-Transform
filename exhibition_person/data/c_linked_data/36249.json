@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/36249",
+  "type": "Person",
+  "_label": "Peter Pewas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26330",
+      "type": "Name",
+      "_label": "Peter Pewas"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/26331",
+      "type": "Name",
+      "_label": "Pewas Peter"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13165",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26330",
+      "type": "TimeSpan",
+      "_label": "Peter Pewas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13165",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26331",
+      "type": "TimeSpan",
+      "_label": "Peter Pewas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13165",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13165",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2116",
+              "type": "Event",
+              "_label": "UFA Film Posters, 1918–1943",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-17-9 - 1999-5-1",
+                "begin_of_the_begin": "1998-17-9",
+                "end_of_the_end": "1999-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/42395",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

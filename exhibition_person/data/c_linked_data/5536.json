@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5536",
+  "type": "Person",
+  "_label": "Sam Szafran",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/29876",
+      "type": "Name",
+      "_label": "Sam Szafran"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/29877",
+      "type": "Name",
+      "_label": "Szafran Sam"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500106937",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q2216661",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q2216661",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7488",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1934"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14938",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29876",
+      "type": "TimeSpan",
+      "_label": "Sam Szafran Birth timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14938",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29877",
+      "type": "TimeSpan",
+      "_label": "Sam Szafran Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14938",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14938",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1252",
+              "type": "Event",
+              "_label": "Drawings: Recent Gifts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-5-9 - 1975-11-11",
+                "begin_of_the_begin": "1975-5-9",
+                "end_of_the_end": "1975-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/58358",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

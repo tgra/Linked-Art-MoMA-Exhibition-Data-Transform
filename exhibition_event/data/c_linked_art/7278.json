@@ -1,122 +1,120 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7278",
+  "id": "http://linkedart.example.com/exhibition/7278",
   "type": "Activity",
   "_label": "Drawings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Drawings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Drawings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1959-14-3",
     "end_of_the_end": "1959-4-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3812",
-      "type": "Place",
-      "_label": "55 Washington Square South",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6728",
+    "type": "Place",
+    "_label": "55 Washington Square South",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3812",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5000",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38053",
-              "type": "Person",
-              "_label": "Tom Wesselmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38054",
-              "type": "Person",
-              "_label": "Jim Dine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38055",
-              "type": "Person",
-              "_label": "Marcus Ratliff"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5001",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38056",
-              "type": "Person",
-              "_label": "John Cohen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38057",
-              "type": "Person",
-              "_label": "Jim Dine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38058",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38059",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38060",
-              "type": "Person",
-              "_label": "Marcus Ratliff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38061",
-              "type": "Person",
-              "_label": "Tom Wesselmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38062",
-              "type": "Person",
-              "_label": "Max Spoerri"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38063",
-              "type": "Person",
-              "_label": "Andrew Stasik"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6728",
+    "type": "Group",
+    "_label": "Judson Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6728",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8738",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6035",
+            "type": "Person",
+            "_label": "Tom Wesselmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1476",
+            "type": "Person",
+            "_label": "Jim Dine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63513",
+            "type": "Person",
+            "_label": "Marcus Ratliff"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8739",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63514",
+            "type": "Person",
+            "_label": "John Cohen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1476",
+            "type": "Person",
+            "_label": "Jim Dine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63513",
+            "type": "Person",
+            "_label": "Marcus Ratliff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6035",
+            "type": "Person",
+            "_label": "Tom Wesselmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63508",
+            "type": "Person",
+            "_label": "Max Spoerri"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5388",
+            "type": "Person",
+            "_label": "Andrew Stasik"
+          }
+        ]
+      }
+    ]
+  }
 }

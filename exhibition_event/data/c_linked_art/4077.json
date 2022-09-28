@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4077",
+  "id": "http://linkedart.example.com/exhibition/4077",
   "type": "Activity",
   "_label": "The Analytical Theatre: New Art from Britain",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Analytical Theatre: New Art from Britain",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Analytical Theatre: New Art from Britain",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1988-12-10",
     "end_of_the_end": "1988-27-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2933",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4522",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2933",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3770",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24532",
-              "type": "Person",
-              "_label": "Tony Cragg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24533",
-              "type": "Person",
-              "_label": "James Coleman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24534",
-              "type": "Person",
-              "_label": "Helen Chadwick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24535",
-              "type": "Person",
-              "_label": "John Wilkins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24536",
-              "type": "Person",
-              "_label": "Avis Newman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24537",
-              "type": "Person",
-              "_label": "Richard Deacon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24538",
-              "type": "Person",
-              "_label": "John Murphy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24539",
-              "type": "Person",
-              "_label": "Michael Baldwin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24540",
-              "type": "Person",
-              "_label": "Edward Allington"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24541",
-              "type": "Person",
-              "_label": "Olivier Richon"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4522",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4522",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6129",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1226",
+            "type": "Person",
+            "_label": "Tony Cragg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32844",
+            "type": "Person",
+            "_label": "James Coleman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7172",
+            "type": "Person",
+            "_label": "Helen Chadwick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60727",
+            "type": "Person",
+            "_label": "John Wilkins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22657",
+            "type": "Person",
+            "_label": "Avis Newman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1389",
+            "type": "Person",
+            "_label": "Richard Deacon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60725",
+            "type": "Person",
+            "_label": "John Murphy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/14211",
+            "type": "Person",
+            "_label": "Michael Baldwin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60724",
+            "type": "Person",
+            "_label": "Edward Allington"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60726",
+            "type": "Person",
+            "_label": "Olivier Richon"
+          }
+        ]
+      }
+    ]
+  }
 }

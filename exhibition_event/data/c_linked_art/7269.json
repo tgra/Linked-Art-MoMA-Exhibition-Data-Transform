@@ -1,112 +1,110 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7269",
+  "id": "http://linkedart.example.com/exhibition/7269",
   "type": "Activity",
   "_label": "The Burning Building",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Burning Building",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Burning Building",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1959-4-12",
     "end_of_the_end": "1959-11-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3802",
-      "type": "Place",
-      "_label": "148 Delancey Street, 3rd Floor",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6718",
+    "type": "Place",
+    "_label": "148 Delancey Street, 3rd Floor",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3802",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4980",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/37955",
-              "type": "Person",
-              "_label": "Bob Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37956",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37957",
-              "type": "Person",
-              "_label": "Jay Milder"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4981",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/37958",
-              "type": "Person",
-              "_label": "Bob Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37959",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37960",
-              "type": "Person",
-              "_label": "Terry Berrell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37961",
-              "type": "Person",
-              "_label": "Sylvia Small"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37962",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37963",
-              "type": "Person",
-              "_label": "Joan Herbst"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6718",
+    "type": "Group",
+    "_label": "Delancey Street Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6718",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8718",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5630",
+            "type": "Person",
+            "_label": "Bob Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8719",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5630",
+            "type": "Person",
+            "_label": "Bob Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63473",
+            "type": "Person",
+            "_label": "Terry Berrell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63471",
+            "type": "Person",
+            "_label": "Sylvia Small"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63472",
+            "type": "Person",
+            "_label": "Joan Herbst"
+          }
+        ]
+      }
+    ]
+  }
 }

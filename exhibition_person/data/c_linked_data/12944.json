@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/12944",
+  "type": "Person",
+  "_label": "Alfred Hitchcock",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/794",
+      "type": "Name",
+      "_label": "Alfred Hitchcock"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/795",
+      "type": "Name",
+      "_label": "Hitchcock Alfred"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500063041",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q7374",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q7374",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/312",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1899–1980"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/397",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/794",
+      "type": "TimeSpan",
+      "_label": "Alfred Hitchcock Birth timespan",
+      "begin_of_the_begin": "1899",
+      "end_of_the_end": "1899"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/397",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/795",
+      "type": "TimeSpan",
+      "_label": "Alfred Hitchcock Death timespan",
+      "begin_of_the_begin": "1980",
+      "end_of_the_end": "1980"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/397",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/397",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2145",
+              "type": "Event",
+              "_label": "Alfred Hitchcock Centenary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-4 - 1999-17-8",
+                "begin_of_the_begin": "1999-15-4",
+                "end_of_the_end": "1999-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2531",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

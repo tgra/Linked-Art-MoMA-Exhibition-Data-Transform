@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3179",
+  "id": "http://linkedart.example.com/exhibition/3179",
   "type": "Activity",
   "_label": "Lighting",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Lighting",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Lighting",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-15-2",
     "end_of_the_end": "1981-5-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1956",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3545",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1956",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2739",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18007",
-              "type": "Person",
-              "_label": "R. M. Fischer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18008",
-              "type": "Person",
-              "_label": "Jeff Koons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18009",
-              "type": "Person",
-              "_label": "Kiki Smith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18010",
-              "type": "Person",
-              "_label": "Arch Connelly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18011",
-              "type": "Person",
-              "_label": "Ellen Cooper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18012",
-              "type": "Person"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18013",
-              "type": "Person",
-              "_label": "Calvin Churchman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3545",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3545",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5098",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1804",
+            "type": "Person",
+            "_label": "R. M. Fischer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6327",
+            "type": "Person",
+            "_label": "Jeff Koons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5273",
+            "type": "Person",
+            "_label": "Kiki Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25157",
+            "type": "Person",
+            "_label": "Arch Connelly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56917",
+            "type": "Person",
+            "_label": "Ellen Cooper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/",
+            "type": "Person"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57051",
+            "type": "Person",
+            "_label": "Calvin Churchman"
+          }
+        ]
+      }
+    ]
+  }
 }

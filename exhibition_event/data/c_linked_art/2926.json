@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2926",
+  "id": "http://linkedart.example.com/exhibition/2926",
   "type": "Activity",
   "_label": "Cinema Cavern",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Cinema Cavern",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Cinema Cavern",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2007-24-6",
     "end_of_the_end": "2007-24-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1675",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3264",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1675",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2444",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/14782",
-              "type": "Person",
-              "_label": "Michel Auder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14783",
-              "type": "Person",
-              "_label": "Peggy Ahwesh"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14784",
-              "type": "Person",
-              "_label": "Charles Atlas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14785",
-              "type": "Person",
-              "_label": "Luther Price"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14786",
-              "type": "Person",
-              "_label": "Renée Green"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14787",
-              "type": "Person",
-              "_label": "Saul Levine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14788",
-              "type": "Person",
-              "_label": "Elisabeth Subrin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14789",
-              "type": "Person",
-              "_label": "Margie Strosser"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14790",
-              "type": "Person",
-              "_label": "Ellen Cantor"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3264",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3264",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4803",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/24971",
+            "type": "Person",
+            "_label": "Michel Auder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19397",
+            "type": "Person",
+            "_label": "Peggy Ahwesh"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19058",
+            "type": "Person",
+            "_label": "Charles Atlas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26649",
+            "type": "Person",
+            "_label": "Luther Price"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18839",
+            "type": "Person",
+            "_label": "Renée Green"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60106",
+            "type": "Person",
+            "_label": "Saul Levine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60107",
+            "type": "Person",
+            "_label": "Elisabeth Subrin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60104",
+            "type": "Person",
+            "_label": "Margie Strosser"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60105",
+            "type": "Person",
+            "_label": "Ellen Cantor"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,77 +1,75 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21804",
+  "id": "http://linkedart.example.com/exhibition/21804",
   "type": "Activity",
   "_label": "Aaron Fowler: Bigger Than Me",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Aaron Fowler: Bigger Than Me",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Aaron Fowler: Bigger Than Me",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2018-2-5",
     "end_of_the_end": "2018-19-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1155",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2235",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1155",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1690",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9555",
-              "type": "Person",
-              "_label": "Margot Norton"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1691",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9556",
-              "type": "Person",
-              "_label": "Aaron Fowler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2235",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2235",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3465",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65769",
+            "type": "Person",
+            "_label": "Margot Norton"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3466",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/68539",
+            "type": "Person",
+            "_label": "Aaron Fowler"
+          }
+        ]
+      }
+    ]
+  }
 }

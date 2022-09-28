@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32745",
+  "type": "Person",
+  "_label": "David Brownlee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23266",
+      "type": "Name",
+      "_label": "David Brownlee"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23267",
+      "type": "Name",
+      "_label": "Brownlee David"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11633",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23266",
+      "type": "TimeSpan",
+      "_label": "David Brownlee Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11633",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23267",
+      "type": "TimeSpan",
+      "_label": "David Brownlee Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11633",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11633",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1874",
+              "type": "Event",
+              "_label": "Louis I. Kahn: In the Realm of Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-14-6 - 1992-18-8",
+                "begin_of_the_begin": "1992-14-6",
+                "end_of_the_end": "1992-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37255",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

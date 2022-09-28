@@ -1,104 +1,102 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18156",
+  "id": "http://linkedart.example.com/exhibition/18156",
   "type": "Activity",
   "_label": "A Power Stronger Than Its…",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "A Power Stronger Than Its…",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "A Power Stronger Than Its…",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2008-9-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/567",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1282",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/567",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1084",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/7274",
-              "type": "Person",
-              "_label": "Wet Ink"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7275",
-              "type": "Person",
-              "_label": "Muhal Abrams"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7276",
-              "type": "Person",
-              "_label": "Matana Roberts"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7277",
-              "type": "Person",
-              "_label": "George Lewis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7278",
-              "type": "Person",
-              "_label": "Craig Taborn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7279",
-              "type": "Person",
-              "_label": "Christopher McIntyre"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7280",
-              "type": "Person",
-              "_label": "Chad Taylor"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7281",
-              "type": "Person",
-              "_label": "Amina Claudine Myers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7282",
-              "type": "Person",
-              "_label": "Nicole Mitchell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1282",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1282",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2368",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67702",
+            "type": "Person",
+            "_label": "Wet Ink"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58385",
+            "type": "Person",
+            "_label": "Muhal Abrams"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61092",
+            "type": "Person",
+            "_label": "Matana Roberts"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59994",
+            "type": "Person",
+            "_label": "George Lewis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67580",
+            "type": "Person",
+            "_label": "Craig Taborn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67573",
+            "type": "Person",
+            "_label": "Christopher McIntyre"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67567",
+            "type": "Person",
+            "_label": "Chad Taylor"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67508",
+            "type": "Person",
+            "_label": "Amina Claudine Myers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67438",
+            "type": "Person",
+            "_label": "Nicole Mitchell"
+          }
+        ]
+      }
+    ]
+  }
 }

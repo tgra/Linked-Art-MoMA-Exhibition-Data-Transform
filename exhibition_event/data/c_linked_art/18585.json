@@ -1,74 +1,72 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18585",
+  "id": "http://linkedart.example.com/exhibition/18585",
   "type": "Activity",
   "_label": "Tenement Lover + Mouths",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Tenement Lover + Mouths",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Tenement Lover + Mouths",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-24-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/991",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1749",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/991",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1508",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8572",
-              "type": "Person",
-              "_label": "Thulani Davis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8573",
-              "type": "Person",
-              "_label": "Ntozake Shange"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8574",
-              "type": "Person",
-              "_label": "Jessica Hagedorn"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1749",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1749",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2854",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/58790",
+            "type": "Person",
+            "_label": "Thulani Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67257",
+            "type": "Person",
+            "_label": "Ntozake Shange"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65142",
+            "type": "Person",
+            "_label": "Jessica Hagedorn"
+          }
+        ]
+      }
+    ]
+  }
 }

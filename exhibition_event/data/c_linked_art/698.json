@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/698",
+  "id": "http://linkedart.example.com/exhibition/698",
   "type": "Activity",
   "_label": "Gaudí",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Gaudí",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Gaudí",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1957-18-12",
     "end_of_the_end": "1958-23-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3672",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6509",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3672",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4807",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36485",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/36486",
-              "type": "Person",
-              "_label": "Wilder Green"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4808",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36487",
-              "type": "Person",
-              "_label": "Henry Russell Hitchcock"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4809",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36488",
-              "type": "Person",
-              "_label": "Antoni Gaudí"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6509",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6509",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8445",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26986",
+            "type": "Person",
+            "_label": "Wilder Green"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8446",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27010",
+            "type": "Person",
+            "_label": "Henry Russell Hitchcock"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8447",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2011",
+            "type": "Person",
+            "_label": "Antoni Gaudí"
+          }
+        ]
+      }
+    ]
+  }
 }

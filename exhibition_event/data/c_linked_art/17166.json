@@ -1,107 +1,105 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17166",
+  "id": "http://linkedart.example.com/exhibition/17166",
   "type": "Activity",
   "_label": "Girls Night Out (Femininity as Masquerade)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Girls Night Out (Femininity as Masquerade)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Girls Night Out (Femininity as Masquerade)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1988-16-9",
     "end_of_the_end": "1988-20-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/391",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1007",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/391",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/789",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5974",
-              "type": "Person",
-              "_label": "Meg Cranston"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5975",
-              "type": "Person",
-              "_label": "Marilyn Minter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5976",
-              "type": "Person",
-              "_label": "Alison Saar"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5977",
-              "type": "Person",
-              "_label": "Rona Pondick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5978",
-              "type": "Person",
-              "_label": "Aimee Rankin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5979",
-              "type": "Person",
-              "_label": "Tina Potter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5980",
-              "type": "Person",
-              "_label": "Susan Silas"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/790",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5981",
-              "type": "Person",
-              "_label": "Laura Trippi"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1007",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1007",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1914",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1233",
+            "type": "Person",
+            "_label": "Meg Cranston"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3851",
+            "type": "Person",
+            "_label": "Marilyn Minter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6752",
+            "type": "Person",
+            "_label": "Alison Saar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7546",
+            "type": "Person",
+            "_label": "Rona Pondick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59175",
+            "type": "Person",
+            "_label": "Aimee Rankin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62679",
+            "type": "Person",
+            "_label": "Tina Potter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62918",
+            "type": "Person",
+            "_label": "Susan Silas"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1915",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65562",
+            "type": "Person",
+            "_label": "Laura Trippi"
+          }
+        ]
+      }
+    ]
+  }
 }

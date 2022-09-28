@@ -1,160 +1,158 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/218",
+  "id": "http://linkedart.example.com/exhibition/218",
   "type": "Activity",
   "_label": "The Artists' New York",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Artists' New York",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Artists' New York",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1942-28-1",
     "end_of_the_end": "1942-2-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1151",
-      "type": "Place",
-      "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2230",
+    "type": "Place",
+    "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1151",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1683",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9523",
-              "type": "Person",
-              "_label": "Maurice Prendergast"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9524",
-              "type": "Person",
-              "_label": "Ben Shahn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9525",
-              "type": "Person",
-              "_label": "Misha Reznikoff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9526",
-              "type": "Person",
-              "_label": "Loren MacIver"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9527",
-              "type": "Person",
-              "_label": "Elliot Orr"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9528",
-              "type": "Person",
-              "_label": "Alfred Stieglitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9529",
-              "type": "Person",
-              "_label": "Byron Thomas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9530",
-              "type": "Person",
-              "_label": "O. Louis Guglielmi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9531",
-              "type": "Person",
-              "_label": "Schaefer-Zimmern"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9532",
-              "type": "Person",
-              "_label": "Edward Hopper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9533",
-              "type": "Person",
-              "_label": "Glenn O. Coleman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9534",
-              "type": "Person",
-              "_label": "Berenice Abbott"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9535",
-              "type": "Person",
-              "_label": "Walker Evans"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9536",
-              "type": "Person",
-              "_label": "George Grosz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9537",
-              "type": "Person",
-              "_label": "David Fredenthal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9538",
-              "type": "Person",
-              "_label": "Charles Hoff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9539",
-              "type": "Person",
-              "_label": "Lewis W. Hine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9540",
-              "type": "Person",
-              "_label": "Sid Grossman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9541",
-              "type": "Person",
-              "_label": "Eliot Elisofon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9542",
-              "type": "Person",
-              "_label": "Gifford Beal"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2230",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2230",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3457",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4538",
+            "type": "Person",
+            "_label": "Maurice Prendergast"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5159",
+            "type": "Person",
+            "_label": "Ben Shahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4696",
+            "type": "Person",
+            "_label": "Misha Reznikoff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3516",
+            "type": "Person",
+            "_label": "Loren MacIver"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27309",
+            "type": "Person",
+            "_label": "Elliot Orr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5443",
+            "type": "Person",
+            "_label": "Alfred Stieglitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5626",
+            "type": "Person",
+            "_label": "Byron Thomas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7558",
+            "type": "Person",
+            "_label": "O. Louis Guglielmi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31150",
+            "type": "Person",
+            "_label": "Schaefer-Zimmern"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2615",
+            "type": "Person",
+            "_label": "Edward Hopper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1131",
+            "type": "Person",
+            "_label": "Glenn O. Coleman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/40",
+            "type": "Person",
+            "_label": "Berenice Abbott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1698",
+            "type": "Person",
+            "_label": "Walker Evans"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2279",
+            "type": "Person",
+            "_label": "George Grosz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1899",
+            "type": "Person",
+            "_label": "David Fredenthal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2577",
+            "type": "Person",
+            "_label": "Charles Hoff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2549",
+            "type": "Person",
+            "_label": "Lewis W. Hine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2276",
+            "type": "Person",
+            "_label": "Sid Grossman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1639",
+            "type": "Person",
+            "_label": "Eliot Elisofon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/384",
+            "type": "Person",
+            "_label": "Gifford Beal"
+          }
+        ]
+      }
+    ]
+  }
 }

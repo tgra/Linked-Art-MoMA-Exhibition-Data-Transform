@@ -1,77 +1,75 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/889",
+  "id": "http://linkedart.example.com/exhibition/889",
   "type": "Activity",
   "_label": "Villa Savoye: Destruction through Neglect",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Villa Savoye: Destruction through Neglect",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Villa Savoye: Destruction through Neglect",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1966-2-7",
     "end_of_the_end": "1966-24-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4049",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6965",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4049",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5460",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42606",
-              "type": "Person",
-              "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5461",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42607",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6965",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6965",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9198",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3281",
+            "type": "Person",
+            "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9199",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

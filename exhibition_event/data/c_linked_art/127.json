@@ -1,163 +1,161 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/127",
+  "id": "http://linkedart.example.com/exhibition/127",
   "type": "Activity",
   "_label": "Williamsburg Competition",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Williamsburg Competition",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Williamsburg Competition",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1939-28-2",
     "end_of_the_end": "1939-15-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/132",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/301",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/132",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/234",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/2293",
-              "type": "Person",
-              "_label": "Richard Neutra"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2294",
-              "type": "Person",
-              "_label": "Eero Saarinen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2295",
-              "type": "Person",
-              "_label": "Philip L. Goodwin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2296",
-              "type": "Person",
-              "_label": "Hugh Stubbins Jr."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2297",
-              "type": "Person",
-              "_label": "Edward Durell Stone"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2298",
-              "type": "Person",
-              "_label": "Frederic James"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2299",
-              "type": "Person",
-              "_label": "Ralph Rapson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2300",
-              "type": "Person",
-              "_label": "Will Rice Amon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2301",
-              "type": "Person",
-              "_label": "Henry E. Hebbeln"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2302",
-              "type": "Person",
-              "_label": "William Hartmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2303",
-              "type": "Person",
-              "_label": "Marc Peter, Jr."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2304",
-              "type": "Person",
-              "_label": "Bissell Alderman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/235",
-          "type": "Set",
-          "_label": "Competition Judge",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/2305",
-              "type": "Person",
-              "_label": "Roland A. Wank"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2306",
-              "type": "Person",
-              "_label": "Leslie Cheek, Jr."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2307",
-              "type": "Person",
-              "_label": "Lawrence B. Anderson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2308",
-              "type": "Person",
-              "_label": "Antonin Raymond"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2309",
-              "type": "Person",
-              "_label": "Lee Simonson"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/236",
-          "type": "Set",
-          "_label": "Advisor",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/2310",
-              "type": "Person",
-              "_label": "Kenneth Showell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/301",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/301",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/565",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4109",
+            "type": "Person",
+            "_label": "Richard Neutra"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4902",
+            "type": "Person",
+            "_label": "Eero Saarinen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12631",
+            "type": "Person",
+            "_label": "Philip L. Goodwin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27406",
+            "type": "Person",
+            "_label": "Hugh Stubbins Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/5455",
+            "type": "Person",
+            "_label": "Edward Durell Stone"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31085",
+            "type": "Person",
+            "_label": "Frederic James"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29207",
+            "type": "Person",
+            "_label": "Ralph Rapson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31090",
+            "type": "Person",
+            "_label": "Will Rice Amon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31089",
+            "type": "Person",
+            "_label": "Henry E. Hebbeln"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31088",
+            "type": "Person",
+            "_label": "William Hartmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31086",
+            "type": "Person",
+            "_label": "Marc Peter, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/31087",
+            "type": "Person",
+            "_label": "Bissell Alderman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/566",
+        "type": "Set",
+        "_label": "Competition Judge",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32211",
+            "type": "Person",
+            "_label": "Roland A. Wank"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32210",
+            "type": "Person",
+            "_label": "Leslie Cheek, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29221",
+            "type": "Person",
+            "_label": "Lawrence B. Anderson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4636",
+            "type": "Person",
+            "_label": "Antonin Raymond"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27759",
+            "type": "Person",
+            "_label": "Lee Simonson"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/567",
+        "type": "Set",
+        "_label": "Advisor",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5200",
+            "type": "Person",
+            "_label": "Kenneth Showell"
+          }
+        ]
+      }
+    ]
+  }
 }

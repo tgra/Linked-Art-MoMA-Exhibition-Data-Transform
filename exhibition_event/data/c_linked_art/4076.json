@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4076",
+  "id": "http://linkedart.example.com/exhibition/4076",
   "type": "Activity",
   "_label": "Philadelphia Photographers In Transit",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Philadelphia Photographers In Transit",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Philadelphia Photographers In Transit",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1988-1-11",
     "end_of_the_end": "1988-31-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2932",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4521",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2932",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3769",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24527",
-              "type": "Person",
-              "_label": "Susan Oyama"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24528",
-              "type": "Person",
-              "_label": "Blaise Tobia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24529",
-              "type": "Person",
-              "_label": "Tom Maher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24530",
-              "type": "Person",
-              "_label": "David Lebe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24531",
-              "type": "Person",
-              "_label": "Norrine Betjemann"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4521",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4521",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6128",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60730",
+            "type": "Person",
+            "_label": "Susan Oyama"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60731",
+            "type": "Person",
+            "_label": "Blaise Tobia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60729",
+            "type": "Person",
+            "_label": "Tom Maher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60677",
+            "type": "Person",
+            "_label": "David Lebe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60728",
+            "type": "Person",
+            "_label": "Norrine Betjemann"
+          }
+        ]
+      }
+    ]
+  }
 }

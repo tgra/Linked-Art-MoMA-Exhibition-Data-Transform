@@ -1,112 +1,110 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/464",
+  "id": "http://linkedart.example.com/exhibition/464",
   "type": "Activity",
   "_label": "Children's Holiday Fair of Modern Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Children's Holiday Fair of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Children's Holiday Fair of Modern Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1948-8-12",
     "end_of_the_end": "1949-16-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3349",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4974",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3349",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4224",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27960",
-              "type": "Person",
-              "_label": "William Zorach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27961",
-              "type": "Person",
-              "_label": "Saul Baizerman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27962",
-              "type": "Person",
-              "_label": "Nahum Tschacbasov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27963",
-              "type": "Person",
-              "_label": "A. Everett Austin, Jr."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27964",
-              "type": "Person",
-              "_label": "Karl Priebe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27965",
-              "type": "Person",
-              "_label": "Herman Cherry"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27966",
-              "type": "Person",
-              "_label": "Chaim Gross"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27967",
-              "type": "Person",
-              "_label": "Mario Carreño"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4225",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27968",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4974",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4974",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6623",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6288",
+            "type": "Person",
+            "_label": "William Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6330",
+            "type": "Person",
+            "_label": "Saul Baizerman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31161",
+            "type": "Person",
+            "_label": "Nahum Tschacbasov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27516",
+            "type": "Person",
+            "_label": "A. Everett Austin, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/31036",
+            "type": "Person",
+            "_label": "Karl Priebe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28827",
+            "type": "Person",
+            "_label": "Herman Cherry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2269",
+            "type": "Person",
+            "_label": "Chaim Gross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/950",
+            "type": "Person",
+            "_label": "Mario Carreño"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6624",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      }
+    ]
+  }
 }

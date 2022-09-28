@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4268",
+  "id": "http://linkedart.example.com/exhibition/4268",
   "type": "Activity",
   "_label": "Locally Localized Gravity",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Locally Localized Gravity",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Locally Localized Gravity",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2007-20-1",
     "end_of_the_end": "2007-25-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3145",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4734",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3145",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3998",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26410",
-              "type": "Person",
-              "_label": "Space 1026, Philadelphia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26411",
-              "type": "Person",
-              "_label": "Red76"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26412",
-              "type": "Person",
-              "_label": "LURE"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26413",
-              "type": "Person",
-              "_label": "LTTR"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26414",
-              "type": "Person",
-              "_label": "Black Floor Gallery"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26415",
-              "type": "Person",
-              "_label": "Matt Bakkom"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4734",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4734",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6357",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/14267",
+            "type": "Person",
+            "_label": "Space 1026, Philadelphia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60897",
+            "type": "Person",
+            "_label": "Red76"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60896",
+            "type": "Person",
+            "_label": "LURE"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60895",
+            "type": "Person",
+            "_label": "LTTR"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60894",
+            "type": "Person",
+            "_label": "Black Floor Gallery"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60893",
+            "type": "Person",
+            "_label": "Matt Bakkom"
+          }
+        ]
+      }
+    ]
+  }
 }

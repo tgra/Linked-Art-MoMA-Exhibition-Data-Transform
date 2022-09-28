@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4228",
+  "id": "http://linkedart.example.com/exhibition/4228",
   "type": "Activity",
   "_label": "15 Painters",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "15 Painters",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "15 Painters",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1956-20-4",
     "end_of_the_end": "1956-20-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3101",
-      "type": "Place",
-      "_label": "90 East 10th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4690",
+    "type": "Place",
+    "_label": "90 East 10th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3101",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3950",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26257",
-              "type": "Person",
-              "_label": "Marjorie Di Lascia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26258",
-              "type": "Person",
-              "_label": "Jean Cohen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26259",
-              "type": "Person",
-              "_label": "Hans Hofmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26260",
-              "type": "Person",
-              "_label": "Alex Katz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26261",
-              "type": "Person",
-              "_label": "Mary Ann King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26262",
-              "type": "Person",
-              "_label": "Morton Lucks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26263",
-              "type": "Person",
-              "_label": "Robert Beauchamp"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4690",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4690",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6309",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60636",
+            "type": "Person",
+            "_label": "Marjorie Di Lascia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7493",
+            "type": "Person",
+            "_label": "Jean Cohen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2588",
+            "type": "Person",
+            "_label": "Hans Hofmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2890",
+            "type": "Person",
+            "_label": "Alex Katz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62158",
+            "type": "Person",
+            "_label": "Mary Ann King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60633",
+            "type": "Person",
+            "_label": "Morton Lucks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/396",
+            "type": "Person",
+            "_label": "Robert Beauchamp"
+          }
+        ]
+      }
+    ]
+  }
 }

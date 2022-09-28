@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3152",
+  "id": "http://linkedart.example.com/exhibition/3152",
   "type": "Activity",
   "_label": "Image and Object in Contemporary Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Image and Object in Contemporary Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Image and Object in Contemporary Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1979-9-12",
     "end_of_the_end": "1980-27-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1927",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3516",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1927",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2710",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/17533",
-              "type": "Person",
-              "_label": "Michele Oka Doner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17534",
-              "type": "Person",
-              "_label": "Dennis Oppenheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17535",
-              "type": "Person",
-              "_label": "Scott Burton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17536",
-              "type": "Person",
-              "_label": "Terry Allen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17537",
-              "type": "Person",
-              "_label": "Michael Luchs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17538",
-              "type": "Person",
-              "_label": "Jim Roche"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3516",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3516",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5069",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/20192",
+            "type": "Person",
+            "_label": "Michele Oka Doner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4241",
+            "type": "Person",
+            "_label": "Dennis Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/855",
+            "type": "Person",
+            "_label": "Scott Burton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/116",
+            "type": "Person",
+            "_label": "Terry Allen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56853",
+            "type": "Person",
+            "_label": "Michael Luchs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56854",
+            "type": "Person",
+            "_label": "Jim Roche"
+          }
+        ]
+      }
+    ]
+  }
 }

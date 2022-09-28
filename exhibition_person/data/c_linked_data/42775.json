@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/42775",
+  "type": "Person",
+  "_label": "Tony Just",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/27492",
+      "type": "Name",
+      "_label": "Tony Just"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/27493",
+      "type": "Name",
+      "_label": "Just Tony"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13746",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27492",
+      "type": "TimeSpan",
+      "_label": "Tony Just Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13746",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27493",
+      "type": "TimeSpan",
+      "_label": "Tony Just Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13746",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13746",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/5214",
+              "type": "Event",
+              "_label": "White Room: Tony Just",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-10-9 - 2016-22-10",
+                "begin_of_the_begin": "2016-10-9",
+                "end_of_the_end": "2016-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47746",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

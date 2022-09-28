@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/690",
+  "id": "http://linkedart.example.com/exhibition/690",
   "type": "Activity",
   "_label": "Matta",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Matta",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Matta",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1957-11-9",
     "end_of_the_end": "1957-20-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3664",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6421",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3664",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4789",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36316",
-              "type": "Person",
-              "_label": "Roberto Matta"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4790",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36317",
-              "type": "Person",
-              "_label": "William S. Rubin"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4791",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36318",
-              "type": "Person",
-              "_label": "Sam Hunter"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6421",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6421",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8347",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3688",
+            "type": "Person",
+            "_label": "Roberto Matta"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8348",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27136",
+            "type": "Person",
+            "_label": "William S. Rubin"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8349",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27018",
+            "type": "Person",
+            "_label": "Sam Hunter"
+          }
+        ]
+      }
+    ]
+  }
 }

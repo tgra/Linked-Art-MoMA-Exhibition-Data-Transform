@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3006",
+  "id": "http://linkedart.example.com/exhibition/3006",
   "type": "Activity",
   "_label": "Film (Fall 1985)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film (Fall 1985)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film (Fall 1985)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1985-26-10",
     "end_of_the_end": "1985-24-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1765",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3354",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1765",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2537",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/15893",
-              "type": "Person",
-              "_label": "Robert Frank"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15894",
-              "type": "Person",
-              "_label": "Jon Jost"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15895",
-              "type": "Person",
-              "_label": "Adam Zucker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15896",
-              "type": "Person",
-              "_label": "Joel DeMott"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3354",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3354",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4896",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1892",
+            "type": "Person",
+            "_label": "Robert Frank"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57690",
+            "type": "Person",
+            "_label": "Jon Jost"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57688",
+            "type": "Person",
+            "_label": "Adam Zucker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57689",
+            "type": "Person",
+            "_label": "Joel DeMott"
+          }
+        ]
+      }
+    ]
+  }
 }

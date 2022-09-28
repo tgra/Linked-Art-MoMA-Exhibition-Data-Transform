@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17090",
+  "id": "http://linkedart.example.com/exhibition/17090",
   "type": "Activity",
   "_label": "Pierre et Gilles",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Pierre et Gilles",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Pierre et Gilles",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2000-15-9",
     "end_of_the_end": "2001-7-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/314",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/923",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/314",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/618",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4907",
-              "type": "Person",
-              "_label": "Gilles Blanchard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4908",
-              "type": "Person",
-              "_label": "Pierre Commoy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4909",
-              "type": "Person",
-              "_label": "Pierre et Gilles"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/619",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4910",
-              "type": "Person",
-              "_label": "Dan Cameron"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/923",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/923",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1731",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64751",
+            "type": "Person",
+            "_label": "Gilles Blanchard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66342",
+            "type": "Person",
+            "_label": "Pierre Commoy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66343",
+            "type": "Person",
+            "_label": "Pierre et Gilles"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1732",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64294",
+            "type": "Person",
+            "_label": "Dan Cameron"
+          }
+        ]
+      }
+    ]
+  }
 }

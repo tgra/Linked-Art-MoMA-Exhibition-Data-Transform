@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63378",
+  "type": "Person",
+  "_label": "Jacques Fournel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/41534",
+      "type": "Name",
+      "_label": "Jacques Fournel"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/41535",
+      "type": "Name",
+      "_label": "Fournel Jacques"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20767",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41534",
+      "type": "TimeSpan",
+      "_label": "Jacques Fournel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20767",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41535",
+      "type": "TimeSpan",
+      "_label": "Jacques Fournel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20767",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20767",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4946",
+              "type": "Event",
+              "_label": "Une Idee En L'Air",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-10 - 1980-20-12",
+                "begin_of_the_begin": "1980-28-10",
+                "end_of_the_end": "1980-20-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71708",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

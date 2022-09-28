@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21681",
+  "type": "Person",
+  "_label": "Marc Paradis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6690",
+      "type": "Name",
+      "_label": "Marc Paradis"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/6691",
+      "type": "Name",
+      "_label": "Paradis Marc"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3345",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6690",
+      "type": "TimeSpan",
+      "_label": "Marc Paradis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3345",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6691",
+      "type": "TimeSpan",
+      "_label": "Marc Paradis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3345",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3345",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2568",
+              "type": "Event",
+              "_label": "MoMA Media Lounge 2012",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-29-2 - 2012-31-12",
+                "begin_of_the_begin": "2012-29-2",
+                "end_of_the_end": "2012-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15003",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

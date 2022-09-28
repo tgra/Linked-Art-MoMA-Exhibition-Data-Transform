@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/769",
+  "id": "http://linkedart.example.com/exhibition/769",
   "type": "Activity",
   "_label": "Modern Paintings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Modern Paintings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Modern Paintings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1961-18-8",
     "end_of_the_end": "1962-20-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3916",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6832",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3916",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5200",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39691",
-              "type": "Person",
-              "_label": "Franz Kline"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39692",
-              "type": "Person",
-              "_label": "Mark Rothko"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39693",
-              "type": "Person",
-              "_label": "Robert Motherwell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39694",
-              "type": "Person",
-              "_label": "Clyfford Still"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39695",
-              "type": "Person",
-              "_label": "Sam Francis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39696",
-              "type": "Person",
-              "_label": "Adolph Gottlieb"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5201",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39697",
-              "type": "Person",
-              "_label": "Alfred H. Barr, Jr."
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6832",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6832",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8938",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3020",
+            "type": "Person",
+            "_label": "Franz Kline"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4848",
+            "type": "Person",
+            "_label": "Mark Rothko"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3967",
+            "type": "Person",
+            "_label": "Robert Motherwell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5444",
+            "type": "Person",
+            "_label": "Clyfford Still"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1884",
+            "type": "Person",
+            "_label": "Sam Francis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2177",
+            "type": "Person",
+            "_label": "Adolph Gottlieb"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8939",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8462",
+            "type": "Person",
+            "_label": "Alfred H. Barr, Jr."
+          }
+        ]
+      }
+    ]
+  }
 }

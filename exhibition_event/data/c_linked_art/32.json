@@ -1,177 +1,175 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/32",
+  "id": "http://linkedart.example.com/exhibition/32",
   "type": "Activity",
   "_label": "Objects: 1900 and Today",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Objects: 1900 and Today",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Objects: 1900 and Today",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1933-10-4",
     "end_of_the_end": "1933-25-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1979",
-      "type": "Place",
-      "_label": "3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3568",
+    "type": "Place",
+    "_label": "3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1979",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2762",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18091",
-              "type": "Person",
-              "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18092",
-              "type": "Person",
-              "_label": "Edward Steichen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18093",
-              "type": "Person",
-              "_label": "Charlotte Perriand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18094",
-              "type": "Person",
-              "_label": "Victor Horta"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18095",
-              "type": "Person",
-              "_label": "Ludwig Mies van der Rohe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18096",
-              "type": "Person",
-              "_label": "Jan Tschichold"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18097",
-              "type": "Person",
-              "_label": "Staatliche Porzellan-Manufaktur, Berlin, Germany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18098",
-              "type": "Person",
-              "_label": "Wilhelm Wagenfeld"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18099",
-              "type": "Person",
-              "_label": "Louis Comfort Tiffany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18100",
-              "type": "Person",
-              "_label": "Tiffany Studios, New York, NY"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18101",
-              "type": "Person",
-              "_label": "Eugene Colonna"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18102",
-              "type": "Person",
-              "_label": "Schot & Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18103",
-              "type": "Person",
-              "_label": "Werkstaetten dor Stadt Halle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18104",
-              "type": "Person",
-              "_label": "Edvard Hald"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18105",
-              "type": "Person",
-              "_label": "Paul T. Frankl"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18106",
-              "type": "Person",
-              "_label": "Rena Rosenthal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18107",
-              "type": "Person",
-              "_label": "Marcus & Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18108",
-              "type": "Person",
-              "_label": "American 3 Way Luxfer Priam Company Inc"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18109",
-              "type": "Person",
-              "_label": "Andries Dirk Copier"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18110",
-              "type": "Person",
-              "_label": "Bauhaus"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18111",
-              "type": "Person",
-              "_label": "Georges de Feure"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2763",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18112",
-              "type": "Person",
-              "_label": "Philip Johnson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3568",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3568",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5121",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3281",
+            "type": "Person",
+            "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5402",
+            "type": "Person",
+            "_label": "Edward Steichen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4380",
+            "type": "Person",
+            "_label": "Charlotte Perriand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24717",
+            "type": "Person",
+            "_label": "Victor Horta"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6846",
+            "type": "Person",
+            "_label": "Ludwig Mies van der Rohe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5719",
+            "type": "Person",
+            "_label": "Jan Tschichold"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8524",
+            "type": "Person",
+            "_label": "Staatliche Porzellan-Manufaktur, Berlin, Germany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5930",
+            "type": "Person",
+            "_label": "Wilhelm Wagenfeld"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5647",
+            "type": "Person",
+            "_label": "Louis Comfort Tiffany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8348",
+            "type": "Person",
+            "_label": "Tiffany Studios, New York, NY"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27601",
+            "type": "Person",
+            "_label": "Eugene Colonna"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28917",
+            "type": "Person",
+            "_label": "Schot & Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27605",
+            "type": "Person",
+            "_label": "Werkstaetten dor Stadt Halle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27604",
+            "type": "Person",
+            "_label": "Edvard Hald"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27602",
+            "type": "Person",
+            "_label": "Paul T. Frankl"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27600",
+            "type": "Person",
+            "_label": "Rena Rosenthal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27599",
+            "type": "Person",
+            "_label": "Marcus & Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27603",
+            "type": "Person",
+            "_label": "American 3 Way Luxfer Priam Company Inc"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1179",
+            "type": "Person",
+            "_label": "Andries Dirk Copier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/366",
+            "type": "Person",
+            "_label": "Bauhaus"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1361",
+            "type": "Person",
+            "_label": "Georges de Feure"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5122",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27028",
+            "type": "Person",
+            "_label": "Philip Johnson"
+          }
+        ]
+      }
+    ]
+  }
 }

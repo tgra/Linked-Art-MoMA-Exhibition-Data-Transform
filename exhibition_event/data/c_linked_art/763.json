@@ -1,77 +1,75 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/763",
+  "id": "http://linkedart.example.com/exhibition/763",
   "type": "Activity",
   "_label": "Japanese Vernacular Graphics",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Japanese Vernacular Graphics",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Japanese Vernacular Graphics",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1961-3-6",
     "end_of_the_end": "1961-16-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3910",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6826",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3910",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5190",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39642",
-              "type": "Person",
-              "_label": "Bernard Rudofsky"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5191",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39643",
-              "type": "Person",
-              "_label": "Mildred Constantine"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6826",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6826",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8928",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/21754",
+            "type": "Person",
+            "_label": "Bernard Rudofsky"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8929",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26936",
+            "type": "Person",
+            "_label": "Mildred Constantine"
+          }
+        ]
+      }
+    ]
+  }
 }

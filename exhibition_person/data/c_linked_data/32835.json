@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32835",
+  "type": "Person",
+  "_label": "Lily Ollinger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23454",
+      "type": "Name",
+      "_label": "Lily Ollinger"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23455",
+      "type": "Name",
+      "_label": "Ollinger Lily"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11727",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23454",
+      "type": "TimeSpan",
+      "_label": "Lily Ollinger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11727",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23455",
+      "type": "TimeSpan",
+      "_label": "Lily Ollinger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11727",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11727",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1515",
+              "type": "Event",
+              "_label": "Art and Technology: Chicago Video at MoMA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-13-5 - 1982-29-6",
+                "begin_of_the_begin": "1982-13-5",
+                "end_of_the_end": "1982-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37595",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

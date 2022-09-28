@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4412",
+  "id": "http://linkedart.example.com/exhibition/4412",
   "type": "Activity",
   "_label": "Drawings by Swinden, Morrison, Steubing, Leiter, Brody",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Drawings by Swinden, Morrison, Steubing, Leiter, Brody",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Drawings by Swinden, Morrison, Steubing, Leiter, Brody",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1952-17-6",
     "end_of_the_end": "1952-6-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3306",
-      "type": "Place",
-      "_label": "51 East 4th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4895",
+    "type": "Place",
+    "_label": "51 East 4th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3306",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4168",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27364",
-              "type": "Person",
-              "_label": "Lilly Brody"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27365",
-              "type": "Person",
-              "_label": "Saul Leiter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27366",
-              "type": "Person",
-              "_label": "George Morrison"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27367",
-              "type": "Person",
-              "_label": "Jean Steubing"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27368",
-              "type": "Person",
-              "_label": "Albert Swinden"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4895",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4895",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6527",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31231",
+            "type": "Person",
+            "_label": "Lilly Brody"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3325",
+            "type": "Person",
+            "_label": "Saul Leiter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60601",
+            "type": "Person",
+            "_label": "George Morrison"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60602",
+            "type": "Person",
+            "_label": "Jean Steubing"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6442",
+            "type": "Person",
+            "_label": "Albert Swinden"
+          }
+        ]
+      }
+    ]
+  }
 }

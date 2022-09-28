@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/94",
+  "id": "http://linkedart.example.com/exhibition/94",
   "type": "Activity",
   "_label": "Twelve Modern Paintings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Twelve Modern Paintings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Twelve Modern Paintings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1937-28-4",
     "end_of_the_end": "1937-30-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4102",
-      "type": "Place",
-      "_label": "4th Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/7022",
+    "type": "Place",
+    "_label": "4th Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4102",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5555",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/43757",
-              "type": "Person",
-              "_label": "André Masson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43758",
-              "type": "Person",
-              "_label": "Paul Klee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43759",
-              "type": "Person",
-              "_label": "Joan Miró"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43760",
-              "type": "Person",
-              "_label": "Mikhail Larionov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43761",
-              "type": "Person",
-              "_label": "Vladimir Lebedev"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43762",
-              "type": "Person",
-              "_label": "Jean (Hans) Arp"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/7022",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/7022",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9299",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3667",
+            "type": "Person",
+            "_label": "André Masson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3002",
+            "type": "Person",
+            "_label": "Paul Klee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3859",
+            "type": "Person",
+            "_label": "Joan Miró"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3245",
+            "type": "Person",
+            "_label": "Mikhail Larionov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10563",
+            "type": "Person",
+            "_label": "Vladimir Lebedev"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11",
+            "type": "Person",
+            "_label": "Jean (Hans) Arp"
+          }
+        ]
+      }
+    ]
+  }
 }

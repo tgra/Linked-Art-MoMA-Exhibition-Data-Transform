@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3592",
+  "id": "http://linkedart.example.com/exhibition/3592",
   "type": "Activity",
   "_label": "Extended Installations from Greater New York\n",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Extended Installations from Greater New York\n",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Extended Installations from Greater New York\n",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2010-8-11",
     "end_of_the_end": "2010-29-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2415",
-      "type": "Place",
-      "_label": "MoMAPS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4004",
+    "type": "Place",
+    "_label": "MoMAPS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2415",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3218",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21555",
-              "type": "Person",
-              "_label": "David Brooks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21556",
-              "type": "Person",
-              "_label": "Rashaad Newsome"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21557",
-              "type": "Person",
-              "_label": "Saul Melman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21558",
-              "type": "Person",
-              "_label": "Conrad Ventur"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21559",
-              "type": "Person",
-              "_label": "Aki Sasamoto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21560",
-              "type": "Person",
-              "_label": "Leidy Churchman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4004",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4004",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5577",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31579",
+            "type": "Person",
+            "_label": "David Brooks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60211",
+            "type": "Person",
+            "_label": "Rashaad Newsome"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60434",
+            "type": "Person",
+            "_label": "Saul Melman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60223",
+            "type": "Person",
+            "_label": "Conrad Ventur"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60220",
+            "type": "Person",
+            "_label": "Aki Sasamoto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60195",
+            "type": "Person",
+            "_label": "Leidy Churchman"
+          }
+        ]
+      }
+    ]
+  }
 }

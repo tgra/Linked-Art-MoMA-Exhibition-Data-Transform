@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3195",
+  "id": "http://linkedart.example.com/exhibition/3195",
   "type": "Activity",
   "_label": "Performance at P.S. 1",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Performance at P.S. 1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Performance at P.S. 1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1983-10-12",
     "end_of_the_end": "1983-10-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1974",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3563",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1974",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2757",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18071",
-              "type": "Person",
-              "_label": "Kim Jones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18072",
-              "type": "Person",
-              "_label": "Rolf Julius"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18073",
-              "type": "Person",
-              "_label": "Lynn Swanson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18074",
-              "type": "Person",
-              "_label": "Nicolas Collins"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3563",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3563",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5116",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7097",
+            "type": "Person",
+            "_label": "Kim Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57897",
+            "type": "Person",
+            "_label": "Rolf Julius"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57465",
+            "type": "Person",
+            "_label": "Lynn Swanson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58424",
+            "type": "Person",
+            "_label": "Nicolas Collins"
+          }
+        ]
+      }
+    ]
+  }
 }

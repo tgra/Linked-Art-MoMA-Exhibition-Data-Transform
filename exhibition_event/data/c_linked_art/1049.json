@@ -1,157 +1,155 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/1049",
+  "id": "http://linkedart.example.com/exhibition/1049",
   "type": "Activity",
   "_label": "Graphics 1: New Dimensions",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Graphics 1: New Dimensions",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Graphics 1: New Dimensions",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1970-25-6",
     "end_of_the_end": "1970-15-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/56",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/56",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/56",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/99",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/782",
-              "type": "Person",
-              "_label": "John Noneman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/783",
-              "type": "Person",
-              "_label": "Dieter Roth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/784",
-              "type": "Person",
-              "_label": "Giovanni Pintori"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/785",
-              "type": "Person",
-              "_label": "Carl Laanes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/786",
-              "type": "Person",
-              "_label": "Judy Stern"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/787",
-              "type": "Person",
-              "_label": "Lance Wyman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/788",
-              "type": "Person",
-              "_label": "Eduardo Terrazas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/789",
-              "type": "Person",
-              "_label": "Emilio Ambasz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/790",
-              "type": "Person",
-              "_label": "Anthony Goldschmidt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/791",
-              "type": "Person",
-              "_label": "Eric Ericsson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/792",
-              "type": "Person",
-              "_label": "Eiko Ishioka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/793",
-              "type": "Person",
-              "_label": "A. G. Fronzoni"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/794",
-              "type": "Person",
-              "_label": "Peter Gee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/795",
-              "type": "Person",
-              "_label": "Lothar Fischer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/796",
-              "type": "Person",
-              "_label": "Lucio Del Pezzo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/797",
-              "type": "Person",
-              "_label": "John Brockman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/798",
-              "type": "Person",
-              "_label": "Bob Cato"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/100",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/799",
-              "type": "Person",
-              "_label": "John Garrigan"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/56",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/56",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/99",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4161",
+            "type": "Person",
+            "_label": "John Noneman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4843",
+            "type": "Person",
+            "_label": "Dieter Roth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4444",
+            "type": "Person",
+            "_label": "Giovanni Pintori"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27051",
+            "type": "Person",
+            "_label": "Carl Laanes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7882",
+            "type": "Person",
+            "_label": "Judy Stern"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6175",
+            "type": "Person",
+            "_label": "Lance Wyman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5607",
+            "type": "Person",
+            "_label": "Eduardo Terrazas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26886",
+            "type": "Person",
+            "_label": "Emilio Ambasz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32235",
+            "type": "Person",
+            "_label": "Anthony Goldschmidt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32234",
+            "type": "Person",
+            "_label": "Eric Ericsson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2715",
+            "type": "Person",
+            "_label": "Eiko Ishioka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1934",
+            "type": "Person",
+            "_label": "A. G. Fronzoni"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2020",
+            "type": "Person",
+            "_label": "Peter Gee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1803",
+            "type": "Person",
+            "_label": "Lothar Fischer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1404",
+            "type": "Person",
+            "_label": "Lucio Del Pezzo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/752",
+            "type": "Person",
+            "_label": "John Brockman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/997",
+            "type": "Person",
+            "_label": "Bob Cato"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/100",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26973",
+            "type": "Person",
+            "_label": "John Garrigan"
+          }
+        ]
+      }
+    ]
+  }
 }

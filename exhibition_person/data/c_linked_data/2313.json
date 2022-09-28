@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2313",
+  "type": "Person",
+  "_label": "Paolo Guiotto",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7984",
+      "type": "Name",
+      "_label": "Paolo Guiotto"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/7985",
+      "type": "Name",
+      "_label": "Guiotto Paolo"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500467768",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q55218848",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q55218848",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3373",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3992",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7984",
+      "type": "TimeSpan",
+      "_label": "Paolo Guiotto Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3992",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7985",
+      "type": "TimeSpan",
+      "_label": "Paolo Guiotto Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3992",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3992",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/860",
+              "type": "Event",
+              "_label": "44 Drawings: Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-6-9 - 1966-23-1",
+                "begin_of_the_begin": "1965-6-9",
+                "end_of_the_end": "1966-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17195",
+                  "type": "Place",
+                  "_label": "Paul J. Sachs Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

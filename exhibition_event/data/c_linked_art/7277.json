@@ -1,116 +1,114 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7277",
+  "id": "http://linkedart.example.com/exhibition/7277",
   "type": "Activity",
   "_label": "Grooms, Jay Milder, Sheila Milder, Bob Thompson, Lester Johnson, Emilio Cruz, and Marcia Marcus",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Grooms, Jay Milder, Sheila Milder, Bob Thompson, Lester Johnson, Emilio Cruz, and Marcia Marcus",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Grooms, Jay Milder, Sheila Milder, Bob Thompson, Lester Johnson, Emilio Cruz, and Marcia Marcus",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1959-23-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3811",
-      "type": "Place",
-      "_label": "148 Delancey Street, 3rd Floor",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6727",
+    "type": "Place",
+    "_label": "148 Delancey Street, 3rd Floor",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3811",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4998",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38043",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38044",
-              "type": "Person",
-              "_label": "Sheila Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38045",
-              "type": "Person",
-              "_label": "Marcia Marcus"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38046",
-              "type": "Person",
-              "_label": "Emilio Cruz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38047",
-              "type": "Person",
-              "_label": "Lester F. Johnson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38048",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38049",
-              "type": "Person",
-              "_label": "Bob Thompson"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4999",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38050",
-              "type": "Person",
-              "_label": "Bob Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38051",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38052",
-              "type": "Person",
-              "_label": "Red Grooms"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6727",
+    "type": "Group",
+    "_label": "Delancey Street Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6727",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8736",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63469",
+            "type": "Person",
+            "_label": "Sheila Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63470",
+            "type": "Person",
+            "_label": "Marcia Marcus"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1258",
+            "type": "Person",
+            "_label": "Emilio Cruz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2802",
+            "type": "Person",
+            "_label": "Lester F. Johnson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5630",
+            "type": "Person",
+            "_label": "Bob Thompson"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8737",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5630",
+            "type": "Person",
+            "_label": "Bob Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          }
+        ]
+      }
+    ]
+  }
 }

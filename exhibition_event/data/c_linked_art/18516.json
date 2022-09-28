@@ -1,114 +1,112 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18516",
+  "id": "http://linkedart.example.com/exhibition/18516",
   "type": "Activity",
   "_label": "Return Jump",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Return Jump",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Return Jump",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-10-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/923",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1674",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/923",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1440",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8351",
-              "type": "Person",
-              "_label": "Mitchell Kriegman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8352",
-              "type": "Person",
-              "_label": "Robert Ashley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8353",
-              "type": "Person",
-              "_label": "Woody Vasulka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8354",
-              "type": "Person",
-              "_label": "Shalom Gorewitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8355",
-              "type": "Person",
-              "_label": "Brayne Bliss"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8356",
-              "type": "Person",
-              "_label": "Steina Vesulka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8357",
-              "type": "Person",
-              "_label": "Gary Hill"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8358",
-              "type": "Person",
-              "_label": "Kit Fitzgerald"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8359",
-              "type": "Person",
-              "_label": "Michel Auder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8360",
-              "type": "Person",
-              "_label": "Ed Bowes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8361",
-              "type": "Person",
-              "_label": "Bill Viola"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1674",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1674",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2776",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/56701",
+            "type": "Person",
+            "_label": "Mitchell Kriegman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32778",
+            "type": "Person",
+            "_label": "Robert Ashley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19637",
+            "type": "Person",
+            "_label": "Woody Vasulka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19473",
+            "type": "Person",
+            "_label": "Shalom Gorewitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67556",
+            "type": "Person",
+            "_label": "Brayne Bliss"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19635",
+            "type": "Person",
+            "_label": "Steina Vesulka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7055",
+            "type": "Person",
+            "_label": "Gary Hill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32415",
+            "type": "Person",
+            "_label": "Kit Fitzgerald"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24971",
+            "type": "Person",
+            "_label": "Michel Auder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21396",
+            "type": "Person",
+            "_label": "Ed Bowes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7518",
+            "type": "Person",
+            "_label": "Bill Viola"
+          }
+        ]
+      }
+    ]
+  }
 }

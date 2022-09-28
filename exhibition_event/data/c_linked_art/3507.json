@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3507",
+  "id": "http://linkedart.example.com/exhibition/3507",
   "type": "Activity",
   "_label": "Summer School (2011): Gus Van Sant and James Franco: My Own Private River",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Summer School (2011): Gus Van Sant and James Franco: My Own Private River",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Summer School (2011): Gus Van Sant and James Franco: My Own Private River",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2011-30-7",
     "end_of_the_end": "2011-29-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2321",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3910",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2321",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3119",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/20833",
-              "type": "Person",
-              "_label": "Bela Tarr"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20834",
-              "type": "Person",
-              "_label": "Werner Herzog"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20835",
-              "type": "Person",
-              "_label": "Gus Van Sant"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20836",
-              "type": "Person",
-              "_label": "Chantal Akerman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20837",
-              "type": "Person",
-              "_label": "James Franco"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3910",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3910",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5478",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/25076",
+            "type": "Person",
+            "_label": "Bela Tarr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26311",
+            "type": "Person",
+            "_label": "Werner Herzog"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21097",
+            "type": "Person",
+            "_label": "Gus Van Sant"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57765",
+            "type": "Person",
+            "_label": "Chantal Akerman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60260",
+            "type": "Person",
+            "_label": "James Franco"
+          }
+        ]
+      }
+    ]
+  }
 }

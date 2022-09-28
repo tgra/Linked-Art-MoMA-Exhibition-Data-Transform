@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4288",
+  "id": "http://linkedart.example.com/exhibition/4288",
   "type": "Activity",
   "_label": "Ant Farm: 1968-1978",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Ant Farm: 1968-1978",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Ant Farm: 1968-1978",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2004-8-9",
     "end_of_the_end": "2004-12-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3167",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4756",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3167",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4021",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26506",
-              "type": "Person",
-              "_label": "Chip Lord"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26507",
-              "type": "Person",
-              "_label": "Doug Michaels"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26508",
-              "type": "Person",
-              "_label": "Ant Farm"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4756",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4756",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6380",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/19810",
+            "type": "Person",
+            "_label": "Chip Lord"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60869",
+            "type": "Person",
+            "_label": "Doug Michaels"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19399",
+            "type": "Person",
+            "_label": "Ant Farm"
+          }
+        ]
+      }
+    ]
+  }
 }

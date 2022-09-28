@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/69857",
+  "type": "Person",
+  "_label": "Fred Berman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/47938",
+      "type": "Name",
+      "_label": "Fred Berman"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/47939",
+      "type": "Name",
+      "_label": "Berman Fred"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23969",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47938",
+      "type": "TimeSpan",
+      "_label": "Fred Berman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23969",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47939",
+      "type": "TimeSpan",
+      "_label": "Fred Berman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23969",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23969",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/6486",
+              "type": "Event",
+              "_label": "1959 Annual Exhibition of Contemporary American Painting ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-9-12 - 1960-31-1",
+                "begin_of_the_begin": "1959-9-12",
+                "end_of_the_end": "1960-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78339",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

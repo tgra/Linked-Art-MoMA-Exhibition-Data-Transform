@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4416",
+  "id": "http://linkedart.example.com/exhibition/4416",
   "type": "Activity",
   "_label": "Paintings by Benton, Grillo, Parker, Schapiro, Todd, Wilson",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Paintings by Benton, Grillo, Parker, Schapiro, Todd, Wilson",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Paintings by Benton, Grillo, Parker, Schapiro, Todd, Wilson",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1952-21-10",
     "end_of_the_end": "1952-9-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3310",
-      "type": "Place",
-      "_label": "51 East 4th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4899",
+    "type": "Place",
+    "_label": "51 East 4th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3310",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4172",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27390",
-              "type": "Person",
-              "_label": "James G. Benton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27391",
-              "type": "Person",
-              "_label": "Jane Wilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27392",
-              "type": "Person",
-              "_label": "Joelin Todd"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27393",
-              "type": "Person",
-              "_label": "Miriam Schapiro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27394",
-              "type": "Person",
-              "_label": "John Grillo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27395",
-              "type": "Person",
-              "_label": "Raymond Parker"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4899",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4899",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6531",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/28791",
+            "type": "Person",
+            "_label": "James G. Benton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16623",
+            "type": "Person",
+            "_label": "Jane Wilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60605",
+            "type": "Person",
+            "_label": "Joelin Todd"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5001",
+            "type": "Person",
+            "_label": "Miriam Schapiro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2250",
+            "type": "Person",
+            "_label": "John Grillo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4321",
+            "type": "Person",
+            "_label": "Raymond Parker"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31873",
+  "type": "Person",
+  "_label": "Peter Lely",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21384",
+      "type": "Name",
+      "_label": "Peter Lely"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/21385",
+      "type": "Name",
+      "_label": "Lely Peter"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10692",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21384",
+      "type": "TimeSpan",
+      "_label": "Peter Lely Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10692",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21385",
+      "type": "TimeSpan",
+      "_label": "Peter Lely Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10692",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10692",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/905",
+              "type": "Event",
+              "_label": "The Taste of a Connoisseur: The Paul J. Sachs Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-21-12 - 1967-5-3",
+                "begin_of_the_begin": "1966-21-12",
+                "end_of_the_end": "1967-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35503",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

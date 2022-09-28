@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32784",
+  "type": "Person",
+  "_label": "Erik Rørbæk Madsen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23348",
+      "type": "Name",
+      "_label": "Erik Rørbæk Madsen"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23349",
+      "type": "Name",
+      "_label": "Madsen Erik Rørbæk"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11674",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23348",
+      "type": "TimeSpan",
+      "_label": "Erik Rørbæk Madsen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11674",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23349",
+      "type": "TimeSpan",
+      "_label": "Erik Rørbæk Madsen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11674",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11674",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1368",
+              "type": "Event",
+              "_label": "Bang & Olufsen: Design for Sound by Jakob Jensen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-14-4 - 1978-18-6",
+                "begin_of_the_begin": "1978-14-4",
+                "end_of_the_end": "1978-18-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37397",
+                  "type": "Place",
+                  "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

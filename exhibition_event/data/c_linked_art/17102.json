@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17102",
+  "id": "http://linkedart.example.com/exhibition/17102",
   "type": "Activity",
   "_label": "Unland/Doris Salcedo",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Unland/Doris Salcedo",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Unland/Doris Salcedo",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1998-19-3",
     "end_of_the_end": "1998-31-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/327",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/937",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/327",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/649",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5128",
-              "type": "Person",
-              "_label": "Doris Salcedo"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/650",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5129",
-              "type": "Person",
-              "_label": "Dan Cameron"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/651",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5130",
-              "type": "Person",
-              "_label": "SITE Sante Fe, NM"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/937",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/937",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1764",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7122",
+            "type": "Person",
+            "_label": "Doris Salcedo"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1765",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64294",
+            "type": "Person",
+            "_label": "Dan Cameron"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1766",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66735",
+            "type": "Person",
+            "_label": "SITE Sante Fe, NM"
+          }
+        ]
+      }
+    ]
+  }
 }

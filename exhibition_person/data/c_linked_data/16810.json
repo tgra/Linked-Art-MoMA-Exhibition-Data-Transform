@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16810",
+  "type": "Person",
+  "_label": "EDAW, London",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2306",
+      "type": "Name",
+      "_label": "EDAW, London"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/2307",
+      "type": "Name",
+      "_label": "EDAW"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1153",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2306",
+      "type": "TimeSpan",
+      "_label": "EDAW, London Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1153",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2307",
+      "type": "TimeSpan",
+      "_label": "EDAW, London Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1153",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1153",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2274",
+              "type": "Event",
+              "_label": "Groundswell: Constructing the Contemporary Landscape",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-25-2 - 2005-16-5",
+                "begin_of_the_begin": "2005-25-2",
+                "end_of_the_end": "2005-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6971",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

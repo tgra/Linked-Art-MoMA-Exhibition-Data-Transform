@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32021",
+  "type": "Person",
+  "_label": "Vilhelm Wohlert",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21704",
+      "type": "Name",
+      "_label": "Vilhelm Wohlert"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/21705",
+      "type": "Name",
+      "_label": "Wohlert Vilhelm"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500020930",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10852",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21704",
+      "type": "TimeSpan",
+      "_label": "Vilhelm Wohlert Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10852",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21705",
+      "type": "TimeSpan",
+      "_label": "Vilhelm Wohlert Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10852",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10852",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/975",
+              "type": "Event",
+              "_label": "Architecture of Museums",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-25-9 - 1968-11-11",
+                "begin_of_the_begin": "1968-25-9",
+                "end_of_the_end": "1968-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35792",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

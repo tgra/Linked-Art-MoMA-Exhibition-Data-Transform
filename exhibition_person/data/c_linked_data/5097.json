@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5097",
+  "type": "Person",
+  "_label": "Patrick Scott",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/28940",
+      "type": "Name",
+      "_label": "Patrick Scott"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/28941",
+      "type": "Name",
+      "_label": "Scott Patrick"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500032861",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q2057967",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q2057967",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7109",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Irish, born 1921"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14470",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28940",
+      "type": "TimeSpan",
+      "_label": "Patrick Scott Birth timespan",
+      "begin_of_the_begin": "1921",
+      "end_of_the_end": "1921"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14470",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28941",
+      "type": "TimeSpan",
+      "_label": "Patrick Scott Death timespan",
+      "begin_of_the_begin": "2014",
+      "end_of_the_end": "2014"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14470",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14470",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/711",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-30-1 - 1959-19-4",
+                "begin_of_the_begin": "1959-30-1",
+                "end_of_the_end": "1959-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54272",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,93 +1,91 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17113",
+  "id": "http://linkedart.example.com/exhibition/17113",
   "type": "Activity",
   "_label": "Visiting Hours: An Installation by Bob Flanagan in collaboration with Sheree Rose",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Visiting Hours: An Installation by Bob Flanagan in collaboration with Sheree Rose",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Visiting Hours: An Installation by Bob Flanagan in collaboration with Sheree Rose",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1994-23-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/338",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/949",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/338",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/675",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5348",
-              "type": "Person",
-              "_label": "Laura Trippi"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/676",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5349",
-              "type": "Person",
-              "_label": "Sheree Rose"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5350",
-              "type": "Person",
-              "_label": "Bob Flanagan"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/677",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5351",
-              "type": "Person",
-              "_label": "Santa Monica Museum of Art"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/949",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/949",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1792",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65562",
+            "type": "Person",
+            "_label": "Laura Trippi"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1793",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26385",
+            "type": "Person",
+            "_label": "Sheree Rose"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26384",
+            "type": "Person",
+            "_label": "Bob Flanagan"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1794",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/33340",
+            "type": "Person",
+            "_label": "Santa Monica Museum of Art"
+          }
+        ]
+      }
+    ]
+  }
 }

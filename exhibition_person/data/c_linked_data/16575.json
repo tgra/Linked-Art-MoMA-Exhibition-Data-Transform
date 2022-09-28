@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16575",
+  "type": "Person",
+  "_label": "Robin Page",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2084",
+      "type": "Name",
+      "_label": "Robin Page"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/2085",
+      "type": "Name",
+      "_label": "Page Robin"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500107658",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q1720334",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q1720334",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/828",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1932"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1042",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2084",
+      "type": "TimeSpan",
+      "_label": "Robin Page Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1042",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2085",
+      "type": "TimeSpan",
+      "_label": "Robin Page Death timespan",
+      "begin_of_the_begin": "2015",
+      "end_of_the_end": "2015"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1042",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1042",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1345",
+              "type": "Event",
+              "_label": "Dream/Reality/Dream",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-26-9 - 1977-28-11",
+                "begin_of_the_begin": "1977-26-9",
+                "end_of_the_end": "1977-28-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6300",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,70 +1,68 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/99",
+  "id": "http://linkedart.example.com/exhibition/99",
   "type": "Activity",
   "_label": "The War, Etchings by Otto Dix and Armored Train, a Painting by Gino Severini",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The War, Etchings by Otto Dix and Armored Train, a Painting by Gino Severini",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The War, Etchings by Otto Dix and Armored Train, a Painting by Gino Severini",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1937-21-9",
     "end_of_the_end": "1937-19-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4149",
-      "type": "Place",
-      "_label": "14 West 49 St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/7077",
+    "type": "Place",
+    "_label": "14 West 49 St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4149",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5641",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44612",
-              "type": "Person",
-              "_label": "Gino Severini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44613",
-              "type": "Person",
-              "_label": "Otto Dix"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/7077",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/7077",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9400",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5154",
+            "type": "Person",
+            "_label": "Gino Severini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1487",
+            "type": "Person",
+            "_label": "Otto Dix"
+          }
+        ]
+      }
+    ]
+  }
 }

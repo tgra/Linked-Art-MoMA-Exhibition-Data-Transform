@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1387",
+  "type": "Person",
+  "_label": "A. R. De Ycaza",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1020",
+      "type": "Name",
+      "_label": "A. R. De Ycaza"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/1021",
+      "type": "Name",
+      "_label": "De Ycaza A. R."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/396",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1915"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/510",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1020",
+      "type": "TimeSpan",
+      "_label": "A. R. De Ycaza Birth timespan",
+      "begin_of_the_begin": "1915",
+      "end_of_the_end": "1915"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/510",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1021",
+      "type": "TimeSpan",
+      "_label": "A. R. De Ycaza Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/510",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/510",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/551",
+              "type": "Event",
+              "_label": "Some American Prints, 1949–50, from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-3-7 - 1951-13-9",
+                "begin_of_the_begin": "1951-3-7",
+                "end_of_the_end": "1951-13-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3331",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

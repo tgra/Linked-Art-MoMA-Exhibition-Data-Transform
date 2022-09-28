@@ -1,144 +1,142 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21927",
+  "id": "http://linkedart.example.com/exhibition/21927",
   "type": "Activity",
   "_label": "Location/Dislocation",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Location/Dislocation",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Location/Dislocation",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2001-25-9",
     "end_of_the_end": "2001-7-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1243",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2335",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1243",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1875",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10126",
-              "type": "Person",
-              "_label": "Sylvie Parent"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10127",
-              "type": "Person",
-              "_label": "Valerie Lamontagne"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1876",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10128",
-              "type": "Person",
-              "_label": "Billy Sullivan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10129",
-              "type": "Person",
-              "_label": "Thomas McIntosh"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10130",
-              "type": "Person",
-              "_label": "Brad Todd"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10131",
-              "type": "Person",
-              "_label": "Johnny Ranger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10132",
-              "type": "Person",
-              "_label": "Nancy Tobin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10133",
-              "type": "Person",
-              "_label": "Stéphane Claude"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10134",
-              "type": "Person",
-              "_label": "Yan Breuleux"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10135",
-              "type": "Person",
-              "_label": "Annie Lebel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10136",
-              "type": "Person",
-              "_label": "Gisèle Trudel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10137",
-              "type": "Person",
-              "_label": "Stéphane Pratte"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10138",
-              "type": "Person",
-              "_label": "Emmanuel Madan"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1877",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10139",
-              "type": "Person",
-              "_label": "Anne Barlow"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2335",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2335",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3670",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/68277",
+            "type": "Person",
+            "_label": "Sylvie Parent"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67068",
+            "type": "Person",
+            "_label": "Valerie Lamontagne"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3671",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7959",
+            "type": "Person",
+            "_label": "Billy Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/44527",
+            "type": "Person",
+            "_label": "Thomas McIntosh"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64001",
+            "type": "Person",
+            "_label": "Brad Todd"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65250",
+            "type": "Person",
+            "_label": "Johnny Ranger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66104",
+            "type": "Person",
+            "_label": "Nancy Tobin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66773",
+            "type": "Person",
+            "_label": "Stéphane Claude"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67191",
+            "type": "Person",
+            "_label": "Yan Breuleux"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63796",
+            "type": "Person",
+            "_label": "Annie Lebel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68275",
+            "type": "Person",
+            "_label": "Gisèle Trudel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66774",
+            "type": "Person",
+            "_label": "Stéphane Pratte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64550",
+            "type": "Person",
+            "_label": "Emmanuel Madan"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3672",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63784",
+            "type": "Person",
+            "_label": "Anne Barlow"
+          }
+        ]
+      }
+    ]
+  }
 }

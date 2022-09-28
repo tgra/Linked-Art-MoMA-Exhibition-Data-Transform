@@ -1,177 +1,175 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/575",
+  "id": "http://linkedart.example.com/exhibition/575",
   "type": "Activity",
   "_label": "New Design Trends",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Design Trends",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Design Trends",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1952-25-3",
     "end_of_the_end": "1952-1-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3536",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5665",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3536",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4534",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32791",
-              "type": "Person",
-              "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32792",
-              "type": "Person",
-              "_label": "Virginia Nepodal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32793",
-              "type": "Person",
-              "_label": "Vera Lisková"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32794",
-              "type": "Person",
-              "_label": "Marcello Nizzoli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32795",
-              "type": "Person",
-              "_label": "Carl-Harry Stålhane"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32796",
-              "type": "Person",
-              "_label": "Peter Pfisterer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32797",
-              "type": "Person",
-              "_label": "James Prestini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32798",
-              "type": "Person",
-              "_label": "Frederick Carder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32799",
-              "type": "Person",
-              "_label": "Paolo Venini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32800",
-              "type": "Person",
-              "_label": "Grasoli-Werk Gebr. Grah, Solingen, Germany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32801",
-              "type": "Person",
-              "_label": "Luigi Fontana & C.S.A., Milan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32802",
-              "type": "Person",
-              "_label": "Tapio Wirkkala"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32803",
-              "type": "Person",
-              "_label": "W.A. Dobson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32804",
-              "type": "Person",
-              "_label": "Angelo Ostuni"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32805",
-              "type": "Person",
-              "_label": "Andries Dirk Copier"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32806",
-              "type": "Person",
-              "_label": "Frank Graham Holmes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32807",
-              "type": "Person",
-              "_label": "J.A. Henckels, Solingen, Germany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32808",
-              "type": "Person",
-              "_label": "Anni Albers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32809",
-              "type": "Person",
-              "_label": "Fulvio Bianconi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32810",
-              "type": "Person",
-              "_label": "Alvar Aalto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32811",
-              "type": "Person",
-              "_label": "Finn Juhl"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4535",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32812",
-              "type": "Person",
-              "_label": "Greta Daniel"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5665",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5665",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7464",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3281",
+            "type": "Person",
+            "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4094",
+            "type": "Person",
+            "_label": "Virginia Nepodal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3418",
+            "type": "Person",
+            "_label": "Vera Lisková"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4146",
+            "type": "Person",
+            "_label": "Marcello Nizzoli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5375",
+            "type": "Person",
+            "_label": "Carl-Harry Stålhane"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4411",
+            "type": "Person",
+            "_label": "Peter Pfisterer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4540",
+            "type": "Person",
+            "_label": "James Prestini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8032",
+            "type": "Person",
+            "_label": "Frederick Carder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5857",
+            "type": "Person",
+            "_label": "Paolo Venini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/9000",
+            "type": "Person",
+            "_label": "Grasoli-Werk Gebr. Grah, Solingen, Germany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8632",
+            "type": "Person",
+            "_label": "Luigi Fontana & C.S.A., Milan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6119",
+            "type": "Person",
+            "_label": "Tapio Wirkkala"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29146",
+            "type": "Person",
+            "_label": "W.A. Dobson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29461",
+            "type": "Person",
+            "_label": "Angelo Ostuni"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1179",
+            "type": "Person",
+            "_label": "Andries Dirk Copier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2599",
+            "type": "Person",
+            "_label": "Frank Graham Holmes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2485",
+            "type": "Person",
+            "_label": "J.A. Henckels, Solingen, Germany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/94",
+            "type": "Person",
+            "_label": "Anni Albers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/522",
+            "type": "Person",
+            "_label": "Fulvio Bianconi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33",
+            "type": "Person",
+            "_label": "Alvar Aalto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2824",
+            "type": "Person",
+            "_label": "Finn Juhl"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7465",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26946",
+            "type": "Person",
+            "_label": "Greta Daniel"
+          }
+        ]
+      }
+    ]
+  }
 }

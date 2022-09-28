@@ -1,131 +1,129 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/565",
+  "id": "http://linkedart.example.com/exhibition/565",
   "type": "Activity",
   "_label": "Children's Holiday Carnival of Modern Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Children's Holiday Carnival of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Children's Holiday Carnival of Modern Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1951-4-12",
     "end_of_the_end": "1952-6-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3525",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5654",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3525",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4517",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32673",
-              "type": "Person",
-              "_label": "Mark Rothko"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32674",
-              "type": "Person",
-              "_label": "Ad Reinhardt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32675",
-              "type": "Person",
-              "_label": "Amelia Peláez del Casal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32676",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32677",
-              "type": "Person",
-              "_label": "Elsa Schmid"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32678",
-              "type": "Person",
-              "_label": "Roberto Matta"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32679",
-              "type": "Person",
-              "_label": "William Zorach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32680",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32681",
-              "type": "Person",
-              "_label": "Ruth Vollmer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32682",
-              "type": "Person",
-              "_label": "Jeanne Riddle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32683",
-              "type": "Person",
-              "_label": "Toni Hughes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32684",
-              "type": "Person",
-              "_label": "Chaim Gross"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4518",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32685",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5654",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5654",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7447",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4848",
+            "type": "Person",
+            "_label": "Mark Rothko"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4665",
+            "type": "Person",
+            "_label": "Ad Reinhardt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4358",
+            "type": "Person",
+            "_label": "Amelia Peláez del Casal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5024",
+            "type": "Person",
+            "_label": "Elsa Schmid"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3688",
+            "type": "Person",
+            "_label": "Roberto Matta"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6288",
+            "type": "Person",
+            "_label": "William Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5905",
+            "type": "Person",
+            "_label": "Ruth Vollmer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29455",
+            "type": "Person",
+            "_label": "Jeanne Riddle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2641",
+            "type": "Person",
+            "_label": "Toni Hughes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2269",
+            "type": "Person",
+            "_label": "Chaim Gross"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7448",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4138",
+  "id": "http://linkedart.example.com/exhibition/4138",
   "type": "Activity",
   "_label": "Projects: Made in Philadelphia 4",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Projects: Made in Philadelphia 4",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Projects: Made in Philadelphia 4",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-5-12",
     "end_of_the_end": "1981-25-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3001",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4590",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3001",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3841",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24939",
-              "type": "Person",
-              "_label": "Harry Anderson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24940",
-              "type": "Person",
-              "_label": "Isaiah Zagar"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24941",
-              "type": "Person",
-              "_label": "Suzanne Wheeling"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24942",
-              "type": "Person",
-              "_label": "Kit-Yin Tieng Snyder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24943",
-              "type": "Person",
-              "_label": "Maurie Kerrigan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24944",
-              "type": "Person",
-              "_label": "Annson Kenney"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24945",
-              "type": "Person",
-              "_label": "Lynn Blackwell Denton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24946",
-              "type": "Person",
-              "_label": "Philip Johnson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4590",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4590",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6200",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6550",
+            "type": "Person",
+            "_label": "Harry Anderson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60674",
+            "type": "Person",
+            "_label": "Isaiah Zagar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60673",
+            "type": "Person",
+            "_label": "Suzanne Wheeling"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60672",
+            "type": "Person",
+            "_label": "Kit-Yin Tieng Snyder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57146",
+            "type": "Person",
+            "_label": "Maurie Kerrigan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59077",
+            "type": "Person",
+            "_label": "Annson Kenney"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60671",
+            "type": "Person",
+            "_label": "Lynn Blackwell Denton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27028",
+            "type": "Person",
+            "_label": "Philip Johnson"
+          }
+        ]
+      }
+    ]
+  }
 }

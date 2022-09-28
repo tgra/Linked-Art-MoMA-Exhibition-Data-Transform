@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21811",
+  "id": "http://linkedart.example.com/exhibition/21811",
   "type": "Activity",
   "_label": "Anna Craycroft: Motion into Being",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Anna Craycroft: Motion into Being",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Anna Craycroft: Motion into Being",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2018-17-1",
     "end_of_the_end": "2018-13-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1162",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2243",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1162",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1707",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9604",
-              "type": "Person",
-              "_label": "Sara O'Keeffe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9605",
-              "type": "Person",
-              "_label": "Kate Wiener"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9606",
-              "type": "Person",
-              "_label": "Johanna Burton"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1708",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9607",
-              "type": "Person",
-              "_label": "Anna Craycoft"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2243",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2243",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3484",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66628",
+            "type": "Person",
+            "_label": "Sara O'Keeffe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68377",
+            "type": "Person",
+            "_label": "Kate Wiener"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65206",
+            "type": "Person",
+            "_label": "Johanna Burton"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3485",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/59920",
+            "type": "Person",
+            "_label": "Anna Craycoft"
+          }
+        ]
+      }
+    ]
+  }
 }

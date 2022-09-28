@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17030",
+  "id": "http://linkedart.example.com/exhibition/17030",
   "type": "Activity",
   "_label": "Museum as Hub: Steffani Jemison and Jamal Cyrus: Alpha’s Bet Is Not Over Yet!",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Museum as Hub: Steffani Jemison and Jamal Cyrus: Alpha’s Bet Is Not Over Yet!",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Museum as Hub: Steffani Jemison and Jamal Cyrus: Alpha’s Bet Is Not Over Yet!",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2011-12-9",
     "end_of_the_end": "2011-4-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/254",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/857",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/254",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/472",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4205",
-              "type": "Person",
-              "_label": "Steffani Jemison"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4206",
-              "type": "Person",
-              "_label": "Jamal Cyrus"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/473",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4207",
-              "type": "Person",
-              "_label": "Ethan Swan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4208",
-              "type": "Person",
-              "_label": "Ryan Inouye"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/857",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/857",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1575",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/34144",
+            "type": "Person",
+            "_label": "Steffani Jemison"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61080",
+            "type": "Person",
+            "_label": "Jamal Cyrus"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1576",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64587",
+            "type": "Person",
+            "_label": "Ethan Swan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66587",
+            "type": "Person",
+            "_label": "Ryan Inouye"
+          }
+        ]
+      }
+    ]
+  }
 }

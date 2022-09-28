@@ -1,106 +1,104 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17052",
+  "id": "http://linkedart.example.com/exhibition/17052",
   "type": "Activity",
   "_label": "New Commissions (Three M Project): Mathias Poledna: Crystal Palace",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Commissions (Three M Project): Mathias Poledna: Crystal Palace",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Commissions (Three M Project): Mathias Poledna: Crystal Palace",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2009-28-1",
     "end_of_the_end": "2009-8-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/276",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/881",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/276",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/522",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4505",
-              "type": "Person",
-              "_label": "Mathias Poledna"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/523",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4506",
-              "type": "Person",
-              "_label": "Jarrett Gregory"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/524",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4507",
-              "type": "Person",
-              "_label": "Russell Ferguson"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/525",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4508",
-              "type": "Person",
-              "_label": "Hammer Museum, Los Angeles"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4509",
-              "type": "Person",
-              "_label": "Museum of Contemporary Art, Chicago"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/881",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/881",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1628",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/24468",
+            "type": "Person",
+            "_label": "Mathias Poledna"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1629",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65054",
+            "type": "Person",
+            "_label": "Jarrett Gregory"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1630",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66576",
+            "type": "Person",
+            "_label": "Russell Ferguson"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1631",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27100",
+            "type": "Person",
+            "_label": "Hammer Museum, Los Angeles"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27101",
+            "type": "Person",
+            "_label": "Museum of Contemporary Art, Chicago"
+          }
+        ]
+      }
+    ]
+  }
 }

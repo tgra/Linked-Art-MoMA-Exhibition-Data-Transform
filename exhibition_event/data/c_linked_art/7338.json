@@ -1,101 +1,99 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7338",
+  "id": "http://linkedart.example.com/exhibition/7338",
   "type": "Activity",
   "_label": "Building Hallway Mural",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Building Hallway Mural",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Building Hallway Mural",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1959-1-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3871",
-      "type": "Place",
-      "_label": "735 6th Avenue, 3rd Floor (W 24th Street)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6787",
+    "type": "Place",
+    "_label": "735 6th Avenue, 3rd Floor (W 24th Street)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3871",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5113",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38435",
-              "type": "Person",
-              "_label": "Jim Dine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38436",
-              "type": "Person",
-              "_label": "Micaela Weisselberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38437",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38438",
-              "type": "Person",
-              "_label": "Red Grooms"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5114",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38439",
-              "type": "Person",
-              "_label": "Micaela Weisselberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38440",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38441",
-              "type": "Person",
-              "_label": "Red Grooms"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6787",
+    "type": "Group",
+    "_label": "The City Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6787",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8851",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1476",
+            "type": "Person",
+            "_label": "Jim Dine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63506",
+            "type": "Person",
+            "_label": "Micaela Weisselberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8852",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63506",
+            "type": "Person",
+            "_label": "Micaela Weisselberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          }
+        ]
+      }
+    ]
+  }
 }

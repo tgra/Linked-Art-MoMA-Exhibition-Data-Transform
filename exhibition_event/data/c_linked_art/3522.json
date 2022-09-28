@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3522",
+  "id": "http://linkedart.example.com/exhibition/3522",
   "type": "Activity",
   "_label": "Senso Unico: A Show of Eight Contemporary Italian Artists",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Senso Unico: A Show of Eight Contemporary Italian Artists",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Senso Unico: A Show of Eight Contemporary Italian Artists",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2007-21-10",
     "end_of_the_end": "2008-7-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2338",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3927",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2338",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3138",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/20929",
-              "type": "Person",
-              "_label": "Adrian Paci"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20930",
-              "type": "Person",
-              "_label": "Vanessa Beecroft"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20931",
-              "type": "Person",
-              "_label": "Pietro Roccasalva"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20932",
-              "type": "Person",
-              "_label": "Paola Pivi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20933",
-              "type": "Person",
-              "_label": "Paolo Canevari"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20934",
-              "type": "Person",
-              "_label": "Francesco Vezzoli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20935",
-              "type": "Person",
-              "_label": "Rä di Martino"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20936",
-              "type": "Person",
-              "_label": "Angelo Filomeno"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3927",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3927",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5497",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18703",
+            "type": "Person",
+            "_label": "Adrian Paci"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7847",
+            "type": "Person",
+            "_label": "Vanessa Beecroft"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26670",
+            "type": "Person",
+            "_label": "Pietro Roccasalva"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18917",
+            "type": "Person",
+            "_label": "Paola Pivi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20423",
+            "type": "Person",
+            "_label": "Paolo Canevari"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33796",
+            "type": "Person",
+            "_label": "Francesco Vezzoli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60082",
+            "type": "Person",
+            "_label": "Rä di Martino"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60131",
+            "type": "Person",
+            "_label": "Angelo Filomeno"
+          }
+        ]
+      }
+    ]
+  }
 }

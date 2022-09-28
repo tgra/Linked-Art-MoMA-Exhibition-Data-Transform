@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7309",
+  "id": "http://linkedart.example.com/exhibition/7309",
   "type": "Activity",
   "_label": "Happenings Series: Magic Train Ride, The Big Laugh, Small Cannon",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Happenings Series: Magic Train Ride, The Big Laugh, Small Cannon",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Happenings Series: Magic Train Ride, The Big Laugh, Small Cannon",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1960-8-1",
     "end_of_the_end": "1960-11-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3840",
-      "type": "Place",
-      "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6756",
+    "type": "Place",
+    "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3840",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5053",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38251",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38252",
-              "type": "Person",
-              "_label": "Allan Kaprow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38253",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5054",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38254",
-              "type": "Person",
-              "_label": "Allan Kaprow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38255",
-              "type": "Person",
-              "_label": "Anita Rubin"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6756",
+    "type": "Group",
+    "_label": "Reuben Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6756",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8791",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2872",
+            "type": "Person",
+            "_label": "Allan Kaprow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8792",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2872",
+            "type": "Person",
+            "_label": "Allan Kaprow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63509",
+            "type": "Person",
+            "_label": "Anita Rubin"
+          }
+        ]
+      }
+    ]
+  }
 }

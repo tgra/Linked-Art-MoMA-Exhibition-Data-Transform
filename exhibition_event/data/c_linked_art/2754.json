@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2754",
+  "id": "http://linkedart.example.com/exhibition/2754",
   "type": "Activity",
   "_label": "Spring Dance Series (1986): Shared and Borrowed Images: Cross-Cultural Influences in Contemporary Dance",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Spring Dance Series (1986): Shared and Borrowed Images: Cross-Cultural Influences in Contemporary Dance",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Spring Dance Series (1986): Shared and Borrowed Images: Cross-Cultural Influences in Contemporary Dance",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-10-5",
     "end_of_the_end": "1986-22-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1478",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3056",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1478",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2228",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12570",
-              "type": "Person",
-              "_label": "Ze'eva Cohen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12571",
-              "type": "Person",
-              "_label": "Oscar Coreale"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12572",
-              "type": "Person",
-              "_label": "Urban Bush Women"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12573",
-              "type": "Person",
-              "_label": "Nadine Tringali"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12574",
-              "type": "Person",
-              "_label": "Mark Dendy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12575",
-              "type": "Person",
-              "_label": "Stephanie Woodard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12576",
-              "type": "Person",
-              "_label": "Muna Tseng"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12577",
-              "type": "Person",
-              "_label": "Betsy Hulton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12578",
-              "type": "Person",
-              "_label": "Ellen Fisher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12579",
-              "type": "Person",
-              "_label": "Renee Rockoff"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3056",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3056",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4575",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57750",
+            "type": "Person",
+            "_label": "Ze'eva Cohen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57751",
+            "type": "Person",
+            "_label": "Oscar Coreale"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57749",
+            "type": "Person",
+            "_label": "Urban Bush Women"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57753",
+            "type": "Person",
+            "_label": "Nadine Tringali"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57747",
+            "type": "Person",
+            "_label": "Mark Dendy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57746",
+            "type": "Person",
+            "_label": "Stephanie Woodard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57744",
+            "type": "Person",
+            "_label": "Muna Tseng"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57752",
+            "type": "Person",
+            "_label": "Betsy Hulton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57745",
+            "type": "Person",
+            "_label": "Ellen Fisher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57748",
+            "type": "Person",
+            "_label": "Renee Rockoff"
+          }
+        ]
+      }
+    ]
+  }
 }

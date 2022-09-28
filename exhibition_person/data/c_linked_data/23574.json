@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23574",
+  "type": "Person",
+  "_label": "Kelli Cain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8488",
+      "type": "Name",
+      "_label": "Kelli Cain"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/8489",
+      "type": "Name",
+      "_label": "Cain Kelli"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3572",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1979"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4244",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8488",
+      "type": "TimeSpan",
+      "_label": "Kelli Cain Birth timespan",
+      "begin_of_the_begin": "1979",
+      "end_of_the_end": "1979"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4244",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8489",
+      "type": "TimeSpan",
+      "_label": "Kelli Cain Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4244",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4244",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2543",
+              "type": "Event",
+              "_label": "Talk to Me: Design and the Communication Between People and Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-24-7 - 2011-7-11",
+                "begin_of_the_begin": "2011-24-7",
+                "end_of_the_end": "2011-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17852",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

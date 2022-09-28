@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17293",
+  "type": "Person",
+  "_label": "Safety 1st",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2812",
+      "type": "Name",
+      "_label": "Safety 1st"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/2813",
+      "type": "Name",
+      "_label": "Safety 1st"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q28605809",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q28605809",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1147",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "USA, est. 1984"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1406",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2812",
+      "type": "TimeSpan",
+      "_label": "Safety 1st Birth timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1406",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2813",
+      "type": "TimeSpan",
+      "_label": "Safety 1st Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1406",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1406",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2290",
+              "type": "Event",
+              "_label": "SAFE: Design Takes on Risk",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-16-10 - 2006-2-1",
+                "begin_of_the_begin": "2005-16-10",
+                "end_of_the_end": "2006-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7710",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

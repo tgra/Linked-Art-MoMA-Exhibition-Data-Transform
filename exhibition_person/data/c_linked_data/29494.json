@@ -1,0 +1,118 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/29494",
+  "type": "Person",
+  "_label": "Fred Maroon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/16266",
+      "type": "Name",
+      "_label": "Fred Maroon"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/16267",
+      "type": "Name",
+      "_label": "Maroon Fred"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8133",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16266",
+      "type": "TimeSpan",
+      "_label": "Fred Maroon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8133",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16267",
+      "type": "TimeSpan",
+      "_label": "Fred Maroon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8133",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8133",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/601",
+              "type": "Event",
+              "_label": "Always the Young Strangers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-26-2 - 1953-1-4",
+                "begin_of_the_begin": "1953-26-2",
+                "end_of_the_end": "1953-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30350",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/708",
+              "type": "Event",
+              "_label": "Photographs from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-26-11 - 1959-18-1",
+                "begin_of_the_begin": "1958-26-11",
+                "end_of_the_end": "1959-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30351",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

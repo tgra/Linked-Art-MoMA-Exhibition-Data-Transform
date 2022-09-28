@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/70599",
+  "type": "Person",
+  "_label": "Ken Lum",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/48764",
+      "type": "Name",
+      "_label": "Ken Lum"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/48765",
+      "type": "Name",
+      "_label": "Lum Ken"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24382",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48764",
+      "type": "TimeSpan",
+      "_label": "Ken Lum Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24382",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/48765",
+      "type": "TimeSpan",
+      "_label": "Ken Lum Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24382",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24382",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/28416",
+              "type": "Event",
+              "_label": "Whitney Biennial 2014",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-7-3 - 2014-25-3",
+                "begin_of_the_begin": "2014-7-3",
+                "end_of_the_end": "2014-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/78941",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

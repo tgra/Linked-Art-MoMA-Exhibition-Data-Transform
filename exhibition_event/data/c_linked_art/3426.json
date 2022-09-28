@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3426",
+  "id": "http://linkedart.example.com/exhibition/3426",
   "type": "Activity",
   "_label": "International and National Projects Spring 2006: Johanna Billing, William Cordova, Sara Greenberger Rafferty, Yaron Leshem, Ohad Meromi, Demetrius Oliver, and Kon Trubkovich",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "International and National Projects Spring 2006: Johanna Billing, William Cordova, Sara Greenberger Rafferty, Yaron Leshem, Ohad Meromi, Demetrius Oliver, and Kon Trubkovich",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "International and National Projects Spring 2006: Johanna Billing, William Cordova, Sara Greenberger Rafferty, Yaron Leshem, Ohad Meromi, Demetrius Oliver, and Kon Trubkovich",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2006-26-2",
     "end_of_the_end": "2006-5-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2231",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3820",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2231",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3025",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19931",
-              "type": "Person",
-              "_label": "Sara Greenberger Rafferty"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19932",
-              "type": "Person",
-              "_label": "Johanna Billing"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19933",
-              "type": "Person",
-              "_label": "Yaron Leshem"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19934",
-              "type": "Person",
-              "_label": "Kon Trubkovich"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19935",
-              "type": "Person",
-              "_label": "William Cordova"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19936",
-              "type": "Person",
-              "_label": "Ohad Meromi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19937",
-              "type": "Person",
-              "_label": "Demetrius Oliver"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3820",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3820",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5384",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/22812",
+            "type": "Person",
+            "_label": "Sara Greenberger Rafferty"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19170",
+            "type": "Person",
+            "_label": "Johanna Billing"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18558",
+            "type": "Person",
+            "_label": "Yaron Leshem"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60023",
+            "type": "Person",
+            "_label": "Kon Trubkovich"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60020",
+            "type": "Person",
+            "_label": "William Cordova"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60021",
+            "type": "Person",
+            "_label": "Ohad Meromi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60022",
+            "type": "Person",
+            "_label": "Demetrius Oliver"
+          }
+        ]
+      }
+    ]
+  }
 }

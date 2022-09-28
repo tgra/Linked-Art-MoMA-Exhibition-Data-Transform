@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32272",
+  "type": "Person",
+  "_label": "Joseph Teixeira de Mattos",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22248",
+      "type": "Name",
+      "_label": "Joseph Teixeira de Mattos"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22249",
+      "type": "Name",
+      "_label": "Teixeira de Mattos Joseph"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5383",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1892"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11124",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22248",
+      "type": "TimeSpan",
+      "_label": "Joseph Teixeira de Mattos Birth timespan",
+      "begin_of_the_begin": "1892",
+      "end_of_the_end": "1892"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11124",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22249",
+      "type": "TimeSpan",
+      "_label": "Joseph Teixeira de Mattos Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11124",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11124",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1169",
+              "type": "Event",
+              "_label": "Drawings from the Kröller-Müller National Museum, Otterlo",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-24-5 - 1973-19-8",
+                "begin_of_the_begin": "1973-24-5",
+                "end_of_the_end": "1973-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36222",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

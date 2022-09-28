@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32922",
+  "type": "Person",
+  "_label": "Paul Boston",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23636",
+      "type": "Name",
+      "_label": "Paul Boston"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23637",
+      "type": "Name",
+      "_label": "Boston Paul"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11818",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23636",
+      "type": "TimeSpan",
+      "_label": "Paul Boston Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11818",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23637",
+      "type": "TimeSpan",
+      "_label": "Paul Boston Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11818",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11818",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1569",
+              "type": "Event",
+              "_label": "An International Survey of Recent Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-17-5 - 1984-19-8",
+                "begin_of_the_begin": "1984-17-5",
+                "end_of_the_end": "1984-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37765",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

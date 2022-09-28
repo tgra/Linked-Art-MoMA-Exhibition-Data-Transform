@@ -1,97 +1,95 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21916",
+  "id": "http://linkedart.example.com/exhibition/21916",
   "type": "Activity",
   "_label": "Super-Ficial: The Surfaces of Architecture in a Digital Age",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Super-Ficial: The Surfaces of Architecture in a Digital Age",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Super-Ficial: The Surfaces of Architecture in a Digital Age",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2003-31-1",
     "end_of_the_end": "2003-6-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1232",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2323",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1232",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1851",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10003",
-              "type": "Person",
-              "_label": "dbox"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10004",
-              "type": "Person",
-              "_label": "Peter Testa Architects"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10005",
-              "type": "Person",
-              "_label": "Michael Silver"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10006",
-              "type": "Person",
-              "_label": "Jürgen Mayer H."
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1852",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10007",
-              "type": "Person",
-              "_label": "Johanna Burton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10008",
-              "type": "Person",
-              "_label": "Anne Ellegood"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2323",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2323",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3645",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64375",
+            "type": "Person",
+            "_label": "dbox"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66322",
+            "type": "Person",
+            "_label": "Peter Testa Architects"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35944",
+            "type": "Person",
+            "_label": "Michael Silver"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16096",
+            "type": "Person",
+            "_label": "Jürgen Mayer H."
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3646",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65206",
+            "type": "Person",
+            "_label": "Johanna Burton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63786",
+            "type": "Person",
+            "_label": "Anne Ellegood"
+          }
+        ]
+      }
+    ]
+  }
 }

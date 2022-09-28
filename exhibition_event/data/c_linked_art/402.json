@@ -1,122 +1,120 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/402",
+  "id": "http://linkedart.example.com/exhibition/402",
   "type": "Activity",
   "_label": "Children's Holiday Fair of Modern Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Children's Holiday Fair of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Children's Holiday Fair of Modern Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1946-3-12",
     "end_of_the_end": "1947-5-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2870",
-      "type": "Place",
-      "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4459",
+    "type": "Place",
+    "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2870",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3702",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24338",
-              "type": "Person",
-              "_label": "Hugo Robus"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24339",
-              "type": "Person",
-              "_label": "William Zorach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24340",
-              "type": "Person",
-              "_label": "Heinz Warneke"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24341",
-              "type": "Person",
-              "_label": "Madge Erving"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24342",
-              "type": "Person",
-              "_label": "Leonard Billing"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24343",
-              "type": "Person",
-              "_label": "Oronzio Maldarelli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24344",
-              "type": "Person",
-              "_label": "Herman Cherry"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24345",
-              "type": "Person",
-              "_label": "Mario Carreño"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24346",
-              "type": "Person",
-              "_label": "Chaim Gross"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24347",
-              "type": "Person",
-              "_label": "Alexander Calder"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/3703",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24348",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4459",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4459",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6061",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4773",
+            "type": "Person",
+            "_label": "Hugo Robus"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6288",
+            "type": "Person",
+            "_label": "William Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27339",
+            "type": "Person",
+            "_label": "Heinz Warneke"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28828",
+            "type": "Person",
+            "_label": "Madge Erving"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28826",
+            "type": "Person",
+            "_label": "Leonard Billing"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28829",
+            "type": "Person",
+            "_label": "Oronzio Maldarelli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28827",
+            "type": "Person",
+            "_label": "Herman Cherry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/950",
+            "type": "Person",
+            "_label": "Mario Carreño"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2269",
+            "type": "Person",
+            "_label": "Chaim Gross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/887",
+            "type": "Person",
+            "_label": "Alexander Calder"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6062",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21902",
+  "id": "http://linkedart.example.com/exhibition/21902",
   "type": "Activity",
   "_label": "Fresh Projects: Shimmer",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Fresh Projects: Shimmer",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Fresh Projects: Shimmer",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2015-10-11",
     "end_of_the_end": "2015-10-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1218",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2308",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1218",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1822",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9854",
-              "type": "Person",
-              "_label": "Anne Barlow"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1823",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9855",
-              "type": "Person",
-              "_label": "Howard Goldkrand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9856",
-              "type": "Person",
-              "_label": "Beth Coleman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9857",
-              "type": "Person",
-              "_label": "Alisa Andrasek"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2308",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2308",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3615",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63784",
+            "type": "Person",
+            "_label": "Anne Barlow"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3616",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/58309",
+            "type": "Person",
+            "_label": "Howard Goldkrand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58390",
+            "type": "Person",
+            "_label": "Beth Coleman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63669",
+            "type": "Person",
+            "_label": "Alisa Andrasek"
+          }
+        ]
+      }
+    ]
+  }
 }

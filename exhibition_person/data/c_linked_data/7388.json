@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7388",
+  "type": "Person",
+  "_label": "Zeke Ziner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/50960",
+      "type": "Name",
+      "_label": "Zeke Ziner"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/50961",
+      "type": "Name",
+      "_label": "Ziner Zeke"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8726",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1919"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25480",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50960",
+      "type": "TimeSpan",
+      "_label": "Zeke Ziner Birth timespan",
+      "begin_of_the_begin": "1919",
+      "end_of_the_end": "1919"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25480",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50961",
+      "type": "TimeSpan",
+      "_label": "Zeke Ziner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25480",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25480",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/670",
+              "type": "Event",
+              "_label": "Recent Drawings U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-25-4 - 1956-5-8",
+                "begin_of_the_begin": "1956-25-4",
+                "end_of_the_end": "1956-5-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82511",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20671",
+  "type": "Person",
+  "_label": "Wolf Rössger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5604",
+      "type": "Name",
+      "_label": "Wolf Rössger"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/5605",
+      "type": "Name",
+      "_label": "Rössger Wolf"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2433",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1909–1987; at Bauhaus 1923–28"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2802",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5604",
+      "type": "TimeSpan",
+      "_label": "Wolf Rössger Birth timespan",
+      "begin_of_the_begin": "1909",
+      "end_of_the_end": "1909"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2802",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5605",
+      "type": "TimeSpan",
+      "_label": "Wolf Rössger Death timespan",
+      "begin_of_the_begin": "1987",
+      "end_of_the_end": "1987"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2802",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2802",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2464",
+              "type": "Event",
+              "_label": "Bauhaus 1919–1933: Workshops for Modernity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-11 - 2010-25-1",
+                "begin_of_the_begin": "2009-8-11",
+                "end_of_the_end": "2010-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12744",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

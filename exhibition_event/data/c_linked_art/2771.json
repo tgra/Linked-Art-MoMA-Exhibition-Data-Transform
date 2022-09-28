@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2771",
+  "id": "http://linkedart.example.com/exhibition/2771",
   "type": "Activity",
   "_label": "Images of the Unknown",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Images of the Unknown",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Images of the Unknown",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-13-4",
     "end_of_the_end": "1986-15-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1497",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3075",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1497",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2247",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12773",
-              "type": "Person",
-              "_label": "Brice Marden"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12774",
-              "type": "Person",
-              "_label": "Alan Saret"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12775",
-              "type": "Person",
-              "_label": "Ann McCoy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12776",
-              "type": "Person",
-              "_label": "Rebecca Horn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12777",
-              "type": "Person",
-              "_label": "Emmanuel Pereire"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12778",
-              "type": "Person",
-              "_label": "Colette"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12779",
-              "type": "Person",
-              "_label": "Suruchi Chand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12780",
-              "type": "Person",
-              "_label": "Joseph Parker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12781",
-              "type": "Person",
-              "_label": "Vettor Pisani"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3075",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3075",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4594",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3605",
+            "type": "Person",
+            "_label": "Brice Marden"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4961",
+            "type": "Person",
+            "_label": "Alan Saret"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3721",
+            "type": "Person",
+            "_label": "Ann McCoy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7136",
+            "type": "Person",
+            "_label": "Rebecca Horn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32260",
+            "type": "Person",
+            "_label": "Emmanuel Pereire"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56828",
+            "type": "Person",
+            "_label": "Colette"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57726",
+            "type": "Person",
+            "_label": "Suruchi Chand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57727",
+            "type": "Person",
+            "_label": "Joseph Parker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57728",
+            "type": "Person",
+            "_label": "Vettor Pisani"
+          }
+        ]
+      }
+    ]
+  }
 }

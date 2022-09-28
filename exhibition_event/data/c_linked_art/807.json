@@ -1,109 +1,107 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/807",
+  "id": "http://linkedart.example.com/exhibition/807",
   "type": "Activity",
   "_label": "Five Unrelated Photographers",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Five Unrelated Photographers",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Five Unrelated Photographers",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1963-28-5",
     "end_of_the_end": "1963-21-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3959",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6875",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3959",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5285",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40585",
-              "type": "Person",
-              "_label": "Jerome Liebling"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/40586",
-              "type": "Person",
-              "_label": "George Krause"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/40587",
-              "type": "Person",
-              "_label": "Minor White"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/40588",
-              "type": "Person",
-              "_label": "Garry Winogrand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/40589",
-              "type": "Person",
-              "_label": "Ken Heyman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5286",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40590",
-              "type": "Person",
-              "_label": "Kathleen Haven"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5287",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40591",
-              "type": "Person",
-              "_label": "John Szarkowski"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6875",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6875",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9023",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3399",
+            "type": "Person",
+            "_label": "Jerome Liebling"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3110",
+            "type": "Person",
+            "_label": "George Krause"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6055",
+            "type": "Person",
+            "_label": "Minor White"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6110",
+            "type": "Person",
+            "_label": "Garry Winogrand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2521",
+            "type": "Person",
+            "_label": "Ken Heyman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9024",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26995",
+            "type": "Person",
+            "_label": "Kathleen Haven"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9025",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7682",
+            "type": "Person",
+            "_label": "John Szarkowski"
+          }
+        ]
+      }
+    ]
+  }
 }

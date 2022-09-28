@@ -1,77 +1,75 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/543",
+  "id": "http://linkedart.example.com/exhibition/543",
   "type": "Activity",
   "_label": "Modigliani",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Modigliani",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Modigliani",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1951-10-4",
     "end_of_the_end": "1951-10-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3437",
-      "type": "Place",
-      "_label": "3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5504",
+    "type": "Place",
+    "_label": "3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3437",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4368",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30484",
-              "type": "Person",
-              "_label": "Amedeo Modigliani"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4369",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30485",
-              "type": "Person",
-              "_label": "Margaret Miller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5504",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5504",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7236",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3880",
+            "type": "Person",
+            "_label": "Amedeo Modigliani"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7237",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31494",
+            "type": "Person",
+            "_label": "Margaret Miller"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1382",
+  "type": "Person",
+  "_label": "Roger de Valerio",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1010",
+      "type": "Name",
+      "_label": "Roger de Valerio"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/1011",
+      "type": "Name",
+      "_label": "de Valerio Roger"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500464230",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3439629",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3439629",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/394",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1886–1951"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/505",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1010",
+      "type": "TimeSpan",
+      "_label": "Roger de Valerio Birth timespan",
+      "begin_of_the_begin": "1886",
+      "end_of_the_end": "1886"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/505",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1011",
+      "type": "TimeSpan",
+      "_label": "Roger de Valerio Death timespan",
+      "begin_of_the_begin": "1951",
+      "end_of_the_end": "1951"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/505",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/505",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/686",
+              "type": "Event",
+              "_label": "Travel Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-6-3 - 1957-7-4",
+                "begin_of_the_begin": "1957-6-3",
+                "end_of_the_end": "1957-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3313",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

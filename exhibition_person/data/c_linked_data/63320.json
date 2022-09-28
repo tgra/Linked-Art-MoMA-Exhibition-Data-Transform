@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63320",
+  "type": "Person",
+  "_label": "Dan Hill",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/41418",
+      "type": "Name",
+      "_label": "Dan Hill"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/41419",
+      "type": "Name",
+      "_label": "Hill Dan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20709",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41418",
+      "type": "TimeSpan",
+      "_label": "Dan Hill Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20709",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41419",
+      "type": "TimeSpan",
+      "_label": "Dan Hill Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20709",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20709",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/6789",
+              "type": "Event",
+              "_label": "Two Artists: Dan Hill and Michael Venezia ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-12-1 - 1977-13-2",
+                "begin_of_the_begin": "1977-12-1",
+                "end_of_the_end": "1977-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71608",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Lobby Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

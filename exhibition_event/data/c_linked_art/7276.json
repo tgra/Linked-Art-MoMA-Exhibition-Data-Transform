@@ -1,86 +1,84 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7276",
+  "id": "http://linkedart.example.com/exhibition/7276",
   "type": "Activity",
   "_label": "Lester Johnson",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Lester Johnson",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Lester Johnson",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1960-1-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3810",
-      "type": "Place",
-      "_label": "148 Delancey Street, 3rd Floor",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6726",
+    "type": "Place",
+    "_label": "148 Delancey Street, 3rd Floor",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3810",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4996",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38039",
-              "type": "Person",
-              "_label": "Bob Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38040",
-              "type": "Person",
-              "_label": "Jay Milder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38041",
-              "type": "Person",
-              "_label": "Red Grooms"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4997",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38042",
-              "type": "Person",
-              "_label": "Lester F. Johnson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6726",
+    "type": "Group",
+    "_label": "Delancey Street Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6726",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8734",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5630",
+            "type": "Person",
+            "_label": "Bob Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34002",
+            "type": "Person",
+            "_label": "Jay Milder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8735",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2802",
+            "type": "Person",
+            "_label": "Lester F. Johnson"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4413",
+  "id": "http://linkedart.example.com/exhibition/4413",
   "type": "Activity",
   "_label": "Paintings by Cajori, de Kooning, Dodd, Frankenthaler, Freilicher, Hofmann, Ippolito, Kline, Marca-Relli, F. Mitchell; Sculpture by King",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Paintings by Cajori, de Kooning, Dodd, Frankenthaler, Freilicher, Hofmann, Ippolito, Kline, Marca-Relli, F. Mitchell; Sculpture by King",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Paintings by Cajori, de Kooning, Dodd, Frankenthaler, Freilicher, Hofmann, Ippolito, Kline, Marca-Relli, F. Mitchell; Sculpture by King",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1952-8-7",
     "end_of_the_end": "1952-28-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3307",
-      "type": "Place",
-      "_label": "51 East 4th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4896",
+    "type": "Place",
+    "_label": "51 East 4th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3307",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4169",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27369",
-              "type": "Person",
-              "_label": "Franz Kline"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27370",
-              "type": "Person",
-              "_label": "William D. King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27371",
-              "type": "Person",
-              "_label": "Conrad Marca-Relli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27372",
-              "type": "Person",
-              "_label": "Angelo Ippolito"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27373",
-              "type": "Person",
-              "_label": "Hans Hofmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27374",
-              "type": "Person",
-              "_label": "Jane Freilicher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27375",
-              "type": "Person",
-              "_label": "Helen Frankenthaler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27376",
-              "type": "Person",
-              "_label": "Lois Dodd"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27377",
-              "type": "Person",
-              "_label": "Fred Mitchell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27378",
-              "type": "Person",
-              "_label": "Willem de Kooning"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27379",
-              "type": "Person",
-              "_label": "Charles Cajori"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4896",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4896",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6528",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3020",
+            "type": "Person",
+            "_label": "Franz Kline"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27506",
+            "type": "Person",
+            "_label": "William D. King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3596",
+            "type": "Person",
+            "_label": "Conrad Marca-Relli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2703",
+            "type": "Person",
+            "_label": "Angelo Ippolito"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2588",
+            "type": "Person",
+            "_label": "Hans Hofmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1907",
+            "type": "Person",
+            "_label": "Jane Freilicher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1893",
+            "type": "Person",
+            "_label": "Helen Frankenthaler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32723",
+            "type": "Person",
+            "_label": "Lois Dodd"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60599",
+            "type": "Person",
+            "_label": "Fred Mitchell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3081",
+            "type": "Person",
+            "_label": "Willem de Kooning"
+          },
+          {
+            "id": "http://linkedart.example.com/person/883",
+            "type": "Person",
+            "_label": "Charles Cajori"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,172 +1,170 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/553",
+  "id": "http://linkedart.example.com/exhibition/553",
   "type": "Activity",
   "_label": "Modern Bible Illustration",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Modern Bible Illustration",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Modern Bible Illustration",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1951-18-7",
     "end_of_the_end": "1951-19-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3512",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5641",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3512",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4489",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32264",
-              "type": "Person",
-              "_label": "Bernard Reder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32265",
-              "type": "Person",
-              "_label": "Odilon Redon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32266",
-              "type": "Person",
-              "_label": "Oskar Kokoschka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32267",
-              "type": "Person",
-              "_label": "Karl Schmidt-Rottluff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32268",
-              "type": "Person",
-              "_label": "Wilhelm Lehmbruck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32269",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32270",
-              "type": "Person",
-              "_label": "André Racz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32271",
-              "type": "Person",
-              "_label": "Georges Rouault"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32272",
-              "type": "Person",
-              "_label": "Jules Pascin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32273",
-              "type": "Person",
-              "_label": "Marcello Muccini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32274",
-              "type": "Person",
-              "_label": "Christian Rohlfs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32275",
-              "type": "Person",
-              "_label": "Jacques Villon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32276",
-              "type": "Person",
-              "_label": "André Derain"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32277",
-              "type": "Person",
-              "_label": "James Ensor"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32278",
-              "type": "Person",
-              "_label": "Maurice Denis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32279",
-              "type": "Person",
-              "_label": "Émile Bernard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32280",
-              "type": "Person",
-              "_label": "Ernst Barlach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32281",
-              "type": "Person",
-              "_label": "Max Beckmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32282",
-              "type": "Person",
-              "_label": "Marc Chagall"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32283",
-              "type": "Person",
-              "_label": "Lovis Corinth"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4490",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32284",
-              "type": "Person",
-              "_label": "Monroe Wheeler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5641",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5641",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7419",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4646",
+            "type": "Person",
+            "_label": "Bernard Reder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4649",
+            "type": "Person",
+            "_label": "Odilon Redon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3065",
+            "type": "Person",
+            "_label": "Oskar Kokoschka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5039",
+            "type": "Person",
+            "_label": "Karl Schmidt-Rottluff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3319",
+            "type": "Person",
+            "_label": "Wilhelm Lehmbruck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4593",
+            "type": "Person",
+            "_label": "André Racz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4854",
+            "type": "Person",
+            "_label": "Georges Rouault"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4331",
+            "type": "Person",
+            "_label": "Jules Pascin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3975",
+            "type": "Person",
+            "_label": "Marcello Muccini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4801",
+            "type": "Person",
+            "_label": "Christian Rohlfs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5890",
+            "type": "Person",
+            "_label": "Jacques Villon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1431",
+            "type": "Person",
+            "_label": "André Derain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1661",
+            "type": "Person",
+            "_label": "James Ensor"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1424",
+            "type": "Person",
+            "_label": "Maurice Denis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/486",
+            "type": "Person",
+            "_label": "Émile Bernard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/314",
+            "type": "Person",
+            "_label": "Ernst Barlach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/406",
+            "type": "Person",
+            "_label": "Max Beckmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1014",
+            "type": "Person",
+            "_label": "Marc Chagall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1186",
+            "type": "Person",
+            "_label": "Lovis Corinth"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7420",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8740",
+            "type": "Person",
+            "_label": "Monroe Wheeler"
+          }
+        ]
+      }
+    ]
+  }
 }

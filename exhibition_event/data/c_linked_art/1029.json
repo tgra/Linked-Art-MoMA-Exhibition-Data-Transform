@@ -1,81 +1,79 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/1029",
+  "id": "http://linkedart.example.com/exhibition/1029",
   "type": "Activity",
   "_label": "A Salute to Alexander Calder",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "A Salute to Alexander Calder",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "A Salute to Alexander Calder",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1969-18-12",
     "end_of_the_end": "1970-15-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/34",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/34",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/34",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/60",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/463",
-              "type": "Person",
-              "_label": "Bernice Rose"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/61",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/464",
-              "type": "Person",
-              "_label": "Wilder Green"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/465",
-              "type": "Person",
-              "_label": "Alexander Calder"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/34",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/34",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/60",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27130",
+            "type": "Person",
+            "_label": "Bernice Rose"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/61",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26986",
+            "type": "Person",
+            "_label": "Wilder Green"
+          },
+          {
+            "id": "http://linkedart.example.com/person/887",
+            "type": "Person",
+            "_label": "Alexander Calder"
+          }
+        ]
+      }
+    ]
+  }
 }

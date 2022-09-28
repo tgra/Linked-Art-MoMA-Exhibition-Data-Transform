@@ -1,82 +1,80 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7313",
+  "id": "http://linkedart.example.com/exhibition/7313",
   "type": "Activity",
   "_label": "Robert Whitman: Constructions, Drawings, Pastels, Paintings, Floor and Hanging Pieces",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Robert Whitman: Constructions, Drawings, Pastels, Paintings, Floor and Hanging Pieces",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Robert Whitman: Constructions, Drawings, Pastels, Paintings, Floor and Hanging Pieces",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1959-27-11",
     "end_of_the_end": "1959-16-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3845",
-      "type": "Place",
-      "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6761",
+    "type": "Place",
+    "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3845",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5063",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38301",
-              "type": "Person",
-              "_label": "Anita Rubin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38302",
-              "type": "Person",
-              "_label": "Allan Kaprow"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5064",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38303",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6761",
+    "type": "Group",
+    "_label": "Reuben Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6761",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8801",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63509",
+            "type": "Person",
+            "_label": "Anita Rubin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2872",
+            "type": "Person",
+            "_label": "Allan Kaprow"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8802",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          }
+        ]
+      }
+    ]
+  }
 }

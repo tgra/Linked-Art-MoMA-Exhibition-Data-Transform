@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32387",
+  "type": "Person",
+  "_label": "Michael Tilson Thomas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22494",
+      "type": "Name",
+      "_label": "Michael Tilson Thomas"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22495",
+      "type": "Name",
+      "_label": "Thomas Michael Tilson"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q520493",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q520493",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11247",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22494",
+      "type": "TimeSpan",
+      "_label": "Michael Tilson Thomas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11247",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22495",
+      "type": "TimeSpan",
+      "_label": "Michael Tilson Thomas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11247",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11247",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1299",
+              "type": "Event",
+              "_label": "Projects: Video X",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-3-10 - 1976-30-11",
+                "begin_of_the_begin": "1976-3-10",
+                "end_of_the_end": "1976-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36412",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

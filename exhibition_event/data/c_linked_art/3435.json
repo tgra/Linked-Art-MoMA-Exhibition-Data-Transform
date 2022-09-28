@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3435",
+  "id": "http://linkedart.example.com/exhibition/3435",
   "type": "Activity",
   "_label": "National Projects Fall 2005: Dianna Frid, Kira Lynn Harris, Mike Cloud, Jay Heikes, and Johannes VanDerBeek",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "National Projects Fall 2005: Dianna Frid, Kira Lynn Harris, Mike Cloud, Jay Heikes, and Johannes VanDerBeek",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "National Projects Fall 2005: Dianna Frid, Kira Lynn Harris, Mike Cloud, Jay Heikes, and Johannes VanDerBeek",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2005-30-10",
     "end_of_the_end": "2006-3-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2241",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3830",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2241",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3035",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19959",
-              "type": "Person",
-              "_label": "Jay Heikes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19960",
-              "type": "Person",
-              "_label": "Johannes Vanderbeek"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19961",
-              "type": "Person",
-              "_label": "Mike Cloud"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19962",
-              "type": "Person",
-              "_label": "Kira Lynn Harris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19963",
-              "type": "Person",
-              "_label": "Dianna Frid"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3830",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3830",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5394",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60016",
+            "type": "Person",
+            "_label": "Jay Heikes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60017",
+            "type": "Person",
+            "_label": "Johannes Vanderbeek"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60015",
+            "type": "Person",
+            "_label": "Mike Cloud"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60014",
+            "type": "Person",
+            "_label": "Kira Lynn Harris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60013",
+            "type": "Person",
+            "_label": "Dianna Frid"
+          }
+        ]
+      }
+    ]
+  }
 }

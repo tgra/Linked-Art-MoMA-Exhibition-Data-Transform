@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2920",
+  "id": "http://linkedart.example.com/exhibition/2920",
   "type": "Activity",
   "_label": "Out of the Studio: Art with Community",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Out of the Studio: Art with Community",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Out of the Studio: Art with Community",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1987-25-1",
     "end_of_the_end": "1987-22-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1669",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3258",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1669",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2438",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/14757",
-              "type": "Person",
-              "_label": "John Ahearn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14758",
-              "type": "Person",
-              "_label": "K.O.S. (Kids of Survival)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14759",
-              "type": "Person",
-              "_label": "Tim Rollins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14760",
-              "type": "Person",
-              "_label": "David Hammons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14761",
-              "type": "Person",
-              "_label": "Deborah Ossoff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14762",
-              "type": "Person",
-              "_label": "Rigoberto Torres"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14763",
-              "type": "Person",
-              "_label": "Mierle Laderman Ukeles"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14764",
-              "type": "Person",
-              "_label": "Buster Simpson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14765",
-              "type": "Person",
-              "_label": "Bolek Greczynski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/14766",
-              "type": "Person",
-              "_label": "Crew of Battlefields Project"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3258",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3258",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4797",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/34998",
+            "type": "Person",
+            "_label": "John Ahearn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4806",
+            "type": "Person",
+            "_label": "K.O.S. (Kids of Survival)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/13279",
+            "type": "Person",
+            "_label": "Tim Rollins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2386",
+            "type": "Person",
+            "_label": "David Hammons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57788",
+            "type": "Person",
+            "_label": "Deborah Ossoff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57786",
+            "type": "Person",
+            "_label": "Rigoberto Torres"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57789",
+            "type": "Person",
+            "_label": "Mierle Laderman Ukeles"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56971",
+            "type": "Person",
+            "_label": "Buster Simpson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57787",
+            "type": "Person",
+            "_label": "Bolek Greczynski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58840",
+            "type": "Person",
+            "_label": "Crew of Battlefields Project"
+          }
+        ]
+      }
+    ]
+  }
 }

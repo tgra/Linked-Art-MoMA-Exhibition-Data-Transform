@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/350",
+  "id": "http://linkedart.example.com/exhibition/350",
   "type": "Activity",
   "_label": "Works from the Museum Collection of Dance and Theatre Design",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Works from the Museum Collection of Dance and Theatre Design",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Works from the Museum Collection of Dance and Theatre Design",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1945-2-5",
     "end_of_the_end": "1945-1-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2313",
-      "type": "Place",
-      "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3902",
+    "type": "Place",
+    "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2313",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3111",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/20716",
-              "type": "Person",
-              "_label": "Diego Rivera"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20717",
-              "type": "Person",
-              "_label": "André Masson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20718",
-              "type": "Person",
-              "_label": "Mikhail Larionov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20719",
-              "type": "Person",
-              "_label": "Bella Chagall"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20720",
-              "type": "Person",
-              "_label": "André Lurçat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20721",
-              "type": "Person",
-              "_label": "Pavel Tchelitchew"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20722",
-              "type": "Person",
-              "_label": "Franklin Chenault Watkins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20723",
-              "type": "Person",
-              "_label": "Giorgio de Chirico"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20724",
-              "type": "Person",
-              "_label": "Christian Bérard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20725",
-              "type": "Person",
-              "_label": "Eugene Berman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20726",
-              "type": "Person",
-              "_label": "Jean Cocteau"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3902",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3902",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5470",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4747",
+            "type": "Person",
+            "_label": "Diego Rivera"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3667",
+            "type": "Person",
+            "_label": "André Masson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3245",
+            "type": "Person",
+            "_label": "Mikhail Larionov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11844",
+            "type": "Person",
+            "_label": "Bella Chagall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23893",
+            "type": "Person",
+            "_label": "André Lurçat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5595",
+            "type": "Person",
+            "_label": "Pavel Tchelitchew"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5980",
+            "type": "Person",
+            "_label": "Franklin Chenault Watkins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1060",
+            "type": "Person",
+            "_label": "Giorgio de Chirico"
+          },
+          {
+            "id": "http://linkedart.example.com/person/461",
+            "type": "Person",
+            "_label": "Christian Bérard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/477",
+            "type": "Person",
+            "_label": "Eugene Berman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1117",
+            "type": "Person",
+            "_label": "Jean Cocteau"
+          }
+        ]
+      }
+    ]
+  }
 }

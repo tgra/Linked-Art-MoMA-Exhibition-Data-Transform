@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1062",
+  "type": "Person",
+  "_label": "Anna Chojnacka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/182",
+      "type": "Name",
+      "_label": "Anna Chojnacka"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/183",
+      "type": "Name",
+      "_label": "Chojnacka Anna"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500468734",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q30604264",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q30604264",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/72",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Polish, born 1914"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/91",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/182",
+      "type": "TimeSpan",
+      "_label": "Anna Chojnacka Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/91",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/183",
+      "type": "TimeSpan",
+      "_label": "Anna Chojnacka Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/91",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/91",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/865",
+              "type": "Event",
+              "_label": "Recent Acquisitions: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-6-10 - 1966-9-1",
+                "begin_of_the_begin": "1965-6-10",
+                "end_of_the_end": "1966-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/862",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

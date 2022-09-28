@@ -1,0 +1,133 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2198",
+  "type": "Person",
+  "_label": "Toni Grand",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7042",
+      "type": "Name",
+      "_label": "Toni Grand"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/7043",
+      "type": "Name",
+      "_label": "Grand Toni"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500072786",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3531571",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3531571",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3007",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3521",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7042",
+      "type": "TimeSpan",
+      "_label": "Toni Grand Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3521",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7043",
+      "type": "TimeSpan",
+      "_label": "Toni Grand Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3521",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3521",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1569",
+              "type": "Event",
+              "_label": "An International Survey of Recent Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-17-5 - 1984-19-8",
+                "begin_of_the_begin": "1984-17-5",
+                "end_of_the_end": "1984-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15455",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/1588",
+              "type": "Event",
+              "_label": "Reinstallation of the Contemporary Galleries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-15-2 - 1985-17-3",
+                "begin_of_the_begin": "1985-15-2",
+                "end_of_the_end": "1985-17-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15456",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

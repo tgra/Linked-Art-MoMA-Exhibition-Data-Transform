@@ -1,0 +1,132 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1313",
+  "type": "Person",
+  "_label": "Peter Danko",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/842",
+      "type": "Name",
+      "_label": "Peter Danko"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/843",
+      "type": "Name",
+      "_label": "Danko Peter"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500469509",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q17305820",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q17305820",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/331",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1949"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/421",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/842",
+      "type": "TimeSpan",
+      "_label": "Peter Danko Birth timespan",
+      "begin_of_the_begin": "1949",
+      "end_of_the_end": "1949"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/421",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/843",
+      "type": "TimeSpan",
+      "_label": "Peter Danko Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/421",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/421",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2317",
+              "type": "Event",
+              "_label": "Artist's Choice: Herzog and De Meuron, Perception Restrained",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-21-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2717",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2522",
+              "type": "Event",
+              "_label": "Plywood: Material, Process, Form",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-2-2 - 2013-4-3",
+                "begin_of_the_begin": "2011-2-2",
+                "end_of_the_end": "2013-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2718",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

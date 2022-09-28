@@ -1,77 +1,75 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17256",
+  "id": "http://linkedart.example.com/exhibition/17256",
   "type": "Activity",
   "_label": "Currents: Mary Stoppert",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Currents: Mary Stoppert",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Currents: Mary Stoppert",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-12-6",
     "end_of_the_end": "1982-29-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/482",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1107",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/482",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/958",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6601",
-              "type": "Person",
-              "_label": "Mary Jane Jacob"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/959",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6602",
-              "type": "Person",
-              "_label": "Mary Stoppert"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1107",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1107",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2099",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/36853",
+            "type": "Person",
+            "_label": "Mary Jane Jacob"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2100",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65866",
+            "type": "Person",
+            "_label": "Mary Stoppert"
+          }
+        ]
+      }
+    ]
+  }
 }

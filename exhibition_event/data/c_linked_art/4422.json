@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4422",
+  "id": "http://linkedart.example.com/exhibition/4422",
   "type": "Activity",
   "_label": "Paintings by Asher, De Groot, Isquith, Jones, Kanovitz, Ortman, Park, Resnick",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Paintings by Asher, De Groot, Isquith, Jones, Kanovitz, Ortman, Park, Resnick",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Paintings by Asher, De Groot, Isquith, Jones, Kanovitz, Ortman, Park, Resnick",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1953-17-3",
     "end_of_the_end": "1953-7-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3317",
-      "type": "Place",
-      "_label": "51 East 4th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4906",
+    "type": "Place",
+    "_label": "51 East 4th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3317",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4180",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27453",
-              "type": "Person",
-              "_label": "Elise Asher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27454",
-              "type": "Person",
-              "_label": "Ben Isquith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27455",
-              "type": "Person",
-              "_label": "Milton Resnick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27456",
-              "type": "Person",
-              "_label": "Charlotte Park"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27457",
-              "type": "Person",
-              "_label": "George Ortman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27458",
-              "type": "Person",
-              "_label": "Howard Kanovitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27459",
-              "type": "Person",
-              "_label": "Laura Jones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27460",
-              "type": "Person",
-              "_label": "Nanno De Groot"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4906",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4906",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6539",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31828",
+            "type": "Person",
+            "_label": "Elise Asher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60603",
+            "type": "Person",
+            "_label": "Ben Isquith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4681",
+            "type": "Person",
+            "_label": "Milton Resnick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60612",
+            "type": "Person",
+            "_label": "Charlotte Park"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4257",
+            "type": "Person",
+            "_label": "George Ortman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60611",
+            "type": "Person",
+            "_label": "Howard Kanovitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60610",
+            "type": "Person",
+            "_label": "Laura Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60609",
+            "type": "Person",
+            "_label": "Nanno De Groot"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,101 +1,99 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/429",
+  "id": "http://linkedart.example.com/exhibition/429",
   "type": "Activity",
   "_label": "Music and Musicians",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Music and Musicians",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Music and Musicians",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1947-16-12",
     "end_of_the_end": "1948-23-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3169",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4758",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3169",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4023",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26510",
-              "type": "Person",
-              "_label": "W. Eugene Smith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26511",
-              "type": "Person",
-              "_label": "Gjon Mili"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26512",
-              "type": "Person",
-              "_label": "Yousuf Karsh"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26513",
-              "type": "Person",
-              "_label": "Adrian Siegel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26514",
-              "type": "Person",
-              "_label": "Fred Plaut"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26515",
-              "type": "Person",
-              "_label": "Philippe Halsman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4024",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26516",
-              "type": "Person",
-              "_label": "Edward Steichen"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4758",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4758",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6382",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5282",
+            "type": "Person",
+            "_label": "W. Eugene Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3822",
+            "type": "Person",
+            "_label": "Gjon Mili"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2880",
+            "type": "Person",
+            "_label": "Yousuf Karsh"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12673",
+            "type": "Person",
+            "_label": "Adrian Siegel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27891",
+            "type": "Person",
+            "_label": "Fred Plaut"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2372",
+            "type": "Person",
+            "_label": "Philippe Halsman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6383",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5402",
+            "type": "Person",
+            "_label": "Edward Steichen"
+          }
+        ]
+      }
+    ]
+  }
 }

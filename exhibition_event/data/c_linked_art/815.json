@@ -1,82 +1,80 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/815",
+  "id": "http://linkedart.example.com/exhibition/815",
   "type": "Activity",
   "_label": "Fallingwater: A Frank Lloyd Wright House Revisited",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Fallingwater: A Frank Lloyd Wright House Revisited",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Fallingwater: A Frank Lloyd Wright House Revisited",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1963-1-11",
     "end_of_the_end": "1963-1-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3968",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6884",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3968",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5306",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40954",
-              "type": "Person",
-              "_label": "Ezra Stoller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/40955",
-              "type": "Person",
-              "_label": "Frank Lloyd Wright"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5307",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40956",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6884",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6884",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9044",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5453",
+            "type": "Person",
+            "_label": "Ezra Stoller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6167",
+            "type": "Person",
+            "_label": "Frank Lloyd Wright"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9045",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

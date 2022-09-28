@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/703",
+  "id": "http://linkedart.example.com/exhibition/703",
   "type": "Activity",
   "_label": "Jean Arp: A Retrospective",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Jean Arp: A Retrospective",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Jean Arp: A Retrospective",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1958-8-10",
     "end_of_the_end": "1958-30-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3679",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6561",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3679",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4823",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36546",
-              "type": "Person",
-              "_label": "René d'Harnoncourt"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4824",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36547",
-              "type": "Person",
-              "_label": "James Thrall Soby"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4825",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36548",
-              "type": "Person",
-              "_label": "Jean (Hans) Arp"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6561",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6561",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8509",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/9327",
+            "type": "Person",
+            "_label": "René d'Harnoncourt"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8510",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27155",
+            "type": "Person",
+            "_label": "James Thrall Soby"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8511",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/11",
+            "type": "Person",
+            "_label": "Jean (Hans) Arp"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63313",
+  "type": "Person",
+  "_label": "Marvin Torffield",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/41402",
+      "type": "Name",
+      "_label": "Marvin Torffield"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/41403",
+      "type": "Name",
+      "_label": "Torffield Marvin"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20701",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41402",
+      "type": "TimeSpan",
+      "_label": "Marvin Torffield Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20701",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41403",
+      "type": "TimeSpan",
+      "_label": "Marvin Torffield Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20701",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20701",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/6727",
+              "type": "Event",
+              "_label": "Marvin Torffield",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-20-12 - 1974-17-1",
+                "begin_of_the_begin": "1973-20-12",
+                "end_of_the_end": "1974-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71586",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - Sculpture Court",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

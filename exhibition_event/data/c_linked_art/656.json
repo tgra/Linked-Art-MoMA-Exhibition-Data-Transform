@@ -1,202 +1,200 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/656",
+  "id": "http://linkedart.example.com/exhibition/656",
   "type": "Activity",
   "_label": "Glass from the Museum of Modern Art Collection",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Glass from the Museum of Modern Art Collection",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Glass from the Museum of Modern Art Collection",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1955-25-10",
     "end_of_the_end": "1956-8-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3626",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6043",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3626",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4709",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35457",
-              "type": "Person",
-              "_label": "Adolph Loos"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35458",
-              "type": "Person",
-              "_label": "Vera Lisková"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35459",
-              "type": "Person",
-              "_label": "Stephan Rath"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35460",
-              "type": "Person",
-              "_label": "Rene Lalique"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35461",
-              "type": "Person",
-              "_label": "Kosta Glasbruk, Sweden"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35462",
-              "type": "Person",
-              "_label": "Wärtsilä-Koncernen AB, Notsjö Glasbruk, Finland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35463",
-              "type": "Person",
-              "_label": "Karhula Glassworks, Finland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35464",
-              "type": "Person",
-              "_label": "Artek, Finland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35465",
-              "type": "Person",
-              "_label": "Venini & Co., Murano, Italy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35466",
-              "type": "Person",
-              "_label": "Louis Comfort Tiffany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35467",
-              "type": "Person",
-              "_label": "Scott Wilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35468",
-              "type": "Person",
-              "_label": "The Lancaster Lens Co., Lancaster, OH"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35469",
-              "type": "Person",
-              "_label": "Paolo Venini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35470",
-              "type": "Person",
-              "_label": "Württembergische Metallwarenfabrik, Geislingen, Germany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35471",
-              "type": "Person",
-              "_label": "Eimer & Amend, New York, NY"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35472",
-              "type": "Person",
-              "_label": "Wilhelm Wagenfeld"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35473",
-              "type": "Person",
-              "_label": "Jenaer Glaswerk Schott & Gen., Mainz, Germany"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35474",
-              "type": "Person",
-              "_label": "Frederick Carder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35475",
-              "type": "Person",
-              "_label": "J. & L. Lobmeyr, Vienna"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35476",
-              "type": "Person",
-              "_label": "Leerdam Glass Factory"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35477",
-              "type": "Person",
-              "_label": "Josef Hoffmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35478",
-              "type": "Person",
-              "_label": "Alvar Aalto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35479",
-              "type": "Person",
-              "_label": "Corning Glass Works"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35480",
-              "type": "Person",
-              "_label": "Kaj Franck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35481",
-              "type": "Person",
-              "_label": "Göran Hongell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35482",
-              "type": "Person",
-              "_label": "Hagbard Elis Bergh"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4710",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35483",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6043",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6043",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7927",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3445",
+            "type": "Person",
+            "_label": "Adolph Loos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3418",
+            "type": "Person",
+            "_label": "Vera Lisková"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4628",
+            "type": "Person",
+            "_label": "Stephan Rath"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3205",
+            "type": "Person",
+            "_label": "Rene Lalique"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8665",
+            "type": "Person",
+            "_label": "Kosta Glasbruk, Sweden"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8794",
+            "type": "Person",
+            "_label": "Wärtsilä-Koncernen AB, Notsjö Glasbruk, Finland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8752",
+            "type": "Person",
+            "_label": "Karhula Glassworks, Finland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/9149",
+            "type": "Person",
+            "_label": "Artek, Finland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8380",
+            "type": "Person",
+            "_label": "Venini & Co., Murano, Italy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5647",
+            "type": "Person",
+            "_label": "Louis Comfort Tiffany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6102",
+            "type": "Person",
+            "_label": "Scott Wilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8991",
+            "type": "Person",
+            "_label": "The Lancaster Lens Co., Lancaster, OH"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5857",
+            "type": "Person",
+            "_label": "Paolo Venini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8521",
+            "type": "Person",
+            "_label": "Württembergische Metallwarenfabrik, Geislingen, Germany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8515",
+            "type": "Person",
+            "_label": "Eimer & Amend, New York, NY"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5930",
+            "type": "Person",
+            "_label": "Wilhelm Wagenfeld"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8989",
+            "type": "Person",
+            "_label": "Jenaer Glaswerk Schott & Gen., Mainz, Germany"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8032",
+            "type": "Person",
+            "_label": "Frederick Carder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8583",
+            "type": "Person",
+            "_label": "J. & L. Lobmeyr, Vienna"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31597",
+            "type": "Person",
+            "_label": "Leerdam Glass Factory"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2584",
+            "type": "Person",
+            "_label": "Josef Hoffmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33",
+            "type": "Person",
+            "_label": "Alvar Aalto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1191",
+            "type": "Person",
+            "_label": "Corning Glass Works"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1887",
+            "type": "Person",
+            "_label": "Kaj Franck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2609",
+            "type": "Person",
+            "_label": "Göran Hongell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/470",
+            "type": "Person",
+            "_label": "Hagbard Elis Bergh"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7928",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

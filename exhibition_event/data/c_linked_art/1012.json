@@ -1,112 +1,110 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/1012",
+  "id": "http://linkedart.example.com/exhibition/1012",
   "type": "Activity",
   "_label": "Recent Acquisitions: Painting and Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Acquisitions: Painting and Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Acquisitions: Painting and Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1969-5-9",
     "end_of_the_end": "1969-11-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/16",
-      "type": "Place",
-      "_label": "Main Hall and Sculpture Garden, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/16",
+    "type": "Place",
+    "_label": "Main Hall and Sculpture Garden, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/16",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/27",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/351",
-              "type": "Person",
-              "_label": "Jules Olitski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/352",
-              "type": "Person",
-              "_label": "Phillip King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/353",
-              "type": "Person",
-              "_label": "William Tucker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/354",
-              "type": "Person",
-              "_label": "Ellsworth Kelly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/355",
-              "type": "Person",
-              "_label": "Cy Twombly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/356",
-              "type": "Person",
-              "_label": "Donald Judd"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/357",
-              "type": "Person",
-              "_label": "Sam Francis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/358",
-              "type": "Person",
-              "_label": "Anthony Caro"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/28",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/359",
-              "type": "Person",
-              "_label": "William C. Agee"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/16",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/16",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/27",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4226",
+            "type": "Person",
+            "_label": "Jules Olitski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2976",
+            "type": "Person",
+            "_label": "Phillip King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5731",
+            "type": "Person",
+            "_label": "William Tucker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27038",
+            "type": "Person",
+            "_label": "Ellsworth Kelly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5756",
+            "type": "Person",
+            "_label": "Cy Twombly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2823",
+            "type": "Person",
+            "_label": "Donald Judd"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1884",
+            "type": "Person",
+            "_label": "Sam Francis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/944",
+            "type": "Person",
+            "_label": "Anthony Caro"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/28",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26883",
+            "type": "Person",
+            "_label": "William C. Agee"
+          }
+        ]
+      }
+    ]
+  }
 }

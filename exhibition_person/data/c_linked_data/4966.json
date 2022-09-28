@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4966",
+  "type": "Person",
+  "_label": "Enrico Sarsini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/28686",
+      "type": "Name",
+      "_label": "Enrico Sarsini"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/28687",
+      "type": "Name",
+      "_label": "Sarsini Enrico"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500466229",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3726056",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3726056",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7006",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born1938"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14343",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28686",
+      "type": "TimeSpan",
+      "_label": "Enrico Sarsini Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14343",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28687",
+      "type": "TimeSpan",
+      "_label": "Enrico Sarsini Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14343",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14343",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/821",
+              "type": "Event",
+              "_label": "Edward Steichen Photography Center",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-27-5 - ",
+                "begin_of_the_begin": "1964-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53517",
+                  "type": "Place",
+                  "_label": "Photography Center, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

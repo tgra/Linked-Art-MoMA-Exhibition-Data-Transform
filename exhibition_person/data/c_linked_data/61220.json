@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61220",
+  "type": "Person",
+  "_label": "Leo Bates",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/39774",
+      "type": "Name",
+      "_label": "Leo Bates"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/39775",
+      "type": "Name",
+      "_label": "Bates Leo"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/19887",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39774",
+      "type": "TimeSpan",
+      "_label": "Leo Bates Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/19887",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/39775",
+      "type": "TimeSpan",
+      "_label": "Leo Bates Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/19887",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/19887",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4735",
+              "type": "Event",
+              "_label": "Leo Bates: Paintings and Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-2-6 - 1973-15-6",
+                "begin_of_the_begin": "1973-2-6",
+                "end_of_the_end": "1973-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/69440",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32783",
+  "type": "Person",
+  "_label": "Acton Bjørn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23346",
+      "type": "Name",
+      "_label": "Acton Bjørn"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23347",
+      "type": "Name",
+      "_label": "Bjørn Acton"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q2447807",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q2447807",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11673",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23346",
+      "type": "TimeSpan",
+      "_label": "Acton Bjørn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11673",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23347",
+      "type": "TimeSpan",
+      "_label": "Acton Bjørn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11673",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11673",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1368",
+              "type": "Event",
+              "_label": "Bang & Olufsen: Design for Sound by Jakob Jensen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-14-4 - 1978-18-6",
+                "begin_of_the_begin": "1978-14-4",
+                "end_of_the_end": "1978-18-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37396",
+                  "type": "Place",
+                  "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/22000",
+  "id": "http://linkedart.example.com/exhibition/22000",
   "type": "Activity",
   "_label": "Three Photographers: The Body",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Three Photographers: The Body",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Three Photographers: The Body",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-12-12",
     "end_of_the_end": "1987-15-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1304",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2404",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1304",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1990",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10536",
-              "type": "Person",
-              "_label": "Dorit Cypis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10537",
-              "type": "Person",
-              "_label": "Monique Safford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10538",
-              "type": "Person",
-              "_label": "Lorna Simpson"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1991",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10539",
-              "type": "Person",
-              "_label": "William Olander"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2404",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2404",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3799",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/58467",
+            "type": "Person",
+            "_label": "Dorit Cypis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66057",
+            "type": "Person",
+            "_label": "Monique Safford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6307",
+            "type": "Person",
+            "_label": "Lorna Simpson"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3800",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/62588",
+            "type": "Person",
+            "_label": "William Olander"
+          }
+        ]
+      }
+    ]
+  }
 }

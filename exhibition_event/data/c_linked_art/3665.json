@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3665",
+  "id": "http://linkedart.example.com/exhibition/3665",
   "type": "Activity",
   "_label": "Criminal Proceedings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Criminal Proceedings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Criminal Proceedings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-30-9",
     "end_of_the_end": "1981-31-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2496",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4085",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2496",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3302",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22061",
-              "type": "Person",
-              "_label": "Joseph Papin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22062",
-              "type": "Person",
-              "_label": "Richard Tomlinson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22063",
-              "type": "Person",
-              "_label": "Christine Cornell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22064",
-              "type": "Person",
-              "_label": "Aggie Whelan Kennie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22065",
-              "type": "Person",
-              "_label": "Aura Rosenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22066",
-              "type": "Person",
-              "_label": "Marilyn Church"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22067",
-              "type": "Person",
-              "_label": "Tom Christopher"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4085",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4085",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5661",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57219",
+            "type": "Person",
+            "_label": "Joseph Papin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57300",
+            "type": "Person",
+            "_label": "Richard Tomlinson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57060",
+            "type": "Person",
+            "_label": "Christine Cornell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57301",
+            "type": "Person",
+            "_label": "Aggie Whelan Kennie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56811",
+            "type": "Person",
+            "_label": "Aura Rosenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58743",
+            "type": "Person",
+            "_label": "Marilyn Church"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57050",
+            "type": "Person",
+            "_label": "Tom Christopher"
+          }
+        ]
+      }
+    ]
+  }
 }

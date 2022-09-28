@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5044",
+  "type": "Person",
+  "_label": "Gérard Schneider",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/28824",
+      "type": "Name",
+      "_label": "Gérard Schneider"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/28825",
+      "type": "Name",
+      "_label": "Schneider Gérard"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500032273",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q118431",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q118431",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7067",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1896–1986"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14412",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28824",
+      "type": "TimeSpan",
+      "_label": "Gérard Schneider Birth timespan",
+      "begin_of_the_begin": "1896",
+      "end_of_the_end": "1896"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14412",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28825",
+      "type": "TimeSpan",
+      "_label": "Gérard Schneider Death timespan",
+      "begin_of_the_begin": "1986",
+      "end_of_the_end": "1986"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14412",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14412",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/679",
+              "type": "Event",
+              "_label": "Recent European Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-28-11 - 1957-20-1",
+                "begin_of_the_begin": "1956-28-11",
+                "end_of_the_end": "1957-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/54002",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

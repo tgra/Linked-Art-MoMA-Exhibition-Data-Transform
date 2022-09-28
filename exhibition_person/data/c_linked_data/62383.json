@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/62383",
+  "type": "Person",
+  "_label": "Tom Martinelli",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/40668",
+      "type": "Name",
+      "_label": "Tom Martinelli"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/40669",
+      "type": "Name",
+      "_label": "Martinelli Tom"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20334",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40668",
+      "type": "TimeSpan",
+      "_label": "Tom Martinelli Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20334",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40669",
+      "type": "TimeSpan",
+      "_label": "Tom Martinelli Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20334",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20334",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4957",
+              "type": "Event",
+              "_label": "Update 1991",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-6-10",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70454",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

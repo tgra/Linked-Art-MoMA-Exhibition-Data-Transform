@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/997",
+  "type": "Person",
+  "_label": "Bob Cato",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/53440",
+      "type": "Name",
+      "_label": "Bob Cato"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/53441",
+      "type": "Name",
+      "_label": "Cato Bob"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500043249",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q4932037",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q4932037",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/9563",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown, born 1923"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26720",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53440",
+      "type": "TimeSpan",
+      "_label": "Bob Cato Birth timespan",
+      "begin_of_the_begin": "1923",
+      "end_of_the_end": "1923"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26720",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53441",
+      "type": "TimeSpan",
+      "_label": "Bob Cato Death timespan",
+      "begin_of_the_begin": "1999",
+      "end_of_the_end": "1999"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26720",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26720",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1049",
+              "type": "Event",
+              "_label": "Graphics 1: New Dimensions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-25-6 - 1970-15-11",
+                "begin_of_the_begin": "1970-25-6",
+                "end_of_the_end": "1970-15-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87889",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

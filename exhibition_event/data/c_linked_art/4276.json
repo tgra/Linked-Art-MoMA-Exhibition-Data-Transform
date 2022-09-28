@@ -1,120 +1,118 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4276",
+  "id": "http://linkedart.example.com/exhibition/4276",
   "type": "Activity",
   "_label": "Soft Sites",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Soft Sites",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Soft Sites",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2006-21-4",
     "end_of_the_end": "2006-31-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3154",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4743",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3154",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4007",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26447",
-              "type": "Person",
-              "_label": "Soledad Arias"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26448",
-              "type": "Person",
-              "_label": "McKendree Key"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26449",
-              "type": "Person",
-              "_label": "Seung Young Kim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26450",
-              "type": "Person",
-              "_label": "Peter Dudek"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26451",
-              "type": "Person",
-              "_label": "Katie Holten"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26452",
-              "type": "Person",
-              "_label": "Jane Benson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26453",
-              "type": "Person",
-              "_label": "Hironori Murai"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26454",
-              "type": "Person",
-              "_label": "Sebastián Romo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26455",
-              "type": "Person",
-              "_label": "Lieven de Boeck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26456",
-              "type": "Person",
-              "_label": "Laura Carton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26457",
-              "type": "Person",
-              "_label": "Mary Ellen Carroll"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26458",
-              "type": "Person",
-              "_label": "Katrin Sigurdardottir"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4743",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4743",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6366",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60879",
+            "type": "Person",
+            "_label": "Soledad Arias"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60090",
+            "type": "Person",
+            "_label": "McKendree Key"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60884",
+            "type": "Person",
+            "_label": "Seung Young Kim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60882",
+            "type": "Person",
+            "_label": "Peter Dudek"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60883",
+            "type": "Person",
+            "_label": "Katie Holten"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58057",
+            "type": "Person",
+            "_label": "Jane Benson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56834",
+            "type": "Person",
+            "_label": "Hironori Murai"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60885",
+            "type": "Person",
+            "_label": "Sebastián Romo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60881",
+            "type": "Person",
+            "_label": "Lieven de Boeck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60880",
+            "type": "Person",
+            "_label": "Laura Carton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60246",
+            "type": "Person",
+            "_label": "Mary Ellen Carroll"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60886",
+            "type": "Person",
+            "_label": "Katrin Sigurdardottir"
+          }
+        ]
+      }
+    ]
+  }
 }

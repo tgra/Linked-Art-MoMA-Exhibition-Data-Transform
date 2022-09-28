@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17021",
+  "id": "http://linkedart.example.com/exhibition/17021",
   "type": "Activity",
   "_label": "Pictures from the Moon: Artists’ Holograms 1969–2008",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Pictures from the Moon: Artists’ Holograms 1969–2008",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Pictures from the Moon: Artists’ Holograms 1969–2008",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2012-5-7",
     "end_of_the_end": "2012-30-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/245",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/847",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/245",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/450",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4132",
-              "type": "Person",
-              "_label": "Bruce Nauman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4133",
-              "type": "Person",
-              "_label": "James Turrell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4134",
-              "type": "Person",
-              "_label": "Chuck Close"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4135",
-              "type": "Person",
-              "_label": "Eric Orr"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4136",
-              "type": "Person",
-              "_label": "Ed Ruscha"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4137",
-              "type": "Person",
-              "_label": "Louise Bourgeois"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/451",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4138",
-              "type": "Person",
-              "_label": "Jenny Moore"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/847",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/847",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1551",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4075",
+            "type": "Person",
+            "_label": "Bruce Nauman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5749",
+            "type": "Person",
+            "_label": "James Turrell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26929",
+            "type": "Person",
+            "_label": "Chuck Close"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56836",
+            "type": "Person",
+            "_label": "Eric Orr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64476",
+            "type": "Person",
+            "_label": "Ed Ruscha"
+          },
+          {
+            "id": "http://linkedart.example.com/person/680",
+            "type": "Person",
+            "_label": "Louise Bourgeois"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1552",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65119",
+            "type": "Person",
+            "_label": "Jenny Moore"
+          }
+        ]
+      }
+    ]
+  }
 }

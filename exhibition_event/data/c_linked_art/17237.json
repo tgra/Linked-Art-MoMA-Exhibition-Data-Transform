@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17237",
+  "id": "http://linkedart.example.com/exhibition/17237",
   "type": "Activity",
   "_label": "Earl Staley: 1973 – 1983",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Earl Staley: 1973 – 1983",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Earl Staley: 1973 – 1983",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1984-31-3",
     "end_of_the_end": "1984-20-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/463",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1086",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/463",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/921",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6378",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/922",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6379",
-              "type": "Person",
-              "_label": "Linda L. Cathcart"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/923",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6380",
-              "type": "Person",
-              "_label": "Earl Staley"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1086",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1086",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2060",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2061",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/50356",
+            "type": "Person",
+            "_label": "Linda L. Cathcart"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2062",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57459",
+            "type": "Person",
+            "_label": "Earl Staley"
+          }
+        ]
+      }
+    ]
+  }
 }

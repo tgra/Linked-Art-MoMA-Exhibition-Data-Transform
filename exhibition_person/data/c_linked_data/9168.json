@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/9168",
+  "type": "Person",
+  "_label": "Smith Metal Arts, Buffalo, NY",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/53036",
+      "type": "Name",
+      "_label": "Smith Metal Arts, Buffalo, NY"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/53037",
+      "type": "Name",
+      "_label": "Smith Metal Arts"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/26518",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53036",
+      "type": "TimeSpan",
+      "_label": "Smith Metal Arts, Buffalo, NY Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/26518",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/53037",
+      "type": "TimeSpan",
+      "_label": "Smith Metal Arts, Buffalo, NY Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/26518",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/26518",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/752",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-21-12 - 1961-5-2",
+                "begin_of_the_begin": "1960-21-12",
+                "end_of_the_end": "1961-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/87063",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

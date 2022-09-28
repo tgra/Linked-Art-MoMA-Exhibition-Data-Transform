@@ -1,84 +1,82 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18589",
+  "id": "http://linkedart.example.com/exhibition/18589",
   "type": "Activity",
   "_label": "The Absolutely Other",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Absolutely Other",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Absolutely Other",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2010-25-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/995",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1753",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/995",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1512",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8583",
-              "type": "Person",
-              "_label": "Hope Hamilton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8584",
-              "type": "Person",
-              "_label": "Daniel Bozhkov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8585",
-              "type": "Person",
-              "_label": "Einat Amir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8586",
-              "type": "Person",
-              "_label": "Nancy Hwang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8587",
-              "type": "Person",
-              "_label": "Xavier Cha"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1753",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1753",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2858",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67296",
+            "type": "Person",
+            "_label": "Hope Hamilton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58582",
+            "type": "Person",
+            "_label": "Daniel Bozhkov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67624",
+            "type": "Person",
+            "_label": "Einat Amir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57516",
+            "type": "Person",
+            "_label": "Nancy Hwang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67181",
+            "type": "Person",
+            "_label": "Xavier Cha"
+          }
+        ]
+      }
+    ]
+  }
 }

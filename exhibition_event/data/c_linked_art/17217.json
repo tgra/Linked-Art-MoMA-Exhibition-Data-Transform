@@ -1,97 +1,95 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17217",
+  "id": "http://linkedart.example.com/exhibition/17217",
   "type": "Activity",
   "_label": "Five from Minnesota",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Five from Minnesota",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Five from Minnesota",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1985-21-9",
     "end_of_the_end": "1985-10-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/443",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1064",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/443",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/888",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6279",
-              "type": "Person",
-              "_label": "Audrey Glassman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6280",
-              "type": "Person",
-              "_label": "Doug Argue"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6281",
-              "type": "Person",
-              "_label": "Remo Campopiano"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6282",
-              "type": "Person",
-              "_label": "Robert Murphy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6283",
-              "type": "Person",
-              "_label": "Timothy Darr"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/889",
-          "type": "Set",
-          "_label": "OrgInstitution",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6284",
-              "type": "Person",
-              "_label": "Minneapolis College of Art and Design"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1064",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1064",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2023",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63873",
+            "type": "Person",
+            "_label": "Audrey Glassman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64451",
+            "type": "Person",
+            "_label": "Doug Argue"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66435",
+            "type": "Person",
+            "_label": "Remo Campopiano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66523",
+            "type": "Person",
+            "_label": "Robert Murphy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66973",
+            "type": "Person",
+            "_label": "Timothy Darr"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2024",
+        "type": "Set",
+        "_label": "OrgInstitution",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/46429",
+            "type": "Person",
+            "_label": "Minneapolis College of Art and Design"
+          }
+        ]
+      }
+    ]
+  }
 }

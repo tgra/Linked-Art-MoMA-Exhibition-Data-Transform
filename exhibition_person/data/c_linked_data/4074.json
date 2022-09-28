@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4074",
+  "type": "Person",
+  "_label": "Heinrich Nauen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/27120",
+      "type": "Name",
+      "_label": "Heinrich Nauen"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/27121",
+      "type": "Name",
+      "_label": "Nauen Heinrich"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500004670",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q461828",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q461828",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6308",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1880–1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13560",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27120",
+      "type": "TimeSpan",
+      "_label": "Heinrich Nauen Birth timespan",
+      "begin_of_the_begin": "1880",
+      "end_of_the_end": "1880"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13560",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27121",
+      "type": "TimeSpan",
+      "_label": "Heinrich Nauen Death timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13560",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13560",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1808",
+              "type": "Event",
+              "_label": "Still Life Into Object",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-22-11 - 1991-19-3",
+                "begin_of_the_begin": "1990-22-11",
+                "end_of_the_end": "1991-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/46206",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

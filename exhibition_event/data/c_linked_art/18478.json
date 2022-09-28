@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18478",
+  "id": "http://linkedart.example.com/exhibition/18478",
   "type": "Activity",
   "_label": "PERSUASION(S)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "PERSUASION(S)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "PERSUASION(S)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1983-14-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/884",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1631",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/884",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1401",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8277",
-              "type": "Person",
-              "_label": "Anthony Silvestrini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8278",
-              "type": "Person",
-              "_label": "Dennis Adams"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8279",
-              "type": "Person",
-              "_label": "Doug Ashford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8280",
-              "type": "Person",
-              "_label": "Greg Sholette"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8281",
-              "type": "Person",
-              "_label": "Jenny Holzer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8282",
-              "type": "Person",
-              "_label": "Joseph Beirne"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1631",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1631",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2731",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67528",
+            "type": "Person",
+            "_label": "Anthony Silvestrini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63",
+            "type": "Person",
+            "_label": "Dennis Adams"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64452",
+            "type": "Person",
+            "_label": "Doug Ashford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67276",
+            "type": "Person",
+            "_label": "Greg Sholette"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2604",
+            "type": "Person",
+            "_label": "Jenny Holzer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67349",
+            "type": "Person",
+            "_label": "Joseph Beirne"
+          }
+        ]
+      }
+    ]
+  }
 }

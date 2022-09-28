@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1800",
+  "type": "Person",
+  "_label": "Vittorio Fiorucci",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3596",
+      "type": "Name",
+      "_label": "Vittorio Fiorucci"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/3597",
+      "type": "Name",
+      "_label": "Fiorucci Vittorio"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500066008",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3561364",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3561364",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1534",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian, born Italy 1931"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1798",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3596",
+      "type": "TimeSpan",
+      "_label": "Vittorio Fiorucci Birth timespan",
+      "begin_of_the_begin": "1931",
+      "end_of_the_end": "1931"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1798",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3597",
+      "type": "TimeSpan",
+      "_label": "Vittorio Fiorucci Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1798",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1798",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1089",
+              "type": "Event",
+              "_label": "The Artist as Adversary",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-1-7 - 1971-27-9",
+                "begin_of_the_begin": "1971-1-7",
+                "end_of_the_end": "1971-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9104",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

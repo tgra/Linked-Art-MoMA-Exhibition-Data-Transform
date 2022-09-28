@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3199",
+  "type": "Person",
+  "_label": "Massimo Lagostina",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21636",
+      "type": "Name",
+      "_label": "Massimo Lagostina"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/21637",
+      "type": "Name",
+      "_label": "Lagostina Massimo"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500465394",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q55219183",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q55219183",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5313",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1908"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10818",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21636",
+      "type": "TimeSpan",
+      "_label": "Massimo Lagostina Birth timespan",
+      "begin_of_the_begin": "1908",
+      "end_of_the_end": "1908"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10818",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21637",
+      "type": "TimeSpan",
+      "_label": "Massimo Lagostina Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10818",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10818",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/709",
+              "type": "Event",
+              "_label": "20th Century Design from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-17-12 - 1959-23-2",
+                "begin_of_the_begin": "1958-17-12",
+                "end_of_the_end": "1959-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35738",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

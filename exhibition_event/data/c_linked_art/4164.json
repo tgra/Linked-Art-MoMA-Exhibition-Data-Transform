@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4164",
+  "id": "http://linkedart.example.com/exhibition/4164",
   "type": "Activity",
   "_label": "Pieces & Performances",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Pieces & Performances",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Pieces & Performances",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1975-8-12",
     "end_of_the_end": "1975-5-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3030",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4619",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3030",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3872",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25317",
-              "type": "Person",
-              "_label": "The Bird and the Dirt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25318",
-              "type": "Person",
-              "_label": "Ann Wilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25319",
-              "type": "Person",
-              "_label": "Jared Bark"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25320",
-              "type": "Person",
-              "_label": "Jonas dos Santos"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4619",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4619",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6231",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60587",
+            "type": "Person",
+            "_label": "The Bird and the Dirt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32728",
+            "type": "Person",
+            "_label": "Ann Wilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32777",
+            "type": "Person",
+            "_label": "Jared Bark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60662",
+            "type": "Person",
+            "_label": "Jonas dos Santos"
+          }
+        ]
+      }
+    ]
+  }
 }

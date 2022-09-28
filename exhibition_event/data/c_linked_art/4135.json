@@ -1,120 +1,118 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4135",
+  "id": "http://linkedart.example.com/exhibition/4135",
   "type": "Activity",
   "_label": "Street Sights 2",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Street Sights 2",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Street Sights 2",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-15-4",
     "end_of_the_end": "1981-10-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2998",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4587",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2998",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3838",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24912",
-              "type": "Person",
-              "_label": "Harvey Finkle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24913",
-              "type": "Person",
-              "_label": "Frances Storey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24914",
-              "type": "Person",
-              "_label": "Laurence Salzmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24915",
-              "type": "Person",
-              "_label": "Pat Lasch"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24916",
-              "type": "Person",
-              "_label": "Thomas Lanigan-Schmidt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24917",
-              "type": "Person",
-              "_label": "Elliot Kaufman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24918",
-              "type": "Person",
-              "_label": "Lynn Hershman Leeson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24919",
-              "type": "Person",
-              "_label": "Nancy Hellebrand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24920",
-              "type": "Person",
-              "_label": "Dan Graham"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24921",
-              "type": "Person",
-              "_label": "Brad Davis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24922",
-              "type": "Person",
-              "_label": "Laurie Anderson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24923",
-              "type": "Person",
-              "_label": "Lynda Benglis"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4587",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4587",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6197",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60681",
+            "type": "Person",
+            "_label": "Harvey Finkle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60684",
+            "type": "Person",
+            "_label": "Frances Storey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60683",
+            "type": "Person",
+            "_label": "Laurence Salzmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3252",
+            "type": "Person",
+            "_label": "Pat Lasch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25968",
+            "type": "Person",
+            "_label": "Thomas Lanigan-Schmidt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60682",
+            "type": "Person",
+            "_label": "Elliot Kaufman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23936",
+            "type": "Person",
+            "_label": "Lynn Hershman Leeson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2484",
+            "type": "Person",
+            "_label": "Nancy Hellebrand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2190",
+            "type": "Person",
+            "_label": "Dan Graham"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1338",
+            "type": "Person",
+            "_label": "Brad Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6510",
+            "type": "Person",
+            "_label": "Laurie Anderson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/447",
+            "type": "Person",
+            "_label": "Lynda Benglis"
+          }
+        ]
+      }
+    ]
+  }
 }

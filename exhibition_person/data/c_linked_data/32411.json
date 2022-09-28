@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32411",
+  "type": "Person",
+  "_label": "Harold Allen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22550",
+      "type": "Name",
+      "_label": "Harold Allen"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22551",
+      "type": "Name",
+      "_label": "Allen Harold"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11275",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22550",
+      "type": "TimeSpan",
+      "_label": "Harold Allen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11275",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22551",
+      "type": "TimeSpan",
+      "_label": "Harold Allen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11275",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11275",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1325",
+              "type": "Event",
+              "_label": "Courthouse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-12-4 - 1977-10-7",
+                "begin_of_the_begin": "1977-12-4",
+                "end_of_the_end": "1977-10-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36463",
+                  "type": "Place",
+                  "_label": "Steichen Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

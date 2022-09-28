@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/976",
+  "id": "http://linkedart.example.com/exhibition/976",
   "type": "Activity",
   "_label": "Jean Dubuffet at the Museum of Modern Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Jean Dubuffet at the Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Jean Dubuffet at the Museum of Modern Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1968-2-10",
     "end_of_the_end": "1968-27-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4134",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/7062",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4134",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5613",
-          "type": "Set",
-          "_label": "Assistant Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44559",
-              "type": "Person",
-              "_label": "Virginia Allen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44560",
-              "type": "Person",
-              "_label": "Riva Castleman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5614",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44561",
-              "type": "Person",
-              "_label": "William S. Lieberman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5615",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44562",
-              "type": "Person",
-              "_label": "Jean Dubuffet"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/7062",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/7062",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9372",
+        "type": "Set",
+        "_label": "Assistant Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26885",
+            "type": "Person",
+            "_label": "Virginia Allen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26923",
+            "type": "Person",
+            "_label": "Riva Castleman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9373",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/9022",
+            "type": "Person",
+            "_label": "William S. Lieberman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9374",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1558",
+            "type": "Person",
+            "_label": "Jean Dubuffet"
+          }
+        ]
+      }
+    ]
+  }
 }

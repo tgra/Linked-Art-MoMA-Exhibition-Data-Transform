@@ -1,242 +1,240 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/254",
+  "id": "http://linkedart.example.com/exhibition/254",
   "type": "Activity",
   "_label": "Art from Fighting China",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Art from Fighting China",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Art from Fighting China",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1942-11-11",
     "end_of_the_end": "1942-27-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1377",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2816",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1377",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2103",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11187",
-              "type": "Person",
-              "_label": "Pao Ch'i-chuan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11188",
-              "type": "Person",
-              "_label": "Lu Chu Chuan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11189",
-              "type": "Person",
-              "_label": "Wang Chi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11190",
-              "type": "Person",
-              "_label": "Wang Chi Chow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11191",
-              "type": "Person",
-              "_label": "Liu Te Hua"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11192",
-              "type": "Person",
-              "_label": "Wu Zuoren"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11193",
-              "type": "Person",
-              "_label": "Lee Chih-Keng"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11194",
-              "type": "Person",
-              "_label": "Chang Shih Min"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11195",
-              "type": "Person",
-              "_label": "Shih Jen-Yu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11196",
-              "type": "Person",
-              "_label": "Yu Yuen-Kei"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11197",
-              "type": "Person",
-              "_label": "Lu Szu-Pai"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11198",
-              "type": "Person",
-              "_label": "Chang Shuhong"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11199",
-              "type": "Person",
-              "_label": "Chen Xiaonan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11200",
-              "type": "Person",
-              "_label": "Chin Yu-Chang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11201",
-              "type": "Person",
-              "_label": "Wu Ting-I"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11202",
-              "type": "Person",
-              "_label": "Liang Chung-Ming"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11203",
-              "type": "Person",
-              "_label": "Tung Ch'i-Hsiang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11204",
-              "type": "Person",
-              "_label": "Tzu-I (Tsehye)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11205",
-              "type": "Person",
-              "_label": "Huang Yanghui"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11206",
-              "type": "Person",
-              "_label": "Chang Wen-Yuan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11207",
-              "type": "Person",
-              "_label": "Lung Ting Pa"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11208",
-              "type": "Person",
-              "_label": "Zhang Anzhi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11209",
-              "type": "Person",
-              "_label": "Ya Fu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11210",
-              "type": "Person",
-              "_label": "Huang Junbi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11211",
-              "type": "Person",
-              "_label": "Lui I-Szu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11212",
-              "type": "Person",
-              "_label": "Yang Lung Sheng"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11213",
-              "type": "Person",
-              "_label": "Ta Hai Sung"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11214",
-              "type": "Person",
-              "_label": "Liu Leng"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11215",
-              "type": "Person",
-              "_label": "Hsu Yun Pao"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11216",
-              "type": "Person",
-              "_label": "Hua Lai"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11217",
-              "type": "Person",
-              "_label": "Lo Shou Yu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11218",
-              "type": "Person",
-              "_label": "Hsieh Tze Wen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11219",
-              "type": "Person",
-              "_label": "Chia Kan Tsing"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11220",
-              "type": "Person",
-              "_label": "Cheng Sha Ping"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2104",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11221",
-              "type": "Person",
-              "_label": "Chang Tao-fan"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2816",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2816",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4307",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4305",
+            "type": "Person",
+            "_label": "Pao Ch'i-chuan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3466",
+            "type": "Person",
+            "_label": "Lu Chu Chuan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31649",
+            "type": "Person",
+            "_label": "Wang Chi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31648",
+            "type": "Person",
+            "_label": "Wang Chi Chow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31647",
+            "type": "Person",
+            "_label": "Liu Te Hua"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31629",
+            "type": "Person",
+            "_label": "Wu Zuoren"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31646",
+            "type": "Person",
+            "_label": "Lee Chih-Keng"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31645",
+            "type": "Person",
+            "_label": "Chang Shih Min"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31644",
+            "type": "Person",
+            "_label": "Shih Jen-Yu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31643",
+            "type": "Person",
+            "_label": "Yu Yuen-Kei"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31630",
+            "type": "Person",
+            "_label": "Lu Szu-Pai"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31631",
+            "type": "Person",
+            "_label": "Chang Shuhong"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31642",
+            "type": "Person",
+            "_label": "Chen Xiaonan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31638",
+            "type": "Person",
+            "_label": "Chin Yu-Chang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31641",
+            "type": "Person",
+            "_label": "Wu Ting-I"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31640",
+            "type": "Person",
+            "_label": "Liang Chung-Ming"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31633",
+            "type": "Person",
+            "_label": "Tung Ch'i-Hsiang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31634",
+            "type": "Person",
+            "_label": "Tzu-I (Tsehye)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31635",
+            "type": "Person",
+            "_label": "Huang Yanghui"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31636",
+            "type": "Person",
+            "_label": "Chang Wen-Yuan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31650",
+            "type": "Person",
+            "_label": "Lung Ting Pa"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31637",
+            "type": "Person",
+            "_label": "Zhang Anzhi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31651",
+            "type": "Person",
+            "_label": "Ya Fu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31639",
+            "type": "Person",
+            "_label": "Huang Junbi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31632",
+            "type": "Person",
+            "_label": "Lui I-Szu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31674",
+            "type": "Person",
+            "_label": "Yang Lung Sheng"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31667",
+            "type": "Person",
+            "_label": "Ta Hai Sung"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31675",
+            "type": "Person",
+            "_label": "Liu Leng"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31672",
+            "type": "Person",
+            "_label": "Hsu Yun Pao"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31670",
+            "type": "Person",
+            "_label": "Hua Lai"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31668",
+            "type": "Person",
+            "_label": "Lo Shou Yu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31669",
+            "type": "Person",
+            "_label": "Hsieh Tze Wen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31677",
+            "type": "Person",
+            "_label": "Chia Kan Tsing"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1043",
+            "type": "Person",
+            "_label": "Cheng Sha Ping"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4308",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32193",
+            "type": "Person",
+            "_label": "Chang Tao-fan"
+          }
+        ]
+      }
+    ]
+  }
 }

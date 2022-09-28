@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/22026",
+  "id": "http://linkedart.example.com/exhibition/22026",
   "type": "Activity",
   "_label": "Workspace: Eleanor Dube, E'wao Kagoshima, Jamie Summers",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Workspace: Eleanor Dube, E'wao Kagoshima, Jamie Summers",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Workspace: Eleanor Dube, E'wao Kagoshima, Jamie Summers",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1983-15-1",
     "end_of_the_end": "1983-16-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1330",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2432",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1330",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2029",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10727",
-              "type": "Person",
-              "_label": "Jamie Summers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10728",
-              "type": "Person",
-              "_label": "Jeff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10729",
-              "type": "Person",
-              "_label": "Lynn Gumpert"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2030",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10730",
-              "type": "Person",
-              "_label": "Ewao Kagoshima"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2432",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2432",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3842",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63026",
+            "type": "Person",
+            "_label": "Jamie Summers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65081",
+            "type": "Person",
+            "_label": "Jeff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65701",
+            "type": "Person",
+            "_label": "Lynn Gumpert"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3843",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/62094",
+            "type": "Person",
+            "_label": "Ewao Kagoshima"
+          }
+        ]
+      }
+    ]
+  }
 }

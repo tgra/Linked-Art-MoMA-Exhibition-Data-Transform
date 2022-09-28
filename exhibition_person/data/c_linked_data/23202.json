@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23202",
+  "type": "Person",
+  "_label": "Loie Fuller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8080",
+      "type": "Name",
+      "_label": "Loie Fuller"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/8081",
+      "type": "Name",
+      "_label": "Fuller Loie"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q180505",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q180505",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3401",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1862–1928"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4040",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8080",
+      "type": "TimeSpan",
+      "_label": "Loie Fuller Birth timespan",
+      "begin_of_the_begin": "1862",
+      "end_of_the_end": "1862"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4040",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8081",
+      "type": "TimeSpan",
+      "_label": "Loie Fuller Death timespan",
+      "begin_of_the_begin": "1928",
+      "end_of_the_end": "1928"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4040",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4040",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2510",
+              "type": "Event",
+              "_label": "On Line: Drawing through the Twentieth Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-21-11 - 2011-7-2",
+                "begin_of_the_begin": "2010-21-11",
+                "end_of_the_end": "2011-7-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17266",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

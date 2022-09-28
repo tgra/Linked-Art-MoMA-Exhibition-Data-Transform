@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/73454",
+  "type": "Person",
+  "_label": "Jan Muller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/50660",
+      "type": "Name",
+      "_label": "Jan Muller"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/50661",
+      "type": "Name",
+      "_label": "Muller Jan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25330",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50660",
+      "type": "TimeSpan",
+      "_label": "Jan Muller Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25330",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50661",
+      "type": "TimeSpan",
+      "_label": "Jan Muller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25330",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25330",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/54792",
+              "type": "Event",
+              "_label": "[Penthouse Exhibition]",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-15-9 - ",
+                "begin_of_the_begin": "1968-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81726",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/54828",
+              "type": "Event",
+              "_label": "Summer Penthouse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-8-7 - ",
+                "begin_of_the_begin": "1971-8-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81727",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

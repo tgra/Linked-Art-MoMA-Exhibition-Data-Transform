@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2859",
+  "id": "http://linkedart.example.com/exhibition/2859",
   "type": "Activity",
   "_label": "Organizing Chaos",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Organizing Chaos",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Organizing Chaos",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2007-24-5",
     "end_of_the_end": "2007-8-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1600",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3189",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1600",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2362",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/13860",
-              "type": "Person",
-              "_label": "Luke Fowler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13861",
-              "type": "Person",
-              "_label": "Cao Guimarães"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13862",
-              "type": "Person",
-              "_label": "Robert Smithson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13863",
-              "type": "Person",
-              "_label": "Stephen Vitiello"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13864",
-              "type": "Person",
-              "_label": "Bruce Nauman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13865",
-              "type": "Person",
-              "_label": "Hans-Peter Feldmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13866",
-              "type": "Person",
-              "_label": "Rivane Neuenschwander"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13867",
-              "type": "Person",
-              "_label": "John Cage"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13868",
-              "type": "Person",
-              "_label": "Christian Marclay"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13869",
-              "type": "Person",
-              "_label": "Tomoko Takahashi"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3189",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3189",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4721",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/25608",
+            "type": "Person",
+            "_label": "Luke Fowler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21216",
+            "type": "Person",
+            "_label": "Cao Guimarães"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5283",
+            "type": "Person",
+            "_label": "Robert Smithson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24030",
+            "type": "Person",
+            "_label": "Stephen Vitiello"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4075",
+            "type": "Person",
+            "_label": "Bruce Nauman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7648",
+            "type": "Person",
+            "_label": "Hans-Peter Feldmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17295",
+            "type": "Person",
+            "_label": "Rivane Neuenschwander"
+          },
+          {
+            "id": "http://linkedart.example.com/person/877",
+            "type": "Person",
+            "_label": "John Cage"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8054",
+            "type": "Person",
+            "_label": "Christian Marclay"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57984",
+            "type": "Person",
+            "_label": "Tomoko Takahashi"
+          }
+        ]
+      }
+    ]
+  }
 }

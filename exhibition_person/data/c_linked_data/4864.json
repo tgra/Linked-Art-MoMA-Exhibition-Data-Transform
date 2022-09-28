@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4864",
+  "type": "Person",
+  "_label": "John Roy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/28490",
+      "type": "Name",
+      "_label": "John Roy"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/28491",
+      "type": "Name",
+      "_label": "Roy John"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500063278",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q16015268",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q16015268",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6918",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1930–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28490",
+      "type": "TimeSpan",
+      "_label": "John Roy Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28491",
+      "type": "TimeSpan",
+      "_label": "John Roy Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/670",
+              "type": "Event",
+              "_label": "Recent Drawings U.S.A.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-25-4 - 1956-5-8",
+                "begin_of_the_begin": "1956-25-4",
+                "end_of_the_end": "1956-5-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/52779",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

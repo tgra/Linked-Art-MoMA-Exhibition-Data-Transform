@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3061",
+  "id": "http://linkedart.example.com/exhibition/3061",
   "type": "Activity",
   "_label": "Special Projects (Spring 2000)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Spring 2000)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Spring 2000)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2000-30-4",
     "end_of_the_end": "2000-1-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1826",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3415",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1826",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2603",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16358",
-              "type": "Person",
-              "_label": "Ethan Crenson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16359",
-              "type": "Person",
-              "_label": "Ricardo Ribenboim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16360",
-              "type": "Person",
-              "_label": "Jyung Mee Park"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16361",
-              "type": "Person",
-              "_label": "Alix Lambert"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3415",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3415",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4962",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/58373",
+            "type": "Person",
+            "_label": "Ethan Crenson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58337",
+            "type": "Person",
+            "_label": "Ricardo Ribenboim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58426",
+            "type": "Person",
+            "_label": "Jyung Mee Park"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58213",
+            "type": "Person",
+            "_label": "Alix Lambert"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31334",
+  "type": "Person",
+  "_label": "Jan Bons",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20232",
+      "type": "Name",
+      "_label": "Jan Bons"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/20233",
+      "type": "Name",
+      "_label": "Bons Jan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500078199",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q2155072",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q2155072",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10116",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20232",
+      "type": "TimeSpan",
+      "_label": "Jan Bons Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10116",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20233",
+      "type": "TimeSpan",
+      "_label": "Jan Bons Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10116",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10116",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/798",
+              "type": "Event",
+              "_label": "Lettering by Hand",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-6-11 - 1963-6-1",
+                "begin_of_the_begin": "1962-6-11",
+                "end_of_the_end": "1963-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34351",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

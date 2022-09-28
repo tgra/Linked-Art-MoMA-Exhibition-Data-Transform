@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31449",
+  "type": "Person",
+  "_label": "Roslyn Middleman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20480",
+      "type": "Name",
+      "_label": "Roslyn Middleman"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/20481",
+      "type": "Name",
+      "_label": "Middleman Roslyn"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10240",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20480",
+      "type": "TimeSpan",
+      "_label": "Roslyn Middleman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10240",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20481",
+      "type": "TimeSpan",
+      "_label": "Roslyn Middleman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10240",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10240",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/581",
+              "type": "Event",
+              "_label": "New York Times Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-27-5 - 1952-7-7",
+                "begin_of_the_begin": "1952-27-5",
+                "end_of_the_end": "1952-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34584",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

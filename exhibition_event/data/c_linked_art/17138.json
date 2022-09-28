@@ -1,117 +1,115 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17138",
+  "id": "http://linkedart.example.com/exhibition/17138",
   "type": "Activity",
   "_label": "Cadences: Icon and Abstraction in Context",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Cadences: Icon and Abstraction in Context",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Cadences: Icon and Abstraction in Context",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1991-16-2",
     "end_of_the_end": "1991-7-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/363",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/976",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/363",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/728",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5679",
-              "type": "Person",
-              "_label": "Dana Duff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5680",
-              "type": "Person",
-              "_label": "Maria Elena Gonzalez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5681",
-              "type": "Person",
-              "_label": "Tomoharu Murakami"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5682",
-              "type": "Person",
-              "_label": "Eva Schlegel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5683",
-              "type": "Person",
-              "_label": "BP"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5684",
-              "type": "Person",
-              "_label": "Curtis Mitchell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5685",
-              "type": "Person",
-              "_label": "Claudia Matzko"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5686",
-              "type": "Person",
-              "_label": "Charles Ray"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5687",
-              "type": "Person",
-              "_label": "Terry Adkins"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/729",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5688",
-              "type": "Person",
-              "_label": "Gary Sangster"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/976",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/976",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1847",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1566",
+            "type": "Person",
+            "_label": "Dana Duff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65775",
+            "type": "Person",
+            "_label": "Maria Elena Gonzalez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67004",
+            "type": "Person",
+            "_label": "Tomoharu Murakami"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64600",
+            "type": "Person",
+            "_label": "Eva Schlegel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63998",
+            "type": "Person",
+            "_label": "BP"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58007",
+            "type": "Person",
+            "_label": "Curtis Mitchell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35892",
+            "type": "Person",
+            "_label": "Claudia Matzko"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6735",
+            "type": "Person",
+            "_label": "Charles Ray"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7545",
+            "type": "Person",
+            "_label": "Terry Adkins"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1848",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64702",
+            "type": "Person",
+            "_label": "Gary Sangster"
+          }
+        ]
+      }
+    ]
+  }
 }

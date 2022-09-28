@@ -1,74 +1,72 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18580",
+  "id": "http://linkedart.example.com/exhibition/18580",
   "type": "Activity",
   "_label": "Synth Nights: Ben Vida wi…",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Synth Nights: Ben Vida wi…",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Synth Nights: Ben Vida wi…",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2015-21-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/986",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1744",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/986",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1503",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8525",
-              "type": "Person",
-              "_label": "Tyondai Braxton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8526",
-              "type": "Person",
-              "_label": "Ben Vida"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8527",
-              "type": "Person",
-              "_label": "Amirtha Kidambi"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1744",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1744",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2849",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67687",
+            "type": "Person",
+            "_label": "Tyondai Braxton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67542",
+            "type": "Person",
+            "_label": "Ben Vida"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67509",
+            "type": "Person",
+            "_label": "Amirtha Kidambi"
+          }
+        ]
+      }
+    ]
+  }
 }

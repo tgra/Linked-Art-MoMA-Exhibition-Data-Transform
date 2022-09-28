@@ -1,82 +1,80 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7317",
+  "id": "http://linkedart.example.com/exhibition/7317",
   "type": "Activity",
   "_label": "Jim Dine",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Jim Dine",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Jim Dine",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1960-1-4",
     "end_of_the_end": "1960-14-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3849",
-      "type": "Place",
-      "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6765",
+    "type": "Place",
+    "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3849",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5071",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38313",
-              "type": "Person",
-              "_label": "Allan Kaprow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38314",
-              "type": "Person",
-              "_label": "Anita Rubin"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5072",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38315",
-              "type": "Person",
-              "_label": "Jim Dine"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6765",
+    "type": "Group",
+    "_label": "Reuben Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6765",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8809",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2872",
+            "type": "Person",
+            "_label": "Allan Kaprow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63509",
+            "type": "Person",
+            "_label": "Anita Rubin"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8810",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1476",
+            "type": "Person",
+            "_label": "Jim Dine"
+          }
+        ]
+      }
+    ]
+  }
 }

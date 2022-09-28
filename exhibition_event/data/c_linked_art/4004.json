@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4004",
+  "id": "http://linkedart.example.com/exhibition/4004",
   "type": "Activity",
   "_label": "Open Video Call 2014/15",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Open Video Call 2014/15",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Open Video Call 2014/15",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2015-4-2",
     "end_of_the_end": "2015-22-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2853",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4442",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2853",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3684",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24122",
-              "type": "Person",
-              "_label": "Michelle Macinsky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24123",
-              "type": "Person",
-              "_label": "Jason Hsu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24124",
-              "type": "Person",
-              "_label": "Yue Nakayama"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24125",
-              "type": "Person",
-              "_label": "Jen Nugent"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24126",
-              "type": "Person",
-              "_label": "Jorge Galvan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24127",
-              "type": "Person",
-              "_label": "Amanda Wagner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24128",
-              "type": "Person",
-              "_label": "Scott Cooper"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4442",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4442",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6043",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/61050",
+            "type": "Person",
+            "_label": "Michelle Macinsky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61049",
+            "type": "Person",
+            "_label": "Jason Hsu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61051",
+            "type": "Person",
+            "_label": "Yue Nakayama"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61052",
+            "type": "Person",
+            "_label": "Jen Nugent"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61053",
+            "type": "Person",
+            "_label": "Jorge Galvan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61054",
+            "type": "Person",
+            "_label": "Amanda Wagner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34034",
+            "type": "Person",
+            "_label": "Scott Cooper"
+          }
+        ]
+      }
+    ]
+  }
 }

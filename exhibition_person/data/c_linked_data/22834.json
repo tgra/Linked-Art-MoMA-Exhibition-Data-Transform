@@ -1,0 +1,106 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22834",
+  "type": "Person",
+  "_label": "Hermann Misler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7772",
+      "type": "Name",
+      "_label": "Hermann Misler"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/7773",
+      "type": "Name",
+      "_label": "Misler Hermann"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3299",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3886",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7772",
+      "type": "TimeSpan",
+      "_label": "Hermann Misler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3886",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7773",
+      "type": "TimeSpan",
+      "_label": "Hermann Misler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3886",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3886",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2507",
+              "type": "Event",
+              "_label": "Building Collections: Recent Acquisitions of Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-10-11 - 2011-30-5",
+                "begin_of_the_begin": "2010-10-11",
+                "end_of_the_end": "2011-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16950",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

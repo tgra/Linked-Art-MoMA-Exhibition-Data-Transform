@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4118",
+  "id": "http://linkedart.example.com/exhibition/4118",
   "type": "Activity",
   "_label": "Expressions/New Art from Germany",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Expressions/New Art from Germany",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Expressions/New Art from Germany",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1983-16-12",
     "end_of_the_end": "1984-17-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2979",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4568",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2979",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3819",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24834",
-              "type": "Person",
-              "_label": "A.R. Penck (Ralf Winkler)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24835",
-              "type": "Person",
-              "_label": "Jörg Immendorff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24836",
-              "type": "Person",
-              "_label": "Markus Lupertz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24837",
-              "type": "Person",
-              "_label": "Georg Baselitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24838",
-              "type": "Person",
-              "_label": "Anselm Kiefer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4568",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4568",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6178",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4362",
+            "type": "Person",
+            "_label": "A.R. Penck (Ralf Winkler)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2691",
+            "type": "Person",
+            "_label": "Jörg Immendorff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60690",
+            "type": "Person",
+            "_label": "Markus Lupertz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/345",
+            "type": "Person",
+            "_label": "Georg Baselitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2958",
+            "type": "Person",
+            "_label": "Anselm Kiefer"
+          }
+        ]
+      }
+    ]
+  }
 }

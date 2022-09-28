@@ -1,79 +1,77 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18573",
+  "id": "http://linkedart.example.com/exhibition/18573",
   "type": "Activity",
   "_label": "Street Dance NY to LA: To…",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Street Dance NY to LA: To…",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Street Dance NY to LA: To…",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-22-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/979",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1736",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/979",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1496",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8515",
-              "type": "Person",
-              "_label": "Toni Basil"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8516",
-              "type": "Person",
-              "_label": "Pete Solomon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8517",
-              "type": "Person",
-              "_label": "Fred Berry"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8518",
-              "type": "Person",
-              "_label": "The Lockers"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1736",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1736",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2841",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/21076",
+            "type": "Person",
+            "_label": "Toni Basil"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67456",
+            "type": "Person",
+            "_label": "Pete Solomon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67643",
+            "type": "Person",
+            "_label": "Fred Berry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67668",
+            "type": "Person",
+            "_label": "The Lockers"
+          }
+        ]
+      }
+    ]
+  }
 }

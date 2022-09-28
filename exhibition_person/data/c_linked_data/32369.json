@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32369",
+  "type": "Person",
+  "_label": "Terry Ryan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22456",
+      "type": "Name",
+      "_label": "Terry Ryan"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22457",
+      "type": "Name",
+      "_label": "Ryan Terry"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11228",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22456",
+      "type": "TimeSpan",
+      "_label": "Terry Ryan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11228",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22457",
+      "type": "TimeSpan",
+      "_label": "Terry Ryan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11228",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11228",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1295",
+              "type": "Event",
+              "_label": "New Glory: New Designs for Flags",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-11-9 - 1976-24-10",
+                "begin_of_the_begin": "1976-11-9",
+                "end_of_the_end": "1976-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36388",
+                  "type": "Place",
+                  "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

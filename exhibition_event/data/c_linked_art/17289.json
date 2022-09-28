@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17289",
+  "id": "http://linkedart.example.com/exhibition/17289",
   "type": "Activity",
   "_label": "Finley Fryer: The Cat Band",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Finley Fryer: The Cat Band",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Finley Fryer: The Cat Band",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1979-28-7",
     "end_of_the_end": "1979-18-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/515",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1143",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/515",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1015",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6839",
-              "type": "Person",
-              "_label": "Allan Schwartzman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6840",
-              "type": "Person",
-              "_label": "Kathleen Thomas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6841",
-              "type": "Person",
-              "_label": "Susan Logan"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1016",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6842",
-              "type": "Person",
-              "_label": "Finley Fryer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1143",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1143",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2161",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/47407",
+            "type": "Person",
+            "_label": "Allan Schwartzman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65403",
+            "type": "Person",
+            "_label": "Kathleen Thomas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66836",
+            "type": "Person",
+            "_label": "Susan Logan"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2162",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64637",
+            "type": "Person",
+            "_label": "Finley Fryer"
+          }
+        ]
+      }
+    ]
+  }
 }

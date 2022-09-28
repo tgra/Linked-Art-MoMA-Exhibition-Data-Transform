@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2725",
+  "id": "http://linkedart.example.com/exhibition/2725",
   "type": "Activity",
   "_label": "Model Apartment (Appartement-Temoin)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Model Apartment (Appartement-Temoin)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Model Apartment (Appartement-Temoin)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1995-7-6",
     "end_of_the_end": "1995-19-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1446",
-      "type": "Place",
-      "_label": "Lausanne, Switzerland",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3024",
+    "type": "Place",
+    "_label": "Lausanne, Switzerland",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1446",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2193",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12196",
-              "type": "Person",
-              "_label": "Peter Fischli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12197",
-              "type": "Person",
-              "_label": "Izhar Patkin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12198",
-              "type": "Person",
-              "_label": "Brad Davis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12199",
-              "type": "Person",
-              "_label": "David Weiss"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12200",
-              "type": "Person",
-              "_label": "Franz Stauffenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12201",
-              "type": "Person",
-              "_label": "Maura Sheehan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12202",
-              "type": "Person",
-              "_label": "Colette"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12203",
-              "type": "Person",
-              "_label": "Sabina Streeter"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3024",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3024",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4540",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1810",
+            "type": "Person",
+            "_label": "Peter Fischli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4336",
+            "type": "Person",
+            "_label": "Izhar Patkin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1338",
+            "type": "Person",
+            "_label": "Brad Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6012",
+            "type": "Person",
+            "_label": "David Weiss"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58932",
+            "type": "Person",
+            "_label": "Franz Stauffenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57868",
+            "type": "Person",
+            "_label": "Maura Sheehan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56828",
+            "type": "Person",
+            "_label": "Colette"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56803",
+            "type": "Person",
+            "_label": "Sabina Streeter"
+          }
+        ]
+      }
+    ]
+  }
 }

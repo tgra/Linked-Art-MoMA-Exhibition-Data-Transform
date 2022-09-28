@@ -1,132 +1,130 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/16959",
+  "id": "http://linkedart.example.com/exhibition/16959",
   "type": "Activity",
   "_label": "I ♥ John Giorno",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "I ♥ John Giorno",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "I ♥ John Giorno",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2017-21-6",
     "end_of_the_end": "2017-3-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/181",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/776",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/181",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/309",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3446",
-              "type": "Person",
-              "_label": "Howl! Happening"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3447",
-              "type": "Person",
-              "_label": "The Kitchen, New York, NY"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3448",
-              "type": "Person",
-              "_label": "Swiss Institute / Contemporary Art"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3449",
-              "type": "Person",
-              "_label": "High Line Art"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3450",
-              "type": "Person",
-              "_label": "Hunter College Art Galleries"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3451",
-              "type": "Person",
-              "_label": "80WSE"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3452",
-              "type": "Person",
-              "_label": "Sky Art Museum"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3453",
-              "type": "Person",
-              "_label": "Rubin Museum of Art"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3454",
-              "type": "Person",
-              "_label": "White Columns"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3455",
-              "type": "Person",
-              "_label": "Artists Space, New York"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3456",
-              "type": "Person",
-              "_label": "Red Bull Arts New York"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/310",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3457",
-              "type": "Person",
-              "_label": "Ugo Rondinone"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3458",
-              "type": "Person",
-              "_label": "John Giorno"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/776",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/776",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1398",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/51514",
+            "type": "Person",
+            "_label": "Howl! Happening"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66926",
+            "type": "Person",
+            "_label": "The Kitchen, New York, NY"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66853",
+            "type": "Person",
+            "_label": "Swiss Institute / Contemporary Art"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64886",
+            "type": "Person",
+            "_label": "High Line Art"
+          },
+          {
+            "id": "http://linkedart.example.com/person/48300",
+            "type": "Person",
+            "_label": "Hunter College Art Galleries"
+          },
+          {
+            "id": "http://linkedart.example.com/person/46331",
+            "type": "Person",
+            "_label": "80WSE"
+          },
+          {
+            "id": "http://linkedart.example.com/person/45872",
+            "type": "Person",
+            "_label": "Sky Art Museum"
+          },
+          {
+            "id": "http://linkedart.example.com/person/45784",
+            "type": "Person",
+            "_label": "Rubin Museum of Art"
+          },
+          {
+            "id": "http://linkedart.example.com/person/44150",
+            "type": "Person",
+            "_label": "White Columns"
+          },
+          {
+            "id": "http://linkedart.example.com/person/13430",
+            "type": "Person",
+            "_label": "Artists Space, New York"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66420",
+            "type": "Person",
+            "_label": "Red Bull Arts New York"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1399",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7646",
+            "type": "Person",
+            "_label": "Ugo Rondinone"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2083",
+            "type": "Person",
+            "_label": "John Giorno"
+          }
+        ]
+      }
+    ]
+  }
 }

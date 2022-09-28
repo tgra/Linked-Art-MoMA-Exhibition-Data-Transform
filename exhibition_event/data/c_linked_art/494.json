@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/494",
+  "id": "http://linkedart.example.com/exhibition/494",
   "type": "Activity",
   "_label": "Photographs by Margaret Bourke-White, Helen Levitt, Dorothea Lange, Tana Hoban, Esther Bubley, and Hazel-Frieda Larsen",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Photographs by Margaret Bourke-White, Helen Levitt, Dorothea Lange, Tana Hoban, Esther Bubley, and Hazel-Frieda Larsen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Photographs by Margaret Bourke-White, Helen Levitt, Dorothea Lange, Tana Hoban, Esther Bubley, and Hazel-Frieda Larsen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1949-11-10",
     "end_of_the_end": "1949-15-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3382",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5132",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3382",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4280",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/29345",
-              "type": "Person",
-              "_label": "Helen Levitt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29346",
-              "type": "Person",
-              "_label": "Dorothea Lange"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29347",
-              "type": "Person",
-              "_label": "Esther Bubley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29348",
-              "type": "Person",
-              "_label": "Ida Adelman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29349",
-              "type": "Person",
-              "_label": "Tana Hoban"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29350",
-              "type": "Person",
-              "_label": "Margaret Bourke-White"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4281",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/29351",
-              "type": "Person",
-              "_label": "Edward Steichen"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5132",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5132",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6817",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3374",
+            "type": "Person",
+            "_label": "Helen Levitt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3229",
+            "type": "Person",
+            "_label": "Dorothea Lange"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21628",
+            "type": "Person",
+            "_label": "Esther Bubley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33516",
+            "type": "Person",
+            "_label": "Ida Adelman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27500",
+            "type": "Person",
+            "_label": "Tana Hoban"
+          },
+          {
+            "id": "http://linkedart.example.com/person/682",
+            "type": "Person",
+            "_label": "Margaret Bourke-White"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6818",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5402",
+            "type": "Person",
+            "_label": "Edward Steichen"
+          }
+        ]
+      }
+    ]
+  }
 }

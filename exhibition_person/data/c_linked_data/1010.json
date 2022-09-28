@@ -1,0 +1,132 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1010",
+  "type": "Person",
+  "_label": "Emilio Cerri",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/36",
+      "type": "Name",
+      "_label": "Emilio Cerri"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/37",
+      "type": "Name",
+      "_label": "Cerri Emilio"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500468421",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q55218357",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q55218357",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/13",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, died 1947"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/18",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/36",
+      "type": "TimeSpan",
+      "_label": "Emilio Cerri Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/18",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/37",
+      "type": "TimeSpan",
+      "_label": "Emilio Cerri Death timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/18",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/18",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/633",
+              "type": "Event",
+              "_label": "The Modern Movement in Italy: Architecture and Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-18-8 - 1954-6-9",
+                "begin_of_the_begin": "1954-18-8",
+                "end_of_the_end": "1954-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/92",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2438",
+              "type": "Event",
+              "_label": "What was Good Design? MoMA's Message 1944–56",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-6-5 - 2011-11-1",
+                "begin_of_the_begin": "2009-6-5",
+                "end_of_the_end": "2011-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/93",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,135 +1,133 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/42",
+  "id": "http://linkedart.example.com/exhibition/42",
   "type": "Activity",
   "_label": "Gifts and Loans from the Collection of Mrs. Sadie A. May",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Gifts and Loans from the Collection of Mrs. Sadie A. May",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Gifts and Loans from the Collection of Mrs. Sadie A. May",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1933-16-11",
     "end_of_the_end": "1933-8-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3069",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4658",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3069",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3915",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25871",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25872",
-              "type": "Person",
-              "_label": "Amedeo Modigliani"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25873",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25874",
-              "type": "Person",
-              "_label": "Aristide Maillol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25875",
-              "type": "Person",
-              "_label": "Édouard Vuillard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25876",
-              "type": "Person",
-              "_label": "Maurice Utrillo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25877",
-              "type": "Person",
-              "_label": "Maurice de Vlaminck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25878",
-              "type": "Person",
-              "_label": "Othon Friesz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25879",
-              "type": "Person",
-              "_label": "Georges Braque"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25880",
-              "type": "Person",
-              "_label": "Raoul Dufy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25881",
-              "type": "Person",
-              "_label": "André Derain"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25882",
-              "type": "Person",
-              "_label": "Pierre Bonnard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25883",
-              "type": "Person",
-              "_label": "Hermann Haller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25884",
-              "type": "Person",
-              "_label": "Charles Despiau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25885",
-              "type": "Person",
-              "_label": "Giorgio de Chirico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4658",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4658",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6274",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3880",
+            "type": "Person",
+            "_label": "Amedeo Modigliani"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3545",
+            "type": "Person",
+            "_label": "Aristide Maillol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5917",
+            "type": "Person",
+            "_label": "Édouard Vuillard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5789",
+            "type": "Person",
+            "_label": "Maurice Utrillo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5902",
+            "type": "Person",
+            "_label": "Maurice de Vlaminck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1930",
+            "type": "Person",
+            "_label": "Othon Friesz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/714",
+            "type": "Person",
+            "_label": "Georges Braque"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1571",
+            "type": "Person",
+            "_label": "Raoul Dufy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1431",
+            "type": "Person",
+            "_label": "André Derain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/637",
+            "type": "Person",
+            "_label": "Pierre Bonnard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2368",
+            "type": "Person",
+            "_label": "Hermann Haller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1440",
+            "type": "Person",
+            "_label": "Charles Despiau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1060",
+            "type": "Person",
+            "_label": "Giorgio de Chirico"
+          }
+        ]
+      }
+    ]
+  }
 }

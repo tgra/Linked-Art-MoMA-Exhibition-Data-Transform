@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18759",
+  "type": "Person",
+  "_label": "H. C. Artmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4268",
+      "type": "Name",
+      "_label": "H. C. Artmann"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/4269",
+      "type": "Name",
+      "_label": "Artmann H. C."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2134",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4268",
+      "type": "TimeSpan",
+      "_label": "H. C. Artmann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2134",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4269",
+      "type": "TimeSpan",
+      "_label": "H. C. Artmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2134",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2134",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1666",
+              "type": "Event",
+              "_label": "BERLINART 1961–1987",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-4-6 - 1987-8-9",
+                "begin_of_the_begin": "1987-4-6",
+                "end_of_the_end": "1987-8-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9947",
+                  "type": "Place",
+                  "_label": "René d'Harnoncourt Galleries, Lower Level, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

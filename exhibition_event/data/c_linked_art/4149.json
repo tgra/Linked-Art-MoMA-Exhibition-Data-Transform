@@ -1,180 +1,178 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4149",
+  "id": "http://linkedart.example.com/exhibition/4149",
   "type": "Activity",
   "_label": "Some Twenty Odd Visions",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Some Twenty Odd Visions",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Some Twenty Odd Visions",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-7-9",
     "end_of_the_end": "1979-25-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3013",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4602",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3013",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3853",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25161",
-              "type": "Person",
-              "_label": "Ford Gilbreath"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25162",
-              "type": "Person",
-              "_label": "Steve Collins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25163",
-              "type": "Person",
-              "_label": "Jim Dobbins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25164",
-              "type": "Person",
-              "_label": "Robert Di Franco"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25165",
-              "type": "Person",
-              "_label": "Ingeborg Gerdes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25166",
-              "type": "Person",
-              "_label": "Mark Cohen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25167",
-              "type": "Person",
-              "_label": "Curtis Bunyan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25168",
-              "type": "Person",
-              "_label": "Harry Bowers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25169",
-              "type": "Person",
-              "_label": "Richard M. Margolis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25170",
-              "type": "Person",
-              "_label": "Richard Hobbs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25171",
-              "type": "Person",
-              "_label": "Michael Becotte"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25172",
-              "type": "Person",
-              "_label": "Stewart Tilger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25173",
-              "type": "Person",
-              "_label": "Bob Iyall"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25174",
-              "type": "Person",
-              "_label": "Nancy Rexroth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25175",
-              "type": "Person",
-              "_label": "Christopher Rauschenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25176",
-              "type": "Person",
-              "_label": "Donna-Lee Phillips"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25177",
-              "type": "Person",
-              "_label": "Abigail Perlmutter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25178",
-              "type": "Person",
-              "_label": "David Pearson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25179",
-              "type": "Person",
-              "_label": "Julie Mihaly\nJulie Mihaly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25180",
-              "type": "Person",
-              "_label": "Kirk Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25181",
-              "type": "Person",
-              "_label": "John Levins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25182",
-              "type": "Person",
-              "_label": "Craig Hickman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25183",
-              "type": "Person",
-              "_label": "Ken White"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25184",
-              "type": "Person",
-              "_label": "Terry Toedtemeier"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4602",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4602",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6212",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60650",
+            "type": "Person",
+            "_label": "Ford Gilbreath"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60646",
+            "type": "Person",
+            "_label": "Steve Collins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60647",
+            "type": "Person",
+            "_label": "Jim Dobbins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60648",
+            "type": "Person",
+            "_label": "Robert Di Franco"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60649",
+            "type": "Person",
+            "_label": "Ingeborg Gerdes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1124",
+            "type": "Person",
+            "_label": "Mark Cohen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60645",
+            "type": "Person",
+            "_label": "Curtis Bunyan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60644",
+            "type": "Person",
+            "_label": "Harry Bowers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3610",
+            "type": "Person",
+            "_label": "Richard M. Margolis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60651",
+            "type": "Person",
+            "_label": "Richard Hobbs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60643",
+            "type": "Person",
+            "_label": "Michael Becotte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68870",
+            "type": "Person",
+            "_label": "Stewart Tilger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60652",
+            "type": "Person",
+            "_label": "Bob Iyall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4689",
+            "type": "Person",
+            "_label": "Nancy Rexroth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62722",
+            "type": "Person",
+            "_label": "Christopher Rauschenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60656",
+            "type": "Person",
+            "_label": "Donna-Lee Phillips"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4378",
+            "type": "Person",
+            "_label": "Abigail Perlmutter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60655",
+            "type": "Person",
+            "_label": "David Pearson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60654",
+            "type": "Person",
+            "_label": "Julie Mihaly\nJulie Mihaly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60658",
+            "type": "Person",
+            "_label": "Kirk Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60653",
+            "type": "Person",
+            "_label": "John Levins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68873",
+            "type": "Person",
+            "_label": "Craig Hickman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68872",
+            "type": "Person",
+            "_label": "Ken White"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68871",
+            "type": "Person",
+            "_label": "Terry Toedtemeier"
+          }
+        ]
+      }
+    ]
+  }
 }

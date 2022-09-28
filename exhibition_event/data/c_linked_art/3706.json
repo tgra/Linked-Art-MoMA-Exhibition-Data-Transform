@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3706",
+  "id": "http://linkedart.example.com/exhibition/3706",
   "type": "Activity",
   "_label": "Music (Spring 1988): The Anatomy of Sound",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Music (Spring 1988): The Anatomy of Sound",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Music (Spring 1988): The Anatomy of Sound",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1988-18-5",
     "end_of_the_end": "1988-20-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2542",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4131",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2542",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3351",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22276",
-              "type": "Person",
-              "_label": "Jackson Mac Low"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22277",
-              "type": "Person",
-              "_label": "Yoshi Wada"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22278",
-              "type": "Person",
-              "_label": "David Shea"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22279",
-              "type": "Person",
-              "_label": "Robert Poss"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22280",
-              "type": "Person",
-              "_label": "Ellen Fullman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22281",
-              "type": "Person",
-              "_label": "Mary Jane Leach"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4131",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4131",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5710",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/20915",
+            "type": "Person",
+            "_label": "Jackson Mac Low"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22373",
+            "type": "Person",
+            "_label": "Yoshi Wada"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58850",
+            "type": "Person",
+            "_label": "David Shea"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58848",
+            "type": "Person",
+            "_label": "Robert Poss"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58394",
+            "type": "Person",
+            "_label": "Ellen Fullman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58849",
+            "type": "Person",
+            "_label": "Mary Jane Leach"
+          }
+        ]
+      }
+    ]
+  }
 }

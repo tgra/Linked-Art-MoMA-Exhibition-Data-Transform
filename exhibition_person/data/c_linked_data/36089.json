@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/36089",
+  "type": "Person",
+  "_label": "Studio X",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/25982",
+      "type": "Name",
+      "_label": "Studio X"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/25983",
+      "type": "Name",
+      "_label": "Studio X"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500260790",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12991",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25982",
+      "type": "TimeSpan",
+      "_label": "Studio X Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12991",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25983",
+      "type": "TimeSpan",
+      "_label": "Studio X Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12991",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12991",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1984",
+              "type": "Event",
+              "_label": "Mutant Materials in Contemporary Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-25-5 - 1995-27-8",
+                "begin_of_the_begin": "1995-25-5",
+                "end_of_the_end": "1995-27-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/41962",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

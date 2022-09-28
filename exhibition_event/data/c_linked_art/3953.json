@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3953",
+  "id": "http://linkedart.example.com/exhibition/3953",
   "type": "Activity",
   "_label": "New Work: Part I",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Work: Part I",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Work: Part I",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1963-8-1",
     "end_of_the_end": "1963-2-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2797",
-      "type": "Place",
-      "_label": "Green Gallery",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4386",
+    "type": "Place",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2797",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3622",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23772",
-              "type": "Person",
-              "_label": "Dan Flavin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23773",
-              "type": "Person",
-              "_label": "Donald Judd"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23774",
-              "type": "Person",
-              "_label": "Yayoi Kusama"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23775",
-              "type": "Person",
-              "_label": "Robert Morris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23776",
-              "type": "Person",
-              "_label": "Larry Poons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23777",
-              "type": "Person",
-              "_label": "Lucas Samaras"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23778",
-              "type": "Person",
-              "_label": "George Segal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23779",
-              "type": "Person",
-              "_label": "Milet Andrejevic"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4386",
+    "type": "Group",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4386",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5981",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1830",
+            "type": "Person",
+            "_label": "Dan Flavin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2823",
+            "type": "Person",
+            "_label": "Donald Judd"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3174",
+            "type": "Person",
+            "_label": "Yayoi Kusama"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3950",
+            "type": "Person",
+            "_label": "Robert Morris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4503",
+            "type": "Person",
+            "_label": "Larry Poons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4932",
+            "type": "Person",
+            "_label": "Lucas Samaras"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5112",
+            "type": "Person",
+            "_label": "George Segal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32717",
+            "type": "Person",
+            "_label": "Milet Andrejevic"
+          }
+        ]
+      }
+    ]
+  }
 }

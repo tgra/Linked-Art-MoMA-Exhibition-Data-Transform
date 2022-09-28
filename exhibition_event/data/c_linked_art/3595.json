@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3595",
+  "id": "http://linkedart.example.com/exhibition/3595",
   "type": "Activity",
   "_label": "Past Skin",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Past Skin",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Past Skin",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2017-9-4",
     "end_of_the_end": "2017-10-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2418",
-      "type": "Place",
-      "_label": "MoMAPS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4007",
+    "type": "Place",
+    "_label": "MoMAPS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2418",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3221",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21566",
-              "type": "Person",
-              "_label": "Madelon Vriesendorp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21567",
-              "type": "Person",
-              "_label": "Hannah Levy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21568",
-              "type": "Person",
-              "_label": "Abigail Lucien"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21569",
-              "type": "Person",
-              "_label": "Jillian Mayer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21570",
-              "type": "Person",
-              "_label": "MSHR"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21571",
-              "type": "Person",
-              "_label": "Cui Jei"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21572",
-              "type": "Person",
-              "_label": "Jordon Kasey"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4007",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4007",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5580",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6648",
+            "type": "Person",
+            "_label": "Madelon Vriesendorp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60468",
+            "type": "Person",
+            "_label": "Hannah Levy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60469",
+            "type": "Person",
+            "_label": "Abigail Lucien"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60470",
+            "type": "Person",
+            "_label": "Jillian Mayer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60471",
+            "type": "Person",
+            "_label": "MSHR"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60466",
+            "type": "Person",
+            "_label": "Cui Jei"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60467",
+            "type": "Person",
+            "_label": "Jordon Kasey"
+          }
+        ]
+      }
+    ]
+  }
 }

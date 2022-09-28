@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32373",
+  "type": "Person",
+  "_label": "Jan Strunk",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/22466",
+      "type": "Name",
+      "_label": "Jan Strunk"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/22467",
+      "type": "Name",
+      "_label": "Strunk Jan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11233",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22466",
+      "type": "TimeSpan",
+      "_label": "Jan Strunk Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11233",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22467",
+      "type": "TimeSpan",
+      "_label": "Jan Strunk Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11233",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11233",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1295",
+              "type": "Event",
+              "_label": "New Glory: New Designs for Flags",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-11-9 - 1976-24-10",
+                "begin_of_the_begin": "1976-11-9",
+                "end_of_the_end": "1976-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/36394",
+                  "type": "Place",
+                  "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

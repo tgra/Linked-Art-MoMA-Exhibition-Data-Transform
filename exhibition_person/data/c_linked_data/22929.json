@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22929",
+  "type": "Person",
+  "_label": "Bill Marpet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7848",
+      "type": "Name",
+      "_label": "Bill Marpet"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/7849",
+      "type": "Name",
+      "_label": "Marpet Bill"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3924",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7848",
+      "type": "TimeSpan",
+      "_label": "Bill Marpet Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3924",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7849",
+      "type": "TimeSpan",
+      "_label": "Bill Marpet Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3924",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3924",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1357",
+              "type": "Event",
+              "_label": "Projects: Video XVI",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-6-2 - 1978-2-4",
+                "begin_of_the_begin": "1978-6-2",
+                "end_of_the_end": "1978-2-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17042",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

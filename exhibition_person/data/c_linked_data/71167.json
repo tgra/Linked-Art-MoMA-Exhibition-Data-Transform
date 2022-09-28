@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/71167",
+  "type": "Person",
+  "_label": "John Schabel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/49126",
+      "type": "Name",
+      "_label": "John Schabel"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/49127",
+      "type": "Name",
+      "_label": "Schabel John"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24563",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49126",
+      "type": "TimeSpan",
+      "_label": "John Schabel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24563",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49127",
+      "type": "TimeSpan",
+      "_label": "John Schabel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24563",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24563",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7040",
+              "type": "Event",
+              "_label": "1997 Biennial Exhibition ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-12-3 - 1997-15-6",
+                "begin_of_the_begin": "1997-12-3",
+                "end_of_the_end": "1997-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/79513",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 4th Floor Galleries, 2nd Floor Film/Video Gallery, Lobby Gallery, Lower Gallery, 3rd Floor Galleries, 2nd Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

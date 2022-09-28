@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31219",
+  "type": "Person",
+  "_label": "Falcon Press",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19982",
+      "type": "Name",
+      "_label": "Falcon Press"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/19983",
+      "type": "Name",
+      "_label": "Falcon Press"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9991",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19982",
+      "type": "TimeSpan",
+      "_label": "Falcon Press Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9991",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19983",
+      "type": "TimeSpan",
+      "_label": "Falcon Press Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9991",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9991",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/719",
+              "type": "Event",
+              "_label": "The Package",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-9-9 - 1959-1-11",
+                "begin_of_the_begin": "1959-9-9",
+                "end_of_the_end": "1959-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34130",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

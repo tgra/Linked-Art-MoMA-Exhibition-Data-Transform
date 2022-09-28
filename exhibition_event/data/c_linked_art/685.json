@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/685",
+  "id": "http://linkedart.example.com/exhibition/685",
   "type": "Activity",
   "_label": "Buildings for Business and Government",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Buildings for Business and Government",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Buildings for Business and Government",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1957-27-2",
     "end_of_the_end": "1957-28-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3658",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6365",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3658",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4777",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36203",
-              "type": "Person",
-              "_label": "Skidmore Owings & Merrill"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/36204",
-              "type": "Person",
-              "_label": "Eero Saarinen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/36205",
-              "type": "Person",
-              "_label": "Edward Durell Stone"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/36206",
-              "type": "Person",
-              "_label": "Ludwig Mies van der Rohe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/36207",
-              "type": "Person",
-              "_label": "Philip Johnson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/36208",
-              "type": "Person",
-              "_label": "Helmuth, Yamasaki and Leinweber"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4778",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/36209",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6365",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6365",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8285",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5304",
+            "type": "Person",
+            "_label": "Skidmore Owings & Merrill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4902",
+            "type": "Person",
+            "_label": "Eero Saarinen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5455",
+            "type": "Person",
+            "_label": "Edward Durell Stone"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6846",
+            "type": "Person",
+            "_label": "Ludwig Mies van der Rohe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27028",
+            "type": "Person",
+            "_label": "Philip Johnson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30103",
+            "type": "Person",
+            "_label": "Helmuth, Yamasaki and Leinweber"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8286",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

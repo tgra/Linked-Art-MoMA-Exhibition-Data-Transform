@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4171",
+  "id": "http://linkedart.example.com/exhibition/4171",
   "type": "Activity",
   "_label": "Made in Philadelphia 2",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Made in Philadelphia 2",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Made in Philadelphia 2",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1974-25-10",
     "end_of_the_end": "1974-14-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3038",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4627",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3038",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3881",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25439",
-              "type": "Person",
-              "_label": "Charles Fahlen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25440",
-              "type": "Person",
-              "_label": "Tom Hatten"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25441",
-              "type": "Person",
-              "_label": "Eleanor Hubbard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25442",
-              "type": "Person",
-              "_label": "Bill Richards"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25443",
-              "type": "Person",
-              "_label": "Warren Rohrer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25444",
-              "type": "Person",
-              "_label": "Robert Younger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25445",
-              "type": "Person",
-              "_label": "David Kettner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25446",
-              "type": "Person",
-              "_label": "Gerald Nichols"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4627",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4627",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6240",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1709",
+            "type": "Person",
+            "_label": "Charles Fahlen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60583",
+            "type": "Person",
+            "_label": "Tom Hatten"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60584",
+            "type": "Person",
+            "_label": "Eleanor Hubbard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60586",
+            "type": "Person",
+            "_label": "Bill Richards"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17815",
+            "type": "Person",
+            "_label": "Warren Rohrer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57489",
+            "type": "Person",
+            "_label": "Robert Younger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60585",
+            "type": "Person",
+            "_label": "David Kettner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57512",
+            "type": "Person",
+            "_label": "Gerald Nichols"
+          }
+        ]
+      }
+    ]
+  }
 }

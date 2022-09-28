@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/49350",
+  "type": "Person",
+  "_label": "Leandro Erlich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/28624",
+      "type": "Name",
+      "_label": "Leandro Erlich"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/28625",
+      "type": "Name",
+      "_label": "Erlich Leandro"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/6977",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Argentine, born 1973"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14312",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28624",
+      "type": "TimeSpan",
+      "_label": "Leandro Erlich Birth timespan",
+      "begin_of_the_begin": "1973",
+      "end_of_the_end": "1973"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14312",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28625",
+      "type": "TimeSpan",
+      "_label": "Leandro Erlich Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14312",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14312",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/28410",
+              "type": "Event",
+              "_label": "Whitney Biennial 2000",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-23-3 - 2000-4-6",
+                "begin_of_the_begin": "2000-23-3",
+                "end_of_the_end": "2000-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53332",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

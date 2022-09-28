@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2804",
+  "id": "http://linkedart.example.com/exhibition/2804",
   "type": "Activity",
   "_label": "Special Projects (Winter 1984)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Winter 1984)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Winter 1984)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1984-22-1",
     "end_of_the_end": "1984-18-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1534",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3112",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1534",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2286",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/13150",
-              "type": "Person",
-              "_label": "Lawrence List"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13151",
-              "type": "Person",
-              "_label": "Nancy Haynes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13152",
-              "type": "Person",
-              "_label": "Elisa Amoroso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13153",
-              "type": "Person",
-              "_label": "Dan Rice"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13154",
-              "type": "Person",
-              "_label": "Ruby N. Wilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13155",
-              "type": "Person",
-              "_label": "Eldon Garnet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13156",
-              "type": "Person",
-              "_label": "Sherman Drexler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13157",
-              "type": "Person",
-              "_label": "Allen Berke"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13158",
-              "type": "Person",
-              "_label": "Izzy Abrahami"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13159",
-              "type": "Person",
-              "_label": "Yee Jan Bao"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3112",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3112",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4633",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/14497",
+            "type": "Person",
+            "_label": "Lawrence List"
+          },
+          {
+            "id": "http://linkedart.example.com/person/14493",
+            "type": "Person",
+            "_label": "Nancy Haynes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57008",
+            "type": "Person",
+            "_label": "Elisa Amoroso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57239",
+            "type": "Person",
+            "_label": "Dan Rice"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58539",
+            "type": "Person",
+            "_label": "Ruby N. Wilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58538",
+            "type": "Person",
+            "_label": "Eldon Garnet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58537",
+            "type": "Person",
+            "_label": "Sherman Drexler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58536",
+            "type": "Person",
+            "_label": "Allen Berke"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58534",
+            "type": "Person",
+            "_label": "Izzy Abrahami"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58535",
+            "type": "Person",
+            "_label": "Yee Jan Bao"
+          }
+        ]
+      }
+    ]
+  }
 }

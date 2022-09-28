@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4271",
+  "id": "http://linkedart.example.com/exhibition/4271",
   "type": "Activity",
   "_label": "Fables",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Fables",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Fables",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2006-8-9",
     "end_of_the_end": "2006-17-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3149",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4738",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3149",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4002",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26419",
-              "type": "Person",
-              "_label": "Kara Walker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26420",
-              "type": "Person",
-              "_label": "Christopher Myers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26421",
-              "type": "Person",
-              "_label": "Kanishka Raja"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26422",
-              "type": "Person",
-              "_label": "Wanda Raimundi-Ortiz"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4738",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4738",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6361",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7304",
+            "type": "Person",
+            "_label": "Kara Walker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59491",
+            "type": "Person",
+            "_label": "Christopher Myers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60891",
+            "type": "Person",
+            "_label": "Kanishka Raja"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60892",
+            "type": "Person",
+            "_label": "Wanda Raimundi-Ortiz"
+          }
+        ]
+      }
+    ]
+  }
 }

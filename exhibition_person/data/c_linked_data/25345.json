@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25345",
+  "type": "Person",
+  "_label": "Julie Taymor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9806",
+      "type": "Name",
+      "_label": "Julie Taymor"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/9807",
+      "type": "Name",
+      "_label": "Taymor Julie"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500335162",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4126",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1952"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4903",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9806",
+      "type": "TimeSpan",
+      "_label": "Julie Taymor Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4903",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9807",
+      "type": "TimeSpan",
+      "_label": "Julie Taymor Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4903",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4903",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/6992",
+              "type": "Event",
+              "_label": "1993 Biennial ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-4-3 - 1993-20-6",
+                "begin_of_the_begin": "1993-4-3",
+                "end_of_the_end": "1993-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19804",
+                  "type": "Place",
+                  "_label": "945 Madison Ave - 2nd Floor Galleries, 3rd Floor Galleries, 2nd Floor Film/Video Gallery, Lobby Gallery, Floor Galleries",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

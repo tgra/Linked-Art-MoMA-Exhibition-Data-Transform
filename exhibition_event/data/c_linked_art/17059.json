@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17059",
+  "id": "http://linkedart.example.com/exhibition/17059",
   "type": "Activity",
   "_label": "My Barbarian: The Golden Age",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "My Barbarian: The Golden Age",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "My Barbarian: The Golden Age",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2008-6-2",
     "end_of_the_end": "2008-30-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/283",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/888",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/283",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/541",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4578",
-              "type": "Person",
-              "_label": "Jade Gordon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4579",
-              "type": "Person",
-              "_label": "Alexandro Segade"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4580",
-              "type": "Person",
-              "_label": "Malik Gaines"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4581",
-              "type": "Person",
-              "_label": "My Barbarian"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/542",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4582",
-              "type": "Person",
-              "_label": "Eungie Joo"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/888",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/888",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1647",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60935",
+            "type": "Person",
+            "_label": "Jade Gordon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60936",
+            "type": "Person",
+            "_label": "Alexandro Segade"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60257",
+            "type": "Person",
+            "_label": "Malik Gaines"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60155",
+            "type": "Person",
+            "_label": "My Barbarian"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1648",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64592",
+            "type": "Person",
+            "_label": "Eungie Joo"
+          }
+        ]
+      }
+    ]
+  }
 }

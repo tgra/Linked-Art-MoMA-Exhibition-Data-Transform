@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16516",
+  "type": "Person",
+  "_label": "G. Schleicher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2032",
+      "type": "Name",
+      "_label": "G. Schleicher"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/2033",
+      "type": "Name",
+      "_label": "Schleicher G."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1016",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2032",
+      "type": "TimeSpan",
+      "_label": "G. Schleicher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1016",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2033",
+      "type": "TimeSpan",
+      "_label": "G. Schleicher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1016",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1016",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2646",
+              "type": "Event",
+              "_label": "Cut 'n' Paste: From Architectural Assemblage to Collage City",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-10-7 - 2014-5-1",
+                "begin_of_the_begin": "2013-10-7",
+                "end_of_the_end": "2014-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6219",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

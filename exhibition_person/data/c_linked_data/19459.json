@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19459",
+  "type": "Person",
+  "_label": "Jean Epstein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4760",
+      "type": "Name",
+      "_label": "Jean Epstein"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/4761",
+      "type": "Name",
+      "_label": "Epstein Jean"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q456968",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q456968",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2028",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born Russian Empire (Warsaw, Poland). 1897–1953"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2380",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4760",
+      "type": "TimeSpan",
+      "_label": "Jean Epstein Birth timespan",
+      "begin_of_the_begin": "1897",
+      "end_of_the_end": "1897"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2380",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4761",
+      "type": "TimeSpan",
+      "_label": "Jean Epstein Death timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2380",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2380",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2644",
+              "type": "Event",
+              "_label": "Le Corbusier: An Atlas of Modern Landscapes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-15-6 - 2013-23-9",
+                "begin_of_the_begin": "2013-15-6",
+                "end_of_the_end": "2013-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11150",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

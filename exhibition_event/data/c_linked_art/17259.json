@@ -1,107 +1,105 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17259",
+  "id": "http://linkedart.example.com/exhibition/17259",
   "type": "Activity",
   "_label": "Early Work",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Early Work",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Early Work",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-3-4",
     "end_of_the_end": "1982-3-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/485",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1110",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/485",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/964",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6607",
-              "type": "Person",
-              "_label": "Lawrence Weiner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6608",
-              "type": "Person",
-              "_label": "Luis Alfonso Jimenez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6609",
-              "type": "Person",
-              "_label": "Gary Stephan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6610",
-              "type": "Person",
-              "_label": "Joan Brown"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6611",
-              "type": "Person",
-              "_label": "Lynda Benglis"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/965",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6612",
-              "type": "Person",
-              "_label": "Lynn Gumpert"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6613",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6614",
-              "type": "Person",
-              "_label": "Ned Rifkin"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1110",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1110",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2105",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6006",
+            "type": "Person",
+            "_label": "Lawrence Weiner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65686",
+            "type": "Person",
+            "_label": "Luis Alfonso Jimenez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5423",
+            "type": "Person",
+            "_label": "Gary Stephan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/775",
+            "type": "Person",
+            "_label": "Joan Brown"
+          },
+          {
+            "id": "http://linkedart.example.com/person/447",
+            "type": "Person",
+            "_label": "Lynda Benglis"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2106",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65701",
+            "type": "Person",
+            "_label": "Lynn Gumpert"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27125",
+            "type": "Person",
+            "_label": "Ned Rifkin"
+          }
+        ]
+      }
+    ]
+  }
 }

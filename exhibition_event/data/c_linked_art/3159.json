@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3159",
+  "id": "http://linkedart.example.com/exhibition/3159",
   "type": "Activity",
   "_label": "Outdoor Sculpture Show",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Outdoor Sculpture Show",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Outdoor Sculpture Show",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-27-4",
     "end_of_the_end": "1980-15-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1934",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3523",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1934",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2717",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/17741",
-              "type": "Person",
-              "_label": "Jene Highstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17742",
-              "type": "Person",
-              "_label": "David Black"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17743",
-              "type": "Person",
-              "_label": "Allen Bertoldi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17744",
-              "type": "Person",
-              "_label": "Barry Feuerstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17745",
-              "type": "Person",
-              "_label": "Maura Sheehan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17746",
-              "type": "Person",
-              "_label": "Merle Temkin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17747",
-              "type": "Person",
-              "_label": "Ray Kelly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17748",
-              "type": "Person",
-              "_label": "Yoav Shapiro"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3523",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3523",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5076",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2534",
+            "type": "Person",
+            "_label": "Jene Highstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6450",
+            "type": "Person",
+            "_label": "David Black"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58714",
+            "type": "Person",
+            "_label": "Allen Bertoldi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58569",
+            "type": "Person",
+            "_label": "Barry Feuerstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57868",
+            "type": "Person",
+            "_label": "Maura Sheehan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57776",
+            "type": "Person",
+            "_label": "Merle Temkin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56895",
+            "type": "Person",
+            "_label": "Ray Kelly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58181",
+            "type": "Person",
+            "_label": "Yoav Shapiro"
+          }
+        ]
+      }
+    ]
+  }
 }

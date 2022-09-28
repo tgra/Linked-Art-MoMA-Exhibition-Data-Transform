@@ -1,184 +1,182 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/888",
+  "id": "http://linkedart.example.com/exhibition/888",
   "type": "Activity",
   "_label": "The Object Transformed",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Object Transformed",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Object Transformed",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1966-29-6",
     "end_of_the_end": "1966-5-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4048",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6964",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4048",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5457",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42584",
-              "type": "Person",
-              "_label": "Tony Palladino"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42585",
-              "type": "Person",
-              "_label": "Wolfgang Paalen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42586",
-              "type": "Person",
-              "_label": "Michelangelo Pistoletto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42587",
-              "type": "Person",
-              "_label": "Man Ray"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42588",
-              "type": "Person",
-              "_label": "Meret Oppenheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42589",
-              "type": "Person",
-              "_label": "John Latham"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42590",
-              "type": "Person",
-              "_label": "Lucas Samaras"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42591",
-              "type": "Person",
-              "_label": "Yayoi Kusama"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42592",
-              "type": "Person",
-              "_label": "Robert Rauschenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42593",
-              "type": "Person",
-              "_label": "Les Levine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42594",
-              "type": "Person",
-              "_label": "Bruno Munari"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42595",
-              "type": "Person",
-              "_label": "Rafael Montañez Ortiz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42596",
-              "type": "Person",
-              "_label": "Abraham Habbah"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42597",
-              "type": "Person",
-              "_label": "Karen Karnes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42598",
-              "type": "Person",
-              "_label": "Preston McClanahan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42599",
-              "type": "Person",
-              "_label": "Olen Orr"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42600",
-              "type": "Person",
-              "_label": "Fabio de Sanctis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42601",
-              "type": "Person",
-              "_label": "Janet Cooper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42602",
-              "type": "Person",
-              "_label": "Jasper Johns"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42603",
-              "type": "Person",
-              "_label": "Morris Graves"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5458",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42604",
-              "type": "Person",
-              "_label": "Mildred Constantine"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5459",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42605",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6964",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6964",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9195",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4296",
+            "type": "Person",
+            "_label": "Tony Palladino"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4282",
+            "type": "Person",
+            "_label": "Wolfgang Paalen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4456",
+            "type": "Person",
+            "_label": "Michelangelo Pistoletto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3564",
+            "type": "Person",
+            "_label": "Man Ray"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4242",
+            "type": "Person",
+            "_label": "Meret Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3260",
+            "type": "Person",
+            "_label": "John Latham"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4932",
+            "type": "Person",
+            "_label": "Lucas Samaras"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3174",
+            "type": "Person",
+            "_label": "Yayoi Kusama"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4632",
+            "type": "Person",
+            "_label": "Robert Rauschenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3368",
+            "type": "Person",
+            "_label": "Les Levine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4003",
+            "type": "Person",
+            "_label": "Bruno Munari"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7467",
+            "type": "Person",
+            "_label": "Rafael Montañez Ortiz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31847",
+            "type": "Person",
+            "_label": "Abraham Habbah"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31848",
+            "type": "Person",
+            "_label": "Karen Karnes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31849",
+            "type": "Person",
+            "_label": "Preston McClanahan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31850",
+            "type": "Person",
+            "_label": "Olen Orr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31851",
+            "type": "Person",
+            "_label": "Fabio de Sanctis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31846",
+            "type": "Person",
+            "_label": "Janet Cooper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2799",
+            "type": "Person",
+            "_label": "Jasper Johns"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2215",
+            "type": "Person",
+            "_label": "Morris Graves"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9196",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26936",
+            "type": "Person",
+            "_label": "Mildred Constantine"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9197",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

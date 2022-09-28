@@ -1,109 +1,107 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18309",
+  "id": "http://linkedart.example.com/exhibition/18309",
   "type": "Activity",
   "_label": "Film/Music II",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film/Music II",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film/Music II",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-28-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/719",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1449",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/719",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1236",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/7745",
-              "type": "Person",
-              "_label": "Bruce Baillie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7746",
-              "type": "Person",
-              "_label": "Bruce Conner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7747",
-              "type": "Person",
-              "_label": "Robert Breer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7748",
-              "type": "Person",
-              "_label": "Danielle Huillet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7749",
-              "type": "Person",
-              "_label": "Jean-Marie Straub"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7750",
-              "type": "Person",
-              "_label": "John Marshall"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7751",
-              "type": "Person",
-              "_label": "Peter Kubelka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7752",
-              "type": "Person",
-              "_label": "Beverly Grant"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7753",
-              "type": "Person",
-              "_label": "Kenneth Anger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7754",
-              "type": "Person",
-              "_label": "Tony Conrad"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1449",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1449",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2541",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/25125",
+            "type": "Person",
+            "_label": "Bruce Baillie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1161",
+            "type": "Person",
+            "_label": "Bruce Conner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/726",
+            "type": "Person",
+            "_label": "Robert Breer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67588",
+            "type": "Person",
+            "_label": "Danielle Huillet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67319",
+            "type": "Person",
+            "_label": "Jean-Marie Straub"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31018",
+            "type": "Person",
+            "_label": "John Marshall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25037",
+            "type": "Person",
+            "_label": "Peter Kubelka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67545",
+            "type": "Person",
+            "_label": "Beverly Grant"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35406",
+            "type": "Person",
+            "_label": "Kenneth Anger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19683",
+            "type": "Person",
+            "_label": "Tony Conrad"
+          }
+        ]
+      }
+    ]
+  }
 }

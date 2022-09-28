@@ -1,88 +1,86 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/54800",
+  "id": "http://linkedart.example.com/exhibition/54800",
   "type": "Activity",
   "_label": "[Penthouse Exhibition]",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "[Penthouse Exhibition]",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "[Penthouse Exhibition]",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1956-6-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3500",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5620",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3500",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4472",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32012",
-              "type": "Person",
-              "_label": "Fritz Winter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32013",
-              "type": "Person",
-              "_label": "Virginia Cuthbert"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32014",
-              "type": "Person",
-              "_label": "Pierre Soulages"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32015",
-              "type": "Person",
-              "_label": "Emilio Sanchez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32016",
-              "type": "Person",
-              "_label": "Philomé Obin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32017",
-              "type": "Person",
-              "_label": "Joan Miró"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5620",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5620",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7393",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6115",
+            "type": "Person",
+            "_label": "Fritz Winter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/71121",
+            "type": "Person",
+            "_label": "Virginia Cuthbert"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5324",
+            "type": "Person",
+            "_label": "Pierre Soulages"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4938",
+            "type": "Person",
+            "_label": "Emilio Sanchez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4196",
+            "type": "Person",
+            "_label": "Philomé Obin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3859",
+            "type": "Person",
+            "_label": "Joan Miró"
+          }
+        ]
+      }
+    ]
+  }
 }

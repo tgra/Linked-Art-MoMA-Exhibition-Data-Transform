@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3102",
+  "id": "http://linkedart.example.com/exhibition/3102",
   "type": "Activity",
   "_label": "Photography (Winter 1982): Selected Situations",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Photography (Winter 1982): Selected Situations",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Photography (Winter 1982): Selected Situations",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-17-1",
     "end_of_the_end": "1982-14-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1872",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3461",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1872",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2650",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16702",
-              "type": "Person",
-              "_label": "Christine Osinski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16703",
-              "type": "Person",
-              "_label": "Ingrid Dinter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16704",
-              "type": "Person",
-              "_label": "Daniel Faust"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16705",
-              "type": "Person",
-              "_label": "Terry Gordon"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3461",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3461",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5009",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4261",
+            "type": "Person",
+            "_label": "Christine Osinski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56936",
+            "type": "Person",
+            "_label": "Ingrid Dinter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56937",
+            "type": "Person",
+            "_label": "Daniel Faust"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58752",
+            "type": "Person",
+            "_label": "Terry Gordon"
+          }
+        ]
+      }
+    ]
+  }
 }

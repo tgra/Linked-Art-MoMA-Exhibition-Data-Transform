@@ -1,101 +1,99 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17185",
+  "id": "http://linkedart.example.com/exhibition/17185",
   "type": "Activity",
   "_label": "Betty Goodwin: New Work",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Betty Goodwin: New Work",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Betty Goodwin: New Work",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1987-11-9",
     "end_of_the_end": "1987-8-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/410",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1028",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/410",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/826",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6038",
-              "type": "Person",
-              "_label": "Yolande Racine"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/827",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6039",
-              "type": "Person",
-              "_label": "Lynn Gumpert"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/828",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6040",
-              "type": "Person",
-              "_label": "Betty Goodwin"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/829",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6041",
-              "type": "Person",
-              "_label": "49th Parallel Gallery"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1028",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1028",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1955",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67204",
+            "type": "Person",
+            "_label": "Yolande Racine"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1956",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65701",
+            "type": "Person",
+            "_label": "Lynn Gumpert"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1957",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7956",
+            "type": "Person",
+            "_label": "Betty Goodwin"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1958",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63540",
+            "type": "Person",
+            "_label": "49th Parallel Gallery"
+          }
+        ]
+      }
+    ]
+  }
 }

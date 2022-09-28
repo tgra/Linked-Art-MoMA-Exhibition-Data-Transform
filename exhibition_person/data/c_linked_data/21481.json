@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21481",
+  "type": "Person",
+  "_label": "Andy Kolker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6492",
+      "type": "Name",
+      "_label": "Andy Kolker"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/6493",
+      "type": "Name",
+      "_label": "Kolker Andy"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3246",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6492",
+      "type": "TimeSpan",
+      "_label": "Andy Kolker Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3246",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6493",
+      "type": "TimeSpan",
+      "_label": "Andy Kolker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3246",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3246",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1535",
+              "type": "Event",
+              "_label": "Recent Documentaries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-3 - 1983-12-4",
+                "begin_of_the_begin": "1983-11-3",
+                "end_of_the_end": "1983-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14615",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

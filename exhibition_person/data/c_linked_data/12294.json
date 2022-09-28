@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/12294",
+  "type": "Person",
+  "_label": "Dr. H. P. Berlage",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/570",
+      "type": "Name",
+      "_label": "Dr. H. P. Berlage"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/571",
+      "type": "Name",
+      "_label": "Berlage Dr. H. P."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500010705",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q318816",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q318816",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/285",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/570",
+      "type": "TimeSpan",
+      "_label": "Dr. H. P. Berlage Birth timespan",
+      "begin_of_the_begin": "1856",
+      "end_of_the_end": "1856"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/285",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/571",
+      "type": "TimeSpan",
+      "_label": "Dr. H. P. Berlage Death timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/285",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/285",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/596",
+              "type": "Event",
+              "_label": "De Stijl",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-16-12 - 1953-15-2",
+                "begin_of_the_begin": "1952-16-12",
+                "end_of_the_end": "1953-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1990",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

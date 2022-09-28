@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/73435",
+  "type": "Person",
+  "_label": "Jiri Kolar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/50628",
+      "type": "Name",
+      "_label": "Jiri Kolar"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/50629",
+      "type": "Name",
+      "_label": "Kolar Jiri"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25314",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50628",
+      "type": "TimeSpan",
+      "_label": "Jiri Kolar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25314",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50629",
+      "type": "TimeSpan",
+      "_label": "Jiri Kolar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25314",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25314",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1345",
+              "type": "Event",
+              "_label": "Dream/Reality/Dream",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-26-9 - 1977-28-11",
+                "begin_of_the_begin": "1977-26-9",
+                "end_of_the_end": "1977-28-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81706",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

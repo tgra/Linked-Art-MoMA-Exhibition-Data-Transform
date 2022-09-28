@@ -1,84 +1,82 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/953",
+  "id": "http://linkedart.example.com/exhibition/953",
   "type": "Activity",
   "_label": "Five Sculptures from the Museum Collection",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Five Sculptures from the Museum Collection",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Five Sculptures from the Museum Collection",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1968-8-1",
     "end_of_the_end": "1968-3-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4109",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/7037",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4109",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5565",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/43931",
-              "type": "Person",
-              "_label": "Seymour Lipton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43932",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43933",
-              "type": "Person",
-              "_label": "Arnaldo Pomodoro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43934",
-              "type": "Person",
-              "_label": "Alexander Calder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/43935",
-              "type": "Person",
-              "_label": "Roger Bolomey"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/7037",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/7037",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9324",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3417",
+            "type": "Person",
+            "_label": "Seymour Lipton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4488",
+            "type": "Person",
+            "_label": "Arnaldo Pomodoro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/887",
+            "type": "Person",
+            "_label": "Alexander Calder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/618",
+            "type": "Person",
+            "_label": "Roger Bolomey"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,142 +1,140 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/852",
+  "id": "http://linkedart.example.com/exhibition/852",
   "type": "Activity",
   "_label": "American Collages",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "American Collages",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "American Collages",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1965-11-5",
     "end_of_the_end": "1965-25-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4009",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6925",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4009",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5377",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42156",
-              "type": "Person",
-              "_label": "Alfred Leslie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42157",
-              "type": "Person",
-              "_label": "Leon Polk Smith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42158",
-              "type": "Person",
-              "_label": "Anne Ryan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42159",
-              "type": "Person",
-              "_label": "Conrad Marca-Relli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42160",
-              "type": "Person",
-              "_label": "Alex Katz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42161",
-              "type": "Person",
-              "_label": "Nicholas Krushenick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42162",
-              "type": "Person",
-              "_label": "Robert Motherwell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42163",
-              "type": "Person",
-              "_label": "Esteban Vicente"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42164",
-              "type": "Person",
-              "_label": "Charmion von Wiegand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42165",
-              "type": "Person",
-              "_label": "Gene Hedge"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42166",
-              "type": "Person",
-              "_label": "Angelo Ippolito"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42167",
-              "type": "Person",
-              "_label": "Joseph Cornell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42168",
-              "type": "Person",
-              "_label": "Jess"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42169",
-              "type": "Person",
-              "_label": "Robert Goodnough"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5378",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42170",
-              "type": "Person",
-              "_label": "Kynaston McShine"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6925",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6925",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9115",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3349",
+            "type": "Person",
+            "_label": "Alfred Leslie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5275",
+            "type": "Person",
+            "_label": "Leon Polk Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4898",
+            "type": "Person",
+            "_label": "Anne Ryan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3596",
+            "type": "Person",
+            "_label": "Conrad Marca-Relli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2890",
+            "type": "Person",
+            "_label": "Alex Katz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3133",
+            "type": "Person",
+            "_label": "Nicholas Krushenick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3967",
+            "type": "Person",
+            "_label": "Robert Motherwell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5875",
+            "type": "Person",
+            "_label": "Esteban Vicente"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5911",
+            "type": "Person",
+            "_label": "Charmion von Wiegand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31446",
+            "type": "Person",
+            "_label": "Gene Hedge"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2703",
+            "type": "Person",
+            "_label": "Angelo Ippolito"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1189",
+            "type": "Person",
+            "_label": "Joseph Cornell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2790",
+            "type": "Person",
+            "_label": "Jess"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2151",
+            "type": "Person",
+            "_label": "Robert Goodnough"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9116",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27078",
+            "type": "Person",
+            "_label": "Kynaston McShine"
+          }
+        ]
+      }
+    ]
+  }
 }

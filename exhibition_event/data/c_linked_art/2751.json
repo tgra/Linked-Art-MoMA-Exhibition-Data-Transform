@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2751",
+  "id": "http://linkedart.example.com/exhibition/2751",
   "type": "Activity",
   "_label": "Film (Fall 1986)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film (Fall 1986)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film (Fall 1986)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-26-10",
     "end_of_the_end": "1986-26-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1475",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3053",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1475",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2225",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12544",
-              "type": "Person",
-              "_label": "James Nares"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12545",
-              "type": "Person",
-              "_label": "Chantal Akerman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12546",
-              "type": "Person",
-              "_label": "Peter Emanuel Goldman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12547",
-              "type": "Person",
-              "_label": "Vivienne Dick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12548",
-              "type": "Person",
-              "_label": "Barbara Chang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12549",
-              "type": "Person",
-              "_label": "John Hesurun"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12550",
-              "type": "Person",
-              "_label": "Pacific Street Film Collective"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12551",
-              "type": "Person",
-              "_label": "Andy Anderson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3053",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3053",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4572",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4059",
+            "type": "Person",
+            "_label": "James Nares"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57765",
+            "type": "Person",
+            "_label": "Chantal Akerman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57766",
+            "type": "Person",
+            "_label": "Peter Emanuel Goldman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57767",
+            "type": "Person",
+            "_label": "Vivienne Dick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57770",
+            "type": "Person",
+            "_label": "Barbara Chang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57768",
+            "type": "Person",
+            "_label": "John Hesurun"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57769",
+            "type": "Person",
+            "_label": "Pacific Street Film Collective"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57010",
+            "type": "Person",
+            "_label": "Andy Anderson"
+          }
+        ]
+      }
+    ]
+  }
 }

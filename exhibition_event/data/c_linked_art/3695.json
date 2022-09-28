@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3695",
+  "id": "http://linkedart.example.com/exhibition/3695",
   "type": "Activity",
   "_label": "Fri.Art: Made in Switzerland",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Fri.Art: Made in Switzerland",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Fri.Art: Made in Switzerland",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1985-26-4",
     "end_of_the_end": "1985-2-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2529",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4118",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2529",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3337",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22172",
-              "type": "Person",
-              "_label": "Gregoire Muller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22173",
-              "type": "Person",
-              "_label": "Meret Oppenheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22174",
-              "type": "Person",
-              "_label": "Jean Otth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22175",
-              "type": "Person",
-              "_label": "Markus Raetz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22176",
-              "type": "Person",
-              "_label": "Silvie Defraoui"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22177",
-              "type": "Person",
-              "_label": "Josef Felix Müller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22178",
-              "type": "Person",
-              "_label": "John Armleder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22179",
-              "type": "Person",
-              "_label": "Cherif Defraoui"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22180",
-              "type": "Person",
-              "_label": "Aldo Walker"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4118",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4118",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5696",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3989",
+            "type": "Person",
+            "_label": "Gregoire Muller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4242",
+            "type": "Person",
+            "_label": "Meret Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32743",
+            "type": "Person",
+            "_label": "Jean Otth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4597",
+            "type": "Person",
+            "_label": "Markus Raetz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22422",
+            "type": "Person",
+            "_label": "Silvie Defraoui"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3991",
+            "type": "Person",
+            "_label": "Josef Felix Müller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6326",
+            "type": "Person",
+            "_label": "John Armleder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59555",
+            "type": "Person",
+            "_label": "Cherif Defraoui"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58164",
+            "type": "Person",
+            "_label": "Aldo Walker"
+          }
+        ]
+      }
+    ]
+  }
 }

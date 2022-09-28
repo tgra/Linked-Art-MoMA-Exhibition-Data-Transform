@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33174",
+  "type": "Person",
+  "_label": "Jack Freulich",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24170",
+      "type": "Name",
+      "_label": "Jack Freulich"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/24171",
+      "type": "Name",
+      "_label": "Freulich Jack"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12085",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24170",
+      "type": "TimeSpan",
+      "_label": "Jack Freulich Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12085",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24171",
+      "type": "TimeSpan",
+      "_label": "Jack Freulich Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12085",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12085",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1476",
+              "type": "Event",
+              "_label": "Hollywood Portrait Photographers, 1921–1941",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-5-12 - 1981-28-2",
+                "begin_of_the_begin": "1980-5-12",
+                "end_of_the_end": "1981-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38444",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

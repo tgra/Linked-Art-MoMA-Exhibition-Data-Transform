@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7336",
+  "type": "Person",
+  "_label": "Jerry Schatzberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/50568",
+      "type": "Name",
+      "_label": "Jerry Schatzberg"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/50569",
+      "type": "Name",
+      "_label": "Schatzberg Jerry"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500342972",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q935852",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q935852",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8708",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1927"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25284",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50568",
+      "type": "TimeSpan",
+      "_label": "Jerry Schatzberg Birth timespan",
+      "begin_of_the_begin": "1927",
+      "end_of_the_end": "1927"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25284",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50569",
+      "type": "TimeSpan",
+      "_label": "Jerry Schatzberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25284",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25284",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2533",
+              "type": "Event",
+              "_label": "Photography Collection: Rotation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-13-5 - 2012-12-3",
+                "begin_of_the_begin": "2011-13-5",
+                "end_of_the_end": "2012-12-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81631",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

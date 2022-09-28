@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/71458",
+  "type": "Person",
+  "_label": "John Zurier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/49744",
+      "type": "Name",
+      "_label": "John Zurier"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/49745",
+      "type": "Name",
+      "_label": "Zurier John"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/24872",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49744",
+      "type": "TimeSpan",
+      "_label": "John Zurier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/24872",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/49745",
+      "type": "TimeSpan",
+      "_label": "John Zurier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/24872",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/24872",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/28411",
+              "type": "Event",
+              "_label": "Whitney Biennial 2002",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-7-3 - 2002-26-5",
+                "begin_of_the_begin": "2002-7-3",
+                "end_of_the_end": "2002-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/80506",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31850",
+  "type": "Person",
+  "_label": "Olen Orr",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21336",
+      "type": "Name",
+      "_label": "Olen Orr"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/21337",
+      "type": "Name",
+      "_label": "Orr Olen"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10668",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21336",
+      "type": "TimeSpan",
+      "_label": "Olen Orr Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10668",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21337",
+      "type": "TimeSpan",
+      "_label": "Olen Orr Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10668",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10668",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/888",
+              "type": "Event",
+              "_label": "The Object Transformed",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-29-6 - 1966-5-9",
+                "begin_of_the_begin": "1966-29-6",
+                "end_of_the_end": "1966-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35470",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

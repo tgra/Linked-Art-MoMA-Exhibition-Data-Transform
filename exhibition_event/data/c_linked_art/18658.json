@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18658",
+  "id": "http://linkedart.example.com/exhibition/18658",
   "type": "Activity",
   "_label": "Wind (the Eternal Return …",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Wind (the Eternal Return …",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Wind (the Eternal Return …",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2001-21-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1065",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1830",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1065",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1582",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8814",
-              "type": "Person",
-              "_label": "DD Dorvillier"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8815",
-              "type": "Person",
-              "_label": "Anika Tromholt Kristensen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8816",
-              "type": "Person",
-              "_label": "Sarah Michelson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8817",
-              "type": "Person",
-              "_label": "Willa Carrp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8818",
-              "type": "Person",
-              "_label": "John Wyszniewski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8819",
-              "type": "Person",
-              "_label": "Gayle Gibbons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8820",
-              "type": "Person",
-              "_label": "Jessica Reese Dessner"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1830",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1830",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2942",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64376",
+            "type": "Person",
+            "_label": "DD Dorvillier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67515",
+            "type": "Person",
+            "_label": "Anika Tromholt Kristensen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66638",
+            "type": "Person",
+            "_label": "Sarah Michelson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67704",
+            "type": "Person",
+            "_label": "Willa Carrp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67346",
+            "type": "Person",
+            "_label": "John Wyszniewski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67263",
+            "type": "Person",
+            "_label": "Gayle Gibbons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67331",
+            "type": "Person",
+            "_label": "Jessica Reese Dessner"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19920",
+  "type": "Person",
+  "_label": "Oki Sato",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5096",
+      "type": "Name",
+      "_label": "Oki Sato"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/5097",
+      "type": "Name",
+      "_label": "Sato Oki"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500291874",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q11383566",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q11383566",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2187",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian, born 1977"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2548",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5096",
+      "type": "TimeSpan",
+      "_label": "Oki Sato Birth timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2548",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5097",
+      "type": "TimeSpan",
+      "_label": "Oki Sato Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2548",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2548",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2380",
+              "type": "Event",
+              "_label": "Design and the Elastic Mind",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-24-2 - 2008-12-5",
+                "begin_of_the_begin": "2008-24-2",
+                "end_of_the_end": "2008-12-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11791",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

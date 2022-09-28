@@ -1,99 +1,97 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/459",
+  "id": "http://linkedart.example.com/exhibition/459",
   "type": "Activity",
   "_label": "Recent Acquisitions",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Acquisitions",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Acquisitions",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1948-9-11",
     "end_of_the_end": "1949-31-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3343",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4934",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3343",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4215",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27720",
-              "type": "Person",
-              "_label": "Gaston Lachaise"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27721",
-              "type": "Person",
-              "_label": "Marino Marini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27722",
-              "type": "Person",
-              "_label": "Robert MacBryde"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27723",
-              "type": "Person",
-              "_label": "Edward Burra"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27724",
-              "type": "Person",
-              "_label": "Francis Bacon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27725",
-              "type": "Person",
-              "_label": "Lucian Freud"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27726",
-              "type": "Person",
-              "_label": "Georges Braque"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27727",
-              "type": "Person",
-              "_label": "Robert Colquhoun"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4934",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4934",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6577",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3191",
+            "type": "Person",
+            "_label": "Gaston Lachaise"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3619",
+            "type": "Person",
+            "_label": "Marino Marini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3508",
+            "type": "Person",
+            "_label": "Robert MacBryde"
+          },
+          {
+            "id": "http://linkedart.example.com/person/849",
+            "type": "Person",
+            "_label": "Edward Burra"
+          },
+          {
+            "id": "http://linkedart.example.com/person/254",
+            "type": "Person",
+            "_label": "Francis Bacon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1911",
+            "type": "Person",
+            "_label": "Lucian Freud"
+          },
+          {
+            "id": "http://linkedart.example.com/person/714",
+            "type": "Person",
+            "_label": "Georges Braque"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1146",
+            "type": "Person",
+            "_label": "Robert Colquhoun"
+          }
+        ]
+      }
+    ]
+  }
 }

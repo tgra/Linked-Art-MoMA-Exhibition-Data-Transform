@@ -1,192 +1,190 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/221",
+  "id": "http://linkedart.example.com/exhibition/221",
   "type": "Activity",
   "_label": "Photographs of the Civil War and the American Frontier",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Photographs of the Civil War and the American Frontier",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Photographs of the Civil War and the American Frontier",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1942-3-3",
     "end_of_the_end": "1942-5-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1341",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2450",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1341",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2052",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10858",
-              "type": "Person",
-              "_label": "Andrew Joseph Russell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10859",
-              "type": "Person",
-              "_label": "Timothy O'Sullivan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10860",
-              "type": "Person",
-              "_label": "Carleton E. Watkins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10861",
-              "type": "Person",
-              "_label": "Isaac Walton Taber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10862",
-              "type": "Person",
-              "_label": "James F. Gibson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10863",
-              "type": "Person",
-              "_label": "Ben Wittick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10864",
-              "type": "Person",
-              "_label": "John Wood"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10865",
-              "type": "Person",
-              "_label": "C.F. Townsend"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10866",
-              "type": "Person",
-              "_label": "H.C. Barley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10867",
-              "type": "Person",
-              "_label": "John Carbutt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10868",
-              "type": "Person",
-              "_label": "Simeon Schwemberger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10869",
-              "type": "Person",
-              "_label": "Charles G. Johnson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10870",
-              "type": "Person",
-              "_label": "H.G. Kaiser"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10871",
-              "type": "Person",
-              "_label": "D'Heureuse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10872",
-              "type": "Person",
-              "_label": "H.A. Doerr"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10873",
-              "type": "Person",
-              "_label": "W.H. Illingworth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10874",
-              "type": "Person",
-              "_label": "Clarence King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10875",
-              "type": "Person",
-              "_label": "John Hillers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10876",
-              "type": "Person",
-              "_label": "Mathew B. Brady"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10877",
-              "type": "Person",
-              "_label": "Alexander Gardner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10878",
-              "type": "Person",
-              "_label": "William H. Bell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10879",
-              "type": "Person",
-              "_label": "Edward S. Curtis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10880",
-              "type": "Person",
-              "_label": "George Barnard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10881",
-              "type": "Person",
-              "_label": "William Henry Jackson"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2053",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10882",
-              "type": "Person",
-              "_label": "Ansel Adams"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2450",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2450",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3873",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4892",
+            "type": "Person",
+            "_label": "Andrew Joseph Russell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4191",
+            "type": "Person",
+            "_label": "Timothy O'Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5979",
+            "type": "Person",
+            "_label": "Carleton E. Watkins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21935",
+            "type": "Person",
+            "_label": "Isaac Walton Taber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17095",
+            "type": "Person",
+            "_label": "James F. Gibson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6129",
+            "type": "Person",
+            "_label": "Ben Wittick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7379",
+            "type": "Person",
+            "_label": "John Wood"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30470",
+            "type": "Person",
+            "_label": "C.F. Townsend"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29092",
+            "type": "Person",
+            "_label": "H.C. Barley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29093",
+            "type": "Person",
+            "_label": "John Carbutt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29100",
+            "type": "Person",
+            "_label": "Simeon Schwemberger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29097",
+            "type": "Person",
+            "_label": "Charles G. Johnson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29098",
+            "type": "Person",
+            "_label": "H.G. Kaiser"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29094",
+            "type": "Person",
+            "_label": "D'Heureuse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29095",
+            "type": "Person",
+            "_label": "H.A. Doerr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29096",
+            "type": "Person",
+            "_label": "W.H. Illingworth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29099",
+            "type": "Person",
+            "_label": "Clarence King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2543",
+            "type": "Person",
+            "_label": "John Hillers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/704",
+            "type": "Person",
+            "_label": "Mathew B. Brady"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1994",
+            "type": "Person",
+            "_label": "Alexander Gardner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/423",
+            "type": "Person",
+            "_label": "William H. Bell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1278",
+            "type": "Person",
+            "_label": "Edward S. Curtis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/315",
+            "type": "Person",
+            "_label": "George Barnard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2742",
+            "type": "Person",
+            "_label": "William Henry Jackson"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3874",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/59",
+            "type": "Person",
+            "_label": "Ansel Adams"
+          }
+        ]
+      }
+    ]
+  }
 }

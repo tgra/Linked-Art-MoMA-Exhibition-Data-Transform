@@ -1,187 +1,185 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17039",
+  "id": "http://linkedart.example.com/exhibition/17039",
   "type": "Activity",
   "_label": "Free",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Free",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Free",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2010-20-10",
     "end_of_the_end": "2011-23-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/263",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/866",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/263",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/489",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4299",
-              "type": "Person",
-              "_label": "Andrea Longacre-White"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4300",
-              "type": "Person",
-              "_label": "Martijn Hendriks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4301",
-              "type": "Person",
-              "_label": "Jon Rafman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4302",
-              "type": "Person",
-              "_label": "Joel Holmberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4303",
-              "type": "Person",
-              "_label": "Jill Magid"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4304",
-              "type": "Person",
-              "_label": "Harm van den Dorpel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4305",
-              "type": "Person",
-              "_label": "Hanne Mugaas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4306",
-              "type": "Person",
-              "_label": "Trevor Paglen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4307",
-              "type": "Person",
-              "_label": "Clunie Reid"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4308",
-              "type": "Person",
-              "_label": "Lars Laumann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4309",
-              "type": "Person",
-              "_label": "Kristin Lucas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4310",
-              "type": "Person",
-              "_label": "Rashaad Newsome"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4311",
-              "type": "Person",
-              "_label": "David Horvitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4312",
-              "type": "Person",
-              "_label": "Lizzie Fitch"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4313",
-              "type": "Person",
-              "_label": "Ryan Trecartin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4314",
-              "type": "Person",
-              "_label": "Lisa Oppenheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4315",
-              "type": "Person",
-              "_label": "Alexandre Singh"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4316",
-              "type": "Person",
-              "_label": "Amanda Ross-Ho"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4317",
-              "type": "Person",
-              "_label": "Liz Deschenes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4318",
-              "type": "Person",
-              "_label": "Seth Price"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4319",
-              "type": "Person",
-              "_label": "Alexandra Domanovic"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4320",
-              "type": "Person",
-              "_label": "Takeshi Murata"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4321",
-              "type": "Person",
-              "_label": "David Karp"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/490",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4322",
-              "type": "Person",
-              "_label": "Lauren Cornell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/866",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/866",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1592",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63733",
+            "type": "Person",
+            "_label": "Andrea Longacre-White"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65835",
+            "type": "Person",
+            "_label": "Martijn Hendriks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65258",
+            "type": "Person",
+            "_label": "Jon Rafman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65200",
+            "type": "Person",
+            "_label": "Joel Holmberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65148",
+            "type": "Person",
+            "_label": "Jill Magid"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64835",
+            "type": "Person",
+            "_label": "Harm van den Dorpel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64831",
+            "type": "Person",
+            "_label": "Hanne Mugaas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60901",
+            "type": "Person",
+            "_label": "Trevor Paglen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64229",
+            "type": "Person",
+            "_label": "Clunie Reid"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62255",
+            "type": "Person",
+            "_label": "Lars Laumann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16591",
+            "type": "Person",
+            "_label": "Kristin Lucas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60211",
+            "type": "Person",
+            "_label": "Rashaad Newsome"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33500",
+            "type": "Person",
+            "_label": "David Horvitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26142",
+            "type": "Person",
+            "_label": "Lizzie Fitch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25934",
+            "type": "Person",
+            "_label": "Ryan Trecartin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25770",
+            "type": "Person",
+            "_label": "Lisa Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22968",
+            "type": "Person",
+            "_label": "Alexandre Singh"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22902",
+            "type": "Person",
+            "_label": "Amanda Ross-Ho"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19821",
+            "type": "Person",
+            "_label": "Liz Deschenes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19778",
+            "type": "Person",
+            "_label": "Seth Price"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19144",
+            "type": "Person",
+            "_label": "Alexandra Domanovic"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60237",
+            "type": "Person",
+            "_label": "Takeshi Murata"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64354",
+            "type": "Person",
+            "_label": "David Karp"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1593",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65567",
+            "type": "Person",
+            "_label": "Lauren Cornell"
+          }
+        ]
+      }
+    ]
+  }
 }

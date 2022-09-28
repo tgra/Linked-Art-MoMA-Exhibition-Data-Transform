@@ -1,135 +1,133 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3224",
+  "id": "http://linkedart.example.com/exhibition/3224",
   "type": "Activity",
   "_label": "Animal.Anima.Animus",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Animal.Anima.Animus",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Animal.Anima.Animus",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1999-20-6",
     "end_of_the_end": "1999-29-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2007",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3596",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2007",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2792",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18486",
-              "type": "Person",
-              "_label": "Per Maning"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18487",
-              "type": "Person",
-              "_label": "Marina Abramovic"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18488",
-              "type": "Person",
-              "_label": "Xu Bing"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18489",
-              "type": "Person",
-              "_label": "Yukinori Yanagi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18490",
-              "type": "Person",
-              "_label": "Carolee Schneemann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18491",
-              "type": "Person",
-              "_label": "Dennis Oppenheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18492",
-              "type": "Person",
-              "_label": "José Bedia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18493",
-              "type": "Person",
-              "_label": "Michal Rovner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18494",
-              "type": "Person",
-              "_label": "Hubert Duprat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18495",
-              "type": "Person",
-              "_label": "Kaisu Koivisto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18496",
-              "type": "Person",
-              "_label": "Cornelia Hesse-Honegger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18497",
-              "type": "Person",
-              "_label": "Colin Beatty"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18498",
-              "type": "Person",
-              "_label": "Jan Harrison"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18499",
-              "type": "Person",
-              "_label": "Thomas Grunfeld"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18500",
-              "type": "Person",
-              "_label": "Jussi Heikkila"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3596",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3596",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5151",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3575",
+            "type": "Person",
+            "_label": "Per Maning"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16626",
+            "type": "Person",
+            "_label": "Marina Abramovic"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18405",
+            "type": "Person",
+            "_label": "Xu Bing"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7314",
+            "type": "Person",
+            "_label": "Yukinori Yanagi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7337",
+            "type": "Person",
+            "_label": "Carolee Schneemann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4241",
+            "type": "Person",
+            "_label": "Dennis Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7066",
+            "type": "Person",
+            "_label": "José Bedia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6725",
+            "type": "Person",
+            "_label": "Michal Rovner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57399",
+            "type": "Person",
+            "_label": "Hubert Duprat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57404",
+            "type": "Person",
+            "_label": "Kaisu Koivisto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57403",
+            "type": "Person",
+            "_label": "Cornelia Hesse-Honegger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58962",
+            "type": "Person",
+            "_label": "Colin Beatty"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57401",
+            "type": "Person",
+            "_label": "Jan Harrison"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57400",
+            "type": "Person",
+            "_label": "Thomas Grunfeld"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57402",
+            "type": "Person",
+            "_label": "Jussi Heikkila"
+          }
+        ]
+      }
+    ]
+  }
 }

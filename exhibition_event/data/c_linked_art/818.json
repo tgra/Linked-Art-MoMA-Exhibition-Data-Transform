@@ -1,124 +1,122 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/818",
+  "id": "http://linkedart.example.com/exhibition/818",
   "type": "Activity",
   "_label": "From the Museum Collections: Family Portraits",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "From the Museum Collections: Family Portraits",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "From the Museum Collections: Family Portraits",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1964-27-5",
     "end_of_the_end": "1965-7-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3971",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6887",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3971",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5310",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/41127",
-              "type": "Person",
-              "_label": "Walter Quirt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41128",
-              "type": "Person",
-              "_label": "Marisol (Marisol Escobar)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41129",
-              "type": "Person",
-              "_label": "Richard Lindner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41130",
-              "type": "Person",
-              "_label": "Henry Moore"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41131",
-              "type": "Person",
-              "_label": "Ben Shahn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41132",
-              "type": "Person",
-              "_label": "Antonio Ruiz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41133",
-              "type": "Person",
-              "_label": "Stanley Spencer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41134",
-              "type": "Person",
-              "_label": "Édouard Vuillard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41135",
-              "type": "Person",
-              "_label": "Yves Tanguy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41136",
-              "type": "Person",
-              "_label": "O. Louis Guglielmi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41137",
-              "type": "Person",
-              "_label": "Florine Stettheimer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41138",
-              "type": "Person",
-              "_label": "Max Beckmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41139",
-              "type": "Person",
-              "_label": "Minna R. Harkavy"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6887",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6887",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9048",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4586",
+            "type": "Person",
+            "_label": "Walter Quirt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3621",
+            "type": "Person",
+            "_label": "Marisol (Marisol Escobar)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3409",
+            "type": "Person",
+            "_label": "Richard Lindner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3913",
+            "type": "Person",
+            "_label": "Henry Moore"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5159",
+            "type": "Person",
+            "_label": "Ben Shahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4879",
+            "type": "Person",
+            "_label": "Antonio Ruiz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5345",
+            "type": "Person",
+            "_label": "Stanley Spencer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5917",
+            "type": "Person",
+            "_label": "Édouard Vuillard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5578",
+            "type": "Person",
+            "_label": "Yves Tanguy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7558",
+            "type": "Person",
+            "_label": "O. Louis Guglielmi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5436",
+            "type": "Person",
+            "_label": "Florine Stettheimer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/406",
+            "type": "Person",
+            "_label": "Max Beckmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2406",
+            "type": "Person",
+            "_label": "Minna R. Harkavy"
+          }
+        ]
+      }
+    ]
+  }
 }

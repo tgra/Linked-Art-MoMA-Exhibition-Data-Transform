@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/395",
+  "id": "http://linkedart.example.com/exhibition/395",
   "type": "Activity",
   "_label": "Recent Acquisitions in Painting and Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Acquisitions in Painting and Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Acquisitions in Painting and Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1946-24-9",
     "end_of_the_end": "1946-17-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2793",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4382",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2793",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3618",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23758",
-              "type": "Person",
-              "_label": "Maria Martins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23759",
-              "type": "Person",
-              "_label": "Ben Shahn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23760",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23761",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23762",
-              "type": "Person",
-              "_label": "Robert Laurent"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23763",
-              "type": "Person",
-              "_label": "René Portocarrero"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23764",
-              "type": "Person",
-              "_label": "Theo van Doesburg (Christian Emil Marie Küpper)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23765",
-              "type": "Person",
-              "_label": "Graham Sutherland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23766",
-              "type": "Person",
-              "_label": "Stuart Davis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23767",
-              "type": "Person",
-              "_label": "Oscar Jespers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23768",
-              "type": "Person",
-              "_label": "George Grosz"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4382",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4382",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5977",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3614",
+            "type": "Person",
+            "_label": "Maria Martins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5159",
+            "type": "Person",
+            "_label": "Ben Shahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3267",
+            "type": "Person",
+            "_label": "Robert Laurent"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8087",
+            "type": "Person",
+            "_label": "René Portocarrero"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5819",
+            "type": "Person",
+            "_label": "Theo van Doesburg (Christian Emil Marie Küpper)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5517",
+            "type": "Person",
+            "_label": "Graham Sutherland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1346",
+            "type": "Person",
+            "_label": "Stuart Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2789",
+            "type": "Person",
+            "_label": "Oscar Jespers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2279",
+            "type": "Person",
+            "_label": "George Grosz"
+          }
+        ]
+      }
+    ]
+  }
 }

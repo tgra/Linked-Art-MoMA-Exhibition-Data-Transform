@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3385",
+  "id": "http://linkedart.example.com/exhibition/3385",
   "type": "Activity",
   "_label": "Dive-In Movies: Flix from the Great B-yond",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Dive-In Movies: Flix from the Great B-yond",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Dive-In Movies: Flix from the Great B-yond",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2000-17-8",
     "end_of_the_end": "2000-24-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2185",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3774",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2185",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2976",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19645",
-              "type": "Person",
-              "_label": "George Kuchar"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19646",
-              "type": "Person",
-              "_label": "Martha Colburn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19647",
-              "type": "Person",
-              "_label": "Peter Tscherkassky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19648",
-              "type": "Person",
-              "_label": "Cathy Cook"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19649",
-              "type": "Person",
-              "_label": "Matt McCormick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19650",
-              "type": "Person",
-              "_label": "Naomi Uman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19651",
-              "type": "Person",
-              "_label": "Robert Arnold"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19652",
-              "type": "Person",
-              "_label": "Jay Capela"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19653",
-              "type": "Person",
-              "_label": "Thad Povey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19654",
-              "type": "Person",
-              "_label": "Christy Karacas"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3774",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3774",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5335",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/19515",
+            "type": "Person",
+            "_label": "George Kuchar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22635",
+            "type": "Person",
+            "_label": "Martha Colburn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25679",
+            "type": "Person",
+            "_label": "Peter Tscherkassky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59261",
+            "type": "Person",
+            "_label": "Cathy Cook"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59263",
+            "type": "Person",
+            "_label": "Matt McCormick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59264",
+            "type": "Person",
+            "_label": "Naomi Uman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59265",
+            "type": "Person",
+            "_label": "Robert Arnold"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59266",
+            "type": "Person",
+            "_label": "Jay Capela"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59267",
+            "type": "Person",
+            "_label": "Thad Povey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59262",
+            "type": "Person",
+            "_label": "Christy Karacas"
+          }
+        ]
+      }
+    ]
+  }
 }

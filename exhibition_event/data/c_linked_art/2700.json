@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2700",
+  "id": "http://linkedart.example.com/exhibition/2700",
   "type": "Activity",
   "_label": "January Concerts",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "January Concerts",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "January Concerts",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1973-12-1",
     "end_of_the_end": "1973-28-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1419",
-      "type": "Place",
-      "_label": "10 Bleecker Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2997",
+    "type": "Place",
+    "_label": "10 Bleecker Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1419",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2163",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11949",
-              "type": "Person",
-              "_label": "Arthur Murphy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11950",
-              "type": "Person",
-              "_label": "Tina Girouard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11951",
-              "type": "Person",
-              "_label": "Philip Glass"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11952",
-              "type": "Person",
-              "_label": "Richard E. Peck, Jr."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11953",
-              "type": "Person",
-              "_label": "Richard \"Dickie\" Landry"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11954",
-              "type": "Person",
-              "_label": "Jon Gibson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11955",
-              "type": "Person",
-              "_label": "Kurt Munkacsi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11956",
-              "type": "Person",
-              "_label": "Rusty Gilder"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2997",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2997",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4510",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/28063",
+            "type": "Person",
+            "_label": "Arthur Murphy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32429",
+            "type": "Person",
+            "_label": "Tina Girouard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20912",
+            "type": "Person",
+            "_label": "Philip Glass"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56691",
+            "type": "Person",
+            "_label": "Richard E. Peck, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/34479",
+            "type": "Person",
+            "_label": "Richard \"Dickie\" Landry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57105",
+            "type": "Person",
+            "_label": "Jon Gibson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57196",
+            "type": "Person",
+            "_label": "Kurt Munkacsi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58548",
+            "type": "Person",
+            "_label": "Rusty Gilder"
+          }
+        ]
+      }
+    ]
+  }
 }

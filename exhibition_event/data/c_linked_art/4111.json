@@ -1,170 +1,168 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4111",
+  "id": "http://linkedart.example.com/exhibition/4111",
   "type": "Activity",
   "_label": "The East Village Scene",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The East Village Scene",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The East Village Scene",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1984-12-10",
     "end_of_the_end": "1984-2-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2972",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4561",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2972",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3812",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24780",
-              "type": "Person",
-              "_label": "Richard Hambleton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24781",
-              "type": "Person",
-              "_label": "Cheryl Laemmle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24782",
-              "type": "Person",
-              "_label": "Mike Bidlo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24783",
-              "type": "Person",
-              "_label": "Keith Haring"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24784",
-              "type": "Person",
-              "_label": "Stephen Lack"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24785",
-              "type": "Person",
-              "_label": "Rodney Alan Greenblat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24786",
-              "type": "Person",
-              "_label": "Dan Friedman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24787",
-              "type": "Person",
-              "_label": "John Fekner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24788",
-              "type": "Person",
-              "_label": "Claudia De Monte"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24789",
-              "type": "Person",
-              "_label": "Péter Nagy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24790",
-              "type": "Person",
-              "_label": "Arch Connelly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24791",
-              "type": "Person",
-              "_label": "Luis Frangella"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24792",
-              "type": "Person",
-              "_label": "Keiko Bonk"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24793",
-              "type": "Person",
-              "_label": "Frederick Brathwaite"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24794",
-              "type": "Person",
-              "_label": "Mark Kostabi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24795",
-              "type": "Person",
-              "_label": "David Wojnarowicz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24796",
-              "type": "Person",
-              "_label": "Gretchen Bender"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24797",
-              "type": "Person",
-              "_label": "Jean-Michel Basquiat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24798",
-              "type": "Person",
-              "_label": "Futura 2000"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24799",
-              "type": "Person",
-              "_label": "Kenny Scharf"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24800",
-              "type": "Person",
-              "_label": "Rhonda Zwillinger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24801",
-              "type": "Person",
-              "_label": "E.F. Higgins"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4561",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4561",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6171",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/51513",
+            "type": "Person",
+            "_label": "Richard Hambleton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32935",
+            "type": "Person",
+            "_label": "Cheryl Laemmle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56846",
+            "type": "Person",
+            "_label": "Mike Bidlo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2405",
+            "type": "Person",
+            "_label": "Keith Haring"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58131",
+            "type": "Person",
+            "_label": "Stephen Lack"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60700",
+            "type": "Person",
+            "_label": "Rodney Alan Greenblat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1923",
+            "type": "Person",
+            "_label": "Dan Friedman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6770",
+            "type": "Person",
+            "_label": "John Fekner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60698",
+            "type": "Person",
+            "_label": "Claudia De Monte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34264",
+            "type": "Person",
+            "_label": "Péter Nagy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25157",
+            "type": "Person",
+            "_label": "Arch Connelly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60699",
+            "type": "Person",
+            "_label": "Luis Frangella"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60697",
+            "type": "Person",
+            "_label": "Keiko Bonk"
+          },
+          {
+            "id": "http://linkedart.example.com/person/51543",
+            "type": "Person",
+            "_label": "Frederick Brathwaite"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3090",
+            "type": "Person",
+            "_label": "Mark Kostabi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6328",
+            "type": "Person",
+            "_label": "David Wojnarowicz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6557",
+            "type": "Person",
+            "_label": "Gretchen Bender"
+          },
+          {
+            "id": "http://linkedart.example.com/person/349",
+            "type": "Person",
+            "_label": "Jean-Michel Basquiat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6539",
+            "type": "Person",
+            "_label": "Futura 2000"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33777",
+            "type": "Person",
+            "_label": "Kenny Scharf"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57601",
+            "type": "Person",
+            "_label": "Rhonda Zwillinger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59057",
+            "type": "Person",
+            "_label": "E.F. Higgins"
+          }
+        ]
+      }
+    ]
+  }
 }

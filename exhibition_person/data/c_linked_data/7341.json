@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7341",
+  "type": "Person",
+  "_label": "Paul Vanderbilt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/50576",
+      "type": "Name",
+      "_label": "Paul Vanderbilt"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/50577",
+      "type": "Name",
+      "_label": "Vanderbilt Paul"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500042379",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8711",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1905–1992"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25288",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50576",
+      "type": "TimeSpan",
+      "_label": "Paul Vanderbilt Birth timespan",
+      "begin_of_the_begin": "1905",
+      "end_of_the_end": "1905"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25288",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50577",
+      "type": "TimeSpan",
+      "_label": "Paul Vanderbilt Death timespan",
+      "begin_of_the_begin": "1992",
+      "end_of_the_end": "1992"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25288",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25288",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/812",
+              "type": "Event",
+              "_label": "The Photographer and the American Landscape",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-24-9 - 1963-1-12",
+                "begin_of_the_begin": "1963-24-9",
+                "end_of_the_end": "1963-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/81671",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,116 +1,114 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17129",
+  "id": "http://linkedart.example.com/exhibition/17129",
   "type": "Activity",
   "_label": "Day Without Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Day Without Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Day Without Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1992-1-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/354",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/966",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/354",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/709",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5540",
-              "type": "Person",
-              "_label": "The OParty!"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5541",
-              "type": "Person",
-              "_label": "ACT UP, New York"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5542",
-              "type": "Person",
-              "_label": "Robert Farber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5543",
-              "type": "Person",
-              "_label": "Gran Fury"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5544",
-              "type": "Person",
-              "_label": "Bob Flanagan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5545",
-              "type": "Person",
-              "_label": "Nancy Burson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5546",
-              "type": "Person",
-              "_label": "Silence Death"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5547",
-              "type": "Person",
-              "_label": "Institute of Cultural Inquiry"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5548",
-              "type": "Person",
-              "_label": "Jubilee Arts"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/710",
-          "type": "Set",
-          "_label": "OrgInstitution",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5549",
-              "type": "Person",
-              "_label": "Visual AIDS"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/966",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/966",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1827",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66933",
+            "type": "Person",
+            "_label": "The OParty!"
+          },
+          {
+            "id": "http://linkedart.example.com/person/13843",
+            "type": "Person",
+            "_label": "ACT UP, New York"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21054",
+            "type": "Person",
+            "_label": "Robert Farber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21629",
+            "type": "Person",
+            "_label": "Gran Fury"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26384",
+            "type": "Person",
+            "_label": "Bob Flanagan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33742",
+            "type": "Person",
+            "_label": "Nancy Burson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61540",
+            "type": "Person",
+            "_label": "Silence Death"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64944",
+            "type": "Person",
+            "_label": "Institute of Cultural Inquiry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65319",
+            "type": "Person",
+            "_label": "Jubilee Arts"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1828",
+        "type": "Set",
+        "_label": "OrgInstitution",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/16934",
+            "type": "Person",
+            "_label": "Visual AIDS"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/30541",
+  "type": "Person",
+  "_label": "Alice Austen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/18514",
+      "type": "Name",
+      "_label": "Alice Austen"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/18515",
+      "type": "Name",
+      "_label": "Austen Alice"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500009604",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q538225",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q538225",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5115",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1866–1952"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9257",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18514",
+      "type": "TimeSpan",
+      "_label": "Alice Austen Birth timespan",
+      "begin_of_the_begin": "1866",
+      "end_of_the_end": "1866"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9257",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18515",
+      "type": "TimeSpan",
+      "_label": "Alice Austen Death timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9257",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9257",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/695",
+              "type": "Event",
+              "_label": "70 Photographers Look at New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-27-11 - 1958-15-4",
+                "begin_of_the_begin": "1957-27-11",
+                "end_of_the_end": "1958-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/32656",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

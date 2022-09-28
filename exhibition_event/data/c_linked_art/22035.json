@@ -1,104 +1,102 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/22035",
+  "id": "http://linkedart.example.com/exhibition/22035",
   "type": "Activity",
   "_label": "Four Artists: Drawings, at the Institute of Contemporary Art, Tokyo, Japan",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Four Artists: Drawings, at the Institute of Contemporary Art, Tokyo, Japan",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Four Artists: Drawings, at the Institute of Contemporary Art, Tokyo, Japan",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1977-20-8",
     "end_of_the_end": "1977-20-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1339",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2442",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1339",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2047",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10845",
-              "type": "Person",
-              "_label": "Donald Sultan"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2048",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10846",
-              "type": "Person",
-              "_label": "Sharon Haskell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10847",
-              "type": "Person",
-              "_label": "Institute of Contemporary Art, Tokyo, Japan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10848",
-              "type": "Person",
-              "_label": "Edward C. Flood"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10849",
-              "type": "Person",
-              "_label": "Bill Jensen"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2049",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10850",
-              "type": "Person",
-              "_label": "Michiko Miyamoto"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2442",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2442",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3861",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5504",
+            "type": "Person",
+            "_label": "Donald Sultan"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3862",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66690",
+            "type": "Person",
+            "_label": "Sharon Haskell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64943",
+            "type": "Person",
+            "_label": "Institute of Contemporary Art, Tokyo, Japan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64489",
+            "type": "Person",
+            "_label": "Edward C. Flood"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2785",
+            "type": "Person",
+            "_label": "Bill Jensen"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3863",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65983",
+            "type": "Person",
+            "_label": "Michiko Miyamoto"
+          }
+        ]
+      }
+    ]
+  }
 }

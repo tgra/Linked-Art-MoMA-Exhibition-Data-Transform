@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/175",
+  "id": "http://linkedart.example.com/exhibition/175",
   "type": "Activity",
   "_label": "Understanding Modern Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Understanding Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Understanding Modern Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1941-6-5",
     "end_of_the_end": "1941-30-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/530",
-      "type": "Place",
-      "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1179",
+    "type": "Place",
+    "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/530",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1045",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/7060",
-              "type": "Person",
-              "_label": "Kazimir Malevich"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7061",
-              "type": "Person",
-              "_label": "Camille Pissarro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7062",
-              "type": "Person",
-              "_label": "Georges Rouault"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7063",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7064",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7065",
-              "type": "Person",
-              "_label": "Jean Renoir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7066",
-              "type": "Person",
-              "_label": "Georges Braque"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7067",
-              "type": "Person",
-              "_label": "Jean (Hans) Arp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7068",
-              "type": "Person",
-              "_label": "Paul Cézanne"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1179",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1179",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2226",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3558",
+            "type": "Person",
+            "_label": "Kazimir Malevich"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4455",
+            "type": "Person",
+            "_label": "Camille Pissarro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4854",
+            "type": "Person",
+            "_label": "Georges Rouault"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16713",
+            "type": "Person",
+            "_label": "Jean Renoir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/714",
+            "type": "Person",
+            "_label": "Georges Braque"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11",
+            "type": "Person",
+            "_label": "Jean (Hans) Arp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1012",
+            "type": "Person",
+            "_label": "Paul Cézanne"
+          }
+        ]
+      }
+    ]
+  }
 }

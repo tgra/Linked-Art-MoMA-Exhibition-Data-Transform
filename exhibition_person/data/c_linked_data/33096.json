@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33096",
+  "type": "Person",
+  "_label": "Bob Wade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24004",
+      "type": "Name",
+      "_label": "Bob Wade"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/24005",
+      "type": "Name",
+      "_label": "Wade Bob"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12002",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24004",
+      "type": "TimeSpan",
+      "_label": "Bob Wade Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12002",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24005",
+      "type": "TimeSpan",
+      "_label": "Bob Wade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12002",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12002",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/54826",
+              "type": "Event",
+              "_label": "Selections from the ALS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-23-3 - ",
+                "begin_of_the_begin": "1960-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38226",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/1317",
+              "type": "Event",
+              "_label": "Maps",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-14-2 - 1977-10-4",
+                "begin_of_the_begin": "1977-14-2",
+                "end_of_the_end": "1977-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38227",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

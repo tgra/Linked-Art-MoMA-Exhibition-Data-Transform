@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4019",
+  "id": "http://linkedart.example.com/exhibition/4019",
   "type": "Activity",
   "_label": "Glitter and Folds",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Glitter and Folds",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Glitter and Folds",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2013-6-2",
     "end_of_the_end": "2013-31-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2869",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4458",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2869",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3701",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24334",
-              "type": "Person",
-              "_label": "Field Kallop"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24335",
-              "type": "Person",
-              "_label": "Crystal Z. Campbell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24336",
-              "type": "Person",
-              "_label": "Jayson Keeling"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24337",
-              "type": "Person",
-              "_label": "Carter Mull"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4458",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4458",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6060",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60968",
+            "type": "Person",
+            "_label": "Field Kallop"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60967",
+            "type": "Person",
+            "_label": "Crystal Z. Campbell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60969",
+            "type": "Person",
+            "_label": "Jayson Keeling"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22355",
+            "type": "Person",
+            "_label": "Carter Mull"
+          }
+        ]
+      }
+    ]
+  }
 }

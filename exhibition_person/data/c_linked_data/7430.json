@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7430",
+  "type": "Person",
+  "_label": "Imi Knoebel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/50988",
+      "type": "Name",
+      "_label": "Imi Knoebel"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/50989",
+      "type": "Name",
+      "_label": "Knoebel Imi"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500124422",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q241977",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q241977",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8740",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1940"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25494",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50988",
+      "type": "TimeSpan",
+      "_label": "Imi Knoebel Birth timespan",
+      "begin_of_the_begin": "1940",
+      "end_of_the_end": "1940"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25494",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/50989",
+      "type": "TimeSpan",
+      "_label": "Imi Knoebel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25494",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25494",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2217",
+              "type": "Event",
+              "_label": "Collaborations with Parkett: 1984 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-5-4 - 2001-5-6",
+                "begin_of_the_begin": "2001-5-4",
+                "end_of_the_end": "2001-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/82593",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

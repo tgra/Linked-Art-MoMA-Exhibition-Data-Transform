@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63499",
+  "type": "Person",
+  "_label": "Jim B. Cobb",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/41768",
+      "type": "Name",
+      "_label": "Jim B. Cobb"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/41769",
+      "type": "Name",
+      "_label": "Cobb Jim B."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20884",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41768",
+      "type": "TimeSpan",
+      "_label": "Jim B. Cobb Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20884",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41769",
+      "type": "TimeSpan",
+      "_label": "Jim B. Cobb Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20884",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20884",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4658",
+              "type": "Event",
+              "_label": "J.B. Cobb: Time Structures Object Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-24-5 - 1975-11-6",
+                "begin_of_the_begin": "1975-24-5",
+                "end_of_the_end": "1975-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71969",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

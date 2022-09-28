@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24635",
+  "type": "Person",
+  "_label": "Peter Struycken",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9326",
+      "type": "Name",
+      "_label": "Peter Struycken"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/9327",
+      "type": "Name",
+      "_label": "Struycken Peter"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500003537",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q2706817",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q2706817",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3931",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch, born 1939"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9326",
+      "type": "TimeSpan",
+      "_label": "Peter Struycken Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9327",
+      "type": "TimeSpan",
+      "_label": "Peter Struycken Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1552",
+              "type": "Event",
+              "_label": "The Second Link: Viewpoints on Video in the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-18-8 - 1983-27-9",
+                "begin_of_the_begin": "1983-18-8",
+                "end_of_the_end": "1983-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19034",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

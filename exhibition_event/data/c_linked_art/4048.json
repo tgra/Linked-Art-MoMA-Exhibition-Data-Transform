@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4048",
+  "id": "http://linkedart.example.com/exhibition/4048",
   "type": "Activity",
   "_label": "Dance with Camera",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Dance with Camera",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Dance with Camera",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2009-10-9",
     "end_of_the_end": "2010-21-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2901",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4490",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2901",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3735",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24436",
-              "type": "Person",
-              "_label": "Kelly Nipper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24437",
-              "type": "Person",
-              "_label": "Mike Kelley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24438",
-              "type": "Person",
-              "_label": "Tacita Dean"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24439",
-              "type": "Person",
-              "_label": "Bruce Conner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24440",
-              "type": "Person",
-              "_label": "Eleanor Antin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24441",
-              "type": "Person",
-              "_label": "Bruce Nauman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24442",
-              "type": "Person",
-              "_label": "Christopher Williams"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24443",
-              "type": "Person",
-              "_label": "Joachim Koester"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4490",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4490",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6094",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60929",
+            "type": "Person",
+            "_label": "Kelly Nipper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2919",
+            "type": "Person",
+            "_label": "Mike Kelley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/14650",
+            "type": "Person",
+            "_label": "Tacita Dean"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1161",
+            "type": "Person",
+            "_label": "Bruce Conner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7773",
+            "type": "Person",
+            "_label": "Eleanor Antin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4075",
+            "type": "Person",
+            "_label": "Bruce Nauman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17891",
+            "type": "Person",
+            "_label": "Christopher Williams"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21266",
+            "type": "Person",
+            "_label": "Joachim Koester"
+          }
+        ]
+      }
+    ]
+  }
 }

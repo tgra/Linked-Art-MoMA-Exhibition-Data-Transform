@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/288",
+  "id": "http://linkedart.example.com/exhibition/288",
   "type": "Activity",
   "_label": "Art Shows for U.S.O. Centers",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Art Shows for U.S.O. Centers",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Art Shows for U.S.O. Centers",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1943-4-8",
     "end_of_the_end": "1943-26-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1623",
-      "type": "Place",
-      "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3212",
+    "type": "Place",
+    "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1623",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2385",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/13941",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2386",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/13942",
-              "type": "Person",
-              "_label": "Edward Hopper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13943",
-              "type": "Person",
-              "_label": "Jean Charlot"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13944",
-              "type": "Person",
-              "_label": "Mervin Jules"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13945",
-              "type": "Person",
-              "_label": "William Gropper"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3212",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3212",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4744",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4745",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2615",
+            "type": "Person",
+            "_label": "Edward Hopper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1033",
+            "type": "Person",
+            "_label": "Jean Charlot"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2826",
+            "type": "Person",
+            "_label": "Mervin Jules"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2265",
+            "type": "Person",
+            "_label": "William Gropper"
+          }
+        ]
+      }
+    ]
+  }
 }

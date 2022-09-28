@@ -1,107 +1,105 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17300",
+  "id": "http://linkedart.example.com/exhibition/17300",
   "type": "Activity",
   "_label": "Early Work By Five Contemporary Artists",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Early Work By Five Contemporary Artists",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Early Work By Five Contemporary Artists",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1977-11-11",
     "end_of_the_end": "1977-30-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/527",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1157",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/527",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1040",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6969",
-              "type": "Person",
-              "_label": "Ron Gorchov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6970",
-              "type": "Person",
-              "_label": "Dennis Oppenheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6971",
-              "type": "Person",
-              "_label": "Dorothea Rockburne"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6972",
-              "type": "Person",
-              "_label": "Elizabeth Murray"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6973",
-              "type": "Person",
-              "_label": "Joel Shapiro"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1041",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6974",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6975",
-              "type": "Person",
-              "_label": "Susan Logan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6976",
-              "type": "Person",
-              "_label": "Allan Schwartzman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1157",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1157",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2189",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2154",
+            "type": "Person",
+            "_label": "Ron Gorchov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4241",
+            "type": "Person",
+            "_label": "Dennis Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4777",
+            "type": "Person",
+            "_label": "Dorothea Rockburne"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27090",
+            "type": "Person",
+            "_label": "Elizabeth Murray"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5165",
+            "type": "Person",
+            "_label": "Joel Shapiro"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2190",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66836",
+            "type": "Person",
+            "_label": "Susan Logan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/47407",
+            "type": "Person",
+            "_label": "Allan Schwartzman"
+          }
+        ]
+      }
+    ]
+  }
 }

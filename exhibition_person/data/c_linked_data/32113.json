@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32113",
+  "type": "Person",
+  "_label": "Robert Goodman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21906",
+      "type": "Name",
+      "_label": "Robert Goodman"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/21907",
+      "type": "Name",
+      "_label": "Goodman Robert"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10953",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21906",
+      "type": "TimeSpan",
+      "_label": "Robert Goodman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10953",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21907",
+      "type": "TimeSpan",
+      "_label": "Robert Goodman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10953",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10953",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/54779",
+              "type": "Event",
+              "_label": "Watercolor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-16-4 - ",
+                "begin_of_the_begin": "1962-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35965",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/908",
+              "type": "Event",
+              "_label": "The New City: Architecture and Urban Renewal",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-24-1 - 1967-13-3",
+                "begin_of_the_begin": "1967-24-1",
+                "end_of_the_end": "1967-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35966",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

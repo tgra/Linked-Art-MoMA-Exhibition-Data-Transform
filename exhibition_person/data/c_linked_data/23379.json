@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23379",
+  "type": "Person",
+  "_label": "Kalli Juliusson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8282",
+      "type": "Name",
+      "_label": "Kalli Juliusson"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/8283",
+      "type": "Name",
+      "_label": "Juliusson Kalli"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3479",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Icelandic, born 1952"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4141",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8282",
+      "type": "TimeSpan",
+      "_label": "Kalli Juliusson Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4141",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8283",
+      "type": "TimeSpan",
+      "_label": "Kalli Juliusson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4141",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4141",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2534",
+              "type": "Event",
+              "_label": "Crafting Genre: Kathryn Bigelow",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-18-5 - 2011-3-10",
+                "begin_of_the_begin": "2011-18-5",
+                "end_of_the_end": "2011-3-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17699",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

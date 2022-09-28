@@ -1,89 +1,87 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/604",
+  "id": "http://linkedart.example.com/exhibition/604",
   "type": "Activity",
   "_label": "Georges Rouault",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Georges Rouault",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Georges Rouault",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1953-31-3",
     "end_of_the_end": "1953-31-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3569",
-      "type": "Place",
-      "_label": "3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5698",
+    "type": "Place",
+    "_label": "3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3569",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4595",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/33590",
-              "type": "Person",
-              "_label": "Georges Rouault"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4596",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/33591",
-              "type": "Person",
-              "_label": "William S. Lieberman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4597",
-          "type": "Set",
-          "_label": "Assembler",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/33592",
-              "type": "Person",
-              "_label": "Monroe Wheeler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5698",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5698",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7525",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4854",
+            "type": "Person",
+            "_label": "Georges Rouault"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7526",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/9022",
+            "type": "Person",
+            "_label": "William S. Lieberman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7527",
+        "type": "Set",
+        "_label": "Assembler",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8740",
+            "type": "Person",
+            "_label": "Monroe Wheeler"
+          }
+        ]
+      }
+    ]
+  }
 }

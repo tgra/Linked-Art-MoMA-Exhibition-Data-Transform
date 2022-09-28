@@ -1,101 +1,99 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17010",
+  "id": "http://linkedart.example.com/exhibition/17010",
   "type": "Activity",
   "_label": "Llyn Foulkes",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Llyn Foulkes",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Llyn Foulkes",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2013-12-6",
     "end_of_the_end": "2013-1-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/234",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/835",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/234",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/423",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3905",
-              "type": "Person",
-              "_label": "Llyn Foulkes"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/424",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3906",
-              "type": "Person",
-              "_label": "Margot Norton"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/425",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3907",
-              "type": "Person",
-              "_label": "Ali Subotnick"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/426",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3908",
-              "type": "Person",
-              "_label": "Hammer Museum, Los Angeles"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/835",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/835",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1522",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1877",
+            "type": "Person",
+            "_label": "Llyn Foulkes"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1523",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65769",
+            "type": "Person",
+            "_label": "Margot Norton"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1524",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63654",
+            "type": "Person",
+            "_label": "Ali Subotnick"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1525",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27100",
+            "type": "Person",
+            "_label": "Hammer Museum, Los Angeles"
+          }
+        ]
+      }
+    ]
+  }
 }

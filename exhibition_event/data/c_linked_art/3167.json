@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3167",
+  "id": "http://linkedart.example.com/exhibition/3167",
   "type": "Activity",
   "_label": "Heads",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Heads",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Heads",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-26-4",
     "end_of_the_end": "1981-14-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1943",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3532",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1943",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2726",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/17818",
-              "type": "Person",
-              "_label": "Lilly Brody"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17819",
-              "type": "Person",
-              "_label": "Lil Picard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17820",
-              "type": "Person",
-              "_label": "John Kelly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17821",
-              "type": "Person",
-              "_label": "Douglas Kelley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17822",
-              "type": "Person",
-              "_label": "Leon Golub"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17823",
-              "type": "Person",
-              "_label": "Deborah Kass"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17824",
-              "type": "Person",
-              "_label": "Dee Axelrod"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17825",
-              "type": "Person",
-              "_label": "Al Calderaro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17826",
-              "type": "Person",
-              "_label": "Auste"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17827",
-              "type": "Person",
-              "_label": "Peter Siegel"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3532",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3532",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5085",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31231",
+            "type": "Person",
+            "_label": "Lilly Brody"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4423",
+            "type": "Person",
+            "_label": "Lil Picard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23252",
+            "type": "Person",
+            "_label": "John Kelly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2918",
+            "type": "Person",
+            "_label": "Douglas Kelley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2133",
+            "type": "Person",
+            "_label": "Leon Golub"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6665",
+            "type": "Person",
+            "_label": "Deborah Kass"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57014",
+            "type": "Person",
+            "_label": "Dee Axelrod"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57043",
+            "type": "Person",
+            "_label": "Al Calderaro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58347",
+            "type": "Person",
+            "_label": "Auste"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57454",
+            "type": "Person",
+            "_label": "Peter Siegel"
+          }
+        ]
+      }
+    ]
+  }
 }

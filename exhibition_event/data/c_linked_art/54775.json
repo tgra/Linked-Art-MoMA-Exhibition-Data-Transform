@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/54775",
+  "id": "http://linkedart.example.com/exhibition/54775",
   "type": "Activity",
   "_label": "Selections from the Art Lending Service",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Selections from the Art Lending Service",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Selections from the Art Lending Service",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1965-2-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3476",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5594",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3476",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4439",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/31565",
-              "type": "Person",
-              "_label": "James Wines"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31566",
-              "type": "Person",
-              "_label": "Suzi Gablik"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31567",
-              "type": "Person",
-              "_label": "Jacques Villon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31568",
-              "type": "Person",
-              "_label": "Pamela Bianco"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31569",
-              "type": "Person",
-              "_label": "Philip Wofford"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4440",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/31570",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31571",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31572",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31573",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31574",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5594",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5594",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7358",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7200",
+            "type": "Person",
+            "_label": "James Wines"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31864",
+            "type": "Person",
+            "_label": "Suzi Gablik"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5890",
+            "type": "Person",
+            "_label": "Jacques Villon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/521",
+            "type": "Person",
+            "_label": "Pamela Bianco"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32814",
+            "type": "Person",
+            "_label": "Philip Wofford"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7359",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          }
+        ]
+      }
+    ]
+  }
 }

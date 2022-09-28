@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3169",
+  "id": "http://linkedart.example.com/exhibition/3169",
   "type": "Activity",
   "_label": "Eight Funny Artists: Wit and Irony in Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Eight Funny Artists: Wit and Irony in Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Eight Funny Artists: Wit and Irony in Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-26-4",
     "end_of_the_end": "1981-14-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1945",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3534",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1945",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2728",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/17829",
-              "type": "Person",
-              "_label": "Steve Gianakos"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17830",
-              "type": "Person",
-              "_label": "Boyd Webb"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17831",
-              "type": "Person",
-              "_label": "Pieter Holstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17832",
-              "type": "Person",
-              "_label": "Edward Ruscha"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17833",
-              "type": "Person",
-              "_label": "William Wegman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17834",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17835",
-              "type": "Person",
-              "_label": "William T. Wiley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17836",
-              "type": "Person",
-              "_label": "Richard Artschwager"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3534",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3534",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5087",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17680",
+            "type": "Person",
+            "_label": "Steve Gianakos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7185",
+            "type": "Person",
+            "_label": "Boyd Webb"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2602",
+            "type": "Person",
+            "_label": "Pieter Holstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4887",
+            "type": "Person",
+            "_label": "Edward Ruscha"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5999",
+            "type": "Person",
+            "_label": "William Wegman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6081",
+            "type": "Person",
+            "_label": "William T. Wiley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18",
+            "type": "Person",
+            "_label": "Richard Artschwager"
+          }
+        ]
+      }
+    ]
+  }
 }

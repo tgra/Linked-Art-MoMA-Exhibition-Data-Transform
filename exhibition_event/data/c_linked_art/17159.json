@@ -1,99 +1,97 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17159",
+  "id": "http://linkedart.example.com/exhibition/17159",
   "type": "Activity",
   "_label": "Until That Last Breath: Women with AIDS",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Until That Last Breath: Women with AIDS",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Until That Last Breath: Women with AIDS",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1989-24-2",
     "end_of_the_end": "1989-16-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/384",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/999",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/384",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/768",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5934",
-              "type": "Person",
-              "_label": "Regina Corritore"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5935",
-              "type": "Person",
-              "_label": "Janet Goldner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/5936",
-              "type": "Person",
-              "_label": "Ann Meredith"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/769",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5937",
-              "type": "Person",
-              "_label": "Ann Meredith"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/770",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5938",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/999",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/999",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1891",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66427",
+            "type": "Person",
+            "_label": "Regina Corritore"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65043",
+            "type": "Person",
+            "_label": "Janet Goldner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62448",
+            "type": "Person",
+            "_label": "Ann Meredith"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1892",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/62448",
+            "type": "Person",
+            "_label": "Ann Meredith"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1893",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          }
+        ]
+      }
+    ]
+  }
 }

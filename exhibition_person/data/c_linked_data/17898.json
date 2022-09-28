@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17898",
+  "type": "Person",
+  "_label": "Erwin Wurm",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3498",
+      "type": "Name",
+      "_label": "Erwin Wurm"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/3499",
+      "type": "Name",
+      "_label": "Wurm Erwin"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500106209",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q78841",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q78841",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1486",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Austrian, born 1954"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1749",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3498",
+      "type": "TimeSpan",
+      "_label": "Erwin Wurm Birth timespan",
+      "begin_of_the_begin": "1954",
+      "end_of_the_end": "1954"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1749",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3499",
+      "type": "TimeSpan",
+      "_label": "Erwin Wurm Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1749",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1749",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2497",
+              "type": "Event",
+              "_label": "The Original Copy: Photography of Sculpture, 1839 to Today",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-1-8 - 2010-1-11",
+                "begin_of_the_begin": "2010-1-8",
+                "end_of_the_end": "2010-1-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8880",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

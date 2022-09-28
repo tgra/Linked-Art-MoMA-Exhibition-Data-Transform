@@ -1,109 +1,107 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18174",
+  "id": "http://linkedart.example.com/exhibition/18174",
   "type": "Activity",
   "_label": "Aluminum Music",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Aluminum Music",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Aluminum Music",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2011-15-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/585",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1302",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/585",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1102",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/7325",
-              "type": "Person",
-              "_label": "Amina Claudine Myers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7326",
-              "type": "Person",
-              "_label": "Richard Teitelbaum"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7327",
-              "type": "Person",
-              "_label": "Reggie Nicholson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7328",
-              "type": "Person",
-              "_label": "Peter Zummo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7329",
-              "type": "Person",
-              "_label": "Peter Gordon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7330",
-              "type": "Person",
-              "_label": "Ned Sublette"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7331",
-              "type": "Person",
-              "_label": "Matana Roberts"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7332",
-              "type": "Person",
-              "_label": "Bush Tetras"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7333",
-              "type": "Person",
-              "_label": "Z'EV"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7334",
-              "type": "Person",
-              "_label": "Love of Life Orchestra"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1302",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1302",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2389",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67508",
+            "type": "Person",
+            "_label": "Amina Claudine Myers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59082",
+            "type": "Person",
+            "_label": "Richard Teitelbaum"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12854",
+            "type": "Person",
+            "_label": "Reggie Nicholson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57353",
+            "type": "Person",
+            "_label": "Peter Zummo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34665",
+            "type": "Person",
+            "_label": "Peter Gordon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34667",
+            "type": "Person",
+            "_label": "Ned Sublette"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61092",
+            "type": "Person",
+            "_label": "Matana Roberts"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67561",
+            "type": "Person",
+            "_label": "Bush Tetras"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67712",
+            "type": "Person",
+            "_label": "Z'EV"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34664",
+            "type": "Person",
+            "_label": "Love of Life Orchestra"
+          }
+        ]
+      }
+    ]
+  }
 }

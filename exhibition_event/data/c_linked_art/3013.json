@@ -1,130 +1,128 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3013",
+  "id": "http://linkedart.example.com/exhibition/3013",
   "type": "Activity",
   "_label": "Special Projects (Spring 1978)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Spring 1978)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Spring 1978)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-14-4",
     "end_of_the_end": "1978-28-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1773",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3362",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1773",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2545",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/15933",
-              "type": "Person",
-              "_label": "Christian Boltanski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15934",
-              "type": "Person",
-              "_label": "Merrill Wagner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15935",
-              "type": "Person",
-              "_label": "Antonio Muntadas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15936",
-              "type": "Person",
-              "_label": "Steve Keister"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15937",
-              "type": "Person",
-              "_label": "Babette Mangolte"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15938",
-              "type": "Person",
-              "_label": "Martha Wilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15939",
-              "type": "Person",
-              "_label": "David Knoebel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15940",
-              "type": "Person",
-              "_label": "Tim Casey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15941",
-              "type": "Person",
-              "_label": "Peter Lodato"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15942",
-              "type": "Person",
-              "_label": "Don Sunseri"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15943",
-              "type": "Person",
-              "_label": "Hass Murphy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15944",
-              "type": "Person",
-              "_label": "Terry Berkowitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15945",
-              "type": "Person",
-              "_label": "Ed McGowin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15946",
-              "type": "Person",
-              "_label": "James Christoffer Holl"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3362",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3362",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4904",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/621",
+            "type": "Person",
+            "_label": "Christian Boltanski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33159",
+            "type": "Person",
+            "_label": "Merrill Wagner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7301",
+            "type": "Person",
+            "_label": "Antonio Muntadas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7570",
+            "type": "Person",
+            "_label": "Steve Keister"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21237",
+            "type": "Person",
+            "_label": "Babette Mangolte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22891",
+            "type": "Person",
+            "_label": "Martha Wilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58682",
+            "type": "Person",
+            "_label": "David Knoebel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57046",
+            "type": "Person",
+            "_label": "Tim Casey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57841",
+            "type": "Person",
+            "_label": "Peter Lodato"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57842",
+            "type": "Person",
+            "_label": "Don Sunseri"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57843",
+            "type": "Person",
+            "_label": "Hass Murphy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58465",
+            "type": "Person",
+            "_label": "Terry Berkowitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57846",
+            "type": "Person",
+            "_label": "Ed McGowin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57268",
+            "type": "Person",
+            "_label": "James Christoffer Holl"
+          }
+        ]
+      }
+    ]
+  }
 }

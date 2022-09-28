@@ -1,101 +1,99 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17110",
+  "id": "http://linkedart.example.com/exhibition/17110",
   "type": "Activity",
   "_label": "Andres Serrano: Works 1983-1993",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Andres Serrano: Works 1983-1993",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Andres Serrano: Works 1983-1993",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1995-27-1",
     "end_of_the_end": "1995-9-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/335",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/946",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/335",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/667",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5335",
-              "type": "Person",
-              "_label": "Andres Serrano"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/668",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5336",
-              "type": "Person",
-              "_label": "Institute of Contemporary Art, University of Pennsylvania, Philadelphia"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/669",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5337",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/670",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/5338",
-              "type": "Person",
-              "_label": "Patrick T. Murphy"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/946",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/946",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1784",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6709",
+            "type": "Person",
+            "_label": "Andres Serrano"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1785",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8296",
+            "type": "Person",
+            "_label": "Institute of Contemporary Art, University of Pennsylvania, Philadelphia"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1786",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1787",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66275",
+            "type": "Person",
+            "_label": "Patrick T. Murphy"
+          }
+        ]
+      }
+    ]
+  }
 }

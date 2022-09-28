@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2702",
+  "id": "http://linkedart.example.com/exhibition/2702",
   "type": "Activity",
   "_label": "5 Sculptors-7,000 Sq. Feet",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "5 Sculptors-7,000 Sq. Feet",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "5 Sculptors-7,000 Sq. Feet",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1972-10-6",
     "end_of_the_end": "1972-24-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1421",
-      "type": "Place",
-      "_label": "10 Bleecker Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2999",
+    "type": "Place",
+    "_label": "10 Bleecker Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1421",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2165",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11958",
-              "type": "Person",
-              "_label": "Peter Gourfain"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11959",
-              "type": "Person",
-              "_label": "Jene Highstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11960",
-              "type": "Person",
-              "_label": "Bill Bollinger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11961",
-              "type": "Person",
-              "_label": "Robert Grosvenor"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11962",
-              "type": "Person",
-              "_label": "Cecile Abish"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2999",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2999",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4512",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/13668",
+            "type": "Person",
+            "_label": "Peter Gourfain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2534",
+            "type": "Person",
+            "_label": "Jene Highstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25773",
+            "type": "Person",
+            "_label": "Bill Bollinger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2278",
+            "type": "Person",
+            "_label": "Robert Grosvenor"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33090",
+            "type": "Person",
+            "_label": "Cecile Abish"
+          }
+        ]
+      }
+    ]
+  }
 }

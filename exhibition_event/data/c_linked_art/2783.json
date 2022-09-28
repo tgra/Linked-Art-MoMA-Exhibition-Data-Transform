@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2783",
+  "id": "http://linkedart.example.com/exhibition/2783",
   "type": "Activity",
   "_label": "Performance (Fall 1982): Andy Rees: \"Webelos\"",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Performance (Fall 1982): Andy Rees: \"Webelos\"",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Performance (Fall 1982): Andy Rees: \"Webelos\"",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1982-17-10",
     "end_of_the_end": "1982-17-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1510",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3088",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1510",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2260",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12853",
-              "type": "Person",
-              "_label": "Georgia F. Wise"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12854",
-              "type": "Person",
-              "_label": "Andy Rees"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12855",
-              "type": "Person",
-              "_label": "Lisa Altomare"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3088",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3088",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4607",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57324",
+            "type": "Person",
+            "_label": "Georgia F. Wise"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57234",
+            "type": "Person",
+            "_label": "Andy Rees"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57537",
+            "type": "Person",
+            "_label": "Lisa Altomare"
+          }
+        ]
+      }
+    ]
+  }
 }

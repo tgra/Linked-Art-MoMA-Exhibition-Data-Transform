@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2840",
+  "id": "http://linkedart.example.com/exhibition/2840",
   "type": "Activity",
   "_label": "On Your Own Time",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "On Your Own Time",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "On Your Own Time",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1999-10-10",
     "end_of_the_end": "2000-16-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1574",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3152",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1574",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2328",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/13620",
-              "type": "Person",
-              "_label": "Teresita Fernandez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13621",
-              "type": "Person",
-              "_label": "Lawrence Weiner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13622",
-              "type": "Person",
-              "_label": "Ceal Floyer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13623",
-              "type": "Person",
-              "_label": "Roman Opalka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13624",
-              "type": "Person",
-              "_label": "Sabrina Mezzagui"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3152",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3152",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4675",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/22711",
+            "type": "Person",
+            "_label": "Teresita Fernandez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6006",
+            "type": "Person",
+            "_label": "Lawrence Weiner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19225",
+            "type": "Person",
+            "_label": "Ceal Floyer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4239",
+            "type": "Person",
+            "_label": "Roman Opalka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59249",
+            "type": "Person",
+            "_label": "Sabrina Mezzagui"
+          }
+        ]
+      }
+    ]
+  }
 }

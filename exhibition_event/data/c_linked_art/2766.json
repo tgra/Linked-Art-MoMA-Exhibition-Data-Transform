@@ -1,104 +1,102 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2766",
+  "id": "http://linkedart.example.com/exhibition/2766",
   "type": "Activity",
   "_label": "Film (Spring 1985)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film (Spring 1985)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film (Spring 1985)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1985-5-5",
     "end_of_the_end": "1985-23-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1491",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3069",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1491",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2241",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12702",
-              "type": "Person",
-              "_label": "Pooh Kaye"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12703",
-              "type": "Person",
-              "_label": "George Griffin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12704",
-              "type": "Person",
-              "_label": "Red Grooms"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12705",
-              "type": "Person",
-              "_label": "Mimi Gross"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12706",
-              "type": "Person",
-              "_label": "Henry Hills"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12707",
-              "type": "Person",
-              "_label": "Elizabeth Ross"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12708",
-              "type": "Person",
-              "_label": "Les Blank"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12709",
-              "type": "Person"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12710",
-              "type": "Person",
-              "_label": "Chris Strachwitz"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3069",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3069",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4588",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/22243",
+            "type": "Person",
+            "_label": "Pooh Kaye"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25171",
+            "type": "Person",
+            "_label": "George Griffin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2262",
+            "type": "Person",
+            "_label": "Red Grooms"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58822",
+            "type": "Person",
+            "_label": "Mimi Gross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57677",
+            "type": "Person",
+            "_label": "Henry Hills"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58821",
+            "type": "Person",
+            "_label": "Elizabeth Ross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57676",
+            "type": "Person",
+            "_label": "Les Blank"
+          },
+          {
+            "id": "http://linkedart.example.com/person/",
+            "type": "Person"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58820",
+            "type": "Person",
+            "_label": "Chris Strachwitz"
+          }
+        ]
+      }
+    ]
+  }
 }

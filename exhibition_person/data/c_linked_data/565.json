@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/565",
+  "type": "Person",
+  "_label": "Jean-Charles Blais",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/30066",
+      "type": "Name",
+      "_label": "Jean-Charles Blais"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/30067",
+      "type": "Name",
+      "_label": "Blais Jean-Charles"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500076642",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3164622",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3164622",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7572",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1956"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15033",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30066",
+      "type": "TimeSpan",
+      "_label": "Jean-Charles Blais Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15033",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30067",
+      "type": "TimeSpan",
+      "_label": "Jean-Charles Blais Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15033",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15033",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2322",
+              "type": "Event",
+              "_label": "Eye on Europe: Prints, Books and Multiples/1960 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-15-10 - 2007-1-1",
+                "begin_of_the_begin": "2006-15-10",
+                "end_of_the_end": "2007-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/59042",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

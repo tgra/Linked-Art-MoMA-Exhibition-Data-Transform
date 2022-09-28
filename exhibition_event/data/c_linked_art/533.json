@@ -1,74 +1,72 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/533",
+  "id": "http://linkedart.example.com/exhibition/533",
   "type": "Activity",
   "_label": "New Talent Exhibition in the Penthouse: Bunce, Johnston, and Mundt",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Talent Exhibition in the Penthouse: Bunce, Johnston, and Mundt",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Talent Exhibition in the Penthouse: Bunce, Johnston, and Mundt",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1950-28-11",
     "end_of_the_end": "1951-14-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3426",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5469",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3426",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4350",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30298",
-              "type": "Person",
-              "_label": "Ernest Mundt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30299",
-              "type": "Person",
-              "_label": "Louis Bunce"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30300",
-              "type": "Person",
-              "_label": "Ynez Johnston"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5469",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5469",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7194",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27818",
+            "type": "Person",
+            "_label": "Ernest Mundt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/830",
+            "type": "Person",
+            "_label": "Louis Bunce"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2804",
+            "type": "Person",
+            "_label": "Ynez Johnston"
+          }
+        ]
+      }
+    ]
+  }
 }

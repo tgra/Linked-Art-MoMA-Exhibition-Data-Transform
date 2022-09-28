@@ -1,112 +1,110 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/768",
+  "id": "http://linkedart.example.com/exhibition/768",
   "type": "Activity",
   "_label": "Roads",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Roads",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Roads",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1961-14-8",
     "end_of_the_end": "1961-17-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3915",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6831",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3915",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5198",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39682",
-              "type": "Person",
-              "_label": "Pier Luigi Nervi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39683",
-              "type": "Person",
-              "_label": "Jorge Romero Gutierrez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39684",
-              "type": "Person",
-              "_label": "Pedro Neuberger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39685",
-              "type": "Person",
-              "_label": "Frank Lloyd Wright"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39686",
-              "type": "Person",
-              "_label": "Dirk Bornhorst"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39687",
-              "type": "Person",
-              "_label": "Edgar Chambless"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39688",
-              "type": "Person",
-              "_label": "Leonardo da Vinci"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5199",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39689",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39690",
-              "type": "Person",
-              "_label": "Bernard Rudofsky"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6831",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6831",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8936",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/24714",
+            "type": "Person",
+            "_label": "Pier Luigi Nervi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26825",
+            "type": "Person",
+            "_label": "Jorge Romero Gutierrez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26823",
+            "type": "Person",
+            "_label": "Pedro Neuberger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6167",
+            "type": "Person",
+            "_label": "Frank Lloyd Wright"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26824",
+            "type": "Person",
+            "_label": "Dirk Bornhorst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31596",
+            "type": "Person",
+            "_label": "Edgar Chambless"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28174",
+            "type": "Person",
+            "_label": "Leonardo da Vinci"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8937",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21754",
+            "type": "Person",
+            "_label": "Bernard Rudofsky"
+          }
+        ]
+      }
+    ]
+  }
 }

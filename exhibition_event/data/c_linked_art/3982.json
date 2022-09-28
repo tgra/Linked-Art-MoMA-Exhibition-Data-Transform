@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3982",
+  "id": "http://linkedart.example.com/exhibition/3982",
   "type": "Activity",
   "_label": "Flavin, Judd, Morris, Williams",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Flavin, Judd, Morris, Williams",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Flavin, Judd, Morris, Williams",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1965-26-5",
     "end_of_the_end": "1965-12-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2828",
-      "type": "Place",
-      "_label": "Green Gallery",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4417",
+    "type": "Place",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2828",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3656",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23874",
-              "type": "Person",
-              "_label": "Dan Flavin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23875",
-              "type": "Person",
-              "_label": "Donald Judd"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23876",
-              "type": "Person",
-              "_label": "Neil Williams"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23877",
-              "type": "Person",
-              "_label": "Robert Morris"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4417",
+    "type": "Group",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4417",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6015",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1830",
+            "type": "Person",
+            "_label": "Dan Flavin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2823",
+            "type": "Person",
+            "_label": "Donald Judd"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32760",
+            "type": "Person",
+            "_label": "Neil Williams"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3950",
+            "type": "Person",
+            "_label": "Robert Morris"
+          }
+        ]
+      }
+    ]
+  }
 }

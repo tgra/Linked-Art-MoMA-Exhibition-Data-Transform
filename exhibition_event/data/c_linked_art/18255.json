@@ -1,119 +1,117 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18255",
+  "id": "http://linkedart.example.com/exhibition/18255",
   "type": "Activity",
   "_label": "Dance Day",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Dance Day",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Dance Day",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-20-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/665",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1390",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/665",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1182",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/7575",
-              "type": "Person",
-              "_label": "Yoshiko Chuma"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7576",
-              "type": "Person",
-              "_label": "Mary Overlie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7577",
-              "type": "Person",
-              "_label": "Karole Armitage"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7578",
-              "type": "Person",
-              "_label": "Molissa Fenley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7579",
-              "type": "Person",
-              "_label": "Kenneth King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7580",
-              "type": "Person",
-              "_label": "Charles Moulton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7581",
-              "type": "Person",
-              "_label": "Peter Van Riper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7582",
-              "type": "Person",
-              "_label": "Dana Reitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7583",
-              "type": "Person",
-              "_label": "Johanna Boyce"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7584",
-              "type": "Person",
-              "_label": "Pooh Kaye"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7585",
-              "type": "Person",
-              "_label": "Grethe Holby"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/7586",
-              "type": "Person",
-              "_label": "Simone Forti"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1390",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1390",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2479",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/56949",
+            "type": "Person",
+            "_label": "Yoshiko Chuma"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57990",
+            "type": "Person",
+            "_label": "Mary Overlie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/46373",
+            "type": "Person",
+            "_label": "Karole Armitage"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67428",
+            "type": "Person",
+            "_label": "Molissa Fenley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56956",
+            "type": "Person",
+            "_label": "Kenneth King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67570",
+            "type": "Person",
+            "_label": "Charles Moulton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22240",
+            "type": "Person",
+            "_label": "Peter Van Riper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63349",
+            "type": "Person",
+            "_label": "Dana Reitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56948",
+            "type": "Person",
+            "_label": "Johanna Boyce"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22243",
+            "type": "Person",
+            "_label": "Pooh Kaye"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67278",
+            "type": "Person",
+            "_label": "Grethe Holby"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21062",
+            "type": "Person",
+            "_label": "Simone Forti"
+          }
+        ]
+      }
+    ]
+  }
 }

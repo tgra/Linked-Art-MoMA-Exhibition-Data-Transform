@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7323",
+  "id": "http://linkedart.example.com/exhibition/7323",
   "type": "Activity",
   "_label": "Robert Whitman: The American Moon",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Robert Whitman: The American Moon",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Robert Whitman: The American Moon",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1960-29-11",
     "end_of_the_end": "1960-4-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3856",
-      "type": "Place",
-      "_label": "44 East 3rd Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6772",
+    "type": "Place",
+    "_label": "44 East 3rd Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3856",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5084",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38335",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38336",
-              "type": "Person",
-              "_label": "Jim Dine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38337",
-              "type": "Person",
-              "_label": "Claes Oldenburg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38338",
-              "type": "Person",
-              "_label": "Allan Kaprow"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5085",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38339",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6772",
+    "type": "Group",
+    "_label": "Reuben Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6772",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8822",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1476",
+            "type": "Person",
+            "_label": "Jim Dine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27103",
+            "type": "Person",
+            "_label": "Claes Oldenburg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2872",
+            "type": "Person",
+            "_label": "Allan Kaprow"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8823",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          }
+        ]
+      }
+    ]
+  }
 }

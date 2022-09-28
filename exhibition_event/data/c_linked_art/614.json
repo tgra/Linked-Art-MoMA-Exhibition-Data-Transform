@@ -1,86 +1,84 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/614",
+  "id": "http://linkedart.example.com/exhibition/614",
   "type": "Activity",
   "_label": "New Talent Exhibition in the Penthouse: Monroe, Schwartz, Sowers",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Talent Exhibition in the Penthouse: Monroe, Schwartz, Sowers",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Talent Exhibition in the Penthouse: Monroe, Schwartz, Sowers",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1953-17-11",
     "end_of_the_end": "1954-31-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3580",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5709",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3580",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4620",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/33968",
-              "type": "Person",
-              "_label": "Ira Schwartz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/33969",
-              "type": "Person",
-              "_label": "Robert Sowers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/33970",
-              "type": "Person",
-              "_label": "Keith Monroe"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4621",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/33971",
-              "type": "Person",
-              "_label": "Andrew Carnduff Ritchie"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5709",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5709",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7550",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31485",
+            "type": "Person",
+            "_label": "Ira Schwartz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31486",
+            "type": "Person",
+            "_label": "Robert Sowers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29492",
+            "type": "Person",
+            "_label": "Keith Monroe"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7551",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27504",
+            "type": "Person",
+            "_label": "Andrew Carnduff Ritchie"
+          }
+        ]
+      }
+    ]
+  }
 }

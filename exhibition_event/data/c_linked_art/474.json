@@ -1,389 +1,387 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/474",
+  "id": "http://linkedart.example.com/exhibition/474",
   "type": "Activity",
   "_label": "The House in the Museum Garden",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The House in the Museum Garden",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The House in the Museum Garden",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1949-12-4",
     "end_of_the_end": "1949-30-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3360",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5071",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3360",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4247",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/28740",
-              "type": "Person",
-              "_label": "Juan Kurchan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28741",
-              "type": "Person",
-              "_label": "Eero Saarinen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28742",
-              "type": "Person",
-              "_label": "General Electric Co."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28743",
-              "type": "Person",
-              "_label": "Design Unit New York, New York, NY"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28744",
-              "type": "Person",
-              "_label": "Herman Miller Furniture Co., Zeeland, MI"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28745",
-              "type": "Person",
-              "_label": "Knoll Associates, New York, NY"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28746",
-              "type": "Person",
-              "_label": "Singer Sewing Machine Co., New York"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28747",
-              "type": "Person",
-              "_label": "Eszter Haraszty"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28748",
-              "type": "Person",
-              "_label": "Lord & Taylor"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28749",
-              "type": "Person",
-              "_label": "Lewis & Conger, New York"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28750",
-              "type": "Person",
-              "_label": "Philco Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28751",
-              "type": "Person",
-              "_label": "United States Plywood Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28752",
-              "type": "Person",
-              "_label": "New Design Inc., New York"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28753",
-              "type": "Person",
-              "_label": "Kurt Versen Co., Englewood, NJ"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28754",
-              "type": "Person",
-              "_label": "Creative Playthings, Princeton, New Jersey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28755",
-              "type": "Person",
-              "_label": "The Barrett Division, Allied Chemical & Dye Corp."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28756",
-              "type": "Person",
-              "_label": "Martin-Senour Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28757",
-              "type": "Person",
-              "_label": "Gotham Lighting Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28758",
-              "type": "Person",
-              "_label": "Owens-Corning Fiberglas Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28759",
-              "type": "Person",
-              "_label": "The Gold-Mersereau Company, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28760",
-              "type": "Person",
-              "_label": "The Shatz Plate Glass Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28761",
-              "type": "Person",
-              "_label": "Pryne & Co., Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28762",
-              "type": "Person",
-              "_label": "Wasco Flashing Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28763",
-              "type": "Person",
-              "_label": "William L. Barrell Company, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28764",
-              "type": "Person",
-              "_label": "Grossman Steel Stair Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28765",
-              "type": "Person",
-              "_label": "The Flintkote Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28766",
-              "type": "Person",
-              "_label": "Nicholson & Galloway, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28767",
-              "type": "Person",
-              "_label": "The Midget Louver Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28768",
-              "type": "Person",
-              "_label": "W.C. Vaughn Co."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28769",
-              "type": "Person",
-              "_label": "Randolph Laboratories, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28770",
-              "type": "Person",
-              "_label": "J.P. Duffy Company, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28771",
-              "type": "Person",
-              "_label": "Simmons Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28772",
-              "type": "Person",
-              "_label": "Hope's Window, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28773",
-              "type": "Person",
-              "_label": "Lord Electric Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28774",
-              "type": "Person",
-              "_label": "William Machado"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28775",
-              "type": "Person",
-              "_label": "H. Nils"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28776",
-              "type": "Person",
-              "_label": "Harry Goldman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28777",
-              "type": "Person",
-              "_label": "Bazaar Français"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28778",
-              "type": "Person",
-              "_label": "Vagn Larsen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28779",
-              "type": "Person",
-              "_label": "Book & Record Shop, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28780",
-              "type": "Person",
-              "_label": "Geo E. Maillinson Importing Co., Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28781",
-              "type": "Person",
-              "_label": "Rollo, Johnson & Siedler, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28782",
-              "type": "Person",
-              "_label": "Speakman Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28783",
-              "type": "Person",
-              "_label": "Mile Square Granite Quarries"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28784",
-              "type": "Person",
-              "_label": "Marsh Wall Products, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28785",
-              "type": "Person",
-              "_label": "The Trumbull Electric Manufacturing Co."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28786",
-              "type": "Person",
-              "_label": "Paulsen-Webber Cordage Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28787",
-              "type": "Person",
-              "_label": "The Charles Parker Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28788",
-              "type": "Person",
-              "_label": "The American Brass Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28789",
-              "type": "Person",
-              "_label": "Arundell Clarke"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28790",
-              "type": "Person",
-              "_label": "John Hasbrouck Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28791",
-              "type": "Person",
-              "_label": "Southern Cypress Manufacturing Association"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28792",
-              "type": "Person",
-              "_label": "I.B. Miller Contracting Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28793",
-              "type": "Person",
-              "_label": "Frank E. Nash Fence Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28794",
-              "type": "Person",
-              "_label": "DuBois Fence & Garden Co., Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28795",
-              "type": "Person",
-              "_label": "H.E. Fletcher Co., Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28796",
-              "type": "Person",
-              "_label": "J.J. Haggerty, Inc."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28797",
-              "type": "Person",
-              "_label": "Wadley & Smythe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28798",
-              "type": "Person",
-              "_label": "Murphy-Brinkworth Construction Corporation"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28799",
-              "type": "Person",
-              "_label": "Pittsburgh Plate Glass Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28800",
-              "type": "Person",
-              "_label": "Crane Co."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28801",
-              "type": "Person",
-              "_label": "Charles Eames"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28802",
-              "type": "Person",
-              "_label": "Antonio Bonet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28803",
-              "type": "Person",
-              "_label": "Marcel Breuer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28804",
-              "type": "Person",
-              "_label": "Jorge Ferrari Hardoy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28805",
-              "type": "Person",
-              "_label": "Benjamin Baldwin"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5071",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5071",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6738",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3164",
+            "type": "Person",
+            "_label": "Juan Kurchan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4902",
+            "type": "Person",
+            "_label": "Eero Saarinen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23184",
+            "type": "Person",
+            "_label": "General Electric Co."
+          },
+          {
+            "id": "http://linkedart.example.com/person/14329",
+            "type": "Person",
+            "_label": "Design Unit New York, New York, NY"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8482",
+            "type": "Person",
+            "_label": "Herman Miller Furniture Co., Zeeland, MI"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8556",
+            "type": "Person",
+            "_label": "Knoll Associates, New York, NY"
+          },
+          {
+            "id": "http://linkedart.example.com/person/9225",
+            "type": "Person",
+            "_label": "Singer Sewing Machine Co., New York"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6986",
+            "type": "Person",
+            "_label": "Eszter Haraszty"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8569",
+            "type": "Person",
+            "_label": "Lord & Taylor"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8489",
+            "type": "Person",
+            "_label": "Lewis & Conger, New York"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23075",
+            "type": "Person",
+            "_label": "Philco Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23303",
+            "type": "Person",
+            "_label": "United States Plywood Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8926",
+            "type": "Person",
+            "_label": "New Design Inc., New York"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8849",
+            "type": "Person",
+            "_label": "Kurt Versen Co., Englewood, NJ"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8847",
+            "type": "Person",
+            "_label": "Creative Playthings, Princeton, New Jersey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29410",
+            "type": "Person",
+            "_label": "The Barrett Division, Allied Chemical & Dye Corp."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29404",
+            "type": "Person",
+            "_label": "Martin-Senour Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29418",
+            "type": "Person",
+            "_label": "Gotham Lighting Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29416",
+            "type": "Person",
+            "_label": "Owens-Corning Fiberglas Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29415",
+            "type": "Person",
+            "_label": "The Gold-Mersereau Company, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29414",
+            "type": "Person",
+            "_label": "The Shatz Plate Glass Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29413",
+            "type": "Person",
+            "_label": "Pryne & Co., Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29406",
+            "type": "Person",
+            "_label": "Wasco Flashing Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29411",
+            "type": "Person",
+            "_label": "William L. Barrell Company, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29405",
+            "type": "Person",
+            "_label": "Grossman Steel Stair Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29403",
+            "type": "Person",
+            "_label": "The Flintkote Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29409",
+            "type": "Person",
+            "_label": "Nicholson & Galloway, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29408",
+            "type": "Person",
+            "_label": "The Midget Louver Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29407",
+            "type": "Person",
+            "_label": "W.C. Vaughn Co."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29436",
+            "type": "Person",
+            "_label": "Randolph Laboratories, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29412",
+            "type": "Person",
+            "_label": "J.P. Duffy Company, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29428",
+            "type": "Person",
+            "_label": "Simmons Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29402",
+            "type": "Person",
+            "_label": "Hope's Window, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29417",
+            "type": "Person",
+            "_label": "Lord Electric Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27476",
+            "type": "Person",
+            "_label": "William Machado"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29435",
+            "type": "Person",
+            "_label": "H. Nils"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29433",
+            "type": "Person",
+            "_label": "Harry Goldman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29432",
+            "type": "Person",
+            "_label": "Bazaar Français"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29431",
+            "type": "Person",
+            "_label": "Vagn Larsen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29434",
+            "type": "Person",
+            "_label": "Book & Record Shop, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29429",
+            "type": "Person",
+            "_label": "Geo E. Maillinson Importing Co., Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29420",
+            "type": "Person",
+            "_label": "Rollo, Johnson & Siedler, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29427",
+            "type": "Person",
+            "_label": "Speakman Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29426",
+            "type": "Person",
+            "_label": "Mile Square Granite Quarries"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29425",
+            "type": "Person",
+            "_label": "Marsh Wall Products, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29424",
+            "type": "Person",
+            "_label": "The Trumbull Electric Manufacturing Co."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29423",
+            "type": "Person",
+            "_label": "Paulsen-Webber Cordage Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29422",
+            "type": "Person",
+            "_label": "The Charles Parker Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29421",
+            "type": "Person",
+            "_label": "The American Brass Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29430",
+            "type": "Person",
+            "_label": "Arundell Clarke"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29419",
+            "type": "Person",
+            "_label": "John Hasbrouck Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29400",
+            "type": "Person",
+            "_label": "Southern Cypress Manufacturing Association"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29399",
+            "type": "Person",
+            "_label": "I.B. Miller Contracting Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29398",
+            "type": "Person",
+            "_label": "Frank E. Nash Fence Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29397",
+            "type": "Person",
+            "_label": "DuBois Fence & Garden Co., Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29396",
+            "type": "Person",
+            "_label": "H.E. Fletcher Co., Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29395",
+            "type": "Person",
+            "_label": "J.J. Haggerty, Inc."
+          },
+          {
+            "id": "http://linkedart.example.com/person/29394",
+            "type": "Person",
+            "_label": "Wadley & Smythe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29393",
+            "type": "Person",
+            "_label": "Murphy-Brinkworth Construction Corporation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29401",
+            "type": "Person",
+            "_label": "Pittsburgh Plate Glass Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29205",
+            "type": "Person",
+            "_label": "Crane Co."
+          },
+          {
+            "id": "http://linkedart.example.com/person/1595",
+            "type": "Person",
+            "_label": "Charles Eames"
+          },
+          {
+            "id": "http://linkedart.example.com/person/630",
+            "type": "Person",
+            "_label": "Antonio Bonet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/737",
+            "type": "Person",
+            "_label": "Marcel Breuer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1777",
+            "type": "Person",
+            "_label": "Jorge Ferrari Hardoy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/290",
+            "type": "Person",
+            "_label": "Benjamin Baldwin"
+          }
+        ]
+      }
+    ]
+  }
 }

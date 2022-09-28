@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19184",
+  "type": "Person",
+  "_label": "Jeroen Verhoeven",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4536",
+      "type": "Name",
+      "_label": "Jeroen Verhoeven"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/4537",
+      "type": "Name",
+      "_label": "Verhoeven Jeroen"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1953",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch, born 1976"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2268",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4536",
+      "type": "TimeSpan",
+      "_label": "Jeroen Verhoeven Birth timespan",
+      "begin_of_the_begin": "1976",
+      "end_of_the_end": "1976"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2268",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4537",
+      "type": "TimeSpan",
+      "_label": "Jeroen Verhoeven Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2268",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2268",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2380",
+              "type": "Event",
+              "_label": "Design and the Elastic Mind",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-24-2 - 2008-12-5",
+                "begin_of_the_begin": "2008-24-2",
+                "end_of_the_end": "2008-12-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10692",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

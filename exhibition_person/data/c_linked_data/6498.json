@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/6498",
+  "type": "Person",
+  "_label": "Miguel Angel Rojas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/43018",
+      "type": "Name",
+      "_label": "Miguel Angel Rojas"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/43019",
+      "type": "Name",
+      "_label": "Rojas Miguel Angel"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500331084",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q6015829",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q6015829",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8153",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Colombian, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/21509",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43018",
+      "type": "TimeSpan",
+      "_label": "Miguel Angel Rojas Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/21509",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/43019",
+      "type": "TimeSpan",
+      "_label": "Miguel Angel Rojas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/21509",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/21509",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1908",
+              "type": "Event",
+              "_label": "Latin American Artists of the Twentieth Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-2-6 - 1993-7-9",
+                "begin_of_the_begin": "1993-2-6",
+                "end_of_the_end": "1993-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/73113",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

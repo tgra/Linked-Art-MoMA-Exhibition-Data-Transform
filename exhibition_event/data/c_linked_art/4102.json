@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4102",
+  "id": "http://linkedart.example.com/exhibition/4102",
   "type": "Activity",
   "_label": "Awards in the Visual Arts 4",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Awards in the Visual Arts 4",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Awards in the Visual Arts 4",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1985-12-12",
     "end_of_the_end": "1986-26-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2962",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4551",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2962",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3802",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24678",
-              "type": "Person",
-              "_label": "Luis Jimenez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24679",
-              "type": "Person",
-              "_label": "Bert Brouwer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24680",
-              "type": "Person",
-              "_label": "John Buck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24681",
-              "type": "Person",
-              "_label": "JoAnne Carson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24682",
-              "type": "Person",
-              "_label": "Peter Charles"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24683",
-              "type": "Person",
-              "_label": "Don Cooper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24684",
-              "type": "Person",
-              "_label": "James Croak"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24685",
-              "type": "Person",
-              "_label": "Sidney Goodman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24686",
-              "type": "Person",
-              "_label": "Jon Imber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24687",
-              "type": "Person",
-              "_label": "Ana Mendieta"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4551",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4551",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6161",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2791",
+            "type": "Person",
+            "_label": "Luis Jimenez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60701",
+            "type": "Person",
+            "_label": "Bert Brouwer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/812",
+            "type": "Person",
+            "_label": "John Buck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60702",
+            "type": "Person",
+            "_label": "JoAnne Carson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60703",
+            "type": "Person",
+            "_label": "Peter Charles"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60704",
+            "type": "Person",
+            "_label": "Don Cooper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60705",
+            "type": "Person",
+            "_label": "James Croak"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2149",
+            "type": "Person",
+            "_label": "Sidney Goodman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60706",
+            "type": "Person",
+            "_label": "Jon Imber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3767",
+            "type": "Person",
+            "_label": "Ana Mendieta"
+          }
+        ]
+      }
+    ]
+  }
 }

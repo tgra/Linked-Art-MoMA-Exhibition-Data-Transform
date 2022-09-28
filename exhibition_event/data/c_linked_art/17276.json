@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17276",
+  "id": "http://linkedart.example.com/exhibition/17276",
   "type": "Activity",
   "_label": "Events: Fashion Moda, Taller Boricua, Artists Invite Artists",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Events: Fashion Moda, Taller Boricua, Artists Invite Artists",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Events: Fashion Moda, Taller Boricua, Artists Invite Artists",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-13-12",
     "end_of_the_end": "1981-5-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/502",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1129",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/502",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/996",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6793",
-              "type": "Person",
-              "_label": "Taller Boricua"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6794",
-              "type": "Person",
-              "_label": "Fashion Moda"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6795",
-              "type": "Person",
-              "_label": "Collaborative Projects, Inc."
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1129",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1129",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2140",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66868",
+            "type": "Person",
+            "_label": "Taller Boricua"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22453",
+            "type": "Person",
+            "_label": "Fashion Moda"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22526",
+            "type": "Person",
+            "_label": "Collaborative Projects, Inc."
+          }
+        ]
+      }
+    ]
+  }
 }

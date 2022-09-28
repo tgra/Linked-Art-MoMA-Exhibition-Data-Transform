@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33200",
+  "type": "Person",
+  "_label": "Carl Wagner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24228",
+      "type": "Name",
+      "_label": "Carl Wagner"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/24229",
+      "type": "Name",
+      "_label": "Wagner Carl"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12114",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24228",
+      "type": "TimeSpan",
+      "_label": "Carl Wagner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12114",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24229",
+      "type": "TimeSpan",
+      "_label": "Carl Wagner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12114",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12114",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1487",
+              "type": "Event",
+              "_label": "Before Photography: Painting and the Invention of Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-6-5 - 1981-5-7",
+                "begin_of_the_begin": "1981-6-5",
+                "end_of_the_end": "1981-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/38521",
+                  "type": "Place",
+                  "_label": "East Wing Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

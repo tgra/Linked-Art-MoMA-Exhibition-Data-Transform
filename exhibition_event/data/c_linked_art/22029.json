@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/22029",
+  "id": "http://linkedart.example.com/exhibition/22029",
   "type": "Activity",
   "_label": "Investigations: Probe, Structure, Analysis",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Investigations: Probe, Structure, Analysis",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Investigations: Probe, Structure, Analysis",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-27-9",
     "end_of_the_end": "1980-4-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1333",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2435",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1333",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2035",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10761",
-              "type": "Person",
-              "_label": "Lauren Ewing"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10762",
-              "type": "Person",
-              "_label": "Agnes Denes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10763",
-              "type": "Person",
-              "_label": "Cecile Abish"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10764",
-              "type": "Person",
-              "_label": "Stephen Prina"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10765",
-              "type": "Person",
-              "_label": "Lynn Gumpert"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2036",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10766",
-              "type": "Person",
-              "_label": "David Reed"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10767",
-              "type": "Person",
-              "_label": "Allan Schwartzman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2435",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2435",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3848",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/22884",
+            "type": "Person",
+            "_label": "Lauren Ewing"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1423",
+            "type": "Person",
+            "_label": "Agnes Denes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33090",
+            "type": "Person",
+            "_label": "Cecile Abish"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4550",
+            "type": "Person",
+            "_label": "Stephen Prina"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65701",
+            "type": "Person",
+            "_label": "Lynn Gumpert"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3849",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/56782",
+            "type": "Person",
+            "_label": "David Reed"
+          },
+          {
+            "id": "http://linkedart.example.com/person/47407",
+            "type": "Person",
+            "_label": "Allan Schwartzman"
+          }
+        ]
+      }
+    ]
+  }
 }

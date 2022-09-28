@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3819",
+  "id": "http://linkedart.example.com/exhibition/3819",
   "type": "Activity",
   "_label": "Architecture (Spring 1981): Design By Circumstance: Episodes in Italian Architecture 1960–1980",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Architecture (Spring 1981): Design By Circumstance: Episodes in Italian Architecture 1960–1980",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Architecture (Spring 1981): Design By Circumstance: Episodes in Italian Architecture 1960–1980",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-18-3",
     "end_of_the_end": "1981-11-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2667",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4256",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2667",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3482",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23197",
-              "type": "Person",
-              "_label": "Alessandro Mendini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23198",
-              "type": "Person",
-              "_label": "Grupo UFO"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23199",
-              "type": "Person",
-              "_label": "Paolo Deganello"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23200",
-              "type": "Person",
-              "_label": "Pietro Derossi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23201",
-              "type": "Person",
-              "_label": "Archizoom Associati"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23202",
-              "type": "Person",
-              "_label": "Giorgio Ceretti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23203",
-              "type": "Person",
-              "_label": "Riccardo Dalisi"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4256",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4256",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5841",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3768",
+            "type": "Person",
+            "_label": "Alessandro Mendini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23739",
+            "type": "Person",
+            "_label": "Grupo UFO"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20834",
+            "type": "Person",
+            "_label": "Paolo Deganello"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19370",
+            "type": "Person",
+            "_label": "Pietro Derossi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16802",
+            "type": "Person",
+            "_label": "Archizoom Associati"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19369",
+            "type": "Person",
+            "_label": "Giorgio Ceretti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57072",
+            "type": "Person",
+            "_label": "Riccardo Dalisi"
+          }
+        ]
+      }
+    ]
+  }
 }

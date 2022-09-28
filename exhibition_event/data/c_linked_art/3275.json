@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3275",
+  "id": "http://linkedart.example.com/exhibition/3275",
   "type": "Activity",
   "_label": "The Little Things Could Be Dearer",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Little Things Could Be Dearer",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Little Things Could Be Dearer",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2014-26-10",
     "end_of_the_end": "2015-8-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2063",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3652",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2063",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2850",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18809",
-              "type": "Person",
-              "_label": "Carina Brandes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18810",
-              "type": "Person",
-              "_label": "Michael E. Smith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18811",
-              "type": "Person",
-              "_label": "Melanie Gilligan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18812",
-              "type": "Person",
-              "_label": "Ulrike Müller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3652",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3652",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5209",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/33899",
+            "type": "Person",
+            "_label": "Carina Brandes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33898",
+            "type": "Person",
+            "_label": "Michael E. Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33893",
+            "type": "Person",
+            "_label": "Melanie Gilligan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33894",
+            "type": "Person",
+            "_label": "Ulrike Müller"
+          }
+        ]
+      }
+    ]
+  }
 }

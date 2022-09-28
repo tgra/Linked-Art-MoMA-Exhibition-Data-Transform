@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31291",
+  "type": "Person",
+  "_label": "Shakespeare Co.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20136",
+      "type": "Name",
+      "_label": "Shakespeare Co."
+    },
+    {
+      "id": "https://linkedart.example.com/Name/20137",
+      "type": "Name",
+      "_label": "Shakespeare Co."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10068",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20136",
+      "type": "TimeSpan",
+      "_label": "Shakespeare Co. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10068",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20137",
+      "type": "TimeSpan",
+      "_label": "Shakespeare Co. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10068",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10068",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/787",
+              "type": "Event",
+              "_label": "Design for Sport",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-15-5 - 1962-29-7",
+                "begin_of_the_begin": "1962-15-5",
+                "end_of_the_end": "1962-29-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34272",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4967",
+  "type": "Person",
+  "_label": "Takao Sasai",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/28688",
+      "type": "Name",
+      "_label": "Takao Sasai"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/28689",
+      "type": "Name",
+      "_label": "Sasai Takao"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500466230",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q55219734",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q55219734",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7007",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1956"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14344",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28688",
+      "type": "TimeSpan",
+      "_label": "Takao Sasai Birth timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14344",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28689",
+      "type": "TimeSpan",
+      "_label": "Takao Sasai Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14344",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14344",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1709",
+              "type": "Event",
+              "_label": "The Modern Poster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-6-6 - 1988-6-9",
+                "begin_of_the_begin": "1988-6-6",
+                "end_of_the_end": "1988-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/53518",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

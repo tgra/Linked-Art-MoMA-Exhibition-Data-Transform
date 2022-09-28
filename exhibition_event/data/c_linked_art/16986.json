@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/16986",
+  "id": "http://linkedart.example.com/exhibition/16986",
   "type": "Activity",
   "_label": "Wynne Greenwood: Kelly",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Wynne Greenwood: Kelly",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Wynne Greenwood: Kelly",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2015-16-9",
     "end_of_the_end": "2016-10-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/208",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/806",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/208",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/364",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3585",
-              "type": "Person",
-              "_label": "Stephanie Snyder"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/365",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3586",
-              "type": "Person",
-              "_label": "Sara O'Keeffe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3587",
-              "type": "Person",
-              "_label": "Johanna Burton"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/366",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3588",
-              "type": "Person",
-              "_label": "Wynne Greenwood"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/806",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/806",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1459",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66780",
+            "type": "Person",
+            "_label": "Stephanie Snyder"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1460",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66628",
+            "type": "Person",
+            "_label": "Sara O'Keeffe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65206",
+            "type": "Person",
+            "_label": "Johanna Burton"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1461",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60233",
+            "type": "Person",
+            "_label": "Wynne Greenwood"
+          }
+        ]
+      }
+    ]
+  }
 }

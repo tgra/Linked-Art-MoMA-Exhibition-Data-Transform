@@ -1,132 +1,130 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/673",
+  "id": "http://linkedart.example.com/exhibition/673",
   "type": "Activity",
   "_label": "Twelve Americans",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Twelve Americans",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Twelve Americans",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1956-30-5",
     "end_of_the_end": "1956-8-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3645",
-      "type": "Place",
-      "_label": "3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6232",
+    "type": "Place",
+    "_label": "3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3645",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4748",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35859",
-              "type": "Person",
-              "_label": "Larry Rivers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35860",
-              "type": "Person",
-              "_label": "Ibram Lassaw"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35861",
-              "type": "Person",
-              "_label": "Franz Kline"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35862",
-              "type": "Person",
-              "_label": "Seymour Lipton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35863",
-              "type": "Person",
-              "_label": "Ernest Briggs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35864",
-              "type": "Person",
-              "_label": "José de Rivera"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35865",
-              "type": "Person",
-              "_label": "Raoul Hague"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35866",
-              "type": "Person",
-              "_label": "Fritz Glarner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35867",
-              "type": "Person",
-              "_label": "Grace Hartigan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35868",
-              "type": "Person",
-              "_label": "James Brooks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35869",
-              "type": "Person",
-              "_label": "Philip Guston"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35870",
-              "type": "Person",
-              "_label": "Sam Francis"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4749",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35871",
-              "type": "Person",
-              "_label": "Dorothy C. Miller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6232",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6232",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8136",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4750",
+            "type": "Person",
+            "_label": "Larry Rivers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3256",
+            "type": "Person",
+            "_label": "Ibram Lassaw"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3020",
+            "type": "Person",
+            "_label": "Franz Kline"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3417",
+            "type": "Person",
+            "_label": "Seymour Lipton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28883",
+            "type": "Person",
+            "_label": "Ernest Briggs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1376",
+            "type": "Person",
+            "_label": "José de Rivera"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2353",
+            "type": "Person",
+            "_label": "Raoul Hague"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2097",
+            "type": "Person",
+            "_label": "Fritz Glarner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2419",
+            "type": "Person",
+            "_label": "Grace Hartigan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/766",
+            "type": "Person",
+            "_label": "James Brooks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2321",
+            "type": "Person",
+            "_label": "Philip Guston"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1884",
+            "type": "Person",
+            "_label": "Sam Francis"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8137",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27083",
+            "type": "Person",
+            "_label": "Dorothy C. Miller"
+          }
+        ]
+      }
+    ]
+  }
 }

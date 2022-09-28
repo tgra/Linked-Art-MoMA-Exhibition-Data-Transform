@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/41958",
+  "type": "Person",
+  "_label": "Sarah Robins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/27334",
+      "type": "Name",
+      "_label": "Sarah Robins"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/27335",
+      "type": "Name",
+      "_label": "Robins Sarah"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13667",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27334",
+      "type": "TimeSpan",
+      "_label": "Sarah Robins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13667",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27335",
+      "type": "TimeSpan",
+      "_label": "Sarah Robins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13667",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13667",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2213",
+              "type": "Event",
+              "_label": "Workspheres",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-8-2 - 2001-22-4",
+                "begin_of_the_begin": "2001-8-2",
+                "end_of_the_end": "2001-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/47199",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

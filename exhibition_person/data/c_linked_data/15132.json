@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/15132",
+  "type": "Person",
+  "_label": "Philadelphia College of Art",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1544",
+      "type": "Name",
+      "_label": "Philadelphia College of Art"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/1545",
+      "type": "Name",
+      "_label": "Philadelphia College of Art"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/772",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1544",
+      "type": "TimeSpan",
+      "_label": "Philadelphia College of Art Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/772",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1545",
+      "type": "TimeSpan",
+      "_label": "Philadelphia College of Art Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/772",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/772",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2626",
+              "type": "Event",
+              "_label": "Wait, Later this will be Nothing: Editions by Dieter Roth",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-17-2 - 2013-24-6",
+                "begin_of_the_begin": "2013-17-2",
+                "end_of_the_end": "2013-24-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4973",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

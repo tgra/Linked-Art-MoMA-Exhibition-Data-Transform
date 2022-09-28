@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18743",
+  "type": "Person",
+  "_label": "Giovanni Bonicelli",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4246",
+      "type": "Name",
+      "_label": "Giovanni Bonicelli"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/4247",
+      "type": "Name",
+      "_label": "Bonicelli Giovanni"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2123",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4246",
+      "type": "TimeSpan",
+      "_label": "Giovanni Bonicelli Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2123",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4247",
+      "type": "TimeSpan",
+      "_label": "Giovanni Bonicelli Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2123",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2123",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/826",
+              "type": "Event",
+              "_label": "The Photographer's Eye",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-27-5 - 1964-23-8",
+                "begin_of_the_begin": "1964-27-5",
+                "end_of_the_end": "1964-23-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9931",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

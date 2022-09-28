@@ -1,116 +1,114 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17012",
+  "id": "http://linkedart.example.com/exhibition/17012",
   "type": "Activity",
   "_label": "Museum as Hub: Center for Historical Reenactments: After-after Tears",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Museum as Hub: Center for Historical Reenactments: After-after Tears",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Museum as Hub: Center for Historical Reenactments: After-after Tears",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2013-22-5",
     "end_of_the_end": "2013-7-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/236",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/837",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/236",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/428",
-          "type": "Set",
-          "_label": "OrgInstitution",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3910",
-              "type": "Person",
-              "_label": "Center for Historical Reenactments"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/429",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3911",
-              "type": "Person",
-              "_label": "Mbali Khoza"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3912",
-              "type": "Person",
-              "_label": "Kemang Wa Lehulere"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3913",
-              "type": "Person",
-              "_label": "Gabi Ngcobo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3914",
-              "type": "Person",
-              "_label": "Donna Kukama"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/430",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3915",
-              "type": "Person",
-              "_label": "Ryan Inouye"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/431",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3916",
-              "type": "Person",
-              "_label": "Daniel Lyonga"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/837",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/837",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1527",
+        "type": "Set",
+        "_label": "OrgInstitution",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64116",
+            "type": "Person",
+            "_label": "Center for Historical Reenactments"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1528",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65899",
+            "type": "Person",
+            "_label": "Mbali Khoza"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65439",
+            "type": "Person",
+            "_label": "Kemang Wa Lehulere"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64689",
+            "type": "Person",
+            "_label": "Gabi Ngcobo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64442",
+            "type": "Person",
+            "_label": "Donna Kukama"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1529",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66587",
+            "type": "Person",
+            "_label": "Ryan Inouye"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1530",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64310",
+            "type": "Person",
+            "_label": "Daniel Lyonga"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/343",
+  "type": "Person",
+  "_label": "Bernard Baschet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24640",
+      "type": "Name",
+      "_label": "Bernard Baschet"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/24641",
+      "type": "Name",
+      "_label": "Baschet Bernard"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500073016",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q19522543",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q19522543",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5704",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1917"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12320",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24640",
+      "type": "TimeSpan",
+      "_label": "Bernard Baschet Birth timespan",
+      "begin_of_the_begin": "1917",
+      "end_of_the_end": "1917"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12320",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24641",
+      "type": "TimeSpan",
+      "_label": "Bernard Baschet Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12320",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12320",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/864",
+              "type": "Event",
+              "_label": "Structures for Sound - Musical Instruments by Francois and Bernard Baschet",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-5-10 - 1966-23-1",
+                "begin_of_the_begin": "1965-5-10",
+                "end_of_the_end": "1966-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/39859",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

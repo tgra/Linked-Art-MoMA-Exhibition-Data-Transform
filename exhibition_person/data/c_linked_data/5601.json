@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5601",
+  "type": "Person",
+  "_label": "Hervé Télémaque",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/29978",
+      "type": "Name",
+      "_label": "Hervé Télémaque"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/29979",
+      "type": "Name",
+      "_label": "Télémaque Hervé"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500025851",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q481327",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q481327",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/7535",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Haitian, born 1937"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14989",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29978",
+      "type": "TimeSpan",
+      "_label": "Hervé Télémaque Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14989",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29979",
+      "type": "TimeSpan",
+      "_label": "Hervé Télémaque Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14989",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14989",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2136",
+              "type": "Event",
+              "_label": "Pop Impressions Europe/USA: Prints and Multiples from the Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-18-2 - 1999-18-5",
+                "begin_of_the_begin": "1999-18-2",
+                "end_of_the_end": "1999-18-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/58848",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

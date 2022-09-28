@@ -1,160 +1,158 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4371",
+  "id": "http://linkedart.example.com/exhibition/4371",
   "type": "Activity",
   "_label": "Face-Off: The Portrait in Recent Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Face-Off: The Portrait in Recent Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Face-Off: The Portrait in Recent Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1994-9-9",
     "end_of_the_end": "1994-30-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3260",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4849",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3260",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4119",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26850",
-              "type": "Person",
-              "_label": "Chuck Close"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26851",
-              "type": "Person",
-              "_label": "Karen Kilimnik"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26852",
-              "type": "Person",
-              "_label": "Cindy Sherman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26853",
-              "type": "Person",
-              "_label": "Andres Serrano"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26854",
-              "type": "Person",
-              "_label": "Thomas Ruff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26855",
-              "type": "Person",
-              "_label": "Gerhard Richter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26856",
-              "type": "Person",
-              "_label": "Charles Ray"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26857",
-              "type": "Person",
-              "_label": "Daniel Oates"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26858",
-              "type": "Person",
-              "_label": "Lorraine O'Grady"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26859",
-              "type": "Person",
-              "_label": "Alice Neel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26860",
-              "type": "Person",
-              "_label": "Janine Antoni"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26861",
-              "type": "Person",
-              "_label": "Jeff Koons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26862",
-              "type": "Person",
-              "_label": "Alex Katz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26863",
-              "type": "Person",
-              "_label": "Ilya Kabakov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26864",
-              "type": "Person",
-              "_label": "David Hammons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26865",
-              "type": "Person",
-              "_label": "Nan Goldin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26866",
-              "type": "Person",
-              "_label": "Patrick Faigenbaum"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26867",
-              "type": "Person",
-              "_label": "John Coplans"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26868",
-              "type": "Person",
-              "_label": "Christian Boltanski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26869",
-              "type": "Person",
-              "_label": "Robert Mapplethorpe"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4849",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4849",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6478",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26929",
+            "type": "Person",
+            "_label": "Chuck Close"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7637",
+            "type": "Person",
+            "_label": "Karen Kilimnik"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5183",
+            "type": "Person",
+            "_label": "Cindy Sherman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6709",
+            "type": "Person",
+            "_label": "Andres Serrano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6673",
+            "type": "Person",
+            "_label": "Thomas Ruff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4713",
+            "type": "Person",
+            "_label": "Gerhard Richter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6735",
+            "type": "Person",
+            "_label": "Charles Ray"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59268",
+            "type": "Person",
+            "_label": "Daniel Oates"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22521",
+            "type": "Person",
+            "_label": "Lorraine O'Grady"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4085",
+            "type": "Person",
+            "_label": "Alice Neel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7878",
+            "type": "Person",
+            "_label": "Janine Antoni"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6327",
+            "type": "Person",
+            "_label": "Jeff Koons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2890",
+            "type": "Person",
+            "_label": "Alex Katz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6338",
+            "type": "Person",
+            "_label": "Ilya Kabakov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2386",
+            "type": "Person",
+            "_label": "David Hammons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7163",
+            "type": "Person",
+            "_label": "Nan Goldin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1712",
+            "type": "Person",
+            "_label": "Patrick Faigenbaum"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1180",
+            "type": "Person",
+            "_label": "John Coplans"
+          },
+          {
+            "id": "http://linkedart.example.com/person/621",
+            "type": "Person",
+            "_label": "Christian Boltanski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3592",
+            "type": "Person",
+            "_label": "Robert Mapplethorpe"
+          }
+        ]
+      }
+    ]
+  }
 }

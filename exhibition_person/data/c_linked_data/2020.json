@@ -1,0 +1,136 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2020",
+  "type": "Person",
+  "_label": "Peter Gee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5322",
+      "type": "Name",
+      "_label": "Peter Gee"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/5323",
+      "type": "Name",
+      "_label": "Gee Peter"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500074193",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q7174197",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q7174197",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2299",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1932"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2661",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5322",
+      "type": "TimeSpan",
+      "_label": "Peter Gee Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2661",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5323",
+      "type": "TimeSpan",
+      "_label": "Peter Gee Death timespan",
+      "begin_of_the_begin": "2005",
+      "end_of_the_end": "2005"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2661",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2661",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/956",
+              "type": "Event",
+              "_label": "Word and Image: Posters and Typography from the Graphic Design Collection of the Museum of Modern Art, 1879–1967",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-25-1 - 1968-10-3",
+                "begin_of_the_begin": "1968-25-1",
+                "end_of_the_end": "1968-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12210",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/1049",
+              "type": "Event",
+              "_label": "Graphics 1: New Dimensions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-25-6 - 1970-15-11",
+                "begin_of_the_begin": "1970-25-6",
+                "end_of_the_end": "1970-15-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12211",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

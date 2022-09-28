@@ -1,82 +1,80 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/16993",
+  "id": "http://linkedart.example.com/exhibition/16993",
   "type": "Activity",
   "_label": "Gerard & Kelly: P.O.L.E. (People, Objects, Language, Exchange)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Gerard & Kelly: P.O.L.E. (People, Objects, Language, Exchange)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Gerard & Kelly: P.O.L.E. (People, Objects, Language, Exchange)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2014-1-9",
     "end_of_the_end": "2015-15-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/215",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/814",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/215",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/380",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3659",
-              "type": "Person",
-              "_label": "Brennan Gerard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/3660",
-              "type": "Person",
-              "_label": "Ryan Kelly"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/381",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/3661",
-              "type": "Person",
-              "_label": "Johanna Burton"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/814",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/814",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1476",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64010",
+            "type": "Person",
+            "_label": "Brennan Gerard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66588",
+            "type": "Person",
+            "_label": "Ryan Kelly"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1477",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65206",
+            "type": "Person",
+            "_label": "Johanna Burton"
+          }
+        ]
+      }
+    ]
+  }
 }

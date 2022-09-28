@@ -1,132 +1,130 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/1048",
+  "id": "http://linkedart.example.com/exhibition/1048",
   "type": "Activity",
   "_label": "Recent Acquisitons VI",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Acquisitons VI",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Acquisitons VI",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1970-5-6",
     "end_of_the_end": "1970-13-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/55",
-      "type": "Place",
-      "_label": "3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/55",
+    "type": "Place",
+    "_label": "3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/55",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/97",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/769",
-              "type": "Person",
-              "_label": "Oskar Kokoschka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/770",
-              "type": "Person",
-              "_label": "Fausto Melotti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/771",
-              "type": "Person",
-              "_label": "Joan Miró"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/772",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/773",
-              "type": "Person",
-              "_label": "Paul Klee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/774",
-              "type": "Person",
-              "_label": "Sophie Taeuber-Arp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/775",
-              "type": "Person",
-              "_label": "Bernar Venet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/776",
-              "type": "Person",
-              "_label": "Georges Braque"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/777",
-              "type": "Person",
-              "_label": "Max Ernst"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/778",
-              "type": "Person",
-              "_label": "William Copley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/779",
-              "type": "Person",
-              "_label": "Eva Hesse"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/98",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/780",
-              "type": "Person",
-              "_label": "Betsy Jones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/781",
-              "type": "Person",
-              "_label": "Alicia Legg"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/55",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/55",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/97",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3065",
+            "type": "Person",
+            "_label": "Oskar Kokoschka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3764",
+            "type": "Person",
+            "_label": "Fausto Melotti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3859",
+            "type": "Person",
+            "_label": "Joan Miró"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3002",
+            "type": "Person",
+            "_label": "Paul Klee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5552",
+            "type": "Person",
+            "_label": "Sophie Taeuber-Arp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5855",
+            "type": "Person",
+            "_label": "Bernar Venet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/714",
+            "type": "Person",
+            "_label": "Georges Braque"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1674",
+            "type": "Person",
+            "_label": "Max Ernst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1181",
+            "type": "Person",
+            "_label": "William Copley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2516",
+            "type": "Person",
+            "_label": "Eva Hesse"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/98",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27029",
+            "type": "Person",
+            "_label": "Betsy Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27058",
+            "type": "Person",
+            "_label": "Alicia Legg"
+          }
+        ]
+      }
+    ]
+  }
 }

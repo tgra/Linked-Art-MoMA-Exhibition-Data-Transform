@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21909",
+  "id": "http://linkedart.example.com/exhibition/21909",
   "type": "Activity",
   "_label": "Counter Culture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Counter Culture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Counter Culture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2004-10-7",
     "end_of_the_end": "2004-14-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1225",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2315",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1225",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1837",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9945",
-              "type": "Person",
-              "_label": "Ms. Jean Shin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9946",
-              "type": "Person",
-              "_label": "Julianne Swartz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9947",
-              "type": "Person",
-              "_label": "Flux Factory"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9948",
-              "type": "Person",
-              "_label": "Marion Wilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9949",
-              "type": "Person",
-              "_label": "Raul Vincent Enriquez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9950",
-              "type": "Person",
-              "_label": "Ricardo Miranda Zuñiga"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1838",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9951",
-              "type": "Person",
-              "_label": "Melanie Cohn"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2315",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2315",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3630",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17039",
+            "type": "Person",
+            "_label": "Ms. Jean Shin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58603",
+            "type": "Person",
+            "_label": "Julianne Swartz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64648",
+            "type": "Person",
+            "_label": "Flux Factory"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65800",
+            "type": "Person",
+            "_label": "Marion Wilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66405",
+            "type": "Person",
+            "_label": "Raul Vincent Enriquez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66459",
+            "type": "Person",
+            "_label": "Ricardo Miranda Zuñiga"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3631",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65917",
+            "type": "Person",
+            "_label": "Melanie Cohn"
+          }
+        ]
+      }
+    ]
+  }
 }

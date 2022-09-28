@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23222",
+  "type": "Person",
+  "_label": "Carl Burchard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8106",
+      "type": "Name",
+      "_label": "Carl Burchard"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/8107",
+      "type": "Name",
+      "_label": "Burchard Carl"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4053",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8106",
+      "type": "TimeSpan",
+      "_label": "Carl Burchard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4053",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8107",
+      "type": "TimeSpan",
+      "_label": "Carl Burchard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4053",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4053",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2499",
+              "type": "Event",
+              "_label": "Counter Space: Design and the Modern Kitchen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-15-9 - 2011-2-5",
+                "begin_of_the_begin": "2010-15-9",
+                "end_of_the_end": "2011-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17365",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

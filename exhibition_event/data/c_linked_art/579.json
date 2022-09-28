@@ -1,79 +1,77 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/579",
+  "id": "http://linkedart.example.com/exhibition/579",
   "type": "Activity",
   "_label": "New Talent Exhibition in the Penthouse: Elliott, Powers, Rogalski, Summers",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Talent Exhibition in the Penthouse: Elliott, Powers, Rogalski, Summers",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Talent Exhibition in the Penthouse: Elliott, Powers, Rogalski, Summers",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1952-13-5",
     "end_of_the_end": "1952-6-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3540",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5669",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3540",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4541",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/32867",
-              "type": "Person",
-              "_label": "Walter Rogalski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32868",
-              "type": "Person",
-              "_label": "Carol Summers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32869",
-              "type": "Person",
-              "_label": "Philip Elliott"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/32870",
-              "type": "Person",
-              "_label": "Gorman Powers"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5669",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5669",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7471",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4793",
+            "type": "Person",
+            "_label": "Walter Rogalski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5507",
+            "type": "Person",
+            "_label": "Carol Summers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6621",
+            "type": "Person",
+            "_label": "Philip Elliott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29462",
+            "type": "Person",
+            "_label": "Gorman Powers"
+          }
+        ]
+      }
+    ]
+  }
 }

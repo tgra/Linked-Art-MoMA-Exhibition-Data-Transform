@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17180",
+  "id": "http://linkedart.example.com/exhibition/17180",
   "type": "Activity",
   "_label": "Let the Record Show...",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Let the Record Show...",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Let the Record Show...",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1987-20-11",
     "end_of_the_end": "1988-24-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/405",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1023",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/405",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/813",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6021",
-              "type": "Person",
-              "_label": "William Olander"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/814",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6022",
-              "type": "Person",
-              "_label": "Silence Death"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/815",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6023",
-              "type": "Person",
-              "_label": "Gran Fury"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6024",
-              "type": "Person",
-              "_label": "ACT UP, New York"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1023",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1023",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1942",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/62588",
+            "type": "Person",
+            "_label": "William Olander"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1943",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/61540",
+            "type": "Person",
+            "_label": "Silence Death"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1944",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/21629",
+            "type": "Person",
+            "_label": "Gran Fury"
+          },
+          {
+            "id": "http://linkedart.example.com/person/13843",
+            "type": "Person",
+            "_label": "ACT UP, New York"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,86 +1,84 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/486",
+  "id": "http://linkedart.example.com/exhibition/486",
   "type": "Activity",
   "_label": "Prints by Gauguin, Vuillard, and Bonnard",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Prints by Gauguin, Vuillard, and Bonnard",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Prints by Gauguin, Vuillard, and Bonnard",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1949-26-7",
     "end_of_the_end": "1949-25-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3373",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5117",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3373",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4267",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/29043",
-              "type": "Person",
-              "_label": "Édouard Vuillard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29044",
-              "type": "Person",
-              "_label": "Paul Gauguin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29045",
-              "type": "Person",
-              "_label": "Pierre Bonnard"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4268",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/29046",
-              "type": "Person",
-              "_label": "William S. Lieberman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5117",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5117",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6798",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5917",
+            "type": "Person",
+            "_label": "Édouard Vuillard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2013",
+            "type": "Person",
+            "_label": "Paul Gauguin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/637",
+            "type": "Person",
+            "_label": "Pierre Bonnard"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6799",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/9022",
+            "type": "Person",
+            "_label": "William S. Lieberman"
+          }
+        ]
+      }
+    ]
+  }
 }

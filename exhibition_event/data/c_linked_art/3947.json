@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3947",
+  "id": "http://linkedart.example.com/exhibition/3947",
   "type": "Activity",
   "_label": "Group Show",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Group Show",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Group Show",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1962-12-6",
     "end_of_the_end": "1962-21-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2790",
-      "type": "Place",
-      "_label": "Green Gallery",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4379",
+    "type": "Place",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2790",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3615",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23746",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23747",
-              "type": "Person",
-              "_label": "George Segal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23748",
-              "type": "Person",
-              "_label": "Claes Oldenburg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23749",
-              "type": "Person",
-              "_label": "Philip Wofford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23750",
-              "type": "Person",
-              "_label": "Yayoi Kusama"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23751",
-              "type": "Person",
-              "_label": "Andy Warhol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23752",
-              "type": "Person",
-              "_label": "James Rosenquist"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23753",
-              "type": "Person",
-              "_label": "Robert Morris"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4379",
+    "type": "Group",
+    "_label": "Green Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4379",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5974",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5112",
+            "type": "Person",
+            "_label": "George Segal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27103",
+            "type": "Person",
+            "_label": "Claes Oldenburg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32814",
+            "type": "Person",
+            "_label": "Philip Wofford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3174",
+            "type": "Person",
+            "_label": "Yayoi Kusama"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5966",
+            "type": "Person",
+            "_label": "Andy Warhol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4822",
+            "type": "Person",
+            "_label": "James Rosenquist"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3950",
+            "type": "Person",
+            "_label": "Robert Morris"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/992",
+  "id": "http://linkedart.example.com/exhibition/992",
   "type": "Activity",
   "_label": "Function Without Form: Two Models for an Undesignable City",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Function Without Form: Two Models for an Undesignable City",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Function Without Form: Two Models for an Undesignable City",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1969-1-3",
     "end_of_the_end": "1969-30-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4152",
-      "type": "Place",
-      "_label": "2nd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/7080",
+    "type": "Place",
+    "_label": "2nd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4152",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5647",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44661",
-              "type": "Person",
-              "_label": "Theodore Waddell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44662",
-              "type": "Person",
-              "_label": "Michael C. Cunningham"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44663",
-              "type": "Person",
-              "_label": "Balthazar Korab"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5648",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44664",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/7080",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/7080",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9406",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5925",
+            "type": "Person",
+            "_label": "Theodore Waddell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32091",
+            "type": "Person",
+            "_label": "Michael C. Cunningham"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32092",
+            "type": "Person",
+            "_label": "Balthazar Korab"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9407",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

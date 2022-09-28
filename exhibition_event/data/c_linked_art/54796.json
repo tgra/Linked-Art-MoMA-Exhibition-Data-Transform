@@ -1,113 +1,111 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/54796",
+  "id": "http://linkedart.example.com/exhibition/54796",
   "type": "Activity",
   "_label": "[Penthouse Exhibition]",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "[Penthouse Exhibition]",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "[Penthouse Exhibition]",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1955-7-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3495",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5615",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3495",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4464",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/31947",
-              "type": "Person",
-              "_label": "Anne Ryan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31948",
-              "type": "Person",
-              "_label": "Ludins  Guttenburg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31949",
-              "type": "Person",
-              "_label": "Echaurren Matta"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31950",
-              "type": "Person",
-              "_label": "Boardman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31951",
-              "type": "Person",
-              "_label": "Reginald Pollack"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31952",
-              "type": "Person",
-              "_label": "Norman Lewis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31953",
-              "type": "Person",
-              "_label": "Elaine de Kooning"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31954",
-              "type": "Person",
-              "_label": "Balcomb Greene"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31955",
-              "type": "Person",
-              "_label": "Morris Graves"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31956",
-              "type": "Person",
-              "_label": "Carroll Cloar"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31957",
-              "type": "Person",
-              "_label": "Dobkin"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5615",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5615",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7385",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4898",
+            "type": "Person",
+            "_label": "Anne Ryan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73641",
+            "type": "Person",
+            "_label": "Ludins  Guttenburg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73450",
+            "type": "Person",
+            "_label": "Echaurren Matta"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73411",
+            "type": "Person",
+            "_label": "Boardman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4484",
+            "type": "Person",
+            "_label": "Reginald Pollack"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3378",
+            "type": "Person",
+            "_label": "Norman Lewis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3080",
+            "type": "Person",
+            "_label": "Elaine de Kooning"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2227",
+            "type": "Person",
+            "_label": "Balcomb Greene"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2215",
+            "type": "Person",
+            "_label": "Morris Graves"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1106",
+            "type": "Person",
+            "_label": "Carroll Cloar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73418",
+            "type": "Person",
+            "_label": "Dobkin"
+          }
+        ]
+      }
+    ]
+  }
 }

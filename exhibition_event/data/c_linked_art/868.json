@@ -1,177 +1,175 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/868",
+  "id": "http://linkedart.example.com/exhibition/868",
   "type": "Activity",
   "_label": "Around the Automobile",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Around the Automobile",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Around the Automobile",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1965-9-12",
     "end_of_the_end": "1966-21-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4026",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6942",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4026",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5409",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42318",
-              "type": "Person",
-              "_label": "Larry Rivers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42319",
-              "type": "Person",
-              "_label": "Jason Seley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42320",
-              "type": "Person",
-              "_label": "George Segal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42321",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42322",
-              "type": "Person",
-              "_label": "Robert Rauschenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42323",
-              "type": "Person",
-              "_label": "Marie Laurencin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42324",
-              "type": "Person",
-              "_label": "Henri de Toulouse-Lautrec"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42325",
-              "type": "Person",
-              "_label": "Ernest (Ernest Tino Trova) Trova"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42326",
-              "type": "Person",
-              "_label": "Renzo Vespignani"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42327",
-              "type": "Person",
-              "_label": "John Atherton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42328",
-              "type": "Person",
-              "_label": "Vern Blosum"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42329",
-              "type": "Person",
-              "_label": "Warrington Colescott"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42330",
-              "type": "Person",
-              "_label": "Jean Dubuffet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42331",
-              "type": "Person",
-              "_label": "Giacomo Balla"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42332",
-              "type": "Person",
-              "_label": "Edward Hopper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42333",
-              "type": "Person",
-              "_label": "Arman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42334",
-              "type": "Person",
-              "_label": "César (César Baldaccini)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42335",
-              "type": "Person",
-              "_label": "Joseph Hirsch"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42336",
-              "type": "Person",
-              "_label": "Derek Boshier"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42337",
-              "type": "Person",
-              "_label": "James Francis Gill"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/42338",
-              "type": "Person",
-              "_label": "John Chamberlain"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5410",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/42339",
-              "type": "Person",
-              "_label": "Dorothy C. Miller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6942",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6942",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9147",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4750",
+            "type": "Person",
+            "_label": "Larry Rivers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5129",
+            "type": "Person",
+            "_label": "Jason Seley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5112",
+            "type": "Person",
+            "_label": "George Segal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4632",
+            "type": "Person",
+            "_label": "Robert Rauschenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3264",
+            "type": "Person",
+            "_label": "Marie Laurencin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5681",
+            "type": "Person",
+            "_label": "Henri de Toulouse-Lautrec"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5707",
+            "type": "Person",
+            "_label": "Ernest (Ernest Tino Trova) Trova"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5868",
+            "type": "Person",
+            "_label": "Renzo Vespignani"
+          },
+          {
+            "id": "http://linkedart.example.com/person/214",
+            "type": "Person",
+            "_label": "John Atherton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/584",
+            "type": "Person",
+            "_label": "Vern Blosum"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1133",
+            "type": "Person",
+            "_label": "Warrington Colescott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1558",
+            "type": "Person",
+            "_label": "Jean Dubuffet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/292",
+            "type": "Person",
+            "_label": "Giacomo Balla"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2615",
+            "type": "Person",
+            "_label": "Edward Hopper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/204",
+            "type": "Person",
+            "_label": "Arman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1011",
+            "type": "Person",
+            "_label": "César (César Baldaccini)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2558",
+            "type": "Person",
+            "_label": "Joseph Hirsch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/658",
+            "type": "Person",
+            "_label": "Derek Boshier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2071",
+            "type": "Person",
+            "_label": "James Francis Gill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1019",
+            "type": "Person",
+            "_label": "John Chamberlain"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9148",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27083",
+            "type": "Person",
+            "_label": "Dorothy C. Miller"
+          }
+        ]
+      }
+    ]
+  }
 }

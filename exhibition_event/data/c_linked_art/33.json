@@ -1,117 +1,115 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/33",
+  "id": "http://linkedart.example.com/exhibition/33",
   "type": "Activity",
   "_label": "The Work of Young Architects in the Middle West",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Work of Young Architects in the Middle West",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Work of Young Architects in the Middle West",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1933-3-4",
     "end_of_the_end": "1933-30-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2090",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3679",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2090",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2877",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19124",
-              "type": "Person",
-              "_label": "George Fred Keck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19125",
-              "type": "Person",
-              "_label": "Paul Schweiker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19126",
-              "type": "Person",
-              "_label": "Hubert C. Bebb"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19127",
-              "type": "Person",
-              "_label": "Joseph L. Weinberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19128",
-              "type": "Person",
-              "_label": "Howard T. Fisher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19129",
-              "type": "Person",
-              "_label": "Hans Oberhammer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19130",
-              "type": "Person",
-              "_label": "Wallace G. Teare"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19131",
-              "type": "Person",
-              "_label": "Hamilton Beatty"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19132",
-              "type": "Person",
-              "_label": "William H. Conrad"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2878",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19133",
-              "type": "Person",
-              "_label": "Philip Johnson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3679",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3679",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5236",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18464",
+            "type": "Person",
+            "_label": "George Fred Keck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/14605",
+            "type": "Person",
+            "_label": "Paul Schweiker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27607",
+            "type": "Person",
+            "_label": "Hubert C. Bebb"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27610",
+            "type": "Person",
+            "_label": "Joseph L. Weinberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27608",
+            "type": "Person",
+            "_label": "Howard T. Fisher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27609",
+            "type": "Person",
+            "_label": "Hans Oberhammer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27612",
+            "type": "Person",
+            "_label": "Wallace G. Teare"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27606",
+            "type": "Person",
+            "_label": "Hamilton Beatty"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27611",
+            "type": "Person",
+            "_label": "William H. Conrad"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5237",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27028",
+            "type": "Person",
+            "_label": "Philip Johnson"
+          }
+        ]
+      }
+    ]
+  }
 }

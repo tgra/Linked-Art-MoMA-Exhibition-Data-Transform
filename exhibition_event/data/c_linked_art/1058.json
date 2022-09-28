@@ -1,106 +1,104 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/1058",
+  "id": "http://linkedart.example.com/exhibition/1058",
   "type": "Activity",
   "_label": "Picasso: Master Printmaker",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Picasso: Master Printmaker",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Picasso: Master Printmaker",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1970-15-10",
     "end_of_the_end": "1970-29-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/66",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/66",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/66",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/117",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/908",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/118",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/909",
-              "type": "Person",
-              "_label": "Riva Castleman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/119",
-          "type": "Set",
-          "_label": "Assistant Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/910",
-              "type": "Person",
-              "_label": "Howardena Pindell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/911",
-              "type": "Person",
-              "_label": "Donna M. Stein"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/120",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/912",
-              "type": "Person",
-              "_label": "Wilder Green"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/66",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/66",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/117",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/118",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26923",
+            "type": "Person",
+            "_label": "Riva Castleman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/119",
+        "type": "Set",
+        "_label": "Assistant Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4440",
+            "type": "Person",
+            "_label": "Howardena Pindell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27157",
+            "type": "Person",
+            "_label": "Donna M. Stein"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/120",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26986",
+            "type": "Person",
+            "_label": "Wilder Green"
+          }
+        ]
+      }
+    ]
+  }
 }

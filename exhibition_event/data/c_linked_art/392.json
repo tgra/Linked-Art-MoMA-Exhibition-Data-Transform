@@ -1,112 +1,110 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/392",
+  "id": "http://linkedart.example.com/exhibition/392",
   "type": "Activity",
   "_label": "Design Trends in Unit Furniture, Fabric and Tableware",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Design Trends in Unit Furniture, Fabric and Tableware",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Design Trends in Unit Furniture, Fabric and Tableware",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1946-6-9",
     "end_of_the_end": "1946-17-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2762",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4351",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2762",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3583",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23619",
-              "type": "Person",
-              "_label": "Dorothy Liebes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23620",
-              "type": "Person",
-              "_label": "Dunbar Furniture Manufacturing Corp., Berne, IN"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23621",
-              "type": "Person",
-              "_label": "Edward Wormley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23622",
-              "type": "Person",
-              "_label": "Mengel Company"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23623",
-              "type": "Person",
-              "_label": "Florence Forst"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23624",
-              "type": "Person",
-              "_label": "William Armbruster"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23625",
-              "type": "Person",
-              "_label": "Morris Sanders"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23626",
-              "type": "Person",
-              "_label": "Goodall Fabrics"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/3584",
-          "type": "Set",
-          "_label": "Arranger",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23627",
-              "type": "Person",
-              "_label": "Edgar Kaufmann, Jr."
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4351",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4351",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5942",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6992",
+            "type": "Person",
+            "_label": "Dorothy Liebes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8783",
+            "type": "Person",
+            "_label": "Dunbar Furniture Manufacturing Corp., Berne, IN"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6160",
+            "type": "Person",
+            "_label": "Edward Wormley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31211",
+            "type": "Person",
+            "_label": "Mengel Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31028",
+            "type": "Person",
+            "_label": "Florence Forst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27536",
+            "type": "Person",
+            "_label": "William Armbruster"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29810",
+            "type": "Person",
+            "_label": "Morris Sanders"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30145",
+            "type": "Person",
+            "_label": "Goodall Fabrics"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5943",
+        "type": "Set",
+        "_label": "Arranger",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27036",
+            "type": "Person",
+            "_label": "Edgar Kaufmann, Jr."
+          }
+        ]
+      }
+    ]
+  }
 }

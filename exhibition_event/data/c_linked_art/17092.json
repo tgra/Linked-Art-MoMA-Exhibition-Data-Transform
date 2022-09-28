@@ -1,116 +1,114 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17092",
+  "id": "http://linkedart.example.com/exhibition/17092",
   "type": "Activity",
   "_label": "Tiborocity: Design and Undesign by Tibor Kalman, 1979-1999",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Tiborocity: Design and Undesign by Tibor Kalman, 1979-1999",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Tiborocity: Design and Undesign by Tibor Kalman, 1979-1999",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2000-6-5",
     "end_of_the_end": "2000-20-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/316",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/925",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/316",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/622",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4914",
-              "type": "Person",
-              "_label": "Anne Ellegood"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4915",
-              "type": "Person",
-              "_label": "Lisa Phillips"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/623",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4916",
-              "type": "Person",
-              "_label": "Aaron Betsky"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/624",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4917",
-              "type": "Person",
-              "_label": "San Francisco Museum of Modern Art"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/625",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4918",
-              "type": "Person",
-              "_label": "Tibor Kalman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4919",
-              "type": "Person",
-              "_label": "Maira Kalman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4920",
-              "type": "Person",
-              "_label": "M & Co"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/925",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/925",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1735",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63786",
+            "type": "Person",
+            "_label": "Anne Ellegood"
+          },
+          {
+            "id": "http://linkedart.example.com/person/36561",
+            "type": "Person",
+            "_label": "Lisa Phillips"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1736",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26907",
+            "type": "Person",
+            "_label": "Aaron Betsky"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1737",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/12566",
+            "type": "Person",
+            "_label": "San Francisco Museum of Modern Art"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1738",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/14684",
+            "type": "Person",
+            "_label": "Tibor Kalman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/45445",
+            "type": "Person",
+            "_label": "Maira Kalman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6871",
+            "type": "Person",
+            "_label": "M & Co"
+          }
+        ]
+      }
+    ]
+  }
 }

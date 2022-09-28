@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4346",
+  "id": "http://linkedart.example.com/exhibition/4346",
   "type": "Activity",
   "_label": "Sticker Shock: Artists' Stickers",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Sticker Shock: Artists' Stickers",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Sticker Shock: Artists' Stickers",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1999-16-1",
     "end_of_the_end": "1999-7-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3232",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4821",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3232",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4089",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26763",
-              "type": "Person",
-              "_label": "Jim Winters"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26764",
-              "type": "Person",
-              "_label": "Astrid Bowlby"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26765",
-              "type": "Person",
-              "_label": "Shepard Fairey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26766",
-              "type": "Person",
-              "_label": "Barry McGee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26767",
-              "type": "Person",
-              "_label": "Jeff Morris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26768",
-              "type": "Person",
-              "_label": "Forrest Myers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26769",
-              "type": "Person",
-              "_label": "Chris Negrette"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26770",
-              "type": "Person",
-              "_label": "Douglas Ruschhaupt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26771",
-              "type": "Person",
-              "_label": "Aaron Rose"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4821",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4821",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6448",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60801",
+            "type": "Person",
+            "_label": "Jim Winters"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60795",
+            "type": "Person",
+            "_label": "Astrid Bowlby"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60796",
+            "type": "Person",
+            "_label": "Shepard Fairey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17143",
+            "type": "Person",
+            "_label": "Barry McGee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60797",
+            "type": "Person",
+            "_label": "Jeff Morris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/13400",
+            "type": "Person",
+            "_label": "Forrest Myers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60798",
+            "type": "Person",
+            "_label": "Chris Negrette"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60800",
+            "type": "Person",
+            "_label": "Douglas Ruschhaupt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60799",
+            "type": "Person",
+            "_label": "Aaron Rose"
+          }
+        ]
+      }
+    ]
+  }
 }

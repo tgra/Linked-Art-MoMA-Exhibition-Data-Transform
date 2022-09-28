@@ -1,107 +1,105 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/616",
+  "id": "http://linkedart.example.com/exhibition/616",
   "type": "Activity",
   "_label": "Children's Holiday Carnival",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Children's Holiday Carnival",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Children's Holiday Carnival",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1953-14-12",
     "end_of_the_end": "1954-17-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3582",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5711",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3582",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4623",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/34082",
-              "type": "Person",
-              "_label": "Louis Vivin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/34083",
-              "type": "Person",
-              "_label": "Ruth Vollmer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/34084",
-              "type": "Person",
-              "_label": "Suzanne Eisendieck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/34085",
-              "type": "Person",
-              "_label": "Carol Blanchard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/34086",
-              "type": "Person",
-              "_label": "Camille Bombois"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/34087",
-              "type": "Person",
-              "_label": "Darrel Austin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/34088",
-              "type": "Person",
-              "_label": "Toni Hughes"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4624",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/34089",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5711",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5711",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7553",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5900",
+            "type": "Person",
+            "_label": "Louis Vivin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5905",
+            "type": "Person",
+            "_label": "Ruth Vollmer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29601",
+            "type": "Person",
+            "_label": "Suzanne Eisendieck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31042",
+            "type": "Person",
+            "_label": "Carol Blanchard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/624",
+            "type": "Person",
+            "_label": "Camille Bombois"
+          },
+          {
+            "id": "http://linkedart.example.com/person/228",
+            "type": "Person",
+            "_label": "Darrel Austin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2641",
+            "type": "Person",
+            "_label": "Toni Hughes"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7554",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      }
+    ]
+  }
 }

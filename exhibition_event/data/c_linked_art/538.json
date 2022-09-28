@@ -1,142 +1,140 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/538",
+  "id": "http://linkedart.example.com/exhibition/538",
   "type": "Activity",
   "_label": "Recent Acquisitions",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Acquisitions",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Acquisitions",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1951-13-2",
     "end_of_the_end": "1951-13-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3431",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5476",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3431",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4357",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30403",
-              "type": "Person",
-              "_label": "Vasily Kandinsky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30404",
-              "type": "Person",
-              "_label": "Ernst Ludwig Kirchner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30405",
-              "type": "Person",
-              "_label": "Isamu Noguchi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30406",
-              "type": "Person",
-              "_label": "Henry Moore"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30407",
-              "type": "Person",
-              "_label": "Jacob Lawrence"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30408",
-              "type": "Person",
-              "_label": "René Pierre Tal-Coat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30409",
-              "type": "Person",
-              "_label": "Raoul Ubac"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30410",
-              "type": "Person",
-              "_label": "Lovis Corinth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30411",
-              "type": "Person",
-              "_label": "Nicolas de Staël"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30412",
-              "type": "Person",
-              "_label": "Arshile Gorky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30413",
-              "type": "Person",
-              "_label": "Bernard Buffet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30414",
-              "type": "Person",
-              "_label": "Raoul Dufy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30415",
-              "type": "Person",
-              "_label": "Louise Bourgeois"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30416",
-              "type": "Person",
-              "_label": "Joseph Cornell"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4358",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30417",
-              "type": "Person",
-              "_label": "Dorothy C. Miller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5476",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5476",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7203",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2856",
+            "type": "Person",
+            "_label": "Vasily Kandinsky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2987",
+            "type": "Person",
+            "_label": "Ernst Ludwig Kirchner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4154",
+            "type": "Person",
+            "_label": "Isamu Noguchi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3913",
+            "type": "Person",
+            "_label": "Henry Moore"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3273",
+            "type": "Person",
+            "_label": "Jacob Lawrence"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5564",
+            "type": "Person",
+            "_label": "René Pierre Tal-Coat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5763",
+            "type": "Person",
+            "_label": "Raoul Ubac"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1186",
+            "type": "Person",
+            "_label": "Lovis Corinth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1380",
+            "type": "Person",
+            "_label": "Nicolas de Staël"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2161",
+            "type": "Person",
+            "_label": "Arshile Gorky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/822",
+            "type": "Person",
+            "_label": "Bernard Buffet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1571",
+            "type": "Person",
+            "_label": "Raoul Dufy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/680",
+            "type": "Person",
+            "_label": "Louise Bourgeois"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1189",
+            "type": "Person",
+            "_label": "Joseph Cornell"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7204",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27083",
+            "type": "Person",
+            "_label": "Dorothy C. Miller"
+          }
+        ]
+      }
+    ]
+  }
 }

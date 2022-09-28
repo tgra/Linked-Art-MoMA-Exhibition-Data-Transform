@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18572",
+  "id": "http://linkedart.example.com/exhibition/18572",
   "type": "Activity",
   "_label": "Street Dance NY to LA: Gr…",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Street Dance NY to LA: Gr…",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Street Dance NY to LA: Gr…",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-2-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/978",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1735",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/978",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1495",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8508",
-              "type": "Person",
-              "_label": "Swift Kids Crew"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8509",
-              "type": "Person",
-              "_label": "Duro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8510",
-              "type": "Person",
-              "_label": "Fab 5 Freddy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8511",
-              "type": "Person",
-              "_label": "Lee Quinones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8512",
-              "type": "Person",
-              "_label": "DJ Spy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8513",
-              "type": "Person",
-              "_label": "Rock Steady Crew"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8514",
-              "type": "Person",
-              "_label": "Dondi (Donald Joseph White)"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1735",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1735",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2840",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67659",
+            "type": "Person",
+            "_label": "Swift Kids Crew"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67618",
+            "type": "Person",
+            "_label": "Duro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67639",
+            "type": "Person",
+            "_label": "Fab 5 Freddy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6787",
+            "type": "Person",
+            "_label": "Lee Quinones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67610",
+            "type": "Person",
+            "_label": "DJ Spy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67476",
+            "type": "Person",
+            "_label": "Rock Steady Crew"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6542",
+            "type": "Person",
+            "_label": "Dondi (Donald Joseph White)"
+          }
+        ]
+      }
+    ]
+  }
 }

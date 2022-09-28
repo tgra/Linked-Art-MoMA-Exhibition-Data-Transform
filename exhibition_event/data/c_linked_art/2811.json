@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2811",
+  "id": "http://linkedart.example.com/exhibition/2811",
   "type": "Activity",
   "_label": "Seven Women/Image Impact",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Seven Women/Image Impact",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Seven Women/Image Impact",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1983-25-9",
     "end_of_the_end": "1983-20-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1542",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3120",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1542",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2294",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/13289",
-              "type": "Person",
-              "_label": "Susan Rothenberg"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13290",
-              "type": "Person",
-              "_label": "Sonia Balassanian"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13291",
-              "type": "Person",
-              "_label": "Mimi Smith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13292",
-              "type": "Person",
-              "_label": "Judy Rifka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13293",
-              "type": "Person",
-              "_label": "Ana Mendieta"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13294",
-              "type": "Person",
-              "_label": "Anne Pitrone"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/13295",
-              "type": "Person",
-              "_label": "Dena Shottenkirk"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3120",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3120",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4641",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4845",
+            "type": "Person",
+            "_label": "Susan Rothenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32979",
+            "type": "Person",
+            "_label": "Sonia Balassanian"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6339",
+            "type": "Person",
+            "_label": "Mimi Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32808",
+            "type": "Person",
+            "_label": "Judy Rifka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3767",
+            "type": "Person",
+            "_label": "Ana Mendieta"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58480",
+            "type": "Person",
+            "_label": "Anne Pitrone"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58481",
+            "type": "Person",
+            "_label": "Dena Shottenkirk"
+          }
+        ]
+      }
+    ]
+  }
 }

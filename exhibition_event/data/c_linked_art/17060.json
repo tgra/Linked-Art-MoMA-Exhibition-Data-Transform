@@ -1,137 +1,135 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17060",
+  "id": "http://linkedart.example.com/exhibition/17060",
   "type": "Activity",
   "_label": "Collage: The Unmonumental Picture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Collage: The Unmonumental Picture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Collage: The Unmonumental Picture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2008-16-1",
     "end_of_the_end": "2008-30-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/284",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/890",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/284",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/543",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4583",
-              "type": "Person",
-              "_label": "Thomas Hirschhorn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4584",
-              "type": "Person",
-              "_label": "Jonathan Hernandez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4585",
-              "type": "Person",
-              "_label": "Henrik Olesen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4586",
-              "type": "Person",
-              "_label": "Mark Bradford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4587",
-              "type": "Person",
-              "_label": "Wangechi Mutu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4588",
-              "type": "Person",
-              "_label": "Kim Jones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4589",
-              "type": "Person",
-              "_label": "Martha Rosler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4590",
-              "type": "Person",
-              "_label": "Nancy Spero"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4591",
-              "type": "Person",
-              "_label": "Christian Holstad"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4592",
-              "type": "Person",
-              "_label": "Kelley Walker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4593",
-              "type": "Person",
-              "_label": "John Stezaker"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/544",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4594",
-              "type": "Person",
-              "_label": "Richard Flood"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4595",
-              "type": "Person",
-              "_label": "Massimiliano Gioni"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4596",
-              "type": "Person",
-              "_label": "Laura Hoptman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/890",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/890",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1651",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7862",
+            "type": "Person",
+            "_label": "Thomas Hirschhorn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59371",
+            "type": "Person",
+            "_label": "Jonathan Hernandez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23336",
+            "type": "Person",
+            "_label": "Henrik Olesen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20264",
+            "type": "Person",
+            "_label": "Mark Bradford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17350",
+            "type": "Person",
+            "_label": "Wangechi Mutu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7097",
+            "type": "Person",
+            "_label": "Kim Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6535",
+            "type": "Person",
+            "_label": "Martha Rosler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5347",
+            "type": "Person",
+            "_label": "Nancy Spero"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17708",
+            "type": "Person",
+            "_label": "Christian Holstad"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17880",
+            "type": "Person",
+            "_label": "Kelley Walker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19668",
+            "type": "Person",
+            "_label": "John Stezaker"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1652",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66468",
+            "type": "Person",
+            "_label": "Richard Flood"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65868",
+            "type": "Person",
+            "_label": "Massimiliano Gioni"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27013",
+            "type": "Person",
+            "_label": "Laura Hoptman"
+          }
+        ]
+      }
+    ]
+  }
 }

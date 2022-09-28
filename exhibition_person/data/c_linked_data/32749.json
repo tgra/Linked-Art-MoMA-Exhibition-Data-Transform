@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32749",
+  "type": "Person",
+  "_label": "William Camfield",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23274",
+      "type": "Name",
+      "_label": "William Camfield"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23275",
+      "type": "Name",
+      "_label": "Camfield William"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11637",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23274",
+      "type": "TimeSpan",
+      "_label": "William Camfield Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11637",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23275",
+      "type": "TimeSpan",
+      "_label": "William Camfield Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11637",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11637",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1899",
+              "type": "Event",
+              "_label": "Max Ernst: Dada and the Dawn of Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-3 - 1993-2-5",
+                "begin_of_the_begin": "1993-14-3",
+                "end_of_the_end": "1993-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37259",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

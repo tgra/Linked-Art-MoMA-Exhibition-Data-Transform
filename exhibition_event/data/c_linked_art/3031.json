@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3031",
+  "id": "http://linkedart.example.com/exhibition/3031",
   "type": "Activity",
   "_label": "Special Projects (Winter 1978–1979)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Winter 1978–1979)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Winter 1978–1979)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-3-12",
     "end_of_the_end": "1979-21-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1793",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3382",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1793",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2567",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16146",
-              "type": "Person",
-              "_label": "Pat Oleszko"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16147",
-              "type": "Person",
-              "_label": "Martine Aballea"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16148",
-              "type": "Person",
-              "_label": "Melvin Edwards"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16149",
-              "type": "Person",
-              "_label": "Kenneth Juon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16150",
-              "type": "Person",
-              "_label": "John Giordano"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16151",
-              "type": "Person",
-              "_label": "Anthony Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16152",
-              "type": "Person",
-              "_label": "Louise Stanley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16153",
-              "type": "Person",
-              "_label": "Nicholas Hondrogen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16154",
-              "type": "Person",
-              "_label": "Ed Rothfarb"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16155",
-              "type": "Person",
-              "_label": "Irene Young"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3382",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3382",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4926",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/33141",
+            "type": "Person",
+            "_label": "Pat Oleszko"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19102",
+            "type": "Person",
+            "_label": "Martine Aballea"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1609",
+            "type": "Person",
+            "_label": "Melvin Edwards"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56684",
+            "type": "Person",
+            "_label": "Kenneth Juon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56676",
+            "type": "Person",
+            "_label": "John Giordano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33109",
+            "type": "Person",
+            "_label": "Anthony Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56697",
+            "type": "Person",
+            "_label": "Louise Stanley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57871",
+            "type": "Person",
+            "_label": "Nicholas Hondrogen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57873",
+            "type": "Person",
+            "_label": "Ed Rothfarb"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56700",
+            "type": "Person",
+            "_label": "Irene Young"
+          }
+        ]
+      }
+    ]
+  }
 }

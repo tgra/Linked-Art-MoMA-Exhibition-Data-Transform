@@ -1,120 +1,118 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3441",
+  "id": "http://linkedart.example.com/exhibition/3441",
   "type": "Activity",
   "_label": "Woman of Many Faces: Isabelle Huppert",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Woman of Many Faces: Isabelle Huppert",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Woman of Many Faces: Isabelle Huppert",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2005-30-10",
     "end_of_the_end": "2005-5-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2248",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3837",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2248",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3042",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19989",
-              "type": "Person",
-              "_label": "Nan Goldin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19990",
-              "type": "Person",
-              "_label": "Hiroshi Sugimoto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19991",
-              "type": "Person",
-              "_label": "Henri Cartier-Bresson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19992",
-              "type": "Person",
-              "_label": "Philip-Lorca diCorcia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19993",
-              "type": "Person",
-              "_label": "Roni Horn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19994",
-              "type": "Person",
-              "_label": "Robert Doisneau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19995",
-              "type": "Person",
-              "_label": "Sylvia Plachy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19996",
-              "type": "Person",
-              "_label": "Guy Bourdin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19997",
-              "type": "Person",
-              "_label": "Jacques-Henri Lartigue"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19998",
-              "type": "Person",
-              "_label": "Lucien Hervé"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19999",
-              "type": "Person",
-              "_label": "Hedi Slimane"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20000",
-              "type": "Person",
-              "_label": "Helmut Newton"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3837",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3837",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5401",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7163",
+            "type": "Person",
+            "_label": "Nan Goldin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5500",
+            "type": "Person",
+            "_label": "Hiroshi Sugimoto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/960",
+            "type": "Person",
+            "_label": "Henri Cartier-Bresson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6714",
+            "type": "Person",
+            "_label": "Philip-Lorca diCorcia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7137",
+            "type": "Person",
+            "_label": "Roni Horn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1501",
+            "type": "Person",
+            "_label": "Robert Doisneau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4462",
+            "type": "Person",
+            "_label": "Sylvia Plachy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7778",
+            "type": "Person",
+            "_label": "Guy Bourdin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3250",
+            "type": "Person",
+            "_label": "Jacques-Henri Lartigue"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24825",
+            "type": "Person",
+            "_label": "Lucien Hervé"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59476",
+            "type": "Person",
+            "_label": "Hedi Slimane"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59998",
+            "type": "Person",
+            "_label": "Helmut Newton"
+          }
+        ]
+      }
+    ]
+  }
 }

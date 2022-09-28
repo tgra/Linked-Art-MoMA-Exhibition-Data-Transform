@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63403",
+  "type": "Person",
+  "_label": "Helmut Lohr",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/41582",
+      "type": "Name",
+      "_label": "Helmut Lohr"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/41583",
+      "type": "Name",
+      "_label": "Lohr Helmut"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20791",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41582",
+      "type": "TimeSpan",
+      "_label": "Helmut Lohr Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20791",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/41583",
+      "type": "TimeSpan",
+      "_label": "Helmut Lohr Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20791",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20791",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/5044",
+              "type": "Event",
+              "_label": "White Room: Helmut Löhr",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-7-10 - 1994-6-11",
+                "begin_of_the_begin": "1994-7-10",
+                "end_of_the_end": "1994-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/71757",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

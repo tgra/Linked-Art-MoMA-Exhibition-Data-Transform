@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17274",
+  "type": "Person",
+  "_label": "Duncan Turner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2790",
+      "type": "Name",
+      "_label": "Duncan Turner"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/2791",
+      "type": "Name",
+      "_label": "Turner Duncan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q51714339",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q51714339",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1136",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1979"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1395",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2790",
+      "type": "TimeSpan",
+      "_label": "Duncan Turner Birth timespan",
+      "begin_of_the_begin": "1979",
+      "end_of_the_end": "1979"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1395",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2791",
+      "type": "TimeSpan",
+      "_label": "Duncan Turner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1395",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1395",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2290",
+              "type": "Event",
+              "_label": "SAFE: Design Takes on Risk",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-16-10 - 2006-2-1",
+                "begin_of_the_begin": "2005-16-10",
+                "end_of_the_end": "2006-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7689",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

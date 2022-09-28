@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3319",
+  "id": "http://linkedart.example.com/exhibition/3319",
   "type": "Activity",
   "_label": "Hotel New York",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Hotel New York",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Hotel New York",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1999-15-12",
     "end_of_the_end": "2001-25-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2112",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3701",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2112",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2900",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19202",
-              "type": "Person",
-              "_label": "Noritoshi Hirakawa"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19203",
-              "type": "Person",
-              "_label": "Kirk Woolford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19204",
-              "type": "Person",
-              "_label": "Jeroen Kooijmans"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19205",
-              "type": "Person",
-              "_label": "Craig Smith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19206",
-              "type": "Person",
-              "_label": "Rolf Engelen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19207",
-              "type": "Person",
-              "_label": "Susan Kozel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19208",
-              "type": "Person",
-              "_label": "Claude Wampler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19209",
-              "type": "Person",
-              "_label": "Yves Musard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19210",
-              "type": "Person",
-              "_label": "Maria van Daalen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19211",
-              "type": "Person",
-              "_label": "The Butoh Rockettes"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3701",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3701",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5259",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18851",
+            "type": "Person",
+            "_label": "Noritoshi Hirakawa"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59810",
+            "type": "Person",
+            "_label": "Kirk Woolford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58581",
+            "type": "Person",
+            "_label": "Jeroen Kooijmans"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59815",
+            "type": "Person",
+            "_label": "Craig Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59811",
+            "type": "Person",
+            "_label": "Rolf Engelen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59809",
+            "type": "Person",
+            "_label": "Susan Kozel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59813",
+            "type": "Person",
+            "_label": "Claude Wampler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59814",
+            "type": "Person",
+            "_label": "Yves Musard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59816",
+            "type": "Person",
+            "_label": "Maria van Daalen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59812",
+            "type": "Person",
+            "_label": "The Butoh Rockettes"
+          }
+        ]
+      }
+    ]
+  }
 }

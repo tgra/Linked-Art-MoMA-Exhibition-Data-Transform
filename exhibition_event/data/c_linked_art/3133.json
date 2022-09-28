@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3133",
+  "id": "http://linkedart.example.com/exhibition/3133",
   "type": "Activity",
   "_label": "Special Projects (Fall 1980)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Fall 1980)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Fall 1980)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-28-9",
     "end_of_the_end": "1980-9-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1906",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3495",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1906",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2687",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/17345",
-              "type": "Person",
-              "_label": "Porfirio DiDonna"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17346",
-              "type": "Person",
-              "_label": "Billy Sullivan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17347",
-              "type": "Person",
-              "_label": "Michael Harvey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17348",
-              "type": "Person",
-              "_label": "Silvia Kolbowski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17349",
-              "type": "Person",
-              "_label": "Douglas Davis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17350",
-              "type": "Person",
-              "_label": "Tony Rosenthal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17351",
-              "type": "Person",
-              "_label": "Emily McLennan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17352",
-              "type": "Person",
-              "_label": "Laurie Hawkinson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/17353",
-              "type": "Person",
-              "_label": "John Broaddus"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3495",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3495",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5046",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/33154",
+            "type": "Person",
+            "_label": "Porfirio DiDonna"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7959",
+            "type": "Person",
+            "_label": "Billy Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25755",
+            "type": "Person",
+            "_label": "Michael Harvey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6599",
+            "type": "Person",
+            "_label": "Silvia Kolbowski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24349",
+            "type": "Person",
+            "_label": "Douglas Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56705",
+            "type": "Person",
+            "_label": "Tony Rosenthal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56704",
+            "type": "Person",
+            "_label": "Emily McLennan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35993",
+            "type": "Person",
+            "_label": "Laurie Hawkinson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56702",
+            "type": "Person",
+            "_label": "John Broaddus"
+          }
+        ]
+      }
+    ]
+  }
 }

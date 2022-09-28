@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3486",
+  "type": "Person",
+  "_label": "Alexandre Lunois",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/24788",
+      "type": "Name",
+      "_label": "Alexandre Lunois"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/24789",
+      "type": "Name",
+      "_label": "Lunois Alexandre"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500060215",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q16649811",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q16649811",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5767",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12394",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24788",
+      "type": "TimeSpan",
+      "_label": "Alexandre Lunois Birth timespan",
+      "begin_of_the_begin": "1863",
+      "end_of_the_end": "1863"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12394",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24789",
+      "type": "TimeSpan",
+      "_label": "Alexandre Lunois Death timespan",
+      "begin_of_the_begin": "1916",
+      "end_of_the_end": "1916"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12394",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12394",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1331",
+              "type": "Event",
+              "_label": "Impresario: Ambroise Vollard",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-6-6 - 1977-6-9",
+                "begin_of_the_begin": "1977-6-6",
+                "end_of_the_end": "1977-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/40261",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

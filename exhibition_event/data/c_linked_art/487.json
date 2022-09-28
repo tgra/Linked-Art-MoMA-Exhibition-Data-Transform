@@ -1,119 +1,117 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/487",
+  "id": "http://linkedart.example.com/exhibition/487",
   "type": "Activity",
   "_label": "Sculpture by Painters",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Sculpture by Painters",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Sculpture by Painters",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1949-3-8",
     "end_of_the_end": "1949-5-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3374",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5118",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3374",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4269",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/29047",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29048",
-              "type": "Person",
-              "_label": "Pierre-Auguste Renoir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29049",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29050",
-              "type": "Person",
-              "_label": "George L. K. Morris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29051",
-              "type": "Person",
-              "_label": "André Masson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29052",
-              "type": "Person",
-              "_label": "Jackson Pollock"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29053",
-              "type": "Person",
-              "_label": "Joan Miró"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29054",
-              "type": "Person",
-              "_label": "Käthe Kollwitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29055",
-              "type": "Person",
-              "_label": "Thomas Eakins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29056",
-              "type": "Person",
-              "_label": "André Beaudin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29057",
-              "type": "Person",
-              "_label": "Hilaire-Germain-Edgar Degas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/29058",
-              "type": "Person",
-              "_label": "Max Beckmann"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5118",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5118",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6800",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4678",
+            "type": "Person",
+            "_label": "Pierre-Auguste Renoir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3947",
+            "type": "Person",
+            "_label": "George L. K. Morris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3667",
+            "type": "Person",
+            "_label": "André Masson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4487",
+            "type": "Person",
+            "_label": "Jackson Pollock"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3859",
+            "type": "Person",
+            "_label": "Joan Miró"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3069",
+            "type": "Person",
+            "_label": "Käthe Kollwitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27219",
+            "type": "Person",
+            "_label": "Thomas Eakins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/397",
+            "type": "Person",
+            "_label": "André Beaudin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1398",
+            "type": "Person",
+            "_label": "Hilaire-Germain-Edgar Degas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/406",
+            "type": "Person",
+            "_label": "Max Beckmann"
+          }
+        ]
+      }
+    ]
+  }
 }

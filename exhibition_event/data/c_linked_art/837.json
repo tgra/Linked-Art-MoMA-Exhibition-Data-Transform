@@ -1,97 +1,95 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/837",
+  "id": "http://linkedart.example.com/exhibition/837",
   "type": "Activity",
   "_label": "Recent Acquisitions: Seven American Paintings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Acquisitions: Seven American Paintings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Acquisitions: Seven American Paintings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1964-5-11",
     "end_of_the_end": "1965-15-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3992",
-      "type": "Place",
-      "_label": "Ground Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6908",
+    "type": "Place",
+    "_label": "Ground Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3992",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5347",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/41650",
-              "type": "Person",
-              "_label": "Morris Louis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41651",
-              "type": "Person",
-              "_label": "Jules Olitski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41652",
-              "type": "Person",
-              "_label": "Larry Poons"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41653",
-              "type": "Person",
-              "_label": "Jack Tworkov"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41654",
-              "type": "Person",
-              "_label": "Paul Jenkins"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5348",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/41655",
-              "type": "Person",
-              "_label": "Alfred H. Barr, Jr."
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6908",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6908",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9085",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3456",
+            "type": "Person",
+            "_label": "Morris Louis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4226",
+            "type": "Person",
+            "_label": "Jules Olitski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4503",
+            "type": "Person",
+            "_label": "Larry Poons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5757",
+            "type": "Person",
+            "_label": "Jack Tworkov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2780",
+            "type": "Person",
+            "_label": "Paul Jenkins"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9086",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8462",
+            "type": "Person",
+            "_label": "Alfred H. Barr, Jr."
+          }
+        ]
+      }
+    ]
+  }
 }

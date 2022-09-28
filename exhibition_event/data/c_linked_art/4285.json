@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4285",
+  "id": "http://linkedart.example.com/exhibition/4285",
   "type": "Activity",
   "_label": "Framing Exposure: Process and Politics",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Framing Exposure: Process and Politics",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Framing Exposure: Process and Politics",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2005-30-4",
     "end_of_the_end": "2005-31-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3164",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4753",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3164",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4018",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26490",
-              "type": "Person",
-              "_label": "Andrea Fraser"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26491",
-              "type": "Person",
-              "_label": "Craig Baldwin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26492",
-              "type": "Person",
-              "_label": "M. Ho"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26493",
-              "type": "Person",
-              "_label": "Liza Johnson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26494",
-              "type": "Person",
-              "_label": "Francesco Simeti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26495",
-              "type": "Person",
-              "_label": "Tokihiro Sato"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26496",
-              "type": "Person",
-              "_label": "Gerhard Richter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26497",
-              "type": "Person",
-              "_label": "Michael Rakowitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26498",
-              "type": "Person",
-              "_label": "Ronald Jones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26499",
-              "type": "Person",
-              "_label": "Chris Chiappa"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4753",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4753",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6377",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18826",
+            "type": "Person",
+            "_label": "Andrea Fraser"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60871",
+            "type": "Person",
+            "_label": "Craig Baldwin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60820",
+            "type": "Person",
+            "_label": "M. Ho"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60873",
+            "type": "Person",
+            "_label": "Liza Johnson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60875",
+            "type": "Person",
+            "_label": "Francesco Simeti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60874",
+            "type": "Person",
+            "_label": "Tokihiro Sato"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4713",
+            "type": "Person",
+            "_label": "Gerhard Richter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17208",
+            "type": "Person",
+            "_label": "Michael Rakowitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6668",
+            "type": "Person",
+            "_label": "Ronald Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60872",
+            "type": "Person",
+            "_label": "Chris Chiappa"
+          }
+        ]
+      }
+    ]
+  }
 }

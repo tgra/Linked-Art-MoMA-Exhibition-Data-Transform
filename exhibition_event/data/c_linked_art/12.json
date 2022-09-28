@@ -1,207 +1,205 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/12",
+  "id": "http://linkedart.example.com/exhibition/12",
   "type": "Activity",
   "_label": "German Painting and Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "German Painting and Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "German Painting and Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1931-12-3",
     "end_of_the_end": "1931-22-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/124",
-      "type": "Place",
-      "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/223",
+    "type": "Place",
+    "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/124",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/220",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/2035",
-              "type": "Person",
-              "_label": "Renée Sintenis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2036",
-              "type": "Person",
-              "_label": "Georg Kolbe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2037",
-              "type": "Person",
-              "_label": "Emil Nolde"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2038",
-              "type": "Person",
-              "_label": "Georg Schrimpf"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2039",
-              "type": "Person",
-              "_label": "Max Pechstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2040",
-              "type": "Person",
-              "_label": "Otto Mueller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2041",
-              "type": "Person",
-              "_label": "Ernst Ludwig Kirchner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2042",
-              "type": "Person",
-              "_label": "Karl Schmidt-Rottluff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2043",
-              "type": "Person",
-              "_label": "Paula Modersohn-Becker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2044",
-              "type": "Person",
-              "_label": "Gerhard Marcks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2045",
-              "type": "Person",
-              "_label": "Oskar Schlemmer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2046",
-              "type": "Person",
-              "_label": "Johannes Molzahn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2047",
-              "type": "Person",
-              "_label": "Christian Rohlfs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2048",
-              "type": "Person",
-              "_label": "Paul Klee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2049",
-              "type": "Person",
-              "_label": "Paul Kleinschmidt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2050",
-              "type": "Person",
-              "_label": "Franz Marc"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2051",
-              "type": "Person",
-              "_label": "Oskar Kokoschka"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2052",
-              "type": "Person",
-              "_label": "Ernesto de Fiori"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2053",
-              "type": "Person",
-              "_label": "Erich Heckel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2054",
-              "type": "Person",
-              "_label": "Willi Baumeister"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2055",
-              "type": "Person",
-              "_label": "Karl Hofer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2056",
-              "type": "Person",
-              "_label": "Ernst Barlach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2057",
-              "type": "Person",
-              "_label": "Heinrich Campendonk"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2058",
-              "type": "Person",
-              "_label": "Max Beckmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2059",
-              "type": "Person",
-              "_label": "Rudolf Belling"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2060",
-              "type": "Person",
-              "_label": "Otto Dix"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/2061",
-              "type": "Person",
-              "_label": "George Grosz"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/221",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/2062",
-              "type": "Person",
-              "_label": "Alfred H. Barr, Jr."
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/223",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/223",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/414",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5238",
+            "type": "Person",
+            "_label": "Renée Sintenis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3067",
+            "type": "Person",
+            "_label": "Georg Kolbe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4157",
+            "type": "Person",
+            "_label": "Emil Nolde"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5068",
+            "type": "Person",
+            "_label": "Georg Schrimpf"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4350",
+            "type": "Person",
+            "_label": "Max Pechstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3980",
+            "type": "Person",
+            "_label": "Otto Mueller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2987",
+            "type": "Person",
+            "_label": "Ernst Ludwig Kirchner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5039",
+            "type": "Person",
+            "_label": "Karl Schmidt-Rottluff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3879",
+            "type": "Person",
+            "_label": "Paula Modersohn-Becker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3603",
+            "type": "Person",
+            "_label": "Gerhard Marcks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5016",
+            "type": "Person",
+            "_label": "Oskar Schlemmer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3896",
+            "type": "Person",
+            "_label": "Johannes Molzahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4801",
+            "type": "Person",
+            "_label": "Christian Rohlfs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3002",
+            "type": "Person",
+            "_label": "Paul Klee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3012",
+            "type": "Person",
+            "_label": "Paul Kleinschmidt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3595",
+            "type": "Person",
+            "_label": "Franz Marc"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3065",
+            "type": "Person",
+            "_label": "Oskar Kokoschka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27546",
+            "type": "Person",
+            "_label": "Ernesto de Fiori"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2467",
+            "type": "Person",
+            "_label": "Erich Heckel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/370",
+            "type": "Person",
+            "_label": "Willi Baumeister"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2576",
+            "type": "Person",
+            "_label": "Karl Hofer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/314",
+            "type": "Person",
+            "_label": "Ernst Barlach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/904",
+            "type": "Person",
+            "_label": "Heinrich Campendonk"
+          },
+          {
+            "id": "http://linkedart.example.com/person/406",
+            "type": "Person",
+            "_label": "Max Beckmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/427",
+            "type": "Person",
+            "_label": "Rudolf Belling"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1487",
+            "type": "Person",
+            "_label": "Otto Dix"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2279",
+            "type": "Person",
+            "_label": "George Grosz"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/415",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8462",
+            "type": "Person",
+            "_label": "Alfred H. Barr, Jr."
+          }
+        ]
+      }
+    ]
+  }
 }

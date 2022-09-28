@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27180",
+  "type": "Person",
+  "_label": "Sarah Weiner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11286",
+      "type": "Name",
+      "_label": "Sarah Weiner"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/11287",
+      "type": "Name",
+      "_label": "Weiner Sarah"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5643",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11286",
+      "type": "TimeSpan",
+      "_label": "Sarah Weiner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5643",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11287",
+      "type": "TimeSpan",
+      "_label": "Sarah Weiner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5643",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5643",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1019",
+              "type": "Event",
+              "_label": "Ocean Projects: Hutchinson and Oppenheim",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-20-10 - 1969-30-11",
+                "begin_of_the_begin": "1969-20-10",
+                "end_of_the_end": "1969-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24244",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

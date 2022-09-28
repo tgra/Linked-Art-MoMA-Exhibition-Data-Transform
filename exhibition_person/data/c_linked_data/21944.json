@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21944",
+  "type": "Person",
+  "_label": "Dr. Arvid Gutschow",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7004",
+      "type": "Name",
+      "_label": "Dr. Arvid Gutschow"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/7005",
+      "type": "Name",
+      "_label": "Gutschow Arvid Dr."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500100973",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q717166",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q717166",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2997",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3502",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7004",
+      "type": "TimeSpan",
+      "_label": "Dr. Arvid Gutschow Birth timespan",
+      "begin_of_the_begin": "1900",
+      "end_of_the_end": "1900"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3502",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7005",
+      "type": "TimeSpan",
+      "_label": "Dr. Arvid Gutschow Death timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3502",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3502",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2411",
+              "type": "Event",
+              "_label": "The Printed Picture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-16-10 - 2009-23-7",
+                "begin_of_the_begin": "2008-16-10",
+                "end_of_the_end": "2009-23-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15425",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

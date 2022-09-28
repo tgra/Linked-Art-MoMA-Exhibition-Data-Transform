@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32722",
+  "type": "Person",
+  "_label": "Avel De Knight",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23218",
+      "type": "Name",
+      "_label": "Avel De Knight"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23219",
+      "type": "Name",
+      "_label": "De Knight Avel"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500034703",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q22129708",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q22129708",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5487",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1931"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11609",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23218",
+      "type": "TimeSpan",
+      "_label": "Avel De Knight Birth timespan",
+      "begin_of_the_begin": "1931",
+      "end_of_the_end": "1931"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11609",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23219",
+      "type": "TimeSpan",
+      "_label": "Avel De Knight Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11609",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11609",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1140",
+              "type": "Event",
+              "_label": "Landscape",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-8-10 - 1972-15-11",
+                "begin_of_the_begin": "1972-8-10",
+                "end_of_the_end": "1972-15-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37150",
+                  "type": "Place",
+                  "_label": "Member's Penthouse, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

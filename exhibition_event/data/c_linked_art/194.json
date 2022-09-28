@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/194",
+  "id": "http://linkedart.example.com/exhibition/194",
   "type": "Activity",
   "_label": "The Wooden House in America",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Wooden House in America",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Wooden House in America",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1941-9-9",
     "end_of_the_end": "1941-30-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1123",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1962",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1123",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1643",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9029",
-              "type": "Person",
-              "_label": "Harwell Hamilton Harris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9030",
-              "type": "Person",
-              "_label": "John Funk"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9031",
-              "type": "Person",
-              "_label": "Harris & Ewing/Times World Wide Photos"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9032",
-              "type": "Person",
-              "_label": "Carl Koch"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9033",
-              "type": "Person",
-              "_label": "John Yeon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9034",
-              "type": "Person",
-              "_label": "Frank Lloyd Wright"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9035",
-              "type": "Person",
-              "_label": "A. James Speyer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9036",
-              "type": "Person",
-              "_label": "Gregory Ain"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9037",
-              "type": "Person",
-              "_label": "Walter Gropius"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9038",
-              "type": "Person",
-              "_label": "Marcel Breuer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1962",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1962",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3122",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18459",
+            "type": "Person",
+            "_label": "Harwell Hamilton Harris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18466",
+            "type": "Person",
+            "_label": "John Funk"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8123",
+            "type": "Person",
+            "_label": "Harris & Ewing/Times World Wide Photos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18463",
+            "type": "Person",
+            "_label": "Carl Koch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18461",
+            "type": "Person",
+            "_label": "John Yeon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6167",
+            "type": "Person",
+            "_label": "Frank Lloyd Wright"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28646",
+            "type": "Person",
+            "_label": "A. James Speyer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/86",
+            "type": "Person",
+            "_label": "Gregory Ain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2264",
+            "type": "Person",
+            "_label": "Walter Gropius"
+          },
+          {
+            "id": "http://linkedart.example.com/person/737",
+            "type": "Person",
+            "_label": "Marcel Breuer"
+          }
+        ]
+      }
+    ]
+  }
 }

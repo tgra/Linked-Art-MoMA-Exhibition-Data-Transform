@@ -1,104 +1,102 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/779",
+  "id": "http://linkedart.example.com/exhibition/779",
   "type": "Activity",
   "_label": "Redon, Moreau, Bresdin",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Redon, Moreau, Bresdin",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Redon, Moreau, Bresdin",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1961-6-12",
     "end_of_the_end": "1962-25-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3927",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6843",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3927",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5222",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39902",
-              "type": "Person",
-              "_label": "Odilon Redon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39903",
-              "type": "Person",
-              "_label": "Gustave Moreau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39904",
-              "type": "Person",
-              "_label": "Rodolphe Bresdin"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5223",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39905",
-              "type": "Person",
-              "_label": "John Rewald"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5224",
-          "type": "Set",
-          "_label": "Assistant Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/39906",
-              "type": "Person",
-              "_label": "Harold Joachim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/39907",
-              "type": "Person",
-              "_label": "Dore Ashton"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6843",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6843",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8960",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4649",
+            "type": "Person",
+            "_label": "Odilon Redon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30685",
+            "type": "Person",
+            "_label": "Gustave Moreau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/735",
+            "type": "Person",
+            "_label": "Rodolphe Bresdin"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8961",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27123",
+            "type": "Person",
+            "_label": "John Rewald"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8962",
+        "type": "Set",
+        "_label": "Assistant Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32126",
+            "type": "Person",
+            "_label": "Harold Joachim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12512",
+            "type": "Person",
+            "_label": "Dore Ashton"
+          }
+        ]
+      }
+    ]
+  }
 }

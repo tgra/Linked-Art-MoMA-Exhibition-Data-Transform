@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/791",
+  "id": "http://linkedart.example.com/exhibition/791",
   "type": "Activity",
   "_label": "Ernst Haas: Color Photography",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Ernst Haas: Color Photography",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Ernst Haas: Color Photography",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1962-21-8",
     "end_of_the_end": "1962-28-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3941",
-      "type": "Place",
-      "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6857",
+    "type": "Place",
+    "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3941",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5252",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40308",
-              "type": "Person",
-              "_label": "John Szarkowski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/40309",
-              "type": "Person",
-              "_label": "Grace M. Mayer"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5253",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40310",
-              "type": "Person",
-              "_label": "Herbert Migdoll"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5254",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/40311",
-              "type": "Person",
-              "_label": "Ernst Haas"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6857",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6857",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8990",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7682",
+            "type": "Person",
+            "_label": "John Szarkowski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12842",
+            "type": "Person",
+            "_label": "Grace M. Mayer"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8991",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3810",
+            "type": "Person",
+            "_label": "Herbert Migdoll"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8992",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2333",
+            "type": "Person",
+            "_label": "Ernst Haas"
+          }
+        ]
+      }
+    ]
+  }
 }

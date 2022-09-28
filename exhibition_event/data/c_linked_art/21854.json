@@ -1,97 +1,95 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21854",
+  "id": "http://linkedart.example.com/exhibition/21854",
   "type": "Activity",
   "_label": "A.L. Steiner + robbinschilds C.L.U.E. (Color Location Ultimate Experience)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "A.L. Steiner + robbinschilds C.L.U.E. (Color Location Ultimate Experience)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "A.L. Steiner + robbinschilds C.L.U.E. (Color Location Ultimate Experience)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2008-8-10",
     "end_of_the_end": "2009-11-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1205",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2290",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1205",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1794",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9777",
-              "type": "Person",
-              "_label": "AJ Blandford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9778",
-              "type": "Person",
-              "_label": "Kinski"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9779",
-              "type": "Person",
-              "_label": "Sonya Robbins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9780",
-              "type": "Person",
-              "_label": "A.L. Steiner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9781",
-              "type": "Person",
-              "_label": "Layla Childs"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1795",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9782",
-              "type": "Person",
-              "_label": "Amy Mackie"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2290",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2290",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3578",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/68278",
+            "type": "Person",
+            "_label": "AJ Blandford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65484",
+            "type": "Person",
+            "_label": "Kinski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66753",
+            "type": "Person",
+            "_label": "Sonya Robbins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26274",
+            "type": "Person",
+            "_label": "A.L. Steiner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65581",
+            "type": "Person",
+            "_label": "Layla Childs"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3579",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63709",
+            "type": "Person",
+            "_label": "Amy Mackie"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2951",
+  "id": "http://linkedart.example.com/exhibition/2951",
   "type": "Activity",
   "_label": "Low-Flame",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Low-Flame",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Low-Flame",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1999-8-5",
     "end_of_the_end": "1999-6-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1703",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3292",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1703",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2472",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/15052",
-              "type": "Person",
-              "_label": "Howie Statland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15053",
-              "type": "Person",
-              "_label": "Anna Gabriel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15054",
-              "type": "Person",
-              "_label": "Low-Flame"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15055",
-              "type": "Person",
-              "_label": "Adria Petty"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3292",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3292",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4831",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/59246",
+            "type": "Person",
+            "_label": "Howie Statland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59244",
+            "type": "Person",
+            "_label": "Anna Gabriel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58961",
+            "type": "Person",
+            "_label": "Low-Flame"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59245",
+            "type": "Person",
+            "_label": "Adria Petty"
+          }
+        ]
+      }
+    ]
+  }
 }

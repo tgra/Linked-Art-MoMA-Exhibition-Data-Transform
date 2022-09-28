@@ -1,99 +1,97 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17184",
+  "id": "http://linkedart.example.com/exhibition/17184",
   "type": "Activity",
   "_label": "Bruce Nauman Drawings: 1965-1986",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Bruce Nauman Drawings: 1965-1986",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Bruce Nauman Drawings: 1965-1986",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1987-11-9",
     "end_of_the_end": "1987-8-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/409",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1027",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/409",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/823",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6033",
-              "type": "Person",
-              "_label": "Bruce Nauman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/824",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6034",
-              "type": "Person",
-              "_label": "Coosje van Bruggen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6035",
-              "type": "Person",
-              "_label": "Dieter Koepplin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6036",
-              "type": "Person",
-              "_label": "Marcia Tucker"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/825",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6037",
-              "type": "Person",
-              "_label": "Museum fur Gegenwartskunst, Basel"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1027",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1027",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1952",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4075",
+            "type": "Person",
+            "_label": "Bruce Nauman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1953",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18424",
+            "type": "Person",
+            "_label": "Coosje van Bruggen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/46999",
+            "type": "Person",
+            "_label": "Dieter Koepplin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65754",
+            "type": "Person",
+            "_label": "Marcia Tucker"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1954",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/41222",
+            "type": "Person",
+            "_label": "Museum fur Gegenwartskunst, Basel"
+          }
+        ]
+      }
+    ]
+  }
 }

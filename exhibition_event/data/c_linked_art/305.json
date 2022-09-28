@@ -1,149 +1,147 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/305",
+  "id": "http://linkedart.example.com/exhibition/305",
   "type": "Activity",
   "_label": "Modern Cuban Painters",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Modern Cuban Painters",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Modern Cuban Painters",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1944-17-3",
     "end_of_the_end": "1944-7-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1813",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3402",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1813",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2587",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16303",
-              "type": "Person",
-              "_label": "Rafael Moreno"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16304",
-              "type": "Person",
-              "_label": "Felipe Orlando"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16305",
-              "type": "Person",
-              "_label": "Fidelio Ponce de León"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16306",
-              "type": "Person",
-              "_label": "Mariano (Mariano Rodríguez)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16307",
-              "type": "Person",
-              "_label": "Amelia Peláez del Casal"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16308",
-              "type": "Person",
-              "_label": "René Portocarrero"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16309",
-              "type": "Person",
-              "_label": "Pedro Martinez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16310",
-              "type": "Person",
-              "_label": "Felicindo Iglesias Acevedo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16311",
-              "type": "Person",
-              "_label": "Víctor Manuel García"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16312",
-              "type": "Person",
-              "_label": "Carlos Enríquez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16313",
-              "type": "Person",
-              "_label": "Roberto Diago"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16314",
-              "type": "Person",
-              "_label": "Cundo Bermúdez"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16315",
-              "type": "Person",
-              "_label": "Mario Carreño"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2588",
-          "type": "Set",
-          "_label": "Supervisor",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16316",
-              "type": "Person",
-              "_label": "José Gómez-Sicre"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2589",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16317",
-              "type": "Person",
-              "_label": "Margaret Miller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3402",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3402",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4946",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3928",
+            "type": "Person",
+            "_label": "Rafael Moreno"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4249",
+            "type": "Person",
+            "_label": "Felipe Orlando"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4493",
+            "type": "Person",
+            "_label": "Fidelio Ponce de León"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3615",
+            "type": "Person",
+            "_label": "Mariano (Mariano Rodríguez)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4358",
+            "type": "Person",
+            "_label": "Amelia Peláez del Casal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8087",
+            "type": "Person",
+            "_label": "René Portocarrero"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27333",
+            "type": "Person",
+            "_label": "Pedro Martinez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27331",
+            "type": "Person",
+            "_label": "Felicindo Iglesias Acevedo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27332",
+            "type": "Person",
+            "_label": "Víctor Manuel García"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1660",
+            "type": "Person",
+            "_label": "Carlos Enríquez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1452",
+            "type": "Person",
+            "_label": "Roberto Diago"
+          },
+          {
+            "id": "http://linkedart.example.com/person/482",
+            "type": "Person",
+            "_label": "Cundo Bermúdez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/950",
+            "type": "Person",
+            "_label": "Mario Carreño"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4947",
+        "type": "Set",
+        "_label": "Supervisor",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32177",
+            "type": "Person",
+            "_label": "José Gómez-Sicre"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4948",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31494",
+            "type": "Person",
+            "_label": "Margaret Miller"
+          }
+        ]
+      }
+    ]
+  }
 }

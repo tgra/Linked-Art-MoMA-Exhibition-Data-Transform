@@ -1,300 +1,298 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/35",
+  "id": "http://linkedart.example.com/exhibition/35",
   "type": "Activity",
   "_label": "Summer Exhibition: Painting and Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Summer Exhibition: Painting and Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Summer Exhibition: Painting and Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1933-10-7",
     "end_of_the_end": "1933-30-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2312",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3901",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2312",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3110",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/20668",
-              "type": "Person",
-              "_label": "Pierre Roy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20669",
-              "type": "Person",
-              "_label": "André Masson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20670",
-              "type": "Person",
-              "_label": "Georges Rouault"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20671",
-              "type": "Person",
-              "_label": "Henri Rousseau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20672",
-              "type": "Person",
-              "_label": "Paul Klee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20673",
-              "type": "Person",
-              "_label": "Vasily Kandinsky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20674",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20675",
-              "type": "Person",
-              "_label": "Oskar Schlemmer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20676",
-              "type": "Person",
-              "_label": "Wilhelm Lehmbruck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20677",
-              "type": "Person",
-              "_label": "Georg Kolbe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20678",
-              "type": "Person",
-              "_label": "Jules Pascin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20679",
-              "type": "Person",
-              "_label": "Marie Laurencin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20680",
-              "type": "Person",
-              "_label": "Georges-Pierre Seurat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20681",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20682",
-              "type": "Person",
-              "_label": "Joan Miró"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20683",
-              "type": "Person",
-              "_label": "Piet Mondrian"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20684",
-              "type": "Person",
-              "_label": "László Moholy-Nagy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20685",
-              "type": "Person",
-              "_label": "Aristide Maillol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20686",
-              "type": "Person",
-              "_label": "Amedeo Modigliani"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20687",
-              "type": "Person",
-              "_label": "André Dunoyer de Segonzac"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20688",
-              "type": "Person",
-              "_label": "Roger de La Fresnaye"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20689",
-              "type": "Person",
-              "_label": "Odilon Redon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20690",
-              "type": "Person",
-              "_label": "Pierre-Auguste Renoir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20691",
-              "type": "Person",
-              "_label": "Chaim Soutine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20692",
-              "type": "Person",
-              "_label": "Maurice de Vlaminck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20693",
-              "type": "Person",
-              "_label": "Édouard Vuillard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20694",
-              "type": "Person",
-              "_label": "Maurice Utrillo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20695",
-              "type": "Person",
-              "_label": "Henri de Toulouse-Lautrec"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20696",
-              "type": "Person",
-              "_label": "Kristians Tonny"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20697",
-              "type": "Person",
-              "_label": "Fernand Léger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20698",
-              "type": "Person",
-              "_label": "Pavel Tchelitchew"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20699",
-              "type": "Person",
-              "_label": "Eugene Berman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20700",
-              "type": "Person",
-              "_label": "Charles Despiau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20701",
-              "type": "Person",
-              "_label": "Giorgio de Chirico"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20702",
-              "type": "Person",
-              "_label": "Paul Gauguin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20703",
-              "type": "Person",
-              "_label": "Jean Hugo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20704",
-              "type": "Person",
-              "_label": "Juan Gris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20705",
-              "type": "Person",
-              "_label": "Hilaire-Germain-Edgar Degas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20706",
-              "type": "Person",
-              "_label": "Constantin Brancusi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20707",
-              "type": "Person",
-              "_label": "Rudolph Bauer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20708",
-              "type": "Person",
-              "_label": "Salvador Dalí"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20709",
-              "type": "Person",
-              "_label": "Othon Friesz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20710",
-              "type": "Person",
-              "_label": "André Derain"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20711",
-              "type": "Person",
-              "_label": "Georges Braque"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20712",
-              "type": "Person",
-              "_label": "Raoul Dufy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20713",
-              "type": "Person",
-              "_label": "Max Ernst"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20714",
-              "type": "Person",
-              "_label": "Paul Cézanne"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/20715",
-              "type": "Person",
-              "_label": "Pierre Bonnard"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3901",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3901",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5469",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4866",
+            "type": "Person",
+            "_label": "Pierre Roy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3667",
+            "type": "Person",
+            "_label": "André Masson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4854",
+            "type": "Person",
+            "_label": "Georges Rouault"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4857",
+            "type": "Person",
+            "_label": "Henri Rousseau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3002",
+            "type": "Person",
+            "_label": "Paul Klee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2856",
+            "type": "Person",
+            "_label": "Vasily Kandinsky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5016",
+            "type": "Person",
+            "_label": "Oskar Schlemmer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3319",
+            "type": "Person",
+            "_label": "Wilhelm Lehmbruck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3067",
+            "type": "Person",
+            "_label": "Georg Kolbe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4331",
+            "type": "Person",
+            "_label": "Jules Pascin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3264",
+            "type": "Person",
+            "_label": "Marie Laurencin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5152",
+            "type": "Person",
+            "_label": "Georges-Pierre Seurat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3859",
+            "type": "Person",
+            "_label": "Joan Miró"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3899",
+            "type": "Person",
+            "_label": "Piet Mondrian"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3890",
+            "type": "Person",
+            "_label": "László Moholy-Nagy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3545",
+            "type": "Person",
+            "_label": "Aristide Maillol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3880",
+            "type": "Person",
+            "_label": "Amedeo Modigliani"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5114",
+            "type": "Person",
+            "_label": "André Dunoyer de Segonzac"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3184",
+            "type": "Person",
+            "_label": "Roger de La Fresnaye"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4649",
+            "type": "Person",
+            "_label": "Odilon Redon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4678",
+            "type": "Person",
+            "_label": "Pierre-Auguste Renoir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5326",
+            "type": "Person",
+            "_label": "Chaim Soutine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5902",
+            "type": "Person",
+            "_label": "Maurice de Vlaminck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5917",
+            "type": "Person",
+            "_label": "Édouard Vuillard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5789",
+            "type": "Person",
+            "_label": "Maurice Utrillo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5681",
+            "type": "Person",
+            "_label": "Henri de Toulouse-Lautrec"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5669",
+            "type": "Person",
+            "_label": "Kristians Tonny"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6329",
+            "type": "Person",
+            "_label": "Fernand Léger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5595",
+            "type": "Person",
+            "_label": "Pavel Tchelitchew"
+          },
+          {
+            "id": "http://linkedart.example.com/person/477",
+            "type": "Person",
+            "_label": "Eugene Berman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1440",
+            "type": "Person",
+            "_label": "Charles Despiau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1060",
+            "type": "Person",
+            "_label": "Giorgio de Chirico"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2013",
+            "type": "Person",
+            "_label": "Paul Gauguin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2644",
+            "type": "Person",
+            "_label": "Jean Hugo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2255",
+            "type": "Person",
+            "_label": "Juan Gris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1398",
+            "type": "Person",
+            "_label": "Hilaire-Germain-Edgar Degas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/708",
+            "type": "Person",
+            "_label": "Constantin Brancusi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/364",
+            "type": "Person",
+            "_label": "Rudolph Bauer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1299",
+            "type": "Person",
+            "_label": "Salvador Dalí"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1930",
+            "type": "Person",
+            "_label": "Othon Friesz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1431",
+            "type": "Person",
+            "_label": "André Derain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/714",
+            "type": "Person",
+            "_label": "Georges Braque"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1571",
+            "type": "Person",
+            "_label": "Raoul Dufy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1674",
+            "type": "Person",
+            "_label": "Max Ernst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1012",
+            "type": "Person",
+            "_label": "Paul Cézanne"
+          },
+          {
+            "id": "http://linkedart.example.com/person/637",
+            "type": "Person",
+            "_label": "Pierre Bonnard"
+          }
+        ]
+      }
+    ]
+  }
 }

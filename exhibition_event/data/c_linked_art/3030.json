@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3030",
+  "id": "http://linkedart.example.com/exhibition/3030",
   "type": "Activity",
   "_label": "International Studio Program (Winter 1978–1979)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "International Studio Program (Winter 1978–1979)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "International Studio Program (Winter 1978–1979)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-3-12",
     "end_of_the_end": "1979-21-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1792",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3381",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1792",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2566",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16140",
-              "type": "Person",
-              "_label": "Pieter Holstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16141",
-              "type": "Person",
-              "_label": "Bernd Jansen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16142",
-              "type": "Person",
-              "_label": "Roland Poulin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16143",
-              "type": "Person",
-              "_label": "Hilmar Boehle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16144",
-              "type": "Person",
-              "_label": "Kristin Gerber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16145",
-              "type": "Person",
-              "_label": "Eberhard Blum"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3381",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3381",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4925",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2602",
+            "type": "Person",
+            "_label": "Pieter Holstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25622",
+            "type": "Person",
+            "_label": "Bernd Jansen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57872",
+            "type": "Person",
+            "_label": "Roland Poulin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57877",
+            "type": "Person",
+            "_label": "Hilmar Boehle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57878",
+            "type": "Person",
+            "_label": "Kristin Gerber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58506",
+            "type": "Person",
+            "_label": "Eberhard Blum"
+          }
+        ]
+      }
+    ]
+  }
 }

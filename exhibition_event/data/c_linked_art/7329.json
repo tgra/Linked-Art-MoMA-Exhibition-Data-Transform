@@ -1,101 +1,99 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7329",
+  "id": "http://linkedart.example.com/exhibition/7329",
   "type": "Activity",
   "_label": "Freddie Redd Quintet Jazz Concert",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Freddie Redd Quintet Jazz Concert",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Freddie Redd Quintet Jazz Concert",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1963-24-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3861",
-      "type": "Place",
-      "_label": "106 Forsythe Street, 217 East 2nd Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6777",
+    "type": "Place",
+    "_label": "106 Forsythe Street, 217 East 2nd Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3861",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5093",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38357",
-              "type": "Person",
-              "_label": "Louis Hayes"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38358",
-              "type": "Person",
-              "_label": "Elsa Tambellini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38359",
-              "type": "Person",
-              "_label": "Tina Brooks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38360",
-              "type": "Person",
-              "_label": "Paul Chambers"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38361",
-              "type": "Person",
-              "_label": "Jackie McLean"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/38362",
-              "type": "Person",
-              "_label": "Freddie Redd"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5094",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/38363",
-              "type": "Person",
-              "_label": "Aldo Tambellini"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6777",
+    "type": "Group",
+    "_label": "The Center",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6777",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8831",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63505",
+            "type": "Person",
+            "_label": "Louis Hayes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63475",
+            "type": "Person",
+            "_label": "Elsa Tambellini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63503",
+            "type": "Person",
+            "_label": "Tina Brooks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63504",
+            "type": "Person",
+            "_label": "Paul Chambers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63502",
+            "type": "Person",
+            "_label": "Jackie McLean"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63501",
+            "type": "Person",
+            "_label": "Freddie Redd"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8832",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63474",
+            "type": "Person",
+            "_label": "Aldo Tambellini"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2703",
+  "id": "http://linkedart.example.com/exhibition/2703",
   "type": "Activity",
   "_label": "Recent Work: Power Boothe, Peter Downsborough, Nancy Holt, Clark Murray, Jim Reineking",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Recent Work: Power Boothe, Peter Downsborough, Nancy Holt, Clark Murray, Jim Reineking",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Recent Work: Power Boothe, Peter Downsborough, Nancy Holt, Clark Murray, Jim Reineking",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1972-15-7",
     "end_of_the_end": "1972-5-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1422",
-      "type": "Place",
-      "_label": "10 Bleecker Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3000",
+    "type": "Place",
+    "_label": "10 Bleecker Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1422",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2166",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11963",
-              "type": "Person",
-              "_label": "Power Boothe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11964",
-              "type": "Person",
-              "_label": "Nancy Holt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11965",
-              "type": "Person",
-              "_label": "Peter Downsbrough"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11966",
-              "type": "Person",
-              "_label": "Clark Murray"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11967",
-              "type": "Person",
-              "_label": "Jim Reineking"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3000",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3000",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4513",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7489",
+            "type": "Person",
+            "_label": "Power Boothe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12625",
+            "type": "Person",
+            "_label": "Nancy Holt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21890",
+            "type": "Person",
+            "_label": "Peter Downsbrough"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57197",
+            "type": "Person",
+            "_label": "Clark Murray"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57236",
+            "type": "Person",
+            "_label": "Jim Reineking"
+          }
+        ]
+      }
+    ]
+  }
 }

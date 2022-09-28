@@ -1,97 +1,95 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/373",
+  "id": "http://linkedart.example.com/exhibition/373",
   "type": "Activity",
   "_label": "A Home for U.N.O.: Must We Repeat the Geneva Fiasco?",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "A Home for U.N.O.: Must We Repeat the Geneva Fiasco?",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "A Home for U.N.O.: Must We Repeat the Geneva Fiasco?",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1946-5-2",
     "end_of_the_end": "1946-3-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2568",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4157",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2568",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3379",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22507",
-              "type": "Person",
-              "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22508",
-              "type": "Person",
-              "_label": "Ernest Born"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22509",
-              "type": "Person",
-              "_label": "Theodore Bernardi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22510",
-              "type": "Person",
-              "_label": "William Wilson Wurster"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22511",
-              "type": "Person",
-              "_label": "Pierre Jeanneret"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/3380",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22512",
-              "type": "Person",
-              "_label": "Rudolf Mock"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4157",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4157",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5738",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3281",
+            "type": "Person",
+            "_label": "Le Corbusier (Charles-Édouard Jeanneret)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31198",
+            "type": "Person",
+            "_label": "Ernest Born"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31197",
+            "type": "Person",
+            "_label": "Theodore Bernardi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27850",
+            "type": "Person",
+            "_label": "William Wilson Wurster"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2777",
+            "type": "Person",
+            "_label": "Pierre Jeanneret"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5739",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/28380",
+            "type": "Person",
+            "_label": "Rudolf Mock"
+          }
+        ]
+      }
+    ]
+  }
 }

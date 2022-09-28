@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3206",
+  "id": "http://linkedart.example.com/exhibition/3206",
   "type": "Activity",
   "_label": "Flash Theater",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Flash Theater",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Flash Theater",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1979-6-5",
     "end_of_the_end": "1979-27-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1987",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3576",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1987",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2771",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18224",
-              "type": "Person",
-              "_label": "Dick Higgins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18225",
-              "type": "Person",
-              "_label": "Geoffrey Hendricks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18226",
-              "type": "Person",
-              "_label": "Christiana Dittmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18227",
-              "type": "Person",
-              "_label": "Robert Polidori"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18228",
-              "type": "Person",
-              "_label": "Jeff Foxx"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18229",
-              "type": "Person",
-              "_label": "Emilio Rodrigues"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18230",
-              "type": "Person",
-              "_label": "Alison Knowles"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18231",
-              "type": "Person",
-              "_label": "Francene Keery"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18232",
-              "type": "Person",
-              "_label": "Shigeo Anzai"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3576",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3576",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5130",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2530",
+            "type": "Person",
+            "_label": "Dick Higgins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2487",
+            "type": "Person",
+            "_label": "Geoffrey Hendricks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59069",
+            "type": "Person",
+            "_label": "Christiana Dittmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16649",
+            "type": "Person",
+            "_label": "Robert Polidori"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59068",
+            "type": "Person",
+            "_label": "Jeff Foxx"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59067",
+            "type": "Person",
+            "_label": "Emilio Rodrigues"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22032",
+            "type": "Person",
+            "_label": "Alison Knowles"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59065",
+            "type": "Person",
+            "_label": "Francene Keery"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59066",
+            "type": "Person",
+            "_label": "Shigeo Anzai"
+          }
+        ]
+      }
+    ]
+  }
 }

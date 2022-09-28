@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3060",
+  "id": "http://linkedart.example.com/exhibition/3060",
   "type": "Activity",
   "_label": "Special Projects (Spring 1981)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Spring 1981)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Spring 1981)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-26-4",
     "end_of_the_end": "1981-14-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1825",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3414",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1825",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2602",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16350",
-              "type": "Person",
-              "_label": "Stephen Antonakos"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16351",
-              "type": "Person",
-              "_label": "Douglas Huebler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16352",
-              "type": "Person",
-              "_label": "Anna Ratti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16353",
-              "type": "Person",
-              "_label": "Maria Novella del Signore"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16354",
-              "type": "Person",
-              "_label": "George Legrady"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16355",
-              "type": "Person",
-              "_label": "Tony King"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16356",
-              "type": "Person",
-              "_label": "Bill Hoppe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16357",
-              "type": "Person",
-              "_label": "Stephanie Bernheim"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3414",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3414",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4961",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/182",
+            "type": "Person",
+            "_label": "Stephen Antonakos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2638",
+            "type": "Person",
+            "_label": "Douglas Huebler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57233",
+            "type": "Person",
+            "_label": "Anna Ratti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60378",
+            "type": "Person",
+            "_label": "Maria Novella del Signore"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57347",
+            "type": "Person",
+            "_label": "George Legrady"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60377",
+            "type": "Person",
+            "_label": "Tony King"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57131",
+            "type": "Person",
+            "_label": "Bill Hoppe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60376",
+            "type": "Person",
+            "_label": "Stephanie Bernheim"
+          }
+        ]
+      }
+    ]
+  }
 }

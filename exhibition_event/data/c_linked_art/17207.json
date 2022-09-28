@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17207",
+  "id": "http://linkedart.example.com/exhibition/17207",
   "type": "Activity",
   "_label": "Wallace and Donahue",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Wallace and Donahue",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Wallace and Donahue",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-1-2",
     "end_of_the_end": "1986-30-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/433",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1053",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/433",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/869",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6213",
-              "type": "Person",
-              "_label": "Brian Wallis"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/870",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6214",
-              "type": "Person",
-              "_label": "Joan Wallace"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6215",
-              "type": "Person",
-              "_label": "Geralyn Donohue"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6216",
-              "type": "Person",
-              "_label": "Wallace & Donohue"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1053",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1053",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2002",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64018",
+            "type": "Person",
+            "_label": "Brian Wallis"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2003",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57951",
+            "type": "Person",
+            "_label": "Joan Wallace"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64735",
+            "type": "Person",
+            "_label": "Geralyn Donohue"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61574",
+            "type": "Person",
+            "_label": "Wallace & Donohue"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,172 +1,170 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/384",
+  "id": "http://linkedart.example.com/exhibition/384",
   "type": "Activity",
   "_label": "Designed for Children",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Designed for Children",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Designed for Children",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1946-11-6",
     "end_of_the_end": "1946-6-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2689",
-      "type": "Place",
-      "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4278",
+    "type": "Place",
+    "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2689",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3506",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23290",
-              "type": "Person",
-              "_label": "Paul Klee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23291",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23292",
-              "type": "Person",
-              "_label": "Joseph Pickett"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23293",
-              "type": "Person",
-              "_label": "José Clemente Orozco"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23294",
-              "type": "Person",
-              "_label": "Elizabeth Olds"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23295",
-              "type": "Person",
-              "_label": "Henri Rousseau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23296",
-              "type": "Person",
-              "_label": "Pierre-Auguste Renoir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23297",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23298",
-              "type": "Person",
-              "_label": "Georges-Pierre Seurat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23299",
-              "type": "Person",
-              "_label": "Frank Davidson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23300",
-              "type": "Person",
-              "_label": "Edward Hicks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23301",
-              "type": "Person",
-              "_label": "F. Wynn Graham"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23302",
-              "type": "Person",
-              "_label": "Peter Blume"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23303",
-              "type": "Person",
-              "_label": "Jean (Hans) Arp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23304",
-              "type": "Person",
-              "_label": "Riva Helfond"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23305",
-              "type": "Person",
-              "_label": "Marc Chagall"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23306",
-              "type": "Person",
-              "_label": "Mervin Jules"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23307",
-              "type": "Person",
-              "_label": "Paul Cézanne"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23308",
-              "type": "Person",
-              "_label": "Camille Bombois"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/23309",
-              "type": "Person",
-              "_label": "Vincent van Gogh"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/3507",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/23310",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4278",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4278",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5865",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3002",
+            "type": "Person",
+            "_label": "Paul Klee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4429",
+            "type": "Person",
+            "_label": "Joseph Pickett"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4253",
+            "type": "Person",
+            "_label": "José Clemente Orozco"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4225",
+            "type": "Person",
+            "_label": "Elizabeth Olds"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4857",
+            "type": "Person",
+            "_label": "Henri Rousseau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4678",
+            "type": "Person",
+            "_label": "Pierre-Auguste Renoir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5152",
+            "type": "Person",
+            "_label": "Georges-Pierre Seurat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26779",
+            "type": "Person",
+            "_label": "Frank Davidson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7866",
+            "type": "Person",
+            "_label": "Edward Hicks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31004",
+            "type": "Person",
+            "_label": "F. Wynn Graham"
+          },
+          {
+            "id": "http://linkedart.example.com/person/591",
+            "type": "Person",
+            "_label": "Peter Blume"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11",
+            "type": "Person",
+            "_label": "Jean (Hans) Arp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2481",
+            "type": "Person",
+            "_label": "Riva Helfond"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1014",
+            "type": "Person",
+            "_label": "Marc Chagall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2826",
+            "type": "Person",
+            "_label": "Mervin Jules"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1012",
+            "type": "Person",
+            "_label": "Paul Cézanne"
+          },
+          {
+            "id": "http://linkedart.example.com/person/624",
+            "type": "Person",
+            "_label": "Camille Bombois"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2117",
+            "type": "Person",
+            "_label": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5866",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      }
+    ]
+  }
 }

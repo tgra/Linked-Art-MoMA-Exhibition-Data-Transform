@@ -1,114 +1,112 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/275",
+  "id": "http://linkedart.example.com/exhibition/275",
   "type": "Activity",
   "_label": "Religious Folk Art of the Southwest",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Religious Folk Art of the Southwest",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Religious Folk Art of the Southwest",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1943-28-4",
     "end_of_the_end": "1943-13-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1473",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3051",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1473",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2221",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12535",
-              "type": "Person",
-              "_label": "Ernest Knee"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12536",
-              "type": "Person",
-              "_label": "José Dolores López"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12537",
-              "type": "Person",
-              "_label": "Patrocino Barela"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12538",
-              "type": "Person",
-              "_label": "Edward Weston"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12539",
-              "type": "Person",
-              "_label": "José Aragon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/12540",
-              "type": "Person",
-              "_label": "Ansel Adams"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2222",
-          "type": "Set",
-          "_label": "Assembler",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12541",
-              "type": "Person",
-              "_label": "Mitchell A. Wilder"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2223",
-          "type": "Set",
-          "_label": "Installer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/12542",
-              "type": "Person",
-              "_label": "Dorothy C. Miller"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3051",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3051",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4568",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3031",
+            "type": "Person",
+            "_label": "Ernest Knee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3448",
+            "type": "Person",
+            "_label": "José Dolores López"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7559",
+            "type": "Person",
+            "_label": "Patrocino Barela"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6043",
+            "type": "Person",
+            "_label": "Edward Weston"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29108",
+            "type": "Person",
+            "_label": "José Aragon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59",
+            "type": "Person",
+            "_label": "Ansel Adams"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4569",
+        "type": "Set",
+        "_label": "Assembler",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32186",
+            "type": "Person",
+            "_label": "Mitchell A. Wilder"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4570",
+        "type": "Set",
+        "_label": "Installer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27083",
+            "type": "Person",
+            "_label": "Dorothy C. Miller"
+          }
+        ]
+      }
+    ]
+  }
 }

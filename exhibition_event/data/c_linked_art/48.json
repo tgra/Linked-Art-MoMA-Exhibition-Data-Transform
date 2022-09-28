@@ -1,147 +1,145 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/48",
+  "id": "http://linkedart.example.com/exhibition/48",
   "type": "Activity",
   "_label": "Early Museum Architecture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Early Museum Architecture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Early Museum Architecture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1934-5-4",
     "end_of_the_end": "1934-5-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3366",
-      "type": "Place",
-      "_label": "4th Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5109",
+    "type": "Place",
+    "_label": "4th Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3366",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4256",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/28963",
-              "type": "Person",
-              "_label": "John Trumbull"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28964",
-              "type": "Person",
-              "_label": "Sir Robert Smirke"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28965",
-              "type": "Person",
-              "_label": "Ithiel Town"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28966",
-              "type": "Person",
-              "_label": "August von Voit"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28967",
-              "type": "Person",
-              "_label": "Michel Gottlieb Bindesboll"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28968",
-              "type": "Person",
-              "_label": "Michelangelo Simonetti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28969",
-              "type": "Person",
-              "_label": "Sir Charles Barry"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28970",
-              "type": "Person",
-              "_label": "Karl Friedrich Schinkel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28971",
-              "type": "Person",
-              "_label": "Raffaelle Stern"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28972",
-              "type": "Person",
-              "_label": "Alexandre Lenoir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28973",
-              "type": "Person",
-              "_label": "Jacques-Felix Duban"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28974",
-              "type": "Person",
-              "_label": "Leo von Klenze"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28975",
-              "type": "Person",
-              "_label": "Sir John Soane"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28976",
-              "type": "Person",
-              "_label": "Hubert Robert"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/28977",
-              "type": "Person",
-              "_label": "William Wilkins"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4257",
-          "type": "Set",
-          "_label": "Assembler",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/28978",
-              "type": "Person",
-              "_label": "Henry Russell Hitchcock"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5109",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5109",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6786",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27321",
+            "type": "Person",
+            "_label": "John Trumbull"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27836",
+            "type": "Person",
+            "_label": "Sir Robert Smirke"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27845",
+            "type": "Person",
+            "_label": "Ithiel Town"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27843",
+            "type": "Person",
+            "_label": "August von Voit"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27841",
+            "type": "Person",
+            "_label": "Michel Gottlieb Bindesboll"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27827",
+            "type": "Person",
+            "_label": "Michelangelo Simonetti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27835",
+            "type": "Person",
+            "_label": "Sir Charles Barry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27833",
+            "type": "Person",
+            "_label": "Karl Friedrich Schinkel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27831",
+            "type": "Person",
+            "_label": "Raffaelle Stern"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35675",
+            "type": "Person",
+            "_label": "Alexandre Lenoir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27839",
+            "type": "Person",
+            "_label": "Jacques-Felix Duban"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27830",
+            "type": "Person",
+            "_label": "Leo von Klenze"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27829",
+            "type": "Person",
+            "_label": "Sir John Soane"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27828",
+            "type": "Person",
+            "_label": "Hubert Robert"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27838",
+            "type": "Person",
+            "_label": "William Wilkins"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6787",
+        "type": "Set",
+        "_label": "Assembler",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27010",
+            "type": "Person",
+            "_label": "Henry Russell Hitchcock"
+          }
+        ]
+      }
+    ]
+  }
 }

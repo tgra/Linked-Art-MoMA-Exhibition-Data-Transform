@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3246",
+  "id": "http://linkedart.example.com/exhibition/3246",
   "type": "Activity",
   "_label": "Taster's Choice",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Taster's Choice",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Taster's Choice",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2014-23-3",
     "end_of_the_end": "2014-25-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2031",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3620",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2031",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2817",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/18722",
-              "type": "Person",
-              "_label": "Chris Wiley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18723",
-              "type": "Person",
-              "_label": "Zak Kitnick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18724",
-              "type": "Person",
-              "_label": "Nancy Lupo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/18725",
-              "type": "Person",
-              "_label": "BFFA3AE"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3620",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3620",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5176",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26696",
+            "type": "Person",
+            "_label": "Chris Wiley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26698",
+            "type": "Person",
+            "_label": "Zak Kitnick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26694",
+            "type": "Person",
+            "_label": "Nancy Lupo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26699",
+            "type": "Person",
+            "_label": "BFFA3AE"
+          }
+        ]
+      }
+    ]
+  }
 }

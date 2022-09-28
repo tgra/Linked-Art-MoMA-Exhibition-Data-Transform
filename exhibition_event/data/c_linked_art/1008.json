@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/1008",
+  "id": "http://linkedart.example.com/exhibition/1008",
   "type": "Activity",
   "_label": "Urban Anticipations: Eugene Henard (1849–1923)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Urban Anticipations: Eugene Henard (1849–1923)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Urban Anticipations: Eugene Henard (1849–1923)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1969-30-7",
     "end_of_the_end": "1969-19-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/11",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/11",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/11",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/19",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/338",
-              "type": "Person",
-              "_label": "Antonio Sant'Elia"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/339",
-              "type": "Person",
-              "_label": "Eugène Hénard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/340",
-              "type": "Person",
-              "_label": "Henri Jules Borie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/341",
-              "type": "Person",
-              "_label": "William Moseley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/342",
-              "type": "Person",
-              "_label": "Randolph Speer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/343",
-              "type": "Person",
-              "_label": "Theodor Fritsch"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/20",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/344",
-              "type": "Person",
-              "_label": "Emilio Ambasz"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/11",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/11",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/19",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4954",
+            "type": "Person",
+            "_label": "Antonio Sant'Elia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32098",
+            "type": "Person",
+            "_label": "Eugène Hénard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32100",
+            "type": "Person",
+            "_label": "Henri Jules Borie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32101",
+            "type": "Person",
+            "_label": "William Moseley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32102",
+            "type": "Person",
+            "_label": "Randolph Speer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32099",
+            "type": "Person",
+            "_label": "Theodor Fritsch"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/20",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26886",
+            "type": "Person",
+            "_label": "Emilio Ambasz"
+          }
+        ]
+      }
+    ]
+  }
 }

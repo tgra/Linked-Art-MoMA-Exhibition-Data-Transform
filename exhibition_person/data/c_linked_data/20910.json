@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20910",
+  "type": "Person",
+  "_label": "Metastadt-Planungsgesellschaft",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5798",
+      "type": "Name",
+      "_label": "Metastadt-Planungsgesellschaft"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/5799",
+      "type": "Name",
+      "_label": "Metastadt-Planungsgesellschaft"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2524",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "founded 1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2899",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5798",
+      "type": "TimeSpan",
+      "_label": "Metastadt-Planungsgesellschaft Birth timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2899",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5799",
+      "type": "TimeSpan",
+      "_label": "Metastadt-Planungsgesellschaft Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2899",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2899",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2399",
+              "type": "Event",
+              "_label": "Home Delivery: Fabricating the Modern Dwelling",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-20-7 - 2008-20-10",
+                "begin_of_the_begin": "2008-20-7",
+                "end_of_the_end": "2008-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13048",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

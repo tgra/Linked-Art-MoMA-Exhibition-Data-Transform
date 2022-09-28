@@ -1,130 +1,128 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4191",
+  "id": "http://linkedart.example.com/exhibition/4191",
   "type": "Activity",
   "_label": "Between Object and Environment: Sculpture in an Extended Format",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Between Object and Environment: Sculpture in an Extended Format",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Between Object and Environment: Sculpture in an Extended Format",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1969-2-4",
     "end_of_the_end": "1969-3-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3060",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4649",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3060",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3906",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25791",
-              "type": "Person",
-              "_label": "Les Levine"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25792",
-              "type": "Person",
-              "_label": "Thomas Bang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25793",
-              "type": "Person",
-              "_label": "Anthony Caro"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25794",
-              "type": "Person",
-              "_label": "Tom Doyle"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25795",
-              "type": "Person",
-              "_label": "Bob Duran"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25796",
-              "type": "Person",
-              "_label": "Rafael Ferrer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25797",
-              "type": "Person",
-              "_label": "Will Insley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25798",
-              "type": "Person",
-              "_label": "John McCracken"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25799",
-              "type": "Person",
-              "_label": "Fred Sandback"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25800",
-              "type": "Person",
-              "_label": "Robert Smithson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25801",
-              "type": "Person",
-              "_label": "Kenneth Snelson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25802",
-              "type": "Person",
-              "_label": "Bill Bollinger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25803",
-              "type": "Person",
-              "_label": "Sol LeWitt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25804",
-              "type": "Person",
-              "_label": "John Stevenson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4649",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4649",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6265",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3368",
+            "type": "Person",
+            "_label": "Les Levine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56637",
+            "type": "Person",
+            "_label": "Thomas Bang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/944",
+            "type": "Person",
+            "_label": "Anthony Caro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57370",
+            "type": "Person",
+            "_label": "Tom Doyle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1578",
+            "type": "Person",
+            "_label": "Bob Duran"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1780",
+            "type": "Person",
+            "_label": "Rafael Ferrer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2700",
+            "type": "Person",
+            "_label": "Will Insley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3722",
+            "type": "Person",
+            "_label": "John McCracken"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4941",
+            "type": "Person",
+            "_label": "Fred Sandback"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5283",
+            "type": "Person",
+            "_label": "Robert Smithson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5284",
+            "type": "Person",
+            "_label": "Kenneth Snelson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25773",
+            "type": "Person",
+            "_label": "Bill Bollinger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3381",
+            "type": "Person",
+            "_label": "Sol LeWitt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60550",
+            "type": "Person",
+            "_label": "John Stevenson"
+          }
+        ]
+      }
+    ]
+  }
 }

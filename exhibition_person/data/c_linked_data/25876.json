@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25876",
+  "type": "Person",
+  "_label": "Brian Kennon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10144",
+      "type": "Name",
+      "_label": "Brian Kennon"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/10145",
+      "type": "Name",
+      "_label": "Kennon Brian"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4270",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1972"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5072",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10144",
+      "type": "TimeSpan",
+      "_label": "Brian Kennon Birth timespan",
+      "begin_of_the_begin": "1972",
+      "end_of_the_end": "1972"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5072",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10145",
+      "type": "TimeSpan",
+      "_label": "Brian Kennon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5072",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5072",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4720",
+              "type": "Event",
+              "_label": "Keep Floors and Passages Clear",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-5-2 - 2011-5-3",
+                "begin_of_the_begin": "2011-5-2",
+                "end_of_the_end": "2011-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20472",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

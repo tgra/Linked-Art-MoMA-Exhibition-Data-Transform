@@ -1,0 +1,107 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/240",
+  "type": "Person",
+  "_label": "Pierre Ayot",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8812",
+      "type": "Name",
+      "_label": "Pierre Ayot"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/8813",
+      "type": "Name",
+      "_label": "Ayot Pierre"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500110181",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3383823",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3383823",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3720",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Canadian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4406",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8812",
+      "type": "TimeSpan",
+      "_label": "Pierre Ayot Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4406",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8813",
+      "type": "TimeSpan",
+      "_label": "Pierre Ayot Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4406",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4406",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/919",
+              "type": "Event",
+              "_label": "Canada '67",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-2-5 - 1967-4-6",
+                "begin_of_the_begin": "1967-2-5",
+                "end_of_the_end": "1967-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18313",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

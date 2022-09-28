@@ -1,147 +1,145 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/640",
+  "id": "http://linkedart.example.com/exhibition/640",
   "type": "Activity",
   "_label": "Fifteen Paintings by French Masters of the 19th Century from the Louvre and the Museums of Albi and Lyon",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Fifteen Paintings by French Masters of the 19th Century from the Louvre and the Museums of Albi and Lyon",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Fifteen Paintings by French Masters of the 19th Century from the Louvre and the Museums of Albi and Lyon",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1955-25-2",
     "end_of_the_end": "1955-24-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3609",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5866",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3609",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4674",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35253",
-              "type": "Person",
-              "_label": "Claude Monet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35254",
-              "type": "Person",
-              "_label": "Henri Rousseau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35255",
-              "type": "Person",
-              "_label": "Georges-Pierre Seurat"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35256",
-              "type": "Person",
-              "_label": "Édouard Manet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35257",
-              "type": "Person",
-              "_label": "Pierre-Auguste Renoir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35258",
-              "type": "Person",
-              "_label": "Henri de Toulouse-Lautrec"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35259",
-              "type": "Person",
-              "_label": "Frédéric Bazille"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35260",
-              "type": "Person",
-              "_label": "Théodore Géricault"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35261",
-              "type": "Person",
-              "_label": "Gustave Courbet"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35262",
-              "type": "Person",
-              "_label": "Paul Cézanne"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35263",
-              "type": "Person",
-              "_label": "Paul Gauguin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35264",
-              "type": "Person",
-              "_label": "Jean-Baptiste-Camille Corot"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35265",
-              "type": "Person",
-              "_label": "Honoré Daumier"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35266",
-              "type": "Person",
-              "_label": "Hilaire-Germain-Edgar Degas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35267",
-              "type": "Person",
-              "_label": "Eugène Delacroix"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4675",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35268",
-              "type": "Person",
-              "_label": "René d'Harnoncourt"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5866",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5866",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7732",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3900",
+            "type": "Person",
+            "_label": "Claude Monet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4857",
+            "type": "Person",
+            "_label": "Henri Rousseau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5152",
+            "type": "Person",
+            "_label": "Georges-Pierre Seurat"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3569",
+            "type": "Person",
+            "_label": "Édouard Manet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4678",
+            "type": "Person",
+            "_label": "Pierre-Auguste Renoir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5681",
+            "type": "Person",
+            "_label": "Henri de Toulouse-Lautrec"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31489",
+            "type": "Person",
+            "_label": "Frédéric Bazille"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28617",
+            "type": "Person",
+            "_label": "Théodore Géricault"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31490",
+            "type": "Person",
+            "_label": "Gustave Courbet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1012",
+            "type": "Person",
+            "_label": "Paul Cézanne"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2013",
+            "type": "Person",
+            "_label": "Paul Gauguin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1194",
+            "type": "Person",
+            "_label": "Jean-Baptiste-Camille Corot"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1330",
+            "type": "Person",
+            "_label": "Honoré Daumier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1398",
+            "type": "Person",
+            "_label": "Hilaire-Germain-Edgar Degas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1407",
+            "type": "Person",
+            "_label": "Eugène Delacroix"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7733",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/9327",
+            "type": "Person",
+            "_label": "René d'Harnoncourt"
+          }
+        ]
+      }
+    ]
+  }
 }

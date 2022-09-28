@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31415",
+  "type": "Person",
+  "_label": "Gerhard von Graevenitz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/20408",
+      "type": "Name",
+      "_label": "Gerhard von Graevenitz"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/20409",
+      "type": "Name",
+      "_label": "Graevenitz Gerhard von"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500022328",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q641688",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q641688",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5256",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1934–1983"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10204",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20408",
+      "type": "TimeSpan",
+      "_label": "Gerhard von Graevenitz Birth timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10204",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20409",
+      "type": "TimeSpan",
+      "_label": "Gerhard von Graevenitz Death timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10204",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10204",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/843",
+              "type": "Event",
+              "_label": "The Responsive Eye",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-25-2 - 1965-25-4",
+                "begin_of_the_begin": "1965-25-2",
+                "end_of_the_end": "1965-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/34533",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

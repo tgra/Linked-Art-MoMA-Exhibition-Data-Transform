@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7589",
+  "type": "Person",
+  "_label": "Aleksandr Ustinov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/51214",
+      "type": "Name",
+      "_label": "Aleksandr Ustinov"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/51215",
+      "type": "Name",
+      "_label": "Ustinov Aleksandr"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q4478236",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q4478236",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/8852",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, born 1909"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/25607",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51214",
+      "type": "TimeSpan",
+      "_label": "Aleksandr Ustinov Birth timespan",
+      "begin_of_the_begin": "1909",
+      "end_of_the_end": "1909"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/25607",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/51215",
+      "type": "TimeSpan",
+      "_label": "Aleksandr Ustinov Death timespan",
+      "begin_of_the_begin": "1995",
+      "end_of_the_end": "1995"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/25607",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/25607",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2174",
+              "type": "Event",
+              "_label": "War",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-16-3 - 2000-22-8",
+                "begin_of_the_begin": "2000-16-3",
+                "end_of_the_end": "2000-22-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/83174",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

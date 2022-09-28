@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3670",
+  "id": "http://linkedart.example.com/exhibition/3670",
   "type": "Activity",
   "_label": "International Studio Program (Fall 1981)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "International Studio Program (Fall 1981)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "International Studio Program (Fall 1981)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-18-10",
     "end_of_the_end": "1981-13-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2502",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4091",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2502",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3308",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22086",
-              "type": "Person",
-              "_label": "Gunter Thorn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22087",
-              "type": "Person",
-              "_label": "Dale Frank"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22088",
-              "type": "Person",
-              "_label": "Lenke Rothman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22089",
-              "type": "Person",
-              "_label": "Toby MacLennan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22090",
-              "type": "Person",
-              "_label": "Carl Emanuel Wolff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22091",
-              "type": "Person",
-              "_label": "Laslo Lakner"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4091",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4091",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5667",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/58745",
+            "type": "Person",
+            "_label": "Gunter Thorn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57296",
+            "type": "Person",
+            "_label": "Dale Frank"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58751",
+            "type": "Person",
+            "_label": "Lenke Rothman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57176",
+            "type": "Person",
+            "_label": "Toby MacLennan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58746",
+            "type": "Person",
+            "_label": "Carl Emanuel Wolff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58744",
+            "type": "Person",
+            "_label": "Laslo Lakner"
+          }
+        ]
+      }
+    ]
+  }
 }

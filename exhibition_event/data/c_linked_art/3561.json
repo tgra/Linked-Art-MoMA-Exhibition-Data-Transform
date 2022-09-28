@@ -1,155 +1,153 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3561",
+  "id": "http://linkedart.example.com/exhibition/3561",
   "type": "Activity",
   "_label": "Defamation of Character",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Defamation of Character",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Defamation of Character",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2006-29-10",
     "end_of_the_end": "2007-15-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2381",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3970",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2381",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3183",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21448",
-              "type": "Person",
-              "_label": "Karen Kilimnik"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21449",
-              "type": "Person",
-              "_label": "Adam McEwen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21450",
-              "type": "Person",
-              "_label": "Richard Prince"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21451",
-              "type": "Person",
-              "_label": "Sarah Lucas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21452",
-              "type": "Person",
-              "_label": "Sue Williams"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21453",
-              "type": "Person",
-              "_label": "Richard Hamilton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21454",
-              "type": "Person",
-              "_label": "Jake Chapman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21455",
-              "type": "Person",
-              "_label": "Christopher Wool"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21456",
-              "type": "Person",
-              "_label": "Andy Warhol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21457",
-              "type": "Person",
-              "_label": "Dan Colen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21458",
-              "type": "Person",
-              "_label": "Gordon Matta-Clark"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21459",
-              "type": "Person",
-              "_label": "Glenn Ligon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21460",
-              "type": "Person",
-              "_label": "Dinos Chapman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21461",
-              "type": "Person",
-              "_label": "Hélio Oiticica"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21462",
-              "type": "Person",
-              "_label": "Chris Burden"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21463",
-              "type": "Person",
-              "_label": "Nate Lowman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21464",
-              "type": "Person",
-              "_label": "Matthew Barney"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21465",
-              "type": "Person",
-              "_label": "Kathe Burkhart"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21466",
-              "type": "Person",
-              "_label": "Gianni Motti"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3970",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3970",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5542",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7637",
+            "type": "Person",
+            "_label": "Karen Kilimnik"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34506",
+            "type": "Person",
+            "_label": "Adam McEwen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4552",
+            "type": "Person",
+            "_label": "Richard Prince"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7431",
+            "type": "Person",
+            "_label": "Sarah Lucas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7128",
+            "type": "Person",
+            "_label": "Sue Williams"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2382",
+            "type": "Person",
+            "_label": "Richard Hamilton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7852",
+            "type": "Person",
+            "_label": "Jake Chapman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6156",
+            "type": "Person",
+            "_label": "Christopher Wool"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5966",
+            "type": "Person",
+            "_label": "Andy Warhol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33428",
+            "type": "Person",
+            "_label": "Dan Colen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6341",
+            "type": "Person",
+            "_label": "Gordon Matta-Clark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6595",
+            "type": "Person",
+            "_label": "Glenn Ligon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7853",
+            "type": "Person",
+            "_label": "Dinos Chapman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7340",
+            "type": "Person",
+            "_label": "Hélio Oiticica"
+          },
+          {
+            "id": "http://linkedart.example.com/person/838",
+            "type": "Person",
+            "_label": "Chris Burden"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17740",
+            "type": "Person",
+            "_label": "Nate Lowman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6696",
+            "type": "Person",
+            "_label": "Matthew Barney"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57041",
+            "type": "Person",
+            "_label": "Kathe Burkhart"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58924",
+            "type": "Person",
+            "_label": "Gianni Motti"
+          }
+        ]
+      }
+    ]
+  }
 }

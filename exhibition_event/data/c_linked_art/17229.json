@@ -1,94 +1,92 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17229",
+  "id": "http://linkedart.example.com/exhibition/17229",
   "type": "Activity",
   "_label": "Martin Puryear",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Martin Puryear",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Martin Puryear",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1984-28-7",
     "end_of_the_end": "1984-9-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/455",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1077",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/455",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/907",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6324",
-              "type": "Person",
-              "_label": "Hugh M. Davies"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6325",
-              "type": "Person",
-              "_label": "Helaine Posner"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/908",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6326",
-              "type": "Person",
-              "_label": "University Gallery, University of Massachusetts, Amherst, MA"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/909",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6327",
-              "type": "Person",
-              "_label": "Martin Puryear"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1077",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1077",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2044",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64915",
+            "type": "Person",
+            "_label": "Hugh M. Davies"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64866",
+            "type": "Person",
+            "_label": "Helaine Posner"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2045",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67055",
+            "type": "Person",
+            "_label": "University Gallery, University of Massachusetts, Amherst, MA"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2046",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4569",
+            "type": "Person",
+            "_label": "Martin Puryear"
+          }
+        ]
+      }
+    ]
+  }
 }

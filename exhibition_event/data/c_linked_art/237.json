@@ -1,127 +1,125 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/237",
+  "id": "http://linkedart.example.com/exhibition/237",
   "type": "Activity",
   "_label": "New Rugs by American Artists",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Rugs by American Artists",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Rugs by American Artists",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1942-30-6",
     "end_of_the_end": "1942-9-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1358",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2627",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1358",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2075",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11054",
-              "type": "Person",
-              "_label": "George L. K. Morris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11055",
-              "type": "Person",
-              "_label": "E. McKnight Kauffer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11056",
-              "type": "Person",
-              "_label": "Irene Rice Pereira"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11057",
-              "type": "Person",
-              "_label": "Loren MacIver"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11058",
-              "type": "Person",
-              "_label": "Dahlov Zorach Ipcar"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11059",
-              "type": "Person",
-              "_label": "Charles Howard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11060",
-              "type": "Person",
-              "_label": "Marguerite Zorach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11061",
-              "type": "Person",
-              "_label": "Albert Eugene Gallatin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11062",
-              "type": "Person",
-              "_label": "John Ferren"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11063",
-              "type": "Person",
-              "_label": "Stuart Davis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/11064",
-              "type": "Person",
-              "_label": "Arshile Gorky"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2076",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/11065",
-              "type": "Person",
-              "_label": "Alice M. Carson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2627",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2627",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4106",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3947",
+            "type": "Person",
+            "_label": "George L. K. Morris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2894",
+            "type": "Person",
+            "_label": "E. McKnight Kauffer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4369",
+            "type": "Person",
+            "_label": "Irene Rice Pereira"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3516",
+            "type": "Person",
+            "_label": "Loren MacIver"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6286",
+            "type": "Person",
+            "_label": "Dahlov Zorach Ipcar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27193",
+            "type": "Person",
+            "_label": "Charles Howard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6287",
+            "type": "Person",
+            "_label": "Marguerite Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1973",
+            "type": "Person",
+            "_label": "Albert Eugene Gallatin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1779",
+            "type": "Person",
+            "_label": "John Ferren"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1346",
+            "type": "Person",
+            "_label": "Stuart Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2161",
+            "type": "Person",
+            "_label": "Arshile Gorky"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4107",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31133",
+            "type": "Person",
+            "_label": "Alice M. Carson"
+          }
+        ]
+      }
+    ]
+  }
 }

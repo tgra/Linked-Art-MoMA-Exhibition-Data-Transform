@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23515",
+  "type": "Person",
+  "_label": "Soner Ozenc",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8420",
+      "type": "Name",
+      "_label": "Soner Ozenc"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/8421",
+      "type": "Name",
+      "_label": "Ozenc Soner"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3542",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Turkish, born 1980"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4210",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8420",
+      "type": "TimeSpan",
+      "_label": "Soner Ozenc Birth timespan",
+      "begin_of_the_begin": "1980",
+      "end_of_the_end": "1980"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4210",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8421",
+      "type": "TimeSpan",
+      "_label": "Soner Ozenc Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4210",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4210",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2543",
+              "type": "Event",
+              "_label": "Talk to Me: Design and the Communication Between People and Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-24-7 - 2011-7-11",
+                "begin_of_the_begin": "2011-24-7",
+                "end_of_the_end": "2011-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17787",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

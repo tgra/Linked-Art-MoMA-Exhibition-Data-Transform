@@ -1,77 +1,75 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/113",
+  "id": "http://linkedart.example.com/exhibition/113",
   "type": "Activity",
   "_label": "Luis Quintanilla: An Exhibition of Drawings of the War in Spain",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Luis Quintanilla: An Exhibition of Drawings of the War in Spain",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Luis Quintanilla: An Exhibition of Drawings of the War in Spain",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1938-15-3",
     "end_of_the_end": "1938-18-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/117",
-      "type": "Place",
-      "_label": "14 West 49 St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/146",
+    "type": "Place",
+    "_label": "14 West 49 St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/117",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/204",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/1725",
-              "type": "Person",
-              "_label": "Luis Quintanilla"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/205",
-          "type": "Set",
-          "_label": "Arranger",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/1726",
-              "type": "Person",
-              "_label": "Jay Allen"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/146",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/146",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/259",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4584",
+            "type": "Person",
+            "_label": "Luis Quintanilla"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/260",
+        "type": "Set",
+        "_label": "Arranger",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32215",
+            "type": "Person",
+            "_label": "Jay Allen"
+          }
+        ]
+      }
+    ]
+  }
 }

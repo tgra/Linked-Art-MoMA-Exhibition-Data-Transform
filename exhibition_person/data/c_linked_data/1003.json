@@ -1,0 +1,133 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1003",
+  "type": "Person",
+  "_label": "Bruno Ceccobelli",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14",
+      "type": "Name",
+      "_label": "Bruno Ceccobelli"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/15",
+      "type": "Name",
+      "_label": "Ceccobelli Bruno"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500103984",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3645686",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3645686",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/5",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1952"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14",
+      "type": "TimeSpan",
+      "_label": "Bruno Ceccobelli Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15",
+      "type": "TimeSpan",
+      "_label": "Bruno Ceccobelli Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1628",
+              "type": "Event",
+              "_label": "Contemporary Works from the Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-11-4 - 1986-9-10",
+                "begin_of_the_begin": "1986-11-4",
+                "end_of_the_end": "1986-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/1883",
+              "type": "Event",
+              "_label": "The Artist and the Book in Twentieth Century Italy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-13-10 - 1993-16-2",
+                "begin_of_the_begin": "1992-13-10",
+                "end_of_the_end": "1993-16-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

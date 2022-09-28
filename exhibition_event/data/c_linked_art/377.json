@@ -1,210 +1,208 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/377",
+  "id": "http://linkedart.example.com/exhibition/377",
   "type": "Activity",
   "_label": "The Museum Collection of Sculpture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Museum Collection of Sculpture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Museum Collection of Sculpture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1946-19-2",
     "end_of_the_end": "1946-5-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2612",
-      "type": "Place",
-      "_label": "2nd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4201",
+    "type": "Place",
+    "_label": "2nd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2612",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3425",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22901",
-              "type": "Person",
-              "_label": "Aristide Maillol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22902",
-              "type": "Person",
-              "_label": "Wilhelm Lehmbruck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22903",
-              "type": "Person",
-              "_label": "Reuben Nakian"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22904",
-              "type": "Person",
-              "_label": "Jacques Lipchitz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22905",
-              "type": "Person",
-              "_label": "Henry Moore"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22906",
-              "type": "Person",
-              "_label": "Gerhard Marcks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22907",
-              "type": "Person",
-              "_label": "Ben Nicholson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22908",
-              "type": "Person",
-              "_label": "Gaston Lachaise"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22909",
-              "type": "Person",
-              "_label": "Antoine Pevsner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22910",
-              "type": "Person",
-              "_label": "Hugo Robus"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22911",
-              "type": "Person",
-              "_label": "Georg Kolbe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22912",
-              "type": "Person",
-              "_label": "Henri Laurens"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22913",
-              "type": "Person",
-              "_label": "William Zorach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22914",
-              "type": "Person",
-              "_label": "Georges Vantongerloo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22915",
-              "type": "Person",
-              "_label": "Jean (Hans) Arp"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22916",
-              "type": "Person",
-              "_label": "John Bernard Flannagan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22917",
-              "type": "Person",
-              "_label": "Constantin Brancusi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22918",
-              "type": "Person",
-              "_label": "Peter Grippe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22919",
-              "type": "Person",
-              "_label": "Jacob Epstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22920",
-              "type": "Person",
-              "_label": "Naum Gabo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22921",
-              "type": "Person",
-              "_label": "Aleksandr Archipenko"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22922",
-              "type": "Person",
-              "_label": "Alexander Calder"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22923",
-              "type": "Person",
-              "_label": "Henri Gaudier-Brzeska"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22924",
-              "type": "Person",
-              "_label": "Chaim Gross"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22925",
-              "type": "Person",
-              "_label": "Alberto Giacometti"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22926",
-              "type": "Person",
-              "_label": "Raymond Duchamp-Villon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22927",
-              "type": "Person",
-              "_label": "Julio González"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22928",
-              "type": "Person",
-              "_label": "Ernst Barlach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22929",
-              "type": "Person",
-              "_label": "Ahron Ben-Shmuel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22930",
-              "type": "Person",
-              "_label": "Charles Despiau"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4201",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4201",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5784",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3545",
+            "type": "Person",
+            "_label": "Aristide Maillol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3319",
+            "type": "Person",
+            "_label": "Wilhelm Lehmbruck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4054",
+            "type": "Person",
+            "_label": "Reuben Nakian"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3413",
+            "type": "Person",
+            "_label": "Jacques Lipchitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3913",
+            "type": "Person",
+            "_label": "Henry Moore"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3603",
+            "type": "Person",
+            "_label": "Gerhard Marcks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4124",
+            "type": "Person",
+            "_label": "Ben Nicholson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3191",
+            "type": "Person",
+            "_label": "Gaston Lachaise"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4406",
+            "type": "Person",
+            "_label": "Antoine Pevsner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4773",
+            "type": "Person",
+            "_label": "Hugo Robus"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3067",
+            "type": "Person",
+            "_label": "Georg Kolbe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3265",
+            "type": "Person",
+            "_label": "Henri Laurens"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6288",
+            "type": "Person",
+            "_label": "William Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5832",
+            "type": "Person",
+            "_label": "Georges Vantongerloo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11",
+            "type": "Person",
+            "_label": "Jean (Hans) Arp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1827",
+            "type": "Person",
+            "_label": "John Bernard Flannagan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/708",
+            "type": "Person",
+            "_label": "Constantin Brancusi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2253",
+            "type": "Person",
+            "_label": "Peter Grippe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1663",
+            "type": "Person",
+            "_label": "Jacob Epstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1959",
+            "type": "Person",
+            "_label": "Naum Gabo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/194",
+            "type": "Person",
+            "_label": "Aleksandr Archipenko"
+          },
+          {
+            "id": "http://linkedart.example.com/person/887",
+            "type": "Person",
+            "_label": "Alexander Calder"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2012",
+            "type": "Person",
+            "_label": "Henri Gaudier-Brzeska"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2269",
+            "type": "Person",
+            "_label": "Chaim Gross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2054",
+            "type": "Person",
+            "_label": "Alberto Giacometti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1560",
+            "type": "Person",
+            "_label": "Raymond Duchamp-Villon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2141",
+            "type": "Person",
+            "_label": "Julio González"
+          },
+          {
+            "id": "http://linkedart.example.com/person/314",
+            "type": "Person",
+            "_label": "Ernst Barlach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/438",
+            "type": "Person",
+            "_label": "Ahron Ben-Shmuel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1440",
+            "type": "Person",
+            "_label": "Charles Despiau"
+          }
+        ]
+      }
+    ]
+  }
 }

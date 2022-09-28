@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4266",
+  "id": "http://linkedart.example.com/exhibition/4266",
   "type": "Activity",
   "_label": "Crimes of Omission",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Crimes of Omission",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Crimes of Omission",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2007-19-4",
     "end_of_the_end": "2007-4-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3143",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4732",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3143",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3996",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26400",
-              "type": "Person",
-              "_label": "Freddie Robins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26401",
-              "type": "Person",
-              "_label": "Trevor Paglen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26402",
-              "type": "Person",
-              "_label": "Donald Moffett"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26403",
-              "type": "Person",
-              "_label": "Christian Marclay"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26404",
-              "type": "Person",
-              "_label": "Susan Silton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26405",
-              "type": "Person",
-              "_label": "Taryn Simon"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26406",
-              "type": "Person",
-              "_label": "Michael Linares"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26407",
-              "type": "Person",
-              "_label": "Ken Gonzales-Day"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26408",
-              "type": "Person",
-              "_label": "Geraint Evans"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4732",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4732",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6355",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60902",
+            "type": "Person",
+            "_label": "Freddie Robins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60901",
+            "type": "Person",
+            "_label": "Trevor Paglen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7073",
+            "type": "Person",
+            "_label": "Donald Moffett"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8054",
+            "type": "Person",
+            "_label": "Christian Marclay"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60903",
+            "type": "Person",
+            "_label": "Susan Silton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24821",
+            "type": "Person",
+            "_label": "Taryn Simon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60900",
+            "type": "Person",
+            "_label": "Michael Linares"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60899",
+            "type": "Person",
+            "_label": "Ken Gonzales-Day"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60898",
+            "type": "Person",
+            "_label": "Geraint Evans"
+          }
+        ]
+      }
+    ]
+  }
 }

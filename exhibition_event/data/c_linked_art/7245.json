@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/7245",
+  "id": "http://linkedart.example.com/exhibition/7245",
   "type": "Activity",
   "_label": "Takeshi Asada, Bob Kobayashi, Nicholas Krushenick",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Takeshi Asada, Bob Kobayashi, Nicholas Krushenick",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Takeshi Asada, Bob Kobayashi, Nicholas Krushenick",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1959-13-2",
     "end_of_the_end": "1959-11-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3777",
-      "type": "Place",
-      "_label": "89 East 10th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6693",
+    "type": "Place",
+    "_label": "89 East 10th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3777",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4947",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/37768",
-              "type": "Person",
-              "_label": "Takeshi Asada"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37769",
-              "type": "Person",
-              "_label": "Nicholas Krushenick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/37770",
-              "type": "Person",
-              "_label": "Robert Kobayashi"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6693",
+    "type": "Group",
+    "_label": "Brata Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6693",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8685",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63334",
+            "type": "Person",
+            "_label": "Takeshi Asada"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3133",
+            "type": "Person",
+            "_label": "Nicholas Krushenick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3046",
+            "type": "Person",
+            "_label": "Robert Kobayashi"
+          }
+        ]
+      }
+    ]
+  }
 }

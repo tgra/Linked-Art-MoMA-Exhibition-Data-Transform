@@ -1,130 +1,128 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/30",
+  "id": "http://linkedart.example.com/exhibition/30",
   "type": "Activity",
   "_label": "Sculptors' Drawings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Sculptors' Drawings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Sculptors' Drawings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1933-27-3",
     "end_of_the_end": "1933-3-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1757",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3346",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1757",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2527",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/15868",
-              "type": "Person",
-              "_label": "Robert Laurent"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15869",
-              "type": "Person",
-              "_label": "Isamu Noguchi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15870",
-              "type": "Person",
-              "_label": "Gaston Lachaise"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15871",
-              "type": "Person",
-              "_label": "Wilhelm Lehmbruck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15872",
-              "type": "Person",
-              "_label": "Reuben Nakian"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15873",
-              "type": "Person",
-              "_label": "Aristide Maillol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15874",
-              "type": "Person",
-              "_label": "Georg Kolbe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15875",
-              "type": "Person",
-              "_label": "John Storrs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15876",
-              "type": "Person",
-              "_label": "William Zorach"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15877",
-              "type": "Person",
-              "_label": "Eric Gill"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15878",
-              "type": "Person",
-              "_label": "Henri Gaudier-Brzeska"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15879",
-              "type": "Person",
-              "_label": "Jacob Epstein"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15880",
-              "type": "Person",
-              "_label": "Charles Despiau"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15881",
-              "type": "Person",
-              "_label": "Constantin Brancusi"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3346",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3346",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4886",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3267",
+            "type": "Person",
+            "_label": "Robert Laurent"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4154",
+            "type": "Person",
+            "_label": "Isamu Noguchi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3191",
+            "type": "Person",
+            "_label": "Gaston Lachaise"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3319",
+            "type": "Person",
+            "_label": "Wilhelm Lehmbruck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4054",
+            "type": "Person",
+            "_label": "Reuben Nakian"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3545",
+            "type": "Person",
+            "_label": "Aristide Maillol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3067",
+            "type": "Person",
+            "_label": "Georg Kolbe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5460",
+            "type": "Person",
+            "_label": "John Storrs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6288",
+            "type": "Person",
+            "_label": "William Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2070",
+            "type": "Person",
+            "_label": "Eric Gill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2012",
+            "type": "Person",
+            "_label": "Henri Gaudier-Brzeska"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1663",
+            "type": "Person",
+            "_label": "Jacob Epstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1440",
+            "type": "Person",
+            "_label": "Charles Despiau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/708",
+            "type": "Person",
+            "_label": "Constantin Brancusi"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31900",
+  "type": "Person",
+  "_label": "Harry S. Fairhurst",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/21444",
+      "type": "Name",
+      "_label": "Harry S. Fairhurst"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/21445",
+      "type": "Name",
+      "_label": "Fairhurst Harry S."
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10722",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21444",
+      "type": "TimeSpan",
+      "_label": "Harry S. Fairhurst Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10722",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21445",
+      "type": "TimeSpan",
+      "_label": "Harry S. Fairhurst Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10722",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10722",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/958",
+              "type": "Event",
+              "_label": "The York House Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1968-28-2 - 1968-3-6",
+                "begin_of_the_begin": "1968-28-2",
+                "end_of_the_end": "1968-3-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/35554",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

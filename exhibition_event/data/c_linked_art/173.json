@@ -1,135 +1,133 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/173",
+  "id": "http://linkedart.example.com/exhibition/173",
   "type": "Activity",
   "_label": "New Acquisitions: A Gift of Paintings from a Trustee",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "New Acquisitions: A Gift of Paintings from a Trustee",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "New Acquisitions: A Gift of Paintings from a Trustee",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1941-6-5",
     "end_of_the_end": "1941-15-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/526",
-      "type": "Place",
-      "_label": "3rd Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1155",
+    "type": "Place",
+    "_label": "3rd Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/526",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1039",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6954",
-              "type": "Person",
-              "_label": "José Clemente Orozco"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6955",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6956",
-              "type": "Person",
-              "_label": "John Kane"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6957",
-              "type": "Person",
-              "_label": "Georges Rouault"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6958",
-              "type": "Person",
-              "_label": "Wilhelm Lehmbruck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6959",
-              "type": "Person",
-              "_label": "André Dunoyer de Segonzac"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6960",
-              "type": "Person",
-              "_label": "David Alfaro Siqueiros"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6961",
-              "type": "Person",
-              "_label": "Henri Matisse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6962",
-              "type": "Person",
-              "_label": "Maurice Utrillo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6963",
-              "type": "Person",
-              "_label": "Pierre Bonnard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6964",
-              "type": "Person",
-              "_label": "Charles Burchfield"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6965",
-              "type": "Person",
-              "_label": "Constantin Brancusi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6966",
-              "type": "Person",
-              "_label": "Louis Michel Eilshemius"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6967",
-              "type": "Person",
-              "_label": "Edward Hopper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6968",
-              "type": "Person",
-              "_label": "André Derain"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1155",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1155",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2187",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4253",
+            "type": "Person",
+            "_label": "José Clemente Orozco"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2857",
+            "type": "Person",
+            "_label": "John Kane"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4854",
+            "type": "Person",
+            "_label": "Georges Rouault"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3319",
+            "type": "Person",
+            "_label": "Wilhelm Lehmbruck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5114",
+            "type": "Person",
+            "_label": "André Dunoyer de Segonzac"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5241",
+            "type": "Person",
+            "_label": "David Alfaro Siqueiros"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3678",
+            "type": "Person",
+            "_label": "Henri Matisse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5789",
+            "type": "Person",
+            "_label": "Maurice Utrillo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/637",
+            "type": "Person",
+            "_label": "Pierre Bonnard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/837",
+            "type": "Person",
+            "_label": "Charles Burchfield"
+          },
+          {
+            "id": "http://linkedart.example.com/person/708",
+            "type": "Person",
+            "_label": "Constantin Brancusi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1625",
+            "type": "Person",
+            "_label": "Louis Michel Eilshemius"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2615",
+            "type": "Person",
+            "_label": "Edward Hopper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1431",
+            "type": "Person",
+            "_label": "André Derain"
+          }
+        ]
+      }
+    ]
+  }
 }

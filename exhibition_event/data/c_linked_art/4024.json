@@ -1,105 +1,103 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4024",
+  "id": "http://linkedart.example.com/exhibition/4024",
   "type": "Activity",
   "_label": "First Among Equals",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "First Among Equals",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "First Among Equals",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2012-14-3",
     "end_of_the_end": "2012-12-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2875",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4464",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2875",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3708",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24353",
-              "type": "Person",
-              "_label": "Marginal Utility"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24354",
-              "type": "Person",
-              "_label": "Mateo Tannatt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24355",
-              "type": "Person",
-              "_label": "Alex Da Corte"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24356",
-              "type": "Person",
-              "_label": "P&Co."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24357",
-              "type": "Person",
-              "_label": "Machete Group"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24358",
-              "type": "Person",
-              "_label": "Bodega"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24359",
-              "type": "Person",
-              "_label": "Extra Extra"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24360",
-              "type": "Person",
-              "_label": "Kathryn Andrews"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24361",
-              "type": "Person",
-              "_label": "Wu Tsang"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4464",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4464",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6067",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60964",
+            "type": "Person",
+            "_label": "Marginal Utility"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60965",
+            "type": "Person",
+            "_label": "Mateo Tannatt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60178",
+            "type": "Person",
+            "_label": "Alex Da Corte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60963",
+            "type": "Person",
+            "_label": "P&Co."
+          },
+          {
+            "id": "http://linkedart.example.com/person/60962",
+            "type": "Person",
+            "_label": "Machete Group"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60960",
+            "type": "Person",
+            "_label": "Bodega"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60961",
+            "type": "Person",
+            "_label": "Extra Extra"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60959",
+            "type": "Person",
+            "_label": "Kathryn Andrews"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34149",
+            "type": "Person",
+            "_label": "Wu Tsang"
+          }
+        ]
+      }
+    ]
+  }
 }

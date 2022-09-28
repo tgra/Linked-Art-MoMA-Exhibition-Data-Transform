@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/62601",
+  "type": "Person",
+  "_label": "Guy Overfelt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/40848",
+      "type": "Name",
+      "_label": "Guy Overfelt"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/40849",
+      "type": "Name",
+      "_label": "Overfelt Guy"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/20424",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40848",
+      "type": "TimeSpan",
+      "_label": "Guy Overfelt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/20424",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/40849",
+      "type": "TimeSpan",
+      "_label": "Guy Overfelt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/20424",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/20424",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/5041",
+              "type": "Event",
+              "_label": "White Room: Guy Overfelt",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-18-1 - 1997-23-2",
+                "begin_of_the_begin": "1997-18-1",
+                "end_of_the_end": "1997-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/70655",
+                  "type": "Place",
+                  "_label": "White Columns",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

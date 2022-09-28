@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4001",
+  "id": "http://linkedart.example.com/exhibition/4001",
   "type": "Activity",
   "_label": "Do/Tell: Erin Bernard, Heather Hart, Rachelle Mozman, and Akosua Adoma Owusu",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Do/Tell: Erin Bernard, Heather Hart, Rachelle Mozman, and Akosua Adoma Owusu",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Do/Tell: Erin Bernard, Heather Hart, Rachelle Mozman, and Akosua Adoma Owusu",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2015-22-4",
     "end_of_the_end": "2015-16-8"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2850",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4439",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2850",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3681",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/24113",
-              "type": "Person",
-              "_label": "Erin Bernard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24114",
-              "type": "Person",
-              "_label": "Heather Hart"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24115",
-              "type": "Person",
-              "_label": "Akosua Adoma Owusu"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/24116",
-              "type": "Person",
-              "_label": "Rachelle Mozman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4439",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4439",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6040",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/61059",
+            "type": "Person",
+            "_label": "Erin Bernard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61060",
+            "type": "Person",
+            "_label": "Heather Hart"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61062",
+            "type": "Person",
+            "_label": "Akosua Adoma Owusu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61061",
+            "type": "Person",
+            "_label": "Rachelle Mozman"
+          }
+        ]
+      }
+    ]
+  }
 }

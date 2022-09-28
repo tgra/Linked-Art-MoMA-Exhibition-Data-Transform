@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/13000",
+  "type": "Person",
+  "_label": "Reuters",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/808",
+      "type": "Name",
+      "_label": "Reuters"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/809",
+      "type": "Name",
+      "_label": "Reuters"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q130879",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q130879",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/404",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/808",
+      "type": "TimeSpan",
+      "_label": "Reuters Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/404",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/809",
+      "type": "TimeSpan",
+      "_label": "Reuters Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/404",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/404",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2028",
+              "type": "Event",
+              "_label": "Pictures of the Times: A Century of Photography from the New York Times",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-27-6 - 1996-8-10",
+                "begin_of_the_begin": "1996-27-6",
+                "end_of_the_end": "1996-8-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2674",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

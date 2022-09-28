@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/998",
+  "id": "http://linkedart.example.com/exhibition/998",
   "type": "Activity",
   "_label": "Painting for City Walls",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Painting for City Walls",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Painting for City Walls",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1969-17-4",
     "end_of_the_end": "1969-12-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/4158",
-      "type": "Place",
-      "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/7086",
+    "type": "Place",
+    "_label": "Philip L. Goodwin Galleries, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/4158",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5658",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44674",
-              "type": "Person",
-              "_label": "Robert Wiegand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44675",
-              "type": "Person",
-              "_label": "Tania"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44676",
-              "type": "Person",
-              "_label": "Allan D'Arcangelo"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/44677",
-              "type": "Person",
-              "_label": "Jason Crum"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5659",
-          "type": "Set",
-          "_label": "Selector",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/44678",
-              "type": "Person",
-              "_label": "Arthur Drexler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/7086",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/7086",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9417",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32093",
+            "type": "Person",
+            "_label": "Robert Wiegand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32094",
+            "type": "Person",
+            "_label": "Tania"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1286",
+            "type": "Person",
+            "_label": "Allan D'Arcangelo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1256",
+            "type": "Person",
+            "_label": "Jason Crum"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9418",
+        "type": "Set",
+        "_label": "Selector",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8274",
+            "type": "Person",
+            "_label": "Arthur Drexler"
+          }
+        ]
+      }
+    ]
+  }
 }

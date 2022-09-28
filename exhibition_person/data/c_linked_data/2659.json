@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2659",
+  "type": "Person",
+  "_label": "Frank Hurley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10490",
+      "type": "Name",
+      "_label": "Frank Hurley"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/10491",
+      "type": "Name",
+      "_label": "Hurley Frank"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500123793",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4419",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Australian, 1885–1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10490",
+      "type": "TimeSpan",
+      "_label": "Frank Hurley Birth timespan",
+      "begin_of_the_begin": "1885",
+      "end_of_the_end": "1885"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10491",
+      "type": "TimeSpan",
+      "_label": "Frank Hurley Death timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1777",
+              "type": "Event",
+              "_label": "Photography Until Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-18-2 - 1990-29-5",
+                "begin_of_the_begin": "1990-18-2",
+                "end_of_the_end": "1990-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21218",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

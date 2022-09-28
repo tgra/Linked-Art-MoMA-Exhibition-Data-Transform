@@ -1,185 +1,183 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/54736",
+  "id": "http://linkedart.example.com/exhibition/54736",
   "type": "Activity",
   "_label": "Christmas Show",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Christmas Show",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Christmas Show",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1968-20-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3445",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5558",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3445",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4381",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30697",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30698",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30699",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30700",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30701",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30702",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30703",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30704",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30705",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30706",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30707",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30708",
-              "type": "Person",
-              "_label": "Campbell Wyly"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4382",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/30709",
-              "type": "Person",
-              "_label": "Edgar Negret"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30710",
-              "type": "Person",
-              "_label": "Enrique Castro-Cid"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30711",
-              "type": "Person",
-              "_label": "Gino Severini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30712",
-              "type": "Person",
-              "_label": "James Brooks"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30713",
-              "type": "Person",
-              "_label": "Max Ernst"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30714",
-              "type": "Person",
-              "_label": "Hundertwasser (Friedrich Stowasser)"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30715",
-              "type": "Person",
-              "_label": "Nicholas Krushenick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30716",
-              "type": "Person",
-              "_label": "Joan Miró"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30717",
-              "type": "Person",
-              "_label": "Pablo Picasso"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30718",
-              "type": "Person",
-              "_label": "David Weinrib"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30719",
-              "type": "Person",
-              "_label": "Sonia Delaunay"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/30720",
-              "type": "Person",
-              "_label": "Joe Brainard"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5558",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5558",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7295",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73700",
+            "type": "Person",
+            "_label": "Campbell Wyly"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7296",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4087",
+            "type": "Person",
+            "_label": "Edgar Negret"
+          },
+          {
+            "id": "http://linkedart.example.com/person/993",
+            "type": "Person",
+            "_label": "Enrique Castro-Cid"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5154",
+            "type": "Person",
+            "_label": "Gino Severini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/766",
+            "type": "Person",
+            "_label": "James Brooks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1674",
+            "type": "Person",
+            "_label": "Max Ernst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2651",
+            "type": "Person",
+            "_label": "Hundertwasser (Friedrich Stowasser)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3133",
+            "type": "Person",
+            "_label": "Nicholas Krushenick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3859",
+            "type": "Person",
+            "_label": "Joan Miró"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4424",
+            "type": "Person",
+            "_label": "Pablo Picasso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6008",
+            "type": "Person",
+            "_label": "David Weinrib"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73416",
+            "type": "Person",
+            "_label": "Sonia Delaunay"
+          },
+          {
+            "id": "http://linkedart.example.com/person/706",
+            "type": "Person",
+            "_label": "Joe Brainard"
+          }
+        ]
+      }
+    ]
+  }
 }

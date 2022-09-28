@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3581",
+  "id": "http://linkedart.example.com/exhibition/3581",
   "type": "Activity",
   "_label": "GNY: Rotating Gallery 4",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "GNY: Rotating Gallery 4",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "GNY: Rotating Gallery 4",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2010-11-9",
     "end_of_the_end": "2010-25-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2403",
-      "type": "Place",
-      "_label": "MoMAPS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3992",
+    "type": "Place",
+    "_label": "MoMAPS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2403",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3205",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21495",
-              "type": "Person",
-              "_label": "Michael Joaquin Grey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21496",
-              "type": "Person",
-              "_label": "Ryan Sullivan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21497",
-              "type": "Person",
-              "_label": "Andrew Gbur"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3992",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3992",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5564",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7305",
+            "type": "Person",
+            "_label": "Michael Joaquin Grey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26456",
+            "type": "Person",
+            "_label": "Ryan Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60254",
+            "type": "Person",
+            "_label": "Andrew Gbur"
+          }
+        ]
+      }
+    ]
+  }
 }

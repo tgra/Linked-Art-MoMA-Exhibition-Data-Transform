@@ -1,80 +1,78 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3325",
+  "id": "http://linkedart.example.com/exhibition/3325",
   "type": "Activity",
   "_label": "International Studio Program (Spring 1978)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "International Studio Program (Spring 1978)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "International Studio Program (Spring 1978)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-16-4",
     "end_of_the_end": "1978-28-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2119",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3708",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2119",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2907",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/19263",
-              "type": "Person",
-              "_label": "Thomas Struth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19264",
-              "type": "Person",
-              "_label": "Monika Baumgartl"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19265",
-              "type": "Person",
-              "_label": "Volker Anding"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/19266",
-              "type": "Person",
-              "_label": "Ben D'Armagnac"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3708",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3708",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5266",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7446",
+            "type": "Person",
+            "_label": "Thomas Struth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57576",
+            "type": "Person",
+            "_label": "Monika Baumgartl"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57243",
+            "type": "Person",
+            "_label": "Volker Anding"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57242",
+            "type": "Person",
+            "_label": "Ben D'Armagnac"
+          }
+        ]
+      }
+    ]
+  }
 }

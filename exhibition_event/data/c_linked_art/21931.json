@@ -1,172 +1,170 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/21931",
+  "id": "http://linkedart.example.com/exhibition/21931",
   "type": "Activity",
   "_label": "Waveform: David Galbraith and Teresa Seemann",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Waveform: David Galbraith and Teresa Seemann",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Waveform: David Galbraith and Teresa Seemann",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2001-8-3",
     "end_of_the_end": "2001-29-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1247",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2340",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1247",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1884",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10149",
-              "type": "Person",
-              "_label": "Edith Mirwald"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10150",
-              "type": "Person",
-              "_label": "Malcolm Jamieson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10151",
-              "type": "Person",
-              "_label": "Guimar Arjona López"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10152",
-              "type": "Person",
-              "_label": "Wolfgang Mayer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10153",
-              "type": "Person",
-              "_label": "Vernon Chatman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10154",
-              "type": "Person",
-              "_label": "Ralph Steinbrüchel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10155",
-              "type": "Person",
-              "_label": "Michael J. Mahalchick"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10156",
-              "type": "Person",
-              "_label": "Megumi Nakai"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10157",
-              "type": "Person",
-              "_label": "Marina Rosenfeld"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10158",
-              "type": "Person",
-              "_label": "Marcos Rosales"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10159",
-              "type": "Person",
-              "_label": "David Galbraith"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10160",
-              "type": "Person",
-              "_label": "Jim Tozzi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10161",
-              "type": "Person",
-              "_label": "Teresa Seemann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10162",
-              "type": "Person",
-              "_label": "Aïda Ruilova"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10163",
-              "type": "Person",
-              "_label": "Alyson Levy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10164",
-              "type": "Person",
-              "_label": "Blain Kennedy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10165",
-              "type": "Person",
-              "_label": "Christof Kurzmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10166",
-              "type": "Person",
-              "_label": "Cristina Gómez Barrio"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10167",
-              "type": "Person",
-              "_label": "Hunter Ochs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10168",
-              "type": "Person",
-              "_label": "John Lee"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1885",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10169",
-              "type": "Person",
-              "_label": "Anne Ellegood"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2340",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2340",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3680",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64482",
+            "type": "Person",
+            "_label": "Edith Mirwald"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65728",
+            "type": "Person",
+            "_label": "Malcolm Jamieson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68272",
+            "type": "Person",
+            "_label": "Guimar Arjona López"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67175",
+            "type": "Person",
+            "_label": "Wolfgang Mayer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67084",
+            "type": "Person",
+            "_label": "Vernon Chatman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66388",
+            "type": "Person",
+            "_label": "Ralph Steinbrüchel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65948",
+            "type": "Person",
+            "_label": "Michael J. Mahalchick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65910",
+            "type": "Person",
+            "_label": "Megumi Nakai"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65797",
+            "type": "Person",
+            "_label": "Marina Rosenfeld"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65759",
+            "type": "Person",
+            "_label": "Marcos Rosales"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59038",
+            "type": "Person",
+            "_label": "David Galbraith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65162",
+            "type": "Person",
+            "_label": "Jim Tozzi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58078",
+            "type": "Person",
+            "_label": "Teresa Seemann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59315",
+            "type": "Person",
+            "_label": "Aïda Ruilova"
+          },
+          {
+            "id": "http://linkedart.example.com/person/62288",
+            "type": "Person",
+            "_label": "Alyson Levy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63973",
+            "type": "Person",
+            "_label": "Blain Kennedy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64195",
+            "type": "Person",
+            "_label": "Christof Kurzmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64264",
+            "type": "Person",
+            "_label": "Cristina Gómez Barrio"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64918",
+            "type": "Person",
+            "_label": "Hunter Ochs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18174",
+            "type": "Person",
+            "_label": "John Lee"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3681",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63786",
+            "type": "Person",
+            "_label": "Anne Ellegood"
+          }
+        ]
+      }
+    ]
+  }
 }

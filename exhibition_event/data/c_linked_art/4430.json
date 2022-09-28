@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4430",
+  "id": "http://linkedart.example.com/exhibition/4430",
   "type": "Activity",
   "_label": "Paintings by Hazelet, Jensen; Sculpture by Becker",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Paintings by Hazelet, Jensen; Sculpture by Becker",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Paintings by Hazelet, Jensen; Sculpture by Becker",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1954-11-1",
     "end_of_the_end": "1954-28-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3326",
-      "type": "Place",
-      "_label": "90 East 10th Street",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4915",
+    "type": "Place",
+    "_label": "90 East 10th Street",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3326",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4189",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/27492",
-              "type": "Person",
-              "_label": "Sally Hazelet Drummond"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27493",
-              "type": "Person",
-              "_label": "Alfred Jensen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/27494",
-              "type": "Person",
-              "_label": "Robert Becker"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4915",
+    "type": "Group",
+    "_label": "Tanager Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4915",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6548",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1550",
+            "type": "Person",
+            "_label": "Sally Hazelet Drummond"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2784",
+            "type": "Person",
+            "_label": "Alfred Jensen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60623",
+            "type": "Person",
+            "_label": "Robert Becker"
+          }
+        ]
+      }
+    ]
+  }
 }

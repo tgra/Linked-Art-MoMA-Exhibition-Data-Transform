@@ -1,95 +1,93 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3769",
+  "id": "http://linkedart.example.com/exhibition/3769",
   "type": "Activity",
   "_label": "Material Matters",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Material Matters",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Material Matters",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-28-5",
     "end_of_the_end": "1980-21-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2611",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4200",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2611",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3424",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22894",
-              "type": "Person",
-              "_label": "Mia Westerlund"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22895",
-              "type": "Person",
-              "_label": "Jonathan Thomas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22896",
-              "type": "Person",
-              "_label": "Bobbie Oliver"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22897",
-              "type": "Person",
-              "_label": "David Craven"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22898",
-              "type": "Person",
-              "_label": "Thomas Bang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22899",
-              "type": "Person",
-              "_label": "John Duff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22900",
-              "type": "Person",
-              "_label": "Gordon Moore"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4200",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4200",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5783",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/56642",
+            "type": "Person",
+            "_label": "Mia Westerlund"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56641",
+            "type": "Person",
+            "_label": "Jonathan Thomas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56640",
+            "type": "Person",
+            "_label": "Bobbie Oliver"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56638",
+            "type": "Person",
+            "_label": "David Craven"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56637",
+            "type": "Person",
+            "_label": "Thomas Bang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1567",
+            "type": "Person",
+            "_label": "John Duff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56639",
+            "type": "Person",
+            "_label": "Gordon Moore"
+          }
+        ]
+      }
+    ]
+  }
 }

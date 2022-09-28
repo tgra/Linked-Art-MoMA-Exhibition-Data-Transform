@@ -1,0 +1,117 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26978",
+  "type": "Person",
+  "_label": "John Golding",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10866",
+      "type": "Name",
+      "_label": "John Golding"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/10867",
+      "type": "Name",
+      "_label": "Golding John"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500030340",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q16019396",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q16019396",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5433",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10866",
+      "type": "TimeSpan",
+      "_label": "John Golding Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5433",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10867",
+      "type": "TimeSpan",
+      "_label": "John Golding Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5433",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5433",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1590",
+              "type": "Event",
+              "_label": "The Drawings of Henri Matisse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-28-2 - 1985-14-5",
+                "begin_of_the_begin": "1985-28-2",
+                "end_of_the_end": "1985-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22300",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2241",
+              "type": "Event",
+              "_label": "Matisse Picasso",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-13-2 - 2003-19-5",
+                "begin_of_the_begin": "2003-13-2",
+                "end_of_the_end": "2003-19-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22301",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

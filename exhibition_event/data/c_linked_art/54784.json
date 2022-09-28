@@ -1,173 +1,171 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/54784",
+  "id": "http://linkedart.example.com/exhibition/54784",
   "type": "Activity",
   "_label": "[Penthouse Exhibition]",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "[Penthouse Exhibition]",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "[Penthouse Exhibition]",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1961-10-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3483",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5603",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3483",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4450",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/31762",
-              "type": "Person",
-              "_label": "Maynard  Sandol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31763",
-              "type": "Person",
-              "_label": "Bob Thompson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31764",
-              "type": "Person",
-              "_label": "Igael Tumarkin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31765",
-              "type": "Person",
-              "_label": "Renzo Vespignani"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31766",
-              "type": "Person",
-              "_label": "James Kearns"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31767",
-              "type": "Person",
-              "_label": "Heinrich Kuehn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31768",
-              "type": "Person",
-              "_label": "Robert  Klippel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31769",
-              "type": "Person",
-              "_label": "George  Wardlaw"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31770",
-              "type": "Person",
-              "_label": "Ben Shahn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31771",
-              "type": "Person",
-              "_label": "Richard  Ahr"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31772",
-              "type": "Person",
-              "_label": "Charles Demuth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31773",
-              "type": "Person",
-              "_label": "William Scott"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31774",
-              "type": "Person",
-              "_label": "Norman Carton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31775",
-              "type": "Person",
-              "_label": "Isabel Bishop"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31776",
-              "type": "Person",
-              "_label": "Mel Bochner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31777",
-              "type": "Person",
-              "_label": "Leonardo Cremonini"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31778",
-              "type": "Person",
-              "_label": "Marsden Hartley"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31779",
-              "type": "Person",
-              "_label": "Barbara Hepworth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31780",
-              "type": "Person",
-              "_label": "Richard Hunt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31781",
-              "type": "Person",
-              "_label": "Paul Jenkins"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31782",
-              "type": "Person",
-              "_label": "Henry Koerner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31783",
-              "type": "Person",
-              "_label": "Conrad Marca-Relli"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/31784",
-              "type": "Person",
-              "_label": "Georges Braque"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5603",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5603",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7371",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/73683",
+            "type": "Person",
+            "_label": "Maynard  Sandol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5630",
+            "type": "Person",
+            "_label": "Bob Thompson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5736",
+            "type": "Person",
+            "_label": "Igael Tumarkin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5868",
+            "type": "Person",
+            "_label": "Renzo Vespignani"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7117",
+            "type": "Person",
+            "_label": "James Kearns"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73438",
+            "type": "Person",
+            "_label": "Heinrich Kuehn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73655",
+            "type": "Person",
+            "_label": "Robert  Klippel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73693",
+            "type": "Person",
+            "_label": "George  Wardlaw"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5159",
+            "type": "Person",
+            "_label": "Ben Shahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/73602",
+            "type": "Person",
+            "_label": "Richard  Ahr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1422",
+            "type": "Person",
+            "_label": "Charles Demuth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5100",
+            "type": "Person",
+            "_label": "William Scott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/69794",
+            "type": "Person",
+            "_label": "Norman Carton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/543",
+            "type": "Person",
+            "_label": "Isabel Bishop"
+          },
+          {
+            "id": "http://linkedart.example.com/person/597",
+            "type": "Person",
+            "_label": "Mel Bochner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1241",
+            "type": "Person",
+            "_label": "Leonardo Cremonini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2420",
+            "type": "Person",
+            "_label": "Marsden Hartley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2496",
+            "type": "Person",
+            "_label": "Barbara Hepworth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2654",
+            "type": "Person",
+            "_label": "Richard Hunt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2780",
+            "type": "Person",
+            "_label": "Paul Jenkins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3056",
+            "type": "Person",
+            "_label": "Henry Koerner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3596",
+            "type": "Person",
+            "_label": "Conrad Marca-Relli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/714",
+            "type": "Person",
+            "_label": "Georges Braque"
+          }
+        ]
+      }
+    ]
+  }
 }

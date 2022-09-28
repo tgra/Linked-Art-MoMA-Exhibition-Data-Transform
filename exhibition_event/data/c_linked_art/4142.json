@@ -1,125 +1,123 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4142",
+  "id": "http://linkedart.example.com/exhibition/4142",
   "type": "Activity",
   "_label": "Street Sights",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Street Sights",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Street Sights",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-1-5",
     "end_of_the_end": "1980-18-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3006",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4595",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3006",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3846",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25052",
-              "type": "Person",
-              "_label": "Ira Joel Haber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25053",
-              "type": "Person",
-              "_label": "Pat Oleszko"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25054",
-              "type": "Person",
-              "_label": "Suzan Pitt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25055",
-              "type": "Person",
-              "_label": "Ray K. Metzker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25056",
-              "type": "Person",
-              "_label": "William G. Larson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25057",
-              "type": "Person",
-              "_label": "Robert Kushner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25058",
-              "type": "Person",
-              "_label": "Michael Kostiuk"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25059",
-              "type": "Person",
-              "_label": "Colette, Paris"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25060",
-              "type": "Person",
-              "_label": "Eleanor Hubbard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25061",
-              "type": "Person",
-              "_label": "Becky Young"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25062",
-              "type": "Person",
-              "_label": "Tina Girouard"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25063",
-              "type": "Person",
-              "_label": "Ron Walker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25064",
-              "type": "Person",
-              "_label": "Julie Jensen"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4595",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4595",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6205",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32245",
+            "type": "Person",
+            "_label": "Ira Joel Haber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33141",
+            "type": "Person",
+            "_label": "Pat Oleszko"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60667",
+            "type": "Person",
+            "_label": "Suzan Pitt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3791",
+            "type": "Person",
+            "_label": "Ray K. Metzker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3249",
+            "type": "Person",
+            "_label": "William G. Larson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3176",
+            "type": "Person",
+            "_label": "Robert Kushner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60592",
+            "type": "Person",
+            "_label": "Michael Kostiuk"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16394",
+            "type": "Person",
+            "_label": "Colette, Paris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60584",
+            "type": "Person",
+            "_label": "Eleanor Hubbard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60669",
+            "type": "Person",
+            "_label": "Becky Young"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32429",
+            "type": "Person",
+            "_label": "Tina Girouard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60668",
+            "type": "Person",
+            "_label": "Ron Walker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60666",
+            "type": "Person",
+            "_label": "Julie Jensen"
+          }
+        ]
+      }
+    ]
+  }
 }

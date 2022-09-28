@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/30844",
+  "type": "Person",
+  "_label": "Ralph Alberto",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/19168",
+      "type": "Name",
+      "_label": "Ralph Alberto"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/19169",
+      "type": "Name",
+      "_label": "Alberto Ralph"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9584",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19168",
+      "type": "TimeSpan",
+      "_label": "Ralph Alberto Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9584",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19169",
+      "type": "TimeSpan",
+      "_label": "Ralph Alberto Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9584",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9584",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/731",
+              "type": "Event",
+              "_label": "The Sense of Abstraction",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-17-2 - 1960-10-4",
+                "begin_of_the_begin": "1960-17-2",
+                "end_of_the_end": "1960-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/33392",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

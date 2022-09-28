@@ -1,115 +1,113 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3009",
+  "id": "http://linkedart.example.com/exhibition/3009",
   "type": "Activity",
   "_label": "Film (Winter 1986): Landscape Films",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film (Winter 1986): Landscape Films",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film (Winter 1986): Landscape Films",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-22-2",
     "end_of_the_end": "1986-22-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1768",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3357",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1768",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2540",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/15910",
-              "type": "Person",
-              "_label": "Robert Huot"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15911",
-              "type": "Person",
-              "_label": "Ken Kobland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15912",
-              "type": "Person",
-              "_label": "Michael Snow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15913",
-              "type": "Person",
-              "_label": "James Benning"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15914",
-              "type": "Person",
-              "_label": "Jeff Preiss"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15915",
-              "type": "Person",
-              "_label": "Ken Jacobs"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15916",
-              "type": "Person",
-              "_label": "Stan Brakhage"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15917",
-              "type": "Person",
-              "_label": "J.J. Murphy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15918",
-              "type": "Person",
-              "_label": "Lynn Klosky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15919",
-              "type": "Person",
-              "_label": "Larry Gottheim"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/15920",
-              "type": "Person",
-              "_label": "David Rimmer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3357",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3357",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4899",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2657",
+            "type": "Person",
+            "_label": "Robert Huot"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21024",
+            "type": "Person",
+            "_label": "Ken Kobland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5286",
+            "type": "Person",
+            "_label": "Michael Snow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25675",
+            "type": "Person",
+            "_label": "James Benning"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22759",
+            "type": "Person",
+            "_label": "Jeff Preiss"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19496",
+            "type": "Person",
+            "_label": "Ken Jacobs"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16681",
+            "type": "Person",
+            "_label": "Stan Brakhage"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57724",
+            "type": "Person",
+            "_label": "J.J. Murphy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57723",
+            "type": "Person",
+            "_label": "Lynn Klosky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57725",
+            "type": "Person",
+            "_label": "Larry Gottheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57722",
+            "type": "Person",
+            "_label": "David Rimmer"
+          }
+        ]
+      }
+    ]
+  }
 }

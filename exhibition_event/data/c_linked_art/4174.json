@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4174",
+  "id": "http://linkedart.example.com/exhibition/4174",
   "type": "Activity",
   "_label": "Six Visions",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Six Visions",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Six Visions",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1973-10-10",
     "end_of_the_end": "1973-25-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3041",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4630",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3041",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3884",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/25524",
-              "type": "Person",
-              "_label": "Richard Nonas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25525",
-              "type": "Person",
-              "_label": "Ann McCoy"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25526",
-              "type": "Person",
-              "_label": "Ronald Cohen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25527",
-              "type": "Person",
-              "_label": "Katherine Porter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25528",
-              "type": "Person",
-              "_label": "Pat Steir"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/25529",
-              "type": "Person",
-              "_label": "Douglas Sanderson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4630",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4630",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6243",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4160",
+            "type": "Person",
+            "_label": "Richard Nonas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3721",
+            "type": "Person",
+            "_label": "Ann McCoy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60581",
+            "type": "Person",
+            "_label": "Ronald Cohen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4514",
+            "type": "Person",
+            "_label": "Katherine Porter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5416",
+            "type": "Person",
+            "_label": "Pat Steir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60582",
+            "type": "Person",
+            "_label": "Douglas Sanderson"
+          }
+        ]
+      }
+    ]
+  }
 }

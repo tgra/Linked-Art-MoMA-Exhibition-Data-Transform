@@ -1,75 +1,73 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4345",
+  "id": "http://linkedart.example.com/exhibition/4345",
   "type": "Activity",
   "_label": "Miroslaw Balka, Robert Gober, and Seamus Heaney: Three Stanzas",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Miroslaw Balka, Robert Gober, and Seamus Heaney: Three Stanzas",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Miroslaw Balka, Robert Gober, and Seamus Heaney: Three Stanzas",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1999-16-1",
     "end_of_the_end": "1999-7-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3231",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4820",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3231",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4088",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26760",
-              "type": "Person",
-              "_label": "Seamus Heaney"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26761",
-              "type": "Person",
-              "_label": "Robert Gober"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26762",
-              "type": "Person",
-              "_label": "Miroslaw Balka"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4820",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4820",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6447",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/60802",
+            "type": "Person",
+            "_label": "Seamus Heaney"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2110",
+            "type": "Person",
+            "_label": "Robert Gober"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7954",
+            "type": "Person",
+            "_label": "Miroslaw Balka"
+          }
+        ]
+      }
+    ]
+  }
 }

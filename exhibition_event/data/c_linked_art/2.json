@@ -1,155 +1,153 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/2",
+  "id": "http://linkedart.example.com/exhibition/2",
   "type": "Activity",
   "_label": "Paintings by 19 Living Americans",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Paintings by 19 Living Americans",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Paintings by 19 Living Americans",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1929-12-12",
     "end_of_the_end": "1930-12-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1129",
-      "type": "Place",
-      "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2028",
+    "type": "Place",
+    "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1129",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1652",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/9087",
-              "type": "Person",
-              "_label": "Jules Pascin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9088",
-              "type": "Person",
-              "_label": "Yasuo Kuniyoshi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9089",
-              "type": "Person",
-              "_label": "Georgia O'Keeffe"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9090",
-              "type": "Person",
-              "_label": "John Sloan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9091",
-              "type": "Person",
-              "_label": "Eugene Speicher"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9092",
-              "type": "Person",
-              "_label": "John Marin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9093",
-              "type": "Person",
-              "_label": "Rockwell Kent"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9094",
-              "type": "Person",
-              "_label": "Bernard Karfiol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9095",
-              "type": "Person",
-              "_label": "Kenneth Hayes Miller"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9096",
-              "type": "Person",
-              "_label": "Walt Kuhn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9097",
-              "type": "Person",
-              "_label": "Maurice Sterne"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9098",
-              "type": "Person",
-              "_label": "Max Weber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9099",
-              "type": "Person",
-              "_label": "Ernest Lawson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9100",
-              "type": "Person",
-              "_label": "Charles Burchfield"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9101",
-              "type": "Person",
-              "_label": "Edward Hopper"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9102",
-              "type": "Person",
-              "_label": "Lyonel Feininger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9103",
-              "type": "Person",
-              "_label": "George Overbury (\"Pop\") Hart"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9104",
-              "type": "Person",
-              "_label": "Charles Demuth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/9105",
-              "type": "Person",
-              "_label": "Preston Dickinson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2028",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2028",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3198",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4331",
+            "type": "Person",
+            "_label": "Jules Pascin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3157",
+            "type": "Person",
+            "_label": "Yasuo Kuniyoshi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4188",
+            "type": "Person",
+            "_label": "Georgia O'Keeffe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5258",
+            "type": "Person",
+            "_label": "John Sloan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5342",
+            "type": "Person",
+            "_label": "Eugene Speicher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3617",
+            "type": "Person",
+            "_label": "John Marin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2937",
+            "type": "Person",
+            "_label": "Rockwell Kent"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2876",
+            "type": "Person",
+            "_label": "Bernard Karfiol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3828",
+            "type": "Person",
+            "_label": "Kenneth Hayes Miller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3150",
+            "type": "Person",
+            "_label": "Walt Kuhn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5433",
+            "type": "Person",
+            "_label": "Maurice Sterne"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5994",
+            "type": "Person",
+            "_label": "Max Weber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27507",
+            "type": "Person",
+            "_label": "Ernest Lawson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/837",
+            "type": "Person",
+            "_label": "Charles Burchfield"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2615",
+            "type": "Person",
+            "_label": "Edward Hopper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1751",
+            "type": "Person",
+            "_label": "Lyonel Feininger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2418",
+            "type": "Person",
+            "_label": "George Overbury (\"Pop\") Hart"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1422",
+            "type": "Person",
+            "_label": "Charles Demuth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1466",
+            "type": "Person",
+            "_label": "Preston Dickinson"
+          }
+        ]
+      }
+    ]
+  }
 }

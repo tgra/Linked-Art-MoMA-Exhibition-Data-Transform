@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/68910",
+  "type": "Person",
+  "_label": "PARA-project",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/46846",
+      "type": "Name",
+      "_label": "PARA-project"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/46847",
+      "type": "Name",
+      "_label": "PARA-project"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23423",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46846",
+      "type": "TimeSpan",
+      "_label": "PARA-project Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23423",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/46847",
+      "type": "TimeSpan",
+      "_label": "PARA-project Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23423",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23423",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2449",
+              "type": "Event",
+              "_label": "Young Architects Program 2009 (MoMA): Exhibition of Designs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-26-6 - 2009-14-9",
+                "begin_of_the_begin": "2009-26-6",
+                "end_of_the_end": "2009-14-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/76842",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

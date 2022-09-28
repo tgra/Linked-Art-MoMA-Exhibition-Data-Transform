@@ -1,92 +1,90 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/668",
+  "id": "http://linkedart.example.com/exhibition/668",
   "type": "Activity",
   "_label": "Diogenes with a Camera IV",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Diogenes with a Camera IV",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Diogenes with a Camera IV",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1956-4-4",
     "end_of_the_end": "1956-3-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3639",
-      "type": "Place",
-      "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6176",
+    "type": "Place",
+    "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3639",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4736",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35688",
-              "type": "Person",
-              "_label": "Gustav Schenk"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35689",
-              "type": "Person",
-              "_label": "Shirley C. Burden"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35690",
-              "type": "Person",
-              "_label": "Marie-Jean Beraud-Villars"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/35691",
-              "type": "Person",
-              "_label": "William A. Garnett"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4737",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/35692",
-              "type": "Person",
-              "_label": "Edward Steichen"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6176",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6176",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/8074",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5009",
+            "type": "Person",
+            "_label": "Gustav Schenk"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12669",
+            "type": "Person",
+            "_label": "Shirley C. Burden"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30688",
+            "type": "Person",
+            "_label": "Marie-Jean Beraud-Villars"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2001",
+            "type": "Person",
+            "_label": "William A. Garnett"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/8075",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5402",
+            "type": "Person",
+            "_label": "Edward Steichen"
+          }
+        ]
+      }
+    ]
+  }
 }

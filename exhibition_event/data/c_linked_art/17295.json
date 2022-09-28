@@ -1,122 +1,120 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17295",
+  "id": "http://linkedart.example.com/exhibition/17295",
   "type": "Activity",
   "_label": "The Invented Landscape",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Invented Landscape",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Invented Landscape",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1979-17-2",
     "end_of_the_end": "1979-14-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/521",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1150",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/521",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1027",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6912",
-              "type": "Person",
-              "_label": "Christopher English"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1028",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6913",
-              "type": "Person",
-              "_label": "Michael Siede"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6914",
-              "type": "Person",
-              "_label": "Victor Landweber"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6915",
-              "type": "Person",
-              "_label": "Tricia Sample"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6916",
-              "type": "Person",
-              "_label": "Peter De Lory"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6917",
-              "type": "Person",
-              "_label": "David Maclay"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6918",
-              "type": "Person",
-              "_label": "Bonnie Donohue"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6919",
-              "type": "Person",
-              "_label": "Martha Madigan"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6920",
-              "type": "Person",
-              "_label": "Carl Toth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6921",
-              "type": "Person",
-              "_label": "Richard Ross"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6922",
-              "type": "Person",
-              "_label": "Gwen Widmer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1150",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1150",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2175",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64197",
+            "type": "Person",
+            "_label": "Christopher English"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2176",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65962",
+            "type": "Person",
+            "_label": "Michael Siede"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67090",
+            "type": "Person",
+            "_label": "Victor Landweber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67033",
+            "type": "Person",
+            "_label": "Tricia Sample"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66312",
+            "type": "Person",
+            "_label": "Peter De Lory"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64361",
+            "type": "Person",
+            "_label": "David Maclay"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63990",
+            "type": "Person",
+            "_label": "Bonnie Donohue"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60678",
+            "type": "Person",
+            "_label": "Martha Madigan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5680",
+            "type": "Person",
+            "_label": "Carl Toth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59688",
+            "type": "Person",
+            "_label": "Richard Ross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64810",
+            "type": "Person",
+            "_label": "Gwen Widmer"
+          }
+        ]
+      }
+    ]
+  }
 }

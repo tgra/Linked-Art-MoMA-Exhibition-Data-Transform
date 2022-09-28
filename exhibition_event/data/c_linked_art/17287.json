@@ -1,96 +1,94 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17287",
+  "id": "http://linkedart.example.com/exhibition/17287",
   "type": "Activity",
   "_label": "Gundersen Clark: Dagar Λne",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Gundersen Clark: Dagar Λne",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Gundersen Clark: Dagar Λne",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1979-18-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/513",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1141",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/513",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1011",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6829",
-              "type": "Person",
-              "_label": "Robert A. Clark"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6830",
-              "type": "Person",
-              "_label": "Bruce Gundersen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6831",
-              "type": "Person",
-              "_label": "Gundersen Clark"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1012",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6832",
-              "type": "Person",
-              "_label": "Allan Schwartzman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6833",
-              "type": "Person",
-              "_label": "Kathleen Thomas"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6834",
-              "type": "Person",
-              "_label": "Susan Logan"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1141",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1141",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2157",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66494",
+            "type": "Person",
+            "_label": "Robert A. Clark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64031",
+            "type": "Person",
+            "_label": "Bruce Gundersen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64803",
+            "type": "Person",
+            "_label": "Gundersen Clark"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2158",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/47407",
+            "type": "Person",
+            "_label": "Allan Schwartzman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65403",
+            "type": "Person",
+            "_label": "Kathleen Thomas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66836",
+            "type": "Person",
+            "_label": "Susan Logan"
+          }
+        ]
+      }
+    ]
+  }
 }

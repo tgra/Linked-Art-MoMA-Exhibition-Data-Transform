@@ -1,110 +1,108 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3557",
+  "id": "http://linkedart.example.com/exhibition/3557",
   "type": "Activity",
   "_label": "Time Frame",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Time Frame",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Time Frame",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2006-25-6",
     "end_of_the_end": "2006-2-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2376",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3965",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2376",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3177",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21301",
-              "type": "Person",
-              "_label": "Cory Arcangel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21302",
-              "type": "Person",
-              "_label": "Paul Pfeiffer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21303",
-              "type": "Person",
-              "_label": "Hiroshi Sugimoto"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21304",
-              "type": "Person",
-              "_label": "Thiago Rocha Pitta"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21305",
-              "type": "Person",
-              "_label": "John Pilson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21306",
-              "type": "Person",
-              "_label": "Nancy Holt"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21307",
-              "type": "Person",
-              "_label": "Andy Warhol"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21308",
-              "type": "Person",
-              "_label": "Robert Smithson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21309",
-              "type": "Person",
-              "_label": "Felix Gonzalez-Torres"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21310",
-              "type": "Person",
-              "_label": "Roni Horn"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3965",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3965",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5536",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/19226",
+            "type": "Person",
+            "_label": "Cory Arcangel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16628",
+            "type": "Person",
+            "_label": "Paul Pfeiffer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5500",
+            "type": "Person",
+            "_label": "Hiroshi Sugimoto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18712",
+            "type": "Person",
+            "_label": "Thiago Rocha Pitta"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16662",
+            "type": "Person",
+            "_label": "John Pilson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12625",
+            "type": "Person",
+            "_label": "Nancy Holt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5966",
+            "type": "Person",
+            "_label": "Andy Warhol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5283",
+            "type": "Person",
+            "_label": "Robert Smithson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2143",
+            "type": "Person",
+            "_label": "Felix Gonzalez-Torres"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7137",
+            "type": "Person",
+            "_label": "Roni Horn"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,84 +1,82 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/18467",
+  "id": "http://linkedart.example.com/exhibition/18467",
   "type": "Activity",
   "_label": "Painter's Dream",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Painter's Dream",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Painter's Dream",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-8-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/873",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1619",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/873",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1390",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/8253",
-              "type": "Person",
-              "_label": "Paul Langland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8254",
-              "type": "Person",
-              "_label": "David Warrilow"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8255",
-              "type": "Person",
-              "_label": "Mary Overlie"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8256",
-              "type": "Person",
-              "_label": "Nina Martin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/8257",
-              "type": "Person",
-              "_label": "Wendell Beavers"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1619",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1619",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2719",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67452",
+            "type": "Person",
+            "_label": "Paul Langland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67597",
+            "type": "Person",
+            "_label": "David Warrilow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57990",
+            "type": "Person",
+            "_label": "Mary Overlie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57778",
+            "type": "Person",
+            "_label": "Nina Martin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67701",
+            "type": "Person",
+            "_label": "Wendell Beavers"
+          }
+        ]
+      }
+    ]
+  }
 }

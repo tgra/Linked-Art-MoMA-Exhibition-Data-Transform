@@ -1,90 +1,88 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3050",
+  "id": "http://linkedart.example.com/exhibition/3050",
   "type": "Activity",
   "_label": "Film (Spring 1984)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Film (Spring 1984)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Film (Spring 1984)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1984-5-5",
     "end_of_the_end": "1984-20-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1814",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3403",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1814",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2590",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/16318",
-              "type": "Person",
-              "_label": "Peter Greenaway"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16319",
-              "type": "Person",
-              "_label": "Abigail Child"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16320",
-              "type": "Person",
-              "_label": "James Benning"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16321",
-              "type": "Person",
-              "_label": "Kurt Kren"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16322",
-              "type": "Person",
-              "_label": "Robert Anderson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/16323",
-              "type": "Person",
-              "_label": "Henry Hills"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3403",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3403",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4949",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/33030",
+            "type": "Person",
+            "_label": "Peter Greenaway"
+          },
+          {
+            "id": "http://linkedart.example.com/person/19424",
+            "type": "Person",
+            "_label": "Abigail Child"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25675",
+            "type": "Person",
+            "_label": "James Benning"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26728",
+            "type": "Person",
+            "_label": "Kurt Kren"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58540",
+            "type": "Person",
+            "_label": "Robert Anderson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57677",
+            "type": "Person",
+            "_label": "Henry Hills"
+          }
+        ]
+      }
+    ]
+  }
 }

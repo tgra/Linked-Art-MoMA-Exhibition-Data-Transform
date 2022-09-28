@@ -1,0 +1,107 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1005",
+  "type": "Person",
+  "_label": "Stojan Celic",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/26",
+      "type": "Name",
+      "_label": "Stojan Celic"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/27",
+      "type": "Name",
+      "_label": "Celic Stojan"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500003969",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q13582476",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q13582476",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/10",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Nationality unknown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26",
+      "type": "TimeSpan",
+      "_label": "Stojan Celic Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27",
+      "type": "TimeSpan",
+      "_label": "Stojan Celic Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1016",
+              "type": "Event",
+              "_label": "Yugoslavia: A Report",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-29-9 - 1969-30-11",
+                "begin_of_the_begin": "1969-29-9",
+                "end_of_the_end": "1969-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/48",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,87 +1,85 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/363",
+  "id": "http://linkedart.example.com/exhibition/363",
   "type": "Activity",
   "_label": "Elements of Design",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Elements of Design",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Elements of Design",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1945-23-10",
     "end_of_the_end": "1945-15-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2457",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4046",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2457",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3261",
-          "type": "Set",
-          "_label": "Assistant Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21750",
-              "type": "Person",
-              "_label": "Alice Otis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21751",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/21752",
-              "type": "Person",
-              "_label": "Elodie Courter"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/3262",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/21753",
-              "type": "Person",
-              "_label": "Robert Jay Wolff"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4046",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4046",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5620",
+        "type": "Set",
+        "_label": "Assistant Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23957",
+            "type": "Person",
+            "_label": "Alice Otis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23956",
+            "type": "Person",
+            "_label": "Elodie Courter"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5621",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23955",
+            "type": "Person",
+            "_label": "Robert Jay Wolff"
+          }
+        ]
+      }
+    ]
+  }
 }

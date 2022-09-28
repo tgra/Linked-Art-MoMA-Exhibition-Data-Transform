@@ -1,107 +1,105 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/22003",
+  "id": "http://linkedart.example.com/exhibition/22003",
   "type": "Activity",
   "_label": "Connie Hatch, Jessica Diamond, Group Material",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Connie Hatch, Jessica Diamond, Group Material",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Connie Hatch, Jessica Diamond, Group Material",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1986-12-4",
     "end_of_the_end": "1986-12-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1307",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2407",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1307",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1995",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10543",
-              "type": "Person",
-              "_label": "Doug Ashford"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10544",
-              "type": "Person",
-              "_label": "Connie Hatch"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10545",
-              "type": "Person",
-              "_label": "Mundy McLaughlin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10546",
-              "type": "Person",
-              "_label": "Group Material"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10547",
-              "type": "Person",
-              "_label": "Julie Ault"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10548",
-              "type": "Person",
-              "_label": "Tim Rollins and K.O.S."
-            },
-            {
-              "id": "https://linkedart.example.com/Person/10549",
-              "type": "Person",
-              "_label": "Jessica Diamond"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1996",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/10550",
-              "type": "Person",
-              "_label": "William Olander"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2407",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2407",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3804",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64452",
+            "type": "Person",
+            "_label": "Doug Ashford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61916",
+            "type": "Person",
+            "_label": "Connie Hatch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58515",
+            "type": "Person",
+            "_label": "Mundy McLaughlin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7307",
+            "type": "Person",
+            "_label": "Group Material"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58142",
+            "type": "Person",
+            "_label": "Julie Ault"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66969",
+            "type": "Person",
+            "_label": "Tim Rollins and K.O.S."
+          },
+          {
+            "id": "http://linkedart.example.com/person/16486",
+            "type": "Person",
+            "_label": "Jessica Diamond"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3805",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/62588",
+            "type": "Person",
+            "_label": "William Olander"
+          }
+        ]
+      }
+    ]
+  }
 }

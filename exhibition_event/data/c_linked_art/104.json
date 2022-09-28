@@ -1,100 +1,98 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/104",
+  "id": "http://linkedart.example.com/exhibition/104",
   "type": "Activity",
   "_label": "Spanish and U.S. Government Posters",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Spanish and U.S. Government Posters",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Spanish and U.S. Government Posters",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1937-15-11",
     "end_of_the_end": "1937-26-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/46",
-      "type": "Place",
-      "_label": "Concourse Level, 14 West 49 St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/46",
+    "type": "Place",
+    "_label": "Concourse Level, 14 West 49 St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/46",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/81",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/593",
-              "type": "Person",
-              "_label": "Jesús Lozano"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/594",
-              "type": "Person",
-              "_label": "Oliver"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/595",
-              "type": "Person",
-              "_label": "Melendreras"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/596",
-              "type": "Person",
-              "_label": "Subiuate"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/597",
-              "type": "Person",
-              "_label": "Mauricio Amster"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/598",
-              "type": "Person",
-              "_label": "Cañavate"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/599",
-              "type": "Person",
-              "_label": "Lester Beall"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/600",
-              "type": "Person",
-              "_label": "Antonio Bisquert"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/46",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/46",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/81",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3462",
+            "type": "Person",
+            "_label": "Jesús Lozano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4228",
+            "type": "Person",
+            "_label": "Oliver"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3759",
+            "type": "Person",
+            "_label": "Melendreras"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31071",
+            "type": "Person",
+            "_label": "Subiuate"
+          },
+          {
+            "id": "http://linkedart.example.com/person/142",
+            "type": "Person",
+            "_label": "Mauricio Amster"
+          },
+          {
+            "id": "http://linkedart.example.com/person/910",
+            "type": "Person",
+            "_label": "Cañavate"
+          },
+          {
+            "id": "http://linkedart.example.com/person/386",
+            "type": "Person",
+            "_label": "Lester Beall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/547",
+            "type": "Person",
+            "_label": "Antonio Bisquert"
+          }
+        ]
+      }
+    ]
+  }
 }

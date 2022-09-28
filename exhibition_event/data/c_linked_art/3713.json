@@ -1,85 +1,83 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/3713",
+  "id": "http://linkedart.example.com/exhibition/3713",
   "type": "Activity",
   "_label": "The Pop Project, Part I: This is Tomorrow, Today: The Independent Group and British Pop Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Pop Project, Part I: This is Tomorrow, Today: The Independent Group and British Pop Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Pop Project, Part I: This is Tomorrow, Today: The Independent Group and British Pop Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1987-22-10",
     "end_of_the_end": "1987-27-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2550",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4139",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2550",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3361",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/22308",
-              "type": "Person",
-              "_label": "Richard Hamilton"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22309",
-              "type": "Person",
-              "_label": "Nigel Henderson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22310",
-              "type": "Person",
-              "_label": "Eduardo Paolozzi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22311",
-              "type": "Person",
-              "_label": "Alison Smithson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/22312",
-              "type": "Person",
-              "_label": "Peter Smithson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4139",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4139",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5720",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2382",
+            "type": "Person",
+            "_label": "Richard Hamilton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24342",
+            "type": "Person",
+            "_label": "Nigel Henderson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4307",
+            "type": "Person",
+            "_label": "Eduardo Paolozzi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23644",
+            "type": "Person",
+            "_label": "Alison Smithson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/23643",
+            "type": "Person",
+            "_label": "Peter Smithson"
+          }
+        ]
+      }
+    ]
+  }
 }

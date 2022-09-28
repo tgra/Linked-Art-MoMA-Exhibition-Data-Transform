@@ -1,84 +1,82 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/4286",
+  "id": "http://linkedart.example.com/exhibition/4286",
   "type": "Activity",
   "_label": "Springtide",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Springtide",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Springtide",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2005-30-4",
     "end_of_the_end": "2005-31-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3165",
-      "type": "Place",
-      "_label": "ICA Philadelphia",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4754",
+    "type": "Place",
+    "_label": "ICA Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3165",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4019",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/26500",
-              "type": "Person"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26501",
-              "type": "Person",
-              "_label": "Patty Chang"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26502",
-              "type": "Person",
-              "_label": "Erick Swenson"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26503",
-              "type": "Person",
-              "_label": "Louise Bourgeois"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/26504",
-              "type": "Person",
-              "_label": "Berlinde De Bruyckere"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4754",
+    "type": "Group",
+    "_label": "Institute of Contemporary Art, Philadelphia",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4754",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6378",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/",
+            "type": "Person"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21335",
+            "type": "Person",
+            "_label": "Patty Chang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60870",
+            "type": "Person",
+            "_label": "Erick Swenson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/680",
+            "type": "Person",
+            "_label": "Louise Bourgeois"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17624",
+            "type": "Person",
+            "_label": "Berlinde De Bruyckere"
+          }
+        ]
+      }
+    ]
+  }
 }

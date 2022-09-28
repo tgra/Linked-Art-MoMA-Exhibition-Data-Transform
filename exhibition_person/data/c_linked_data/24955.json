@@ -1,0 +1,108 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24955",
+  "type": "Person",
+  "_label": "Teeterbabe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9604",
+      "type": "Name",
+      "_label": "Teeterbabe"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/9605",
+      "type": "Name",
+      "_label": "Teeterbabe"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4038",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "St. Louis (est. 1980)"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4802",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9604",
+      "type": "TimeSpan",
+      "_label": "Teeterbabe Birth timespan",
+      "begin_of_the_begin": "1980",
+      "end_of_the_end": "1980"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4802",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9605",
+      "type": "TimeSpan",
+      "_label": "Teeterbabe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4802",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4802",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2586",
+              "type": "Event",
+              "_label": "Century of the Child: Growing by Design, 1900–2000",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-29-7 - 2012-5-11",
+                "begin_of_the_begin": "2012-29-7",
+                "end_of_the_end": "2012-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19495",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

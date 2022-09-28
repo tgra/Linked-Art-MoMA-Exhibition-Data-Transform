@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27146",
+  "type": "Person",
+  "_label": "Bob Shamis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11214",
+      "type": "Name",
+      "_label": "Bob Shamis"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/11215",
+      "type": "Name",
+      "_label": "Shamis Bob"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5607",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11214",
+      "type": "TimeSpan",
+      "_label": "Bob Shamis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5607",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11215",
+      "type": "TimeSpan",
+      "_label": "Bob Shamis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5607",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5607",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1996",
+              "type": "Event",
+              "_label": "Leon Levinstein",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-20-7 - 1995-10-10",
+                "begin_of_the_begin": "1995-20-7",
+                "end_of_the_end": "1995-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23996",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

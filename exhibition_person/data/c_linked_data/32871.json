@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32871",
+  "type": "Person",
+  "_label": "Estela Bravo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/23530",
+      "type": "Name",
+      "_label": "Estela Bravo"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/23531",
+      "type": "Name",
+      "_label": "Bravo Estela"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11765",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23530",
+      "type": "TimeSpan",
+      "_label": "Estela Bravo Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11765",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23531",
+      "type": "TimeSpan",
+      "_label": "Estela Bravo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11765",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11765",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1535",
+              "type": "Event",
+              "_label": "Recent Documentaries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-3 - 1983-12-4",
+                "begin_of_the_begin": "1983-11-3",
+                "end_of_the_end": "1983-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/37668",
+                  "type": "Place",
+                  "_label": "Video Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

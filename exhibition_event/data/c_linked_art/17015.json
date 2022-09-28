@@ -1,102 +1,100 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17015",
+  "id": "http://linkedart.example.com/exhibition/17015",
   "type": "Activity",
   "_label": "Museum as Hub: Walking Drifting Dragging",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Museum as Hub: Walking Drifting Dragging",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Museum as Hub: Walking Drifting Dragging",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2013-9-1",
     "end_of_the_end": "2013-3-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/239",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/840",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/239",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/437",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4009",
-              "type": "Person",
-              "_label": "Eunji Cho"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4010",
-              "type": "Person",
-              "_label": "Sonal Jain"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4011",
-              "type": "Person",
-              "_label": "Ellie Ga"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4012",
-              "type": "Person",
-              "_label": "Desire Machine Collective"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4013",
-              "type": "Person",
-              "_label": "Paulo Nazareth"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/4014",
-              "type": "Person",
-              "_label": "Mriganka Madhukaillya"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/438",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/4015",
-              "type": "Person",
-              "_label": "Lauren Cornell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/840",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/840",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1536",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64594",
+            "type": "Person",
+            "_label": "Eunji Cho"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66748",
+            "type": "Person",
+            "_label": "Sonal Jain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64524",
+            "type": "Person",
+            "_label": "Ellie Ga"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64403",
+            "type": "Person",
+            "_label": "Desire Machine Collective"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66295",
+            "type": "Person",
+            "_label": "Paulo Nazareth"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66077",
+            "type": "Person",
+            "_label": "Mriganka Madhukaillya"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1537",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65567",
+            "type": "Person",
+            "_label": "Lauren Cornell"
+          }
+        ]
+      }
+    ]
+  }
 }

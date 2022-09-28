@@ -1,0 +1,111 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24683",
+  "type": "Person",
+  "_label": "Théodore Labrouste",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9364",
+      "type": "Name",
+      "_label": "Théodore Labrouste"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/9365",
+      "type": "Name",
+      "_label": "Labrouste Théodore"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500096341",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/Q3526446",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q3526446",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3946",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1799–1885"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4682",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9364",
+      "type": "TimeSpan",
+      "_label": "Théodore Labrouste Birth timespan",
+      "begin_of_the_begin": "1799",
+      "end_of_the_end": "1799"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4682",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9365",
+      "type": "TimeSpan",
+      "_label": "Théodore Labrouste Death timespan",
+      "begin_of_the_begin": "1885",
+      "end_of_the_end": "1885"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4682",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4682",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/1256",
+              "type": "Event",
+              "_label": "The Architecture of the École des Beaux-Arts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-29-10 - 1976-4-1",
+                "begin_of_the_begin": "1975-29-10",
+                "end_of_the_end": "1976-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19120",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

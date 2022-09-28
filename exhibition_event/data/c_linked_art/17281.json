@@ -1,122 +1,120 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/17281",
+  "id": "http://linkedart.example.com/exhibition/17281",
   "type": "Activity",
   "_label": "Outside New York: The State of Ohio",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Outside New York: The State of Ohio",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Outside New York: The State of Ohio",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1980-26-4",
     "end_of_the_end": "1980-26-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/507",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1135",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/507",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1002",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6802",
-              "type": "Person",
-              "_label": "Donald Harvey"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6803",
-              "type": "Person",
-              "_label": "Allan L. Jones"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6804",
-              "type": "Person",
-              "_label": "Sandy Rosen"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6805",
-              "type": "Person",
-              "_label": "Janis Lipzin"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6806",
-              "type": "Person",
-              "_label": "Larry Shineman"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6807",
-              "type": "Person",
-              "_label": "Kenneth Nevadomi"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6808",
-              "type": "Person",
-              "_label": "Ginna Brand"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6809",
-              "type": "Person",
-              "_label": "Peter Huttinger"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6810",
-              "type": "Person",
-              "_label": "Robert D. Kohn"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/6811",
-              "type": "Person",
-              "_label": "Chris Steele"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1003",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/6812",
-              "type": "Person",
-              "_label": "Allan Schwartzman"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1135",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1135",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2148",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/57125",
+            "type": "Person",
+            "_label": "Donald Harvey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63673",
+            "type": "Person",
+            "_label": "Allan L. Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66623",
+            "type": "Person",
+            "_label": "Sandy Rosen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59604",
+            "type": "Person",
+            "_label": "Janis Lipzin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65549",
+            "type": "Person",
+            "_label": "Larry Shineman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65447",
+            "type": "Person",
+            "_label": "Kenneth Nevadomi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64755",
+            "type": "Person",
+            "_label": "Ginna Brand"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59488",
+            "type": "Person",
+            "_label": "Peter Huttinger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30539",
+            "type": "Person",
+            "_label": "Robert D. Kohn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64174",
+            "type": "Person",
+            "_label": "Chris Steele"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/2149",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/47407",
+            "type": "Person",
+            "_label": "Allan Schwartzman"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,93 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/69123",
+  "type": "Person",
+  "_label": "Tom Lea",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/47004",
+      "type": "Name",
+      "_label": "Tom Lea"
+    },
+    {
+      "id": "https://linkedart.example.com/Name/47005",
+      "type": "Name",
+      "_label": "Lea Tom"
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/",
+      "type": "Identifier",
+      "_label": "ULAN Identifier"
+    },
+    {
+      "id": "https://viaf.org/viaf/",
+      "type": "Identifier",
+      "_label": "VIAF Identifier"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/",
+      "type": "Identifier",
+      "_label": "Wikidata Identifier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/23502",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47004",
+      "type": "TimeSpan",
+      "_label": "Tom Lea Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/23502",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/47005",
+      "type": "TimeSpan",
+      "_label": "Tom Lea Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/23502",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/23502",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/6327",
+              "type": "Event",
+              "_label": "1939 Annual Exhibition of Contemporary American Sculpture, Drawings and Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-24-1 - 1939-17-2",
+                "begin_of_the_begin": "1939-24-1",
+                "end_of_the_end": "1939-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/77026",
+                  "type": "Place",
+                  "_label": "10 West 8th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,207 +1,205 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linkedart.example.com/exhibition/831",
+  "id": "http://linkedart.example.com/exhibition/831",
   "type": "Activity",
   "_label": "The Photographic Poster",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Photographic Poster",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Photographic Poster",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1964-7-9",
     "end_of_the_end": "1964-30-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3986",
-      "type": "Place",
-      "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/6902",
+    "type": "Place",
+    "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3986",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/5336",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/41521",
-              "type": "Person",
-              "_label": "Herbert Matter"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41522",
-              "type": "Person",
-              "_label": "Herman Landshoff"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41523",
-              "type": "Person",
-              "_label": "Richard Paul Lohse"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41524",
-              "type": "Person",
-              "_label": "El Lissitzky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41525",
-              "type": "Person",
-              "_label": "Gustav Klutsis"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41526",
-              "type": "Person",
-              "_label": "Marciej Hibner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41527",
-              "type": "Person",
-              "_label": "Wolf Vostell"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41528",
-              "type": "Person",
-              "_label": "Harry Suchland"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41529",
-              "type": "Person",
-              "_label": "Jan Tschichold"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41530",
-              "type": "Person",
-              "_label": "Walter Osborne"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41531",
-              "type": "Person",
-              "_label": "Otto Treumann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41532",
-              "type": "Person",
-              "_label": "Jan Versnel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41533",
-              "type": "Person",
-              "_label": "U.S. Naval Photographic Service"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41534",
-              "type": "Person",
-              "_label": "Alfred Hablützel"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41535",
-              "type": "Person",
-              "_label": "Pieter Brattinga"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41536",
-              "type": "Person",
-              "_label": "George Einbeck"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41537",
-              "type": "Person",
-              "_label": "Carl Baker"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41538",
-              "type": "Person",
-              "_label": "Herbert Bayer"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41539",
-              "type": "Person",
-              "_label": "Armin Hofmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41540",
-              "type": "Person",
-              "_label": "Max Burchartz"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41541",
-              "type": "Person",
-              "_label": "Karl Gerstner"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41542",
-              "type": "Person",
-              "_label": "Franz Fassler"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41543",
-              "type": "Person",
-              "_label": "Peter Hajnoczky"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41544",
-              "type": "Person",
-              "_label": "Ralph Ammirati"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41545",
-              "type": "Person",
-              "_label": "Robert Gage"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41546",
-              "type": "Person",
-              "_label": "Michael Engelmann"
-            },
-            {
-              "id": "https://linkedart.example.com/Person/41547",
-              "type": "Person",
-              "_label": "Lucien Clergue"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/5337",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "https://linkedart.example.com/Person/41548",
-              "type": "Person",
-              "_label": "Mildred Constantine"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/6902",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/6902",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/9074",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3689",
+            "type": "Person",
+            "_label": "Herbert Matter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3222",
+            "type": "Person",
+            "_label": "Herman Landshoff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3437",
+            "type": "Person",
+            "_label": "Richard Paul Lohse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3419",
+            "type": "Person",
+            "_label": "El Lissitzky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10257",
+            "type": "Person",
+            "_label": "Gustav Klutsis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20909",
+            "type": "Person",
+            "_label": "Marciej Hibner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5914",
+            "type": "Person",
+            "_label": "Wolf Vostell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5493",
+            "type": "Person",
+            "_label": "Harry Suchland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5719",
+            "type": "Person",
+            "_label": "Jan Tschichold"
+          },
+          {
+            "id": "http://linkedart.example.com/person/15192",
+            "type": "Person",
+            "_label": "Walter Osborne"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5699",
+            "type": "Person",
+            "_label": "Otto Treumann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31394",
+            "type": "Person",
+            "_label": "Jan Versnel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30522",
+            "type": "Person",
+            "_label": "U.S. Naval Photographic Service"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31397",
+            "type": "Person",
+            "_label": "Alfred Hablützel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/717",
+            "type": "Person",
+            "_label": "Pieter Brattinga"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1626",
+            "type": "Person",
+            "_label": "George Einbeck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/276",
+            "type": "Person",
+            "_label": "Carl Baker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/376",
+            "type": "Person",
+            "_label": "Herbert Bayer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2587",
+            "type": "Person",
+            "_label": "Armin Hofmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/836",
+            "type": "Person",
+            "_label": "Max Burchartz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2050",
+            "type": "Person",
+            "_label": "Karl Gerstner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1728",
+            "type": "Person",
+            "_label": "Franz Fassler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2361",
+            "type": "Person",
+            "_label": "Peter Hajnoczky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/140",
+            "type": "Person",
+            "_label": "Ralph Ammirati"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1964",
+            "type": "Person",
+            "_label": "Robert Gage"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1654",
+            "type": "Person",
+            "_label": "Michael Engelmann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1097",
+            "type": "Person",
+            "_label": "Lucien Clergue"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/9075",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/26936",
+            "type": "Person",
+            "_label": "Mildred Constantine"
+          }
+        ]
+      }
+    ]
+  }
 }
